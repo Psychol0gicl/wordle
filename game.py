@@ -13,7 +13,8 @@ class Game:
         probabilities = self.weights / total_weight
         self.secret_word = np.random.choice(self.all_words, p=probabilities)
         self.secret_word = "SOARE"
-        self.secret_word = "ADULT"
+        self.secret_word = "TANIA" # Causes errors, because yellow feedback is not working well.
+        self.secret_word = self.secret_word.upper()
         print(self.weight_function(self.secret_word))
         self.game_is_over = False
         self.guess_history = []
@@ -87,11 +88,16 @@ class Game:
                 for j in range(5):
                     if word[i] == self.secret_word[j] and word[j] != self.secret_word[j]:
                         amount_of_yellow += 1
-                print(amount_of_yellow)
-                while amount_of_yellow > 0:
+                # print(f"amount_of_yellow: {amount_of_yellow}")
+                
+                in_loop = False
+                for j in range(amount_of_yellow):
+                    in_loop = True
+                    
+                    # print(YELLOW_SQUARE, end="")
                     feedback += YELLOW_SQUARE 
                     amount_of_yellow -= 1
-                if amount_of_yellow == 0:
+                if amount_of_yellow == 0 and in_loop == False:
                     # print(GREY_SQUARE, end="")
                     feedback += GREY_SQUARE
 
@@ -189,8 +195,8 @@ class WordleBot:
             return True
 
         self.candidates = [word for word in self.candidates if valid(word)]
-        print("SOARE" in self.candidates)
-        print(len(self.candidates))
+        # print("SOARE" in self.candidates)
+        # print(len(self.candidates))
 
 
     def receive_feedback(self, feedback):
