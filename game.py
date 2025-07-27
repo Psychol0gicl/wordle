@@ -1,11 +1,18 @@
 import sys
-from collections import Counter
+from multiprocessing import Pool, cpu_count
+import os
+import time
+from collections import Counter, defaultdict
+import math
 from statistics import mean, median, mode, stdev
+
 import numpy as np
 GREEN_SQUARE = "\U0001F7E9"
 YELLOW_SQUARE = "\U0001F7E8"
 GREY_SQUARE = "\u2B1C"
 
+RESULT_FOLDER = "results"
+os.makedirs(RESULT_FOLDER, exist_ok=True)
 class Game:
     def __init__(self):
         self.common_words = self.load_words("wordle-answers-alphabetical.txt")
@@ -162,20 +169,64 @@ class Game:
         self.check_letters_secret_word()
 
         
-    def test_bot(self, word_list, file_name = None):
+    # def test_bot(self, word_list,bot_class, file_name = None):
+    #     print(f"Testing bot: {bot_class.__name__}")
+
+    #     results = {"W": 0, "L": 0}
+    #     if file_name:
+    #         sys.stdout = open(file_name, 'w', encoding='utf-8')
+
+
+    #     for word in word_list:
+    #         bot = bot_class(self, self.all_words, self.common_words)
+    #         print(f"Testing word: {word} ")
+    #         self.reset_game(word)
+    #         self.game_loop_bot(bot)
+    #         results[word] = self.get_guess_count()
+    #         results[self.game_result] += 1
+    #     print("Testing bot class: " + bot_class.__name__ + " complete.")
+    #     return results
+    
+
+    def test_bot(self, word_list, bot_class, file_name=None):
         results = {"W": 0, "L": 0}
+        total_start = time.time()  # Start total timer
+
+        # os.makedirs(str(bot_class.__name__), exist_ok=True)
+        folder_path = f"{RESULT_FOLDER}/{str(bot_class.__name__)}"
+        os.makedirs(folder_path, exist_ok=True)  # creates folder_path and parents if not exist
+
         if file_name:
-            sys.stdout = open(file_name, 'w', encoding='utf-8')
+            sys.stdout = open(f"{folder_path}/{file_name}", 'w', encoding='utf-8')
+
+        print(f"Testing bot: {bot_class.__name__}")
+
 
 
         for word in word_list:
-            bot = WordleBot(self, self.all_words, self.common_words)
-            print(f"Testing word: {word} ")
+            word_start = time.time()  # Start per-word timer
+
+            bot = bot_class(self, self.all_words, self.common_words)
+            print(f"Testing word: {word}")
             self.reset_game(word)
             self.game_loop_bot(bot)
-            results[word] = self.get_guess_count()
+
+            word_time = time.time() - word_start
+            print(f"Time taken for '{word}': {word_time:.4f} seconds")
+
+            results[word] = {
+                "guesses": self.get_guess_count(),
+                "time": word_time
+            }
             results[self.game_result] += 1
-        return results
+
+        total_time = time.time() - total_start
+        print(f"\nTotal time for {len(word_list)} words: {total_time:.2f} seconds")
+        print("Testing bot class: " + bot_class.__name__ + " complete.")
+        sys.stdout = open(f"{folder_path}/results_only.txt", 'w', encoding='utf-8')
+        analyze_guess_data(results)
+
+        # return results
 
 
 
@@ -262,58 +313,217 @@ class WordleBot:
 
     def receive_feedback(self, feedback):
         self.filter_candidates(self.guess_history[-1], feedback)
+
+
+
+
+class EntropyWordleBot(WordleBot):  
+    def get_feedback(self, guess_word, secret_word):
+        temp_letters_secret_word = {}
+        for c in secret_word:
+            temp_letters_secret_word[c] = temp_letters_secret_word.get(c, 0) + 1
+
+        feedback = [f"{GREY_SQUARE}"] * 5
+
+        # First pass: Green
+        for i in range(5):
+            if guess_word[i] == secret_word[i]:
+                feedback[i] = GREEN_SQUARE
+                temp_letters_secret_word[guess_word[i]] -= 1
+
+        # Second pass: Yellow
+        for i in range(5):
+            if feedback[i] == GREEN_SQUARE:
+                continue
+            if guess_word[i] in temp_letters_secret_word and temp_letters_secret_word[guess_word[i]] > 0:
+                feedback[i] = YELLOW_SQUARE
+                temp_letters_secret_word[guess_word[i]] -= 1
+
+        return ''.join(feedback)
+
+    def compute_entropy(self, guess):
+        feedback_counts = {}
+        total = len(self.candidates)
+        # print(f"Total words: {total}")
+
+        for word in self.candidates:
+            feedback = self.get_feedback(guess, word)
+            feedback_counts[feedback] = feedback_counts.get(feedback, 0) + 1
+
+        entropy = 0.0
+        
+        for count in feedback_counts.values():
+            probability = count / total
+            entropy -= probability * math.log2(probability)
+
+        return entropy
+
+    def choose_guess(self):
+
+        print("The bot is making a guess...")
+        if game.get_guess_count() == 0:
+            # print(f"Candidates after choosing: {len(self.candidates)}")
+            print("First guess by a human: SPEAR")
+            return "SPEAR"
+        best_word = ""
+        best_entropy = -1
+        
+        for word in self.candidates:
+            entropy = self.compute_entropy(word)
+            if entropy > best_entropy:
+                best_word = word
+                best_entropy = entropy
+        print(f"Bot chose: {best_word} with entropy: {best_entropy:.4f}")
+        return best_word        
+
+
+
     
 
 
 
+# def analyze_guess_data(guess_data):
+#     print("")
+#     print("-"*50)
+#     print("")
+#     print("-"*50)
+#     print("")
+#     print("-"*50)
+#     print("RESULTS:")
+#     if not guess_data:
+#         print("No data to analyze.")
+
+#         return
+
+#     guess_counts = list(guess_data.values())
+
+#     # Basic statistics
+#     avg = mean(guess_counts)
+#     med = median(guess_counts)
+#     try:
+#         mod = mode(guess_counts)
+#     except:
+#         mod = "No unique mode"
+#     minimum = min(guess_counts)
+#     maximum = max(guess_counts)
+#     stddev = stdev(guess_counts) if len(guess_counts) > 1 else 0
+
+#     print(f"Total words: {len(guess_data)}")
+#     print(f"Mean guesses: {avg:.2f}")
+#     print(f"Median guesses: {med}")
+#     print(f"Mode guesses: {mod}")
+#     print(f"Min guesses: {minimum}")
+#     print(f"Max guesses: {maximum}")
+#     print(f"Standard deviation: {stddev:.2f}")
+#     print(f"Games won: {guess_data['W']}")
+#     print(f"Win percentage: {guess_data['W']/len(guess_data)*100:.2f}%")
+#     print(f"Games lost: {guess_data['L']}")
+
+#     # Optional: histogram of frequencies
+#     freq = Counter(guess_counts)
+#     print("\nGuess count frequencies:")
+#     for guess_num in sorted(freq):
+#         print(f"{guess_num} guesses: {freq[guess_num]} word(s)")
+
 def analyze_guess_data(guess_data):
-    print("")
-    print("-"*50)
-    print("")
-    print("-"*50)
-    print("")
-    print("-"*50)
+    print("\n" + "-"*50 + "\n" + "-"*50 + "\n" + "-"*50)
     print("RESULTS:")
+
     if not guess_data:
         print("No data to analyze.")
-
         return
 
-    guess_counts = list(guess_data.values())
+    # Extract valid entries, skip "W" and "L"
+    guess_entries = [
+        data for word, data in guess_data.items()
+        if word not in ("W", "L") and isinstance(data, dict)
+    ]
 
-    # Basic statistics
-    avg = mean(guess_counts)
-    med = median(guess_counts)
+    if not guess_entries:
+        print("No valid guess data to analyze.")
+        return
+
+    guess_counts = [entry["guesses"] for entry in guess_entries]
+    time_taken = [entry["time"] for entry in guess_entries]
+
+    # Guess statistics
+    avg_guesses = mean(guess_counts)
+    med_guesses = median(guess_counts)
     try:
-        mod = mode(guess_counts)
+        mod_guesses = mode(guess_counts)
     except:
-        mod = "No unique mode"
-    minimum = min(guess_counts)
-    maximum = max(guess_counts)
-    stddev = stdev(guess_counts) if len(guess_counts) > 1 else 0
+        mod_guesses = "No unique mode"
+    min_guesses = min(guess_counts)
+    max_guesses = max(guess_counts)
+    stddev_guesses = stdev(guess_counts) if len(guess_counts) > 1 else 0
 
-    print(f"Total words: {len(guess_data)}")
-    print(f"Mean guesses: {avg:.2f}")
-    print(f"Median guesses: {med}")
-    print(f"Mode guesses: {mod}")
-    print(f"Min guesses: {minimum}")
-    print(f"Max guesses: {maximum}")
-    print(f"Standard deviation: {stddev:.2f}")
-    print(f"Games won: {guess_data['W']}")
-    print(f"Win percentage: {guess_data['W']/len(guess_data)*100:.2f}%")
-    print(f"Games lost: {guess_data['L']}")
+    # Time statistics
+    avg_time = mean(time_taken)
+    med_time = median(time_taken)
+    try:
+        mod_time = mode(time_taken)
+    except:
+        mod_time = "No unique mode"
+    min_time = min(time_taken)
+    max_time = max(time_taken)
+    stddev_time = stdev(time_taken) if len(time_taken) > 1 else 0
+    total_time = sum(time_taken)
 
-    # Optional: histogram of frequencies
+    # Win/loss
+    wins = guess_data.get("W", 0)
+    losses = guess_data.get("L", 0)
+    total_words = len(guess_counts)
+
+    # Output
+    print(f"Total words: {total_words}")
+    print(f"Games won: {wins}")
+    print(f"Win percentage: {wins / total_words * 100:.2f}%")
+    print(f"Games lost: {losses}")
+
+    print("\nGuess Statistics:")
+    print(f"Mean guesses: {avg_guesses:.2f}")
+    print(f"Median guesses: {med_guesses}")
+    print(f"Mode guesses: {mod_guesses}")
+    print(f"Min guesses: {min_guesses}")
+    print(f"Max guesses: {max_guesses}")
+    # print(f"Standard deviation: {stddev_guesses:.2f}")
+
     freq = Counter(guess_counts)
     print("\nGuess count frequencies:")
     for guess_num in sorted(freq):
         print(f"{guess_num} guesses: {freq[guess_num]} word(s)")
 
-bot = WordleBot(game, game.all_words, game.common_words)
-# print(bot.choose_guess())
+    print("\nTime Statistics (seconds):")
+    print(f"Total time: {total_time:.2f} seconds")
+    if total_time > 60:
+        print(f"Total time: {total_time/60:.2f} minutes")
+    print(f"Mean time: {avg_time:.2f} seconds per guess")
+    print(f"Median time: {med_time:.2f} seconds per guess")
+    print(f"Mode time: {mod_time} seconds per guess")
+    print(f"Min time: {min_time:.2f}")
+    print(f"Max time: {max_time:.2f}")
 
+    print("\n" + "-"*50 + "\n" + "-"*50 + "\n" + "-"*50)
+    # print(f"Standard deviation: {stddev_time:.2f}")
+
+    # Optional: histogram of frequencies
+
+
+
+bot = WordleBot(game, game.all_words, game.common_words)
 # game.game_loop_bot(bot)
-results = game.test_bot(game.all_words, "most_basic_bot_all_words.txt")
-analyze_guess_data(results)
-results = game.test_bot(game.common_words, "most_basic_bot_common_words.txt")
-analyze_guess_data(results)
+# results = game.test_bot(game.all_words,WordleBot, "most_basic_bot_all_words.txt")
+# analyze_guess_data(results)
+results = game.test_bot(game.common_words, WordleBot, "most_basic_bot_common_words.txt")
+
+
+
+
+
+EntropyBot = EntropyWordleBot(game, game.all_words, game.common_words)
+# print(EntropyBot.choose_guess())
+# game.game_loop_bot(EntropyBot)
+
+# results = game.test_bot(game.all_words,EntropyBot, "entropy_bot_all_words.txt")
+# analyze_guess_data(results)
+results = game.test_bot(game.common_words, EntropyWordleBot, "entropy_bot_common_words.txt")
