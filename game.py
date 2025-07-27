@@ -12,9 +12,12 @@ class Game:
         total_weight = self.weights.sum()
         probabilities = self.weights / total_weight
         self.secret_word = np.random.choice(self.all_words, p=probabilities)
+        # self.secret_word = "VAUNT"
         # self.secret_word = "SOARE"
+        # self.secret_word = "WRICK" # good for checking choosing words in the common word list
         # self.secret_word = "TANIA" # Causes errors, because yellow feedback is not working well.
         self.secret_word = self.secret_word.upper()
+        print(f"SHHH! Secret word for debugging: {self.secret_word}")
         self.check_letters_secret_word()
         print(self.weight_function(self.secret_word))
         self.game_is_over = False
@@ -33,6 +36,9 @@ class Game:
         if len(self.guess_history) == 6:
             self.game_is_over = True
         return self.game_is_over
+    
+    def get_guess_count(self):
+        return len(self.guess_history)
 
     def check_letters_secret_word(self):
         self.secret_word_letters = {}
@@ -53,70 +59,6 @@ class Game:
 
 
 
-    # def guess(self,word):
-    #     word = word.upper()
-    #     if len(word) != 5:
-    #         print("Word must be 5 letters long.")
-    #         return 0
-    #     if word not in self.all_words:
-    #         print("Word not in word list.")
-    #         return 0
-        
-    #     for i in range(5):
-    #         if word[i] == self.secret_word[i]:
-    #             print(GREEN_SQUARE, end="")
-    #         elif word[i] in self.secret_word:
-    #             print(YELLOW_SQUARE, end="")
-    #         else:
-    #             print(GREY_SQUARE, end="")
-    #     print("")
-    #     if word == self.secret_word:
-    #         return -1
-    #     return 1
-
-    # def guess(self,word):
-    #     word = word.upper()
-    #     if len(word) != 5:
-    #         print("Word must be 5 letters long.")
-    #         return
-    #     if word not in self.all_words:
-    #         print("Word not in word list.")
-    #         return
-    #     feedback = ""
-    #     self.guess_history.append(word)
-    #     if word == self.secret_word:
-    #         self.game_is_over = True
-    #     self.check_game_over()
-        
-    #     for i in range(5):
-    #         if word[i] == self.secret_word[i]:
-    #             # print(GREEN_SQUARE, end="")
-    #             feedback += GREEN_SQUARE 
-    #         elif word[i] in self.secret_word:   
-    #             # print(YELLOW_SQUARE, end="")
-    #             amount_of_yellow = 0
-    #             for j in range(5):
-    #                 if word[i] == self.secret_word[j] and word[j] != self.secret_word[j]:
-    #                     amount_of_yellow += 1
-    #             # print(f"amount_of_yellow: {amount_of_yellow}")
-                
-    #             in_loop = False
-    #             for j in range(amount_of_yellow):
-    #                 in_loop = True
-                    
-    #                 # print(YELLOW_SQUARE, end="")
-    #                 feedback += YELLOW_SQUARE 
-    #                 amount_of_yellow -= 1
-    #             if amount_of_yellow == 0 and in_loop == False:
-    #                 # print(GREY_SQUARE, end="")
-    #                 feedback += GREY_SQUARE
-
-    #         else:
-    #             # print(GREY_SQUARE, end="")
-    #             feedback += GREY_SQUARE
-    #     return feedback
-
-    # np.random.shuffle(all_words)
 
 
 
@@ -143,25 +85,77 @@ class Game:
                 feedback += YELLOW_SQUARE
             else: 
                 feedback += GREY_SQUARE
-        # print(f"yellow_square_dict: {guess_yellow_square_dict}")
-        # print(f"dict secret word: {self.secret_word_letters}")
-        for i in range(5):
-            if word[i] == self.secret_word[i]: #pokud matchuje pismenko, prebarvi na zeleno
-                feedback = feedback[:i] + GREEN_SQUARE + feedback[i+1:]
-                guess_yellow_square_dict[word[i]] = guess_yellow_square_dict[word[i]] - 1
-                temp_letters_secret_word[word[i]] = temp_letters_secret_word[word[i]] - 1
-            elif word[i] in self.secret_word: # pokud je pismenko ve slove (je zluty)
-                if temp_letters_secret_word[word[i]] > 0: # pokud muzes nechat zluty, nech zluty (mam zluty na rozdavani)
-                    temp_letters_secret_word[word[i]] = temp_letters_secret_word[word[i]] - 1
-                else: # uz nemuzu davat zluty
-                    feedback = feedback[:i] + GREY_SQUARE + feedback[i+1:]
 
 
-        # print(f"dict secret word: {self.secret_word_letters}")
-        # print(f"yellow_square_dict: {guess_yellow_square_dict}")
-            
+    def guess(self, guess_word):
+        guess_word = guess_word.upper()
+        if len(guess_word) != 5:
+            print("Word must be 5 letters long.")
+            return
+        if guess_word not in self.all_words:
+            print("Word not in word list.")
+            return
+        feedback = ""
+        self.guess_history.append(guess_word)
+        if guess_word == self.secret_word:
+            self.game_is_over = True
+        self.check_game_over()
+
+        temp_letters_word = {}
+        for c in guess_word:
+            temp_letters_word[c] = temp_letters_word.get(c, 0) + 1
         
-        return feedback
+
+        temp_letters_secret_word  =self.secret_word_letters.copy()
+        print(f"Letters guess word: {temp_letters_word}")
+        print(f"Letters secret word: {temp_letters_secret_word}")
+        # feedback = f"{GREY_SQUARE*5}" 
+        feedback = ['⬜'] * 5
+        # for i in range(5):
+        #     if guess_word[i] in self.secret_word:
+        #         for j in range(i, 5):
+        #             if guess_word[i] == self.secret_word[j] and temp_letters_secret_word[guess_word[j]] > 0:
+        #                 feedback = feedback[:j] + GREEN_SQUARE   + feedback[j+1:]
+        #                 temp_letters_secret_word [guess_word[j]] = temp_letters_secret_word[guess_word[j]] - 1
+        #         if temp_letters_secret_word[guess_word[i]] > 0:
+        #             feedback = feedback[:i] + YELLOW_SQUARE   + feedback[i+1:]
+        #             temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
+
+        # for i in range(5):
+        #     if guess_word[i] == self.secret_word[i]:
+        #         feedback = feedback[:i] + GREEN_SQUARE   + feedback[i+1:]
+        #         temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
+        #     elif guess_word[i] in self.secret_word and temp_letters_secret_word[guess_word[i]] > 0:
+        #         feedback = feedback[:i] + YELLOW_SQUARE   + feedback[i+1:]
+        #         temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
+        for i in range(5):
+            if guess_word[i] == self.secret_word[i]:
+                feedback[i] = GREEN_SQUARE
+                temp_letters_secret_word[guess_word[i]] -= 1
+
+        # Second pass: Handle YELLOW_SQUARE
+        for i in range(5):
+            if feedback[i] == GREEN_SQUARE:
+                continue
+            if guess_word[i] in temp_letters_secret_word and temp_letters_secret_word[guess_word[i]] > 0:
+                feedback[i] = YELLOW_SQUARE
+                temp_letters_secret_word[guess_word[i]] -= 1
+            
+
+
+        print(f"Letters guess word after adjusting {temp_letters_word}")
+        print(f"Letters secret word after adjusting: {temp_letters_secret_word}")
+
+                
+
+
+
+
+
+        feedback_str = ''.join(feedback)
+
+        return feedback_str
+
 
 
     def game_loop(self):
@@ -193,9 +187,10 @@ game = Game()
 
 
 class WordleBot:
-    def __init__(self, game, word_list):
+    def __init__(self, game, word_list, common_words):
         self.game = game
         self.all_words = word_list[:]
+        self.common_words = common_words[:]
         # print(len(self.all_words))
         self.candidates = word_list[:]
         self.guess_history = []
@@ -209,11 +204,22 @@ class WordleBot:
         letter_counts = Counter(''.join(self.candidates))
         scored = [(word, sum(letter_counts[c] for c in set(word))) for word in self.candidates]
         scored.sort(key=lambda x: x[1], reverse=True)
-        # print(scored[:10])
-        word_plus_score = scored[0]
-        chosen_word = word_plus_score[0]
+        top_word_plus_score = scored[0]
+        chosen_word = top_word_plus_score[0]
+        chosen_word_score = top_word_plus_score[1]
+        print(f"The bot originally chose: {chosen_word} ")
+        print(f"The top ten guesses and scores: {scored[:10]}")
+        for word_plus_score in scored[:10]:
+            if chosen_word_score - word_plus_score[1] > chosen_word_score/10 and self.game.get_guess_count <= 2:
+                continue
+            if word_plus_score[0] in self.common_words:
+                chosen_word = word_plus_score[0]
+                break
+
         # return "AAPAS"
-        print(f"The bot chose: {chosen_word} ")
+        print(f"The bot finally chose: {chosen_word} ")
+
+
         return chosen_word 
     
     def filter_candidates(self, guess, feedback):
@@ -261,7 +267,7 @@ class WordleBot:
         self.filter_candidates(self.guess_history[-1], feedback)
     
 
-bot = WordleBot(game, game.all_words)
+bot = WordleBot(game, game.all_words, game.common_words)
 # print(bot.choose_guess())
 
 game.game_loop_bot(bot)
