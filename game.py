@@ -830,4 +830,5 @@ game: Game = Game()
 results = game.test_bot_optimized(game.common_words, OptimizedEntropyWordleBot, "optimized_entropy_bot_common_words.txt")
 results = game.test_bot_optimized(game.common_words, HybridOptimizedEntropyWordleBot, "hybrid_optimized_entropy_bot_common_words.txt")
 results = game.test_bot_optimized(game.common_words, FastEntropyWordleBot, "fast_entropy_bot_common_words.txt")
-
+# TODO: #2 Test Hybrid Bot
+# TODO: #1 Add common word list filter in the Optimized Bot
