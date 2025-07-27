@@ -62,29 +62,6 @@ class Game:
 
 
 
-    def guess(self, word):
-        word = word.upper()
-        if len(word) != 5:
-            print("Word must be 5 letters long.")
-            return
-        if word not in self.all_words:
-            print("Word not in word list.")
-            return
-        feedback = ""
-        self.guess_history.append(word)
-        if word == self.secret_word:
-            self.game_is_over = True
-        self.check_game_over()
-
-        guess_yellow_square_dict = {}
-        temp_letters_secret_word  =self.secret_word_letters.copy()
-
-        for i in range(5):
-            if word[i] in self.secret_word:
-                guess_yellow_square_dict[word[i]] = guess_yellow_square_dict.get(word[i], 0) + 1
-                feedback += YELLOW_SQUARE
-            else: 
-                feedback += GREY_SQUARE
 
 
     def guess(self, guess_word):
@@ -98,6 +75,8 @@ class Game:
         feedback = ""
         self.guess_history.append(guess_word)
         if guess_word == self.secret_word:
+
+            print(f"\nYou won! Amount of guesses: {self.get_guess_count()}")
             self.game_is_over = True
         self.check_game_over()
 
@@ -107,27 +86,10 @@ class Game:
         
 
         temp_letters_secret_word  =self.secret_word_letters.copy()
-        print(f"Letters guess word: {temp_letters_word}")
-        print(f"Letters secret word: {temp_letters_secret_word}")
+        # print(f"Letters guess word: {temp_letters_word}")
+        # print(f"Letters secret word: {temp_letters_secret_word}")
         # feedback = f"{GREY_SQUARE*5}" 
         feedback = ['⬜'] * 5
-        # for i in range(5):
-        #     if guess_word[i] in self.secret_word:
-        #         for j in range(i, 5):
-        #             if guess_word[i] == self.secret_word[j] and temp_letters_secret_word[guess_word[j]] > 0:
-        #                 feedback = feedback[:j] + GREEN_SQUARE   + feedback[j+1:]
-        #                 temp_letters_secret_word [guess_word[j]] = temp_letters_secret_word[guess_word[j]] - 1
-        #         if temp_letters_secret_word[guess_word[i]] > 0:
-        #             feedback = feedback[:i] + YELLOW_SQUARE   + feedback[i+1:]
-        #             temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
-
-        # for i in range(5):
-        #     if guess_word[i] == self.secret_word[i]:
-        #         feedback = feedback[:i] + GREEN_SQUARE   + feedback[i+1:]
-        #         temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
-        #     elif guess_word[i] in self.secret_word and temp_letters_secret_word[guess_word[i]] > 0:
-        #         feedback = feedback[:i] + YELLOW_SQUARE   + feedback[i+1:]
-        #         temp_letters_secret_word [guess_word[i]] = temp_letters_secret_word[guess_word[i]] - 1
         for i in range(5):
             if guess_word[i] == self.secret_word[i]:
                 feedback[i] = GREEN_SQUARE
@@ -143,8 +105,8 @@ class Game:
             
 
 
-        print(f"Letters guess word after adjusting {temp_letters_word}")
-        print(f"Letters secret word after adjusting: {temp_letters_secret_word}")
+        # print(f"Letters guess word after adjusting {temp_letters_word}")
+        # print(f"Letters secret word after adjusting: {temp_letters_secret_word}")
 
                 
 
@@ -161,6 +123,7 @@ class Game:
     def game_loop(self):
         while(True):
             if self.check_game_over():
+                print("Game over!")
                 return
             guess = input("Enter your guess: \n")
             guess = guess.upper()
