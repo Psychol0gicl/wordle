@@ -88,10 +88,12 @@ class Game:
         feedback = ""
         self.guess_history.append(guess_word)
         if guess_word == self.secret_word:
-
-            print(f"\nYou won! Amount of guesses: {self.get_guess_count()}")
+    
+            print(f"{GREEN_SQUARE}"*5)
+            print(f"You won! Amount of guesses: {self.get_guess_count()}")
             self.game_result = "W"
             self.game_is_over = True
+            return None
         self.check_game_over()
 
         temp_letters_word = {}
@@ -155,9 +157,9 @@ class Game:
             bot.guess_history.append(guess)
 
             feedback = self.guess(guess)
-            bot.receive_feedback(feedback)
             if feedback is not None:
-                print(feedback)
+                bot.receive_feedback(feedback)
+                print(feedback+"\n" + "-"*25)
 
 
 
@@ -207,6 +209,7 @@ class Game:
             word_start = time.time()  # Start per-word timer
 
             bot = bot_class(self, self.all_words, self.common_words)
+            print("\n" + "-"*50)
             print(f"Testing word: {word}")
             self.reset_game(word)
             self.game_loop_bot(bot)
@@ -318,6 +321,16 @@ class WordleBot:
 
 
 class EntropyWordleBot(WordleBot):  
+    def __init__(self, game, word_list, common_words):
+        super().__init__(game, word_list, common_words)
+        initial_entropy = math.log2(len(word_list))
+        # print(f"Initial entropy: {initial_entropy}")
+
+
+
+
+        
+        
     def get_feedback(self, guess_word, secret_word):
         temp_letters_secret_word = {}
         for c in secret_word:
@@ -359,22 +372,48 @@ class EntropyWordleBot(WordleBot):
         return entropy
 
     def choose_guess(self):
+        top_guesses: list = []
 
-        print("The bot is making a guess...")
+        print("\nThe bot is making a guess...")
         if game.get_guess_count() == 0:
             # print(f"Candidates after choosing: {len(self.candidates)}")
             print("First guess by a human: SPEAR")
+
             return "SPEAR"
         best_word = ""
         best_entropy = -1
         
+        entropy_list = []
         for word in self.candidates:
             entropy = self.compute_entropy(word)
-            if entropy > best_entropy:
-                best_word = word
-                best_entropy = entropy
+            # if entropy > best_entropy:
+            #     best_word = word
+            #     best_entropy = entropy
+            entropy_list.append((word, entropy))
+        entropy_list.sort(key=lambda x: x[1], reverse=True)
+        top_guesses.extend(entropy_list[:10])
+        best_word, best_entropy = top_guesses[0]
+        print(f"Initial guess by the bot: {best_word} with entropy: {best_entropy:.4f}")
+        for word_plus_entropy in top_guesses[:10]:
+            if best_entropy - word_plus_entropy[1] > best_entropy/10 and self.game.get_guess_count() <= 2:
+                continue
+            if word_plus_entropy[0] in self.common_words:
+                best_word = word_plus_entropy[0]
+                best_entropy = word_plus_entropy[-1]
+                break
+
         print(f"Bot chose: {best_word} with entropy: {best_entropy:.4f}")
+        print(f"Top ten guesses: {top_guesses}")
         return best_word        
+
+    def receive_feedback(self, feedback):
+        prior_entropy = math.log2(len(self.candidates))
+        self.filter_candidates(self.guess_history[-1], feedback)
+        posterior_entropy = math.log2(len(self.candidates)) if self.candidates else 0
+        actual_info_gain = prior_entropy - posterior_entropy
+        
+        print(f"Guess: {self.guess_history[-1]}, Feedback: {feedback}, Actual Info Gain: {actual_info_gain:.4f} bits")
+        print(f"Posterior entropy: {posterior_entropy}")
 
 
 
@@ -513,17 +552,14 @@ def analyze_guess_data(guess_data):
 bot = WordleBot(game, game.all_words, game.common_words)
 # game.game_loop_bot(bot)
 # results = game.test_bot(game.all_words,WordleBot, "most_basic_bot_all_words.txt")
-# analyze_guess_data(results)
-results = game.test_bot(game.common_words, WordleBot, "most_basic_bot_common_words.txt")
+# results = game.test_bot(game.common_words, WordleBot, "most_basic_bot_common_words.txt")
 
 
 
 
 
 EntropyBot = EntropyWordleBot(game, game.all_words, game.common_words)
-# print(EntropyBot.choose_guess())
 # game.game_loop_bot(EntropyBot)
 
 # results = game.test_bot(game.all_words,EntropyBot, "entropy_bot_all_words.txt")
-# analyze_guess_data(results)
 results = game.test_bot(game.common_words, EntropyWordleBot, "entropy_bot_common_words.txt")
