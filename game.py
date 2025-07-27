@@ -1,3 +1,6 @@
+import sys
+from collections import Counter
+from statistics import mean, median, mode, stdev
 import numpy as np
 GREEN_SQUARE = "\U0001F7E9"
 YELLOW_SQUARE = "\U0001F7E8"
@@ -12,17 +15,18 @@ class Game:
         total_weight = self.weights.sum()
         probabilities = self.weights / total_weight
         self.secret_word = np.random.choice(self.all_words, p=probabilities)
-        # self.secret_word = "VAUNT"
+        # self.secret_word = "SHADE"
         # self.secret_word = "SOARE"
         # self.secret_word = "WRICK" # good for checking choosing words in the common word list
         # self.secret_word = "TANIA" # Causes errors, because yellow feedback is not working well.
         self.secret_word = self.secret_word.upper()
-        print(f"SHHH! Secret word for debugging: {self.secret_word}")
+        # print(f"SHHH! Secret word for debugging: {self.secret_word}")
         self.check_letters_secret_word()
-        print(self.weight_function(self.secret_word))
+        # print(self.weight_function(self.secret_word))
         self.game_is_over = False
         self.guess_history = []
-        print(self.guess_history)
+        self.game_result = ""
+        # print(self.guess_history)
 
         # self.game_loop()
         pass
@@ -33,8 +37,10 @@ class Game:
         return words
     
     def check_game_over(self):
-        if len(self.guess_history) == 6:
+        if len(self.guess_history) == 6 and self.game_result == "":
+            print("Game Over! You ran out of guesses.")
             self.game_is_over = True
+            self.game_result = "L"
         return self.game_is_over
     
     def get_guess_count(self):
@@ -77,6 +83,7 @@ class Game:
         if guess_word == self.secret_word:
 
             print(f"\nYou won! Amount of guesses: {self.get_guess_count()}")
+            self.game_result = "W"
             self.game_is_over = True
         self.check_game_over()
 
@@ -145,6 +152,33 @@ class Game:
             if feedback is not None:
                 print(feedback)
 
+
+
+    def reset_game(self, new_word):
+        self.game_is_over = False
+        self.game_result = ""
+        self.guess_history = []
+        self.secret_word = new_word
+        self.check_letters_secret_word()
+
+        
+    def test_bot(self, word_list, file_name = None):
+        results = {"W": 0, "L": 0}
+        if file_name:
+            sys.stdout = open(file_name, 'w', encoding='utf-8')
+
+
+        for word in word_list:
+            bot = WordleBot(self, self.all_words, self.common_words)
+            print(f"Testing word: {word} ")
+            self.reset_game(word)
+            self.game_loop_bot(bot)
+            results[word] = self.get_guess_count()
+            results[self.game_result] += 1
+        return results
+
+
+
 game = Game()
 # game.game_loop()
 
@@ -173,7 +207,7 @@ class WordleBot:
         print(f"The bot originally chose: {chosen_word} ")
         print(f"The top ten guesses and scores: {scored[:10]}")
         for word_plus_score in scored[:10]:
-            if chosen_word_score - word_plus_score[1] > chosen_word_score/10 and self.game.get_guess_count <= 2:
+            if chosen_word_score - word_plus_score[1] > chosen_word_score/10 and self.game.get_guess_count() <= 2:
                 continue
             if word_plus_score[0] in self.common_words:
                 chosen_word = word_plus_score[0]
@@ -230,7 +264,56 @@ class WordleBot:
         self.filter_candidates(self.guess_history[-1], feedback)
     
 
+
+
+def analyze_guess_data(guess_data):
+    print("")
+    print("-"*50)
+    print("")
+    print("-"*50)
+    print("")
+    print("-"*50)
+    print("RESULTS:")
+    if not guess_data:
+        print("No data to analyze.")
+
+        return
+
+    guess_counts = list(guess_data.values())
+
+    # Basic statistics
+    avg = mean(guess_counts)
+    med = median(guess_counts)
+    try:
+        mod = mode(guess_counts)
+    except:
+        mod = "No unique mode"
+    minimum = min(guess_counts)
+    maximum = max(guess_counts)
+    stddev = stdev(guess_counts) if len(guess_counts) > 1 else 0
+
+    print(f"Total words: {len(guess_data)}")
+    print(f"Mean guesses: {avg:.2f}")
+    print(f"Median guesses: {med}")
+    print(f"Mode guesses: {mod}")
+    print(f"Min guesses: {minimum}")
+    print(f"Max guesses: {maximum}")
+    print(f"Standard deviation: {stddev:.2f}")
+    print(f"Games won: {guess_data['W']}")
+    print(f"Win percentage: {guess_data['W']/len(guess_data)*100:.2f}%")
+    print(f"Games lost: {guess_data['L']}")
+
+    # Optional: histogram of frequencies
+    freq = Counter(guess_counts)
+    print("\nGuess count frequencies:")
+    for guess_num in sorted(freq):
+        print(f"{guess_num} guesses: {freq[guess_num]} word(s)")
+
 bot = WordleBot(game, game.all_words, game.common_words)
 # print(bot.choose_guess())
 
-game.game_loop_bot(bot)
+# game.game_loop_bot(bot)
+results = game.test_bot(game.all_words, "most_basic_bot_all_words.txt")
+analyze_guess_data(results)
+results = game.test_bot(game.common_words, "most_basic_bot_common_words.txt")
+analyze_guess_data(results)
