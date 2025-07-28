@@ -244,7 +244,7 @@ class WordleGame:
 
 
 
-    def test_bot_optimized_x_words(self, word_list, bot_class, x: int = 500, seed: int = None, file_name=None):
+    def test_bot_optimized_x_words(self, word_list, bot_class, x: int = 500, random_seed: int = None, file_name=None):
         results = {"W": 0, "L": 0}
         total_start = time.time()
         
@@ -267,8 +267,8 @@ class WordleGame:
         init_time = time.time() - init_start
         print(f"Bot initialization completed in {init_time:.2f} seconds")
 
-        if seed is not None:
-            np.random.shuffle(word_list, random_state=seed)
+        if random_seed is not None:
+            np.random.shuffle(word_list, random_state=random_seed)
         else:
             np.random.shuffle(word_list)
         if x < 0:
