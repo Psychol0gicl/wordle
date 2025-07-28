@@ -33,6 +33,7 @@ class WordleGame:
         # print(self.weight_function(self.secret_word))
         self.game_is_over = False
         self.guess_history = []
+        self.feedback_history = []
         self.game_result = ""
         # print(self.guess_history)
 
@@ -89,8 +90,10 @@ class WordleGame:
         feedback = ""
         self.guess_history.append(guess_word)
         if guess_word == self.secret_word:
-    
-            print(f"{GREEN_SQUARE}"*5)
+            feedback = f"{GREEN_SQUARE*5}"
+            self.feedback_history.append(feedback)
+            # print(feedback)
+
             print(f"You won! Amount of guesses: {self.get_guess_count()}")
             self.game_result = "W"
             self.game_is_over = True
@@ -145,6 +148,7 @@ class WordleGame:
             guess = input("Enter your guess: \n")
             guess = guess.upper()
             feedback = self.guess(guess)
+            self.feedback_history.append(feedback)
             # if feedback is not None:
             #     print(feedback)
 
@@ -159,8 +163,10 @@ class WordleGame:
 
             feedback = self.guess(guess)
             if feedback is not None:
+                self.feedback_history.append(feedback)
                 bot.receive_feedback(feedback)
-                print(feedback+"\n" + "-"*25)
+                # print(feedback+"\n" + "-"*25)
+                print("-"*10)
 
 
 
@@ -168,6 +174,7 @@ class WordleGame:
         self.game_is_over = False
         self.game_result = ""
         self.guess_history = []
+        self.feedback_history = []
         self.secret_word = new_word
         self.check_letters_secret_word()
 
@@ -262,7 +269,7 @@ class WordleGame:
         for word in word_list:
             word_start = time.time()
             
-            print("\n" + "-"*50)
+            print("\n" + "-"*100)
             print(f"Testing word: {word}")
             
             # Reset the game state
@@ -273,6 +280,10 @@ class WordleGame:
             
             # Run the game
             self.game_loop_bot(bot)
+            print("\n" + "=" * 10 + "History:")
+            for i  in range(self.get_guess_count()):
+                print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
+            print("=" * 10)
             
             word_time = time.time() - word_start
             print(f"Time taken for '{word}': {word_time:.4f} seconds")
@@ -321,7 +332,7 @@ class WordleGame:
         for word in word_list_x_words:
             word_start = time.time()
             
-            print("\n" + "-"*50)
+            print("\n" + "-"*100)
             print(f"Testing word: {word}")
             
             # Reset the game state
@@ -332,7 +343,11 @@ class WordleGame:
             
             # Run the game
             self.game_loop_bot(bot)
-            
+
+            print("\n" + "=" * 10 + "History:")
+            for i  in range(self.get_guess_count()):
+                print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
+            print("=" * 10)
             word_time = time.time() - word_start
             print(f"Time taken for '{word}': {word_time:.4f} seconds")
             
@@ -477,6 +492,17 @@ def analyze_guess_data(guess_data):
     # print(f"Standard deviation: {stddev_time:.2f}")
 
     # Optional: histogram of frequencies
+
+
+def to_fancy(text):
+    fancy_map = {
+        'A': '𝘼', 'B': '𝘽', 'C': '𝘾', 'D': '𝘿', 'E': '𝙀',
+        'F': '𝙁', 'G': '𝙂', 'H': '𝙃', 'I': '𝙄', 'J': '𝙅',
+        'K': '𝙆', 'L': '𝙇', 'M': '𝙈', 'N': '𝙉', 'O': '𝙊',
+        'P': '𝙋', 'Q': '𝙌', 'R': '𝙍', 'S': '𝙎', 'T': '𝙏',
+        'U': '𝙐', 'V': '𝙑', 'W': '𝙒', 'X': '𝙓', 'Y': '𝙔', 'Z': '𝙕'
+    }
+    return ''.join(fancy_map.get(c.upper(), c) for c in text)
 
 
 

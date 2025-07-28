@@ -4,7 +4,7 @@ import os
 import hashlib
 import time
 import math
-from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE
+from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
 from wordle_bot import WordleBot
 from entropy_wordle_bot import EntropyWordleBot
 from functools import lru_cache
@@ -113,7 +113,7 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
             return list(pool)
     
     def choose_guess(self):
-        print("\nThe bot is making a guess...")
+        print("The bot is making a guess...")
         
         if self.game.get_guess_count() == 0:
             print("First guess: SOARE (optimal starting word)")
@@ -130,8 +130,8 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
         # Progress tracking for long calculations
         total_words = len(candidate_pool)
         for i, word in enumerate(candidate_pool):
-            if i % max(1, total_words // 10) == 0:
-                print(f"Progress: {i+1}/{total_words}")
+        #     if i % max(1, total_words // 10) == 0:
+        #         print(f"Progress: {i+1}/{total_words}")
             
             entropy = self.compute_entropy(word)
             entropy_list.append((word, entropy))
@@ -586,10 +586,11 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
     
     def choose_guess(self):
         """Copy the optimized choose_guess logic"""
-        print("\nThe bot is making a guess...")
+        print("The bot is making a guess...")
         
         if self.game.get_guess_count() == 0:
-            print("First guess: SOARE (optimal starting word)")
+            # print("First guess: SOARE (optimal starting word)")
+            print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
             return "SOARE"
         
         candidate_pool = self._get_candidate_pool()
@@ -599,8 +600,8 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         total_words = len(candidate_pool)
         
         for i, word in enumerate(candidate_pool):
-            if i % max(1, total_words // 10) == 0:
-                print(f"Progress: {i+1}/{total_words}")
+            # if i % max(1, total_words // 10) == 0:
+            #     print(f"Progress: {i+1}/{total_words}")
             
             entropy = self.compute_entropy(word)
             entropy_list.append((word, entropy))
@@ -609,7 +610,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         
         best_word, best_entropy = entropy_list[0]
         print(f"Top 5 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:5]]}")
-        print(f"Top entropy choice: {best_word} with entropy: {best_entropy:.4f}")
+        print(f"Top entropy choice: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
         
         # Apply common word preference
         for word, entropy in entropy_list[:5]:
@@ -617,10 +618,10 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
                 entropy_loss = 0
             else:
                 entropy_loss = (best_entropy - entropy) / best_entropy
-            print(f"Entropy loss: {entropy_loss:.4f}")
+            # print(f"Entropy loss: {entropy_loss:.4f}")
             if entropy_loss <= MAX_ENTROPY_LOSS_FOR_COMMON_WORDS and word in self.common_words:
                 best_word, best_entropy = word, entropy
-                print(f"Ended up chuosing COMMON word: {best_word} with entropy: {best_entropy:.4f}")
+                print(f"Ended up choosing COMMON word: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
                 break
         
         return best_word

@@ -1,5 +1,5 @@
 import math
-from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE
+from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
 from wordle_bot import WordleBot
 
 
@@ -95,5 +95,5 @@ class EntropyWordleBot(WordleBot):
         posterior_entropy = math.log2(len(self.candidates)) if self.candidates else 0
         actual_info_gain = prior_entropy - posterior_entropy
         
-        print(f"Guess: {self.guess_history[-1]}, Feedback: {feedback}, Actual Info Gain: {actual_info_gain:.4f} bits")
+        print(f"\nGuess: {to_fancy(self.guess_history[-1])}, Feedback: {feedback}\nActual Info Gain: {actual_info_gain:.4f} bits")
         print(f"Posterior entropy: {posterior_entropy}")
