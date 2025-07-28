@@ -10,6 +10,7 @@ from entropy_wordle_bot import EntropyWordleBot
 from functools import lru_cache
 from collections import Counter, defaultdict
 
+MAX_ENTROPY_LOSS_FOR_COMMON_WORDS = 0.2
 class OptimizedEntropyWordleBot(EntropyWordleBot):  
 
     def __init__(self, game, word_list, common_words):
@@ -18,14 +19,6 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
         self.feedback_cache = {}
         self._precompute_feedback_patterns()
         
-    # def _precompute_feedback_patterns(self):
-    #     """Precompute all possible feedback patterns between word pairs"""
-    #     print("Precomputing feedback patterns... (one-time setup)")
-    #     for i, guess in enumerate(self.all_words):
-    #         if i % 500 == 0:
-    #             print(f"Progress: {i}/{len(self.all_words)}")
-    #         for secret in self.all_words:
-    #             self.feedback_cache[(guess, secret)] = self._get_feedback_fast(guess, secret)
     def _precompute_feedback_patterns(self):
         """Only precompute patterns we actually need"""
         print("Smart precomputing feedback patterns...")
@@ -156,7 +149,7 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
                 print(f"Chose common word: {best_word} with entropy: {best_entropy:.4f}")
                 break
             entropy_loss = (best_entropy - entropy) / best_entropy
-            if entropy_loss <= 0.05 and word in self.common_words:  # 5% max loss
+            if entropy_loss <= MAX_ENTROPY_LOSS_FOR_COMMON_WORDS and word in self.common_words:  # 5% max loss
                 best_word, best_entropy = word, entropy
                 print(f"Chose common word: {best_word} with entropy: {best_entropy:.4f}")
                 break
@@ -428,7 +421,68 @@ class EntropyPrecomputeSystem:
             print(f"Error loading cache: {e}")
             return False
 
-class CachedEntropyWordleBot(EntropyWordleBot):
+# class CachedEntropyWordleBot(EntropyWordleBot):
+#     """Bot that uses precomputed entropy cache"""
+    
+#     # Class-level cache shared across all instances
+#     _entropy_system = None
+#     _cache_loaded = False
+    
+#     def __init__(self, game, word_list, common_words):
+#         super().__init__(game, word_list, common_words)
+        
+#         # Initialize shared entropy system
+#         if CachedEntropyWordleBot._entropy_system is None:
+#             CachedEntropyWordleBot._entropy_system = EntropyPrecomputeSystem(
+#                 word_list, common_words
+#             )
+        
+#         # Load cache if not already loaded
+#         if not CachedEntropyWordleBot._cache_loaded:
+#             cache_loaded = CachedEntropyWordleBot._entropy_system.load_cache()
+#             if not cache_loaded:
+#                 print("No cache found - bot will compute entropy on demand")
+#             CachedEntropyWordleBot._cache_loaded = True
+        
+#         self.entropy_system = CachedEntropyWordleBot._entropy_system
+    
+#     def get_feedback(self, guess_word, secret_word):
+#         """Use cached feedback if available"""
+#         cache_key = (guess_word, secret_word)
+#         if cache_key in self.entropy_system.feedback_cache:
+#             return self.entropy_system.feedback_cache[cache_key]
+        
+#         # Fall back to computation
+#         return self.entropy_system._get_feedback_fast(guess_word, secret_word)
+    
+#     def compute_entropy(self, guess):
+#         """Use cached entropy if available, compute otherwise"""
+#         candidates_tuple = tuple(self.candidates)
+#         cache_key = (guess, candidates_tuple)
+        
+#         if cache_key in self.entropy_system.entropy_cache:
+#             return self.entropy_system.entropy_cache[cache_key]
+        
+#         # Fall back to computation
+#         return self.entropy_system._compute_entropy_for_candidates(guess, self.candidates)
+    
+#     def reset_for_new_game(self):
+#         """Reset bot state while keeping shared cache"""
+#         self.candidates = self.all_words[:]
+#         self.guess_history = []
+    
+#     @classmethod
+#     def create_cache(cls, word_list, common_words):
+#         """Class method to create and save entropy cache"""
+#         print("Creating comprehensive entropy cache...")
+#         system = EntropyPrecomputeSystem(word_list, common_words)
+#         system.precompute_all_entropy_values()
+#         system.save_cache()
+#         print("Cache creation complete!")
+
+
+
+class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot directly
     """Bot that uses precomputed entropy cache"""
     
     # Class-level cache shared across all instances
@@ -436,7 +490,22 @@ class CachedEntropyWordleBot(EntropyWordleBot):
     _cache_loaded = False
     
     def __init__(self, game, word_list, common_words):
-        super().__init__(game, word_list, common_words)
+        # Call EntropyWordleBot.__init__ directly, skip OptimizedEntropyWordleBot
+        print("Calculating letter frequencies...")
+        letter_counts = Counter(letter for word in word_list for letter in set(word))
+        total_letters = sum(letter_counts.values())
+
+        # Normalize to get letter frequencies
+        self.letter_frequency = {letter: count / total_letters for letter, count in letter_counts.items()}
+
+        # Step 2: Create a fake frequency score for each word based on its unique letters
+        def word_score(word):
+            return sum(self.letter_frequency.get(ch, 0) for ch in set(word))
+
+        # Step 3: Sort common_words by descending score
+        self.common_words = sorted(common_words, key=word_score, reverse=True)
+        # print("Common words sorted by score:", self.common_words[:100])
+        EntropyWordleBot.__init__(self, game, word_list, common_words)
         
         # Initialize shared entropy system
         if CachedEntropyWordleBot._entropy_system is None:
@@ -459,8 +528,35 @@ class CachedEntropyWordleBot(EntropyWordleBot):
         if cache_key in self.entropy_system.feedback_cache:
             return self.entropy_system.feedback_cache[cache_key]
         
-        # Fall back to computation
-        return self.entropy_system._get_feedback_fast(guess_word, secret_word)
+        # Fall back to computation using optimized method
+        return self._get_feedback_fast(guess_word, secret_word)
+    
+    def _get_feedback_fast(self, guess_word, secret_word):
+        """Copy the optimized feedback calculation from OptimizedEntropyWordleBot"""
+        temp_counts = [0] * 26  # a-z
+        for c in secret_word:
+            temp_counts[ord(c) - ord('A')] += 1
+        
+        feedback = [2] * 5  # 0=green, 1=yellow, 2=gray
+        
+        # First pass: Green
+        for i in range(5):
+            if guess_word[i] == secret_word[i]:
+                feedback[i] = 0
+                temp_counts[ord(guess_word[i]) - ord('A')] -= 1
+        
+        # Second pass: Yellow
+        for i in range(5):
+            if feedback[i] == 0:  # already green
+                continue
+            char_idx = ord(guess_word[i]) - ord('A')
+            if temp_counts[char_idx] > 0:
+                feedback[i] = 1
+                temp_counts[char_idx] -= 1
+        
+        # Convert to string format
+        symbols = [GREEN_SQUARE, YELLOW_SQUARE, GREY_SQUARE]
+        return ''.join(symbols[f] for f in feedback)
     
     def compute_entropy(self, guess):
         """Use cached entropy if available, compute otherwise"""
@@ -472,6 +568,62 @@ class CachedEntropyWordleBot(EntropyWordleBot):
         
         # Fall back to computation
         return self.entropy_system._compute_entropy_for_candidates(guess, self.candidates)
+    
+    def _get_candidate_pool(self):
+        """Copy smart candidate selection from OptimizedEntropyWordleBot"""
+        if len(self.candidates) <= 50:
+            return self.candidates[:]
+        elif len(self.candidates) <= 200:
+            pool = set(self.candidates)
+            print("Updating candidate pool: Adding 100 common words...")
+            print(self.common_words[:100])
+            pool.update(w for w in self.common_words[:100] if w in self.all_words)
+            return list(pool)
+        else:
+            pool = set(self.candidates[:min(len(self.candidates), 300)])
+            pool.update(w for w in self.common_words[:200] if w in self.all_words)
+            return list(pool)
+    
+    def choose_guess(self):
+        """Copy the optimized choose_guess logic"""
+        print("\nThe bot is making a guess...")
+        
+        if self.game.get_guess_count() == 0:
+            print("First guess: SOARE (optimal starting word)")
+            return "SOARE"
+        
+        candidate_pool = self._get_candidate_pool()
+        print(f"Evaluating {len(candidate_pool)} potential guesses from {len(self.candidates)} remaining candidates...")
+        
+        entropy_list = []
+        total_words = len(candidate_pool)
+        
+        for i, word in enumerate(candidate_pool):
+            if i % max(1, total_words // 10) == 0:
+                print(f"Progress: {i+1}/{total_words}")
+            
+            entropy = self.compute_entropy(word)
+            entropy_list.append((word, entropy))
+        
+        entropy_list.sort(key=lambda x: x[1], reverse=True)
+        
+        best_word, best_entropy = entropy_list[0]
+        print(f"Top 5 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:5]]}")
+        print(f"Top entropy choice: {best_word} with entropy: {best_entropy:.4f}")
+        
+        # Apply common word preference
+        for word, entropy in entropy_list[:5]:
+            if best_entropy - entropy < 0.01:
+                entropy_loss = 0
+            else:
+                entropy_loss = (best_entropy - entropy) / best_entropy
+            print(f"Entropy loss: {entropy_loss:.4f}")
+            if entropy_loss <= MAX_ENTROPY_LOSS_FOR_COMMON_WORDS and word in self.common_words:
+                best_word, best_entropy = word, entropy
+                print(f"Ended up chuosing COMMON word: {best_word} with entropy: {best_entropy:.4f}")
+                break
+        
+        return best_word
     
     def reset_for_new_game(self):
         """Reset bot state while keeping shared cache"""
