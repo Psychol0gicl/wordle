@@ -77,6 +77,7 @@ class WordleBot:
 
 
     def receive_feedback(self, feedback):
+        print(f"Guess: {self.guess_history[-1]}, Feedback: {feedback}, Actual Info Gain: {actual_info_gain:.4f} bits")
         self.filter_candidates(self.guess_history[-1], feedback)
     
 

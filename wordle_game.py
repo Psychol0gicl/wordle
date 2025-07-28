@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 from functools import lru_cache
 import os
 import time
@@ -144,8 +145,8 @@ class WordleGame:
             guess = input("Enter your guess: \n")
             guess = guess.upper()
             feedback = self.guess(guess)
-            if feedback is not None:
-                print(feedback)
+            # if feedback is not None:
+            #     print(feedback)
 
     def game_loop_bot(self, bot):
         while(True):
@@ -197,6 +198,9 @@ class WordleGame:
         # os.makedirs(str(bot_class.__name__), exist_ok=True)
         folder_path = f"{RESULT_FOLDER}/{str(bot_class.__name__)}"
         os.makedirs(folder_path, exist_ok=True)  # creates folder_path and parents if not exist
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        folder_path = f"{folder_path}/{timestamp}"
+        os.makedirs(folder_path, exist_ok=True)
 
         if file_name:
             sys.stdout = open(f"{folder_path}/{file_name}", 'w', encoding='utf-8')
@@ -238,9 +242,13 @@ class WordleGame:
         
         folder_path = f"{RESULT_FOLDER}/{str(bot_class.__name__)}"
         os.makedirs(folder_path, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        folder_path = f"{folder_path}/{timestamp}"
+        os.makedirs(folder_path, exist_ok=True)
         
         if file_name:
-            sys.stdout = open(f"{folder_path}/{file_name}", 'w', encoding='utf-8')
+            filename_without_ext = os.path.splitext(os.path.basename(file_name))[0]
+            sys.stdout = open(f"{folder_path}/{filename_without_ext}_{timestamp}.txt", 'w', encoding='utf-8')
         
         print(f"Testing bot: {bot_class.__name__}")
         
@@ -283,22 +291,65 @@ class WordleGame:
         sys.stdout = open(f"{folder_path}/results_only.txt", 'w', encoding='utf-8')
         analyze_guess_data(results)
 
+    def test_bot_optimized_x_words(self, word_list, bot_class, x: int = 500, file_name=None):
+        results = {"W": 0, "L": 0}
+        total_start = time.time()
+        
+        folder_path = f"{RESULT_FOLDER}/{str(bot_class.__name__)}"
+        os.makedirs(folder_path, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        folder_path = f"{folder_path}/{timestamp}"
+        os.makedirs(folder_path, exist_ok=True)
+        
+        if file_name:
+            filename_without_ext = os.path.splitext(os.path.basename(file_name))[0]
+            sys.stdout = open(f"{folder_path}/{filename_without_ext}_{str(x)}_words.txt", 'w', encoding='utf-8')
+        
+        print(f"Testing bot: {bot_class.__name__}")
+        
+        # Create bot instance ONCE before the loop
+        print("Initializing bot (this may take a few minutes for optimized bots)...")
+        init_start = time.time()
+        bot = bot_class(self, self.all_words, self.common_words)
+        init_time = time.time() - init_start
+        print(f"Bot initialization completed in {init_time:.2f} seconds")
 
+        np.random.shuffle(word_list)
+        word_list_x_words = word_list[:x]
 
+        
+        for word in word_list_x_words:
+            word_start = time.time()
+            
+            print("\n" + "-"*50)
+            print(f"Testing word: {word}")
+            
+            # Reset the game state
+            self.reset_game(word)
+            
+            # Reset the bot state for new game (but keep precomputed data)
+            bot.reset_for_new_game()
+            
+            # Run the game
+            self.game_loop_bot(bot)
+            
+            word_time = time.time() - word_start
+            print(f"Time taken for '{word}': {word_time:.4f} seconds")
+            
+            results[word] = {
+                "guesses": self.get_guess_count(),
+                "time": word_time
+            }
+            results[self.game_result] += 1
+        
+        total_time = time.time() - total_start
+        print(f"\nTotal time for {len(word_list)} words: {total_time:.2f} seconds")
+        print(f"Average time per word: {(total_time-init_time)/len(word_list):.4f} seconds")
+        print("Testing bot class: " + bot_class.__name__ + " complete.")
+        
+        sys.stdout = open(f"{folder_path}/results_only_{str(x)}_words.txt", 'w', encoding='utf-8')
+        analyze_guess_data(results)
 
-# game.game_loop()
-
-
-
-
-
-
-
-
-
-
-
-    
     def compute_entropy_fast(self, guess):
         """Fast approximate entropy using sampling"""
         sample = self._sample_candidates()
@@ -422,6 +473,7 @@ def analyze_guess_data(guess_data):
     print(f"Max time: {max_time:.2f}")
 
     print("\n" + "-"*50 + "\n" + "-"*50 + "\n" + "-"*50)
+    sys.stdout = sys.__stdout__
     # print(f"Standard deviation: {stddev_time:.2f}")
 
     # Optional: histogram of frequencies
