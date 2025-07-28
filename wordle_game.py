@@ -270,7 +270,7 @@ class WordleGame:
         if seed is not None:
             np.random.shuffle(word_list, random_state=seed)
         else:
-            np.random.shuffle(wofd_list)
+            np.random.shuffle(word_list)
         if x < 0:
             word_list_x_words = word_list
         else:

@@ -640,12 +640,57 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         system.save_cache()
         print("Cache creation complete!")
 
+class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
+        def choose_guess(self):
+            """Improved strategy: balances entropy vs. greedy answer guessing"""
+            print("The bot is making a guess...")
+
+            if self.game.get_guess_count() == 0:
+                print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
+                return "SOARE"
+
+            num_candidates = len(self.candidates)
+            print(f"{num_candidates} candidate words remaining.")
+
+            # Use full word list as guess pool for entropy, especially when many candidates remain
+            use_full_word_list = num_candidates > 3
+            guess_pool = self.all_words if use_full_word_list else self.candidates
+
+            # Prioritize common words when entropy is close
+            entropy_list = []
+            for word in guess_pool:
+                entropy = self.compute_entropy(word)
+                entropy_list.append((word, entropy))
+
+            entropy_list.sort(key=lambda x: x[1], reverse=True)
+
+            best_word, best_entropy = entropy_list[0]
+            print(f"Top 5 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:5]]}")
+            print(f"Top entropy choice: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
+
+            # If we're still in exploration mode, prefer a high-entropy guess even if not a valid candidate
+            if use_full_word_list:
+                for word, entropy in entropy_list[:10]:
+                    entropy_loss = (best_entropy - entropy) / best_entropy 
+                    if entropy_loss < 0.001:
+                        entropy_loss = 0
+                    if word in self.common_words and entropy_loss < MAX_ENTROPY_LOSS_FOR_COMMON_WORDS: 
+                        print(f"Using common exploratory word: {to_fancy(word)} with entropy: {entropy:.4f}")
+                        return word
+                return best_word
+            else:
+                # In exploitation mode: just guess from remaining candidates
+                print(f"Few candidates left; guessing likely answer: {to_fancy(best_word)}")
+                return best_word
+
+
 # Usage example
 def setup_entropy_cache(all_words, common_words):
     """One-time setup to create entropy cache"""
     print("Setting up entropy cache (this will take 3-5 minutes)...")
     CachedEntropyWordleBot.create_cache(all_words, common_words)
     print("Setup complete! Future bot instances will load instantly.")
+
 
 
 def check_and_setup_entropy_cache(all_words, common_words, cache_dir="entropy_cache"):
