@@ -1,0 +1,227 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙋𝙋𝙇𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ALGIN 
+The top ten guesses and scores: [('ALGIN', 526), ('ALIGN', 526), ('ALKIN', 501), ('ADMIN', 498), ('ALGID', 498), ('AUMIL', 497), ('ANVIL', 492), ('APING', 488), ('ALLIN', 487), ('AMNIC', 486)]
+The bot finally chose: ALIGN 
+GUESS: ALIGN
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AFLAP 
+The top ten guesses and scores: [('AFLAP', 43), ('AMPLY', 43), ('AMPUL', 43), ('APTLY', 43), ('APPLY', 41), ('AWFUL', 40), ('AFFLY', 39), ('ADULT', 37), ('AFALD', 37), ('APPAL', 37)]
+The bot finally chose: AMPLY 
+GUESS: AMPLY
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: APPLY 
+The top ten guesses and scores: [('APPLY', 5)]
+The bot finally chose: APPLY 
+GUESS: APPLY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩🟨⬜⬜⬜
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝘼𝙋𝙋𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙋𝙋𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: APPLY with entropy: 2.8464
+Bot chose: APPLY with entropy: 2.8464
+Top ten guesses: [('APPLY', 2.8464393446710154), ('APPUY', 2.5219280948873624), ('APIOL', 2.4464393446710155), ('APPUI', 2.321928094887362), ('APTLY', 2.1609640474436813), ('APAID', 2.0464393446710156), ('APAYD', 2.0464393446710156), ('APHID', 2.0464393446710156), ('APING', 1.6854752972273346), ('APOOP', 1.6854752972273346)]
+GUESS: APPLY
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝙋𝙋𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙋𝙋𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: APPLY with entropy: 2.8464
+Bot chose: APPLY with entropy: 2.8464
+Top ten guesses: [('APPLY', 2.8464393446710154), ('APPUY', 2.5219280948873624), ('APIOL', 2.4464393446710155), ('APPUI', 2.321928094887362), ('APTLY', 2.1609640474436813), ('APAID', 2.0464393446710156), ('APAYD', 2.0464393446710156), ('APHID', 2.0464393446710156), ('APING', 1.6854752972273346), ('APOOP', 1.6854752972273346)]
+GUESS: APPLY
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝙋𝙋𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙋𝙋𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 4.4248 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 4.424805275527665, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 46 potential guesses from 46 remaining candidates...
+Top 5 guesses: [('MILPA', '4.176'), ('MBILA', '4.151'), ('MULLA', '4.102'), ('MVULA', '3.988'), ('KIBLA', '3.950')]
+Top entropy choice: 𝙈𝙄𝙇𝙋𝘼 with entropy: 4.1763
+GUESS: MILPA
+
+Guess: 𝙈𝙄𝙇𝙋𝘼, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 4.5236 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 1.0, 'actual_info_gain': 4.523561956057013, 'expected_info_gain': 4.176297424512728}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('APPLY', '1.000'), ('APTLY', '1.000')]
+Top entropy choice: 𝘼𝙋𝙋𝙇𝙔 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘼𝙋𝙋𝙇𝙔 with entropy: 1.0000
+GUESS: APPLY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 4.425 bits, Posterior Entropy: 5.524, 
+Guess: 𝙈𝙄𝙇𝙋𝘼, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 5.524, Expected Info Gain: 4.176 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙋𝙋𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙋𝙋𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.6630 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 4.662965012722429, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+39 candidate words remaining.
+Top 5 guesses: [('PYGAL', '4.580'), ('AMPUL', '4.497'), ('BULGY', '4.426'), ('ALMUG', '4.417'), ('ALGUM', '4.385')]
+Top entropy choice: 𝙋𝙔𝙂𝘼𝙇 with entropy: 4.5800
+Guess count low, choosing the word with highest entropy: 𝙋𝙔𝙂𝘼𝙇 with entropy: 4.5800
+GUESS: PYGAL
+
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 4.2854 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.285402218862249, 'posterior_entropy': 1.0, 'actual_info_gain': 4.285402218862249, 'expected_info_gain': 4.580023372597455}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('AMPLY', '1.000'), ('APPLY', '1.000')]
+Top entropy choice: 𝘼𝙈𝙋𝙇𝙔 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙈𝙋𝙇𝙔 with entropy: 1.0000
+GUESS: AMPLY
+
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 4.580023372597455}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('APPLY', '0.000')]
+Top entropy choice: 𝘼𝙋𝙋𝙇𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙋𝙋𝙇𝙔 with entropy: 0.0000
+GUESS: APPLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 4.663 bits, Posterior Entropy: 5.285, 
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 5.285, Expected Info Gain: 4.580 bits, Actual Info Gain: 4.285 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 4.580 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙋𝙋𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

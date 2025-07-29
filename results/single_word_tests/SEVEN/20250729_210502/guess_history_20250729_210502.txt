@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙀𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟩⬜
+Guess: 𝙈𝙐𝙎𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙋𝙔𝙉𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙎𝙀𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙀𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 5.022 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙀𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 5.022 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙀𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 7.827, Expected Info Gain: 4.072 bits, Actual Info Gain: 5.827 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙀𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜🟩🟨🟨🟨, Prior Entropy: 7.827, Expected Info Gain: 4.682 bits, Actual Info Gain: 5.505 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙊𝙈𝙔𝙉, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙀𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

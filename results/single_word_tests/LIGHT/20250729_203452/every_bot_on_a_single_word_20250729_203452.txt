@@ -1,0 +1,269 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙄𝙂𝙃𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: UNITY 
+The top ten guesses and scores: [('UNITY', 1680), ('PIYUT', 1598), ('UNLIT', 1594), ('UNTIL', 1594), ('LINTY', 1571), ('UNIFY', 1547), ('BUYIN', 1542), ('CUNIT', 1537), ('CUTIN', 1537), ('INCUT', 1537)]
+The bot finally chose: UNITY 
+GUESS: UNITY
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: GITCH 
+The top ten guesses and scores: [('GITCH', 132), ('MICHT', 127), ('MITCH', 127), ('DICHT', 126), ('DITCH', 126), ('LICHT', 124), ('MIGHT', 124), ('PITCH', 124), ('DIGHT', 123), ('FITCH', 123)]
+The bot finally chose: MITCH 
+GUESS: MITCH
+Guess: 𝙈𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: BIGHT 
+The top ten guesses and scores: [('BIGHT', 39), ('DIGHT', 39), ('FIGHT', 39), ('KIGHT', 39), ('LIGHT', 39), ('PIGHT', 39), ('WIGHT', 39), ('HIGHT', 38), ('TIGHT', 38)]
+The bot finally chose: BIGHT 
+GUESS: BIGHT
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DIGHT 
+The top ten guesses and scores: [('DIGHT', 35), ('FIGHT', 35), ('KIGHT', 35), ('LIGHT', 35), ('PIGHT', 35), ('WIGHT', 35), ('HIGHT', 34), ('TIGHT', 34)]
+The bot finally chose: FIGHT 
+GUESS: FIGHT
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DIGHT 
+The top ten guesses and scores: [('DIGHT', 31), ('KIGHT', 31), ('LIGHT', 31), ('PIGHT', 31), ('WIGHT', 31), ('HIGHT', 30), ('TIGHT', 30)]
+The bot finally chose: LIGHT 
+GUESS: LIGHT
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙈𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟨⬜🟨
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙄𝙂𝙃𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.2918 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 5.2917661243771095, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILT with entropy: 4.4182
+Bot chose: GUILT with entropy: 4.4182
+Top ten guesses: [('GUILT', 4.418157288156418), ('BUILT', 4.349191770915039), ('QUILT', 4.004364184708142), ('GUILD', 3.82783261647491), ('BUILD', 3.810928306279287), ('GLIFT', 3.762310736133871), ('THILL', 3.7454064259382482), ('TWILL', 3.7454064259382482), ('TWILT', 3.663870978469273), ('LIGHT', 3.6335059949783677)]
+GUESS: GUILT
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨⬜🟨🟨🟩
+Actual Info Gain: 4.8580 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 0.0, 'actual_info_gain': 4.857980995127572, 'expected_info_gain': 4.418157288156418}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIGHT with entropy: 0.0000
+Bot chose: LIGHT with entropy: 0.0000
+Top ten guesses: [('LIGHT', 0.0)]
+GUESS: LIGHT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.292 bitsPosterior Entropy: 4.858, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.858, Expected Info Gain: 4.418 bits, Actual Info Gain: 4.858 bitsPosterior Entropy: 0.000, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙄𝙂𝙃𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.2918 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 5.2917661243771095, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILT with entropy: 4.4182
+Bot chose: GUILT with entropy: 4.4182
+Top ten guesses: [('GUILT', 4.418157288156418), ('BUILT', 4.349191770915039), ('QUILT', 4.004364184708142), ('GUILD', 3.82783261647491), ('BUILD', 3.810928306279287), ('GLIFT', 3.762310736133871), ('THILL', 3.7454064259382482), ('TWILL', 3.7454064259382482), ('TWILT', 3.663870978469273), ('LIGHT', 3.6335059949783677)]
+GUESS: GUILT
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨⬜🟨🟨🟩
+Actual Info Gain: 4.8580 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 0.0, 'actual_info_gain': 4.857980995127572, 'expected_info_gain': 4.418157288156418}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIGHT with entropy: 0.0000
+Bot chose: LIGHT with entropy: 0.0000
+Top ten guesses: [('LIGHT', 0.0)]
+GUESS: LIGHT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.292 bitsPosterior Entropy: 4.858, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.858, Expected Info Gain: 4.418 bits, Actual Info Gain: 4.858 bitsPosterior Entropy: 0.000, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙄𝙂𝙃𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 664 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.626'), ('CULTY', '5.568'), ('CLINT', '5.536'), ('CUTIN', '5.478'), ('CLIPT', '5.399')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.6263
+Ended up choosing COMMON word: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.5355
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 7.7901 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 7.790076930625769, 'expected_info_gain': 5.535549212492506}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('LIGHT', '1.585'), ('LIMIT', '1.585'), ('UPLIT', '1.585')]
+Top entropy choice: 𝙇𝙄𝙂𝙃𝙏 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 1.5850
+GUESS: LIGHT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bitsPosterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 7.790 bitsPosterior Entropy: 1.585, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙄𝙂𝙃𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+664 candidate words remaining.
+Top 5 guesses: [('LINTY', '5.686'), ('CUNIT', '5.626'), ('MINTY', '5.599'), ('PUNTY', '5.583'), ('MILTY', '5.572')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+GUESS: LINTY
+
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 7.3750 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 2.0, 'actual_info_gain': 7.375039431346925, 'expected_info_gain': 5.685970316525066}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('ACAIS', '2.000'), ('ACCHA', '2.000'), ('ACHAR', '2.000'), ('ACHED', '2.000'), ('ACHER', '2.000')]
+Top entropy choice: 𝘼𝘾𝘼𝙄𝙎 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝘾𝘼𝙄𝙎 with entropy: 2.0000
+GUESS: ACAIS
+
+Guess: 𝘼𝘾𝘼𝙄𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('LIGHT', '0.000')]
+Top entropy choice: 𝙇𝙄𝙂𝙃𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 0.0000
+GUESS: LIGHT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bitsPosterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 7.375 bitsPosterior Entropy: 2.000, 
+Guess: 𝘼𝘾𝘼𝙄𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

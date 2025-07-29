@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TACHI 
+The top ten guesses and scores: [('TACHI', 305), ('TAKHI', 305), ('THAIM', 300), ('PAHIT', 297), ('BAITH', 294), ('HABIT', 294), ('HAICK', 292), ('THAGI', 292), ('DIACT', 290), ('DICTA', 290)]
+The bot finally chose: HABIT 
+GUESS: HABIT
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟨🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: FAITH 
+The top ten guesses and scores: [('FAITH', 13), ('TACHI', 13), ('TAKHI', 13)]
+The bot finally chose: FAITH 
+GUESS: FAITH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟨🟩⬜🟨🟨
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 6.4540 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 6.453956488571146, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAITH with entropy: 3.0221
+Bot chose: LAITY with entropy: 2.7516
+Top ten guesses: [('LAITH', 3.0220552088742), ('LATHI', 3.0220552088742), ('BALTI', 2.8553885422075336), ('LAITY', 2.751629167387823), ('BAITH', 2.688721875540867), ('HAITH', 2.625814583693911), ('HATHI', 2.625814583693911), ('FAITH', 2.4591479170272446), ('GAITT', 2.2841591278514217), ('KATTI', 2.2841591278514217)]
+GUESS: LAITY
+
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.751629167387823}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BAITH with entropy: 1.5000
+Bot chose: FAITH with entropy: 1.5000
+Top ten guesses: [('BAITH', 1.5), ('FAITH', 1.5), ('HAITH', 1.5), ('GAITT', 0.8112781244591328)]
+GUESS: FAITH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.454 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 6.4540 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 6.453956488571146, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAITH with entropy: 3.0221
+Bot chose: LAITY with entropy: 2.7516
+Top ten guesses: [('LAITH', 3.0220552088742), ('LATHI', 3.0220552088742), ('BALTI', 2.8553885422075336), ('LAITY', 2.751629167387823), ('BAITH', 2.688721875540867), ('HAITH', 2.625814583693911), ('HATHI', 2.625814583693911), ('FAITH', 2.4591479170272446), ('GAITT', 2.2841591278514217), ('KATTI', 2.2841591278514217)]
+GUESS: LAITY
+
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.751629167387823}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BAITH with entropy: 1.5000
+Bot chose: FAITH with entropy: 1.5000
+Top ten guesses: [('BAITH', 1.5), ('FAITH', 1.5), ('HAITH', 1.5), ('GAITT', 0.8112781244591328)]
+GUESS: FAITH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.454 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.1410 bits
+Posterior entropy: 6.807354922057604
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.807354922057604, 'actual_info_gain': 3.141012309527074, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 211 potential guesses from 112 remaining candidates...
+Top 5 guesses: [('MIGHT', '4.292'), ('DAMPY', '3.903'), ('PAMBY', '3.830'), ('MAUBY', '3.792'), ('TABID', '3.758')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 5.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.222392421336448, 'expected_info_gain': 4.291800071176598}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BAITH', '0.918'), ('FAITH', '0.918'), ('HAITH', '0.918')]
+Top entropy choice: 𝘽𝘼𝙄𝙏𝙃 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙁𝘼𝙄𝙏𝙃 with entropy: 0.9183
+GUESS: FAITH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.141 bits, Posterior Entropy: 6.807, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 6.807, Expected Info Gain: 4.292 bits, Actual Info Gain: 5.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 6.3634 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 6.363404730863522, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+12 candidate words remaining.
+Top 5 guesses: [('FELCH', '3.252'), ('FILCH', '3.252'), ('FLITT', '3.252'), ('WHILK', '3.189'), ('HAILS', '3.085')]
+Top entropy choice: 𝙁𝙀𝙇𝘾𝙃 with entropy: 3.2516
+Guess count low, choosing the word with highest entropy: 𝙁𝙀𝙇𝘾𝙃 with entropy: 3.2516
+GUESS: FELCH
+
+Guess: 𝙁𝙀𝙇𝘾𝙃, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 3.2516291673878226}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('FAITH', '0.000')]
+Top entropy choice: 𝙁𝘼𝙄𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝘼𝙄𝙏𝙃 with entropy: 0.0000
+GUESS: FAITH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 6.363 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙀𝙇𝘾𝙃, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 3.252 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

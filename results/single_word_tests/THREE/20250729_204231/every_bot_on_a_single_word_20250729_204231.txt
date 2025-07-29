@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: INURE 
+The top ten guesses and scores: [('INURE', 411), ('CURIE', 406), ('NITRE', 406), ('RUICE', 406), ('NIGRE', 400), ('RINCE', 400), ('RINGE', 400), ('LITRE', 399), ('MITRE', 399), ('RITHE', 399)]
+The bot finally chose: CURIE 
+GUESS: CURIE
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: NERVE 
+The top ten guesses and scores: [('NERVE', 85), ('VERGE', 85), ('VERTE', 85), ('PERVE', 83), ('KERVE', 82), ('VERDE', 82), ('GERNE', 81), ('TERNE', 81), ('MERGE', 80), ('VERRE', 80)]
+The bot finally chose: NERVE 
+GUESS: NERVE
+Guess: 𝙉𝙀𝙍𝙑𝙀, Feedback: ⬜🟨🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: THREE 
+The top ten guesses and scores: [('THREE', 5)]
+The bot finally chose: THREE 
+GUESS: THREE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝙉𝙀𝙍𝙑𝙀, Feedback: ⬜🟨🟩⬜🟩
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 4.6881 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 4.688055993685261, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRINE with entropy: 3.1699
+Bot chose: ENTRE with entropy: 2.9966
+Top ten guesses: [('TRINE', 3.169925001442312), ('NITRE', 3.016875695766564), ('ENTRE', 2.996624141510993), ('TRICE', 2.905764584655453), ('METRE', 2.7799500009615414), ('TRIBE', 2.7052290027422967), ('TRIDE', 2.7052290027422967), ('TRIKE', 2.7052290027422967), ('TERNE', 2.7029043371886066), ('TERRE', 2.6688388898504303)]
+GUESS: ENTRE
+
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.996624141510993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERCE with entropy: 1.5850
+Bot chose: THREE with entropy: 0.9183
+Top ten guesses: [('TERCE', 1.584962500721156), ('TERFE', 1.584962500721156), ('THREE', 0.9182958340544896)]
+GUESS: THREE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.688 bits, Posterior Entropy: 4.170, 
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.170, Expected Info Gain: 2.997 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 4.6881 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 4.688055993685261, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRINE with entropy: 3.1699
+Bot chose: ENTRE with entropy: 2.9966
+Top ten guesses: [('TRINE', 3.169925001442312), ('NITRE', 3.016875695766564), ('ENTRE', 2.996624141510993), ('TRICE', 2.905764584655453), ('METRE', 2.7799500009615414), ('TRIBE', 2.7052290027422967), ('TRIDE', 2.7052290027422967), ('TRIKE', 2.7052290027422967), ('TERNE', 2.7029043371886066), ('TERRE', 2.6688388898504303)]
+GUESS: ENTRE
+
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.996624141510993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERCE with entropy: 1.5850
+Bot chose: THREE with entropy: 0.9183
+Top ten guesses: [('TERCE', 1.584962500721156), ('TERFE', 1.584962500721156), ('THREE', 0.9182958340544896)]
+GUESS: THREE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.688 bits, Posterior Entropy: 4.170, 
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.170, Expected Info Gain: 2.997 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 6.6492 bits
+Posterior entropy: 7.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.20945336562895, 'actual_info_gain': 6.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 247 potential guesses from 148 remaining candidates...
+Top 5 guesses: [('BEING', '4.020'), ('BRING', '3.903'), ('RUICE', '3.874'), ('REINE', '3.848'), ('REGIE', '3.836')]
+Top entropy choice: 𝘽𝙀𝙄𝙉𝙂 with entropy: 4.0198
+Ended up choosing COMMON word: 𝘽𝙀𝙄𝙉𝙂 with entropy: 4.0198
+GUESS: BEING
+
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 2.5090 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 7.20945336562895, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 2.5090136474878584, 'expected_info_gain': 4.01982215677981}
+----------
+The bot is making a guess...
+Evaluating 26 potential guesses from 26 remaining candidates...
+Top 5 guesses: [('CREPE', '3.637'), ('CREME', '3.507'), ('RUPEE', '3.507'), ('PREVE', '3.502'), ('TRUCE', '3.475')]
+Top entropy choice: 𝘾𝙍𝙀𝙋𝙀 with entropy: 3.6369
+Ended up choosing COMMON word: 𝘾𝙍𝙀𝙋𝙀 with entropy: 3.6369
+GUESS: CREPE
+
+Guess: 𝘾𝙍𝙀𝙋𝙀, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 3.636921085279429}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THREE', '0.000')]
+Top entropy choice: 𝙏𝙃𝙍𝙀𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙍𝙀𝙀 with entropy: 0.0000
+GUESS: THREE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.020 bits, Actual Info Gain: 2.509 bits, Posterior Entropy: 4.700, 
+Guess: 𝘾𝙍𝙀𝙋𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 3.637 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 6.6492 bits
+Posterior entropy: 7.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.20945336562895, 'actual_info_gain': 6.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+148 candidate words remaining.
+Top 5 guesses: [('CUING', '4.341'), ('RUING', '4.270'), ('RUNIC', '4.165'), ('REIGN', '4.159'), ('CUNIT', '4.157')]
+Top entropy choice: 𝘾𝙐𝙄𝙉𝙂 with entropy: 4.3410
+Guess count low, choosing the word with highest entropy: 𝘾𝙐𝙄𝙉𝙂 with entropy: 4.3410
+GUESS: CUING
+
+Guess: 𝘾𝙐𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.4021 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 7.20945336562895, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 2.4020984435713464, 'expected_info_gain': 4.341027052578389}
+----------
+The bot is making a guess...
+28 candidate words remaining.
+Top 5 guesses: [('PERVY', '3.638'), ('VEHME', '3.601'), ('MEVED', '3.550'), ('VERDE', '3.536'), ('PERMY', '3.509')]
+Top entropy choice: 𝙋𝙀𝙍𝙑𝙔 with entropy: 3.6375
+Guess count low, choosing the word with highest entropy: 𝙋𝙀𝙍𝙑𝙔 with entropy: 3.6375
+GUESS: PERVY
+
+Guess: 𝙋𝙀𝙍𝙑𝙔, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 4.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 4.807354922057604, 'expected_info_gain': 3.6375375112660517}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('THREE', '0.000')]
+Top entropy choice: 𝙏𝙃𝙍𝙀𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙍𝙀𝙀 with entropy: 0.0000
+GUESS: THREE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘾𝙐𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.341 bits, Actual Info Gain: 2.402 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙀𝙍𝙑𝙔, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.638 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

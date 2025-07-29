@@ -1,0 +1,274 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙀𝙂𝘼𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DEALT 
+The top ten guesses and scores: [('DEALT', 1214), ('DELTA', 1214), ('LATED', 1214), ('ELAND', 1213), ('LADEN', 1213), ('LANED', 1213), ('NALED', 1213), ('LAMED', 1186), ('MEDAL', 1186), ('DECAL', 1176)]
+The bot finally chose: DEALT 
+GUESS: DEALT
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LEMAN 
+The top ten guesses and scores: [('LEMAN', 85), ('MELBA', 84), ('PELMA', 83), ('HEMAL', 82), ('FEMAL', 81), ('PENAL', 80), ('GENAL', 79), ('LEMMA', 79), ('MELAM', 79), ('BELAH', 78)]
+The bot finally chose: PENAL 
+GUESS: PENAL
+Guess: 𝙋𝙀𝙉𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FECAL 
+The top ten guesses and scores: [('FECAL', 21), ('FEMAL', 20), ('CECAL', 19), ('HEMAL', 19), ('LEGAL', 17)]
+The bot finally chose: FECAL 
+GUESS: FECAL
+Guess: 𝙁𝙀𝘾𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: HEMAL 
+The top ten guesses and scores: [('HEMAL', 9), ('LEGAL', 8)]
+The bot finally chose: LEGAL 
+GUESS: LEGAL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝙋𝙀𝙉𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙀𝘾𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙀𝙂𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙀𝙂𝘼𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENAL with entropy: 4.0739
+Bot chose: MEDAL with entropy: 3.7831
+Top ten guesses: [('GENAL', 4.07390545068917), ('MENAD', 3.8697450538166036), ('DEMAN', 3.818758481363967), ('MEDAL', 3.7830593314569017), ('LEMAN', 3.7681276611904786), ('VENAL', 3.7384546060358956), ('METAL', 3.667071404269894), ('DECAL', 3.649284583135702), ('BEGAN', 3.6332280559892083), ('DECAN', 3.6052569085308495)]
+GUESS: MEDAL
+
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.459431618637297, 'expected_info_gain': 3.7830593314569017}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENAL with entropy: 2.1281
+Bot chose: GENAL with entropy: 2.1281
+Top ten guesses: [('GENAL', 2.1280852788913944), ('VENAL', 1.6644977792004614), ('FECAL', 1.664497779200461), ('NEXAL', 1.3787834934861753), ('CECAL', 1.1488348542809166), ('FETAL', 1.1488348542809166), ('LEGAL', 1.1488348542809166)]
+GUESS: GENAL
+
+Guess: 𝙂𝙀𝙉𝘼𝙇, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEGAL with entropy: 0.0000
+Bot chose: LEGAL with entropy: 0.0000
+Top ten guesses: [('LEGAL', 0.0)]
+GUESS: LEGAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.267, Expected Info Gain: 3.783 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.807, 
+Guess: 𝙂𝙀𝙉𝘼𝙇, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙂𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙂𝘼𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENAL with entropy: 4.0739
+Bot chose: MEDAL with entropy: 3.7831
+Top ten guesses: [('GENAL', 4.07390545068917), ('MENAD', 3.8697450538166036), ('DEMAN', 3.818758481363967), ('MEDAL', 3.7830593314569017), ('LEMAN', 3.7681276611904786), ('VENAL', 3.7384546060358956), ('METAL', 3.667071404269894), ('DECAL', 3.649284583135702), ('BEGAN', 3.6332280559892083), ('DECAN', 3.6052569085308495)]
+GUESS: MEDAL
+
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.459431618637297, 'expected_info_gain': 3.7830593314569017}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENAL with entropy: 2.1281
+Bot chose: GENAL with entropy: 2.1281
+Top ten guesses: [('GENAL', 2.1280852788913944), ('VENAL', 1.6644977792004614), ('FECAL', 1.664497779200461), ('NEXAL', 1.3787834934861753), ('CECAL', 1.1488348542809166), ('FETAL', 1.1488348542809166), ('LEGAL', 1.1488348542809166)]
+GUESS: GENAL
+
+Guess: 𝙂𝙀𝙉𝘼𝙇, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEGAL with entropy: 0.0000
+Bot chose: LEGAL with entropy: 0.0000
+Top ten guesses: [('LEGAL', 0.0)]
+GUESS: LEGAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.267, Expected Info Gain: 3.783 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.807, 
+Guess: 𝙂𝙀𝙉𝘼𝙇, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙂𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙂𝘼𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 494 potential guesses from 407 remaining candidates...
+Top 5 guesses: [('LANED', '4.613'), ('LADEN', '4.596'), ('LATEN', '4.510'), ('LATED', '4.508'), ('LAMED', '4.431')]
+Top entropy choice: 𝙇𝘼𝙉𝙀𝘿 with entropy: 4.6130
+Ended up choosing COMMON word: 𝙇𝘼𝘿𝙀𝙉 with entropy: 4.5961
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 6.0839 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.083922483545091, 'expected_info_gain': 4.596051774874372}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('LEPAK', '1.792'), ('LEPTA', '1.792'), ('LEHUA', '1.459'), ('LEMMA', '1.459'), ('LEZZA', '1.459')]
+Top entropy choice: 𝙇𝙀𝙋𝘼𝙆 with entropy: 1.7925
+Ended up choosing COMMON word: 𝙇𝙀𝙈𝙈𝘼 with entropy: 1.4591
+GUESS: LEMMA
+
+Guess: 𝙇𝙀𝙈𝙈𝘼, Feedback: 🟩🟩⬜⬜🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.4591479170272448}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('LEGAL', '1.000'), ('LEPAK', '1.000')]
+Top entropy choice: 𝙇𝙀𝙂𝘼𝙇 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙇𝙀𝙂𝘼𝙇 with entropy: 1.0000
+GUESS: LEGAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 6.084 bits, Posterior Entropy: 2.585, 
+Guess: 𝙇𝙀𝙈𝙈𝘼, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙀𝙂𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙂𝘼𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+407 candidate words remaining.
+Top 5 guesses: [('DATAL', '4.794'), ('NATAL', '4.752'), ('MADAL', '4.731'), ('CANAL', '4.672'), ('DAMAN', '4.641')]
+Top entropy choice: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+GUESS: DATAL
+
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 4.9684 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 4.968445266125155, 'expected_info_gain': 4.794133113193984}
+----------
+The bot is making a guess...
+13 candidate words remaining.
+Top 5 guesses: [('NEIGH', '3.027'), ('CHING', '2.969'), ('CLUNG', '2.969'), ('FUNGI', '2.873'), ('GENIC', '2.873')]
+Top entropy choice: 𝙉𝙀𝙄𝙂𝙃 with entropy: 3.0270
+Guess count low, choosing the word with highest entropy: 𝙉𝙀𝙄𝙂𝙃 with entropy: 3.0270
+GUESS: NEIGH
+
+Guess: 𝙉𝙀𝙄𝙂𝙃, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.0269868333592873}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('LEGAL', '0.000')]
+Top entropy choice: 𝙇𝙀𝙂𝘼𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝙀𝙂𝘼𝙇 with entropy: 0.0000
+GUESS: LEGAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.968 bits, Posterior Entropy: 3.700, 
+Guess: 𝙉𝙀𝙄𝙂𝙃, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙂𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

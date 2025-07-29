@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝙄𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜⬜
+Guess: 𝙏𝙍𝘼𝙄𝙉, Feedback: 🟩🟩🟨🟨⬜
+Guess: 𝙏𝙍𝙄𝘼𝘿, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙏𝙍𝙄𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝙄𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.265 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙍𝙂𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙍𝙄𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙄𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.265 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙍𝙂𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙍𝙄𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙄𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 4.585, 
+Guess: 𝙏𝙍𝙄𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙄𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 4.585, 
+Guess: 𝘾𝙄𝙏𝘼𝙇, Feedback: ⬜🟨🟨🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 3.601 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙄𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,251 @@
+Testing bot: WordleBot
+___ Testing word: 𝙄𝙉𝘿𝙄𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟩🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: INAPT 
+The top ten guesses and scores: [('INAPT', 9), ('INDIA', 8)]
+The bot finally chose: INAPT 
+GUESS: INAPT
+Guess: 𝙄𝙉𝘼𝙋𝙏, Feedback: 🟩🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: INDIA 
+The top ten guesses and scores: [('INDIA', 5)]
+The bot finally chose: INDIA 
+GUESS: INDIA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟩🟩⬜🟨⬜
+Guess: 𝙄𝙉𝘼𝙋𝙏, Feedback: 🟩🟩🟨⬜⬜
+Guess: 𝙄𝙉𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙄𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 8.0389 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 2.0, 'actual_info_gain': 8.038918989292302, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NUBIA with entropy: 2.0000
+Bot chose: NUBIA with entropy: 2.0000
+Top ten guesses: [('NUBIA', 2.0), ('UNCIA', 2.0), ('INDIA', 1.5), ('NOVIA', 1.5)]
+GUESS: NUBIA
+
+Guess: 𝙉𝙐𝘽𝙄𝘼, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: INDIA with entropy: 0.0000
+Bot chose: INDIA with entropy: 0.0000
+Top ten guesses: [('INDIA', 0.0)]
+GUESS: INDIA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 8.039 bits, Posterior Entropy: 2.000, 
+Guess: 𝙉𝙐𝘽𝙄𝘼, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝙉𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙄𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 8.0389 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 2.0, 'actual_info_gain': 8.038918989292302, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NUBIA with entropy: 2.0000
+Bot chose: NUBIA with entropy: 2.0000
+Top ten guesses: [('NUBIA', 2.0), ('UNCIA', 2.0), ('INDIA', 1.5), ('NOVIA', 1.5)]
+GUESS: NUBIA
+
+Guess: 𝙉𝙐𝘽𝙄𝘼, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: INDIA with entropy: 0.0000
+Bot chose: INDIA with entropy: 0.0000
+Top ten guesses: [('INDIA', 0.0)]
+GUESS: INDIA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 8.039 bits, Posterior Entropy: 2.000, 
+Guess: 𝙉𝙐𝘽𝙄𝘼, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝙉𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙄𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.2479 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 5.247927513443586, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 26 potential guesses from 26 remaining candidates...
+Top 5 guesses: [('HUDNA', '3.946'), ('AHIND', '3.639'), ('TUINA', '3.608'), ('AHINT', '3.562'), ('AKING', '3.504')]
+Top entropy choice: 𝙃𝙐𝘿𝙉𝘼 with entropy: 3.9462
+GUESS: HUDNA
+
+Guess: 𝙃𝙐𝘿𝙉𝘼, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 3.9462227768165983}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('INDIA', '0.000')]
+Top entropy choice: 𝙄𝙉𝘿𝙄𝘼 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙄𝙉𝘿𝙄𝘼 with entropy: 0.0000
+GUESS: INDIA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 5.248 bits, Posterior Entropy: 4.700, 
+Guess: 𝙃𝙐𝘿𝙉𝘼, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 4.700, Expected Info Gain: 3.946 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝙉𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙄𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 8.3634 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 8.363404730863522, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('INDIA', '1.585'), ('NUBIA', '1.585'), ('UNCIA', '1.585')]
+Top entropy choice: 𝙄𝙉𝘿𝙄𝘼 with entropy: 1.5850
+Guess count low, choosing the word with highest entropy: 𝙄𝙉𝘿𝙄𝘼 with entropy: 1.5850
+GUESS: INDIA
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 8.363 bits, Posterior Entropy: 1.585, 
+Guess: 𝙄𝙉𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

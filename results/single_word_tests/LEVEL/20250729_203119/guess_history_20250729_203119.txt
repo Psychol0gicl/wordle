@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙀𝙑𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙇𝙀𝙑𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙀𝙑𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bitsPosterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 8.669 bitsPosterior Entropy: 1.585, 
+Guess: 𝙇𝙀𝙑𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙑𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bitsPosterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 8.669 bitsPosterior Entropy: 1.585, 
+Guess: 𝙇𝙀𝙑𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙑𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bitsPosterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 5.517 bitsPosterior Entropy: 3.907, 
+Guess: 𝘽𝙀𝙑𝙀𝙇, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 3.140 bits, Actual Info Gain: 2.322 bitsPosterior Entropy: 1.585, 
+Guess: 𝙇𝙀𝙑𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙑𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bitsPosterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.295 bitsPosterior Entropy: 5.129, 
+Guess: 𝙉𝙀𝘽𝙀𝙆, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 5.129, Expected Info Gain: 3.715 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 2.322, 
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 3.715 bits, Actual Info Gain: 2.322 bitsPosterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙑𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

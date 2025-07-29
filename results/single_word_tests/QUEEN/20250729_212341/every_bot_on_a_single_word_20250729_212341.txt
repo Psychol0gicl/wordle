@@ -1,0 +1,265 @@
+Testing bot: WordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ELDIN 
+The top ten guesses and scores: [('ELDIN', 1888), ('LINED', 1888), ('LITED', 1886), ('TILED', 1886), ('YIELD', 1851), ('IDENT', 1840), ('TEIND', 1840), ('TINED', 1840), ('ELINT', 1806), ('ENLIT', 1806)]
+The bot finally chose: LINED 
+GUESS: LINED
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: UNMEW 
+The top ten guesses and scores: [('UNMEW', 71), ('UNWET', 71), ('UNMET', 70), ('UNKET', 68), ('UNGET', 67), ('UNKEY', 67), ('NUMEN', 65), ('UNPEG', 64), ('HYMEN', 62), ('UNPEN', 62)]
+The bot finally chose: UNMET 
+GUESS: UNMET
+Guess: 𝙐𝙉𝙈𝙀𝙏, Feedback: 🟨🟨⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: QUEEN 
+The top ten guesses and scores: [('QUEEN', 5)]
+The bot finally chose: QUEEN 
+GUESS: QUEEN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙐𝙉𝙈𝙀𝙏, Feedback: 🟨🟨⬜🟩⬜
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.4923 bits
+Posterior entropy: 7.366322214245816
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.366322214245816, 'actual_info_gain': 6.492338770476961, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NEELD with entropy: 4.3948
+Bot chose: TEENY with entropy: 4.2487
+Top ten guesses: [('NEELD', 4.394760467937193), ('TEEND', 4.383913143113506), ('ELEET', 4.271871263733658), ('NEELE', 4.25922011430165), ('TEENE', 4.250028512815247), ('TEENY', 4.248673076092933), ('FLEET', 4.238032519285317), ('GLEET', 4.195565824188181), ('ELECT', 4.191590254748579), ('THEED', 4.174168858457817)]
+GUESS: TEENY
+
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.366322214245816, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 4.248673076092933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MNEME with entropy: 2.1972
+Bot chose: KNEEL with entropy: 2.0588
+Top ten guesses: [('MNEME', 2.197159723424149), ('KNEED', 2.0588138903312014), ('KNEEL', 2.0588138903312014), ('NIECE', 2.058813890331201), ('NIEVE', 2.058813890331201), ('NGEGE', 1.7527152789797045), ('NOEME', 1.7527152789797045), ('QUEEN', 1.6577427265048887), ('WHEEN', 1.6577427265048887)]
+GUESS: KNEEL
+
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.0588138903312014}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUEEN with entropy: 1.0000
+Bot chose: QUEEN with entropy: 1.0000
+Top ten guesses: [('QUEEN', 1.0), ('WHEEN', 1.0)]
+GUESS: QUEEN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 3.170, 
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.4923 bits
+Posterior entropy: 7.366322214245816
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.366322214245816, 'actual_info_gain': 6.492338770476961, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NEELD with entropy: 4.3948
+Bot chose: TEENY with entropy: 4.2487
+Top ten guesses: [('NEELD', 4.394760467937193), ('TEEND', 4.383913143113506), ('ELEET', 4.271871263733658), ('NEELE', 4.25922011430165), ('TEENE', 4.250028512815247), ('TEENY', 4.248673076092933), ('FLEET', 4.238032519285317), ('GLEET', 4.195565824188181), ('ELECT', 4.191590254748579), ('THEED', 4.174168858457817)]
+GUESS: TEENY
+
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.366322214245816, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 4.248673076092933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MNEME with entropy: 2.1972
+Bot chose: KNEEL with entropy: 2.0588
+Top ten guesses: [('MNEME', 2.197159723424149), ('KNEED', 2.0588138903312014), ('KNEEL', 2.0588138903312014), ('NIECE', 2.058813890331201), ('NIEVE', 2.058813890331201), ('NGEGE', 1.7527152789797045), ('NOEME', 1.7527152789797045), ('QUEEN', 1.6577427265048887), ('WHEEN', 1.6577427265048887)]
+GUESS: KNEEL
+
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.0588138903312014}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUEEN with entropy: 1.0000
+Bot chose: QUEEN with entropy: 1.0000
+Top ten guesses: [('QUEEN', 1.0), ('WHEEN', 1.0)]
+GUESS: QUEEN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 3.170, 
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 493 potential guesses from 687 remaining candidates...
+Top 5 guesses: [('DENET', '5.429'), ('DEELY', '5.174'), ('BILED', '5.141'), ('DEBEL', '5.128'), ('HELED', '5.121')]
+Top entropy choice: 𝘿𝙀𝙉𝙀𝙏 with entropy: 5.4293
+GUESS: DENET
+
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 6.8392 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.839203788096944, 'expected_info_gain': 5.42929232433715}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('ENMEW', '2.585'), ('ELMEN', '2.252'), ('ELVEN', '2.252'), ('QUEEN', '2.252'), ('WHEEN', '2.252')]
+Top entropy choice: 𝙀𝙉𝙈𝙀𝙒 with entropy: 2.5850
+Ended up choosing COMMON word: 𝙀𝙇𝙑𝙀𝙉 with entropy: 2.2516
+GUESS: ELVEN
+
+Guess: 𝙀𝙇𝙑𝙀𝙉, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('QUEEN', '1.000'), ('WHEEN', '1.000')]
+Top entropy choice: 𝙌𝙐𝙀𝙀𝙉 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙌𝙐𝙀𝙀𝙉 with entropy: 1.0000
+GUESS: QUEEN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 6.839 bits, Posterior Entropy: 2.585, 
+Guess: 𝙀𝙇𝙑𝙀𝙉, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+687 candidate words remaining.
+Top 5 guesses: [('TILED', '5.435'), ('DENET', '5.429'), ('LINTY', '5.360'), ('LINED', '5.339'), ('LITED', '5.336')]
+Top entropy choice: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+Guess count low, choosing the word with highest entropy: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+GUESS: TILED
+
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.4700 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 4.469969978431225, 'expected_info_gain': 5.43464172370874}
+----------
+The bot is making a guess...
+31 candidate words remaining.
+Top 5 guesses: [('ENEMY', '4.131'), ('MUNCH', '3.978'), ('YEWEN', '3.954'), ('CUMIN', '3.950'), ('HEBEN', '3.938')]
+Top entropy choice: 𝙀𝙉𝙀𝙈𝙔 with entropy: 4.1313
+Guess count low, choosing the word with highest entropy: 𝙀𝙉𝙀𝙈𝙔 with entropy: 4.1313
+GUESS: ENEMY
+
+Guess: 𝙀𝙉𝙀𝙈𝙔, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 3.9542 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.0, 'actual_info_gain': 3.954196310386875, 'expected_info_gain': 4.1313003425053605}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('QUEEN', '1.000'), ('WHEEN', '1.000')]
+Top entropy choice: 𝙌𝙐𝙀𝙀𝙉 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙌𝙐𝙀𝙀𝙉 with entropy: 1.0000
+GUESS: QUEEN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.470 bits, Posterior Entropy: 4.954, 
+Guess: 𝙀𝙉𝙀𝙈𝙔, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 4.131 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

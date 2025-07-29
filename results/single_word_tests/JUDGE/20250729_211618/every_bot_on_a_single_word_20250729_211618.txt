@@ -1,0 +1,353 @@
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙐𝘿𝙂𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: TUILE 
+The top ten guesses and scores: [('TUILE', 1012), ('UTILE', 1012), ('UNITE', 1005), ('UNTIE', 1005), ('INGLE', 998), ('LIGNE', 998), ('GUILE', 991), ('CLINE', 979), ('INCLE', 979), ('MULIE', 977)]
+The bot finally chose: UNITE 
+GUESS: UNITE
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BLUDE 
+The top ten guesses and scores: [('BLUDE', 127), ('BUGLE', 127), ('BULGE', 127), ('BLUME', 126), ('GLUME', 126), ('FUGLE', 123), ('FLUME', 122), ('BUDGE', 121), ('MUDGE', 120), ('DULCE', 119)]
+The bot finally chose: BUGLE 
+GUESS: BUGLE
+Guess: 𝘽𝙐𝙂𝙇𝙀, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: FUDGE 
+The top ten guesses and scores: [('FUDGE', 17), ('JUDGE', 17), ('MUDGE', 17), ('PUDGE', 17)]
+The bot finally chose: FUDGE 
+GUESS: FUDGE
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: JUDGE 
+The top ten guesses and scores: [('JUDGE', 13), ('MUDGE', 13), ('PUDGE', 13)]
+The bot finally chose: JUDGE 
+GUESS: JUDGE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝘽𝙐𝙂𝙇𝙀, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙅𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙐𝘿𝙂𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.2538 bits
+Posterior entropy: 6.0
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.0, 'actual_info_gain': 4.2538474849874035, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUTIE with entropy: 4.1564
+Bot chose: CUTIE with entropy: 4.1564
+Top ten guesses: [('CUTIE', 4.156406003080203), ('KITHE', 4.02758504261884), ('MITIE', 4.000406197314632), ('FUGIE', 3.9777199692934286), ('FITTE', 3.93507847002467), ('TITHE', 3.9206655246933786), ('BITTE', 3.837235992777299), ('WITHE', 3.820471963732995), ('MIXTE', 3.808835042618839), ('QUITE', 3.8059002439442153)]
+GUESS: CUTIE
+
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 3.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.192645077942396, 'expected_info_gain': 4.156406003080203}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FUDGE with entropy: 2.1281
+Bot chose: FUDGE with entropy: 2.1281
+Top ten guesses: [('FUDGE', 2.1280852788913944), ('FUGUE', 2.1280852788913944), ('BUFFE', 1.9502120649147465), ('JUDGE', 1.8423709931771088), ('MUDGE', 1.8423709931771088), ('BUDGE', 1.8423709931771084), ('BUBBE', 1.3787834934861753)]
+GUESS: FUDGE
+
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUDGE with entropy: 0.9183
+Bot chose: BUDGE with entropy: 0.9183
+Top ten guesses: [('BUDGE', 0.9182958340544896), ('JUDGE', 0.9182958340544896), ('MUDGE', 0.9182958340544896)]
+GUESS: BUDGE
+
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: JUDGE with entropy: 1.0000
+Bot chose: JUDGE with entropy: 1.0000
+Top ten guesses: [('JUDGE', 1.0), ('MUDGE', 1.0)]
+GUESS: JUDGE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.254 bits, Posterior Entropy: 6.000, 
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.000, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙐𝘿𝙂𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.2538 bits
+Posterior entropy: 6.0
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.0, 'actual_info_gain': 4.2538474849874035, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUTIE with entropy: 4.1564
+Bot chose: CUTIE with entropy: 4.1564
+Top ten guesses: [('CUTIE', 4.156406003080203), ('KITHE', 4.02758504261884), ('MITIE', 4.000406197314632), ('FUGIE', 3.9777199692934286), ('FITTE', 3.93507847002467), ('TITHE', 3.9206655246933786), ('BITTE', 3.837235992777299), ('WITHE', 3.820471963732995), ('MIXTE', 3.808835042618839), ('QUITE', 3.8059002439442153)]
+GUESS: CUTIE
+
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 3.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.192645077942396, 'expected_info_gain': 4.156406003080203}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FUDGE with entropy: 2.1281
+Bot chose: FUDGE with entropy: 2.1281
+Top ten guesses: [('FUDGE', 2.1280852788913944), ('FUGUE', 2.1280852788913944), ('BUFFE', 1.9502120649147465), ('JUDGE', 1.8423709931771088), ('MUDGE', 1.8423709931771088), ('BUDGE', 1.8423709931771084), ('BUBBE', 1.3787834934861753)]
+GUESS: FUDGE
+
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUDGE with entropy: 0.9183
+Bot chose: BUDGE with entropy: 0.9183
+Top ten guesses: [('BUDGE', 0.9182958340544896), ('JUDGE', 0.9182958340544896), ('MUDGE', 0.9182958340544896)]
+GUESS: BUDGE
+
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: JUDGE with entropy: 1.0000
+Bot chose: JUDGE with entropy: 1.0000
+Top ten guesses: [('JUDGE', 1.0), ('MUDGE', 1.0)]
+GUESS: JUDGE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.254 bits, Posterior Entropy: 6.000, 
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.000, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙐𝘿𝙂𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 346 remaining candidates...
+Top 5 guesses: [('BUILT', '4.942'), ('UNTIL', '4.914'), ('BUILD', '4.807'), ('THING', '4.633'), ('LIGHT', '4.606')]
+Top entropy choice: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+GUESS: BUILT
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.5277 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 4.527737632028207, 'expected_info_gain': 4.941602285901406}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('MUNGE', '3.140'), ('DUNCE', '2.707'), ('GUNGE', '2.707'), ('NUDGE', '2.707'), ('MUDGE', '2.600')]
+Top entropy choice: 𝙈𝙐𝙉𝙂𝙀 with entropy: 3.1396
+Ended up choosing COMMON word: 𝙉𝙐𝘿𝙂𝙀 with entropy: 2.7069
+GUESS: NUDGE
+
+Guess: 𝙉𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.9069 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.0, 'actual_info_gain': 1.9068905956085187, 'expected_info_gain': 2.7068905956085185}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FUDGE', '0.811'), ('JUDGE', '0.811'), ('MUDGE', '0.811'), ('PUDGE', '0.811')]
+Top entropy choice: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.8113
+GUESS: FUDGE
+
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('JUDGE', '0.918'), ('MUDGE', '0.918'), ('PUDGE', '0.918')]
+Top entropy choice: 𝙅𝙐𝘿𝙂𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙅𝙐𝘿𝙂𝙀 with entropy: 0.9183
+GUESS: JUDGE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 4.528 bits, Posterior Entropy: 3.907, 
+Guess: 𝙉𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.707 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙅𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙐𝘿𝙂𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+346 candidate words remaining.
+Top 5 guesses: [('GUILT', '5.036'), ('GLINT', '4.996'), ('TUNIC', '4.992'), ('LINUM', '4.952'), ('BUILT', '4.942')]
+Top entropy choice: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+Guess count low, choosing the word with highest entropy: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+GUESS: GUILT
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 5.4346 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 3.0, 'actual_info_gain': 5.4346282276367255, 'expected_info_gain': 5.035900893183782}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('BONUM', '2.406'), ('FANUM', '2.406'), ('JAMUN', '2.406'), ('ABAND', '2.000'), ('ABJUD', '2.000')]
+Top entropy choice: 𝘽𝙊𝙉𝙐𝙈 with entropy: 2.4056
+Guess count low, choosing the word with highest entropy: 𝘽𝙊𝙉𝙐𝙈 with entropy: 2.4056
+GUESS: BONUM
+
+Guess: 𝘽𝙊𝙉𝙐𝙈, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 2.4056390622295662}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('FUDGE', '0.918'), ('JUDGE', '0.918'), ('PUDGE', '0.918')]
+Top entropy choice: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.9183
+GUESS: FUDGE
+
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 2.4056390622295662}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('JUDGE', '1.000'), ('PUDGE', '1.000')]
+Top entropy choice: 𝙅𝙐𝘿𝙂𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙅𝙐𝘿𝙂𝙀 with entropy: 1.0000
+GUESS: JUDGE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 5.435 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙊𝙉𝙐𝙈, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 2.406 bits, Actual Info Gain: 1.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 2.406 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

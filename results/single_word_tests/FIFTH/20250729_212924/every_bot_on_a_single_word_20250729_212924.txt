@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙄𝙁𝙏𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: UNITY 
+The top ten guesses and scores: [('UNITY', 1680), ('PIYUT', 1598), ('UNLIT', 1594), ('UNTIL', 1594), ('LINTY', 1571), ('UNIFY', 1547), ('BUYIN', 1542), ('CUNIT', 1537), ('CUTIN', 1537), ('INCUT', 1537)]
+The bot finally chose: UNITY 
+GUESS: UNITY
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: FILTH 
+The top ten guesses and scores: [('FILTH', 26), ('ILLTH', 23), ('TILTH', 23), ('FIFTH', 21), ('MILTZ', 20), ('WIDTH', 20)]
+The bot finally chose: FILTH 
+GUESS: FILTH
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FIFTH 
+The top ten guesses and scores: [('FIFTH', 5)]
+The bot finally chose: FIFTH 
+GUESS: FIFTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙁𝙄𝙁𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙄𝙁𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0623 bits
+Posterior entropy: 6.087462841250339
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.087462841250339, 'actual_info_gain': 4.062284278254342, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIFTY with entropy: 4.2909
+Bot chose: DITTY with entropy: 4.1617
+Top ten guesses: [('MIFTY', 4.290939712620867), ('DITZY', 4.2022758810675755), ('WIFTY', 4.195241746205381), ('DITTY', 4.161702408889294), ('WIDTH', 4.031865329134728), ('DIGHT', 4.0248916149484115), ('FIGHT', 3.9736571523695288), ('DHUTI', 3.9389781878933134), ('MIDGY', 3.936276445110722), ('WITTY', 3.929110034024826)]
+GUESS: DITTY
+
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 6.087462841250339, 'expected_info_gain': 4.161702408889294}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIFTH with entropy: 0.0000
+Bot chose: FIFTH with entropy: 0.0000
+Top ten guesses: [('FIFTH', 0.0)]
+GUESS: FIFTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 6.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙄𝙁𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙁𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0623 bits
+Posterior entropy: 6.087462841250339
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.087462841250339, 'actual_info_gain': 4.062284278254342, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIFTY with entropy: 4.2909
+Bot chose: DITTY with entropy: 4.1617
+Top ten guesses: [('MIFTY', 4.290939712620867), ('DITZY', 4.2022758810675755), ('WIFTY', 4.195241746205381), ('DITTY', 4.161702408889294), ('WIDTH', 4.031865329134728), ('DIGHT', 4.0248916149484115), ('FIGHT', 3.9736571523695288), ('DHUTI', 3.9389781878933134), ('MIDGY', 3.936276445110722), ('WITTY', 3.929110034024826)]
+GUESS: DITTY
+
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 6.087462841250339, 'expected_info_gain': 4.161702408889294}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIFTH with entropy: 0.0000
+Bot chose: FIFTH with entropy: 0.0000
+Top ten guesses: [('FIFTH', 0.0)]
+GUESS: FIFTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 6.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙄𝙁𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙁𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 664 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.626'), ('CULTY', '5.568'), ('CLINT', '5.536'), ('CUTIN', '5.478'), ('CLIPT', '5.399')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.6263
+Ended up choosing COMMON word: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.5355
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 4.2876 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 4.287576590096586, 'expected_info_gain': 5.535549212492506}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('DITTY', '4.116'), ('WITTY', '3.918'), ('TITUP', '3.892'), ('MUTTI', '3.877'), ('ZITTY', '3.859')]
+Top entropy choice: 𝘿𝙄𝙏𝙏𝙔 with entropy: 4.1163
+Ended up choosing COMMON word: 𝘿𝙄𝙏𝙏𝙔 with entropy: 4.1163
+GUESS: DITTY
+
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 4.116299605701696}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('FIFTH', '0.000')]
+Top entropy choice: 𝙁𝙄𝙁𝙏𝙃 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙁𝙄𝙁𝙏𝙃 with entropy: 0.0000
+GUESS: FIFTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.288 bits, Posterior Entropy: 5.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 4.116 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙄𝙁𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙁𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+664 candidate words remaining.
+Top 5 guesses: [('LINTY', '5.686'), ('CUNIT', '5.626'), ('MINTY', '5.599'), ('PUNTY', '5.583'), ('MILTY', '5.572')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+GUESS: LINTY
+
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 7.3750 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 2.0, 'actual_info_gain': 7.375039431346925, 'expected_info_gain': 5.685970316525066}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('AAHED', '2.000'), ('ABJUD', '2.000'), ('ACHED', '2.000'), ('ACTED', '2.000'), ('ADHAN', '2.000')]
+Top entropy choice: 𝘼𝘼𝙃𝙀𝘿 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝘼𝙃𝙀𝘿 with entropy: 2.0000
+GUESS: AAHED
+
+Guess: 𝘼𝘼𝙃𝙀𝘿, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('FIFTH', '0.000')]
+Top entropy choice: 𝙁𝙄𝙁𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙄𝙁𝙏𝙃 with entropy: 0.0000
+GUESS: FIFTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 7.375 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘼𝙃𝙀𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙄𝙁𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

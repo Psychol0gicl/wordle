@@ -1,0 +1,179 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙊𝙍𝙍𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: ROSIT 
+The top ten guesses and scores: [('ROSIT', 502), ('ROSTI', 502), ('ROTIS', 502), ('TIROS', 502), ('ROUTS', 501), ('SUTOR', 501), ('TORUS', 501), ('TOURS', 501), ('DORTS', 493), ('PORTS', 492)]
+The bot finally chose: TORUS 
+GUESS: TORUS
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SORBI 
+The top ten guesses and scores: [('SORBI', 22), ('SORBO', 21), ('SORDO', 20), ('SORGO', 20), ('SORRY', 20)]
+The bot finally chose: SORRY 
+GUESS: SORRY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜🟩🟩⬜🟨
+Guess: 𝙎𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙊𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORTS with entropy: 3.7149
+Bot chose: SHORT with entropy: 3.6686
+Top ten guesses: [('SORTS', 3.7149099901199842), ('SHORT', 3.6686064940894996), ('STIRS', 3.6568002763359657), ('STROY', 3.6408576705767834), ('SORUS', 3.63036887981204), ('STORK', 3.6131592054656685), ('SKORT', 3.609483337319969), ('SOURS', 3.5657157960335173), ('STORM', 3.559450171333999), ('STROW', 3.5035762476238506)]
+GUESS: SHORT
+
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 5.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 5.169925001442312, 'expected_info_gain': 3.6686064940894996}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORRY with entropy: 1.0000
+Bot chose: SORRY with entropy: 1.0000
+Top ten guesses: [('SORRY', 1.0), ('SOURS', 1.0)]
+GUESS: SORRY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 6.170, Expected Info Gain: 3.669 bits, Actual Info Gain: 5.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙊𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORTS with entropy: 3.7149
+Bot chose: SHORT with entropy: 3.6686
+Top ten guesses: [('SORTS', 3.7149099901199842), ('SHORT', 3.6686064940894996), ('STIRS', 3.6568002763359657), ('STROY', 3.6408576705767834), ('SORUS', 3.63036887981204), ('STORK', 3.6131592054656685), ('SKORT', 3.609483337319969), ('SOURS', 3.5657157960335173), ('STORM', 3.559450171333999), ('STROW', 3.5035762476238506)]
+GUESS: SHORT
+
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 5.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 5.169925001442312, 'expected_info_gain': 3.6686064940894996}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORRY with entropy: 1.0000
+Bot chose: SORRY with entropy: 1.0000
+Top ten guesses: [('SORRY', 1.0), ('SOURS', 1.0)]
+GUESS: SORRY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 6.170, Expected Info Gain: 3.669 bits, Actual Info Gain: 5.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙊𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SORRY', '1.000'), ('SOURS', '1.000')]
+Top entropy choice: 𝙎𝙊𝙍𝙍𝙔 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙊𝙍𝙍𝙔 with entropy: 1.0000
+GUESS: SORRY
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙊𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SORRY', '1.000'), ('SOURS', '1.000')]
+Top entropy choice: 𝙎𝙊𝙍𝙍𝙔 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙊𝙍𝙍𝙔 with entropy: 1.0000
+GUESS: SORRY
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

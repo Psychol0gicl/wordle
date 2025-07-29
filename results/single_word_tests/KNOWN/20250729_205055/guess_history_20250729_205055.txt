@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 4.005 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙇𝙊𝙉𝘿, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 4.322, Expected Info Gain: 3.546 bits, Actual Info Gain: 2.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙉𝙊𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 3.934 bits, Posterior Entropy: 4.392, 
+Guess: 𝘿𝙐𝙊𝙈𝙊, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.392, Expected Info Gain: 3.880 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

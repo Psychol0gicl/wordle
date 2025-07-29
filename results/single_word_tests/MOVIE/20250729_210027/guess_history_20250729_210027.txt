@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙇𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 2.159 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 2.159 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.358, Expected Info Gain: 3.846 bits, Actual Info Gain: 3.110 bits, Posterior Entropy: 4.248, 
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 1.783 bits, Actual Info Gain: 0.926 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙇𝙄𝙈𝘽, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.358, Expected Info Gain: 4.092 bits, Actual Info Gain: 4.773 bits, Posterior Entropy: 2.585, 
+Guess: 𝙑𝙄𝙈𝙀𝙉, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

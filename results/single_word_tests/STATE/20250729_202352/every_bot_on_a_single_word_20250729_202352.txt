@@ -1,0 +1,339 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝘼𝙏𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SLATE 
+The top ten guesses and scores: [('SLATE', 222), ('STALE', 222), ('PASTE', 216), ('SPATE', 216), ('HASTE', 214), ('SKATE', 213), ('STAKE', 213), ('STANE', 213), ('CASTE', 212), ('SAUTE', 212)]
+The bot finally chose: SLATE 
+GUESS: SLATE
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SKATE 
+The top ten guesses and scores: [('SKATE', 14), ('SPATE', 14), ('STATE', 13)]
+The bot finally chose: SKATE 
+GUESS: SKATE
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SPATE 
+The top ten guesses and scores: [('SPATE', 10), ('STATE', 9)]
+The bot finally chose: SPATE 
+GUESS: SPATE
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: STATE 
+The top ten guesses and scores: [('STATE', 5)]
+The bot finally chose: STATE 
+GUESS: STATE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙏𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 3.7726 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.7725895038969277, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STADE with entropy: 0.6500
+Bot chose: STADE with entropy: 0.6500
+Top ten guesses: [('STADE', 0.6500224216483541), ('STAGE', 0.6500224216483541), ('STAKE', 0.6500224216483541), ('STANE', 0.6500224216483541), ('STATE', 0.6500224216483541), ('STAVE', 0.6500224216483541)]
+GUESS: STADE
+
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAGE with entropy: 0.7219
+Bot chose: STAGE with entropy: 0.7219
+Top ten guesses: [('STAGE', 0.7219280948873623), ('STAKE', 0.7219280948873623), ('STANE', 0.7219280948873623), ('STATE', 0.7219280948873623), ('STAVE', 0.7219280948873623)]
+GUESS: STAGE
+
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAKE with entropy: 0.8113
+Bot chose: STAKE with entropy: 0.8113
+Top ten guesses: [('STAKE', 0.8112781244591328), ('STANE', 0.8112781244591328), ('STATE', 0.8112781244591328), ('STAVE', 0.8112781244591328)]
+GUESS: STAKE
+
+Guess: 𝙎𝙏𝘼𝙆𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STANE with entropy: 0.9183
+Bot chose: STATE with entropy: 0.9183
+Top ten guesses: [('STANE', 0.9182958340544896), ('STATE', 0.9182958340544896), ('STAVE', 0.9182958340544896)]
+GUESS: STATE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bitsPosterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 3.773 bitsPosterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bitsPosterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bitsPosterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝘼𝙆𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 3.7726 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.7725895038969277, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STADE with entropy: 0.6500
+Bot chose: STADE with entropy: 0.6500
+Top ten guesses: [('STADE', 0.6500224216483541), ('STAGE', 0.6500224216483541), ('STAKE', 0.6500224216483541), ('STANE', 0.6500224216483541), ('STATE', 0.6500224216483541), ('STAVE', 0.6500224216483541)]
+GUESS: STADE
+
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAGE with entropy: 0.7219
+Bot chose: STAGE with entropy: 0.7219
+Top ten guesses: [('STAGE', 0.7219280948873623), ('STAKE', 0.7219280948873623), ('STANE', 0.7219280948873623), ('STATE', 0.7219280948873623), ('STAVE', 0.7219280948873623)]
+GUESS: STAGE
+
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAKE with entropy: 0.8113
+Bot chose: STAKE with entropy: 0.8113
+Top ten guesses: [('STAKE', 0.8112781244591328), ('STANE', 0.8112781244591328), ('STATE', 0.8112781244591328), ('STAVE', 0.8112781244591328)]
+GUESS: STAKE
+
+Guess: 𝙎𝙏𝘼𝙆𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STANE with entropy: 0.9183
+Bot chose: STATE with entropy: 0.9183
+Top ten guesses: [('STANE', 0.9182958340544896), ('STATE', 0.9182958340544896), ('STAVE', 0.9182958340544896)]
+GUESS: STATE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bitsPosterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 3.773 bitsPosterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bitsPosterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bitsPosterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝘼𝙆𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙏𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('SLATE', '2.219'), ('STALE', '2.187'), ('SPALE', '2.036'), ('SPATE', '2.017'), ('SLAKE', '1.871')]
+Top entropy choice: 𝙎𝙇𝘼𝙏𝙀 with entropy: 2.2192
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝙏𝙀 with entropy: 2.2192
+GUESS: SLATE
+
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.5443 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.5443205162238103, 'expected_info_gain': 2.2192431232919363}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SKATE', '0.918'), ('SPATE', '0.918'), ('STATE', '0.918')]
+Top entropy choice: 𝙎𝙆𝘼𝙏𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙆𝘼𝙏𝙀 with entropy: 0.9183
+GUESS: SKATE
+
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SPATE', '1.000'), ('STATE', '1.000')]
+Top entropy choice: 𝙎𝙋𝘼𝙏𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙋𝘼𝙏𝙀 with entropy: 1.0000
+GUESS: SPATE
+
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('STATE', '0.000')]
+Top entropy choice: 𝙎𝙏𝘼𝙏𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙏𝙀 with entropy: 0.0000
+GUESS: STATE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bitsPosterior Entropy: 5.129, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 2.219 bits, Actual Info Gain: 3.544 bitsPosterior Entropy: 1.585, 
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙏𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+35 candidate words remaining.
+Top 5 guesses: [('KLUTZ', '3.199'), ('DEPTH', '3.150'), ('PLANT', '3.134'), ('THILK', '3.122'), ('DELPH', '3.118')]
+Top entropy choice: 𝙆𝙇𝙐𝙏𝙕 with entropy: 3.1989
+Guess count low, choosing the word with highest entropy: 𝙆𝙇𝙐𝙏𝙕 with entropy: 3.1989
+GUESS: KLUTZ
+
+Guess: 𝙆𝙇𝙐𝙏𝙕, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.1293 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 1.0, 'actual_info_gain': 4.129283016944966, 'expected_info_gain': 3.1988966509639027}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SPATE', '1.000'), ('STATE', '1.000')]
+Top entropy choice: 𝙎𝙋𝘼𝙏𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙏𝙀 with entropy: 1.0000
+GUESS: SPATE
+
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('STATE', '0.000')]
+Top entropy choice: 𝙎𝙏𝘼𝙏𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝘼𝙏𝙀 with entropy: 0.0000
+GUESS: STATE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bitsPosterior Entropy: 5.129, 
+Guess: 𝙆𝙇𝙐𝙏𝙕, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 5.129, Expected Info Gain: 3.199 bits, Actual Info Gain: 4.129 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

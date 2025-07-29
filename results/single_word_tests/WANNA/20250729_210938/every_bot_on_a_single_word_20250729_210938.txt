@@ -1,0 +1,339 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: GAUNT 
+The top ten guesses and scores: [('GAUNT', 298), ('HAUNT', 298), ('DAUNT', 289), ('MAUNT', 288), ('THANG', 288), ('HUDNA', 285), ('MUNGA', 284), ('BANTU', 283), ('JAUNT', 283), ('JUNTA', 283)]
+The bot finally chose: GAUNT 
+GUESS: GAUNT
+Guess: 𝙂𝘼𝙐𝙉𝙏, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: DAMNA 
+The top ten guesses and scores: [('DAMNA', 27), ('MANNA', 26), ('CANNA', 25), ('PANNA', 25), ('WANNA', 25), ('NANNA', 24)]
+The bot finally chose: MANNA 
+GUESS: MANNA
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CANNA 
+The top ten guesses and scores: [('CANNA', 18), ('PANNA', 18), ('WANNA', 18), ('NANNA', 17)]
+The bot finally chose: WANNA 
+GUESS: WANNA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙂𝘼𝙐𝙉𝙏, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 5.9515 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 5.951456148041963, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANGA with entropy: 1.7360
+Bot chose: MANGA with entropy: 1.7360
+Top ten guesses: [('MANGA', 1.7360411676599226), ('MANNA', 1.7360411676599226), ('VANGA', 1.5693078231812962), ('GANJA', 1.3784188527203236), ('CANNA', 1.2772018112022603), ('FANGA', 1.2772018112022603), ('KANGA', 1.2772018112022603), ('NANNA', 1.2772018112022603), ('NANUA', 1.2772018112022603), ('WANNA', 1.2772018112022603)]
+GUESS: MANGA
+
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.7360411676599226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BANDA with entropy: 1.5710
+Bot chose: BANDA with entropy: 1.5710
+Top ten guesses: [('BANDA', 1.5709505944546687), ('CANNA', 1.5709505944546687), ('NANNA', 1.5709505944546687), ('NANUA', 1.5709505944546687), ('WANNA', 1.5709505944546687), ('DANDA', 1.1567796494470395), ('VANDA', 1.1567796494470395), ('BANYA', 0.9219280948873623), ('ZANJA', 0.9219280948873623), ('ZANZA', 0.9219280948873623)]
+GUESS: BANDA
+
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.5709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CANNA with entropy: 1.9183
+Bot chose: WANNA with entropy: 1.9183
+Top ten guesses: [('CANNA', 1.9182958340544896), ('NANNA', 1.9182958340544896), ('NANUA', 1.9182958340544896), ('WANNA', 1.9182958340544896), ('ZANJA', 1.2516291673878228), ('ZANZA', 1.2516291673878228)]
+GUESS: WANNA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.951 bits, Posterior Entropy: 4.087, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.736 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 1.571 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 5.9515 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 5.951456148041963, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANGA with entropy: 1.7360
+Bot chose: MANGA with entropy: 1.7360
+Top ten guesses: [('MANGA', 1.7360411676599226), ('MANNA', 1.7360411676599226), ('VANGA', 1.5693078231812962), ('GANJA', 1.3784188527203236), ('CANNA', 1.2772018112022603), ('FANGA', 1.2772018112022603), ('KANGA', 1.2772018112022603), ('NANNA', 1.2772018112022603), ('NANUA', 1.2772018112022603), ('WANNA', 1.2772018112022603)]
+GUESS: MANGA
+
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.7360411676599226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BANDA with entropy: 1.5710
+Bot chose: BANDA with entropy: 1.5710
+Top ten guesses: [('BANDA', 1.5709505944546687), ('CANNA', 1.5709505944546687), ('NANNA', 1.5709505944546687), ('NANUA', 1.5709505944546687), ('WANNA', 1.5709505944546687), ('DANDA', 1.1567796494470395), ('VANDA', 1.1567796494470395), ('BANYA', 0.9219280948873623), ('ZANJA', 0.9219280948873623), ('ZANZA', 0.9219280948873623)]
+GUESS: BANDA
+
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.5709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CANNA with entropy: 1.9183
+Bot chose: WANNA with entropy: 1.9183
+Top ten guesses: [('CANNA', 1.9182958340544896), ('NANNA', 1.9182958340544896), ('NANUA', 1.9182958340544896), ('WANNA', 1.9182958340544896), ('ZANJA', 1.2516291673878228), ('ZANZA', 1.2516291673878228)]
+GUESS: WANNA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.951 bits, Posterior Entropy: 4.087, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.736 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 1.571 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 5.2479 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 5.247927513443586, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 26 potential guesses from 26 remaining candidates...
+Top 5 guesses: [('TANGA', '1.944'), ('TANNA', '1.879'), ('MANGA', '1.609'), ('MANNA', '1.537'), ('MANTA', '1.537')]
+Top entropy choice: 𝙏𝘼𝙉𝙂𝘼 with entropy: 1.9440
+Ended up choosing COMMON word: 𝙈𝘼𝙉𝙂𝘼 with entropy: 1.6095
+GUESS: MANGA
+
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7004 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 4.0, 'actual_info_gain': 0.7004397181410917, 'expected_info_gain': 1.6094963344256965}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('TANNA', '2.078'), ('PANNA', '1.627'), ('WANNA', '1.627'), ('BANDA', '1.502'), ('TANIA', '1.497')]
+Top entropy choice: 𝙏𝘼𝙉𝙉𝘼 with entropy: 2.0778
+GUESS: TANNA
+
+Guess: 𝙏𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.077819531114783}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('NANNA', '0.918'), ('PANNA', '0.918'), ('WANNA', '0.918')]
+Top entropy choice: 𝙉𝘼𝙉𝙉𝘼 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙒𝘼𝙉𝙉𝘼 with entropy: 0.9183
+GUESS: WANNA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 5.248 bits, Posterior Entropy: 4.700, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 1.609 bits, Actual Info Gain: 0.700 bits, Posterior Entropy: 4.000, 
+Guess: 𝙏𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 2.078 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 5.7004 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 5.700439718141093, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+19 candidate words remaining.
+Top 5 guesses: [('PUDGY', '2.760'), ('PODGY', '2.542'), ('PUDGE', '2.542'), ('DUMPY', '2.431'), ('JUDGY', '2.400')]
+Top entropy choice: 𝙋𝙐𝘿𝙂𝙔 with entropy: 2.7603
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝘿𝙂𝙔 with entropy: 2.7603
+GUESS: PUDGY
+
+Guess: 𝙋𝙐𝘿𝙂𝙔, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.6630 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.6629650127224291, 'expected_info_gain': 2.760313697312511}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('MAWNS', '1.918'), ('MAZAC', '1.918'), ('NAMAZ', '1.918'), ('NANCE', '1.918'), ('NANCY', '1.918')]
+Top entropy choice: 𝙈𝘼𝙒𝙉𝙎 with entropy: 1.9183
+Using common exploratory word: 𝙉𝘼𝙉𝘾𝙀 with entropy: 1.9183
+GUESS: NANCE
+
+Guess: 𝙉𝘼𝙉𝘾𝙀, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.760313697312511}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('MANNA', '1.000'), ('WANNA', '1.000')]
+Top entropy choice: 𝙈𝘼𝙉𝙉𝘼 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙉𝙉𝘼 with entropy: 1.0000
+GUESS: MANNA
+
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 2.760313697312511}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('WANNA', '0.000')]
+Top entropy choice: 𝙒𝘼𝙉𝙉𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙒𝘼𝙉𝙉𝘼 with entropy: 0.0000
+GUESS: WANNA
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 5.700 bits, Posterior Entropy: 4.248, 
+Guess: 𝙋𝙐𝘿𝙂𝙔, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 2.760 bits, Actual Info Gain: 1.663 bits, Posterior Entropy: 2.585, 
+Guess: 𝙉𝘼𝙉𝘾𝙀, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.760 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 2.760 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -260,7 +260,7 @@ class WordleGame:
                 history += (
                     f", Prior Entropy: {self.entropy_history[i]['prior_entropy']:.3f}, "
                     f"Expected Info Gain: {self.entropy_history[i]['expected_info_gain']:.3f} bits, "
-                    f"Actual Info Gain: {self.entropy_history[i]['actual_info_gain']:.3f} bits"
+                    f"Actual Info Gain: {self.entropy_history[i]['actual_info_gain']:.3f} bits, "
                     f"Posterior Entropy: {self.entropy_history[i]['posterior_entropy']:.3f}, "
                 )
 

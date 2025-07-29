@@ -1,0 +1,292 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙄𝙈𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GRICE 
+The top ten guesses and scores: [('GRICE', 214), ('GRIPE', 212), ('CRIPE', 211), ('GRIDE', 211), ('PRICE', 211), ('TRICE', 211), ('DRICE', 210), ('TRIBE', 209), ('TRIPE', 209), ('URITE', 209)]
+The bot finally chose: GRIPE 
+GUESS: GRIPE
+Guess: 𝙂𝙍𝙄𝙋𝙀, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: TRIBE 
+The top ten guesses and scores: [('TRIBE', 73), ('TRICE', 71), ('TRIDE', 71), ('TRINE', 71), ('FRITE', 69), ('URITE', 69), ('TRIKE', 68), ('WRITE', 68), ('BRIDE', 67), ('BRINE', 67)]
+The bot finally chose: TRIBE 
+GUESS: TRIBE
+Guess: 𝙏𝙍𝙄𝘽𝙀, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CRINE 
+The top ten guesses and scores: [('CRINE', 23), ('DRICE', 23), ('CRIME', 22), ('DRIVE', 21), ('URINE', 21), ('FRIZE', 20)]
+The bot finally chose: CRIME 
+GUESS: CRIME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙂𝙍𝙄𝙋𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙏𝙍𝙄𝘽𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙄𝙈𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 3.1575 bits
+Posterior entropy: 5.700439718141092
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 5.700439718141092, 'actual_info_gain': 3.157541276986481, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DIRGE with entropy: 3.8799
+Bot chose: DIRGE with entropy: 3.8799
+Top ten guesses: [('DIRGE', 3.8798956700565066), ('VIRGE', 3.8755579298799168), ('GRIDE', 3.4732563041386864), ('GERBE', 3.4231651838793504), ('DIRKE', 3.4214138656460484), ('VERGE', 3.407091501197857), ('NIGRE', 3.384005596434346), ('GENRE', 3.337096391418378), ('GRICE', 3.3237154913872797), ('GERNE', 3.323466202244073)]
+GUESS: DIRGE
+
+Guess: 𝘿𝙄𝙍𝙂𝙀, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 3.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.1154772174199357, 'expected_info_gain': 3.8798956700565066}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRINE with entropy: 1.9183
+Bot chose: BRINE with entropy: 1.9183
+Top ten guesses: [('BRINE', 1.9182958340544893), ('BRIZE', 1.9182958340544893), ('CRINE', 1.7924812503605778), ('BRIBE', 1.4591479170272448), ('CRIME', 1.2516291673878228), ('FRIZE', 1.2516291673878228)]
+GUESS: BRINE
+
+Guess: 𝘽𝙍𝙄𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544893}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRIME with entropy: 1.0000
+Bot chose: CRIME with entropy: 1.0000
+Top ten guesses: [('CRIME', 1.0), ('FRIZE', 1.0)]
+GUESS: CRIME
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.158 bits, Posterior Entropy: 5.700, 
+Guess: 𝘿𝙄𝙍𝙂𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 5.700, Expected Info Gain: 3.880 bits, Actual Info Gain: 3.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙍𝙄𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙄𝙈𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 3.1575 bits
+Posterior entropy: 5.700439718141092
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 5.700439718141092, 'actual_info_gain': 3.157541276986481, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DIRGE with entropy: 3.8799
+Bot chose: DIRGE with entropy: 3.8799
+Top ten guesses: [('DIRGE', 3.8798956700565066), ('VIRGE', 3.8755579298799168), ('GRIDE', 3.4732563041386864), ('GERBE', 3.4231651838793504), ('DIRKE', 3.4214138656460484), ('VERGE', 3.407091501197857), ('NIGRE', 3.384005596434346), ('GENRE', 3.337096391418378), ('GRICE', 3.3237154913872797), ('GERNE', 3.323466202244073)]
+GUESS: DIRGE
+
+Guess: 𝘿𝙄𝙍𝙂𝙀, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 3.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.1154772174199357, 'expected_info_gain': 3.8798956700565066}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRINE with entropy: 1.9183
+Bot chose: BRINE with entropy: 1.9183
+Top ten guesses: [('BRINE', 1.9182958340544893), ('BRIZE', 1.9182958340544893), ('CRINE', 1.7924812503605778), ('BRIBE', 1.4591479170272448), ('CRIME', 1.2516291673878228), ('FRIZE', 1.2516291673878228)]
+GUESS: BRINE
+
+Guess: 𝘽𝙍𝙄𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544893}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRIME with entropy: 1.0000
+Bot chose: CRIME with entropy: 1.0000
+Top ten guesses: [('CRIME', 1.0), ('FRIZE', 1.0)]
+GUESS: CRIME
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.158 bits, Posterior Entropy: 5.700, 
+Guess: 𝘿𝙄𝙍𝙂𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 5.700, Expected Info Gain: 3.880 bits, Actual Info Gain: 3.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙍𝙄𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙄𝙈𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 6.6492 bits
+Posterior entropy: 7.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.20945336562895, 'actual_info_gain': 6.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 247 potential guesses from 148 remaining candidates...
+Top 5 guesses: [('BEING', '4.020'), ('BRING', '3.903'), ('RUICE', '3.874'), ('REINE', '3.848'), ('REGIE', '3.836')]
+Top entropy choice: 𝘽𝙀𝙄𝙉𝙂 with entropy: 4.0198
+Ended up choosing COMMON word: 𝘽𝙀𝙄𝙉𝙂 with entropy: 4.0198
+GUESS: BEING
+
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 2.9615 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.20945336562895, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.961525852185365, 'expected_info_gain': 4.01982215677981}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('TRICE', '2.755'), ('TRIPE', '2.629'), ('CRIPE', '2.629'), ('PRICE', '2.629'), ('TRIDE', '2.550')]
+Top entropy choice: 𝙏𝙍𝙄𝘾𝙀 with entropy: 2.7551
+Ended up choosing COMMON word: 𝙏𝙍𝙄𝙋𝙀 with entropy: 2.6292
+GUESS: TRIPE
+
+Guess: 𝙏𝙍𝙄𝙋𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 2.6292492238560343}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('DRICE', '2.000'), ('CRIME', '1.500'), ('DRIVE', '1.500'), ('FRIZE', '0.811')]
+Top entropy choice: 𝘿𝙍𝙄𝘾𝙀 with entropy: 2.0000
+GUESS: DRICE
+
+Guess: 𝘿𝙍𝙄𝘾𝙀, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CRIME', '0.000')]
+Top entropy choice: 𝘾𝙍𝙄𝙈𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝙍𝙄𝙈𝙀 with entropy: 0.0000
+GUESS: CRIME
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.020 bits, Actual Info Gain: 2.962 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙍𝙄𝙋𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.629 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝙄𝘾𝙀, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙄𝙈𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 6.6492 bits
+Posterior entropy: 7.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.20945336562895, 'actual_info_gain': 6.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+148 candidate words remaining.
+Top 5 guesses: [('CUING', '4.341'), ('RUING', '4.270'), ('RUNIC', '4.165'), ('REIGN', '4.159'), ('CUNIT', '4.157')]
+Top entropy choice: 𝘾𝙐𝙄𝙉𝙂 with entropy: 4.3410
+Guess count low, choosing the word with highest entropy: 𝘾𝙐𝙄𝙉𝙂 with entropy: 4.3410
+GUESS: CUING
+
+Guess: 𝘾𝙐𝙄𝙉𝙂, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 6.2095 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.20945336562895, 'posterior_entropy': 1.0, 'actual_info_gain': 6.20945336562895, 'expected_info_gain': 4.341027052578389}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('CRIME', '1.000'), ('CRIPE', '1.000')]
+Top entropy choice: 𝘾𝙍𝙄𝙈𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝘾𝙍𝙄𝙈𝙀 with entropy: 1.0000
+GUESS: CRIME
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘾𝙐𝙄𝙉𝙂, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.341 bits, Actual Info Gain: 6.209 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

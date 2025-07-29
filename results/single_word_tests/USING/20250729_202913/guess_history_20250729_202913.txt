@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙐𝙎𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟨⬜🟨🟨⬜
+Guess: 𝙈𝙄𝙉𝙐𝙎, Feedback: ⬜🟨🟨🟨🟨
+Guess: 𝙐𝙎𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙐𝙎𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bitsPosterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 5.249 bitsPosterior Entropy: 4.700, 
+Guess: 𝘽𝙐𝙎𝙃𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 4.700, Expected Info Gain: 3.412 bits, Actual Info Gain: 3.700 bitsPosterior Entropy: 1.000, 
+Guess: 𝙐𝙎𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙐𝙎𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bitsPosterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 5.249 bitsPosterior Entropy: 4.700, 
+Guess: 𝘽𝙐𝙎𝙃𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 4.700, Expected Info Gain: 3.412 bits, Actual Info Gain: 3.700 bitsPosterior Entropy: 1.000, 
+Guess: 𝙐𝙎𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙐𝙎𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bitsPosterior Entropy: 9.116, 
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.049 bits, Actual Info Gain: 8.116 bitsPosterior Entropy: 1.000, 
+Guess: 𝙐𝙎𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙐𝙎𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bitsPosterior Entropy: 9.116, 
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.090 bits, Actual Info Gain: 6.116 bitsPosterior Entropy: 3.000, 
+Guess: 𝙋𝘼𝙉𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙎𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================

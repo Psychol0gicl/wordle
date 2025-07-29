@@ -1,0 +1,245 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: RANTY 
+The top ten guesses and scores: [('RANTY', 116), ('BARNY', 115), ('BARMY', 114), ('RAFTY', 114), ('BARFY', 113), ('BARKY', 113), ('PARTY', 113), ('CARBY', 112), ('MARLY', 112), ('NARKY', 112)]
+The bot finally chose: PARTY 
+GUESS: PARTY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PAGRI with entropy: 3.8607
+Bot chose: PARTI with entropy: 3.8523
+Top ten guesses: [('PAGRI', 3.860651846251855), ('PARTI', 3.852296440178436), ('PADRI', 3.814811105173968), ('PARTY', 3.7241011383252633), ('PRIMA', 3.694936906023449), ('PORTA', 3.6932674004843147), ('PARRY', 3.6870889602029537), ('PARMO', 3.6745425243646324), ('PRORA', 3.670791866668879), ('PARDI', 3.657924727901139)]
+GUESS: PARTI
+
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 5.8826 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 0.0, 'actual_info_gain': 5.882643049361842, 'expected_info_gain': 3.852296440178436}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PARTY with entropy: 0.0000
+Bot chose: PARTY with entropy: 0.0000
+Top ten guesses: [('PARTY', 0.0)]
+GUESS: PARTY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bitsPosterior Entropy: 5.883, 
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.883, Expected Info Gain: 3.852 bits, Actual Info Gain: 5.883 bitsPosterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PAGRI with entropy: 3.8607
+Bot chose: PARTI with entropy: 3.8523
+Top ten guesses: [('PAGRI', 3.860651846251855), ('PARTI', 3.852296440178436), ('PADRI', 3.814811105173968), ('PARTY', 3.7241011383252633), ('PRIMA', 3.694936906023449), ('PORTA', 3.6932674004843147), ('PARRY', 3.6870889602029537), ('PARMO', 3.6745425243646324), ('PRORA', 3.670791866668879), ('PARDI', 3.657924727901139)]
+GUESS: PARTI
+
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 5.8826 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 0.0, 'actual_info_gain': 5.882643049361842, 'expected_info_gain': 3.852296440178436}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PARTY with entropy: 0.0000
+Bot chose: PARTY with entropy: 0.0000
+Top ten guesses: [('PARTY', 0.0)]
+GUESS: PARTY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bitsPosterior Entropy: 5.883, 
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.883, Expected Info Gain: 3.852 bits, Actual Info Gain: 5.883 bitsPosterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 324 remaining candidates...
+Top 5 guesses: [('MARIA', '5.094'), ('AARTI', '4.862'), ('MARAL', '4.841'), ('MARAN', '4.818'), ('MIRAA', '4.787')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 3.2955 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 3.295455883526171, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+Evaluating 33 potential guesses from 33 remaining candidates...
+Top 5 guesses: [('CARDY', '2.450'), ('DARCY', '2.450'), ('TARDY', '2.412'), ('BARDY', '2.401'), ('CARBY', '2.393')]
+Top entropy choice: 𝘾𝘼𝙍𝘿𝙔 with entropy: 2.4498
+Ended up choosing COMMON word: 𝘿𝘼𝙍𝘾𝙔 with entropy: 2.4498
+GUESS: DARCY
+
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 1.1375035237499347, 'expected_info_gain': 2.4497605150317368}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('BARKY', '2.239'), ('PARKY', '2.146'), ('PARTY', '2.040'), ('BARNY', '1.688'), ('LARKY', '1.688')]
+Top entropy choice: 𝘽𝘼𝙍𝙆𝙔 with entropy: 2.2389
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙏𝙔 with entropy: 2.0402
+GUESS: PARTY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bitsPosterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.295 bitsPosterior Entropy: 5.044, 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.044, Expected Info Gain: 2.450 bits, Actual Info Gain: 1.138 bitsPosterior Entropy: 3.907, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+324 candidate words remaining.
+Top 5 guesses: [('MARIA', '5.094'), ('MATAI', '5.018'), ('TANIA', '4.976'), ('MANIA', '4.958'), ('MALAI', '4.946')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 3.2955 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 3.295455883526171, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+33 candidate words remaining.
+Top 5 guesses: [('DUTCH', '3.239'), ('BUNDT', '3.150'), ('CHYND', '3.150'), ('BUNDH', '3.132'), ('DUNCH', '3.124')]
+Top entropy choice: 𝘿𝙐𝙏𝘾𝙃 with entropy: 3.2388
+Guess count low, choosing the word with highest entropy: 𝘿𝙐𝙏𝘾𝙃 with entropy: 3.2388
+GUESS: DUTCH
+
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.7225 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.722466024471091, 'expected_info_gain': 3.23882415191985}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('PATTY', '2.322'), ('PETTY', '2.322'), ('PFFTT', '2.322'), ('PLATT', '2.322'), ('POTTY', '2.322')]
+Top entropy choice: 𝙋𝘼𝙏𝙏𝙔 with entropy: 2.3219
+Using common exploratory word: 𝙋𝘼𝙏𝙏𝙔 with entropy: 2.3219
+GUESS: PATTY
+
+Guess: 𝙋𝘼𝙏𝙏𝙔, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.23882415191985}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PARTY', '0.000')]
+Top entropy choice: 𝙋𝘼𝙍𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝘼𝙍𝙏𝙔 with entropy: 0.0000
+GUESS: PARTY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bitsPosterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.295 bitsPosterior Entropy: 5.044, 
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.044, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.722 bitsPosterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙏𝙏𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.322 bitsPosterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

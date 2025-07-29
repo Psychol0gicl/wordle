@@ -1,0 +1,279 @@
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOTH 
+The top ten guesses and scores: [('CLOTH', 540), ('YMOLT', 538), ('PHONY', 527), ('CHOIL', 526), ('CHOLI', 526), ('GLOBY', 526), ('CHOKY', 524), ('PHOTY', 524), ('CLONK', 523), ('THOLI', 522)]
+The bot finally chose: CLOTH 
+GUESS: CLOTH
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MYOID 
+The top ten guesses and scores: [('MYOID', 180), ('PIONY', 179), ('PYOID', 178), ('GOONY', 170), ('MOONY', 170), ('NYONG', 170), ('DOOMY', 169), ('GOODY', 169), ('MOODY', 169), ('NOOKY', 169)]
+The bot finally chose: GOODY 
+GUESS: GOODY
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: QUONK 
+The top ten guesses and scores: [('QUONK', 25), ('QUOIN', 24), ('UNOWN', 20), ('QUOIF', 19), ('QUOUK', 19), ('KNOWN', 17)]
+The bot finally chose: KNOWN 
+GUESS: KNOWN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 6.9798 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 6.979822118062369, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ONMUN with entropy: 2.7255
+Bot chose: ONMUN with entropy: 2.7255
+Top ten guesses: [('ONMUN', 2.725480556997868), ('UNOWN', 2.725480556997868), ('UNWON', 2.725480556997868), ('MUTON', 2.6416041678685933), ('FUTON', 2.4193819456463714), ('KNOWN', 2.4193819456463714), ('ONGON', 2.4193819456463714), ('ZYGON', 2.113283334294875), ('DYKON', 2.058813890331201)]
+GUESS: ONMUN
+
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KNOWN with entropy: 0.0000
+Bot chose: KNOWN with entropy: 0.0000
+Top ten guesses: [('KNOWN', 0.0)]
+GUESS: KNOWN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 6.9798 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 6.979822118062369, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ONMUN with entropy: 2.7255
+Bot chose: ONMUN with entropy: 2.7255
+Top ten guesses: [('ONMUN', 2.725480556997868), ('UNOWN', 2.725480556997868), ('UNWON', 2.725480556997868), ('MUTON', 2.6416041678685933), ('FUTON', 2.4193819456463714), ('KNOWN', 2.4193819456463714), ('ONGON', 2.4193819456463714), ('ZYGON', 2.113283334294875), ('DYKON', 2.058813890331201)]
+GUESS: ONMUN
+
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KNOWN with entropy: 0.0000
+Bot chose: KNOWN with entropy: 0.0000
+Top ten guesses: [('KNOWN', 0.0)]
+GUESS: KNOWN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝙊𝙉𝙈𝙐𝙉, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 321 remaining candidates...
+Top 5 guesses: [('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245'), ('PINOT', '5.217'), ('PILOT', '5.195')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.2877
+Ended up choosing COMMON word: 𝙋𝙄𝙉𝙊𝙏 with entropy: 5.2172
+GUESS: PINOT
+
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.0045 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.00450139223494, 'expected_info_gain': 5.217226610084238}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('CLONK', '3.746'), ('KLONG', '3.584'), ('BLOND', '3.546'), ('KNOWD', '3.546'), ('KNOWN', '3.346')]
+Top entropy choice: 𝘾𝙇𝙊𝙉𝙆 with entropy: 3.7464
+Ended up choosing COMMON word: 𝘽𝙇𝙊𝙉𝘿 with entropy: 3.5464
+GUESS: BLOND
+
+Guess: 𝘽𝙇𝙊𝙉𝘿, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 2.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.7369655941662066, 'expected_info_gain': 3.546439344671015}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('KNOCK', '1.585'), ('KNOWN', '1.585'), ('UNOWN', '1.585')]
+Top entropy choice: 𝙆𝙉𝙊𝘾𝙆 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙆𝙉𝙊𝘾𝙆 with entropy: 1.5850
+GUESS: KNOCK
+
+Guess: 𝙆𝙉𝙊𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('KNOWN', '0.000')]
+Top entropy choice: 𝙆𝙉𝙊𝙒𝙉 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙆𝙉𝙊𝙒𝙉 with entropy: 0.0000
+GUESS: KNOWN
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 4.005 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙇𝙊𝙉𝘿, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 4.322, Expected Info Gain: 3.546 bits, Actual Info Gain: 2.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙉𝙊𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙊𝙒𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+321 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.311'), ('PUTIN', '5.299'), ('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.9341 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 3.934112064343542, 'expected_info_gain': 5.310909875682413}
+----------
+The bot is making a guess...
+21 candidate words remaining.
+Top 5 guesses: [('DUOMO', '3.880'), ('PUDGY', '3.821'), ('DUMKY', '3.749'), ('UDYOG', '3.749'), ('UNGOD', '3.749')]
+Top entropy choice: 𝘿𝙐𝙊𝙈𝙊 with entropy: 3.8802
+Guess count low, choosing the word with highest entropy: 𝘿𝙐𝙊𝙈𝙊 with entropy: 3.8802
+GUESS: DUOMO
+
+Guess: 𝘿𝙐𝙊𝙈𝙊, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 0.0, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 3.880179922675737}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('KNOWN', '0.000')]
+Top entropy choice: 𝙆𝙉𝙊𝙒𝙉 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙆𝙉𝙊𝙒𝙉 with entropy: 0.0000
+GUESS: KNOWN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 3.934 bits, Posterior Entropy: 4.392, 
+Guess: 𝘿𝙐𝙊𝙈𝙊, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.392, Expected Info Gain: 3.880 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

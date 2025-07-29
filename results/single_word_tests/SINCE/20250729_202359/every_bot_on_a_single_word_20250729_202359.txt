@@ -1,0 +1,220 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SUITE 
+The top ten guesses and scores: [('SUITE', 337), ('ISTLE', 336), ('STILE', 336), ('PISTE', 330), ('SPITE', 330), ('STIPE', 330), ('SMITE', 328), ('STIME', 328), ('STIVE', 322), ('SHITE', 321)]
+The bot finally chose: SUITE 
+GUESS: SUITE
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SINGE 
+The top ten guesses and scores: [('SINGE', 28), ('SIDHE', 27), ('SIDLE', 27), ('SINCE', 27), ('SIEGE', 26), ('SEMIE', 25), ('SIEVE', 25)]
+The bot finally chose: SINCE 
+GUESS: SINCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩⬜🟨⬜🟩
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩
+Actual Info Gain: 6.6073 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 1.0, 'actual_info_gain': 6.60733031374961, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINCE with entropy: 1.0000
+Bot chose: SINCE with entropy: 1.0000
+Top ten guesses: [('SINCE', 1.0), ('SINGE', 1.0)]
+GUESS: SINCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bitsPosterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 6.607 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩
+Actual Info Gain: 6.6073 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 1.0, 'actual_info_gain': 6.60733031374961, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINCE with entropy: 1.0000
+Bot chose: SINCE with entropy: 1.0000
+Top ten guesses: [('SINCE', 1.0), ('SINGE', 1.0)]
+GUESS: SINCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bitsPosterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 6.607 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 176 potential guesses from 77 remaining candidates...
+Top 5 guesses: [('UNTIL', '3.817'), ('THINK', '3.779'), ('THING', '3.629'), ('LIGHT', '3.605'), ('CHILD', '3.599')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.8168
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.8168
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 3.6818 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.681824039973745, 'expected_info_gain': 3.816808491121397}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('SPINE', '1.459'), ('SWINE', '1.459'), ('SEINE', '1.459'), ('SHINE', '1.459'), ('SINCE', '1.252')]
+Top entropy choice: 𝙎𝙋𝙄𝙉𝙀 with entropy: 1.4591
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙉𝙀 with entropy: 1.4591
+GUESS: SPINE
+
+Guess: 𝙎𝙋𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.4591479170272448}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SINCE', '1.000'), ('SINGE', '1.000')]
+Top entropy choice: 𝙎𝙄𝙉𝘾𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙄𝙉𝘾𝙀 with entropy: 1.0000
+GUESS: SINCE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bitsPosterior Entropy: 6.267, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 6.267, Expected Info Gain: 3.817 bits, Actual Info Gain: 3.682 bitsPosterior Entropy: 2.585, 
+Guess: 𝙎𝙋𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+77 candidate words remaining.
+Top 5 guesses: [('CLIPT', '4.180'), ('MILTY', '4.129'), ('CLINT', '4.121'), ('LINTY', '4.101'), ('ELITE', '4.032')]
+Top entropy choice: 𝘾𝙇𝙄𝙋𝙏 with entropy: 4.1796
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙋𝙏 with entropy: 4.1796
+GUESS: CLIPT
+
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 6.2668 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 0.0, 'actual_info_gain': 6.266786540694901, 'expected_info_gain': 4.17963258557609}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SINCE', '0.000')]
+Top entropy choice: 𝙎𝙄𝙉𝘾𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙄𝙉𝘾𝙀 with entropy: 0.0000
+GUESS: SINCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bitsPosterior Entropy: 6.267, 
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 6.267, Expected Info Gain: 4.180 bits, Actual Info Gain: 6.267 bitsPosterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

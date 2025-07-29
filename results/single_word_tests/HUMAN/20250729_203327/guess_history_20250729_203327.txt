@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙐𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜🟨⬜🟩⬜
+Guess: 𝙃𝙐𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bitsPosterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.221 bitsPosterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.710 bits, Actual Info Gain: 5.087 bitsPosterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bitsPosterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.221 bitsPosterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.710 bits, Actual Info Gain: 5.087 bitsPosterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bitsPosterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 5.193 bitsPosterior Entropy: 4.755, 
+Guess: 𝙃𝙐𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bitsPosterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 5.489 bitsPosterior Entropy: 4.459, 
+Guess: 𝙇𝙐𝙈𝙋𝙔, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.459, Expected Info Gain: 3.641 bits, Actual Info Gain: 4.459 bitsPosterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

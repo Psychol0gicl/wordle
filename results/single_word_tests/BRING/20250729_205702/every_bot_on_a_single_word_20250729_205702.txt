@@ -1,0 +1,274 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝙄𝙉𝙂 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: BRUIT 
+The top ten guesses and scores: [('BRUIT', 240), ('FRUIT', 239), ('PRINT', 236), ('GRIPT', 234), ('TRIPY', 233), ('DRIPT', 229), ('TRICK', 229), ('BRUIN', 228), ('KRUBI', 226), ('TRILD', 225)]
+The bot finally chose: FRUIT 
+GUESS: FRUIT
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: PRINK 
+The top ten guesses and scores: [('PRINK', 98), ('PRICK', 96), ('PRING', 96), ('GRIPY', 95), ('PRICY', 95), ('CRINK', 93), ('PRIDY', 93), ('PRIMY', 92), ('BRINK', 91), ('CRIMP', 91)]
+The bot finally chose: PRICK 
+GUESS: PRICK
+Guess: 𝙋𝙍𝙄𝘾𝙆, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: DRILY 
+The top ten guesses and scores: [('DRILY', 38), ('GRIND', 38), ('BRING', 37), ('GRILL', 36), ('BRINY', 35), ('WRING', 35), ('DRILL', 34), ('GRIMY', 34), ('IRING', 34), ('BRILL', 33)]
+The bot finally chose: GRIND 
+GUESS: GRIND
+Guess: 𝙂𝙍𝙄𝙉𝘿, Feedback: 🟨🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BRING 
+The top ten guesses and scores: [('BRING', 14), ('WRING', 14), ('IRING', 13)]
+The bot finally chose: BRING 
+GUESS: BRING
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙋𝙍𝙄𝘾𝙆, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙂𝙍𝙄𝙉𝘿, Feedback: 🟨🟩🟩🟩⬜
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.4224 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 3.4223581857272407, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RINGY with entropy: 4.2014
+Bot chose: GIRLY with entropy: 4.1467
+Top ten guesses: [('RINGY', 4.201356976491467), ('GIRLY', 4.146740335896193), ('RINDY', 4.135339754601471), ('RIDGY', 4.123566791190388), ('RIGID', 4.120707417785409), ('NIRLY', 4.074195789878432), ('GRIND', 4.03383910398286), ('BRINY', 3.9431383009621594), ('DRINK', 3.939842732355734), ('IRING', 3.9303922217379035)]
+GUESS: GIRLY
+
+Guess: 𝙂𝙄𝙍𝙇𝙔, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 3.8413 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.841302253980942, 'expected_info_gain': 4.146740335896193}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRING with entropy: 0.9183
+Bot chose: BRING with entropy: 0.9183
+Top ten guesses: [('BRING', 0.9182958340544896), ('IRING', 0.9182958340544896), ('WRING', 0.9182958340544896)]
+GUESS: BRING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 5.426, 
+Guess: 𝙂𝙄𝙍𝙇𝙔, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 5.426, Expected Info Gain: 4.147 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.4224 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 3.4223581857272407, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RINGY with entropy: 4.2014
+Bot chose: GIRLY with entropy: 4.1467
+Top ten guesses: [('RINGY', 4.201356976491467), ('GIRLY', 4.146740335896193), ('RINDY', 4.135339754601471), ('RIDGY', 4.123566791190388), ('RIGID', 4.120707417785409), ('NIRLY', 4.074195789878432), ('GRIND', 4.03383910398286), ('BRINY', 3.9431383009621594), ('DRINK', 3.939842732355734), ('IRING', 3.9303922217379035)]
+GUESS: GIRLY
+
+Guess: 𝙂𝙄𝙍𝙇𝙔, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 3.8413 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.841302253980942, 'expected_info_gain': 4.146740335896193}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRING with entropy: 0.9183
+Bot chose: BRING with entropy: 0.9183
+Top ten guesses: [('BRING', 0.9182958340544896), ('IRING', 0.9182958340544896), ('WRING', 0.9182958340544896)]
+GUESS: BRING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 5.426, 
+Guess: 𝙂𝙄𝙍𝙇𝙔, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 5.426, Expected Info Gain: 4.147 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙄𝙉𝙂 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 405 potential guesses from 208 remaining candidates...
+Top 5 guesses: [('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUILT', '4.856'), ('CURNY', '4.831'), ('TURFY', '4.808')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+Ended up choosing COMMON word: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+GUESS: DIRTY
+
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 2.8425 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.84245872301352, 'expected_info_gain': 5.006260121401016}
+----------
+The bot is making a guess...
+Evaluating 29 potential guesses from 29 remaining candidates...
+Top 5 guesses: [('PRINK', '3.664'), ('BRINK', '3.565'), ('PRICK', '3.384'), ('CRINK', '3.384'), ('BRICK', '3.342')]
+Top entropy choice: 𝙋𝙍𝙄𝙉𝙆 with entropy: 3.6639
+Ended up choosing COMMON word: 𝘽𝙍𝙄𝙉𝙆 with entropy: 3.5645
+GUESS: BRINK
+
+Guess: 𝘽𝙍𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 4.8580 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 0.0, 'actual_info_gain': 4.857980995127572, 'expected_info_gain': 3.5645404777369882}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('BRING', '0.000')]
+Top entropy choice: 𝘽𝙍𝙄𝙉𝙂 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘽𝙍𝙄𝙉𝙂 with entropy: 0.0000
+GUESS: BRING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 7.700, Expected Info Gain: 5.006 bits, Actual Info Gain: 2.842 bits, Posterior Entropy: 4.858, 
+Guess: 𝘽𝙍𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 4.858, Expected Info Gain: 3.565 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙄𝙉𝙂 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+208 candidate words remaining.
+Top 5 guesses: [('TYING', '5.042'), ('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUNTY', '4.931'), ('CUNIT', '4.926')]
+Top entropy choice: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+Guess count low, choosing the word with highest entropy: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+GUESS: TYING
+
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 5.3785 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.378511623253729, 'expected_info_gain': 5.04238338201697}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('UPBOW', '2.322'), ('BAPPU', '1.922'), ('BAPUS', '1.922'), ('BRAWL', '1.922'), ('BRAWN', '1.922')]
+Top entropy choice: 𝙐𝙋𝘽𝙊𝙒 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝙐𝙋𝘽𝙊𝙒 with entropy: 2.3219
+GUESS: UPBOW
+
+Guess: 𝙐𝙋𝘽𝙊𝙒, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BRING', '0.000')]
+Top entropy choice: 𝘽𝙍𝙄𝙉𝙂 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙍𝙄𝙉𝙂 with entropy: 0.0000
+GUESS: BRING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.700, Expected Info Gain: 5.042 bits, Actual Info Gain: 5.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝙐𝙋𝘽𝙊𝙒, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

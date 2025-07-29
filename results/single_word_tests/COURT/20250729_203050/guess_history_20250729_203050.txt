@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙐𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙈𝙊𝙐𝙍𝙉, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bitsPosterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bitsPosterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.952 bitsPosterior Entropy: 4.907, 
+Guess: 𝘽𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 3.054 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 3.322, 
+Guess: 𝙇𝙊𝙍𝙍𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.446 bits, Actual Info Gain: 1.737 bitsPosterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.952 bitsPosterior Entropy: 4.907, 
+Guess: 𝘽𝙐𝙉𝘿𝙔, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 3.673 bits, Actual Info Gain: 3.907 bitsPosterior Entropy: 1.000, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

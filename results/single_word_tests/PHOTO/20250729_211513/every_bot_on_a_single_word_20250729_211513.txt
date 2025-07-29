@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙃𝙊𝙏𝙊 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOTH 
+The top ten guesses and scores: [('CLOTH', 540), ('YMOLT', 538), ('PHONY', 527), ('CHOIL', 526), ('CHOLI', 526), ('GLOBY', 526), ('CHOKY', 524), ('PHOTY', 524), ('CLONK', 523), ('THOLI', 522)]
+The bot finally chose: CLOTH 
+GUESS: CLOTH
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩🟩🟨
+entropy_info: None
+----------
+The bot originally chose: PHOTY 
+The top ten guesses and scores: [('PHOTY', 18), ('DHOTI', 16), ('HOOTY', 16), ('PHOTO', 16)]
+The bot finally chose: PHOTY 
+GUESS: PHOTY
+Guess: 𝙋𝙃𝙊𝙏𝙔, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: PHOTO 
+The top ten guesses and scores: [('PHOTO', 5)]
+The bot finally chose: PHOTO 
+GUESS: PHOTO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩🟩🟨
+Guess: 𝙋𝙃𝙊𝙏𝙔, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙋𝙃𝙊𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙃𝙊𝙏𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.7345 bits
+Posterior entropy: 8.124121311829187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.124121311829187, 'actual_info_gain': 5.73453967289359, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PILOT with entropy: 5.4895
+Bot chose: PILOT with entropy: 5.4895
+Top ten guesses: [('PILOT', 5.489490500871864), ('PLOIT', 5.474998999962595), ('PIONY', 5.403992697059452), ('POUTY', 5.388040494494271), ('POULT', 5.359152827157382), ('PINTO', 5.332625193451069), ('PINOT', 5.329328833097865), ('PLUOT', 5.315455627687466), ('POTIN', 5.312490104747318), ('PILON', 5.309944778174127)]
+GUESS: PILOT
+
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.6647 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.124121311829187, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.66468969319189, 'expected_info_gain': 5.489490500871864}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PONTO with entropy: 3.2776
+Bot chose: PONTO with entropy: 3.2776
+Top ten guesses: [('PONTO', 3.277613436819116), ('POTTO', 3.277613436819116), ('PONTY', 2.845350936622437), ('POTTY', 2.845350936622437), ('PUNTO', 2.845350936622437), ('PUTTO', 2.845350936622437), ('PHOTO', 2.6635327548042547), ('POOTY', 2.6635327548042547), ('POUTY', 2.6635327548042547), ('POTCH', 2.3685225277282065)]
+GUESS: PONTO
+
+Guess: 𝙋𝙊𝙉𝙏𝙊, Feedback: 🟩🟨⬜🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.277613436819116}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PHOTO with entropy: 0.0000
+Bot chose: PHOTO with entropy: 0.0000
+Top ten guesses: [('PHOTO', 0.0)]
+GUESS: PHOTO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 4.665 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙊𝙉𝙏𝙊, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 3.278 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝙊𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙃𝙊𝙏𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.7345 bits
+Posterior entropy: 8.124121311829187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.124121311829187, 'actual_info_gain': 5.73453967289359, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PILOT with entropy: 5.4895
+Bot chose: PILOT with entropy: 5.4895
+Top ten guesses: [('PILOT', 5.489490500871864), ('PLOIT', 5.474998999962595), ('PIONY', 5.403992697059452), ('POUTY', 5.388040494494271), ('POULT', 5.359152827157382), ('PINTO', 5.332625193451069), ('PINOT', 5.329328833097865), ('PLUOT', 5.315455627687466), ('POTIN', 5.312490104747318), ('PILON', 5.309944778174127)]
+GUESS: PILOT
+
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.6647 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.124121311829187, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.66468969319189, 'expected_info_gain': 5.489490500871864}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PONTO with entropy: 3.2776
+Bot chose: PONTO with entropy: 3.2776
+Top ten guesses: [('PONTO', 3.277613436819116), ('POTTO', 3.277613436819116), ('PONTY', 2.845350936622437), ('POTTY', 2.845350936622437), ('PUNTO', 2.845350936622437), ('PUTTO', 2.845350936622437), ('PHOTO', 2.6635327548042547), ('POOTY', 2.6635327548042547), ('POUTY', 2.6635327548042547), ('POTCH', 2.3685225277282065)]
+GUESS: PONTO
+
+Guess: 𝙋𝙊𝙉𝙏𝙊, Feedback: 🟩🟨⬜🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.277613436819116}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PHOTO with entropy: 0.0000
+Bot chose: PHOTO with entropy: 0.0000
+Top ten guesses: [('PHOTO', 0.0)]
+GUESS: PHOTO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 4.665 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙊𝙉𝙏𝙊, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 3.278 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝙊𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙃𝙊𝙏𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 321 remaining candidates...
+Top 5 guesses: [('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245'), ('PINOT', '5.217'), ('PILOT', '5.195')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.2877
+Ended up choosing COMMON word: 𝙋𝙄𝙉𝙊𝙏 with entropy: 5.2172
+GUESS: PINOT
+
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 6.0045 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 6.004501392234941, 'expected_info_gain': 5.217226610084238}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('PLUTO', '2.322'), ('PHOTO', '1.922'), ('PHOTY', '1.922'), ('PLOTZ', '1.922'), ('PUTTO', '1.922')]
+Top entropy choice: 𝙋𝙇𝙐𝙏𝙊 with entropy: 2.3219
+Ended up choosing COMMON word: 𝙋𝙇𝙐𝙏𝙊 with entropy: 2.3219
+GUESS: PLUTO
+
+Guess: 𝙋𝙇𝙐𝙏𝙊, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('PHOTO', '0.000')]
+Top entropy choice: 𝙋𝙃𝙊𝙏𝙊 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙋𝙃𝙊𝙏𝙊 with entropy: 0.0000
+GUESS: PHOTO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 6.005 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙇𝙐𝙏𝙊, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝙊𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙃𝙊𝙏𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+321 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.311'), ('PUTIN', '5.299'), ('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.1565 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.15650448567999, 'expected_info_gain': 5.310909875682413}
+----------
+The bot is making a guess...
+9 candidate words remaining.
+Top 5 guesses: [('BOODY', '3.170'), ('BOOGY', '3.170'), ('GOOBY', '3.170'), ('GOOPY', '3.170'), ('HOODY', '3.170')]
+Top entropy choice: 𝘽𝙊𝙊𝘿𝙔 with entropy: 3.1699
+Guess count low, choosing the word with highest entropy: 𝘽𝙊𝙊𝘿𝙔 with entropy: 3.1699
+GUESS: BOODY
+
+Guess: 𝘽𝙊𝙊𝘿𝙔, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.169925001442312}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PHOTO', '0.000')]
+Top entropy choice: 𝙋𝙃𝙊𝙏𝙊 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙃𝙊𝙏𝙊 with entropy: 0.0000
+GUESS: PHOTO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 5.157 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙊𝙊𝘿𝙔, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 3.170 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝙊𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

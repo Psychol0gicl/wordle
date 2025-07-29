@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙊𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝙎𝙇𝙊𝙏𝙃, Feedback: 🟩⬜🟩🟨🟨
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙃𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙊𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙉𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.728, Expected Info Gain: 3.518 bits, Actual Info Gain: 3.143 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙊𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙉𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.728, Expected Info Gain: 3.518 bits, Actual Info Gain: 3.143 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙊𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 3.632 bits, Actual Info Gain: 2.509 bits, Posterior Entropy: 4.700, 
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟨🟩🟩⬜, Prior Entropy: 4.700, Expected Info Gain: 2.840 bits, Actual Info Gain: 3.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙊𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝙋𝙇𝙊𝙊𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.209, Expected Info Gain: 4.232 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙈𝙉𝙄𝘾, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

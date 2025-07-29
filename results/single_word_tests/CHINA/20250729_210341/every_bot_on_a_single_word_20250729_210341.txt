@@ -1,0 +1,253 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: GIANT 
+The top ten guesses and scores: [('GIANT', 255), ('NGATI', 255), ('TANGI', 255), ('PAINT', 251), ('PATIN', 251), ('PINTA', 251), ('DAINT', 249), ('MATIN', 249), ('TAMIN', 249), ('CANTI', 248)]
+The bot finally chose: GIANT 
+GUESS: GIANT
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: ⬜🟨🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CHINA 
+The top ten guesses and scores: [('CHINA', 12), ('QUINA', 12), ('PANNI', 11)]
+The bot finally chose: CHINA 
+GUESS: CHINA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 6.8690 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 6.86899398784999, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUINA with entropy: 2.7255
+Bot chose: QUINA with entropy: 2.7255
+Top ten guesses: [('QUINA', 2.725480556997868), ('CNIDA', 2.6416041678685933), ('UNICA', 2.6416041678685933), ('NIGUA', 2.4193819456463714), ('CHINA', 2.2810361125534233), ('DIVNA', 2.197159723424149), ('INULA', 2.058813890331201), ('NIGGA', 1.8799649487271108), ('NIOZA', 1.6577427265048887)]
+GUESS: QUINA
+
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CHINA with entropy: 0.0000
+Bot chose: CHINA with entropy: 0.0000
+Top ten guesses: [('CHINA', 0.0)]
+GUESS: CHINA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.869 bits, Posterior Entropy: 3.170, 
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 6.8690 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 6.86899398784999, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUINA with entropy: 2.7255
+Bot chose: QUINA with entropy: 2.7255
+Top ten guesses: [('QUINA', 2.725480556997868), ('CNIDA', 2.6416041678685933), ('UNICA', 2.6416041678685933), ('NIGUA', 2.4193819456463714), ('CHINA', 2.2810361125534233), ('DIVNA', 2.197159723424149), ('INULA', 2.058813890331201), ('NIGGA', 1.8799649487271108), ('NIOZA', 1.6577427265048887)]
+GUESS: QUINA
+
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CHINA with entropy: 0.0000
+Bot chose: CHINA with entropy: 0.0000
+Top ten guesses: [('CHINA', 0.0)]
+GUESS: CHINA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.869 bits, Posterior Entropy: 3.170, 
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 8.9484 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 1.0, 'actual_info_gain': 8.948367231584678, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('CHINA', '1.000'), ('CNIDA', '1.000')]
+Top entropy choice: 𝘾𝙃𝙄𝙉𝘼 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙉𝘼 with entropy: 1.0000
+GUESS: CHINA
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 8.948 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 6.9484 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 3.0, 'actual_info_gain': 6.948367231584678, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('ADUNC', '3.000'), ('BUILD', '3.000'), ('CHUGS', '3.000'), ('CHUNK', '3.000'), ('CLOUD', '3.000')]
+Top entropy choice: 𝘼𝘿𝙐𝙉𝘾 with entropy: 3.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝘿𝙐𝙉𝘾 with entropy: 3.0000
+GUESS: ADUNC
+
+Guess: 𝘼𝘿𝙐𝙉𝘾, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CHINA', '0.000')]
+Top entropy choice: 𝘾𝙃𝙄𝙉𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙃𝙄𝙉𝘼 with entropy: 0.0000
+GUESS: CHINA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 6.948 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝘿𝙐𝙉𝘾, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

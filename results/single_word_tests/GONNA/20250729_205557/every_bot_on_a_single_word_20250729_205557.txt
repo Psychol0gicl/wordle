@@ -1,0 +1,263 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙊𝙉𝙉𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOTAL 
+The top ten guesses and scores: [('NOTAL', 965), ('ONTAL', 965), ('TALON', 965), ('TOLAN', 965), ('TONAL', 965), ('MONAL', 952), ('CANTO', 948), ('COTAN', 948), ('NOPAL', 948), ('OCTAN', 948)]
+The bot finally chose: TALON 
+GUESS: TALON
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: DONGA 
+The top ten guesses and scores: [('DONGA', 121), ('GONAD', 121), ('GONIA', 115), ('MONAD', 115), ('NGAIO', 115), ('NOMAD', 115), ('DOWNA', 114), ('CONGA', 113), ('DONAH', 113), ('GUANO', 113)]
+The bot finally chose: NOMAD 
+GUESS: NOMAD
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟨🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CONGA 
+The top ten guesses and scores: [('CONGA', 33), ('GONIA', 33), ('PONGA', 32), ('WONGA', 32), ('GONNA', 31), ('CONIA', 30), ('BONZA', 28), ('XOANA', 27)]
+The bot finally chose: CONGA 
+GUESS: CONGA
+Guess: 𝘾𝙊𝙉𝙂𝘼, Feedback: ⬜🟩🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: GONIA 
+The top ten guesses and scores: [('GONIA', 10), ('GONNA', 9)]
+The bot finally chose: GONNA 
+GUESS: GONNA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟨🟩⬜🟨⬜
+Guess: 𝘾𝙊𝙉𝙂𝘼, Feedback: ⬜🟩🟩🟨🟩
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙊𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 5.9515 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 5.951456148041963, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DONGA with entropy: 2.9842
+Bot chose: DONNA with entropy: 2.7489
+Top ten guesses: [('DONGA', 2.9842341646524884), ('NONDA', 2.8665871058289594), ('DONNA', 2.74894004700543), ('GONNA', 2.6312929881819005), ('ZONDA', 2.5366082543914996), ('WONGA', 2.372094637795624), ('WUNGA', 2.372094637795624), ('MUNGA', 2.3432578733442675), ('FONDA', 2.3071885761626687), ('FUNDA', 2.3071885761626687)]
+GUESS: DONNA
+
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 2.74894004700543}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GONNA with entropy: 1.0000
+Bot chose: GONNA with entropy: 1.0000
+Top ten guesses: [('GONNA', 1.0), ('NONNA', 1.0)]
+GUESS: GONNA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.951 bits, Posterior Entropy: 4.087, 
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 2.749 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 5.9515 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 5.951456148041963, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DONGA with entropy: 2.9842
+Bot chose: DONNA with entropy: 2.7489
+Top ten guesses: [('DONGA', 2.9842341646524884), ('NONDA', 2.8665871058289594), ('DONNA', 2.74894004700543), ('GONNA', 2.6312929881819005), ('ZONDA', 2.5366082543914996), ('WONGA', 2.372094637795624), ('WUNGA', 2.372094637795624), ('MUNGA', 2.3432578733442675), ('FONDA', 2.3071885761626687), ('FUNDA', 2.3071885761626687)]
+GUESS: DONNA
+
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 2.74894004700543}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GONNA with entropy: 1.0000
+Bot chose: GONNA with entropy: 1.0000
+Top ten guesses: [('GONNA', 1.0), ('NONNA', 1.0)]
+GUESS: GONNA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.951 bits, Posterior Entropy: 4.087, 
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 2.749 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙉𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.5458 bits
+Posterior entropy: 7.312882955284356
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.312882955284356, 'actual_info_gain': 6.545778029438421, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 255 potential guesses from 159 remaining candidates...
+Top 5 guesses: [('NODAL', '3.893'), ('TOLAN', '3.893'), ('NOPAL', '3.866'), ('NOTAL', '3.861'), ('TONAL', '3.851')]
+Top entropy choice: 𝙉𝙊𝘿𝘼𝙇 with entropy: 3.8934
+Ended up choosing COMMON word: 𝙏𝙊𝙉𝘼𝙇 with entropy: 3.8512
+GUESS: TONAL
+
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 3.5055 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 7.312882955284356, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.5055280332267515, 'expected_info_gain': 3.8512007713237906}
+----------
+The bot is making a guess...
+Evaluating 14 potential guesses from 14 remaining candidates...
+Top 5 guesses: [('DONGA', '2.414'), ('NONDA', '2.360'), ('GONNA', '2.264'), ('DONNA', '2.217'), ('CONGA', '1.921')]
+Top entropy choice: 𝘿𝙊𝙉𝙂𝘼 with entropy: 2.4138
+Ended up choosing COMMON word: 𝙂𝙊𝙉𝙉𝘼 with entropy: 2.2638
+GUESS: GONNA
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.313, Expected Info Gain: 3.851 bits, Actual Info Gain: 3.506 bits, Posterior Entropy: 3.807, 
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙉𝙉𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.5458 bits
+Posterior entropy: 7.312882955284356
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.312882955284356, 'actual_info_gain': 6.545778029438421, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+159 candidate words remaining.
+Top 5 guesses: [('LINAC', '4.240'), ('NIDAL', '4.234'), ('LIMAN', '4.186'), ('NITAL', '4.185'), ('LINGA', '4.148')]
+Top entropy choice: 𝙇𝙄𝙉𝘼𝘾 with entropy: 4.2404
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝘼𝘾 with entropy: 4.2404
+GUESS: LINAC
+
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 3.6124 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.312882955284356, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.6124432371432635, 'expected_info_gain': 4.240387469672681}
+----------
+The bot is making a guess...
+13 candidate words remaining.
+Top 5 guesses: [('DIGHT', '2.815'), ('DWANG', '2.777'), ('DOUGH', '2.603'), ('DAWGS', '2.565'), ('DBAGS', '2.565')]
+Top entropy choice: 𝘿𝙄𝙂𝙃𝙏 with entropy: 2.8151
+Guess count low, choosing the word with highest entropy: 𝘿𝙄𝙂𝙃𝙏 with entropy: 2.8151
+GUESS: DIGHT
+
+Guess: 𝘿𝙄𝙂𝙃𝙏, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.115477217419936, 'expected_info_gain': 2.8150724101159437}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('PONGA', '1.585'), ('WONGA', '1.585'), ('GONNA', '0.918')]
+Top entropy choice: 𝙋𝙊𝙉𝙂𝘼 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝙊𝙉𝙉𝘼 with entropy: 0.9183
+GUESS: GONNA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 7.313, Expected Info Gain: 4.240 bits, Actual Info Gain: 3.612 bits, Posterior Entropy: 3.700, 
+Guess: 𝘿𝙄𝙂𝙃𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 2.815 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

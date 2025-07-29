@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙁𝙀𝙄𝙂𝙉, Feedback: ⬜🟩🟨🟨🟩
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 5.209, 
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.209, Expected Info Gain: 3.349 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 5.209, 
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.209, Expected Info Gain: 3.349 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 5.337 bits, Posterior Entropy: 4.087, 
+Guess: 𝙇𝙀𝙑𝙄𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 3.102 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.295 bits, Posterior Entropy: 5.129, 
+Guess: 𝙂𝙀𝙉𝙄𝙉, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 4.172 bits, Actual Info Gain: 5.129 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

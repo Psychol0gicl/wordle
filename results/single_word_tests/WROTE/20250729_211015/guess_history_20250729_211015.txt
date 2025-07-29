@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙍𝙊𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘿𝙍𝙊𝙑𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘽𝙍𝙊𝙆𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙍𝙊𝙕𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝙍𝙊𝙍𝙀, Feedback: ⬜🟩🟩⬜🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙍𝙊𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟨⬜🟩🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 8.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙍𝙊𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙍𝙊𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟨⬜🟩🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 8.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙍𝙊𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙍𝙊𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝘿𝙍𝙊𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 2.715 bits, Actual Info Gain: 1.248 bits, Posterior Entropy: 4.000, 
+Guess: 𝙏𝙍𝙊𝙋𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 2.147 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙍𝙊𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙍𝙊𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙋𝙍𝙄𝙉𝙆, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 5.248, Expected Info Gain: 3.278 bits, Actual Info Gain: 1.547 bits, Posterior Entropy: 3.700, 
+Guess: 𝘿𝙐𝙑𝙀𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 3.700, Expected Info Gain: 2.931 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙍𝙊𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

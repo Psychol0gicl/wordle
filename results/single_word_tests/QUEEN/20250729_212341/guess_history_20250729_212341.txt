@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙐𝙉𝙈𝙀𝙏, Feedback: 🟨🟨⬜🟩⬜
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 3.170, 
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 3.170, 
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 6.839 bits, Posterior Entropy: 2.585, 
+Guess: 𝙀𝙇𝙑𝙀𝙉, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.470 bits, Posterior Entropy: 4.954, 
+Guess: 𝙀𝙉𝙀𝙈𝙔, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 4.131 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙌𝙐𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

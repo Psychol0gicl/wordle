@@ -1,0 +1,240 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOTH 
+The top ten guesses and scores: [('CLOTH', 540), ('YMOLT', 538), ('PHONY', 527), ('CHOIL', 526), ('CHOLI', 526), ('GLOBY', 526), ('CHOKY', 524), ('PHOTY', 524), ('CLONK', 523), ('THOLI', 522)]
+The bot finally chose: CLOTH 
+GUESS: CLOTH
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: GLOBY 
+The top ten guesses and scores: [('GLOBY', 90), ('PLONG', 89), ('KLONG', 88), ('FLONG', 87), ('BLOWN', 86), ('GLOBI', 86), ('BLOND', 84), ('GLOWY', 84), ('BLOWY', 83), ('PLOMB', 83)]
+The bot finally chose: BLOWN 
+GUESS: BLOWN
+Guess: 𝘽𝙇𝙊𝙒𝙉, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: BLOOD 
+The top ten guesses and scores: [('BLOOD', 17), ('BLOOK', 17), ('BLOOM', 17), ('BLOOP', 17)]
+The bot finally chose: BLOOD 
+GUESS: BLOOD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘽𝙇𝙊𝙒𝙉, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.5648 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 5.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OLOGY with entropy: 3.6217
+Bot chose: BLOOD with entropy: 3.4387
+Top ten guesses: [('OLOGY', 3.621653522439334), ('GLOBY', 3.5739348962840563), ('GLOWY', 3.4591479170272454), ('BLOOD', 3.438721875540867), ('BLOOM', 3.355388542207534), ('GLOUT', 3.3494839817876887), ('FLOOD', 3.3239348962840567), ('GLOOM', 3.3035088547976788), ('FLOWY', 3.240601562950723), ('BLOWY', 3.2406015629507228)]
+GUESS: BLOOD
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.565 bits, Posterior Entropy: 4.585, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.5648 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 5.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OLOGY with entropy: 3.6217
+Bot chose: BLOOD with entropy: 3.4387
+Top ten guesses: [('OLOGY', 3.621653522439334), ('GLOBY', 3.5739348962840563), ('GLOWY', 3.4591479170272454), ('BLOOD', 3.438721875540867), ('BLOOM', 3.355388542207534), ('GLOUT', 3.3494839817876887), ('FLOOD', 3.3239348962840567), ('GLOOM', 3.3035088547976788), ('FLOWY', 3.240601562950723), ('BLOWY', 3.2406015629507228)]
+GUESS: BLOOD
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.565 bits, Posterior Entropy: 4.585, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 321 remaining candidates...
+Top 5 guesses: [('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245'), ('PINOT', '5.217'), ('PILOT', '5.195')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.2877
+Ended up choosing COMMON word: 𝙋𝙄𝙉𝙊𝙏 with entropy: 5.2172
+GUESS: PINOT
+
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.2390 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.2389666458719635, 'expected_info_gain': 5.217226610084238}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('FLOOD', '3.337'), ('KLOOF', '3.337'), ('BLOOM', '3.337'), ('BLOOD', '3.264'), ('BLOOK', '3.264')]
+Top entropy choice: 𝙁𝙇𝙊𝙊𝘿 with entropy: 3.3372
+Ended up choosing COMMON word: 𝙁𝙇𝙊𝙊𝘿 with entropy: 3.3372
+GUESS: FLOOD
+
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 3.3371753411230776}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('BLOOD', '0.000')]
+Top entropy choice: 𝘽𝙇𝙊𝙊𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘽𝙇𝙊𝙊𝘿 with entropy: 0.0000
+GUESS: BLOOD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 4.239 bits, Posterior Entropy: 4.087, 
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 3.337 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+321 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.311'), ('PUTIN', '5.299'), ('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.1565 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 4.15650448567999, 'expected_info_gain': 5.310909875682413}
+----------
+The bot is making a guess...
+18 candidate words remaining.
+Top 5 guesses: [('BODGY', '3.530'), ('PUDGY', '3.461'), ('BOOKY', '3.419'), ('BIPOD', '3.392'), ('BLOOP', '3.377')]
+Top entropy choice: 𝘽𝙊𝘿𝙂𝙔 with entropy: 3.5305
+Guess count low, choosing the word with highest entropy: 𝘽𝙊𝘿𝙂𝙔 with entropy: 3.5305
+GUESS: BODGY
+
+Guess: 𝘽𝙊𝘿𝙂𝙔, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 3.5304930567574826}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BLOOD', '0.000')]
+Top entropy choice: 𝘽𝙇𝙊𝙊𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙇𝙊𝙊𝘿 with entropy: 0.0000
+GUESS: BLOOD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 4.157 bits, Posterior Entropy: 4.170, 
+Guess: 𝘽𝙊𝘿𝙂𝙔, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 4.170, Expected Info Gain: 3.530 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

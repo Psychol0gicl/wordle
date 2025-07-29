@@ -1,0 +1,205 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙋𝘼𝙍𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AURIC 
+The top ten guesses and scores: [('AURIC', 193), ('AMRIT', 189), ('AGRIN', 188), ('AGRUM', 187), ('ACRID', 185), ('ABRIM', 184), ('ABRIN', 184), ('AIRTH', 184), ('ATRIP', 184), ('ABURN', 183)]
+The bot finally chose: AURIC 
+GUESS: AURIC
+Guess: 𝘼𝙐𝙍𝙄𝘾, Feedback: 🟩⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ANGRY 
+The top ten guesses and scores: [('ANGRY', 65), ('AWMRY', 63), ('ALTAR', 62), ('ANTAR', 62), ('ANTRA', 62), ('AGGRY', 61), ('ALARY', 61), ('AMBRY', 61), ('APART', 60), ('ALARM', 59)]
+The bot finally chose: ANGRY 
+GUESS: ANGRY
+Guess: 𝘼𝙉𝙂𝙍𝙔, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: AWARD 
+The top ten guesses and scores: [('AWARD', 24), ('ADDRA', 23), ('ALARM', 22), ('APART', 22), ('AFARA', 21), ('AKARA', 21)]
+The bot finally chose: AWARD 
+GUESS: AWARD
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: ALARM 
+The top ten guesses and scores: [('ALARM', 16), ('APART', 16), ('AFARA', 15), ('AKARA', 15)]
+The bot finally chose: ALARM 
+GUESS: ALARM
+Guess: 𝘼𝙇𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: APART 
+The top ten guesses and scores: [('APART', 13), ('AFARA', 12), ('AKARA', 12)]
+The bot finally chose: APART 
+GUESS: APART
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜⬜
+Guess: 𝘼𝙐𝙍𝙄𝘾, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝘼𝙉𝙂𝙍𝙔, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝘼𝙇𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝘼𝙋𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙋𝘼𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: APART with entropy: 2.0000
+Bot chose: APART with entropy: 2.0000
+Top ten guesses: [('APART', 2.0), ('APORT', 2.0), ('APPRO', 2.0), ('APRON', 1.5)]
+GUESS: APART
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙋𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙋𝘼𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: APART with entropy: 2.0000
+Bot chose: APART with entropy: 2.0000
+Top ten guesses: [('APART', 2.0), ('APORT', 2.0), ('APPRO', 2.0), ('APRON', 1.5)]
+GUESS: APART
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙋𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙋𝘼𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.1862 bits
+Posterior entropy: 5.672425341971495
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.672425341971495, 'actual_info_gain': 8.186235642751281, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 151 potential guesses from 51 remaining candidates...
+Top 5 guesses: [('UNTIL', '3.537'), ('LIGHT', '3.526'), ('CHILD', '3.375'), ('MIGHT', '3.214'), ('THINK', '3.161')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.5368
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.5368
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.672425341971495, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 3.5367692586584063}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('APART', '1.585'), ('CHART', '1.585'), ('THARM', '1.585')]
+Top entropy choice: 𝘼𝙋𝘼𝙍𝙏 with entropy: 1.5850
+Ended up choosing COMMON word: 𝘼𝙋𝘼𝙍𝙏 with entropy: 1.5850
+GUESS: APART
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 3.537 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 1.585, 
+Guess: 𝘼𝙋𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙋𝘼𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.1862 bits
+Posterior entropy: 5.672425341971495
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.672425341971495, 'actual_info_gain': 8.186235642751281, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+51 candidate words remaining.
+Top 5 guesses: [('CULTI', '3.892'), ('CLINT', '3.863'), ('ALCID', '3.855'), ('CLIFT', '3.799'), ('LUCID', '3.788')]
+Top entropy choice: 𝘾𝙐𝙇𝙏𝙄 with entropy: 3.8922
+Guess count low, choosing the word with highest entropy: 𝘾𝙐𝙇𝙏𝙄 with entropy: 3.8922
+GUESS: CULTI
+
+Guess: 𝘾𝙐𝙇𝙏𝙄, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.6724 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.672425341971495, 'posterior_entropy': 1.0, 'actual_info_gain': 4.672425341971495, 'expected_info_gain': 3.8921510768838266}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('APART', '1.000'), ('THARM', '1.000')]
+Top entropy choice: 𝘼𝙋𝘼𝙍𝙏 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝙋𝘼𝙍𝙏 with entropy: 1.0000
+GUESS: APART
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝘾𝙐𝙇𝙏𝙄, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 5.672, Expected Info Gain: 3.892 bits, Actual Info Gain: 4.672 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙋𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

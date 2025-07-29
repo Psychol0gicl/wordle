@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bitsPosterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 4.334 bitsPosterior Entropy: 3.585, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bitsPosterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 4.334 bitsPosterior Entropy: 3.585, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bitsPosterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 5.605 bitsPosterior Entropy: 3.170, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bitsPosterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 5.775 bitsPosterior Entropy: 3.000, 
+Guess: 𝘽𝙄𝙉𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

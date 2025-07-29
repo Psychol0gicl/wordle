@@ -1,0 +1,227 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙁𝙏𝙀𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ADRET 
+The top ten guesses and scores: [('ADRET', 143), ('AIDER', 140), ('AIRED', 140), ('ALERT', 140), ('ALTER', 140), ('ALDER', 139), ('ACRED', 137), ('AFRET', 137), ('AFTER', 137), ('APERT', 137)]
+The bot finally chose: AIRED 
+GUESS: AIRED
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: ALTER 
+The top ten guesses and scores: [('ALTER', 66), ('ANGER', 65), ('ABLER', 64), ('ANKER', 64), ('ACKER', 63), ('AFTER', 63), ('APTER', 63), ('AUGER', 63), ('AEGER', 62), ('AGGER', 62)]
+The bot finally chose: ALTER 
+GUESS: ALTER
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: AFTER 
+The top ten guesses and scores: [('AFTER', 14), ('APTER', 14), ('ATTER', 13)]
+The bot finally chose: AFTER 
+GUESS: AFTER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜🟨
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝘼𝙁𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙁𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.1444 bits
+Posterior entropy: 6.714245517666122
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.714245517666122, 'actual_info_gain': 7.144415467056654, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALER with entropy: 2.5579
+Bot chose: LATER with entropy: 2.5146
+Top ten guesses: [('TALER', 2.5579339083953796), ('LATER', 2.5146172751971267), ('ALTER', 2.4790426324017973), ('RATER', 2.4764708057444333), ('GATER', 2.4302841624449187), ('ARTER', 2.35794983165406), ('LAGER', 2.3297827260489328), ('CATER', 2.322637517708743), ('TAWER', 2.313076938913123), ('TAMER', 2.3105376280642886)]
+GUESS: LATER
+
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟨🟩🟩🟩
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.714245517666122, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 2.5146172751971267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AFTER with entropy: 0.9183
+Bot chose: AFTER with entropy: 0.9183
+Top ten guesses: [('AFTER', 0.9182958340544896), ('ARTER', 0.9182958340544896), ('ATTER', 0.9182958340544896)]
+GUESS: AFTER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bitsPosterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟨🟩🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 5.129 bitsPosterior Entropy: 1.585, 
+Guess: 𝘼𝙁𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙁𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.1444 bits
+Posterior entropy: 6.714245517666122
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.714245517666122, 'actual_info_gain': 7.144415467056654, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALER with entropy: 2.5579
+Bot chose: LATER with entropy: 2.5146
+Top ten guesses: [('TALER', 2.5579339083953796), ('LATER', 2.5146172751971267), ('ALTER', 2.4790426324017973), ('RATER', 2.4764708057444333), ('GATER', 2.4302841624449187), ('ARTER', 2.35794983165406), ('LAGER', 2.3297827260489328), ('CATER', 2.322637517708743), ('TAWER', 2.313076938913123), ('TAMER', 2.3105376280642886)]
+GUESS: LATER
+
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟨🟩🟩🟩
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.714245517666122, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 2.5146172751971267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AFTER with entropy: 0.9183
+Bot chose: AFTER with entropy: 0.9183
+Top ten guesses: [('AFTER', 0.9182958340544896), ('ARTER', 0.9182958340544896), ('ATTER', 0.9182958340544896)]
+GUESS: AFTER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bitsPosterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟨🟩🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 5.129 bitsPosterior Entropy: 1.585, 
+Guess: 𝘼𝙁𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙁𝙏𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 473 potential guesses from 282 remaining candidates...
+Top 5 guesses: [('RATER', '3.990'), ('ARTER', '3.987'), ('ARRET', '3.920'), ('DARER', '3.907'), ('ALTER', '3.892')]
+Top entropy choice: 𝙍𝘼𝙏𝙀𝙍 with entropy: 3.9904
+Ended up choosing COMMON word: 𝘼𝙇𝙏𝙀𝙍 with entropy: 3.8916
+GUESS: ALTER
+
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 6.1396 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 2.0, 'actual_info_gain': 6.139551352398794, 'expected_info_gain': 3.891642305514907}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('AFTER', '0.811'), ('APTER', '0.811'), ('ARTER', '0.811'), ('ATTER', '0.811')]
+Top entropy choice: 𝘼𝙁𝙏𝙀𝙍 with entropy: 0.8113
+Ended up choosing COMMON word: 𝘼𝙁𝙏𝙀𝙍 with entropy: 0.8113
+GUESS: AFTER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bitsPosterior Entropy: 8.140, 
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 8.140, Expected Info Gain: 3.892 bits, Actual Info Gain: 6.140 bitsPosterior Entropy: 2.000, 
+Guess: 𝘼𝙁𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙁𝙏𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+282 candidate words remaining.
+Top 5 guesses: [('RADAR', '4.098'), ('TALAR', '4.078'), ('DATAL', '4.024'), ('RATER', '3.990'), ('ARTER', '3.987')]
+Top entropy choice: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+Guess count low, choosing the word with highest entropy: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+GUESS: RADAR
+
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 3.8176 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.817623257511431, 'expected_info_gain': 4.0984166563619855}
+----------
+The bot is making a guess...
+20 candidate words remaining.
+Top 5 guesses: [('GLINT', '2.871'), ('GLENT', '2.871'), ('KNELT', '2.802'), ('BLING', '2.702'), ('CLING', '2.702')]
+Top entropy choice: 𝙂𝙇𝙄𝙉𝙏 with entropy: 2.8710
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙄𝙉𝙏 with entropy: 2.8710
+GUESS: GLINT
+
+Guess: 𝙂𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.7369655941662066, 'expected_info_gain': 2.8709505944546687}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('AFTER', '0.918'), ('APTER', '0.918'), ('ATTER', '0.918')]
+Top entropy choice: 𝘼𝙁𝙏𝙀𝙍 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙁𝙏𝙀𝙍 with entropy: 0.9183
+GUESS: AFTER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bitsPosterior Entropy: 8.140, 
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 8.140, Expected Info Gain: 4.098 bits, Actual Info Gain: 3.818 bitsPosterior Entropy: 4.322, 
+Guess: 𝙂𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 4.322, Expected Info Gain: 2.871 bits, Actual Info Gain: 2.737 bitsPosterior Entropy: 1.585, 
+Guess: 𝘼𝙁𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

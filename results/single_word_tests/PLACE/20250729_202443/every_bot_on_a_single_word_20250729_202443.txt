@@ -1,0 +1,273 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙇𝘼𝘾𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LANCE 
+The top ten guesses and scores: [('LANCE', 596), ('LIANE', 595), ('LANDE', 590), ('PLANE', 589), ('CLAME', 585), ('MACLE', 585), ('PLATE', 585), ('MAILE', 584), ('LABNE', 583), ('GLACE', 581)]
+The bot finally chose: LANCE 
+GUESS: LANCE
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟨⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: GLACE 
+The top ten guesses and scores: [('GLACE', 9), ('PLACE', 9)]
+The bot finally chose: PLACE 
+GUESS: PLACE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟨⬜🟩🟩
+Guess: 𝙋𝙇𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PALET with entropy: 4.2917
+Bot chose: PATEL with entropy: 4.1437
+Top ten guesses: [('PALET', 4.291695148425388), ('PAGLE', 4.230457427325036), ('CAPLE', 4.174543100256106), ('PADLE', 4.156929210198596), ('PATEL', 4.143708731313533), ('PLATE', 4.104745865889743), ('PANEL', 4.07879514206748), ('PANCE', 4.076021101231095), ('PLANE', 4.003714573619461), ('PATEE', 3.9931729610066395)]
+GUESS: PATEL
+
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.143708731313533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEOLA with entropy: 1.7925
+Bot chose: PEOLA with entropy: 1.7925
+Top ten guesses: [('PEOLA', 1.792481250360578), ('PEPLA', 1.792481250360578), ('PELMA', 1.4591479170272448), ('PLAGE', 1.4591479170272448), ('PLANE', 1.4591479170272448), ('PLACE', 1.4591479170272446)]
+GUESS: PEOLA
+
+Guess: 𝙋𝙀𝙊𝙇𝘼, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.792481250360578}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLACE with entropy: 0.9183
+Bot chose: PLACE with entropy: 0.9183
+Top ten guesses: [('PLACE', 0.9182958340544896), ('PLAGE', 0.9182958340544896), ('PLANE', 0.9182958340544896)]
+GUESS: PLACE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bitsPosterior Entropy: 6.170, 
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 6.170, Expected Info Gain: 4.144 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 2.585, 
+Guess: 𝙋𝙀𝙊𝙇𝘼, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PALET with entropy: 4.2917
+Bot chose: PATEL with entropy: 4.1437
+Top ten guesses: [('PALET', 4.291695148425388), ('PAGLE', 4.230457427325036), ('CAPLE', 4.174543100256106), ('PADLE', 4.156929210198596), ('PATEL', 4.143708731313533), ('PLATE', 4.104745865889743), ('PANEL', 4.07879514206748), ('PANCE', 4.076021101231095), ('PLANE', 4.003714573619461), ('PATEE', 3.9931729610066395)]
+GUESS: PATEL
+
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.143708731313533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEOLA with entropy: 1.7925
+Bot chose: PEOLA with entropy: 1.7925
+Top ten guesses: [('PEOLA', 1.792481250360578), ('PEPLA', 1.792481250360578), ('PELMA', 1.4591479170272448), ('PLAGE', 1.4591479170272448), ('PLANE', 1.4591479170272448), ('PLACE', 1.4591479170272446)]
+GUESS: PEOLA
+
+Guess: 𝙋𝙀𝙊𝙇𝘼, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.792481250360578}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLACE with entropy: 0.9183
+Bot chose: PLACE with entropy: 0.9183
+Top ten guesses: [('PLACE', 0.9182958340544896), ('PLAGE', 0.9182958340544896), ('PLANE', 0.9182958340544896)]
+GUESS: PLACE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bitsPosterior Entropy: 6.170, 
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 6.170, Expected Info Gain: 4.144 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 2.585, 
+Guess: 𝙋𝙀𝙊𝙇𝘼, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 172 potential guesses from 74 remaining candidates...
+Top 5 guesses: [('LIGHT', '3.299'), ('ALONG', '3.237'), ('CHILD', '3.186'), ('ELATE', '3.000'), ('THING', '2.972')]
+Top entropy choice: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.2989
+Ended up choosing COMMON word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.2989
+GUESS: LIGHT
+
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.2095 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 4.0, 'actual_info_gain': 2.20945336562895, 'expected_info_gain': 3.2988904302440134}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('CLADE', '2.350'), ('CLAME', '2.281'), ('CLAVE', '2.125'), ('BLADE', '2.078'), ('BLAME', '2.022')]
+Top entropy choice: 𝘾𝙇𝘼𝘿𝙀 with entropy: 2.3496
+Ended up choosing COMMON word: 𝘽𝙇𝘼𝘿𝙀 with entropy: 2.0778
+GUESS: BLADE
+
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.0, 'actual_info_gain': 1.0, 'expected_info_gain': 2.077819531114783}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('CLAME', '2.000'), ('FLANE', '1.906'), ('FLAME', '1.750'), ('PLACE', '1.750'), ('PLANE', '1.750')]
+Top entropy choice: 𝘾𝙇𝘼𝙈𝙀 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙁𝙇𝘼𝙈𝙀 with entropy: 1.7500
+GUESS: FLAME
+
+Guess: 𝙁𝙇𝘼𝙈𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('PLACE', '2.000'), ('PLANE', '2.000'), ('ALANE', '1.500'), ('CLAVE', '1.500')]
+Top entropy choice: 𝙋𝙇𝘼𝘾𝙀 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙋𝙇𝘼𝘾𝙀 with entropy: 2.0000
+GUESS: PLACE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bitsPosterior Entropy: 6.209, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.299 bits, Actual Info Gain: 2.209 bitsPosterior Entropy: 4.000, 
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 2.078 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 3.000, 
+Guess: 𝙁𝙇𝘼𝙈𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 2.000, 
+Guess: 𝙋𝙇𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+74 candidate words remaining.
+Top 5 guesses: [('LETCH', '3.628'), ('PLUNG', '3.624'), ('GLITZ', '3.617'), ('ELECT', '3.600'), ('CLIPT', '3.570')]
+Top entropy choice: 𝙇𝙀𝙏𝘾𝙃 with entropy: 3.6285
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝙏𝘾𝙃 with entropy: 3.6285
+GUESS: LETCH
+
+Guess: 𝙇𝙀𝙏𝘾𝙃, Feedback: 🟨🟨⬜🟩⬜
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 1.0, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 3.6284594010273623}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('GLACE', '1.000'), ('PLACE', '1.000')]
+Top entropy choice: 𝙂𝙇𝘼𝘾𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝘼𝘾𝙀 with entropy: 1.0000
+GUESS: GLACE
+
+Guess: 𝙂𝙇𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PLACE', '0.000')]
+Top entropy choice: 𝙋𝙇𝘼𝘾𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙇𝘼𝘾𝙀 with entropy: 0.0000
+GUESS: PLACE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bitsPosterior Entropy: 6.209, 
+Guess: 𝙇𝙀𝙏𝘾𝙃, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 6.209, Expected Info Gain: 3.628 bits, Actual Info Gain: 5.209 bitsPosterior Entropy: 1.000, 
+Guess: 𝙂𝙇𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙋𝙇𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

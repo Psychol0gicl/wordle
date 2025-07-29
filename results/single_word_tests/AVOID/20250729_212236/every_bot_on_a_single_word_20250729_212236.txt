@@ -1,0 +1,305 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙑𝙊𝙄𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ALOIN 
+The top ten guesses and scores: [('ALOIN', 127), ('ALOFT', 125), ('ALONG', 125), ('ATONY', 124), ('AYONT', 124), ('ABOIL', 123), ('ACOLD', 123), ('AHOLD', 123), ('ALOUD', 122), ('ADOPT', 121)]
+The bot finally chose: ALOFT 
+GUESS: ALOFT
+Guess: 𝘼𝙇𝙊𝙁𝙏, Feedback: 🟩⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AMONG 
+The top ten guesses and scores: [('AMONG', 63), ('AGONY', 62), ('ADOWN', 61), ('ANOMY', 61), ('ADOON', 60), ('AGOOD', 59), ('AVOID', 59), ('AXOID', 59), ('ABOON', 58), ('ADOBO', 58)]
+The bot finally chose: AMONG 
+GUESS: AMONG
+Guess: 𝘼𝙈𝙊𝙉𝙂, Feedback: 🟩⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AKOIA 
+The top ten guesses and scores: [('AKOIA', 31), ('AVOID', 31), ('AXOID', 31), ('AZOIC', 31), ('ACOCK', 30), ('AKOJA', 28), ('AKOYA', 28), ('ADOBO', 27), ('APOOP', 25)]
+The bot finally chose: AVOID 
+GUESS: AVOID
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝘼𝙇𝙊𝙁𝙏, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝘼𝙈𝙊𝙉𝙂, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝘼𝙑𝙊𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙑𝙊𝙄𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜🟩⬜
+Actual Info Gain: 5.7910 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 5.790991475848717, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALCID with entropy: 3.4714
+Bot chose: CLAIM with entropy: 3.3211
+Top ten guesses: [('ALCID', 3.4713544870139286), ('CLAIM', 3.321104330578489), ('ALBID', 3.181366328891459), ('ALGID', 3.181366328891458), ('AULIC', 3.176110251517254), ('ADLIB', 3.11583409216322), ('AXOID', 3.1158340921632197), ('AUMIL', 3.110578014789015), ('ABOIL', 3.0761031709967224), ('AUDIO', 2.965583935727781)]
+GUESS: CLAIM
+
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 3.321104330578489}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADDIO with entropy: 1.9219
+Bot chose: AUDIO with entropy: 1.9219
+Top ten guesses: [('ADDIO', 1.9219280948873623), ('AUDIO', 1.9219280948873623), ('AVOID', 1.9219280948873623), ('AXOID', 1.9219280948873623), ('AFFIX', 1.3709505944546687)]
+GUESS: AUDIO
+
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩⬜🟨🟩🟨
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AVOID with entropy: 1.0000
+Bot chose: AVOID with entropy: 1.0000
+Top ten guesses: [('AVOID', 1.0), ('AXOID', 1.0)]
+GUESS: AVOID
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.791 bits, Posterior Entropy: 4.248, 
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 4.248, Expected Info Gain: 3.321 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩⬜🟨🟩🟨, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙑𝙊𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙑𝙊𝙄𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜🟩⬜
+Actual Info Gain: 5.7910 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 5.790991475848717, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALCID with entropy: 3.4714
+Bot chose: CLAIM with entropy: 3.3211
+Top ten guesses: [('ALCID', 3.4713544870139286), ('CLAIM', 3.321104330578489), ('ALBID', 3.181366328891459), ('ALGID', 3.181366328891458), ('AULIC', 3.176110251517254), ('ADLIB', 3.11583409216322), ('AXOID', 3.1158340921632197), ('AUMIL', 3.110578014789015), ('ABOIL', 3.0761031709967224), ('AUDIO', 2.965583935727781)]
+GUESS: CLAIM
+
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 3.321104330578489}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADDIO with entropy: 1.9219
+Bot chose: AUDIO with entropy: 1.9219
+Top ten guesses: [('ADDIO', 1.9219280948873623), ('AUDIO', 1.9219280948873623), ('AVOID', 1.9219280948873623), ('AXOID', 1.9219280948873623), ('AFFIX', 1.3709505944546687)]
+GUESS: AUDIO
+
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩⬜🟨🟩🟨
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AVOID with entropy: 1.0000
+Bot chose: AVOID with entropy: 1.0000
+Top ten guesses: [('AVOID', 1.0), ('AXOID', 1.0)]
+GUESS: AVOID
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.791 bits, Posterior Entropy: 4.248, 
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 4.248, Expected Info Gain: 3.321 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩⬜🟨🟩🟨, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙑𝙊𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙑𝙊𝙄𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 435 potential guesses from 239 remaining candidates...
+Top 5 guesses: [('TALON', '4.729'), ('BALON', '4.526'), ('ACTON', '4.500'), ('BALOT', '4.466'), ('BATON', '4.451')]
+Top entropy choice: 𝙏𝘼𝙇𝙊𝙉 with entropy: 4.7291
+Ended up choosing COMMON word: 𝙏𝘼𝙇𝙊𝙉 with entropy: 4.7291
+GUESS: TALON
+
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.729053105651584}
+----------
+The bot is making a guess...
+Evaluating 33 potential guesses from 33 remaining candidates...
+Top 5 guesses: [('AMIDO', '4.188'), ('AMIGO', '4.127'), ('OMDAH', '3.964'), ('AKOIA', '3.960'), ('CHIAO', '3.862')]
+Top entropy choice: 𝘼𝙈𝙄𝘿𝙊 with entropy: 4.1879
+Ended up choosing COMMON word: 𝘼𝙈𝙄𝙂𝙊 with entropy: 4.1273
+GUESS: AMIGO
+
+Guess: 𝘼𝙈𝙄𝙂𝙊, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 3.0444 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 2.0, 'actual_info_gain': 3.0443941193584534, 'expected_info_gain': 4.12728313431329}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('AVOID', '1.500'), ('AXOID', '1.500'), ('AKOIA', '0.811'), ('AZOIC', '0.811')]
+Top entropy choice: 𝘼𝙑𝙊𝙄𝘿 with entropy: 1.5000
+Ended up choosing COMMON word: 𝘼𝙑𝙊𝙄𝘿 with entropy: 1.5000
+GUESS: AVOID
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 7.901, Expected Info Gain: 4.729 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝘼𝙈𝙄𝙂𝙊, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 5.044, Expected Info Gain: 4.127 bits, Actual Info Gain: 3.044 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙑𝙊𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙑𝙊𝙄𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+239 candidate words remaining.
+Top 5 guesses: [('TALON', '4.729'), ('CLOOT', '4.682'), ('PLOOT', '4.565'), ('CLINT', '4.541'), ('MATIN', '4.529')]
+Top entropy choice: 𝙏𝘼𝙇𝙊𝙉 with entropy: 4.7291
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙇𝙊𝙉 with entropy: 4.7291
+GUESS: TALON
+
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.729053105651584}
+----------
+The bot is making a guess...
+33 candidate words remaining.
+Top 5 guesses: [('AMIGA', '4.450'), ('AIMAG', '4.271'), ('AMIDO', '4.188'), ('AMIGO', '4.127'), ('AMIAS', '4.101')]
+Top entropy choice: 𝘼𝙈𝙄𝙂𝘼 with entropy: 4.4502
+Guess count low, choosing the word with highest entropy: 𝘼𝙈𝙄𝙂𝘼 with entropy: 4.4502
+GUESS: AMIGA
+
+Guess: 𝘼𝙈𝙄𝙂𝘼, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 2.7225 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.722466024471091, 'expected_info_gain': 4.450162589830066}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('ADDAX', '2.322'), ('AUDAX', '2.322'), ('CHOUX', '2.322'), ('DIVED', '2.322'), ('DOVED', '2.322')]
+Top entropy choice: 𝘼𝘿𝘿𝘼𝙓 with entropy: 2.3219
+Using common exploratory word: 𝘿𝙄𝙑𝙀𝘿 with entropy: 2.3219
+GUESS: DIVED
+
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 4.450162589830066}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('AVOID', '0.000')]
+Top entropy choice: 𝘼𝙑𝙊𝙄𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙑𝙊𝙄𝘿 with entropy: 0.0000
+GUESS: AVOID
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 7.901, Expected Info Gain: 4.729 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝘼𝙈𝙄𝙂𝘼, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 5.044, Expected Info Gain: 4.450 bits, Actual Info Gain: 2.722 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 4.450 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙑𝙊𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

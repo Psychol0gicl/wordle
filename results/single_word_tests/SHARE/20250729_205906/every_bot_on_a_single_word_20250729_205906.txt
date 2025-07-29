@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝘼𝙍𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SACRE 
+The top ten guesses and scores: [('SACRE', 57), ('SCARE', 57), ('SCRAE', 57), ('STARE', 56), ('STRAE', 56), ('SABRE', 55), ('SARGE', 55), ('SHARE', 55), ('SNARE', 55), ('SPARE', 55)]
+The bot finally chose: SCARE 
+GUESS: SCARE
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SHARE 
+The top ten guesses and scores: [('SHARE', 26), ('SNARE', 26), ('SPARE', 26), ('STARE', 26), ('SWARE', 26), ('SEARE', 25)]
+The bot finally chose: SHARE 
+GUESS: SHARE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨🟩
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙃𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙍𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEARE with entropy: 2.7396
+Bot chose: SAREE with entropy: 2.6062
+Top ten guesses: [('SEARE', 2.739572261986723), ('SAREE', 2.60623892865339), ('SACRE', 2.6062389286533896), ('SCARE', 2.606238928653389), ('SHARE', 2.4729055953200563), ('SNARE', 2.4729055953200563), ('SOARE', 2.4729055953200563), ('STARE', 2.4729055953200563), ('SWARE', 2.4729055953200563), ('SEARS', 2.422579761842491)]
+GUESS: SAREE
+
+Guess: 𝙎𝘼𝙍𝙀𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.3219280948873626, 'expected_info_gain': 2.60623892865339}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARE with entropy: 0.6500
+Bot chose: SCARE with entropy: 0.6500
+Top ten guesses: [('SCARE', 0.6500224216483541), ('SHARE', 0.6500224216483541), ('SNARE', 0.6500224216483541), ('SOARE', 0.6500224216483541), ('STARE', 0.6500224216483541), ('SWARE', 0.6500224216483541)]
+GUESS: SCARE
+
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHARE with entropy: 0.7219
+Bot chose: SHARE with entropy: 0.7219
+Top ten guesses: [('SHARE', 0.7219280948873623), ('SNARE', 0.7219280948873623), ('SOARE', 0.7219280948873623), ('STARE', 0.7219280948873623), ('SWARE', 0.7219280948873623)]
+GUESS: SHARE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙎𝘼𝙍𝙀𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 2.606 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙃𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙍𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEARE with entropy: 2.7396
+Bot chose: SAREE with entropy: 2.6062
+Top ten guesses: [('SEARE', 2.739572261986723), ('SAREE', 2.60623892865339), ('SACRE', 2.6062389286533896), ('SCARE', 2.606238928653389), ('SHARE', 2.4729055953200563), ('SNARE', 2.4729055953200563), ('SOARE', 2.4729055953200563), ('STARE', 2.4729055953200563), ('SWARE', 2.4729055953200563), ('SEARS', 2.422579761842491)]
+GUESS: SAREE
+
+Guess: 𝙎𝘼𝙍𝙀𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.3219280948873626, 'expected_info_gain': 2.60623892865339}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARE with entropy: 0.6500
+Bot chose: SCARE with entropy: 0.6500
+Top ten guesses: [('SCARE', 0.6500224216483541), ('SHARE', 0.6500224216483541), ('SNARE', 0.6500224216483541), ('SOARE', 0.6500224216483541), ('STARE', 0.6500224216483541), ('SWARE', 0.6500224216483541)]
+GUESS: SCARE
+
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHARE with entropy: 0.7219
+Bot chose: SHARE with entropy: 0.7219
+Top ten guesses: [('SHARE', 0.7219280948873623), ('SNARE', 0.7219280948873623), ('SOARE', 0.7219280948873623), ('STARE', 0.7219280948873623), ('SWARE', 0.7219280948873623)]
+GUESS: SHARE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙎𝘼𝙍𝙀𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 2.606 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙃𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙍𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SCARE', '0.592'), ('SEARE', '0.592'), ('SHARE', '0.592'), ('SNARE', '0.592'), ('SPARE', '0.592')]
+Top entropy choice: 𝙎𝘾𝘼𝙍𝙀 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙎𝘾𝘼𝙍𝙀 with entropy: 0.5917
+GUESS: SCARE
+
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('SEARE', '0.650'), ('SHARE', '0.650'), ('SNARE', '0.650'), ('SPARE', '0.650'), ('STARE', '0.650')]
+Top entropy choice: 𝙎𝙀𝘼𝙍𝙀 with entropy: 0.6500
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙍𝙀 with entropy: 0.6500
+GUESS: SHARE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘾𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙍𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('TENCH', '2.522'), ('WECHT', '2.522'), ('WENCH', '2.522'), ('CENTO', '2.128'), ('CENTS', '2.128')]
+Top entropy choice: 𝙏𝙀𝙉𝘾𝙃 with entropy: 2.5216
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙉𝘾𝙃 with entropy: 2.5216
+GUESS: TENCH
+
+Guess: 𝙏𝙀𝙉𝘾𝙃, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.521640636343318}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SHARE', '0.000')]
+Top entropy choice: 𝙎𝙃𝘼𝙍𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝘼𝙍𝙀 with entropy: 0.0000
+GUESS: SHARE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝙀𝙉𝘾𝙃, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

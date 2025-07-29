@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩⬜🟨⬜🟩
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bitsPosterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 6.607 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bitsPosterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 6.607 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bitsPosterior Entropy: 6.267, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 6.267, Expected Info Gain: 3.817 bits, Actual Info Gain: 3.682 bitsPosterior Entropy: 2.585, 
+Guess: 𝙎𝙋𝙄𝙉𝙀, Feedback: 🟩⬜🟨🟨🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bitsPosterior Entropy: 6.267, 
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 6.267, Expected Info Gain: 4.180 bits, Actual Info Gain: 6.267 bitsPosterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

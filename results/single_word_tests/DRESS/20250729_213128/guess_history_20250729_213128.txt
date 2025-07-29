@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟨
+Guess: 𝘾𝙍𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙁𝙍𝙀𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩, Prior Entropy: 6.358, Expected Info Gain: 3.162 bits, Actual Info Gain: 4.358 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩, Prior Entropy: 6.358, Expected Info Gain: 3.162 bits, Actual Info Gain: 4.358 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.131 bits, Posterior Entropy: 7.728, 
+Guess: 𝙏𝙀𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.728, Expected Info Gain: 4.112 bits, Actual Info Gain: 2.921 bits, Posterior Entropy: 4.807, 
+Guess: 𝙂𝙍𝙀𝙋𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 2.437 bits, Actual Info Gain: 1.107 bits, Posterior Entropy: 3.700, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.131 bits, Posterior Entropy: 7.728, 
+Guess: 𝙋𝙀𝙀𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.640 bits, Posterior Entropy: 4.087, 
+Guess: 𝘿𝙄𝘾𝙆𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 3.175 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙋𝙋𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙃𝘼𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙋𝙋𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bitsPosterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.016 bitsPosterior Entropy: 4.524, 
+Guess: 𝙉𝘼𝙋𝙋𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 2.941 bits, Actual Info Gain: 1.716 bitsPosterior Entropy: 2.807, 
+Guess: 𝙃𝘼𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙋𝙋𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bitsPosterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.016 bitsPosterior Entropy: 4.524, 
+Guess: 𝙉𝘼𝙋𝙋𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 2.941 bits, Actual Info Gain: 1.716 bitsPosterior Entropy: 2.807, 
+Guess: 𝙃𝘼𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙋𝙋𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bitsPosterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.141 bitsPosterior Entropy: 6.807, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 6.807, Expected Info Gain: 4.292 bits, Actual Info Gain: 6.807 bitsPosterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙋𝙋𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bitsPosterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 3.066 bitsPosterior Entropy: 6.883, 
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 6.883, Expected Info Gain: 4.392 bits, Actual Info Gain: 3.713 bitsPosterior Entropy: 3.170, 
+Guess: 𝙋𝘼𝙂𝙀𝘿, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.113 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 1.585, 
+Guess: 𝙃𝘼𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

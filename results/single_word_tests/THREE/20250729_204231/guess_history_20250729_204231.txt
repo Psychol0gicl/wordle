@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝙉𝙀𝙍𝙑𝙀, Feedback: ⬜🟨🟩⬜🟩
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.688 bits, Posterior Entropy: 4.170, 
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.170, Expected Info Gain: 2.997 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.688 bits, Posterior Entropy: 4.170, 
+Guess: 𝙀𝙉𝙏𝙍𝙀, Feedback: 🟨⬜🟨🟨🟩, Prior Entropy: 4.170, Expected Info Gain: 2.997 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.020 bits, Actual Info Gain: 2.509 bits, Posterior Entropy: 4.700, 
+Guess: 𝘾𝙍𝙀𝙋𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 3.637 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.649 bits, Posterior Entropy: 7.209, 
+Guess: 𝘾𝙐𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.209, Expected Info Gain: 4.341 bits, Actual Info Gain: 2.402 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙀𝙍𝙑𝙔, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.638 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

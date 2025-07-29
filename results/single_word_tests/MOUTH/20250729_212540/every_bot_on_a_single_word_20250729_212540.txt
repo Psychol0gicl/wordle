@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙐𝙏𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOILY 
+The top ten guesses and scores: [('NOILY', 1438), ('ONTIC', 1425), ('TONIC', 1425), ('YONIC', 1421), ('COLIN', 1408), ('NICOL', 1408), ('PINOT', 1408), ('PINTO', 1408), ('PITON', 1408), ('POINT', 1408)]
+The bot finally chose: TONIC 
+GUESS: TONIC
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: 🟨🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: YOUTH 
+The top ten guesses and scores: [('YOUTH', 124), ('HOTLY', 122), ('POUTY', 121), ('BOTHY', 118), ('MOTHY', 118), ('GOUTY', 115), ('POULT', 115), ('GOTHY', 114), ('LOFTY', 114), ('MOUTH', 114)]
+The bot finally chose: YOUTH 
+GUESS: YOUTH
+Guess: 𝙔𝙊𝙐𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FOUTH 
+The top ten guesses and scores: [('FOUTH', 9), ('MOUTH', 9)]
+The bot finally chose: MOUTH 
+GUESS: MOUTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: 🟨🟩⬜⬜⬜
+Guess: 𝙔𝙊𝙐𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝙊𝙐𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.4218 bits
+Posterior entropy: 6.727920454563199
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.727920454563199, 'actual_info_gain': 3.4218266649414826, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOOTH with entropy: 4.5796
+Bot chose: BOOTH with entropy: 4.5796
+Top ten guesses: [('BOOTH', 4.579632711848497), ('MOOTH', 4.424934001380084), ('BOOTY', 4.36478530827247), ('TOMBO', 4.363192007911333), ('BOODY', 4.327959194345905), ('BODOH', 4.303225487926377), ('BOMOH', 4.29486777644739), ('GOMBO', 4.277549785478124), ('GOOBY', 4.256886527087052), ('BOOGY', 4.238236409976714)]
+GUESS: BOOTH
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.7279 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.727920454563199, 'posterior_entropy': 2.0, 'actual_info_gain': 4.727920454563199, 'expected_info_gain': 4.579632711848497}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FOUTH with entropy: 1.5000
+Bot chose: MOUTH with entropy: 1.5000
+Top ten guesses: [('FOUTH', 1.5), ('FOWTH', 1.5), ('MOUTH', 1.5), ('YOUTH', 1.5)]
+GUESS: MOUTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 6.728, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.728, Expected Info Gain: 4.580 bits, Actual Info Gain: 4.728 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙐𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.4218 bits
+Posterior entropy: 6.727920454563199
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.727920454563199, 'actual_info_gain': 3.4218266649414826, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOOTH with entropy: 4.5796
+Bot chose: BOOTH with entropy: 4.5796
+Top ten guesses: [('BOOTH', 4.579632711848497), ('MOOTH', 4.424934001380084), ('BOOTY', 4.36478530827247), ('TOMBO', 4.363192007911333), ('BOODY', 4.327959194345905), ('BODOH', 4.303225487926377), ('BOMOH', 4.29486777644739), ('GOMBO', 4.277549785478124), ('GOOBY', 4.256886527087052), ('BOOGY', 4.238236409976714)]
+GUESS: BOOTH
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.7279 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.727920454563199, 'posterior_entropy': 2.0, 'actual_info_gain': 4.727920454563199, 'expected_info_gain': 4.579632711848497}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FOUTH with entropy: 1.5000
+Bot chose: MOUTH with entropy: 1.5000
+Top ten guesses: [('FOUTH', 1.5), ('FOWTH', 1.5), ('MOUTH', 1.5), ('YOUTH', 1.5)]
+GUESS: MOUTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 6.728, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.728, Expected Info Gain: 4.580 bits, Actual Info Gain: 4.728 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙐𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 439 remaining candidates...
+Top 5 guesses: [('CONTO', '4.283'), ('LOONY', '4.256'), ('CHILD', '4.253'), ('THING', '4.220'), ('MOONY', '4.220')]
+Top entropy choice: 𝘾𝙊𝙉𝙏𝙊 with entropy: 4.2833
+Ended up choosing COMMON word: 𝙇𝙊𝙊𝙉𝙔 with entropy: 4.2559
+GUESS: LOONY
+
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.8239 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 2.823880819148483, 'expected_info_gain': 4.255862991264833}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 162 potential guesses from 62 remaining candidates...
+Top 5 guesses: [('COUTH', '4.434'), ('BOTCH', '4.380'), ('TOUCH', '4.323'), ('MOUCH', '4.255'), ('COMBI', '4.227')]
+Top entropy choice: 𝘾𝙊𝙐𝙏𝙃 with entropy: 4.4342
+Ended up choosing COMMON word: 𝙏𝙊𝙐𝘾𝙃 with entropy: 4.3226
+GUESS: TOUCH
+
+Guess: 𝙏𝙊𝙐𝘾𝙃, Feedback: 🟨🟩🟩⬜🟩
+Actual Info Gain: 4.9542 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 1.0, 'actual_info_gain': 4.954196310386875, 'expected_info_gain': 4.322607350772819}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('FOUTH', '1.000'), ('MOUTH', '1.000')]
+Top entropy choice: 𝙁𝙊𝙐𝙏𝙃 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙈𝙊𝙐𝙏𝙃 with entropy: 1.0000
+GUESS: MOUTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 2.824 bits, Posterior Entropy: 5.954, 
+Guess: 𝙏𝙊𝙐𝘾𝙃, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 5.954, Expected Info Gain: 4.323 bits, Actual Info Gain: 4.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙐𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+439 candidate words remaining.
+Top 5 guesses: [('MINTY', '4.748'), ('LINTY', '4.747'), ('CULTY', '4.644'), ('MILTY', '4.637'), ('MINCY', '4.608')]
+Top entropy choice: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+GUESS: MINTY
+
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 6.7781 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 2.0, 'actual_info_gain': 6.778077129535358, 'expected_info_gain': 4.748356112198221}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('AFOUL', '2.000'), ('AGLOO', '2.000'), ('AHOLD', '2.000'), ('AHOLE', '2.000'), ('AHULL', '2.000')]
+Top entropy choice: 𝘼𝙁𝙊𝙐𝙇 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝙁𝙊𝙐𝙇 with entropy: 2.0000
+GUESS: AFOUL
+
+Guess: 𝘼𝙁𝙊𝙐𝙇, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('MOUTH', '0.000')]
+Top entropy choice: 𝙈𝙊𝙐𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙊𝙐𝙏𝙃 with entropy: 0.0000
+GUESS: MOUTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 6.778 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙁𝙊𝙐𝙇, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙐𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

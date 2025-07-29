@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙑𝙀𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙌𝙐𝙀𝙍𝙔, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙀𝙑𝙀𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙑𝙀𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙈𝙀𝙍𝙔, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙑𝙀𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙑𝙀𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙈𝙀𝙍𝙔, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙑𝙀𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙑𝙀𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.304 bits, Posterior Entropy: 5.555, 
+Guess: 𝙄𝙉𝙀𝙍𝙏, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 5.555, Expected Info Gain: 3.383 bits, Actual Info Gain: 2.233 bits, Posterior Entropy: 3.322, 
+Guess: 𝙀𝙑𝙀𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙑𝙀𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.304 bits, Posterior Entropy: 5.555, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 5.555, Expected Info Gain: 3.942 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙈𝙀𝙍𝙔, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙑𝙀𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

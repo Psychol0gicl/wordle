@@ -1,0 +1,279 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙊𝙄𝙉𝙂 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOILY 
+The top ten guesses and scores: [('NOILY', 1438), ('ONTIC', 1425), ('TONIC', 1425), ('YONIC', 1421), ('COLIN', 1408), ('NICOL', 1408), ('PINOT', 1408), ('PINTO', 1408), ('PITON', 1408), ('POINT', 1408)]
+The bot finally chose: TONIC 
+GUESS: TONIC
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BOING 
+The top ten guesses and scores: [('BOING', 32), ('DOING', 32), ('HOING', 31), ('GOING', 30), ('BOINK', 28), ('POIND', 28), ('NOILY', 27), ('NOMOI', 26)]
+The bot finally chose: BOING 
+GUESS: BOING
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DOING 
+The top ten guesses and scores: [('DOING', 14), ('HOING', 14), ('GOING', 13)]
+The bot finally chose: DOING 
+GUESS: DOING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙊𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 6.4493 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 6.449307401363589, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOING with entropy: 2.7774
+Bot chose: BOING with entropy: 2.6235
+Top ten guesses: [('TOING', 2.7773627950641693), ('NOINT', 2.6535442970305683), ('BOING', 2.6235166412180155), ('TONDI', 2.6235166412180155), ('DOING', 2.5654483718208256), ('HOING', 2.5654483718208256), ('HONGI', 2.5654483718208256), ('JOINT', 2.4416298737872246), ('GOING', 2.4116022179746714), ('WONGI', 2.2877837199410704)]
+GUESS: BOING
+
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 1.7004397181410922, 'expected_info_gain': 2.6235166412180155}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOING with entropy: 0.8113
+Bot chose: DOING with entropy: 0.8113
+Top ten guesses: [('DOING', 0.8112781244591328), ('GOING', 0.8112781244591328), ('HOING', 0.8112781244591328), ('TOING', 0.8112781244591328)]
+GUESS: DOING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.449 bitsPosterior Entropy: 3.700, 
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.624 bits, Actual Info Gain: 1.700 bitsPosterior Entropy: 2.000, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 6.4493 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 6.449307401363589, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOING with entropy: 2.7774
+Bot chose: BOING with entropy: 2.6235
+Top ten guesses: [('TOING', 2.7773627950641693), ('NOINT', 2.6535442970305683), ('BOING', 2.6235166412180155), ('TONDI', 2.6235166412180155), ('DOING', 2.5654483718208256), ('HOING', 2.5654483718208256), ('HONGI', 2.5654483718208256), ('JOINT', 2.4416298737872246), ('GOING', 2.4116022179746714), ('WONGI', 2.2877837199410704)]
+GUESS: BOING
+
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 1.7004397181410922, 'expected_info_gain': 2.6235166412180155}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOING with entropy: 0.8113
+Bot chose: DOING with entropy: 0.8113
+Top ten guesses: [('DOING', 0.8112781244591328), ('GOING', 0.8112781244591328), ('HOING', 0.8112781244591328), ('TOING', 0.8112781244591328)]
+GUESS: DOING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.449 bitsPosterior Entropy: 3.700, 
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.624 bits, Actual Info Gain: 1.700 bitsPosterior Entropy: 2.000, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙄𝙉𝙂 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 439 remaining candidates...
+Top 5 guesses: [('CONTO', '4.283'), ('LOONY', '4.256'), ('CHILD', '4.253'), ('THING', '4.220'), ('MOONY', '4.220')]
+Top entropy choice: 𝘾𝙊𝙉𝙏𝙊 with entropy: 4.2833
+Ended up choosing COMMON word: 𝙇𝙊𝙊𝙉𝙔 with entropy: 4.2559
+GUESS: LOONY
+
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 4.4561 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.4561490346479955, 'expected_info_gain': 4.255862991264833}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('POINT', '2.723'), ('BOUND', '2.528'), ('MOUNT', '2.421'), ('POUND', '2.421'), ('FOUNT', '2.421')]
+Top entropy choice: 𝙋𝙊𝙄𝙉𝙏 with entropy: 2.7232
+Ended up choosing COMMON word: 𝙋𝙊𝙄𝙉𝙏 with entropy: 2.7232
+GUESS: POINT
+
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.0000000000000004, 'expected_info_gain': 2.7232196723355075}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BOING', '1.371'), ('BOINK', '1.371'), ('DOING', '1.371'), ('GOING', '1.371'), ('HOING', '1.371')]
+Top entropy choice: 𝘽𝙊𝙄𝙉𝙂 with entropy: 1.3710
+Ended up choosing COMMON word: 𝘽𝙊𝙄𝙉𝙂 with entropy: 1.3710
+GUESS: BOING
+
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('DOING', '0.918'), ('GOING', '0.918'), ('HOING', '0.918')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 0.9183
+GUESS: DOING
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bitsPosterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 4.456 bitsPosterior Entropy: 4.322, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 2.723 bits, Actual Info Gain: 2.000 bitsPosterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bitsPosterior Entropy: 1.585, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙄𝙉𝙂 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+439 candidate words remaining.
+Top 5 guesses: [('MINTY', '4.748'), ('LINTY', '4.747'), ('CULTY', '4.644'), ('MILTY', '4.637'), ('MINCY', '4.608')]
+Top entropy choice: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+GUESS: MINTY
+
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.0776 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 5.0776374113942655, 'expected_info_gain': 4.748356112198221}
+----------
+The bot is making a guess...
+13 candidate words remaining.
+Top 5 guesses: [('CHILD', '3.181'), ('GLAND', '3.181'), ('DEIGN', '2.969'), ('GELID', '2.969'), ('GLIDE', '2.969')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.1808
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.1808
+GUESS: CHILD
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.180832987205441}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('DOING', '0.000')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 0.0000
+GUESS: DOING
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bitsPosterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 5.078 bitsPosterior Entropy: 3.700, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 3.700, Expected Info Gain: 3.181 bits, Actual Info Gain: 3.700 bitsPosterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙉𝘼𝙈𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩🟨🟩🟩
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝘼𝙈𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.872 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙈𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.872 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙈𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 3.459, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙈𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.762 bits, Posterior Entropy: 5.907, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 3.160 bits, Actual Info Gain: 5.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

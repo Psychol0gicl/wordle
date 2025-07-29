@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙐𝙇𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝘾𝙊𝙇𝘽𝙔, Feedback: 🟩🟩🟨⬜⬜
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙇𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙊𝙇𝙔, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙇𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙊𝙇𝙔, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙇𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 4.530 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝙊𝙐𝙇𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 3.301 bits, Actual Info Gain: 3.248 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙐𝙇𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 3.163 bits, Posterior Entropy: 5.615, 
+Guess: 𝙂𝙐𝙇𝘾𝙃, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 5.615, Expected Info Gain: 4.599 bits, Actual Info Gain: 5.615 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

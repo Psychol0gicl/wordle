@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝘿𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: 🟩🟨⬜🟨⬜
+Guess: 𝙏𝙊𝘿𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝘿𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bits, Posterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 5.138 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝙊𝘿𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘿𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bits, Posterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 5.138 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝙊𝘿𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘿𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 7.313, Expected Info Gain: 3.851 bits, Actual Info Gain: 5.313 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙊𝘿𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘿𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 7.313, Expected Info Gain: 4.240 bits, Actual Info Gain: 2.991 bits, Posterior Entropy: 4.322, 
+Guess: 𝙃𝙊𝙊𝙆𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.584 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙊𝘿𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

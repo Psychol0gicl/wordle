@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.869 bits, Posterior Entropy: 3.170, 
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.869 bits, Posterior Entropy: 3.170, 
+Guess: 𝙌𝙐𝙄𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 8.948 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙄𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 6.948 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝘿𝙐𝙉𝘾, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

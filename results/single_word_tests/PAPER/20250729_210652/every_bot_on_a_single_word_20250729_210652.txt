@@ -1,0 +1,326 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝙋𝙀𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DATER 
+The top ten guesses and scores: [('DATER', 864), ('DERAT', 864), ('RATED', 864), ('TARED', 864), ('LADER', 853), ('LATER', 850), ('RATEL', 850), ('TALER', 850), ('PARED', 848), ('RAPED', 848)]
+The bot finally chose: RATED 
+GUESS: RATED
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GAPER 
+The top ten guesses and scores: [('GAPER', 237), ('PAGER', 237), ('CAPER', 236), ('PACER', 236), ('PALER', 236), ('PAREV', 234), ('PAVER', 234), ('VAPER', 234), ('CAGER', 233), ('LAGER', 233)]
+The bot finally chose: PAGER 
+GUESS: PAGER
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PACER 
+The top ten guesses and scores: [('PACER', 31), ('PALER', 31), ('PAVER', 31), ('PAWER', 31), ('PAYER', 31), ('PAPER', 30), ('PARER', 30)]
+The bot finally chose: PACER 
+GUESS: PACER
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PALER 
+The top ten guesses and scores: [('PALER', 27), ('PAVER', 27), ('PAWER', 27), ('PAYER', 27), ('PAPER', 26), ('PARER', 26)]
+The bot finally chose: PALER 
+GUESS: PALER
+Guess: 𝙋𝘼𝙇𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PAVER 
+The top ten guesses and scores: [('PAVER', 23), ('PAWER', 23), ('PAYER', 23), ('PAPER', 22), ('PARER', 22)]
+The bot finally chose: PAYER 
+GUESS: PAYER
+Game Over! You ran out of guesses.
+Guess: 𝙋𝘼𝙔𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙋𝘼𝙇𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙋𝘼𝙔𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝙋𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨🟩
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 1.5628
+Bot chose: TAPER with entropy: 1.5628
+Top ten guesses: [('GAPER', 1.5628066316931741), ('RAPER', 1.5628066316931741), ('TAPER', 1.5628066316931741), ('VAPER', 1.5628066316931741), ('CAPER', 1.562806631693174), ('PAGER', 1.532914563979398), ('PARER', 1.532914563979398), ('PATER', 1.532914563979398), ('PAVER', 1.532914563979398), ('PACER', 1.5329145639793977)]
+GUESS: TAPER
+
+Guess: 𝙏𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.3219280948873626, 'expected_info_gain': 1.5628066316931741}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAPER with entropy: 0.6500
+Bot chose: CAPER with entropy: 0.6500
+Top ten guesses: [('CAPER', 0.6500224216483541), ('GAPER', 0.6500224216483541), ('JAPER', 0.6500224216483541), ('PAPER', 0.6500224216483541), ('RAPER', 0.6500224216483541), ('VAPER', 0.6500224216483541)]
+GUESS: CAPER
+
+Guess: 𝘾𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 0.7219
+Bot chose: PAPER with entropy: 0.7219
+Top ten guesses: [('GAPER', 0.7219280948873623), ('JAPER', 0.7219280948873623), ('PAPER', 0.7219280948873623), ('RAPER', 0.7219280948873623), ('VAPER', 0.7219280948873623)]
+GUESS: PAPER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙏𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 1.563 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙋𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨🟩
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 1.5628
+Bot chose: TAPER with entropy: 1.5628
+Top ten guesses: [('GAPER', 1.5628066316931741), ('RAPER', 1.5628066316931741), ('TAPER', 1.5628066316931741), ('VAPER', 1.5628066316931741), ('CAPER', 1.562806631693174), ('PAGER', 1.532914563979398), ('PARER', 1.532914563979398), ('PATER', 1.532914563979398), ('PAVER', 1.532914563979398), ('PACER', 1.5329145639793977)]
+GUESS: TAPER
+
+Guess: 𝙏𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.3219280948873626, 'expected_info_gain': 1.5628066316931741}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAPER with entropy: 0.6500
+Bot chose: CAPER with entropy: 0.6500
+Top ten guesses: [('CAPER', 0.6500224216483541), ('GAPER', 0.6500224216483541), ('JAPER', 0.6500224216483541), ('PAPER', 0.6500224216483541), ('RAPER', 0.6500224216483541), ('VAPER', 0.6500224216483541)]
+GUESS: CAPER
+
+Guess: 𝘾𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 0.7219
+Bot chose: PAPER with entropy: 0.7219
+Top ten guesses: [('GAPER', 0.7219280948873623), ('JAPER', 0.7219280948873623), ('PAPER', 0.7219280948873623), ('RAPER', 0.7219280948873623), ('VAPER', 0.7219280948873623)]
+GUESS: PAPER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙏𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 1.563 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝘼𝙋𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙋𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 473 potential guesses from 282 remaining candidates...
+Top 5 guesses: [('RATER', '3.990'), ('ARTER', '3.987'), ('ARRET', '3.920'), ('DARER', '3.907'), ('ALTER', '3.892')]
+Top entropy choice: 𝙍𝘼𝙏𝙀𝙍 with entropy: 3.9904
+Ended up choosing COMMON word: 𝘼𝙇𝙏𝙀𝙍 with entropy: 3.8916
+GUESS: ALTER
+
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 2.2327 bits
+Posterior entropy: 5.906890595608519
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 5.906890595608519, 'actual_info_gain': 2.232660756790275, 'expected_info_gain': 3.891642305514907}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 160 potential guesses from 60 remaining candidates...
+Top 5 guesses: [('PARTY', '1.920'), ('RAPER', '1.897'), ('PARER', '1.896'), ('MARCH', '1.890'), ('RAGER', '1.868')]
+Top entropy choice: 𝙋𝘼𝙍𝙏𝙔 with entropy: 1.9204
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙏𝙔 with entropy: 1.9204
+GUESS: PARTY
+
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.906890595608519, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.5849625007211565, 'expected_info_gain': 1.9204183218415452}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('PACER', '0.722'), ('PAGER', '0.722'), ('PAPER', '0.722'), ('PAVER', '0.722'), ('PAWER', '0.722')]
+Top entropy choice: 𝙋𝘼𝘾𝙀𝙍 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙋𝘼𝘾𝙀𝙍 with entropy: 0.7219
+GUESS: PACER
+
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('PAGER', '0.811'), ('PAPER', '0.811'), ('PAVER', '0.811'), ('PAWER', '0.811')]
+Top entropy choice: 𝙋𝘼𝙂𝙀𝙍 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙋𝘼𝙂𝙀𝙍 with entropy: 0.8113
+GUESS: PAGER
+
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('PAPER', '0.918'), ('PAVER', '0.918'), ('PAWER', '0.918')]
+Top entropy choice: 𝙋𝘼𝙋𝙀𝙍 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙋𝘼𝙋𝙀𝙍 with entropy: 0.9183
+GUESS: PAPER
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.140, Expected Info Gain: 3.892 bits, Actual Info Gain: 2.233 bits, Posterior Entropy: 5.907, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 1.920 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝘼𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙋𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+282 candidate words remaining.
+Top 5 guesses: [('RADAR', '4.098'), ('TALAR', '4.078'), ('DATAL', '4.024'), ('RATER', '3.990'), ('ARTER', '3.987')]
+Top entropy choice: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+Guess count low, choosing the word with highest entropy: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+GUESS: RADAR
+
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.9898 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 1.9898042328941115, 'expected_info_gain': 4.0984166563619855}
+----------
+The bot is making a guess...
+71 candidate words remaining.
+Top 5 guesses: [('GLYPH', '2.975'), ('PATLY', '2.939'), ('TYPAL', '2.939'), ('POWLT', '2.936'), ('PLOWT', '2.880')]
+Top entropy choice: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.9753
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.9753
+GUESS: GLYPH
+
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.9798 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.97982211806237, 'expected_info_gain': 2.9753113121424652}
+----------
+The bot is making a guess...
+9 candidate words remaining.
+Top 5 guesses: [('CAPOT', '2.419'), ('CAPUT', '2.419'), ('CIVET', '2.419'), ('COVET', '2.419'), ('PACTA', '2.419')]
+Top entropy choice: 𝘾𝘼𝙋𝙊𝙏 with entropy: 2.4194
+Using common exploratory word: 𝘾𝙊𝙑𝙀𝙏 with entropy: 2.4194
+GUESS: COVET
+
+Guess: 𝘾𝙊𝙑𝙀𝙏, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.9753113121424652}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('JAPER', '1.585'), ('PAPER', '1.585'), ('PAWER', '1.585')]
+Top entropy choice: 𝙅𝘼𝙋𝙀𝙍 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝘼𝙋𝙀𝙍 with entropy: 1.5850
+GUESS: PAPER
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.140, Expected Info Gain: 4.098 bits, Actual Info Gain: 1.990 bits, Posterior Entropy: 6.150, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 6.150, Expected Info Gain: 2.975 bits, Actual Info Gain: 2.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝘾𝙊𝙑𝙀𝙏, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.975 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝘼𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

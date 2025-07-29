@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.883, Expected Info Gain: 3.852 bits, Actual Info Gain: 5.883 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝘼𝙍𝙏𝙄, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.883, Expected Info Gain: 3.852 bits, Actual Info Gain: 5.883 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.295 bits, Posterior Entropy: 5.044, 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.044, Expected Info Gain: 2.450 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 3.907, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 3.295 bits, Posterior Entropy: 5.044, 
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.044, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.722 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙏𝙏𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

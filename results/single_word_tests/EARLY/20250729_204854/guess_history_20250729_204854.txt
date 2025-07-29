@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟨⬜
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 4.164 bits, Posterior Entropy: 3.700, 
+Guess: 𝙍𝘼𝙈𝙀𝙏, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.181 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 4.164 bits, Posterior Entropy: 3.700, 
+Guess: 𝙍𝘼𝙈𝙀𝙏, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.181 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 8.140, Expected Info Gain: 3.892 bits, Actual Info Gain: 4.818 bits, Posterior Entropy: 3.322, 
+Guess: 𝙍𝙀𝙉𝘼𝙇, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 3.322, Expected Info Gain: 2.922 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.140, Expected Info Gain: 4.098 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙃𝙐𝙉𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

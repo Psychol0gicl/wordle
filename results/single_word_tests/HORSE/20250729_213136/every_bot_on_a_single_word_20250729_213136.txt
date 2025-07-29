@@ -1,0 +1,184 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙊𝙍𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CORSE 
+The top ten guesses and scores: [('CORSE', 37), ('DORSE', 37), ('GORSE', 37), ('HORSE', 37), ('MORSE', 37), ('ROUSE', 37), ('TORSE', 37), ('WORSE', 37), ('ZORSE', 37)]
+The bot finally chose: HORSE 
+GUESS: HORSE
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟩🟩
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙊𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 4.9475 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.9475325801058645, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.5917
+Bot chose: HORSE with entropy: 0.5917
+Top ten guesses: [('CORSE', 0.5916727785823275), ('DORSE', 0.5916727785823275), ('GORSE', 0.5916727785823275), ('HORSE', 0.5916727785823275), ('MORSE', 0.5916727785823275), ('WORSE', 0.5916727785823275), ('ZORSE', 0.5916727785823275)]
+GUESS: HORSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.948 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 4.9475 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.9475325801058645, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.5917
+Bot chose: HORSE with entropy: 0.5917
+Top ten guesses: [('CORSE', 0.5916727785823275), ('DORSE', 0.5916727785823275), ('GORSE', 0.5916727785823275), ('HORSE', 0.5916727785823275), ('MORSE', 0.5916727785823275), ('WORSE', 0.5916727785823275), ('ZORSE', 0.5916727785823275)]
+GUESS: HORSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.948 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('CORSE', '1.157'), ('DORSE', '1.157'), ('GORSE', '1.157'), ('HORSE', '1.157'), ('MORSE', '1.157')]
+Top entropy choice: 𝘾𝙊𝙍𝙎𝙀 with entropy: 1.1568
+Ended up choosing COMMON word: 𝙃𝙊𝙍𝙎𝙀 with entropy: 1.1568
+GUESS: HORSE
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+10 candidate words remaining.
+Top 5 guesses: [('CHOUT', '2.161'), ('DUTCH', '2.161'), ('MURGH', '2.161'), ('MURTH', '2.161'), ('MUTCH', '2.161')]
+Top entropy choice: 𝘾𝙃𝙊𝙐𝙏 with entropy: 2.1610
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙊𝙐𝙏 with entropy: 2.1610
+GUESS: CHOUT
+
+Guess: 𝘾𝙃𝙊𝙐𝙏, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.1609640474436813}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('HORSE', '0.000')]
+Top entropy choice: 𝙃𝙊𝙍𝙎𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙃𝙊𝙍𝙎𝙀 with entropy: 0.0000
+GUESS: HORSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙃𝙊𝙐𝙏, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.161 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

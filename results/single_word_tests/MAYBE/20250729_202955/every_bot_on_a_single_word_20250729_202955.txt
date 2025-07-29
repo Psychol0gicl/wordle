@@ -1,0 +1,351 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙔𝘽𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LANCE 
+The top ten guesses and scores: [('LANCE', 596), ('LIANE', 595), ('LANDE', 590), ('PLANE', 589), ('CLAME', 585), ('MACLE', 585), ('PLATE', 585), ('MAILE', 584), ('LABNE', 583), ('GLACE', 581)]
+The bot finally chose: LANCE 
+GUESS: LANCE
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MADGE 
+The top ten guesses and scores: [('MADGE', 167), ('MAVIE', 165), ('GAMBE', 164), ('MAIZE', 162), ('MATHE', 162), ('BAGIE', 160), ('MAKIE', 160), ('MAUVE', 160), ('TAWIE', 160), ('WAITE', 160)]
+The bot finally chose: MADGE 
+GUESS: MADGE
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MAKIE 
+The top ten guesses and scores: [('MAKIE', 40), ('MAVIE', 40), ('MAIZE', 39), ('MAMIE', 38), ('MATHE', 38), ('MATTE', 37), ('MAUVE', 37), ('MAKEE', 36), ('MAYBE', 36), ('MAMEE', 34)]
+The bot finally chose: MAIZE 
+GUESS: MAIZE
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MATHE 
+The top ten guesses and scores: [('MATHE', 25), ('MATTE', 24), ('MAUVE', 23), ('MAYBE', 23), ('MAKEE', 22), ('MAMEE', 21)]
+The bot finally chose: MATTE 
+GUESS: MATTE
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MAUVE 
+The top ten guesses and scores: [('MAUVE', 17), ('MAYBE', 17), ('MAKEE', 16), ('MAMEE', 15)]
+The bot finally chose: MAUVE 
+GUESS: MAUVE
+Game Over! You ran out of guesses.
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘽𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 3.5181 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 3.518097195580201, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MACTE with entropy: 3.0663
+Bot chose: MACTE with entropy: 3.0663
+Top ten guesses: [('MACTE', 3.0662671204122867), ('MATHE', 3.016975675430785), ('MAVIE', 2.997136341012453), ('MAKIE', 2.739253259652328), ('VAUTE', 2.6941095030298907), ('MATTE', 2.689198449734472), ('MAUVE', 2.676370396130495), ('WAITE', 2.6697072116423035), ('TAUBE', 2.665267984565815), ('MACHE', 2.6488083500058397)]
+GUESS: MACTE
+
+Guess: 𝙈𝘼𝘾𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.5236 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.0, 'actual_info_gain': 2.523561956057013, 'expected_info_gain': 3.0662671204122867}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVIE with entropy: 2.1556
+Bot chose: MAMIE with entropy: 1.7500
+Top ten guesses: [('MAVIE', 2.1556390622295662), ('MAKIE', 1.75), ('MAMIE', 1.75), ('MAIZE', 1.4056390622295665), ('MAHOE', 1.061278124459133), ('MAJOE', 1.061278124459133), ('MAUVE', 1.061278124459133), ('MAYBE', 0.5435644431995964)]
+GUESS: MAMIE
+
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAHOE with entropy: 1.5000
+Bot chose: MAUVE with entropy: 0.8113
+Top ten guesses: [('MAHOE', 1.5), ('MAJOE', 1.5), ('MAUVE', 0.8112781244591328), ('MAYBE', 0.8112781244591328)]
+GUESS: MAUVE
+
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAHOE with entropy: 1.5850
+Bot chose: MAYBE with entropy: 0.9183
+Top ten guesses: [('MAHOE', 1.584962500721156), ('MAJOE', 1.584962500721156), ('MAYBE', 0.9182958340544896)]
+GUESS: MAYBE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.518 bitsPosterior Entropy: 5.524, 
+Guess: 𝙈𝘼𝘾𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.524, Expected Info Gain: 3.066 bits, Actual Info Gain: 2.524 bitsPosterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙔𝘽𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘽𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 3.5181 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 3.518097195580201, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MACTE with entropy: 3.0663
+Bot chose: MACTE with entropy: 3.0663
+Top ten guesses: [('MACTE', 3.0662671204122867), ('MATHE', 3.016975675430785), ('MAVIE', 2.997136341012453), ('MAKIE', 2.739253259652328), ('VAUTE', 2.6941095030298907), ('MATTE', 2.689198449734472), ('MAUVE', 2.676370396130495), ('WAITE', 2.6697072116423035), ('TAUBE', 2.665267984565815), ('MACHE', 2.6488083500058397)]
+GUESS: MACTE
+
+Guess: 𝙈𝘼𝘾𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.5236 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.0, 'actual_info_gain': 2.523561956057013, 'expected_info_gain': 3.0662671204122867}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVIE with entropy: 2.1556
+Bot chose: MAMIE with entropy: 1.7500
+Top ten guesses: [('MAVIE', 2.1556390622295662), ('MAKIE', 1.75), ('MAMIE', 1.75), ('MAIZE', 1.4056390622295665), ('MAHOE', 1.061278124459133), ('MAJOE', 1.061278124459133), ('MAUVE', 1.061278124459133), ('MAYBE', 0.5435644431995964)]
+GUESS: MAMIE
+
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAHOE with entropy: 1.5000
+Bot chose: MAUVE with entropy: 0.8113
+Top ten guesses: [('MAHOE', 1.5), ('MAJOE', 1.5), ('MAUVE', 0.8112781244591328), ('MAYBE', 0.8112781244591328)]
+GUESS: MAUVE
+
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAHOE with entropy: 1.5850
+Bot chose: MAYBE with entropy: 0.9183
+Top ten guesses: [('MAHOE', 1.584962500721156), ('MAJOE', 1.584962500721156), ('MAYBE', 0.9182958340544896)]
+GUESS: MAYBE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.518 bitsPosterior Entropy: 5.524, 
+Guess: 𝙈𝘼𝘾𝙏𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.524, Expected Info Gain: 3.066 bits, Actual Info Gain: 2.524 bitsPosterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙐𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙔𝘽𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘽𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.2964 bits
+Posterior entropy: 7.562242424221073
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.562242424221073, 'actual_info_gain': 6.296418560501704, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 288 potential guesses from 189 remaining candidates...
+Top 5 guesses: [('UNTIL', '4.012'), ('CHILD', '3.937'), ('MAILE', '3.913'), ('ANILE', '3.884'), ('ALINE', '3.846')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0121
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0121
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.7043 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.562242424221073, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.704261429093501, 'expected_info_gain': 4.01208403425222}
+----------
+The bot is making a guess...
+Evaluating 29 potential guesses from 29 remaining candidates...
+Top 5 guesses: [('GAMBE', '3.581'), ('MADGE', '3.401'), ('GAMME', '3.362'), ('CADGE', '3.280'), ('CADEE', '3.137')]
+Top entropy choice: 𝙂𝘼𝙈𝘽𝙀 with entropy: 3.5814
+Ended up choosing COMMON word: 𝙈𝘼𝘿𝙂𝙀 with entropy: 3.4006
+GUESS: MADGE
+
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.8580 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 2.0, 'actual_info_gain': 2.857980995127572, 'expected_info_gain': 3.4005788397313514}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('MAKEE', '1.500'), ('MAMEE', '1.500'), ('MACHE', '0.811'), ('MAYBE', '0.811')]
+Top entropy choice: 𝙈𝘼𝙆𝙀𝙀 with entropy: 1.5000
+GUESS: MAKEE
+
+Guess: 𝙈𝘼𝙆𝙀𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('MACHE', '1.000'), ('MAYBE', '1.000')]
+Top entropy choice: 𝙈𝘼𝘾𝙃𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙈𝘼𝙔𝘽𝙀 with entropy: 1.0000
+GUESS: MAYBE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.296 bitsPosterior Entropy: 7.562, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.562, Expected Info Gain: 4.012 bits, Actual Info Gain: 2.704 bitsPosterior Entropy: 4.858, 
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.401 bits, Actual Info Gain: 2.858 bitsPosterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙆𝙀𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙔𝘽𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘽𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.2964 bits
+Posterior entropy: 7.562242424221073
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.562242424221073, 'actual_info_gain': 6.296418560501704, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+189 candidate words remaining.
+Top 5 guesses: [('CLING', '4.465'), ('CLINT', '4.459'), ('GLINT', '4.436'), ('NAILY', '4.379'), ('BLING', '4.356')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.4648
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.4648
+GUESS: CLING
+
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.6554 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 7.562242424221073, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 2.655351828612554, 'expected_info_gain': 4.464788533372354}
+----------
+The bot is making a guess...
+30 candidate words remaining.
+Top 5 guesses: [('THUMB', '4.057'), ('THUMP', '3.990'), ('MUTED', '3.828'), ('TUMPY', '3.790'), ('MAUTS', '3.778')]
+Top entropy choice: 𝙏𝙃𝙐𝙈𝘽 with entropy: 4.0566
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙐𝙈𝘽 with entropy: 4.0566
+GUESS: THUMB
+
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 1.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 4.056564762130955}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('JAMBE', '1.000'), ('MAYBE', '1.000')]
+Top entropy choice: 𝙅𝘼𝙈𝘽𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙔𝘽𝙀 with entropy: 1.0000
+GUESS: MAYBE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.296 bitsPosterior Entropy: 7.562, 
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.562, Expected Info Gain: 4.465 bits, Actual Info Gain: 2.655 bitsPosterior Entropy: 4.907, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 4.907, Expected Info Gain: 4.057 bits, Actual Info Gain: 3.907 bitsPosterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙔𝘽𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

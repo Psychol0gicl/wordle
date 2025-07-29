@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙍𝙊𝙐𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙐𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.383 bits, Posterior Entropy: 6.476, 
+Guess: 𝙋𝙍𝙄𝙈𝙊, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 6.476, Expected Info Gain: 4.469 bits, Actual Info Gain: 2.668 bits, Posterior Entropy: 3.807, 
+Guess: 𝙋𝙍𝙊𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.807, Expected Info Gain: 1.627 bits, Actual Info Gain: 0.637 bits, Posterior Entropy: 3.170, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙐𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.383 bits, Posterior Entropy: 6.476, 
+Guess: 𝙋𝙍𝙄𝙈𝙊, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 6.476, Expected Info Gain: 4.469 bits, Actual Info Gain: 2.668 bits, Posterior Entropy: 3.807, 
+Guess: 𝙋𝙍𝙊𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.807, Expected Info Gain: 1.627 bits, Actual Info Gain: 0.637 bits, Posterior Entropy: 3.170, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙐𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 7.426, Expected Info Gain: 4.299 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 3.585, 
+Guess: 𝙋𝙍𝙊𝙔𝙉, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 1.959 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙍𝙊𝙒𝙇, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙐𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝘾𝙇𝙊𝙊𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.426, Expected Info Gain: 4.482 bits, Actual Info Gain: 2.472 bits, Posterior Entropy: 4.954, 
+Guess: 𝘿𝙔𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 4.131 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

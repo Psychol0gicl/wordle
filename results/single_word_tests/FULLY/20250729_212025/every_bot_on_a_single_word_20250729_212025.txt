@@ -1,0 +1,326 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙐𝙇𝙇𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: UNITY 
+The top ten guesses and scores: [('UNITY', 1680), ('PIYUT', 1598), ('UNLIT', 1594), ('UNTIL', 1594), ('LINTY', 1571), ('UNIFY', 1547), ('BUYIN', 1542), ('CUNIT', 1537), ('CUTIN', 1537), ('INCUT', 1537)]
+The bot finally chose: UNITY 
+GUESS: UNITY
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: DUPLY 
+The top ten guesses and scores: [('DUPLY', 249), ('LUMPY', 247), ('PLUMY', 247), ('DUMPY', 245), ('GULPY', 245), ('PUDGY', 243), ('BLUDY', 242), ('BUMPY', 241), ('BULGY', 238), ('FUGLY', 234)]
+The bot finally chose: LUMPY 
+GUESS: LUMPY
+Guess: 𝙇𝙐𝙈𝙋𝙔, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BULGY 
+The top ten guesses and scores: [('BULGY', 46), ('FUGLY', 46), ('GULFY', 46), ('BULKY', 44), ('GULLY', 43), ('HULKY', 43), ('BULLY', 42), ('FULLY', 42), ('HULLY', 41), ('CULLY', 40)]
+The bot finally chose: BULKY 
+GUESS: BULKY
+Guess: 𝘽𝙐𝙇𝙆𝙔, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GULFY 
+The top ten guesses and scores: [('GULFY', 27), ('FULLY', 25), ('GULLY', 25), ('CULLY', 24), ('DULLY', 24), ('HULLY', 24)]
+The bot finally chose: FULLY 
+GUESS: FULLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝙐𝙈𝙋𝙔, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝘽𝙐𝙇𝙆𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙐𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙐𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.6903 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 6.690315500867384, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GULLY with entropy: 2.5503
+Bot chose: GULLY with entropy: 2.5503
+Top ten guesses: [('GULLY', 2.5503407095463886), ('GULFY', 2.4040097573248604), ('BULGY', 2.3685225277282065), ('BULLY', 2.3685225277282065), ('FULLY', 2.2998963911678914), ('HULLY', 2.2998963911678914), ('BULKY', 2.2221915755066783), ('FULTH', 2.2221915755066783), ('HULKY', 2.049452072789394), ('DULLY', 2.004886164091843)]
+GUESS: GULLY
+
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.5503407095463886}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BULLY with entropy: 0.8113
+Bot chose: BULLY with entropy: 0.8113
+Top ten guesses: [('BULLY', 0.8112781244591328), ('DULLY', 0.8112781244591328), ('FULLY', 0.8112781244591328), ('HULLY', 0.8112781244591328)]
+GUESS: BULLY
+
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DULLY with entropy: 0.9183
+Bot chose: FULLY with entropy: 0.9183
+Top ten guesses: [('DULLY', 0.9182958340544896), ('FULLY', 0.9182958340544896), ('HULLY', 0.9182958340544896)]
+GUESS: FULLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.690 bits, Posterior Entropy: 3.459, 
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙐𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.6903 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 6.690315500867384, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GULLY with entropy: 2.5503
+Bot chose: GULLY with entropy: 2.5503
+Top ten guesses: [('GULLY', 2.5503407095463886), ('GULFY', 2.4040097573248604), ('BULGY', 2.3685225277282065), ('BULLY', 2.3685225277282065), ('FULLY', 2.2998963911678914), ('HULLY', 2.2998963911678914), ('BULKY', 2.2221915755066783), ('FULTH', 2.2221915755066783), ('HULKY', 2.049452072789394), ('DULLY', 2.004886164091843)]
+GUESS: GULLY
+
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.5503407095463886}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BULLY with entropy: 0.8113
+Bot chose: BULLY with entropy: 0.8113
+Top ten guesses: [('BULLY', 0.8112781244591328), ('DULLY', 0.8112781244591328), ('FULLY', 0.8112781244591328), ('HULLY', 0.8112781244591328)]
+GUESS: BULLY
+
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DULLY with entropy: 0.9183
+Bot chose: FULLY with entropy: 0.9183
+Top ten guesses: [('DULLY', 0.9182958340544896), ('FULLY', 0.9182958340544896), ('HULLY', 0.9182958340544896)]
+GUESS: FULLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.690 bits, Posterior Entropy: 3.459, 
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙐𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 664 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.626'), ('CULTY', '5.568'), ('CLINT', '5.536'), ('CUTIN', '5.478'), ('CLIPT', '5.399')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.6263
+Ended up choosing COMMON word: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.5355
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.7901 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 4.790076930625769, 'expected_info_gain': 5.535549212492506}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('GULPH', '4.002'), ('GULPY', '3.657'), ('GHYLL', '3.601'), ('PULLY', '3.601'), ('GULLY', '3.538')]
+Top entropy choice: 𝙂𝙐𝙇𝙋𝙃 with entropy: 4.0016
+Ended up choosing COMMON word: 𝙂𝙐𝙇𝙇𝙔 with entropy: 3.5383
+GUESS: GULLY
+
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.263034405833794, 'expected_info_gain': 3.5383201891060003}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BULLY', '0.722'), ('DULLY', '0.722'), ('FULLY', '0.722'), ('HULLY', '0.722'), ('PULLY', '0.722')]
+Top entropy choice: 𝘽𝙐𝙇𝙇𝙔 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘽𝙐𝙇𝙇𝙔 with entropy: 0.7219
+GUESS: BULLY
+
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('DULLY', '0.811'), ('FULLY', '0.811'), ('HULLY', '0.811'), ('PULLY', '0.811')]
+Top entropy choice: 𝘿𝙐𝙇𝙇𝙔 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙁𝙐𝙇𝙇𝙔 with entropy: 0.8113
+GUESS: FULLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.790 bits, Posterior Entropy: 4.585, 
+Guess: 𝙂𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 3.538 bits, Actual Info Gain: 2.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙐𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+664 candidate words remaining.
+Top 5 guesses: [('LINTY', '5.686'), ('CUNIT', '5.626'), ('MINTY', '5.599'), ('PUNTY', '5.583'), ('MILTY', '5.572')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+GUESS: LINTY
+
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 5.0531 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 5.053111336459563, 'expected_info_gain': 5.685970316525066}
+----------
+The bot is making a guess...
+20 candidate words remaining.
+Top 5 guesses: [('GULPH', '3.441'), ('GULPS', '3.139'), ('GULPY', '3.139'), ('GLYPH', '3.104'), ('GHYLL', '3.061')]
+Top entropy choice: 𝙂𝙐𝙇𝙋𝙃 with entropy: 3.4414
+Guess count low, choosing the word with highest entropy: 𝙂𝙐𝙇𝙋𝙃 with entropy: 3.4414
+GUESS: GULPH
+
+Guess: 𝙂𝙐𝙇𝙋𝙃, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.0000000000000004, 'expected_info_gain': 3.4414460711655215}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('ABACK', '1.922'), ('ACOLD', '1.922'), ('AFALD', '1.922'), ('BACKS', '1.922'), ('BACKY', '1.922')]
+Top entropy choice: 𝘼𝘽𝘼𝘾𝙆 with entropy: 1.9219
+Using common exploratory word: 𝘼𝘽𝘼𝘾𝙆 with entropy: 1.9219
+GUESS: ABACK
+
+Guess: 𝘼𝘽𝘼𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 3.4414460711655215}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('DULLY', '1.000'), ('FULLY', '1.000')]
+Top entropy choice: 𝘿𝙐𝙇𝙇𝙔 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙐𝙇𝙇𝙔 with entropy: 1.0000
+GUESS: FULLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 5.053 bits, Posterior Entropy: 4.322, 
+Guess: 𝙂𝙐𝙇𝙋𝙃, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.322, Expected Info Gain: 3.441 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝘽𝘼𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 3.441 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙐𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

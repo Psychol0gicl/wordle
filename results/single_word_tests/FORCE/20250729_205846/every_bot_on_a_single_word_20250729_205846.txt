@@ -1,0 +1,300 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: OUTRE 
+The top ten guesses and scores: [('OUTRE', 171), ('RONTE', 171), ('ROUTE', 171), ('NOIRE', 170), ('NORIE', 170), ('OURIE', 170), ('MOIRE', 168), ('MORNE', 168), ('THROE', 168), ('BORNE', 167)]
+The bot finally chose: ROUTE 
+GUESS: ROUTE
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MOIRE 
+The top ten guesses and scores: [('MOIRE', 83), ('FORME', 82), ('MORNE', 82), ('NOIRE', 82), ('NORIE', 82), ('BORDE', 81), ('BORNE', 81), ('FORGE', 81), ('HORME', 81), ('POIRE', 81)]
+The bot finally chose: NOIRE 
+GUESS: NOIRE
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: FORGE 
+The top ten guesses and scores: [('FORGE', 53), ('BORDE', 52), ('FORME', 52), ('FORCE', 51), ('HORDE', 51), ('CORBE', 50), ('DORJE', 50), ('FORZE', 50), ('HORME', 50), ('PORGE', 50)]
+The bot finally chose: FORGE 
+GUESS: FORGE
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: FORCE 
+The top ten guesses and scores: [('FORCE', 13), ('FORME', 13), ('FORZE', 13)]
+The bot finally chose: FORCE 
+GUESS: FORCE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜🟩
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.5361 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.53605290024021, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORNE with entropy: 2.3192
+Bot chose: BORNE with entropy: 2.2192
+Top ten guesses: [('MORNE', 2.3192407046368486), ('BORDE', 2.2232196723355075), ('FORME', 2.2232196723355075), ('BORNE', 2.219240704636849), ('MOIRE', 2.119240704636849), ('MOREE', 2.119240704636849), ('HORME', 2.070950594454669), ('BOREE', 1.9814963295286754), ('DOREE', 1.9814963295286754), ('HORDE', 1.9709505944546688)]
+GUESS: BORNE
+
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.8625 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 0.8624964762500653, 'expected_info_gain': 2.219240704636849}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORME with entropy: 1.9717
+Bot chose: FORGE with entropy: 1.6172
+Top ten guesses: [('FORME', 1.971747257128181), ('DOREE', 1.6729330318733675), ('HORME', 1.6729330318733675), ('FORGE', 1.6171895725927152), ('HORDE', 1.4911148500551858), ('MOREE', 1.4911148500551854), ('DORJE', 1.2776134368191154), ('FORCE', 1.2406705316766884), ('FORZE', 1.2406705316766884), ('GORGE', 0.8658566174572235)]
+GUESS: FORGE
+
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.8744691179161412, 'expected_info_gain': 1.6171895725927152}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORCE with entropy: 0.9183
+Bot chose: FORCE with entropy: 0.9183
+Top ten guesses: [('FORCE', 0.9182958340544896), ('FORME', 0.9182958340544896), ('FORZE', 0.9182958340544896)]
+GUESS: FORCE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.536 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 2.219 bits, Actual Info Gain: 0.862 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.5361 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.53605290024021, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORNE with entropy: 2.3192
+Bot chose: BORNE with entropy: 2.2192
+Top ten guesses: [('MORNE', 2.3192407046368486), ('BORDE', 2.2232196723355075), ('FORME', 2.2232196723355075), ('BORNE', 2.219240704636849), ('MOIRE', 2.119240704636849), ('MOREE', 2.119240704636849), ('HORME', 2.070950594454669), ('BOREE', 1.9814963295286754), ('DOREE', 1.9814963295286754), ('HORDE', 1.9709505944546688)]
+GUESS: BORNE
+
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.8625 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 0.8624964762500653, 'expected_info_gain': 2.219240704636849}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORME with entropy: 1.9717
+Bot chose: FORGE with entropy: 1.6172
+Top ten guesses: [('FORME', 1.971747257128181), ('DOREE', 1.6729330318733675), ('HORME', 1.6729330318733675), ('FORGE', 1.6171895725927152), ('HORDE', 1.4911148500551858), ('MOREE', 1.4911148500551854), ('DORJE', 1.2776134368191154), ('FORCE', 1.2406705316766884), ('FORZE', 1.2406705316766884), ('GORGE', 0.8658566174572235)]
+GUESS: FORGE
+
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.8744691179161412, 'expected_info_gain': 1.6171895725927152}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORCE with entropy: 0.9183
+Bot chose: FORCE with entropy: 0.9183
+Top ten guesses: [('FORCE', 0.9182958340544896), ('FORME', 0.9182958340544896), ('FORZE', 0.9182958340544896)]
+GUESS: FORCE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.536 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 2.219 bits, Actual Info Gain: 0.862 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('BORNE', '2.433'), ('MORNE', '2.433'), ('RONTE', '2.374'), ('RONDE', '2.333'), ('BORDE', '2.236')]
+Top entropy choice: 𝘽𝙊𝙍𝙉𝙀 with entropy: 2.4330
+Ended up choosing COMMON word: 𝘽𝙊𝙍𝙉𝙀 with entropy: 2.4330
+GUESS: BORNE
+
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 4.0, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 2.4329993066372895}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('FORME', '1.717'), ('FORGE', '1.592'), ('FORTE', '1.592'), ('DOREE', '1.311'), ('HORME', '1.311')]
+Top entropy choice: 𝙁𝙊𝙍𝙈𝙀 with entropy: 1.7169
+Ended up choosing COMMON word: 𝙁𝙊𝙍𝙂𝙀 with entropy: 1.5919
+GUESS: FORGE
+
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.0, 'actual_info_gain': 2.0, 'expected_info_gain': 1.5919171866886992}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FORCE', '0.811'), ('FORME', '0.811'), ('FORTE', '0.811'), ('FORZE', '0.811')]
+Top entropy choice: 𝙁𝙊𝙍𝘾𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙁𝙊𝙍𝘾𝙀 with entropy: 0.8113
+GUESS: FORCE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.170, Expected Info Gain: 2.433 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 4.000, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 1.592 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+36 candidate words remaining.
+Top 5 guesses: [('BURNT', '3.236'), ('BUNDT', '3.146'), ('GUNDI', '3.015'), ('THRUM', '3.012'), ('GIRTH', '3.004')]
+Top entropy choice: 𝘽𝙐𝙍𝙉𝙏 with entropy: 3.2362
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙍𝙉𝙏 with entropy: 3.2362
+GUESS: BURNT
+
+Guess: 𝘽𝙐𝙍𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 1.4695 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.46948528330122, 'expected_info_gain': 3.236161353104502}
+----------
+The bot is making a guess...
+13 candidate words remaining.
+Top 5 guesses: [('MUDIF', '2.661'), ('GRIEF', '2.661'), ('CHIMP', '2.654'), ('HIPED', '2.654'), ('ICHED', '2.654')]
+Top entropy choice: 𝙈𝙐𝘿𝙄𝙁 with entropy: 2.6612
+Guess count low, choosing the word with highest entropy: 𝙈𝙐𝘿𝙄𝙁 with entropy: 2.6612
+GUESS: MUDIF
+
+Guess: 𝙈𝙐𝘿𝙄𝙁, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.115477217419936, 'expected_info_gain': 2.66122625626979}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('FORCE', '0.918'), ('FORGE', '0.918'), ('FORZE', '0.918')]
+Top entropy choice: 𝙁𝙊𝙍𝘾𝙀 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙊𝙍𝘾𝙀 with entropy: 0.9183
+GUESS: FORCE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝘽𝙐𝙍𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 5.170, Expected Info Gain: 3.236 bits, Actual Info Gain: 1.469 bits, Posterior Entropy: 3.700, 
+Guess: 𝙈𝙐𝘿𝙄𝙁, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 3.700, Expected Info Gain: 2.661 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

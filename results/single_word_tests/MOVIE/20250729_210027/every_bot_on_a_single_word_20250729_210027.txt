@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MOILE 
+The top ten guesses and scores: [('MOILE', 538), ('MOLIE', 538), ('LOGIE', 527), ('LOIPE', 526), ('LOUIE', 525), ('DOLIE', 524), ('LOCIE', 524), ('OLDIE', 524), ('TOILE', 521), ('MOBLE', 514)]
+The bot finally chose: LOGIE 
+GUESS: LOGIE
+Guess: 𝙇𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MOWIE 
+The top ten guesses and scores: [('MOWIE', 82), ('MOBIE', 79), ('BOWIE', 78), ('DOWIE', 78), ('MOXIE', 78), ('ZOWIE', 78), ('MONIE', 77), ('MOVIE', 77), ('HOMIE', 76), ('POWIE', 76)]
+The bot finally chose: BOWIE 
+GUESS: BOWIE
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MOXIE 
+The top ten guesses and scores: [('MOXIE', 46), ('MOVIE', 45), ('HOMIE', 44), ('MONIE', 44), ('MOMIE', 43), ('DOXIE', 42), ('COZIE', 41), ('DOVIE', 41), ('FOXIE', 41), ('TOZIE', 41)]
+The bot finally chose: MOVIE 
+GUESS: MOVIE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙇𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.1878 bits
+Posterior entropy: 6.066089190457772
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.066089190457772, 'actual_info_gain': 4.187758294529631, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOGIE with entropy: 3.6030
+Bot chose: BOGIE with entropy: 3.6030
+Top ten guesses: [('BOGIE', 3.6030183946115333), ('MOBIE', 3.5241085964353704), ('DOGIE', 3.4405779562961905), ('COGIE', 3.3738396189527435), ('BOITE', 3.359833037875041), ('DOBIE', 3.325790649566571), ('MOWIE', 3.2999337443782446), ('MOGUE', 3.282061130792239), ('MODGE', 3.2724756507517108), ('COMTE', 3.2425466098745104)]
+GUESS: BOGIE
+
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.1592 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 6.066089190457772, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 2.1591985948492534, 'expected_info_gain': 3.6030183946115333}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOWIE with entropy: 2.0226
+Bot chose: MOVIE with entropy: 1.6879
+Top ten guesses: [('MOWIE', 2.0225797618424917), ('MOXIE', 1.8565647621309542), ('ZOWIE', 1.7464657985040721), ('MOVIE', 1.6879430945989), ('DOWIE', 1.640223928941852), ('TOZIE', 1.5589385323502774), ('TOWIE', 1.4716022614097979), ('DOXIE', 1.4256051990169438), ('HOMIE', 1.3752793655393791), ('MOMIE', 1.3752793655393791)]
+GUESS: MOVIE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 2.159 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.1878 bits
+Posterior entropy: 6.066089190457772
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.066089190457772, 'actual_info_gain': 4.187758294529631, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOGIE with entropy: 3.6030
+Bot chose: BOGIE with entropy: 3.6030
+Top ten guesses: [('BOGIE', 3.6030183946115333), ('MOBIE', 3.5241085964353704), ('DOGIE', 3.4405779562961905), ('COGIE', 3.3738396189527435), ('BOITE', 3.359833037875041), ('DOBIE', 3.325790649566571), ('MOWIE', 3.2999337443782446), ('MOGUE', 3.282061130792239), ('MODGE', 3.2724756507517108), ('COMTE', 3.2425466098745104)]
+GUESS: BOGIE
+
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.1592 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 6.066089190457772, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 2.1591985948492534, 'expected_info_gain': 3.6030183946115333}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOWIE with entropy: 2.0226
+Bot chose: MOVIE with entropy: 1.6879
+Top ten guesses: [('MOWIE', 2.0225797618424917), ('MOXIE', 1.8565647621309542), ('ZOWIE', 1.7464657985040721), ('MOVIE', 1.6879430945989), ('DOWIE', 1.640223928941852), ('TOZIE', 1.5589385323502774), ('TOWIE', 1.4716022614097979), ('DOXIE', 1.4256051990169438), ('HOMIE', 1.3752793655393791), ('MOMIE', 1.3752793655393791)]
+GUESS: MOVIE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 2.159 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 6.5011 bits
+Posterior entropy: 7.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.357552004618084, 'actual_info_gain': 6.501108980104693, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 264 potential guesses from 164 remaining candidates...
+Top 5 guesses: [('CHILD', '3.846'), ('LIGHT', '3.657'), ('UNTIL', '3.597'), ('MIGHT', '3.389'), ('THING', '3.342')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.8464
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.8464
+GUESS: CHILD
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.1096 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.357552004618084, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 3.1096244911744986, 'expected_info_gain': 3.8463939480961966}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('BOWIE', '1.783'), ('MOWIE', '1.763'), ('MOBIE', '1.638'), ('ZOWIE', '1.529'), ('BOGIE', '1.506')]
+Top entropy choice: 𝘽𝙊𝙒𝙄𝙀 with entropy: 1.7832
+Ended up choosing COMMON word: 𝘽𝙊𝙒𝙄𝙀 with entropy: 1.7832
+GUESS: BOWIE
+
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.9260 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.925999418556223, 'expected_info_gain': 1.7832474385325099}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('MOVIE', '1.685'), ('MOXIE', '1.685'), ('FOGIE', '1.357'), ('FOXIE', '1.357'), ('VOGIE', '1.357')]
+Top entropy choice: 𝙈𝙊𝙑𝙄𝙀 with entropy: 1.6855
+Ended up choosing COMMON word: 𝙈𝙊𝙑𝙄𝙀 with entropy: 1.6855
+GUESS: MOVIE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.358, Expected Info Gain: 3.846 bits, Actual Info Gain: 3.110 bits, Posterior Entropy: 4.248, 
+Guess: 𝘽𝙊𝙒𝙄𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 1.783 bits, Actual Info Gain: 0.926 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙑𝙄𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 6.5011 bits
+Posterior entropy: 7.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.357552004618084, 'actual_info_gain': 6.501108980104693, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+164 candidate words remaining.
+Top 5 guesses: [('CLIMB', '4.092'), ('BUILD', '4.086'), ('LUMBI', '4.060'), ('PILUM', '4.058'), ('BLIMP', '4.033')]
+Top entropy choice: 𝘾𝙇𝙄𝙈𝘽 with entropy: 4.0918
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙈𝘽 with entropy: 4.0918
+GUESS: CLIMB
+
+Guess: 𝘾𝙇𝙄𝙈𝘽, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.7726 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.357552004618084, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.772589503896928, 'expected_info_gain': 4.091768374450426}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('VIMEN', '1.918'), ('AXMAN', '1.918'), ('AXMEN', '1.918'), ('ENMEW', '1.918'), ('OXMAN', '1.918')]
+Top entropy choice: 𝙑𝙄𝙈𝙀𝙉 with entropy: 1.9183
+Guess count low, choosing the word with highest entropy: 𝙑𝙄𝙈𝙀𝙉 with entropy: 1.9183
+GUESS: VIMEN
+
+Guess: 𝙑𝙄𝙈𝙀𝙉, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 1.9182958340544896}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('MOVIE', '0.000')]
+Top entropy choice: 𝙈𝙊𝙑𝙄𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙊𝙑𝙄𝙀 with entropy: 0.0000
+GUESS: MOVIE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙇𝙄𝙈𝘽, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.358, Expected Info Gain: 4.092 bits, Actual Info Gain: 4.773 bits, Posterior Entropy: 2.585, 
+Guess: 𝙑𝙄𝙈𝙀𝙉, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙑𝙄𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

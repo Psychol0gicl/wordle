@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝘾𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙑𝙊𝘾𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙊𝘾𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙇𝙊𝘾𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝘾𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bitsPosterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.785 bitsPosterior Entropy: 4.524, 
+Guess: 𝙇𝙊𝘾𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝘾𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bitsPosterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.785 bitsPosterior Entropy: 4.524, 
+Guess: 𝙇𝙊𝘾𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝘾𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bitsPosterior Entropy: 7.313, 
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.313, Expected Info Gain: 3.851 bits, Actual Info Gain: 3.313 bitsPosterior Entropy: 4.000, 
+Guess: 𝙇𝙊𝘾𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝘾𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bitsPosterior Entropy: 7.313, 
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 7.313, Expected Info Gain: 4.240 bits, Actual Info Gain: 7.313 bitsPosterior Entropy: 0.000, 
+Guess: 𝙇𝙊𝘾𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

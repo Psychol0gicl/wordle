@@ -1,0 +1,306 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙇𝘼𝙎𝙎 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: HILSA 
+The top ten guesses and scores: [('HILSA', 270), ('PLASH', 270), ('PALSY', 269), ('PLAST', 266), ('PHYSA', 265), ('BLASH', 263), ('CLASH', 263), ('MAYST', 262), ('PLASM', 262), ('TAISH', 262)]
+The bot finally chose: PALSY 
+GUESS: PALSY
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CLASH 
+The top ten guesses and scores: [('CLASH', 40), ('BLASH', 39), ('CLAST', 39), ('FLASH', 39), ('BLAST', 38), ('SLASH', 37), ('VLAST', 37), ('CLASS', 36), ('FLASK', 36), ('GLASS', 34)]
+The bot finally chose: CLASH 
+GUESS: CLASH
+Guess: 𝘾𝙇𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CLAST 
+The top ten guesses and scores: [('CLAST', 10), ('CLASS', 9)]
+The bot finally chose: CLASS 
+GUESS: CLASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝘾𝙇𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘾𝙇𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙇𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 4.4219 bits
+Posterior entropy: 9.436711542137214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.436711542137214, 'actual_info_gain': 4.4219494425855626, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAILS with entropy: 4.6426
+Bot chose: TAILS with entropy: 4.6426
+Top ten guesses: [('TAILS', 4.6426202617583), ('TAINS', 4.554409684498415), ('LANTS', 4.510413952877927), ('NATIS', 4.47258384736077), ('NAILS', 4.466163568376669), ('MALTS', 4.448823947924817), ('MAILS', 4.437474782379613), ('TAMIS', 4.405888267777704), ('DALTS', 4.396166456187204), ('MANTS', 4.393584901676819)]
+GUESS: TAILS
+
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 4.0104 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 9.436711542137214, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.010446787435116, 'expected_info_gain': 4.6426202617583}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLAGS with entropy: 2.8720
+Bot chose: BLAGS with entropy: 2.8720
+Top ten guesses: [('BLAGS', 2.872025361172162), ('GLAMS', 2.8464286382628226), ('CLAGS', 2.8394612798830643), ('FLAGS', 2.8394612798830643), ('GLANS', 2.7724029225079945), ('GLADS', 2.7416210638037564), ('BLAMS', 2.699257642793421), ('FLABS', 2.6917614094392985), ('CLAMS', 2.6603821266349157), ('FLAMS', 2.645149056122041)]
+GUESS: BLAGS
+
+Guess: 𝘽𝙇𝘼𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.6189 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 1.6189098326444937, 'expected_info_gain': 2.872025361172162}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLANS with entropy: 1.8092
+Bot chose: CLANS with entropy: 1.8092
+Top ten guesses: [('CLANS', 1.809200032697812), ('FLANS', 1.7884504573082893), ('CLAYS', 1.7273966735744792), ('FLAYS', 1.6893917467430877), ('CLAMS', 1.5744174271404585), ('CLAWS', 1.5744174271404585), ('FLAMS', 1.5216406363433184), ('FLAWS', 1.5216406363433184), ('ALANS', 1.4299111709758698), ('ALAYS', 1.2916919971380594)]
+GUESS: CLANS
+
+Guess: 𝘾𝙇𝘼𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.485426827170242, 'expected_info_gain': 1.809200032697812}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLADS with entropy: 0.7219
+Bot chose: CLASS with entropy: 0.7219
+Top ten guesses: [('CLADS', 0.7219280948873623), ('CLAMS', 0.7219280948873623), ('CLASS', 0.7219280948873623), ('CLAWS', 0.7219280948873623), ('CLAYS', 0.7219280948873623)]
+GUESS: CLASS
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.422 bitsPosterior Entropy: 9.437, 
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 9.437, Expected Info Gain: 4.643 bits, Actual Info Gain: 4.010 bitsPosterior Entropy: 5.426, 
+Guess: 𝘽𝙇𝘼𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.426, Expected Info Gain: 2.872 bits, Actual Info Gain: 1.619 bitsPosterior Entropy: 3.807, 
+Guess: 𝘾𝙇𝘼𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.807, Expected Info Gain: 1.809 bits, Actual Info Gain: 1.485 bitsPosterior Entropy: 2.322, 
+Guess: 𝘾𝙇𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙇𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 4.4219 bits
+Posterior entropy: 9.436711542137214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.436711542137214, 'actual_info_gain': 4.4219494425855626, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAILS with entropy: 4.6426
+Bot chose: TAILS with entropy: 4.6426
+Top ten guesses: [('TAILS', 4.6426202617583), ('TAINS', 4.554409684498415), ('LANTS', 4.510413952877927), ('NATIS', 4.47258384736077), ('NAILS', 4.466163568376669), ('MALTS', 4.448823947924817), ('MAILS', 4.437474782379613), ('TAMIS', 4.405888267777704), ('DALTS', 4.396166456187204), ('MANTS', 4.393584901676819)]
+GUESS: TAILS
+
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 4.0104 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 9.436711542137214, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.010446787435116, 'expected_info_gain': 4.6426202617583}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLAGS with entropy: 2.8720
+Bot chose: BLAGS with entropy: 2.8720
+Top ten guesses: [('BLAGS', 2.872025361172162), ('GLAMS', 2.8464286382628226), ('CLAGS', 2.8394612798830643), ('FLAGS', 2.8394612798830643), ('GLANS', 2.7724029225079945), ('GLADS', 2.7416210638037564), ('BLAMS', 2.699257642793421), ('FLABS', 2.6917614094392985), ('CLAMS', 2.6603821266349157), ('FLAMS', 2.645149056122041)]
+GUESS: BLAGS
+
+Guess: 𝘽𝙇𝘼𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.6189 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 1.6189098326444937, 'expected_info_gain': 2.872025361172162}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLANS with entropy: 1.8092
+Bot chose: CLANS with entropy: 1.8092
+Top ten guesses: [('CLANS', 1.809200032697812), ('FLANS', 1.7884504573082893), ('CLAYS', 1.7273966735744792), ('FLAYS', 1.6893917467430877), ('CLAMS', 1.5744174271404585), ('CLAWS', 1.5744174271404585), ('FLAMS', 1.5216406363433184), ('FLAWS', 1.5216406363433184), ('ALANS', 1.4299111709758698), ('ALAYS', 1.2916919971380594)]
+GUESS: CLANS
+
+Guess: 𝘾𝙇𝘼𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.485426827170242, 'expected_info_gain': 1.809200032697812}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLADS with entropy: 0.7219
+Bot chose: CLASS with entropy: 0.7219
+Top ten guesses: [('CLADS', 0.7219280948873623), ('CLAMS', 0.7219280948873623), ('CLASS', 0.7219280948873623), ('CLAWS', 0.7219280948873623), ('CLAYS', 0.7219280948873623)]
+GUESS: CLASS
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.422 bitsPosterior Entropy: 9.437, 
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 9.437, Expected Info Gain: 4.643 bits, Actual Info Gain: 4.010 bitsPosterior Entropy: 5.426, 
+Guess: 𝘽𝙇𝘼𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.426, Expected Info Gain: 2.872 bits, Actual Info Gain: 1.619 bitsPosterior Entropy: 3.807, 
+Guess: 𝘾𝙇𝘼𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.807, Expected Info Gain: 1.809 bits, Actual Info Gain: 1.485 bitsPosterior Entropy: 2.322, 
+Guess: 𝘾𝙇𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝘼𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 6.4157 bits
+Posterior entropy: 7.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.442943495848728, 'actual_info_gain': 6.415717488874049, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 273 potential guesses from 174 remaining candidates...
+Top 5 guesses: [('LIGHT', '3.662'), ('CHILD', '3.639'), ('TAALS', '3.596'), ('ALANS', '3.570'), ('ALAPS', '3.535')]
+Top entropy choice: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.6617
+Ended up choosing COMMON word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.6617
+GUESS: LIGHT
+
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.1210 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 7.442943495848728, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 2.1210154009613653, 'expected_info_gain': 3.6617160810938407}
+----------
+The bot is making a guess...
+Evaluating 40 potential guesses from 40 remaining candidates...
+Top 5 guesses: [('CLAPS', '2.911'), ('PLAYS', '2.832'), ('PAALS', '2.827'), ('PLAAS', '2.827'), ('ALAPS', '2.777')]
+Top entropy choice: 𝘾𝙇𝘼𝙋𝙎 with entropy: 2.9114
+GUESS: CLAPS
+
+Guess: 𝘾𝙇𝘼𝙋𝙎, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.7369655941662066, 'expected_info_gain': 2.9113684851981065}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('CLADS', '0.650'), ('CLAMS', '0.650'), ('CLANS', '0.650'), ('CLASS', '0.650'), ('CLAWS', '0.650')]
+Top entropy choice: 𝘾𝙇𝘼𝘿𝙎 with entropy: 0.6500
+Ended up choosing COMMON word: 𝘾𝙇𝘼𝙎𝙎 with entropy: 0.6500
+GUESS: CLASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.416 bitsPosterior Entropy: 7.443, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 7.443, Expected Info Gain: 3.662 bits, Actual Info Gain: 2.121 bitsPosterior Entropy: 5.322, 
+Guess: 𝘾𝙇𝘼𝙋𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.322, Expected Info Gain: 2.911 bits, Actual Info Gain: 2.737 bitsPosterior Entropy: 2.585, 
+Guess: 𝘾𝙇𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝘼𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 6.4157 bits
+Posterior entropy: 7.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.442943495848728, 'actual_info_gain': 6.415717488874049, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+174 candidate words remaining.
+Top 5 guesses: [('GLYPH', '4.022'), ('CLIPT', '3.992'), ('CLINT', '3.990'), ('PLUTY', '3.987'), ('BLUNT', '3.958')]
+Top entropy choice: 𝙂𝙇𝙔𝙋𝙃 with entropy: 4.0222
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙔𝙋𝙃 with entropy: 4.0222
+GUESS: GLYPH
+
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.9194 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 7.442943495848728, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 2.919381539791715, 'expected_info_gain': 4.022169838066021}
+----------
+The bot is making a guess...
+23 candidate words remaining.
+Top 5 guesses: [('BUNDT', '3.082'), ('BUMFS', '3.067'), ('COMBS', '2.964'), ('BUNTS', '2.941'), ('BUFTY', '2.910')]
+Top entropy choice: 𝘽𝙐𝙉𝘿𝙏 with entropy: 3.0818
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙉𝘿𝙏 with entropy: 3.0818
+GUESS: BUNDT
+
+Guess: 𝘽𝙐𝙉𝘿𝙏, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.7162 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.7162070339994089, 'expected_info_gain': 3.0817680665470064}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('AMUCK', '2.522'), ('CAWKS', '2.522'), ('CHAWK', '2.522'), ('CHOWK', '2.522'), ('COWKS', '2.522')]
+Top entropy choice: 𝘼𝙈𝙐𝘾𝙆 with entropy: 2.5216
+Using common exploratory word: 𝙈𝙄𝘾𝙆𝙔 with entropy: 2.5216
+GUESS: MICKY
+
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 3.0817680665470064}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('CLASS', '1.000'), ('CLAWS', '1.000')]
+Top entropy choice: 𝘾𝙇𝘼𝙎𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙇𝘼𝙎𝙎 with entropy: 1.0000
+GUESS: CLASS
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.416 bitsPosterior Entropy: 7.443, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 7.443, Expected Info Gain: 4.022 bits, Actual Info Gain: 2.919 bitsPosterior Entropy: 4.524, 
+Guess: 𝘽𝙐𝙉𝘿𝙏, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.082 bits, Actual Info Gain: 1.716 bitsPosterior Entropy: 2.807, 
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 3.082 bits, Actual Info Gain: 1.807 bitsPosterior Entropy: 1.000, 
+Guess: 𝘾𝙇𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

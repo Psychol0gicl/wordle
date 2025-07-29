@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝘼𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙋𝙊𝘼𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙊𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.579 bits, Posterior Entropy: 6.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 6.459, Expected Info Gain: 4.905 bits, Actual Info Gain: 3.652 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙊𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.579 bits, Posterior Entropy: 6.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 6.459, Expected Info Gain: 4.905 bits, Actual Info Gain: 3.652 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙊𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝙇𝙊𝘼𝙏𝙃, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 2.788 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘾𝙐𝙇𝙏𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 4.755, Expected Info Gain: 3.750 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

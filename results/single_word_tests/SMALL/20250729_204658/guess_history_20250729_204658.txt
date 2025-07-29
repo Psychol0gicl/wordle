@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙈𝘼𝙇𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩🟨🟩⬜⬜
+Guess: 𝙎𝘾𝘼𝙇𝙋, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙃𝘼𝙇𝙏, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙈𝘼𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙈𝘼𝙇𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.007 bits, Posterior Entropy: 7.852, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 7.852, Expected Info Gain: 3.934 bits, Actual Info Gain: 3.682 bits, Posterior Entropy: 4.170, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 2.530 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙈𝘼𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙈𝘼𝙇𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.007 bits, Posterior Entropy: 7.852, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 7.852, Expected Info Gain: 3.934 bits, Actual Info Gain: 3.682 bits, Posterior Entropy: 4.170, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 2.530 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙈𝘼𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙈𝘼𝙇𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.537 bits, Posterior Entropy: 7.322, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.322, Expected Info Gain: 3.900 bits, Actual Info Gain: 1.767 bits, Posterior Entropy: 5.555, 
+Guess: 𝙎𝘾𝘼𝙇𝙋, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.555, Expected Info Gain: 3.312 bits, Actual Info Gain: 3.970 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙈𝘼𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙈𝘼𝙇𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.537 bits, Posterior Entropy: 7.322, 
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 7.322, Expected Info Gain: 4.124 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙐𝙃𝙇𝙔, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 3.122 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙈𝘼𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

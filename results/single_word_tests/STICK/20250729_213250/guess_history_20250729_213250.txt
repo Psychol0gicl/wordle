@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙄𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩⬜⬜🟨🟨
+Guess: 𝙎𝙈𝙄𝙏𝙃, Feedback: 🟩⬜🟩🟨⬜
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙏𝙄𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 3.728 bits, Posterior Entropy: 4.807, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.664 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 3.728 bits, Posterior Entropy: 4.807, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.664 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 7.925, Expected Info Gain: 5.001 bits, Actual Info Gain: 7.925 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.114 bits, Actual Info Gain: 4.465 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙇𝘼𝙋𝙏, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 3.459, Expected Info Gain: 2.845 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================

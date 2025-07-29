@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜🟩
+Guess: 𝘼𝙕𝙐𝙍𝙀, Feedback: 🟩⬜⬜🟨🟩
+Guess: 𝘼𝙔𝙍𝙄𝙀, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 3.006 bits, Posterior Entropy: 4.858, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟨🟨🟨⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.176 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 3.006 bits, Posterior Entropy: 4.858, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟨🟨🟨⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.176 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.814 bits, Posterior Entropy: 6.044, 
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟨🟩🟨🟩, Prior Entropy: 6.044, Expected Info Gain: 3.237 bits, Actual Info Gain: 6.044 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.814 bits, Posterior Entropy: 6.044, 
+Guess: 𝙇𝘼𝙍𝙂𝘼, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 6.044, Expected Info Gain: 3.487 bits, Actual Info Gain: 6.044 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙀𝙄𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TIRED 
+The top ten guesses and scores: [('TIRED', 1257), ('UTERI', 1238), ('IDLER', 1237), ('RILED', 1237), ('DINER', 1233), ('LITER', 1228), ('RELIT', 1228), ('TILER', 1228), ('REDIP', 1226), ('RIPED', 1226)]
+The bot finally chose: TIRED 
+GUESS: TIRED
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: 🟩🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THEIR 
+The top ten guesses and scores: [('THEIR', 10), ('TETRI', 9)]
+The bot finally chose: THEIR 
+GUESS: THEIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: 🟩🟨🟨🟨⬜
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙄𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FREER with entropy: 2.2842
+Bot chose: FREER with entropy: 2.2842
+Top ten guesses: [('FREER', 2.2841591278514217), ('CHEER', 1.780672129520887), ('FLEER', 1.780672129520887), ('KHEER', 1.780672129520887), ('THEIR', 1.780672129520887), ('THEOR', 1.780672129520887), ('BREER', 1.7295739585136223), ('DREER', 1.7295739585136223), ('FLEUR', 1.584962500721156), ('QUEER', 1.4182958340544896)]
+GUESS: FREER
+
+Guess: 𝙁𝙍𝙀𝙀𝙍, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2841591278514217}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEIR with entropy: 1.0000
+Bot chose: THEIR with entropy: 1.0000
+Top ten guesses: [('THEIR', 1.0), ('THEOR', 1.0)]
+GUESS: THEIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙍𝙀𝙀𝙍, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.284 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙄𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FREER with entropy: 2.2842
+Bot chose: FREER with entropy: 2.2842
+Top ten guesses: [('FREER', 2.2841591278514217), ('CHEER', 1.780672129520887), ('FLEER', 1.780672129520887), ('KHEER', 1.780672129520887), ('THEIR', 1.780672129520887), ('THEOR', 1.780672129520887), ('BREER', 1.7295739585136223), ('DREER', 1.7295739585136223), ('FLEUR', 1.584962500721156), ('QUEER', 1.4182958340544896)]
+GUESS: FREER
+
+Guess: 𝙁𝙍𝙀𝙀𝙍, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2841591278514217}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEIR with entropy: 1.0000
+Bot chose: THEIR with entropy: 1.0000
+Top ten guesses: [('THEIR', 1.0), ('THEOR', 1.0)]
+GUESS: THEIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙍𝙀𝙀𝙍, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.284 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙄𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 438 remaining candidates...
+Top 5 guesses: [('DIRER', '4.603'), ('DRIER', '4.596'), ('DETER', '4.554'), ('TRIED', '4.520'), ('EIDER', '4.437')]
+Top entropy choice: 𝘿𝙄𝙍𝙀𝙍 with entropy: 4.6032
+Ended up choosing COMMON word: 𝘿𝙍𝙄𝙀𝙍 with entropy: 4.5957
+GUESS: DRIER
+
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.1898 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 7.189824558880018, 'expected_info_gain': 4.5957202266937065}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('KEFIR', '1.585'), ('VEZIR', '1.585'), ('THEIR', '0.918')]
+Top entropy choice: 𝙆𝙀𝙁𝙄𝙍 with entropy: 1.5850
+GUESS: KEFIR
+
+Guess: 𝙆𝙀𝙁𝙄𝙍, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THEIR', '0.000')]
+Top entropy choice: 𝙏𝙃𝙀𝙄𝙍 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙄𝙍 with entropy: 0.0000
+GUESS: THEIR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 7.190 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙀𝙁𝙄𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙄𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+438 candidate words remaining.
+Top 5 guesses: [('PUTID', '4.628'), ('DENET', '4.615'), ('TINED', '4.610'), ('DIRER', '4.603'), ('TEEND', '4.601')]
+Top entropy choice: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+GUESS: PUTID
+
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.6049 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.6048620581588615, 'expected_info_gain': 4.628396401808578}
+----------
+The bot is making a guess...
+9 candidate words remaining.
+Top 5 guesses: [('FEMAL', '2.948'), ('FEMIC', '2.948'), ('FLEAM', '2.725'), ('FLEME', '2.725'), ('MELCH', '2.725')]
+Top entropy choice: 𝙁𝙀𝙈𝘼𝙇 with entropy: 2.9477
+Guess count low, choosing the word with highest entropy: 𝙁𝙀𝙈𝘼𝙇 with entropy: 2.9477
+GUESS: FEMAL
+
+Guess: 𝙁𝙀𝙈𝘼𝙇, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.94770277922009}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('THEIR', '0.000')]
+Top entropy choice: 𝙏𝙃𝙀𝙄𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙀𝙄𝙍 with entropy: 0.0000
+GUESS: THEIR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙀𝙈𝘼𝙇, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

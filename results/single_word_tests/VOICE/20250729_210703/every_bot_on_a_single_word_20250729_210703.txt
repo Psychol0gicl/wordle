@@ -1,0 +1,233 @@
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙊𝙄𝘾𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MOILE 
+The top ten guesses and scores: [('MOILE', 538), ('MOLIE', 538), ('LOGIE', 527), ('LOIPE', 526), ('LOUIE', 525), ('DOLIE', 524), ('LOCIE', 524), ('OLDIE', 524), ('TOILE', 521), ('MOBLE', 514)]
+The bot finally chose: LOGIE 
+GUESS: LOGIE
+Guess: 𝙇𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: BOITE 
+The top ten guesses and scores: [('BOITE', 11), ('KOINE', 11), ('VOICE', 11)]
+The bot finally chose: VOICE 
+GUESS: VOICE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙇𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙑𝙊𝙄𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙊𝙄𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.1878 bits
+Posterior entropy: 6.066089190457772
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.066089190457772, 'actual_info_gain': 4.187758294529631, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOGIE with entropy: 3.6030
+Bot chose: BOGIE with entropy: 3.6030
+Top ten guesses: [('BOGIE', 3.6030183946115333), ('MOBIE', 3.5241085964353704), ('DOGIE', 3.4405779562961905), ('COGIE', 3.3738396189527435), ('BOITE', 3.359833037875041), ('DOBIE', 3.325790649566571), ('MOWIE', 3.2999337443782446), ('MOGUE', 3.282061130792239), ('MODGE', 3.2724756507517108), ('COMTE', 3.2425466098745104)]
+GUESS: BOGIE
+
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 6.0661 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.066089190457772, 'posterior_entropy': 0.0, 'actual_info_gain': 6.066089190457772, 'expected_info_gain': 3.6030183946115333}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VOICE with entropy: 0.0000
+Bot chose: VOICE with entropy: 0.0000
+Top ten guesses: [('VOICE', 0.0)]
+GUESS: VOICE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 6.066 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙊𝙄𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙊𝙄𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.1878 bits
+Posterior entropy: 6.066089190457772
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.066089190457772, 'actual_info_gain': 4.187758294529631, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOGIE with entropy: 3.6030
+Bot chose: BOGIE with entropy: 3.6030
+Top ten guesses: [('BOGIE', 3.6030183946115333), ('MOBIE', 3.5241085964353704), ('DOGIE', 3.4405779562961905), ('COGIE', 3.3738396189527435), ('BOITE', 3.359833037875041), ('DOBIE', 3.325790649566571), ('MOWIE', 3.2999337443782446), ('MOGUE', 3.282061130792239), ('MODGE', 3.2724756507517108), ('COMTE', 3.2425466098745104)]
+GUESS: BOGIE
+
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 6.0661 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.066089190457772, 'posterior_entropy': 0.0, 'actual_info_gain': 6.066089190457772, 'expected_info_gain': 3.6030183946115333}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VOICE with entropy: 0.0000
+Bot chose: VOICE with entropy: 0.0000
+Top ten guesses: [('VOICE', 0.0)]
+GUESS: VOICE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.188 bits, Posterior Entropy: 6.066, 
+Guess: 𝘽𝙊𝙂𝙄𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.066, Expected Info Gain: 3.603 bits, Actual Info Gain: 6.066 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙊𝙄𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙊𝙄𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 6.5011 bits
+Posterior entropy: 7.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.357552004618084, 'actual_info_gain': 6.501108980104693, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 264 potential guesses from 164 remaining candidates...
+Top 5 guesses: [('CHILD', '3.846'), ('LIGHT', '3.657'), ('UNTIL', '3.597'), ('MIGHT', '3.389'), ('THING', '3.342')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.8464
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.8464
+GUESS: CHILD
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 7.3576 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.357552004618084, 'posterior_entropy': 0.0, 'actual_info_gain': 7.357552004618084, 'expected_info_gain': 3.8463939480961966}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('VOICE', '0.000')]
+Top entropy choice: 𝙑𝙊𝙄𝘾𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙑𝙊𝙄𝘾𝙀 with entropy: 0.0000
+GUESS: VOICE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.358, Expected Info Gain: 3.846 bits, Actual Info Gain: 7.358 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙊𝙄𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙊𝙄𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 6.5011 bits
+Posterior entropy: 7.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.357552004618084, 'actual_info_gain': 6.501108980104693, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+164 candidate words remaining.
+Top 5 guesses: [('CLIMB', '4.092'), ('BUILD', '4.086'), ('LUMBI', '4.060'), ('PILUM', '4.058'), ('BLIMP', '4.033')]
+Top entropy choice: 𝘾𝙇𝙄𝙈𝘽 with entropy: 4.0918
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙈𝘽 with entropy: 4.0918
+GUESS: CLIMB
+
+Guess: 𝘾𝙇𝙄𝙈𝘽, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 7.3576 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.357552004618084, 'posterior_entropy': 0.0, 'actual_info_gain': 7.357552004618084, 'expected_info_gain': 4.091768374450426}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('VOICE', '0.000')]
+Top entropy choice: 𝙑𝙊𝙄𝘾𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙑𝙊𝙄𝘾𝙀 with entropy: 0.0000
+GUESS: VOICE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.501 bits, Posterior Entropy: 7.358, 
+Guess: 𝘾𝙇𝙄𝙈𝘽, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.358, Expected Info Gain: 4.092 bits, Actual Info Gain: 7.358 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙊𝙄𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

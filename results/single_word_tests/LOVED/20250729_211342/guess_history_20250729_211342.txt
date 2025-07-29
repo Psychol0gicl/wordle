@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟨
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨🟨🟨🟩⬜
+Guess: 𝙇𝙊𝙑𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 7.084 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝙊𝙑𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 7.084 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝙊𝙑𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.222 bits, Posterior Entropy: 7.637, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 7.637, Expected Info Gain: 3.373 bits, Actual Info Gain: 3.730 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝙊𝙇𝙀𝘿, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 1.563 bits, Actual Info Gain: 1.100 bits, Posterior Entropy: 2.807, 
+Guess: 𝙇𝙊𝘽𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙇𝙊𝙑𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.222 bits, Posterior Entropy: 7.637, 
+Guess: 𝙇𝙔𝙏𝙀𝘿, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 7.637, Expected Info Gain: 3.983 bits, Actual Info Gain: 4.467 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙑𝙊𝙒𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙊𝙑𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

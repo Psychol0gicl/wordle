@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙀𝘿𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙀𝘿𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 9.042 bitsPosterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙀𝘿𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 9.042 bitsPosterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝘿𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bitsPosterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 6.669 bitsPosterior Entropy: 2.000, 
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝘿𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bitsPosterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.347 bitsPosterior Entropy: 4.322, 
+Guess: 𝘼𝘿𝙈𝙄𝙉, Feedback: 🟨🟨🟨🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.584 bits, Actual Info Gain: 4.322 bitsPosterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

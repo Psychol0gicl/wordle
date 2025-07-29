@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙃𝙊𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝘾𝙇𝙊𝙉𝙀, Feedback: ⬜🟨🟩⬜🟩
+Guess: 𝙒𝙃𝙊𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.084 bits, Posterior Entropy: 4.170, 
+Guess: 𝙂𝙇𝙊𝘽𝙀, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 2.169 bits, Actual Info Gain: 1.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙃𝙊𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.084 bits, Posterior Entropy: 4.170, 
+Guess: 𝙂𝙇𝙊𝘽𝙀, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 2.169 bits, Actual Info Gain: 1.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙃𝙊𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 6.170, Expected Info Gain: 3.990 bits, Actual Info Gain: 5.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙒𝙃𝙊𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 6.170, Expected Info Gain: 4.042 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙍𝙊𝙊𝙆, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙃𝙊𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙀𝘼𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟩🟩🟩⬜🟨
+Guess: 𝘿𝙀𝘼𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙀𝘼𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.234 bitsPosterior Entropy: 3.807, 
+Guess: 𝘼𝘽𝙊𝘿𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 3.807, Expected Info Gain: 3.379 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 1.000, 
+Guess: 𝘿𝙀𝘼𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘼𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.234 bitsPosterior Entropy: 3.807, 
+Guess: 𝘼𝘽𝙊𝘿𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 3.807, Expected Info Gain: 3.379 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 1.000, 
+Guess: 𝘿𝙀𝘼𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘼𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.077 bitsPosterior Entropy: 5.781, 
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟩🟩🟩⬜🟨, Prior Entropy: 5.781, Expected Info Gain: 3.686 bits, Actual Info Gain: 5.781 bitsPosterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘼𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘼𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.077 bitsPosterior Entropy: 5.781, 
+Guess: 𝙈𝙀𝙇𝙏𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 5.781, Expected Info Gain: 4.076 bits, Actual Info Gain: 3.781 bitsPosterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝘼𝙉𝘿, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘼𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

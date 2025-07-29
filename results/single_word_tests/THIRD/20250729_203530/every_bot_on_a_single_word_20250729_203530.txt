@@ -1,0 +1,255 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙄𝙍𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MUIRY 
+The top ten guesses and scores: [('MUIRY', 526), ('RYUGI', 517), ('RUTIN', 507), ('CHIRU', 499), ('MURTI', 499), ('INCUR', 494), ('RUNIC', 494), ('CURLI', 493), ('UNRID', 491), ('LURID', 490)]
+The bot finally chose: INCUR 
+GUESS: INCUR
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: YIRTH 
+The top ten guesses and scores: [('YIRTH', 149), ('DIRTY', 145), ('RIFTY', 144), ('THIRL', 144), ('MITRY', 143), ('RITZY', 140), ('THIRD', 140), ('THRID', 140), ('BIRTH', 139), ('FIRTH', 139)]
+The bot finally chose: DIRTY 
+GUESS: DIRTY
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: 🟨🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THIRD 
+The top ten guesses and scores: [('THIRD', 5)]
+The bot finally chose: THIRD 
+GUESS: THIRD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: 🟨🟨🟨🟨⬜
+Guess: 𝙏𝙃𝙄𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙍𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 6.2637 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.2636604397081825, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIRL with entropy: 2.2516
+Bot chose: TWIRL with entropy: 2.2516
+Top ten guesses: [('THIRL', 2.2516291673878226), ('TWIRL', 2.2516291673878226), ('THIRD', 1.9182958340544896), ('TWIRK', 1.9182958340544893), ('MITRY', 1.2516291673878228), ('NITRY', 1.2516291673878228)]
+GUESS: TWIRL
+
+Guess: 𝙏𝙒𝙄𝙍𝙇, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIRD with entropy: 0.0000
+Bot chose: THIRD with entropy: 0.0000
+Top ten guesses: [('THIRD', 0.0)]
+GUESS: THIRD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bitsPosterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 6.264 bitsPosterior Entropy: 2.585, 
+Guess: 𝙏𝙒𝙄𝙍𝙇, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙍𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 6.2637 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.2636604397081825, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIRL with entropy: 2.2516
+Bot chose: TWIRL with entropy: 2.2516
+Top ten guesses: [('THIRL', 2.2516291673878226), ('TWIRL', 2.2516291673878226), ('THIRD', 1.9182958340544896), ('TWIRK', 1.9182958340544893), ('MITRY', 1.2516291673878228), ('NITRY', 1.2516291673878228)]
+GUESS: TWIRL
+
+Guess: 𝙏𝙒𝙄𝙍𝙇, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIRD with entropy: 0.0000
+Bot chose: THIRD with entropy: 0.0000
+Top ten guesses: [('THIRD', 0.0)]
+GUESS: THIRD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bitsPosterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 6.264 bitsPosterior Entropy: 2.585, 
+Guess: 𝙏𝙒𝙄𝙍𝙇, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙍𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 8.0258 bits
+Posterior entropy: 5.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.832890014164741, 'actual_info_gain': 8.025770970558035, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 156 potential guesses from 57 remaining candidates...
+Top 5 guesses: [('THURL', '4.131'), ('LIGHT', '4.120'), ('UNTIL', '4.027'), ('THIRL', '4.017'), ('THINK', '3.948')]
+Top entropy choice: 𝙏𝙃𝙐𝙍𝙇 with entropy: 4.1305
+Ended up choosing COMMON word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 4.1198
+GUESS: LIGHT
+
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 5.8329 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.832890014164741, 'posterior_entropy': 0.0, 'actual_info_gain': 5.832890014164741, 'expected_info_gain': 4.119754216063958}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THIRD', '0.000')]
+Top entropy choice: 𝙏𝙃𝙄𝙍𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙍𝘿 with entropy: 0.0000
+GUESS: THIRD
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.026 bitsPosterior Entropy: 5.833, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 5.833, Expected Info Gain: 4.120 bits, Actual Info Gain: 5.833 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙍𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 8.0258 bits
+Posterior entropy: 5.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.832890014164741, 'actual_info_gain': 8.025770970558035, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+57 candidate words remaining.
+Top 5 guesses: [('CULTI', '4.374'), ('BUILT', '4.361'), ('THILK', '4.353'), ('LICHT', '4.320'), ('CLINT', '4.241')]
+Top entropy choice: 𝘾𝙐𝙇𝙏𝙄 with entropy: 4.3744
+Guess count low, choosing the word with highest entropy: 𝘾𝙐𝙇𝙏𝙄 with entropy: 4.3744
+GUESS: CULTI
+
+Guess: 𝘾𝙐𝙇𝙏𝙄, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 3.5110 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.832890014164741, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.510961919277379, 'expected_info_gain': 4.374373735046016}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('CHIMP', '2.322'), ('CHINK', '2.322'), ('DAMPY', '2.322'), ('DEINK', '2.322'), ('DIMPS', '2.322')]
+Top entropy choice: 𝘾𝙃𝙄𝙈𝙋 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙄𝙈𝙋 with entropy: 2.3219
+GUESS: CHIMP
+
+Guess: 𝘾𝙃𝙄𝙈𝙋, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('THIRD', '0.000')]
+Top entropy choice: 𝙏𝙃𝙄𝙍𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙄𝙍𝘿 with entropy: 0.0000
+GUESS: THIRD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.026 bitsPosterior Entropy: 5.833, 
+Guess: 𝘾𝙐𝙇𝙏𝙄, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 5.833, Expected Info Gain: 4.374 bits, Actual Info Gain: 3.511 bitsPosterior Entropy: 2.322, 
+Guess: 𝘾𝙃𝙄𝙈𝙋, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

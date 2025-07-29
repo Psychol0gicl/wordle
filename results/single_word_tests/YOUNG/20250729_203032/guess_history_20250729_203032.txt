@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙔𝙊𝙐𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙒𝙊𝙐𝙉𝘿, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙔𝙊𝙐𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.565 bitsPosterior Entropy: 5.585, 
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.585, Expected Info Gain: 3.993 bits, Actual Info Gain: 2.778 bitsPosterior Entropy: 2.807, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙔𝙊𝙐𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bitsPosterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.565 bitsPosterior Entropy: 5.585, 
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.585, Expected Info Gain: 3.993 bits, Actual Info Gain: 2.778 bitsPosterior Entropy: 2.807, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙔𝙊𝙐𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bitsPosterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩🟨, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 7.778 bitsPosterior Entropy: 1.000, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙔𝙊𝙐𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bitsPosterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 8.778 bitsPosterior Entropy: 0.000, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================

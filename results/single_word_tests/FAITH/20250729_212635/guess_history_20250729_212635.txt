@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟨🟩⬜🟨🟨
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.454 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 6.454 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.141 bits, Posterior Entropy: 6.807, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 6.807, Expected Info Gain: 4.292 bits, Actual Info Gain: 5.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝙄𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 6.363 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙀𝙇𝘾𝙃, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 3.252 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝘼𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

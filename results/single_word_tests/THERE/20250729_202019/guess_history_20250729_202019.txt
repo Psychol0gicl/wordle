@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙍𝙃𝙔𝙈𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bitsPosterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 6.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bitsPosterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 6.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bitsPosterior Entropy: 5.170, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 5.170, Expected Info Gain: 3.193 bits, Actual Info Gain: 5.170 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bitsPosterior Entropy: 5.170, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.170, Expected Info Gain: 3.736 bits, Actual Info Gain: 4.170 bitsPosterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

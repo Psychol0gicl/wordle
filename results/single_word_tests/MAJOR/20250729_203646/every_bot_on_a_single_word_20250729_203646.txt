@@ -1,0 +1,273 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MORAT 
+The top ten guesses and scores: [('MORAT', 522), ('MANOR', 521), ('MARON', 521), ('MORAN', 521), ('MORNA', 521), ('NORMA', 521), ('RAMON', 521), ('ROMAN', 521), ('MOLAR', 520), ('MORAL', 520)]
+The bot finally chose: MANOR 
+GUESS: MANOR
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MAJOR 
+The top ten guesses and scores: [('MAJOR', 14), ('MAYOR', 14), ('MAROR', 13)]
+The bot finally chose: MAJOR 
+GUESS: MAJOR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAGOR with entropy: 3.4151
+Bot chose: GATOR with entropy: 3.1883
+Top ten guesses: [('NAGOR', 3.41506592155557), ('GATOR', 3.188331131693838), ('MANOR', 3.0660889497439903), ('MAROR', 3.0348497126994363), ('ALGOR', 3.0208435533622513), ('GLAIR', 3.0160131999400743), ('LABOR', 3.012777593192335), ('FLAIR', 2.9321380397593746), ('GNARR', 2.9312952802328742), ('JAGIR', 2.899022751175654)]
+GUESS: GATOR
+
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.188331131693838}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAROR with entropy: 1.8113
+Bot chose: MAROR with entropy: 1.8113
+Top ten guesses: [('MAROR', 1.811278124459133), ('VALOR', 1.5487949406953985), ('MAJOR', 1.4056390622295665), ('MANOR', 1.4056390622295665), ('MAYOR', 1.4056390622295665), ('FAVOR', 1.061278124459133), ('LABOR', 1.061278124459133), ('RAZOR', 1.061278124459133)]
+GUESS: MAROR
+
+Guess: 𝙈𝘼𝙍𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 1.811278124459133}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAJOR with entropy: 0.9183
+Bot chose: MAJOR with entropy: 0.9183
+Top ten guesses: [('MAJOR', 0.9182958340544896), ('MANOR', 0.9182958340544896), ('MAYOR', 0.9182958340544896)]
+GUESS: MAJOR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bitsPosterior Entropy: 5.248, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.248, Expected Info Gain: 3.188 bits, Actual Info Gain: 2.248 bitsPosterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙍𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.811 bits, Actual Info Gain: 1.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAGOR with entropy: 3.4151
+Bot chose: GATOR with entropy: 3.1883
+Top ten guesses: [('NAGOR', 3.41506592155557), ('GATOR', 3.188331131693838), ('MANOR', 3.0660889497439903), ('MAROR', 3.0348497126994363), ('ALGOR', 3.0208435533622513), ('GLAIR', 3.0160131999400743), ('LABOR', 3.012777593192335), ('FLAIR', 2.9321380397593746), ('GNARR', 2.9312952802328742), ('JAGIR', 2.899022751175654)]
+GUESS: GATOR
+
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.188331131693838}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAROR with entropy: 1.8113
+Bot chose: MAROR with entropy: 1.8113
+Top ten guesses: [('MAROR', 1.811278124459133), ('VALOR', 1.5487949406953985), ('MAJOR', 1.4056390622295665), ('MANOR', 1.4056390622295665), ('MAYOR', 1.4056390622295665), ('FAVOR', 1.061278124459133), ('LABOR', 1.061278124459133), ('RAZOR', 1.061278124459133)]
+GUESS: MAROR
+
+Guess: 𝙈𝘼𝙍𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 1.811278124459133}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAJOR with entropy: 0.9183
+Bot chose: MAJOR with entropy: 0.9183
+Top ten guesses: [('MAJOR', 0.9182958340544896), ('MANOR', 0.9182958340544896), ('MAYOR', 0.9182958340544896)]
+GUESS: MAJOR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bitsPosterior Entropy: 5.248, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.248, Expected Info Gain: 3.188 bits, Actual Info Gain: 2.248 bitsPosterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙍𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.811 bits, Actual Info Gain: 1.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.3668 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 7.366807888393102, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 189 potential guesses from 90 remaining candidates...
+Top 5 guesses: [('MARON', '4.158'), ('BARON', '4.118'), ('CARON', '4.045'), ('TAROC', '4.024'), ('GATOR', '4.010')]
+Top entropy choice: 𝙈𝘼𝙍𝙊𝙉 with entropy: 4.1583
+Ended up choosing COMMON word: 𝘽𝘼𝙍𝙊𝙉 with entropy: 4.1176
+GUESS: BARON
+
+Guess: 𝘽𝘼𝙍𝙊𝙉, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.0324 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.0324214776923775, 'expected_info_gain': 4.117637532880224}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('VAPOR', '2.222'), ('RATOO', '2.049'), ('VALOR', '1.868'), ('MAYOR', '1.868'), ('PAYOR', '1.868')]
+Top entropy choice: 𝙑𝘼𝙋𝙊𝙍 with entropy: 2.2222
+Ended up choosing COMMON word: 𝙑𝘼𝙋𝙊𝙍 with entropy: 2.2222
+GUESS: VAPOR
+
+Guess: 𝙑𝘼𝙋𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.2221915755066783}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('GATOR', '1.371'), ('MAJOR', '1.371'), ('MAYOR', '1.371'), ('TAXOR', '1.371'), ('RAZOR', '0.722')]
+Top entropy choice: 𝙂𝘼𝙏𝙊𝙍 with entropy: 1.3710
+Ended up choosing COMMON word: 𝙂𝘼𝙏𝙊𝙍 with entropy: 1.3710
+GUESS: GATOR
+
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('MAJOR', '1.585'), ('MAYOR', '1.585'), ('RAZOR', '0.918')]
+Top entropy choice: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.5850
+GUESS: MAJOR
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.367 bitsPosterior Entropy: 6.492, 
+Guess: 𝘽𝘼𝙍𝙊𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 6.492, Expected Info Gain: 4.118 bits, Actual Info Gain: 3.032 bitsPosterior Entropy: 3.459, 
+Guess: 𝙑𝘼𝙋𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 1.138 bitsPosterior Entropy: 2.322, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bitsPosterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.3668 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 7.366807888393102, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+90 candidate words remaining.
+Top 5 guesses: [('BATON', '4.217'), ('MARON', '4.158'), ('BARON', '4.118'), ('TALON', '4.056'), ('MAGOT', '4.046')]
+Top entropy choice: 𝘽𝘼𝙏𝙊𝙉 with entropy: 4.2172
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝙏𝙊𝙉 with entropy: 4.2172
+GUESS: BATON
+
+Guess: 𝘽𝘼𝙏𝙊𝙉, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.7914 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 2.7914133781885826, 'expected_info_gain': 4.21724280593316}
+----------
+The bot is making a guess...
+13 candidate words remaining.
+Top 5 guesses: [('PARMO', '3.027'), ('RYMER', '2.969'), ('RYPER', '2.969'), ('MARLY', '2.931'), ('MIRLY', '2.931')]
+Top entropy choice: 𝙋𝘼𝙍𝙈𝙊 with entropy: 3.0270
+Guess count low, choosing the word with highest entropy: 𝙋𝘼𝙍𝙈𝙊 with entropy: 3.0270
+GUESS: PARMO
+
+Guess: 𝙋𝘼𝙍𝙈𝙊, Feedback: ⬜🟩🟨🟨🟨
+Actual Info Gain: 2.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 2.700439718141092, 'expected_info_gain': 3.0269868333592873}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('MAJOR', '1.000'), ('MAYOR', '1.000')]
+Top entropy choice: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.0000
+GUESS: MAJOR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.367 bitsPosterior Entropy: 6.492, 
+Guess: 𝘽𝘼𝙏𝙊𝙉, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 6.492, Expected Info Gain: 4.217 bits, Actual Info Gain: 2.791 bitsPosterior Entropy: 3.700, 
+Guess: 𝙋𝘼𝙍𝙈𝙊, Feedback: ⬜🟩🟨🟨🟨, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.700 bitsPosterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

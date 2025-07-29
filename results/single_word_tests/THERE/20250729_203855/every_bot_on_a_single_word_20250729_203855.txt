@@ -1,0 +1,227 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: INURE 
+The top ten guesses and scores: [('INURE', 411), ('CURIE', 406), ('NITRE', 406), ('RUICE', 406), ('NIGRE', 400), ('RINCE', 400), ('RINGE', 400), ('LITRE', 399), ('MITRE', 399), ('RITHE', 399)]
+The bot finally chose: CURIE 
+GUESS: CURIE
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: RHYNE 
+The top ten guesses and scores: [('RHYNE', 81), ('RYTHE', 81), ('RHYME', 80), ('ENTRE', 75), ('RENTE', 75), ('THERE', 75), ('METRE', 74), ('RHEME', 74), ('RYMME', 74), ('REDYE', 72)]
+The bot finally chose: RHYME 
+GUESS: RHYME
+Guess: 𝙍𝙃𝙔𝙈𝙀, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: THERE 
+The top ten guesses and scores: [('THERE', 9), ('WHERE', 9)]
+The bot finally chose: THERE 
+GUESS: THERE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘾𝙐𝙍𝙄𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙍𝙃𝙔𝙈𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 7.2737 bits
+Posterior entropy: 6.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.584962500721156, 'actual_info_gain': 7.273698484001621, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TREED with entropy: 4.0075
+Bot chose: ERECT with entropy: 3.8194
+Top ten guesses: [('TREED', 4.007544034202682), ('FREET', 3.872719004073488), ('BREDE', 3.860652886053039), ('ERECT', 3.8193898753026874), ('CREED', 3.809054740582303), ('FREED', 3.768885234828283), ('TREEN', 3.757642982213146), ('DRERE', 3.752509503790746), ('GRECE', 3.748506310392375), ('GREET', 3.742719862379213)]
+GUESS: ERECT
+
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨
+Actual Info Gain: 6.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 6.584962500721156, 'expected_info_gain': 3.8193898753026874}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THERE with entropy: 0.0000
+Bot chose: THERE with entropy: 0.0000
+Top ten guesses: [('THERE', 0.0)]
+GUESS: THERE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 6.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 7.2737 bits
+Posterior entropy: 6.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.584962500721156, 'actual_info_gain': 7.273698484001621, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TREED with entropy: 4.0075
+Bot chose: ERECT with entropy: 3.8194
+Top ten guesses: [('TREED', 4.007544034202682), ('FREET', 3.872719004073488), ('BREDE', 3.860652886053039), ('ERECT', 3.8193898753026874), ('CREED', 3.809054740582303), ('FREED', 3.768885234828283), ('TREEN', 3.757642982213146), ('DRERE', 3.752509503790746), ('GRECE', 3.748506310392375), ('GREET', 3.742719862379213)]
+GUESS: ERECT
+
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨
+Actual Info Gain: 6.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 6.584962500721156, 'expected_info_gain': 3.8193898753026874}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THERE with entropy: 0.0000
+Bot chose: THERE with entropy: 0.0000
+Top ten guesses: [('THERE', 0.0)]
+GUESS: THERE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 6.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('TERRE', '3.193'), ('METRE', '3.044'), ('ENTRE', '2.939'), ('NITRE', '2.845'), ('MITRE', '2.813')]
+Top entropy choice: 𝙏𝙀𝙍𝙍𝙀 with entropy: 3.1933
+Ended up choosing COMMON word: 𝙏𝙀𝙍𝙍𝙀 with entropy: 3.1933
+GUESS: TERRE
+
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩
+Actual Info Gain: 5.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 5.169925001442312, 'expected_info_gain': 3.1932995709958814}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THERE', '0.000')]
+Top entropy choice: 𝙏𝙃𝙀𝙍𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙍𝙀 with entropy: 0.0000
+GUESS: THERE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 5.170, Expected Info Gain: 3.193 bits, Actual Info Gain: 5.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙍𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+36 candidate words remaining.
+Top 5 guesses: [('UNTIL', '3.736'), ('PUTIN', '3.697'), ('TUNIC', '3.668'), ('FIENT', '3.659'), ('CUTIN', '3.647')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.7363
+Guess count low, choosing the word with highest entropy: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.7363
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 3.7363238771524}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('TERRE', '1.000'), ('THERE', '1.000')]
+Top entropy choice: 𝙏𝙀𝙍𝙍𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙍𝙍𝙀 with entropy: 1.0000
+GUESS: TERRE
+
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('THERE', '0.000')]
+Top entropy choice: 𝙏𝙃𝙀𝙍𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙀𝙍𝙀 with entropy: 0.0000
+GUESS: THERE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.170, Expected Info Gain: 3.736 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙀𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

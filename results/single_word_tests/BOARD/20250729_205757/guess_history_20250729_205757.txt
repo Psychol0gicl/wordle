@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙍𝙊𝙔𝘼𝙇, Feedback: 🟨🟩⬜🟨⬜
+Guess: 𝘽𝙊𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.266 bits, Posterior Entropy: 4.644, 
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.832 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙊𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.266 bits, Posterior Entropy: 4.644, 
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.832 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙊𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙊𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙊𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

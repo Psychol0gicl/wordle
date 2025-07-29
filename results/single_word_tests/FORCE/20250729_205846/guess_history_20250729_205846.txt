@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜🟩
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.536 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 2.219 bits, Actual Info Gain: 0.862 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.536 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 2.219 bits, Actual Info Gain: 0.862 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.170, Expected Info Gain: 2.433 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 4.000, 
+Guess: 𝙁𝙊𝙍𝙂𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 1.592 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝘽𝙐𝙍𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 5.170, Expected Info Gain: 3.236 bits, Actual Info Gain: 1.469 bits, Posterior Entropy: 3.700, 
+Guess: 𝙈𝙐𝘿𝙄𝙁, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 3.700, Expected Info Gain: 2.661 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙍𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

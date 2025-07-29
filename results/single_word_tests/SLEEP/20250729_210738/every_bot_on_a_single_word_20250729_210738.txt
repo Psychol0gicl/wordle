@@ -1,0 +1,248 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝙀𝙀𝙋 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ISLET 
+The top ten guesses and scores: [('ISLET', 2828), ('LITES', 2828), ('STEIL', 2828), ('TEILS', 2828), ('TILES', 2828), ('ELSIN', 2772), ('LENIS', 2772), ('LIENS', 2772), ('LINES', 2772), ('NELIS', 2772)]
+The bot finally chose: ISLET 
+GUESS: ISLET
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GLUES 
+The top ten guesses and scores: [('GLUES', 154), ('LUDES', 154), ('LUGES', 154), ('SLUED', 154), ('BLUES', 153), ('FLUES', 153), ('FUSEL', 153), ('LUBES', 153), ('LUNES', 153), ('PLUES', 153)]
+The bot finally chose: GLUES 
+GUESS: GLUES
+Guess: 𝙂𝙇𝙐𝙀𝙎, Feedback: ⬜🟩⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: SLEEK 
+The top ten guesses and scores: [('SLEEK', 9), ('SLEEP', 9)]
+The bot finally chose: SLEEK 
+GUESS: SLEEK
+Guess: 𝙎𝙇𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SLEEP 
+The top ten guesses and scores: [('SLEEP', 5)]
+The bot finally chose: SLEEP 
+GUESS: SLEEP
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝙂𝙇𝙐𝙀𝙎, Feedback: ⬜🟩⬜🟩🟨
+Guess: 𝙎𝙇𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙇𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝙀𝙀𝙋 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLEPT with entropy: 2.8554
+Bot chose: SLEPT with entropy: 2.8554
+Top ten guesses: [('SLEPT', 2.8553885422075336), ('STEEP', 2.688721875540867), ('SWEPT', 2.625814583693911), ('STEPS', 2.5849625007211556), ('STEPT', 2.355388542207534), ('SEEPS', 2.3553885422075336), ('SLEEP', 2.3553885422075336), ('SWEEP', 2.3553885422075336), ('SKELP', 2.221251836004466), ('SKEPS', 2.084962500721156)]
+GUESS: SLEPT
+
+Guess: 𝙎𝙇𝙀𝙋𝙏, Feedback: 🟩🟩🟩🟨⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.8553885422075336}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLEEP with entropy: 0.0000
+Bot chose: SLEEP with entropy: 0.0000
+Top ten guesses: [('SLEEP', 0.0)]
+GUESS: SLEEP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙇𝙀𝙋𝙏, Feedback: 🟩🟩🟩🟨⬜, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙀𝙀𝙋 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLEPT with entropy: 2.8554
+Bot chose: SLEPT with entropy: 2.8554
+Top ten guesses: [('SLEPT', 2.8553885422075336), ('STEEP', 2.688721875540867), ('SWEPT', 2.625814583693911), ('STEPS', 2.5849625007211556), ('STEPT', 2.355388542207534), ('SEEPS', 2.3553885422075336), ('SLEEP', 2.3553885422075336), ('SWEEP', 2.3553885422075336), ('SKELP', 2.221251836004466), ('SKEPS', 2.084962500721156)]
+GUESS: SLEPT
+
+Guess: 𝙎𝙇𝙀𝙋𝙏, Feedback: 🟩🟩🟩🟨⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.8553885422075336}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLEEP with entropy: 0.0000
+Bot chose: SLEEP with entropy: 0.0000
+Top ten guesses: [('SLEEP', 0.0)]
+GUESS: SLEEP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙇𝙀𝙋𝙏, Feedback: 🟩🟩🟩🟨⬜, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙀𝙀𝙋 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 422 potential guesses from 227 remaining candidates...
+Top 5 guesses: [('SNEES', '4.121'), ('SENES', '4.086'), ('SEELS', '4.072'), ('STEEN', '4.072'), ('STEEL', '4.070')]
+Top entropy choice: 𝙎𝙉𝙀𝙀𝙎 with entropy: 4.1209
+Ended up choosing COMMON word: 𝙎𝙏𝙀𝙀𝙉 with entropy: 4.0718
+GUESS: STEEN
+
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 3.7391 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.739085646040576, 'expected_info_gain': 4.07179195655567}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('SLEEK', '2.213'), ('SLEEP', '2.174'), ('SPEEL', '2.174'), ('SKEES', '1.970'), ('SKEED', '1.970')]
+Top entropy choice: 𝙎𝙇𝙀𝙀𝙆 with entropy: 2.2125
+Ended up choosing COMMON word: 𝙎𝙇𝙀𝙀𝙆 with entropy: 2.2125
+GUESS: SLEEK
+
+Guess: 𝙎𝙇𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 2.2125038423722683}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SLEEP', '0.000')]
+Top entropy choice: 𝙎𝙇𝙀𝙀𝙋 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙇𝙀𝙀𝙋 with entropy: 0.0000
+GUESS: SLEEP
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 7.827, Expected Info Gain: 4.072 bits, Actual Info Gain: 3.739 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙇𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 2.213 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙀𝙀𝙋 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+227 candidate words remaining.
+Top 5 guesses: [('TEENS', '4.682'), ('TENES', '4.665'), ('LEETS', '4.661'), ('NETES', '4.643'), ('DENET', '4.638')]
+Top entropy choice: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+GUESS: TEENS
+
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜🟨🟩⬜🟨
+Actual Info Gain: 4.0192 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 4.01919356523331, 'expected_info_gain': 4.682414796651863}
+----------
+The bot is making a guess...
+14 candidate words remaining.
+Top 5 guesses: [('SPAWL', '2.978'), ('WHELP', '2.978'), ('FLIMP', '2.950'), ('FLUMP', '2.950'), ('SKELP', '2.950')]
+Top entropy choice: 𝙎𝙋𝘼𝙒𝙇 with entropy: 2.9781
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙒𝙇 with entropy: 2.9781
+GUESS: SPAWL
+
+Guess: 𝙎𝙋𝘼𝙒𝙇, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 2.9780948881692613}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SLEEP', '0.000')]
+Top entropy choice: 𝙎𝙇𝙀𝙀𝙋 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙇𝙀𝙀𝙋 with entropy: 0.0000
+GUESS: SLEEP
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 7.827, Expected Info Gain: 4.682 bits, Actual Info Gain: 4.019 bits, Posterior Entropy: 3.807, 
+Guess: 𝙎𝙋𝘼𝙒𝙇, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 3.807, Expected Info Gain: 2.978 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

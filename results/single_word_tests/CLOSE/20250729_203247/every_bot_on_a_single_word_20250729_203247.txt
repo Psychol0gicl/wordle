@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙇𝙊𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CHOSE 
+The top ten guesses and scores: [('CHOSE', 44), ('WHOSE', 44), ('CLOSE', 43), ('THOSE', 43), ('BIOSE', 42), ('BOOSE', 41), ('LOOSE', 41), ('WOOSE', 41), ('GOOSE', 40), ('MOOSE', 40)]
+The bot finally chose: CHOSE 
+GUESS: CHOSE
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CLOSE 
+The top ten guesses and scores: [('CLOSE', 5)]
+The bot finally chose: CLOSE 
+GUESS: CLOSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝘾𝙇𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.3951 bits
+Posterior entropy: 9.46352437327118
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.46352437327118, 'actual_info_gain': 4.395136611451596, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOLES with entropy: 4.5856
+Bot chose: TOLES with entropy: 4.5856
+Top ten guesses: [('TOLES', 4.585614807310383), ('TILES', 4.579976868284351), ('TEILS', 4.5585640452574205), ('LITES', 4.542428260774857), ('TINES', 4.533118371932379), ('LOTES', 4.525065935640585), ('LINES', 4.513460803595886), ('TONES', 4.51174084822825), ('NITES', 4.508376806897453), ('NOLES', 4.507916911074735)]
+GUESS: TOLES
+
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟨🟨🟨🟨
+Actual Info Gain: 7.8786 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 9.46352437327118, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 7.878561872550025, 'expected_info_gain': 4.585614807310383}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EUSOL with entropy: 1.5850
+Bot chose: EUSOL with entropy: 1.5850
+Top ten guesses: [('EUSOL', 1.584962500721156), ('LESBO', 1.584962500721156), ('CLOSE', 0.9182958340544896)]
+GUESS: EUSOL
+
+Guess: 𝙀𝙐𝙎𝙊𝙇, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOSE with entropy: 0.0000
+Bot chose: CLOSE with entropy: 0.0000
+Top ten guesses: [('CLOSE', 0.0)]
+GUESS: CLOSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bitsPosterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟨🟨🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.879 bitsPosterior Entropy: 1.585, 
+Guess: 𝙀𝙐𝙎𝙊𝙇, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.3951 bits
+Posterior entropy: 9.46352437327118
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.46352437327118, 'actual_info_gain': 4.395136611451596, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOLES with entropy: 4.5856
+Bot chose: TOLES with entropy: 4.5856
+Top ten guesses: [('TOLES', 4.585614807310383), ('TILES', 4.579976868284351), ('TEILS', 4.5585640452574205), ('LITES', 4.542428260774857), ('TINES', 4.533118371932379), ('LOTES', 4.525065935640585), ('LINES', 4.513460803595886), ('TONES', 4.51174084822825), ('NITES', 4.508376806897453), ('NOLES', 4.507916911074735)]
+GUESS: TOLES
+
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟨🟨🟨🟨
+Actual Info Gain: 7.8786 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 9.46352437327118, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 7.878561872550025, 'expected_info_gain': 4.585614807310383}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EUSOL with entropy: 1.5850
+Bot chose: EUSOL with entropy: 1.5850
+Top ten guesses: [('EUSOL', 1.584962500721156), ('LESBO', 1.584962500721156), ('CLOSE', 0.9182958340544896)]
+GUESS: EUSOL
+
+Guess: 𝙀𝙐𝙎𝙊𝙇, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOSE with entropy: 0.0000
+Bot chose: CLOSE with entropy: 0.0000
+Top ten guesses: [('CLOSE', 0.0)]
+GUESS: CLOSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bitsPosterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟨🟨🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.879 bitsPosterior Entropy: 1.585, 
+Guess: 𝙀𝙐𝙎𝙊𝙇, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟨⬜⬜🟩
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('CHOSE', '2.522'), ('THOSE', '2.236'), ('WHOSE', '2.236'), ('CLOSE', '2.128'), ('BIOSE', '1.664')]
+Top entropy choice: 𝘾𝙃𝙊𝙎𝙀 with entropy: 2.5216
+Ended up choosing COMMON word: 𝘾𝙃𝙊𝙎𝙀 with entropy: 2.5216
+GUESS: CHOSE
+
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.521640636343318}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CLOSE', '0.000')]
+Top entropy choice: 𝘾𝙇𝙊𝙎𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝙇𝙊𝙎𝙀 with entropy: 0.0000
+GUESS: CLOSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bitsPosterior Entropy: 2.807, 
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟨⬜⬜🟩
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('BATCH', '2.807'), ('BITCH', '2.807'), ('BOTCH', '2.807'), ('BUTCH', '2.807'), ('CHEST', '2.807')]
+Top entropy choice: 𝘽𝘼𝙏𝘾𝙃 with entropy: 2.8074
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝙏𝘾𝙃 with entropy: 2.8074
+GUESS: BATCH
+
+Guess: 𝘽𝘼𝙏𝘾𝙃, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.807354922057604}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CLOSE', '0.000')]
+Top entropy choice: 𝘾𝙇𝙊𝙎𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙊𝙎𝙀 with entropy: 0.0000
+GUESS: CLOSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.051 bitsPosterior Entropy: 2.807, 
+Guess: 𝘽𝘼𝙏𝘾𝙃, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.807 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

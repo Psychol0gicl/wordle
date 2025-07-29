@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜⬜
+Guess: 𝘼𝙐𝙍𝙄𝘾, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝘼𝙉𝙂𝙍𝙔, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 6.325 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙇𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 6.325 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙇𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 3.537 bits, Actual Info Gain: 1.972 bits, Posterior Entropy: 3.700, 
+Guess: 𝘾𝙃𝘼𝙍𝘼, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 3.700, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝘾𝙐𝙇𝙏𝙄, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 3.892 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙒𝙄𝙉𝙂, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

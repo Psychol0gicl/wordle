@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙀𝘼𝙑𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LANCE 
+The top ten guesses and scores: [('LANCE', 596), ('LIANE', 595), ('LANDE', 590), ('PLANE', 589), ('CLAME', 585), ('MACLE', 585), ('PLATE', 585), ('MAILE', 584), ('LABNE', 583), ('GLACE', 581)]
+The bot finally chose: LANCE 
+GUESS: LANCE
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟩🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LEAVE 
+The top ten guesses and scores: [('LEAVE', 9), ('LEAZE', 9)]
+The bot finally chose: LEAVE 
+GUESS: LEAVE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟩🟨⬜⬜🟩
+Guess: 𝙇𝙀𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 5.7197 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.719731056749852, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEAVY with entropy: 2.4464
+Bot chose: LEAVE with entropy: 2.3710
+Top ten guesses: [('LEAVY', 2.4464393446710155), ('LEAVE', 2.3709505944546687), ('LOAVE', 2.3709505944546687), ('LEAZE', 2.321928094887362), ('LEAFY', 2.1709505944546685), ('LEAKY', 2.1709505944546685), ('LEACH', 1.9609640474436814), ('LEHUA', 1.9609640474436814), ('LEZZA', 1.9609640474436814), ('LEMMA', 1.5709505944546687)]
+GUESS: LEAVE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.720 bitsPosterior Entropy: 3.322, 
+Guess: 𝙇𝙀𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 5.7197 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.719731056749852, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEAVY with entropy: 2.4464
+Bot chose: LEAVE with entropy: 2.3710
+Top ten guesses: [('LEAVY', 2.4464393446710155), ('LEAVE', 2.3709505944546687), ('LOAVE', 2.3709505944546687), ('LEAZE', 2.321928094887362), ('LEAFY', 2.1709505944546685), ('LEAKY', 2.1709505944546685), ('LEACH', 1.9609640474436814), ('LEHUA', 1.9609640474436814), ('LEZZA', 1.9609640474436814), ('LEMMA', 1.5709505944546687)]
+GUESS: LEAVE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bitsPosterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.720 bitsPosterior Entropy: 3.322, 
+Guess: 𝙇𝙀𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 172 potential guesses from 74 remaining candidates...
+Top 5 guesses: [('LIGHT', '3.299'), ('ALONG', '3.237'), ('CHILD', '3.186'), ('ELATE', '3.000'), ('THING', '2.972')]
+Top entropy choice: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.2989
+Ended up choosing COMMON word: 𝙇𝙄𝙂𝙃𝙏 with entropy: 3.2989
+GUESS: LIGHT
+
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 1.0, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 3.2988904302440134}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('LEAVE', '1.000'), ('LEAZE', '1.000')]
+Top entropy choice: 𝙇𝙀𝘼𝙑𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙇𝙀𝘼𝙑𝙀 with entropy: 1.0000
+GUESS: LEAVE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bitsPosterior Entropy: 6.209, 
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.299 bits, Actual Info Gain: 5.209 bitsPosterior Entropy: 1.000, 
+Guess: 𝙇𝙀𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+74 candidate words remaining.
+Top 5 guesses: [('LETCH', '3.628'), ('PLUNG', '3.624'), ('GLITZ', '3.617'), ('ELECT', '3.600'), ('CLIPT', '3.570')]
+Top entropy choice: 𝙇𝙀𝙏𝘾𝙃 with entropy: 3.6285
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝙏𝘾𝙃 with entropy: 3.6285
+GUESS: LETCH
+
+Guess: 𝙇𝙀𝙏𝘾𝙃, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 1.0, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 3.6284594010273623}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('LEAVE', '1.000'), ('LEAZE', '1.000')]
+Top entropy choice: 𝙇𝙀𝘼𝙑𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝘼𝙑𝙀 with entropy: 1.0000
+GUESS: LEAVE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bitsPosterior Entropy: 6.209, 
+Guess: 𝙇𝙀𝙏𝘾𝙃, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.628 bits, Actual Info Gain: 5.209 bitsPosterior Entropy: 1.000, 
+Guess: 𝙇𝙀𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

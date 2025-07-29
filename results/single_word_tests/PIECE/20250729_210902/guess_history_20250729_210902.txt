@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙀𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝘽𝙄𝙇𝙂𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝘿𝙄𝙓𝙄𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙋𝙄𝙀𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙀𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙇𝙀𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 4.088 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙀𝙀𝘾𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙀𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙀𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙇𝙀𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 4.088 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙀𝙀𝘾𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙀𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙀𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 2.791 bits, Posterior Entropy: 5.644, 
+Guess: 𝙂𝙀𝙉𝙄𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 5.644, Expected Info Gain: 3.966 bits, Actual Info Gain: 4.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙄𝙀𝙑𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙀𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙀𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 3.225 bits, Posterior Entropy: 5.209, 
+Guess: 𝘿𝙄𝙉𝙄𝘾, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 5.209, Expected Info Gain: 3.916 bits, Actual Info Gain: 3.624 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙄𝙀𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

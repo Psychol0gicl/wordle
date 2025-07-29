@@ -1,0 +1,281 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙊𝙍𝙍𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: YOURT 
+The top ten guesses and scores: [('YOURT', 549), ('YOURN', 545), ('TURON', 542), ('CURIO', 540), ('RUBIO', 537), ('TUMOR', 537), ('COURT', 536), ('DUROY', 535), ('MOURN', 533), ('TURBO', 533)]
+The bot finally chose: RUBIO 
+GUESS: RUBIO
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DORTY 
+The top ten guesses and scores: [('DORTY', 147), ('HORNY', 146), ('PORTY', 146), ('DOWRY', 145), ('WORDY', 145), ('OCHRY', 144), ('WORMY', 144), ('COWRY', 143), ('DORMY', 143), ('PORNY', 143)]
+The bot finally chose: HORNY 
+GUESS: HORNY
+Guess: 𝙃𝙊𝙍𝙉𝙔, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: DORKY 
+The top ten guesses and scores: [('DORKY', 63), ('DORMY', 62), ('WORDY', 62), ('WORKY', 62), ('DORTY', 61), ('PORKY', 61), ('WORMY', 61), ('FORKY', 60), ('GORMY', 60), ('LORDY', 60)]
+The bot finally chose: DORKY 
+GUESS: DORKY
+Guess: 𝘿𝙊𝙍𝙆𝙔, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GORMY 
+The top ten guesses and scores: [('GORMY', 32), ('MORGY', 32), ('PORGY', 31), ('WORMY', 31), ('PORTY', 30), ('FORTY', 29), ('WORRY', 28), ('LORRY', 27)]
+The bot finally chose: FORTY 
+GUESS: FORTY
+Guess: 𝙁𝙊𝙍𝙏𝙔, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GORMY 
+The top ten guesses and scores: [('GORMY', 26), ('MORGY', 26), ('WORMY', 25), ('PORGY', 24), ('WORRY', 22), ('LORRY', 21)]
+The bot finally chose: WORRY 
+GUESS: WORRY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙍𝙉𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘿𝙊𝙍𝙆𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙊𝙍𝙏𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙒𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.0413 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 5.041268018371735, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOORD with entropy: 3.0391
+Bot chose: LOORD with entropy: 3.0391
+Top ten guesses: [('LOORD', 3.039148671903071), ('BOORD', 2.8423709931771084), ('DOBRO', 2.8423709931771084), ('HOORD', 2.8423709931771084), ('DOORN', 2.6455933144511468), ('DOWRY', 2.6455933144511468), ('LORRY', 2.4956029237290123), ('MORRO', 2.4137995646056805), ('WORRY', 2.270942421748537), ('MOORY', 2.263809173883546)]
+GUESS: LOORD
+
+Guess: 𝙇𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.039148671903071}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WORRY with entropy: 0.0000
+Bot chose: WORRY with entropy: 0.0000
+Top ten guesses: [('WORRY', 0.0)]
+GUESS: WORRY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 5.041 bits, Posterior Entropy: 3.807, 
+Guess: 𝙇𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 3.807, Expected Info Gain: 3.039 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.0413 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 5.041268018371735, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOORD with entropy: 3.0391
+Bot chose: LOORD with entropy: 3.0391
+Top ten guesses: [('LOORD', 3.039148671903071), ('BOORD', 2.8423709931771084), ('DOBRO', 2.8423709931771084), ('HOORD', 2.8423709931771084), ('DOORN', 2.6455933144511468), ('DOWRY', 2.6455933144511468), ('LORRY', 2.4956029237290123), ('MORRO', 2.4137995646056805), ('WORRY', 2.270942421748537), ('MOORY', 2.263809173883546)]
+GUESS: LOORD
+
+Guess: 𝙇𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.039148671903071}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WORRY with entropy: 0.0000
+Bot chose: WORRY with entropy: 0.0000
+Top ten guesses: [('WORRY', 0.0)]
+GUESS: WORRY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 5.041 bits, Posterior Entropy: 3.807, 
+Guess: 𝙇𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 3.807, Expected Info Gain: 3.039 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('BOORD', '3.054'), ('DOBRO', '2.962'), ('LOORD', '2.870'), ('DOORN', '2.779'), ('GOORY', '2.746')]
+Top entropy choice: 𝘽𝙊𝙊𝙍𝘿 with entropy: 3.0541
+GUESS: BOORD
+
+Guess: 𝘽𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.5849625007211565, 'expected_info_gain': 3.0540969647593883}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('COWRY', '2.722'), ('LORRY', '2.446'), ('LOWRY', '2.446'), ('WORRY', '2.446'), ('YOURN', '2.322')]
+Top entropy choice: 𝘾𝙊𝙒𝙍𝙔 with entropy: 2.7219
+Ended up choosing COMMON word: 𝙇𝙊𝙍𝙍𝙔 with entropy: 2.4464
+GUESS: LORRY
+
+Guess: 𝙇𝙊𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.4464393446710155}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('WORRY', '0.000')]
+Top entropy choice: 𝙒𝙊𝙍𝙍𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙒𝙊𝙍𝙍𝙔 with entropy: 0.0000
+GUESS: WORRY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘽𝙊𝙊𝙍𝘿, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 3.054 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 3.322, 
+Guess: 𝙇𝙊𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 2.446 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+30 candidate words remaining.
+Top 5 guesses: [('BUNDY', '3.673'), ('YCOND', '3.670'), ('BLUDY', '3.631'), ('BOODY', '3.619'), ('DURGY', '3.603')]
+Top entropy choice: 𝘽𝙐𝙉𝘿𝙔 with entropy: 3.6729
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙉𝘿𝙔 with entropy: 3.6729
+GUESS: BUNDY
+
+Guess: 𝘽𝙐𝙉𝘿𝙔, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.672905595320056}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('GOWLS', '2.585'), ('MAWLA', '2.585'), ('MEWLS', '2.585'), ('WHELM', '2.585'), ('WILGA', '2.585')]
+Top entropy choice: 𝙂𝙊𝙒𝙇𝙎 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝙂𝙊𝙒𝙇𝙎 with entropy: 2.5850
+GUESS: GOWLS
+
+Guess: 𝙂𝙊𝙒𝙇𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('WORRY', '0.000')]
+Top entropy choice: 𝙒𝙊𝙍𝙍𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙒𝙊𝙍𝙍𝙔 with entropy: 0.0000
+GUESS: WORRY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘽𝙐𝙉𝘿𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.907, Expected Info Gain: 3.673 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝙂𝙊𝙒𝙇𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

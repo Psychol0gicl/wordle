@@ -1,0 +1,220 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝙍𝙄𝙎 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: RAITS 
+The top ten guesses and scores: [('RAITS', 972), ('SITAR', 972), ('STAIR', 972), ('STRIA', 972), ('TIARS', 972), ('RANTS', 965), ('STARN', 965), ('TARNS', 965), ('KARTS', 963), ('SKART', 963)]
+The bot finally chose: STAIR 
+GUESS: STAIR
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟨⬜🟨🟩🟨
+entropy_info: None
+----------
+The bot originally chose: GARIS 
+The top ten guesses and scores: [('GARIS', 46), ('NARIS', 46), ('RAGIS', 46), ('RANIS', 46), ('DARIS', 45), ('LARIS', 45), ('PARIS', 45), ('RABIS', 45), ('RAKIS', 45), ('RAMIS', 45)]
+The bot finally chose: PARIS 
+GUESS: PARIS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟨⬜🟨🟩🟨
+Guess: 𝙋𝘼𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙄𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARPS with entropy: 3.2752
+Bot chose: TARPS with entropy: 3.2752
+Top ten guesses: [('TARPS', 3.2751729315283633), ('PARTS', 3.2746370345665863), ('PARDS', 3.1632046194268693), ('CARPS', 3.1568383758118976), ('PARCS', 3.150393733263822), ('PARMS', 3.117214891585817), ('PARPS', 3.117214891585817), ('WARPS', 3.038503820095432), ('PARRS', 2.9929715902830525), ('RAMPS', 2.9842142620985714)]
+GUESS: TARPS
+
+Guess: 𝙏𝘼𝙍𝙋𝙎, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 2.5443 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.5443205162238103, 'expected_info_gain': 3.2751729315283633}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PARCS with entropy: 0.6500
+Bot chose: PARIS with entropy: 0.6500
+Top ten guesses: [('PARCS', 0.6500224216483541), ('PARDS', 0.6500224216483541), ('PARIS', 0.6500224216483541), ('PARKS', 0.6500224216483541), ('PARMS', 0.6500224216483541), ('PARRS', 0.6500224216483541)]
+GUESS: PARIS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙏𝘼𝙍𝙋𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 5.129, Expected Info Gain: 3.275 bits, Actual Info Gain: 2.544 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝘼𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙄𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARPS with entropy: 3.2752
+Bot chose: TARPS with entropy: 3.2752
+Top ten guesses: [('TARPS', 3.2751729315283633), ('PARTS', 3.2746370345665863), ('PARDS', 3.1632046194268693), ('CARPS', 3.1568383758118976), ('PARCS', 3.150393733263822), ('PARMS', 3.117214891585817), ('PARPS', 3.117214891585817), ('WARPS', 3.038503820095432), ('PARRS', 2.9929715902830525), ('RAMPS', 2.9842142620985714)]
+GUESS: TARPS
+
+Guess: 𝙏𝘼𝙍𝙋𝙎, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 2.5443 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.5443205162238103, 'expected_info_gain': 3.2751729315283633}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PARCS with entropy: 0.6500
+Bot chose: PARIS with entropy: 0.6500
+Top ten guesses: [('PARCS', 0.6500224216483541), ('PARDS', 0.6500224216483541), ('PARIS', 0.6500224216483541), ('PARKS', 0.6500224216483541), ('PARMS', 0.6500224216483541), ('PARRS', 0.6500224216483541)]
+GUESS: PARIS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙏𝘼𝙍𝙋𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 5.129, Expected Info Gain: 3.275 bits, Actual Info Gain: 2.544 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝘼𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙄𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 6.3748 bits
+Posterior entropy: 7.483815777264256
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.483815777264256, 'actual_info_gain': 6.37484520745852, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 279 potential guesses from 179 remaining candidates...
+Top 5 guesses: [('NARIS', '3.543'), ('RAINS', '3.540'), ('TARNS', '3.525'), ('DARIS', '3.518'), ('MARTS', '3.506')]
+Top entropy choice: 𝙉𝘼𝙍𝙄𝙎 with entropy: 3.5431
+GUESS: NARIS
+
+Guess: 𝙉𝘼𝙍𝙄𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 5.1619 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.483815777264256, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.161887682376895, 'expected_info_gain': 3.543118828939243}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('DARIS', '0.722'), ('GARIS', '0.722'), ('LARIS', '0.722'), ('PARIS', '0.722'), ('ZARIS', '0.722')]
+Top entropy choice: 𝘿𝘼𝙍𝙄𝙎 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙄𝙎 with entropy: 0.7219
+GUESS: PARIS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.375 bits, Posterior Entropy: 7.484, 
+Guess: 𝙉𝘼𝙍𝙄𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 7.484, Expected Info Gain: 3.543 bits, Actual Info Gain: 5.162 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙍𝙄𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 6.3748 bits
+Posterior entropy: 7.483815777264256
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.483815777264256, 'actual_info_gain': 6.37484520745852, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+179 candidate words remaining.
+Top 5 guesses: [('MIRKN', '3.698'), ('MARIA', '3.687'), ('AARTI', '3.663'), ('MURTI', '3.647'), ('MARID', '3.643')]
+Top entropy choice: 𝙈𝙄𝙍𝙆𝙉 with entropy: 3.6980
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙍𝙆𝙉 with entropy: 3.6980
+GUESS: MIRKN
+
+Guess: 𝙈𝙄𝙍𝙆𝙉, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 4.3139 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.483815777264256, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.313890775821944, 'expected_info_gain': 3.6979519972970403}
+----------
+The bot is making a guess...
+9 candidate words remaining.
+Top 5 guesses: [('ADLIB', '2.419'), ('ADULT', '2.419'), ('AGLUS', '2.419'), ('ALBID', '2.419'), ('ALGID', '2.419')]
+Top entropy choice: 𝘼𝘿𝙇𝙄𝘽 with entropy: 2.4194
+Guess count low, choosing the word with highest entropy: 𝘼𝘿𝙇𝙄𝘽 with entropy: 2.4194
+GUESS: ADLIB
+
+Guess: 𝘼𝘿𝙇𝙄𝘽, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.4193819456463714}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('GARIS', '0.918'), ('PARIS', '0.918'), ('ZARIS', '0.918')]
+Top entropy choice: 𝙂𝘼𝙍𝙄𝙎 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝘼𝙍𝙄𝙎 with entropy: 0.9183
+GUESS: PARIS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.375 bits, Posterior Entropy: 7.484, 
+Guess: 𝙈𝙄𝙍𝙆𝙉, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 7.484, Expected Info Gain: 3.698 bits, Actual Info Gain: 4.314 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝘿𝙇𝙄𝘽, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝘼𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

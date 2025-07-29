@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙀𝙎𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙎𝙋𝙀𝙉𝘿, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙈𝙀𝘾𝙆𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙅𝙀𝙎𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙀𝙎𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.334 bits, Posterior Entropy: 6.129, 
+Guess: 𝙈𝙀𝙉𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.129, Expected Info Gain: 3.614 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙅𝙀𝙎𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙀𝙎𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.334 bits, Posterior Entropy: 6.129, 
+Guess: 𝙈𝙀𝙉𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.129, Expected Info Gain: 3.614 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙅𝙀𝙎𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝙎𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.437 bits, Posterior Entropy: 9.422, 
+Guess: 𝘿𝙀𝙇𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 9.422, Expected Info Gain: 4.541 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.615, Expected Info Gain: 3.980 bits, Actual Info Gain: 2.708 bits, Posterior Entropy: 3.907, 
+Guess: 𝙆𝙀𝙈𝘽𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 3.107 bits, Actual Info Gain: 2.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙀𝙎𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝙎𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.437 bits, Posterior Entropy: 9.422, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.422, Expected Info Gain: 4.805 bits, Actual Info Gain: 3.314 bits, Posterior Entropy: 6.109, 
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.109, Expected Info Gain: 4.453 bits, Actual Info Gain: 3.301 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙇𝙐𝙁𝙁, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 4.453 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙅𝙀𝙎𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,338 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙄𝙂𝙃𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: UNITY 
+The top ten guesses and scores: [('UNITY', 1680), ('PIYUT', 1598), ('UNLIT', 1594), ('UNTIL', 1594), ('LINTY', 1571), ('UNIFY', 1547), ('BUYIN', 1542), ('CUNIT', 1537), ('CUTIN', 1537), ('INCUT', 1537)]
+The bot finally chose: UNITY 
+GUESS: UNITY
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: GITCH 
+The top ten guesses and scores: [('GITCH', 132), ('MICHT', 127), ('MITCH', 127), ('DICHT', 126), ('DITCH', 126), ('LICHT', 124), ('MIGHT', 124), ('PITCH', 124), ('DIGHT', 123), ('FITCH', 123)]
+The bot finally chose: MITCH 
+GUESS: MITCH
+Guess: 𝙈𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: BIGHT 
+The top ten guesses and scores: [('BIGHT', 39), ('DIGHT', 39), ('FIGHT', 39), ('KIGHT', 39), ('LIGHT', 39), ('PIGHT', 39), ('WIGHT', 39), ('HIGHT', 38), ('TIGHT', 38)]
+The bot finally chose: BIGHT 
+GUESS: BIGHT
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DIGHT 
+The top ten guesses and scores: [('DIGHT', 35), ('FIGHT', 35), ('KIGHT', 35), ('LIGHT', 35), ('PIGHT', 35), ('WIGHT', 35), ('HIGHT', 34), ('TIGHT', 34)]
+The bot finally chose: FIGHT 
+GUESS: FIGHT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙈𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟨⬜🟨
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙄𝙂𝙃𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0623 bits
+Posterior entropy: 6.087462841250339
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.087462841250339, 'actual_info_gain': 4.062284278254342, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIFTY with entropy: 4.2909
+Bot chose: DITTY with entropy: 4.1617
+Top ten guesses: [('MIFTY', 4.290939712620867), ('DITZY', 4.2022758810675755), ('WIFTY', 4.195241746205381), ('DITTY', 4.161702408889294), ('WIDTH', 4.031865329134728), ('DIGHT', 4.0248916149484115), ('FIGHT', 3.9736571523695288), ('DHUTI', 3.9389781878933134), ('MIDGY', 3.936276445110722), ('WITTY', 3.929110034024826)]
+GUESS: DITTY
+
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 3.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.502500340529183, 'expected_info_gain': 4.161702408889294}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIGHT with entropy: 0.6500
+Bot chose: BIGHT with entropy: 0.6500
+Top ten guesses: [('BIGHT', 0.6500224216483541), ('FIGHT', 0.6500224216483541), ('HIGHT', 0.6500224216483541), ('KIGHT', 0.6500224216483541), ('MIGHT', 0.6500224216483541), ('WIGHT', 0.6500224216483541)]
+GUESS: BIGHT
+
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIGHT with entropy: 0.7219
+Bot chose: FIGHT with entropy: 0.7219
+Top ten guesses: [('FIGHT', 0.7219280948873623), ('HIGHT', 0.7219280948873623), ('KIGHT', 0.7219280948873623), ('MIGHT', 0.7219280948873623), ('WIGHT', 0.7219280948873623)]
+GUESS: FIGHT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 3.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙂𝙃𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0623 bits
+Posterior entropy: 6.087462841250339
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 6.087462841250339, 'actual_info_gain': 4.062284278254342, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIFTY with entropy: 4.2909
+Bot chose: DITTY with entropy: 4.1617
+Top ten guesses: [('MIFTY', 4.290939712620867), ('DITZY', 4.2022758810675755), ('WIFTY', 4.195241746205381), ('DITTY', 4.161702408889294), ('WIDTH', 4.031865329134728), ('DIGHT', 4.0248916149484115), ('FIGHT', 3.9736571523695288), ('DHUTI', 3.9389781878933134), ('MIDGY', 3.936276445110722), ('WITTY', 3.929110034024826)]
+GUESS: DITTY
+
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 3.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.502500340529183, 'expected_info_gain': 4.161702408889294}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIGHT with entropy: 0.6500
+Bot chose: BIGHT with entropy: 0.6500
+Top ten guesses: [('BIGHT', 0.6500224216483541), ('FIGHT', 0.6500224216483541), ('HIGHT', 0.6500224216483541), ('KIGHT', 0.6500224216483541), ('MIGHT', 0.6500224216483541), ('WIGHT', 0.6500224216483541)]
+GUESS: BIGHT
+
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIGHT with entropy: 0.7219
+Bot chose: FIGHT with entropy: 0.7219
+Top ten guesses: [('FIGHT', 0.7219280948873623), ('HIGHT', 0.7219280948873623), ('KIGHT', 0.7219280948873623), ('MIGHT', 0.7219280948873623), ('WIGHT', 0.7219280948873623)]
+GUESS: FIGHT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 3.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙂𝙃𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 664 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.626'), ('CULTY', '5.568'), ('CLINT', '5.536'), ('CUTIN', '5.478'), ('CLIPT', '5.399')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.6263
+Ended up choosing COMMON word: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.5355
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.2051 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 5.205114429904613, 'expected_info_gain': 5.535549212492506}
+----------
+The bot is making a guess...
+Evaluating 18 potential guesses from 18 remaining candidates...
+Top 5 guesses: [('DIGIT', '2.572'), ('DIXIT', '2.474'), ('FIXIT', '2.321'), ('DIGHT', '2.281'), ('PIPIT', '2.281')]
+Top entropy choice: 𝘿𝙄𝙂𝙄𝙏 with entropy: 2.5724
+Ended up choosing COMMON word: 𝘿𝙄𝙂𝙄𝙏 with entropy: 2.5724
+GUESS: DIGIT
+
+Guess: 𝘿𝙄𝙂𝙄𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 3.0, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 2.5724312513221195}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('BIGHT', '0.544'), ('FIGHT', '0.544'), ('HIGHT', '0.544'), ('KIGHT', '0.544'), ('MIGHT', '0.544')]
+Top entropy choice: 𝘽𝙄𝙂𝙃𝙏 with entropy: 0.5436
+Ended up choosing COMMON word: 𝘽𝙄𝙂𝙃𝙏 with entropy: 0.5436
+GUESS: BIGHT
+
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('FIGHT', '0.592'), ('HIGHT', '0.592'), ('KIGHT', '0.592'), ('MIGHT', '0.592'), ('PIGHT', '0.592')]
+Top entropy choice: 𝙁𝙄𝙂𝙃𝙏 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙁𝙄𝙂𝙃𝙏 with entropy: 0.5917
+GUESS: FIGHT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.205 bits, Posterior Entropy: 4.170, 
+Guess: 𝘿𝙄𝙂𝙄𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 2.572 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙄𝙂𝙃𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙂𝙃𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+664 candidate words remaining.
+Top 5 guesses: [('LINTY', '5.686'), ('CUNIT', '5.626'), ('MINTY', '5.599'), ('PUNTY', '5.583'), ('MILTY', '5.572')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+GUESS: LINTY
+
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 4.5171 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 4.5170584362193535, 'expected_info_gain': 5.685970316525066}
+----------
+The bot is making a guess...
+29 candidate words remaining.
+Top 5 guesses: [('THIGH', '3.137'), ('DIGHT', '3.120'), ('BUMPH', '3.082'), ('HUMPH', '3.082'), ('DOUGH', '3.051')]
+Top entropy choice: 𝙏𝙃𝙄𝙂𝙃 with entropy: 3.1367
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙄𝙂𝙃 with entropy: 3.1367
+GUESS: THIGH
+
+Guess: 𝙏𝙃𝙄𝙂𝙃, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 2.0506 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.0506260730699677, 'expected_info_gain': 3.1367345482002054}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('ABAMP', '1.664'), ('AMPED', '1.664'), ('BADAM', '1.664'), ('BAKED', '1.664'), ('BAWDS', '1.664')]
+Top entropy choice: 𝘼𝘽𝘼𝙈𝙋 with entropy: 1.6645
+Using common exploratory word: 𝘼𝙈𝙋𝙀𝘿 with entropy: 1.6645
+GUESS: AMPED
+
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 0.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 0.8073549220576042, 'expected_info_gain': 3.1367345482002054}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('BAWKS', '2.000'), ('WAKFS', '2.000'), ('ABACK', '1.500'), ('ABAFT', '1.500'), ('ABAKA', '1.500')]
+Top entropy choice: 𝘽𝘼𝙒𝙆𝙎 with entropy: 2.0000
+GUESS: BAWKS
+
+Guess: 𝘽𝘼𝙒𝙆𝙎, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('FIGHT', '0.000')]
+Top entropy choice: 𝙁𝙄𝙂𝙃𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙄𝙂𝙃𝙏 with entropy: 0.0000
+GUESS: FIGHT
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 4.517 bits, Posterior Entropy: 4.858, 
+Guess: 𝙏𝙃𝙄𝙂𝙃, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 4.858, Expected Info Gain: 3.137 bits, Actual Info Gain: 2.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 3.137 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝙒𝙆𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙄𝙂𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

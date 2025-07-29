@@ -1,0 +1,238 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: CREST 
+The top ten guesses and scores: [('CREST', 43), ('DREST', 43), ('PREST', 43), ('WREST', 42), ('TRESS', 41), ('TREST', 41), ('CRESS', 36), ('DRESS', 36), ('FRESH', 36), ('PRESS', 36)]
+The bot finally chose: CREST 
+GUESS: CREST
+Guess: 𝘾𝙍𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: FRESH 
+The top ten guesses and scores: [('FRESH', 13), ('DRESS', 12), ('PRESS', 12)]
+The bot finally chose: FRESH 
+GUESS: FRESH
+Guess: 𝙁𝙍𝙀𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: DRESS 
+The top ten guesses and scores: [('DRESS', 9), ('PRESS', 9)]
+The bot finally chose: DRESS 
+GUESS: DRESS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟨
+Guess: 𝘾𝙍𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙁𝙍𝙀𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEERS with entropy: 3.1624
+Bot chose: DEERS with entropy: 3.1624
+Top ten guesses: [('DEERS', 3.162353537271876), ('TEERS', 3.1570260019784433), ('BEERS', 3.019183078951837), ('MEERS', 2.941504750464063), ('DREES', 2.931177343870516), ('TREES', 2.906673309201051), ('FEERS', 2.8738777095326395), ('EYERS', 2.8014657947974095), ('EGERS', 2.7988936642915534), ('EWERS', 2.785515951218663)]
+GUESS: DEERS
+
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩
+Actual Info Gain: 4.3576 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 2.0, 'actual_info_gain': 4.357552004618084, 'expected_info_gain': 3.162353537271876}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DREGS with entropy: 0.8113
+Bot chose: DRESS with entropy: 0.8113
+Top ten guesses: [('DREGS', 0.8112781244591328), ('DREKS', 0.8112781244591328), ('DRESS', 0.8112781244591328), ('DREYS', 0.8112781244591328)]
+GUESS: DRESS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩, Prior Entropy: 6.358, Expected Info Gain: 3.162 bits, Actual Info Gain: 4.358 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEERS with entropy: 3.1624
+Bot chose: DEERS with entropy: 3.1624
+Top ten guesses: [('DEERS', 3.162353537271876), ('TEERS', 3.1570260019784433), ('BEERS', 3.019183078951837), ('MEERS', 2.941504750464063), ('DREES', 2.931177343870516), ('TREES', 2.906673309201051), ('FEERS', 2.8738777095326395), ('EYERS', 2.8014657947974095), ('EGERS', 2.7988936642915534), ('EWERS', 2.785515951218663)]
+GUESS: DEERS
+
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩
+Actual Info Gain: 4.3576 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 2.0, 'actual_info_gain': 4.357552004618084, 'expected_info_gain': 3.162353537271876}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DREGS with entropy: 0.8113
+Bot chose: DRESS with entropy: 0.8113
+Top ten guesses: [('DREGS', 0.8112781244591328), ('DREKS', 0.8112781244591328), ('DRESS', 0.8112781244591328), ('DREYS', 0.8112781244591328)]
+GUESS: DRESS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝘿𝙀𝙀𝙍𝙎, Feedback: 🟩⬜🟩🟨🟩, Prior Entropy: 6.358, Expected Info Gain: 3.162 bits, Actual Info Gain: 4.358 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 6.1307 bits
+Posterior entropy: 7.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.727920454563199, 'actual_info_gain': 6.130740530159578, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 411 potential guesses from 212 remaining candidates...
+Top 5 guesses: [('TERES', '4.112'), ('PERES', '4.057'), ('REEDS', '4.039'), ('DERES', '4.027'), ('REEMS', '3.989')]
+Top entropy choice: 𝙏𝙀𝙍𝙀𝙎 with entropy: 4.1125
+GUESS: TERES
+
+Guess: 𝙏𝙀𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 2.9206 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 7.727920454563199, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 2.920565532505595, 'expected_info_gain': 4.112484696251891}
+----------
+The bot is making a guess...
+Evaluating 28 potential guesses from 28 remaining candidates...
+Top 5 guesses: [('GREPS', '2.437'), ('CREPS', '2.419'), ('CREDS', '2.375'), ('DREGS', '2.321'), ('BREDS', '2.277')]
+Top entropy choice: 𝙂𝙍𝙀𝙋𝙎 with entropy: 2.4370
+GUESS: GREPS
+
+Guess: 𝙂𝙍𝙀𝙋𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1069 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.1069152039165115, 'expected_info_gain': 2.4369842491174394}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('BREDS', '2.104'), ('CREDS', '2.076'), ('BREWS', '1.892'), ('DRESS', '1.881'), ('DREYS', '1.881')]
+Top entropy choice: 𝘽𝙍𝙀𝘿𝙎 with entropy: 2.1039
+Ended up choosing COMMON word: 𝘿𝙍𝙀𝙎𝙎 with entropy: 1.8811
+GUESS: DRESS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.131 bits, Posterior Entropy: 7.728, 
+Guess: 𝙏𝙀𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.728, Expected Info Gain: 4.112 bits, Actual Info Gain: 2.921 bits, Posterior Entropy: 4.807, 
+Guess: 𝙂𝙍𝙀𝙋𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 2.437 bits, Actual Info Gain: 1.107 bits, Posterior Entropy: 3.700, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙍𝙀𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 6.1307 bits
+Posterior entropy: 7.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.727920454563199, 'actual_info_gain': 6.130740530159578, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+212 candidate words remaining.
+Top 5 guesses: [('PEENT', '4.156'), ('REMET', '4.123'), ('BERET', '4.113'), ('TERES', '4.112'), ('TEREK', '4.101')]
+Top entropy choice: 𝙋𝙀𝙀𝙉𝙏 with entropy: 4.1562
+Guess count low, choosing the word with highest entropy: 𝙋𝙀𝙀𝙉𝙏 with entropy: 4.1562
+GUESS: PEENT
+
+Guess: 𝙋𝙀𝙀𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 3.6405 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.727920454563199, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.6404576133128597, 'expected_info_gain': 4.1562410694140715}
+----------
+The bot is making a guess...
+17 candidate words remaining.
+Top 5 guesses: [('DICKY', '3.175'), ('MIDGY', '3.146'), ('DISCS', '3.102'), ('DINGY', '3.052'), ('GIDDY', '3.052')]
+Top entropy choice: 𝘿𝙄𝘾𝙆𝙔 with entropy: 3.1751
+Guess count low, choosing the word with highest entropy: 𝘿𝙄𝘾𝙆𝙔 with entropy: 3.1751
+GUESS: DICKY
+
+Guess: 𝘿𝙄𝘾𝙆𝙔, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.175123135113461}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('DREGS', '1.000'), ('DRESS', '1.000')]
+Top entropy choice: 𝘿𝙍𝙀𝙂𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙍𝙀𝙎𝙎 with entropy: 1.0000
+GUESS: DRESS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.131 bits, Posterior Entropy: 7.728, 
+Guess: 𝙋𝙀𝙀𝙉𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.640 bits, Posterior Entropy: 4.087, 
+Guess: 𝘿𝙄𝘾𝙆𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 3.175 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝘿𝙍𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

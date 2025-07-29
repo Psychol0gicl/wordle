@@ -1,0 +1,205 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝙐𝙇𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: BRUIT 
+The top ten guesses and scores: [('BRUIT', 240), ('FRUIT', 239), ('PRINT', 236), ('GRIPT', 234), ('TRIPY', 233), ('DRIPT', 229), ('TRICK', 229), ('BRUIN', 228), ('KRUBI', 226), ('TRILD', 225)]
+The bot finally chose: FRUIT 
+GUESS: FRUIT
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TRULY 
+The top ten guesses and scores: [('TRULY', 23), ('TRUCK', 22), ('TRULL', 22), ('TRUNK', 22), ('TRUMP', 21), ('TRUTH', 20)]
+The bot finally chose: TRULY 
+GUESS: TRULY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩🟩⬜🟨
+Guess: 𝙏𝙍𝙐𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 6.8486 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 2.0, 'actual_info_gain': 6.848622940429339, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRULL with entropy: 1.5000
+Bot chose: TRULY with entropy: 1.5000
+Top ten guesses: [('TRULL', 1.5), ('TRULY', 1.5), ('TRUNK', 0.8112781244591328), ('TRUTH', 0.8112781244591328)]
+GUESS: TRULY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 6.849 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙍𝙐𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 6.8486 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 2.0, 'actual_info_gain': 6.848622940429339, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRULL with entropy: 1.5000
+Bot chose: TRULY with entropy: 1.5000
+Top ten guesses: [('TRULL', 1.5), ('TRULY', 1.5), ('TRUNK', 0.8112781244591328), ('TRUTH', 0.8112781244591328)]
+GUESS: TRULY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 6.849 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙍𝙐𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 405 potential guesses from 208 remaining candidates...
+Top 5 guesses: [('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUILT', '4.856'), ('CURNY', '4.831'), ('TURFY', '4.808')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+Ended up choosing COMMON word: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+GUESS: DIRTY
+
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 7.700439718141092, 'expected_info_gain': 5.006260121401016}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TRULY', '0.000')]
+Top entropy choice: 𝙏𝙍𝙐𝙇𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙍𝙐𝙇𝙔 with entropy: 0.0000
+GUESS: TRULY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 7.700, Expected Info Gain: 5.006 bits, Actual Info Gain: 7.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+208 candidate words remaining.
+Top 5 guesses: [('TYING', '5.042'), ('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUNTY', '4.931'), ('CUNIT', '4.926')]
+Top entropy choice: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+Guess count low, choosing the word with highest entropy: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+GUESS: TYING
+
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 6.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 6.700439718141092, 'expected_info_gain': 5.04238338201697}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('TRULY', '1.000'), ('TURFY', '1.000')]
+Top entropy choice: 𝙏𝙍𝙐𝙇𝙔 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙏𝙍𝙐𝙇𝙔 with entropy: 1.0000
+GUESS: TRULY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 7.700, Expected Info Gain: 5.042 bits, Actual Info Gain: 6.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙍𝙐𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

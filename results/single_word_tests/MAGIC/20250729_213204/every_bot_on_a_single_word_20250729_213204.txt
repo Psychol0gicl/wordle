@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙂𝙄𝘾 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TACHI 
+The top ten guesses and scores: [('TACHI', 305), ('TAKHI', 305), ('THAIM', 300), ('PAHIT', 297), ('BAITH', 294), ('HABIT', 294), ('HAICK', 292), ('THAGI', 292), ('DIACT', 290), ('DICTA', 290)]
+The bot finally chose: HABIT 
+GUESS: HABIT
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GAMIC 
+The top ten guesses and scores: [('GAMIC', 48), ('MAFIC', 48), ('MAGIC', 48), ('MADID', 46), ('KAMIK', 43), ('MAFIA', 43), ('PAVID', 43), ('VAPID', 43), ('CAPIZ', 42), ('ZAMIA', 42)]
+The bot finally chose: MAGIC 
+GUESS: MAGIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙂𝙄𝘾 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.7170 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 5.7169908944049395, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MALIC with entropy: 3.4464
+Bot chose: MALIK with entropy: 3.2414
+Top ten guesses: [('MALIC', 3.446439344671015), ('MALIK', 3.2414460711655213), ('CALIF', 3.203701696057348), ('CALID', 3.1841837197791887), ('MAFIC', 3.0841837197791886), ('KALIF', 2.960964047443681), ('MAMIL', 2.9086949695628417), ('CALIX', 2.903701696057348), ('CAVIL', 2.833206219346495), ('MAGIC', 2.7414460711655217)]
+GUESS: MALIK
+
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.2414460711655213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAFIC with entropy: 1.5000
+Bot chose: MAGIC with entropy: 1.5000
+Top ten guesses: [('MAFIC', 1.5), ('MAGIC', 1.5), ('MADID', 0.8112781244591328), ('MAXIM', 0.8112781244591328)]
+GUESS: MAGIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.717 bits, Posterior Entropy: 4.322, 
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.241 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙂𝙄𝘾 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.7170 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 5.7169908944049395, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MALIC with entropy: 3.4464
+Bot chose: MALIK with entropy: 3.2414
+Top ten guesses: [('MALIC', 3.446439344671015), ('MALIK', 3.2414460711655213), ('CALIF', 3.203701696057348), ('CALID', 3.1841837197791887), ('MAFIC', 3.0841837197791886), ('KALIF', 2.960964047443681), ('MAMIL', 2.9086949695628417), ('CALIX', 2.903701696057348), ('CAVIL', 2.833206219346495), ('MAGIC', 2.7414460711655217)]
+GUESS: MALIK
+
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.2414460711655213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAFIC with entropy: 1.5000
+Bot chose: MAGIC with entropy: 1.5000
+Top ten guesses: [('MAFIC', 1.5), ('MAGIC', 1.5), ('MADID', 0.8112781244591328), ('MAXIM', 0.8112781244591328)]
+GUESS: MAGIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.717 bits, Posterior Entropy: 4.322, 
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.241 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙂𝙄𝘾 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 5.0415 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 5.041476635976159, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('TACHI', '3.511'), ('GATCH', '3.486'), ('YACHT', '3.444'), ('MATCH', '3.416'), ('GAUCY', '3.281')]
+Top entropy choice: 𝙏𝘼𝘾𝙃𝙄 with entropy: 3.5111
+Ended up choosing COMMON word: 𝙔𝘼𝘾𝙃𝙏 with entropy: 3.4444
+GUESS: YACHT
+
+Guess: 𝙔𝘼𝘾𝙃𝙏, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.3219280948873626, 'expected_info_gain': 3.4444138295776114}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('GAMIC', '1.585'), ('MAFIC', '1.585'), ('MAGIC', '1.585')]
+Top entropy choice: 𝙂𝘼𝙈𝙄𝘾 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙈𝘼𝙂𝙄𝘾 with entropy: 1.5850
+GUESS: MAGIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 5.041 bits, Posterior Entropy: 4.907, 
+Guess: 𝙔𝘼𝘾𝙃𝙏, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 3.444 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙂𝙄𝘾 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 5.3634 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 5.363404730863522, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+24 candidate words remaining.
+Top 5 guesses: [('MELCH', '3.804'), ('MILCH', '3.804'), ('MULCH', '3.804'), ('MALIC', '3.455'), ('MELIC', '3.455')]
+Top entropy choice: 𝙈𝙀𝙇𝘾𝙃 with entropy: 3.8035
+Guess count low, choosing the word with highest entropy: 𝙈𝙀𝙇𝘾𝙃 with entropy: 3.8035
+GUESS: MELCH
+
+Guess: 𝙈𝙀𝙇𝘾𝙃, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 3.8035088547976788}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('MAFIC', '1.000'), ('MAGIC', '1.000')]
+Top entropy choice: 𝙈𝘼𝙁𝙄𝘾 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙂𝙄𝘾 with entropy: 1.0000
+GUESS: MAGIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 5.363 bits, Posterior Entropy: 4.585, 
+Guess: 𝙈𝙀𝙇𝘾𝙃, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 4.585, Expected Info Gain: 3.804 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

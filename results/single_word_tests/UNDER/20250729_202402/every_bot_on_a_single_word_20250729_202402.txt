@@ -1,0 +1,258 @@
+Testing bot: WordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TIRED 
+The top ten guesses and scores: [('TIRED', 1257), ('UTERI', 1238), ('IDLER', 1237), ('RILED', 1237), ('DINER', 1233), ('LITER', 1228), ('RELIT', 1228), ('TILER', 1228), ('REDIP', 1226), ('RIPED', 1226)]
+The bot finally chose: TIRED 
+GUESS: TIRED
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟩🟨
+entropy_info: None
+----------
+The bot originally chose: NUDER 
+The top ten guesses and scores: [('NUDER', 52), ('UNDER', 52), ('DUPER', 50), ('RUDER', 49), ('UDDER', 49), ('CYDER', 47), ('ENDER', 47), ('CEDER', 46), ('DEFER', 45), ('EDGER', 45)]
+The bot finally chose: UNDER 
+GUESS: UNDER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.9398 bits
+Posterior entropy: 7.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.918863237274595, 'actual_info_gain': 5.939797747448182, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OILER with entropy: 3.1891
+Bot chose: RIDER with entropy: 3.1340
+Top ten guesses: [('OILER', 3.1890802579200517), ('TILER', 3.1348389727738053), ('RIDER', 3.134010241814959), ('LITER', 3.129684638335782), ('DIRER', 3.107525544284139), ('DOTER', 3.092264758668481), ('ORDER', 3.065183482925403), ('NITER', 3.053658944536511), ('TRIER', 3.0455448077354554), ('TENOR', 3.0429335141205303)]
+GUESS: RIDER
+
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 4.3339 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.918863237274595, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 4.3339007365534385, 'expected_info_gain': 3.134010241814959}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ENDER with entropy: 2.1258
+Bot chose: ENDER with entropy: 2.1258
+Top ten guesses: [('ENDER', 2.125814583693911), ('CEDER', 1.9591479170272446), ('CODER', 1.9591479170272446), ('ELDER', 1.780672129520887), ('ODDER', 1.780672129520887), ('OLDER', 1.780672129520887), ('NUDER', 1.584962500721156), ('UDDER', 1.584962500721156), ('UNDER', 1.584962500721156), ('HEDER', 1.4182958340544896)]
+GUESS: ENDER
+
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: UNDER with entropy: 0.0000
+Bot chose: UNDER with entropy: 0.0000
+Top ten guesses: [('UNDER', 0.0)]
+GUESS: UNDER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bitsPosterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 4.334 bitsPosterior Entropy: 3.585, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.9398 bits
+Posterior entropy: 7.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.918863237274595, 'actual_info_gain': 5.939797747448182, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OILER with entropy: 3.1891
+Bot chose: RIDER with entropy: 3.1340
+Top ten guesses: [('OILER', 3.1890802579200517), ('TILER', 3.1348389727738053), ('RIDER', 3.134010241814959), ('LITER', 3.129684638335782), ('DIRER', 3.107525544284139), ('DOTER', 3.092264758668481), ('ORDER', 3.065183482925403), ('NITER', 3.053658944536511), ('TRIER', 3.0455448077354554), ('TENOR', 3.0429335141205303)]
+GUESS: RIDER
+
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 4.3339 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.918863237274595, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 4.3339007365534385, 'expected_info_gain': 3.134010241814959}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ENDER with entropy: 2.1258
+Bot chose: ENDER with entropy: 2.1258
+Top ten guesses: [('ENDER', 2.125814583693911), ('CEDER', 1.9591479170272446), ('CODER', 1.9591479170272446), ('ELDER', 1.780672129520887), ('ODDER', 1.780672129520887), ('OLDER', 1.780672129520887), ('NUDER', 1.584962500721156), ('UDDER', 1.584962500721156), ('UNDER', 1.584962500721156), ('HEDER', 1.4182958340544896)]
+GUESS: ENDER
+
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: UNDER with entropy: 0.0000
+Bot chose: UNDER with entropy: 0.0000
+Top ten guesses: [('UNDER', 0.0)]
+GUESS: UNDER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bitsPosterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 4.334 bitsPosterior Entropy: 3.585, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 438 remaining candidates...
+Top 5 guesses: [('DIRER', '4.603'), ('DRIER', '4.596'), ('DETER', '4.554'), ('TRIED', '4.520'), ('EIDER', '4.437')]
+Top entropy choice: 𝘿𝙄𝙍𝙀𝙍 with entropy: 4.6032
+Ended up choosing COMMON word: 𝘿𝙍𝙄𝙀𝙍 with entropy: 4.5957
+GUESS: DRIER
+
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 5.6049 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.6048620581588615, 'expected_info_gain': 4.5957202266937065}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('ENDER', '2.725'), ('CEDER', '2.419'), ('NUDER', '2.281'), ('UNDER', '2.281'), ('EDGER', '2.197')]
+Top entropy choice: 𝙀𝙉𝘿𝙀𝙍 with entropy: 2.7255
+Ended up choosing COMMON word: 𝙀𝙉𝘿𝙀𝙍 with entropy: 2.7255
+GUESS: ENDER
+
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('UNDER', '0.000')]
+Top entropy choice: 𝙐𝙉𝘿𝙀𝙍 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙐𝙉𝘿𝙀𝙍 with entropy: 0.0000
+GUESS: UNDER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bitsPosterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 5.605 bitsPosterior Entropy: 3.170, 
+Guess: 𝙀𝙉𝘿𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙐𝙉𝘿𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+438 candidate words remaining.
+Top 5 guesses: [('PUTID', '4.628'), ('DENET', '4.615'), ('TINED', '4.610'), ('DIRER', '4.603'), ('TEEND', '4.601')]
+Top entropy choice: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+GUESS: PUTID
+
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 5.7748 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 3.0, 'actual_info_gain': 5.774787059601174, 'expected_info_gain': 4.628396401808578}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('BINER', '2.750'), ('BONER', '2.750'), ('DEBUD', '2.750'), ('DEBUG', '2.750'), ('GEBUR', '2.750')]
+Top entropy choice: 𝘽𝙄𝙉𝙀𝙍 with entropy: 2.7500
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝙉𝙀𝙍 with entropy: 2.7500
+GUESS: BINER
+
+Guess: 𝘽𝙄𝙉𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.75}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('UNDER', '0.000')]
+Top entropy choice: 𝙐𝙉𝘿𝙀𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙐𝙉𝘿𝙀𝙍 with entropy: 0.0000
+GUESS: UNDER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bitsPosterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 5.775 bitsPosterior Entropy: 3.000, 
+Guess: 𝘽𝙄𝙉𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bitsPosterior Entropy: 0.000, 
+Guess: 𝙐𝙉𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

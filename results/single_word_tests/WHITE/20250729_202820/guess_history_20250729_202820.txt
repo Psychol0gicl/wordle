@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙃𝙄𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙒𝙃𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙃𝙄𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bitsPosterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.254 bitsPosterior Entropy: 6.000, 
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 6.000, Expected Info Gain: 4.156 bits, Actual Info Gain: 4.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙒𝙃𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙄𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bitsPosterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.254 bitsPosterior Entropy: 6.000, 
+Guess: 𝘾𝙐𝙏𝙄𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 6.000, Expected Info Gain: 4.156 bits, Actual Info Gain: 4.415 bitsPosterior Entropy: 1.585, 
+Guess: 𝙒𝙃𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙄𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bitsPosterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 5.627 bitsPosterior Entropy: 2.807, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 0.000, 
+Guess: 𝙒𝙃𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙄𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bitsPosterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 5.627 bitsPosterior Entropy: 2.807, 
+Guess: 𝘾𝙃𝙊𝙏𝙏, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bitsPosterior Entropy: 0.000, 
+Guess: 𝙒𝙃𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

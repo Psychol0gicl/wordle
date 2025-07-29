@@ -1,0 +1,292 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CORSE 
+The top ten guesses and scores: [('CORSE', 37), ('DORSE', 37), ('GORSE', 37), ('HORSE', 37), ('MORSE', 37), ('ROUSE', 37), ('TORSE', 37), ('WORSE', 37), ('ZORSE', 37)]
+The bot finally chose: HORSE 
+GUESS: HORSE
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CORSE 
+The top ten guesses and scores: [('CORSE', 29), ('DORSE', 29), ('GORSE', 29), ('MORSE', 29), ('TORSE', 29), ('WORSE', 29), ('ZORSE', 29)]
+The bot finally chose: MORSE 
+GUESS: MORSE
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CORSE 
+The top ten guesses and scores: [('CORSE', 25), ('DORSE', 25), ('GORSE', 25), ('TORSE', 25), ('WORSE', 25), ('ZORSE', 25)]
+The bot finally chose: WORSE 
+GUESS: WORSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟩🟩
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙒𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 4.9475 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.9475325801058645, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.5917
+Bot chose: HORSE with entropy: 0.5917
+Top ten guesses: [('CORSE', 0.5916727785823275), ('DORSE', 0.5916727785823275), ('GORSE', 0.5916727785823275), ('HORSE', 0.5916727785823275), ('MORSE', 0.5916727785823275), ('WORSE', 0.5916727785823275), ('ZORSE', 0.5916727785823275)]
+GUESS: HORSE
+
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.6500
+Bot chose: MORSE with entropy: 0.6500
+Top ten guesses: [('CORSE', 0.6500224216483541), ('DORSE', 0.6500224216483541), ('GORSE', 0.6500224216483541), ('MORSE', 0.6500224216483541), ('WORSE', 0.6500224216483541), ('ZORSE', 0.6500224216483541)]
+GUESS: MORSE
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.7219
+Bot chose: WORSE with entropy: 0.7219
+Top ten guesses: [('CORSE', 0.7219280948873623), ('DORSE', 0.7219280948873623), ('GORSE', 0.7219280948873623), ('WORSE', 0.7219280948873623), ('ZORSE', 0.7219280948873623)]
+GUESS: WORSE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.948 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 4.9475 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.9475325801058645, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.5917
+Bot chose: HORSE with entropy: 0.5917
+Top ten guesses: [('CORSE', 0.5916727785823275), ('DORSE', 0.5916727785823275), ('GORSE', 0.5916727785823275), ('HORSE', 0.5916727785823275), ('MORSE', 0.5916727785823275), ('WORSE', 0.5916727785823275), ('ZORSE', 0.5916727785823275)]
+GUESS: HORSE
+
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.6500
+Bot chose: MORSE with entropy: 0.6500
+Top ten guesses: [('CORSE', 0.6500224216483541), ('DORSE', 0.6500224216483541), ('GORSE', 0.6500224216483541), ('MORSE', 0.6500224216483541), ('WORSE', 0.6500224216483541), ('ZORSE', 0.6500224216483541)]
+GUESS: MORSE
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CORSE with entropy: 0.7219
+Bot chose: WORSE with entropy: 0.7219
+Top ten guesses: [('CORSE', 0.7219280948873623), ('DORSE', 0.7219280948873623), ('GORSE', 0.7219280948873623), ('WORSE', 0.7219280948873623), ('ZORSE', 0.7219280948873623)]
+GUESS: WORSE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.948 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('CORSE', '1.157'), ('DORSE', '1.157'), ('GORSE', '1.157'), ('HORSE', '1.157'), ('MORSE', '1.157')]
+Top entropy choice: 𝘾𝙊𝙍𝙎𝙀 with entropy: 1.1568
+Ended up choosing COMMON word: 𝙃𝙊𝙍𝙎𝙀 with entropy: 1.1568
+GUESS: HORSE
+
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.514573172829758, 'expected_info_gain': 1.1567796494470395}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('CORSE', '0.592'), ('DORSE', '0.592'), ('GORSE', '0.592'), ('MORSE', '0.592'), ('TORSE', '0.592')]
+Top entropy choice: 𝘾𝙊𝙍𝙎𝙀 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙈𝙊𝙍𝙎𝙀 with entropy: 0.5917
+GUESS: MORSE
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('CORSE', '0.650'), ('DORSE', '0.650'), ('GORSE', '0.650'), ('TORSE', '0.650'), ('WORSE', '0.650')]
+Top entropy choice: 𝘾𝙊𝙍𝙎𝙀 with entropy: 0.6500
+Ended up choosing COMMON word: 𝙒𝙊𝙍𝙎𝙀 with entropy: 0.6500
+GUESS: WORSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 1.157 bits, Actual Info Gain: 0.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+10 candidate words remaining.
+Top 5 guesses: [('CHOUT', '2.161'), ('DUTCH', '2.161'), ('MURGH', '2.161'), ('MURTH', '2.161'), ('MUTCH', '2.161')]
+Top entropy choice: 𝘾𝙃𝙊𝙐𝙏 with entropy: 2.1610
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙊𝙐𝙏 with entropy: 2.1610
+GUESS: CHOUT
+
+Guess: 𝘾𝙃𝙊𝙐𝙏, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.0, 'expected_info_gain': 2.1609640474436813}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('DAWGS', '1.922'), ('DEGUM', '1.922'), ('DOGMA', '1.922'), ('DWALM', '1.922'), ('DWAMS', '1.922')]
+Top entropy choice: 𝘿𝘼𝙒𝙂𝙎 with entropy: 1.9219
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙒𝙂𝙎 with entropy: 1.9219
+GUESS: DAWGS
+
+Guess: 𝘿𝘼𝙒𝙂𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('WORSE', '0.000')]
+Top entropy choice: 𝙒𝙊𝙍𝙎𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙒𝙊𝙍𝙎𝙀 with entropy: 0.0000
+GUESS: WORSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙃𝙊𝙐𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.161 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝘼𝙒𝙂𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

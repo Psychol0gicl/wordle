@@ -1,0 +1,305 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙍𝙊𝙑𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: PRONE 
+The top ten guesses and scores: [('PRONE', 115), ('DRONE', 114), ('PROKE', 114), ('TROPE', 114), ('DROKE', 113), ('KRONE', 113), ('TRODE', 113), ('TRONE', 113), ('PROVE', 112), ('TROKE', 112)]
+The bot finally chose: PRONE 
+GUESS: PRONE
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: PROBE 
+The top ten guesses and scores: [('PROBE', 22), ('PROKE', 22), ('PROLE', 22), ('PROVE', 22), ('PRORE', 21)]
+The bot finally chose: PROBE 
+GUESS: PROBE
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: PROKE 
+The top ten guesses and scores: [('PROKE', 18), ('PROLE', 18), ('PROVE', 18), ('PRORE', 17)]
+The bot finally chose: PROVE 
+GUESS: PROVE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙊𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POIRE with entropy: 4.2438
+Bot chose: PRIDE with entropy: 4.0064
+Top ten guesses: [('POIRE', 4.243803204731638), ('PRORE', 4.062509145272969), ('PORED', 4.052619957220817), ('PRIDE', 4.006364922495631), ('PRIED', 3.999938203469002), ('PORTE', 3.99926818061033), ('PUREE', 3.987487267106843), ('PEDRO', 3.9458841494149492), ('PRONE', 3.9036253225184745), ('PORGE', 3.8981785257629893)]
+GUESS: PRIDE
+
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 3.4021 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.402098443571346, 'expected_info_gain': 4.006364922495631}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROBE with entropy: 1.1488
+Bot chose: PROBE with entropy: 1.1488
+Top ten guesses: [('PROBE', 1.1488348542809166), ('PROKE', 1.1488348542809166), ('PROLE', 1.1488348542809166), ('PRONE', 1.1488348542809166), ('PRORE', 1.1488348542809166), ('PROVE', 1.1488348542809166), ('PRUNE', 1.1488348542809166)]
+GUESS: PROBE
+
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROKE with entropy: 0.7219
+Bot chose: PRONE with entropy: 0.7219
+Top ten guesses: [('PROKE', 0.7219280948873623), ('PROLE', 0.7219280948873623), ('PRONE', 0.7219280948873623), ('PRORE', 0.7219280948873623), ('PROVE', 0.7219280948873623)]
+GUESS: PRONE
+
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROKE with entropy: 0.8113
+Bot chose: PROVE with entropy: 0.8113
+Top ten guesses: [('PROKE', 0.8112781244591328), ('PROLE', 0.8112781244591328), ('PRORE', 0.8112781244591328), ('PROVE', 0.8112781244591328)]
+GUESS: PROVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 4.006 bits, Actual Info Gain: 3.402 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙍𝙊𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POIRE with entropy: 4.2438
+Bot chose: PRIDE with entropy: 4.0064
+Top ten guesses: [('POIRE', 4.243803204731638), ('PRORE', 4.062509145272969), ('PORED', 4.052619957220817), ('PRIDE', 4.006364922495631), ('PRIED', 3.999938203469002), ('PORTE', 3.99926818061033), ('PUREE', 3.987487267106843), ('PEDRO', 3.9458841494149492), ('PRONE', 3.9036253225184745), ('PORGE', 3.8981785257629893)]
+GUESS: PRIDE
+
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 3.4021 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.402098443571346, 'expected_info_gain': 4.006364922495631}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROBE with entropy: 1.1488
+Bot chose: PROBE with entropy: 1.1488
+Top ten guesses: [('PROBE', 1.1488348542809166), ('PROKE', 1.1488348542809166), ('PROLE', 1.1488348542809166), ('PRONE', 1.1488348542809166), ('PRORE', 1.1488348542809166), ('PROVE', 1.1488348542809166), ('PRUNE', 1.1488348542809166)]
+GUESS: PROBE
+
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROKE with entropy: 0.7219
+Bot chose: PRONE with entropy: 0.7219
+Top ten guesses: [('PROKE', 0.7219280948873623), ('PROLE', 0.7219280948873623), ('PRONE', 0.7219280948873623), ('PRORE', 0.7219280948873623), ('PROVE', 0.7219280948873623)]
+GUESS: PRONE
+
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROKE with entropy: 0.8113
+Bot chose: PROVE with entropy: 0.8113
+Top ten guesses: [('PROKE', 0.8112781244591328), ('PROLE', 0.8112781244591328), ('PRORE', 0.8112781244591328), ('PROVE', 0.8112781244591328)]
+GUESS: PROVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 4.006 bits, Actual Info Gain: 3.402 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙍𝙊𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙍𝙊𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 38 potential guesses from 38 remaining candidates...
+Top 5 guesses: [('TRODE', '2.745'), ('DRONE', '2.715'), ('TROPE', '2.673'), ('PRONE', '2.662'), ('DROKE', '2.643')]
+Top entropy choice: 𝙏𝙍𝙊𝘿𝙀 with entropy: 2.7454
+Ended up choosing COMMON word: 𝘿𝙍𝙊𝙉𝙀 with entropy: 2.7146
+GUESS: DRONE
+
+Guess: 𝘿𝙍𝙊𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2479 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 4.0, 'actual_info_gain': 1.2479275134435852, 'expected_info_gain': 2.714646921167522}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('TROPE', '2.147'), ('PROKE', '2.052'), ('PROBE', '1.953'), ('PROVE', '1.953'), ('TROKE', '1.795')]
+Top entropy choice: 𝙏𝙍𝙊𝙋𝙀 with entropy: 2.1468
+Ended up choosing COMMON word: 𝙏𝙍𝙊𝙋𝙀 with entropy: 2.1468
+GUESS: TROPE
+
+Guess: 𝙏𝙍𝙊𝙋𝙀, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.146782221599798}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('PROBE', '0.811'), ('PROKE', '0.811'), ('PROLE', '0.811'), ('PROVE', '0.811')]
+Top entropy choice: 𝙋𝙍𝙊𝘽𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙋𝙍𝙊𝘽𝙀 with entropy: 0.8113
+GUESS: PROBE
+
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('PROKE', '0.918'), ('PROLE', '0.918'), ('PROVE', '0.918')]
+Top entropy choice: 𝙋𝙍𝙊𝙆𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙋𝙍𝙊𝙑𝙀 with entropy: 0.9183
+GUESS: PROVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝘿𝙍𝙊𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 2.715 bits, Actual Info Gain: 1.248 bits, Posterior Entropy: 4.000, 
+Guess: 𝙏𝙍𝙊𝙋𝙀, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 4.000, Expected Info Gain: 2.147 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙊𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙊𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+38 candidate words remaining.
+Top 5 guesses: [('PRINK', '3.278'), ('DRINK', '3.278'), ('DROPT', '3.267'), ('PRINT', '3.245'), ('PRUNT', '3.203')]
+Top entropy choice: 𝙋𝙍𝙄𝙉𝙆 with entropy: 3.2779
+Guess count low, choosing the word with highest entropy: 𝙋𝙍𝙄𝙉𝙆 with entropy: 3.2779
+GUESS: PRINK
+
+Guess: 𝙋𝙍𝙄𝙉𝙆, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 3.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.662965012722429, 'expected_info_gain': 3.2779116229699623}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('PROBE', '0.918'), ('PROLE', '0.918'), ('PROVE', '0.918')]
+Top entropy choice: 𝙋𝙍𝙊𝘽𝙀 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙋𝙍𝙊𝘽𝙀 with entropy: 0.9183
+GUESS: PROBE
+
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('PROLE', '1.000'), ('PROVE', '1.000')]
+Top entropy choice: 𝙋𝙍𝙊𝙇𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙍𝙊𝙑𝙀 with entropy: 1.0000
+GUESS: PROVE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙋𝙍𝙄𝙉𝙆, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 5.248, Expected Info Gain: 3.278 bits, Actual Info Gain: 3.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙊𝘽𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙊𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

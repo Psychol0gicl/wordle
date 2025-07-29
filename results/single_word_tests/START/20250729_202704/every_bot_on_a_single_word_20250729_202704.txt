@@ -1,0 +1,240 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝘼𝙍𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: RAITS 
+The top ten guesses and scores: [('RAITS', 972), ('SITAR', 972), ('STAIR', 972), ('STRIA', 972), ('TIARS', 972), ('RANTS', 965), ('STARN', 965), ('TARNS', 965), ('KARTS', 963), ('SKART', 963)]
+The bot finally chose: STAIR 
+GUESS: STAIR
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟩🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: STARK 
+The top ten guesses and scores: [('STARK', 23), ('STARN', 23), ('STARY', 23), ('STARS', 22), ('START', 22)]
+The bot finally chose: STARK 
+GUESS: STARK
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: STARN 
+The top ten guesses and scores: [('STARN', 19), ('STARY', 19), ('STARS', 18), ('START', 18)]
+The bot finally chose: START 
+GUESS: START
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟩🟩🟩⬜🟨
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙏𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 8.2148 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 8.214804794948051, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARN with entropy: 3.0927
+Bot chose: STARK with entropy: 3.0550
+Top ten guesses: [('STARN', 3.092696642244504), ('STARS', 3.077085562805448), ('STARK', 3.0550175018502426), ('SKART', 3.0019170612091703), ('STARY', 2.904178202940093), ('STRIA', 2.890099379593678), ('SCART', 2.818398916280517), ('SHART', 2.818398916280517), ('SNARS', 2.7987008250862697), ('SKARN', 2.73914670451252)]
+GUESS: STARK
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 2.0, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.0550175018502426}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARN with entropy: 0.8113
+Bot chose: START with entropy: 0.8113
+Top ten guesses: [('STARN', 0.8112781244591328), ('STARS', 0.8112781244591328), ('START', 0.8112781244591328), ('STARY', 0.8112781244591328)]
+GUESS: START
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.215 bitsPosterior Entropy: 5.644, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.644, Expected Info Gain: 3.055 bits, Actual Info Gain: 3.644 bitsPosterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 8.2148 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 8.214804794948051, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARN with entropy: 3.0927
+Bot chose: STARK with entropy: 3.0550
+Top ten guesses: [('STARN', 3.092696642244504), ('STARS', 3.077085562805448), ('STARK', 3.0550175018502426), ('SKART', 3.0019170612091703), ('STARY', 2.904178202940093), ('STRIA', 2.890099379593678), ('SCART', 2.818398916280517), ('SHART', 2.818398916280517), ('SNARS', 2.7987008250862697), ('SKARN', 2.73914670451252)]
+GUESS: STARK
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 2.0, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.0550175018502426}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARN with entropy: 0.8113
+Bot chose: START with entropy: 0.8113
+Top ten guesses: [('STARN', 0.8112781244591328), ('STARS', 0.8112781244591328), ('START', 0.8112781244591328), ('STARY', 0.8112781244591328)]
+GUESS: START
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.215 bitsPosterior Entropy: 5.644, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.644, Expected Info Gain: 3.055 bits, Actual Info Gain: 3.644 bitsPosterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('STARN', '2.200'), ('STARK', '2.106'), ('SKART', '2.091'), ('SPART', '2.087'), ('SCART', '1.889')]
+Top entropy choice: 𝙎𝙏𝘼𝙍𝙉 with entropy: 2.2000
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙍𝙆 with entropy: 2.1063
+GUESS: STARK
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.765534746362977, 'expected_info_gain': 2.106251921186134}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('STARN', '0.722'), ('STARR', '0.722'), ('STARS', '0.722'), ('START', '0.722'), ('STARY', '0.722')]
+Top entropy choice: 𝙎𝙏𝘼𝙍𝙉 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙍𝙍 with entropy: 0.7219
+GUESS: STARR
+
+Guess: 𝙎𝙏𝘼𝙍𝙍, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('STARN', '0.811'), ('STARS', '0.811'), ('START', '0.811'), ('STARY', '0.811')]
+Top entropy choice: 𝙎𝙏𝘼𝙍𝙉 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙍𝙏 with entropy: 0.8113
+GUESS: START
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bitsPosterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 2.106 bits, Actual Info Gain: 2.766 bitsPosterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙍𝙍, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bitsPosterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+34 candidate words remaining.
+Top 5 guesses: [('KNELT', '3.027'), ('CHAPT', '3.008'), ('CHANT', '2.987'), ('NICHT', '2.987'), ('THANK', '2.977')]
+Top entropy choice: 𝙆𝙉𝙀𝙇𝙏 with entropy: 3.0275
+Guess count low, choosing the word with highest entropy: 𝙆𝙉𝙀𝙇𝙏 with entropy: 3.0275
+GUESS: KNELT
+
+Guess: 𝙆𝙉𝙀𝙇𝙏, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.027489311329523}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('CHAMP', '2.252'), ('CHIMP', '2.252'), ('CHOMP', '2.252'), ('CHUMP', '2.252'), ('WHOMP', '2.252')]
+Top entropy choice: 𝘾𝙃𝘼𝙈𝙋 with entropy: 2.2516
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝘼𝙈𝙋 with entropy: 2.2516
+GUESS: CHAMP
+
+Guess: 𝘾𝙃𝘼𝙈𝙋, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('START', '1.000'), ('SWART', '1.000')]
+Top entropy choice: 𝙎𝙏𝘼𝙍𝙏 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝘼𝙍𝙏 with entropy: 1.0000
+GUESS: START
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bitsPosterior Entropy: 5.087, 
+Guess: 𝙆𝙉𝙀𝙇𝙏, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.503 bitsPosterior Entropy: 2.585, 
+Guess: 𝘾𝙃𝘼𝙈𝙋, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

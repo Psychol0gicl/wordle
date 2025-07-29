@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙄𝙎𝙄𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SLUIT 
+The top ten guesses and scores: [('SLUIT', 2174), ('SUINT', 2121), ('UNITS', 2121), ('MUILS', 2094), ('SIMUL', 2094), ('PILUS', 2087), ('PULIS', 2087), ('KUSTI', 2085), ('KUTIS', 2085), ('HILUS', 2077)]
+The bot finally chose: SLUIT 
+GUESS: SLUIT
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟨⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: VISIT 
+The top ten guesses and scores: [('VISIT', 5)]
+The bot finally chose: VISIT 
+GUESS: VISIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟨⬜⬜🟩🟩
+Guess: 𝙑𝙄𝙎𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙄𝙎𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.9088 bits
+Posterior entropy: 9.94982671075911
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.94982671075911, 'actual_info_gain': 3.9088342739636666, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOILS with entropy: 5.1338
+Bot chose: LOTUS with entropy: 5.0295
+Top ten guesses: [('TOILS', 5.133816047903427), ('TOLUS', 5.11098647937818), ('LIONS', 5.091794620463315), ('LOUTS', 5.0644543219712235), ('TONUS', 5.052578281348073), ('LINOS', 5.05130132261248), ('NOILS', 5.045820129446514), ('LOINS', 5.034133815456458), ('LOTUS', 5.029450140213361), ('MILOS', 5.015972106029607)]
+GUESS: LOTUS
+
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 6.6279 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.94982671075911, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 6.627898615871748, 'expected_info_gain': 5.029450140213361}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIDST with entropy: 2.9219
+Bot chose: MIDST with entropy: 2.9219
+Top ten guesses: [('MIDST', 2.9219280948873623), ('MISTY', 2.9219280948873623), ('WISHT', 2.9219280948873623), ('DIDST', 2.7219280948873625), ('FISTY', 2.7219280948873625), ('VISIT', 2.721928094887362), ('TWIST', 2.6464393446710153), ('WHIST', 2.6464393446710153), ('KYDST', 2.5219280948873624), ('XYSTI', 2.121928094887362)]
+GUESS: MIDST
+
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VISIT with entropy: 1.0000
+Bot chose: VISIT with entropy: 1.0000
+Top ten guesses: [('VISIT', 1.0), ('WISHT', 1.0)]
+GUESS: VISIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.628 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝙄𝙎𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙎𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.9088 bits
+Posterior entropy: 9.94982671075911
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.94982671075911, 'actual_info_gain': 3.9088342739636666, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOILS with entropy: 5.1338
+Bot chose: LOTUS with entropy: 5.0295
+Top ten guesses: [('TOILS', 5.133816047903427), ('TOLUS', 5.11098647937818), ('LIONS', 5.091794620463315), ('LOUTS', 5.0644543219712235), ('TONUS', 5.052578281348073), ('LINOS', 5.05130132261248), ('NOILS', 5.045820129446514), ('LOINS', 5.034133815456458), ('LOTUS', 5.029450140213361), ('MILOS', 5.015972106029607)]
+GUESS: LOTUS
+
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 6.6279 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.94982671075911, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 6.627898615871748, 'expected_info_gain': 5.029450140213361}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIDST with entropy: 2.9219
+Bot chose: MIDST with entropy: 2.9219
+Top ten guesses: [('MIDST', 2.9219280948873623), ('MISTY', 2.9219280948873623), ('WISHT', 2.9219280948873623), ('DIDST', 2.7219280948873625), ('FISTY', 2.7219280948873625), ('VISIT', 2.721928094887362), ('TWIST', 2.6464393446710153), ('WHIST', 2.6464393446710153), ('KYDST', 2.5219280948873624), ('XYSTI', 2.121928094887362)]
+GUESS: MIDST
+
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VISIT with entropy: 1.0000
+Bot chose: VISIT with entropy: 1.0000
+Top ten guesses: [('VISIT', 1.0), ('WISHT', 1.0)]
+GUESS: VISIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.628 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝙄𝙎𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙎𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 4.7423 bits
+Posterior entropy: 9.116343961237469
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.116343961237469, 'actual_info_gain': 4.742317023485308, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 500 potential guesses from 555 remaining candidates...
+Top 5 guesses: [('LINTS', '5.049'), ('KILTS', '5.025'), ('HILTS', '4.920'), ('GILTS', '4.873'), ('HINTS', '4.857')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙎 with entropy: 5.0493
+GUESS: LINTS
+
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 5.9464 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 9.116343961237469, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.946418959795157, 'expected_info_gain': 5.049279713884529}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('DITSY', '2.948'), ('PITSU', '2.503'), ('BITSY', '2.419'), ('DIDST', '2.419'), ('MIDST', '2.419')]
+Top entropy choice: 𝘿𝙄𝙏𝙎𝙔 with entropy: 2.9477
+Ended up choosing COMMON word: 𝙈𝙄𝘿𝙎𝙏 with entropy: 2.4194
+GUESS: MIDST
+
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.4193819456463714}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('VISIT', '1.000'), ('WISHT', '1.000')]
+Top entropy choice: 𝙑𝙄𝙎𝙄𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙑𝙄𝙎𝙄𝙏 with entropy: 1.0000
+GUESS: VISIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 9.116, Expected Info Gain: 5.049 bits, Actual Info Gain: 5.946 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝙄𝘿𝙎𝙏, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝙄𝙎𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙎𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 4.7423 bits
+Posterior entropy: 9.116343961237469
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.116343961237469, 'actual_info_gain': 4.742317023485308, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+555 candidate words remaining.
+Top 5 guesses: [('MILTS', '5.090'), ('MILTY', '5.080'), ('LINTS', '5.049'), ('KILTY', '5.030'), ('KILTS', '5.025')]
+Top entropy choice: 𝙈𝙄𝙇𝙏𝙎 with entropy: 5.0896
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙇𝙏𝙎 with entropy: 5.0896
+GUESS: MILTS
+
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 6.1163 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 9.116343961237469, 'posterior_entropy': 3.0, 'actual_info_gain': 6.116343961237469, 'expected_info_gain': 5.089615096338242}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('PUTID', '3.000'), ('AUDIT', '2.750'), ('BLUDY', '2.750'), ('BUNDT', '2.750'), ('DAUBY', '2.750')]
+Top entropy choice: 𝙋𝙐𝙏𝙄𝘿 with entropy: 3.0000
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙏𝙄𝘿 with entropy: 3.0000
+GUESS: PUTID
+
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('VISIT', '0.000')]
+Top entropy choice: 𝙑𝙄𝙎𝙄𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙑𝙄𝙎𝙄𝙏 with entropy: 0.0000
+GUESS: VISIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 9.116, Expected Info Gain: 5.090 bits, Actual Info Gain: 6.116 bits, Posterior Entropy: 3.000, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙄𝙎𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

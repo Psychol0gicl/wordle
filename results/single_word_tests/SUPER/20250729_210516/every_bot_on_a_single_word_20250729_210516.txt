@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙐𝙋𝙀𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SIEUR 
+The top ten guesses and scores: [('SIEUR', 933), ('EPRIS', 932), ('PERIS', 932), ('PIERS', 932), ('RIPES', 932), ('SPEIR', 932), ('SPIER', 932), ('RESIT', 928), ('RITES', 928), ('TIERS', 928)]
+The bot finally chose: SIEUR 
+GUESS: SIEUR
+Guess: 𝙎𝙄𝙀𝙐𝙍, Feedback: 🟩⬜🟨🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SPUER 
+The top ten guesses and scores: [('SPUER', 19), ('SUPER', 19), ('SUBER', 18), ('SURER', 17)]
+The bot finally chose: SUPER 
+GUESS: SUPER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙎𝙄𝙀𝙐𝙍, Feedback: 🟩⬜🟨🟨🟩
+Guess: 𝙎𝙐𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙐𝙋𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUPER with entropy: 0.0000
+Bot chose: SUPER with entropy: 0.0000
+Top ten guesses: [('SUPER', 0.0)]
+GUESS: SUPER
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙋𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUPER with entropy: 0.0000
+Bot chose: SUPER with entropy: 0.0000
+Top ten guesses: [('SUPER', 0.0)]
+GUESS: SUPER
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙋𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 159 potential guesses from 59 remaining candidates...
+Top 5 guesses: [('THEIR', '3.357'), ('SPEIR', '3.275'), ('SPEER', '3.207'), ('SIEUR', '3.201'), ('NEVER', '3.155')]
+Top entropy choice: 𝙏𝙃𝙀𝙄𝙍 with entropy: 3.3571
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙄𝙍 with entropy: 3.3571
+GUESS: THEIR
+
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 2.0753 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 2.0752881273042374, 'expected_info_gain': 3.357126825538768}
+----------
+The bot is making a guess...
+Evaluating 14 potential guesses from 14 remaining candidates...
+Top 5 guesses: [('SURER', '1.627'), ('SYVER', '1.627'), ('SERER', '1.574'), ('SEVER', '1.574'), ('SKYER', '1.435')]
+Top entropy choice: 𝙎𝙐𝙍𝙀𝙍 with entropy: 1.6267
+Ended up choosing COMMON word: 𝙎𝙀𝙑𝙀𝙍 with entropy: 1.5744
+GUESS: SEVER
+
+Guess: 𝙎𝙀𝙑𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5744174271404583}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SPUER', '1.842'), ('SUBER', '1.842'), ('SUPER', '1.842'), ('SURER', '1.842'), ('SKYER', '1.664')]
+Top entropy choice: 𝙎𝙋𝙐𝙀𝙍 with entropy: 1.8424
+Ended up choosing COMMON word: 𝙎𝙐𝙋𝙀𝙍 with entropy: 1.8424
+GUESS: SUPER
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 5.883, Expected Info Gain: 3.357 bits, Actual Info Gain: 2.075 bits, Posterior Entropy: 3.807, 
+Guess: 𝙎𝙀𝙑𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.574 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙐𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙋𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+59 candidate words remaining.
+Top 5 guesses: [('WIPER', '3.546'), ('PERIL', '3.535'), ('LURID', '3.527'), ('PURIN', '3.521'), ('PIKER', '3.520')]
+Top entropy choice: 𝙒𝙄𝙋𝙀𝙍 with entropy: 3.5462
+Guess count low, choosing the word with highest entropy: 𝙒𝙄𝙋𝙀𝙍 with entropy: 3.5462
+GUESS: WIPER
+
+Guess: 𝙒𝙄𝙋𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 5.8826 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 0.0, 'actual_info_gain': 5.882643049361842, 'expected_info_gain': 3.5461576672358603}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SUPER', '0.000')]
+Top entropy choice: 𝙎𝙐𝙋𝙀𝙍 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙐𝙋𝙀𝙍 with entropy: 0.0000
+GUESS: SUPER
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙒𝙄𝙋𝙀𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.883, Expected Info Gain: 3.546 bits, Actual Info Gain: 5.883 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙋𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙍𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙂𝘼𝙍𝙏𝙃, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙈𝘼𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.760 bits, Posterior Entropy: 6.150, 
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 4.084 bits, Actual Info Gain: 4.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.760 bits, Posterior Entropy: 6.150, 
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 4.084 bits, Actual Info Gain: 4.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 6.340 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙍𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 6.340 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘾𝙊𝙇𝘿, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

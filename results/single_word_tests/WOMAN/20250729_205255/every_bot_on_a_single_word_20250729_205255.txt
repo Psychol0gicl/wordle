@@ -1,0 +1,302 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙊𝙈𝘼𝙉 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOTAL 
+The top ten guesses and scores: [('NOTAL', 965), ('ONTAL', 965), ('TALON', 965), ('TOLAN', 965), ('TONAL', 965), ('MONAL', 952), ('CANTO', 948), ('COTAN', 948), ('NOPAL', 948), ('OCTAN', 948)]
+The bot finally chose: TALON 
+GUESS: TALON
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: GOWAN 
+The top ten guesses and scores: [('GOWAN', 57), ('BOGAN', 56), ('GOBAN', 56), ('HOGAN', 55), ('COWAN', 54), ('DOGAN', 54), ('POWAN', 54), ('WOMAN', 54), ('KOBAN', 53), ('POCAN', 52)]
+The bot finally chose: HOGAN 
+GUESS: HOGAN
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: COWAN 
+The top ten guesses and scores: [('COWAN', 31), ('POWAN', 31), ('POCAN', 30), ('WOMAN', 30), ('YOKAN', 30), ('KOBAN', 29), ('YOJAN', 29), ('NONAN', 26)]
+The bot finally chose: COWAN 
+GUESS: COWAN
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: WOMAN 
+The top ten guesses and scores: [('WOMAN', 5)]
+The bot finally chose: WOMAN 
+GUESS: WOMAN
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙊𝙈𝘼𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 5.5503 bits
+Posterior entropy: 8.308339030139408
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.308339030139408, 'actual_info_gain': 5.550321954583369, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NATAL with entropy: 4.7661
+Bot chose: NATAL with entropy: 4.7661
+Top ten guesses: [('NATAL', 4.766054300008832), ('MONAL', 4.6120385412574), ('KANAL', 4.5927321591350685), ('TOLAN', 4.577728731087523), ('NAHAL', 4.572590379842412), ('LANAI', 4.56983972212802), ('TONAL', 4.546537223570042), ('CANAL', 4.54304376082527), ('TAMAL', 4.530812988606957), ('NOTAL', 4.522538773401153)]
+GUESS: NATAL
+
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.2209 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.308339030139408, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.2208761888890685, 'expected_info_gain': 4.766054300008832}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOGAN with entropy: 3.7101
+Bot chose: HOGAN with entropy: 3.7101
+Top ten guesses: [('HOGAN', 3.710141622917679), ('DOGAN', 3.6901165175936645), ('INGAN', 3.58271991599357), ('BOGAN', 3.569061285207977), ('GOBAN', 3.569061285207977), ('GONAD', 3.551026636617177), ('MONAD', 3.546098960174848), ('GOWAN', 3.5353775490983694), ('DUNAM', 3.4898625379709074), ('WIGAN', 3.4506544749443613)]
+GUESS: HOGAN
+
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.765534746362977, 'expected_info_gain': 3.710141622917679}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: YOKAN with entropy: 1.9219
+Bot chose: COWAN with entropy: 1.3710
+Top ten guesses: [('YOKAN', 1.9219280948873623), ('COWAN', 1.3709505944546687), ('KOBAN', 1.3709505944546687), ('WOMAN', 1.3709505944546687), ('YOJAN', 1.3709505944546687)]
+GUESS: COWAN
+
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WOMAN with entropy: 0.0000
+Bot chose: WOMAN with entropy: 0.0000
+Top ten guesses: [('WOMAN', 0.0)]
+GUESS: WOMAN
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bits, Posterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.221 bits, Posterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.710 bits, Actual Info Gain: 2.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙈𝘼𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 5.5503 bits
+Posterior entropy: 8.308339030139408
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.308339030139408, 'actual_info_gain': 5.550321954583369, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NATAL with entropy: 4.7661
+Bot chose: NATAL with entropy: 4.7661
+Top ten guesses: [('NATAL', 4.766054300008832), ('MONAL', 4.6120385412574), ('KANAL', 4.5927321591350685), ('TOLAN', 4.577728731087523), ('NAHAL', 4.572590379842412), ('LANAI', 4.56983972212802), ('TONAL', 4.546537223570042), ('CANAL', 4.54304376082527), ('TAMAL', 4.530812988606957), ('NOTAL', 4.522538773401153)]
+GUESS: NATAL
+
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.2209 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.308339030139408, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.2208761888890685, 'expected_info_gain': 4.766054300008832}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOGAN with entropy: 3.7101
+Bot chose: HOGAN with entropy: 3.7101
+Top ten guesses: [('HOGAN', 3.710141622917679), ('DOGAN', 3.6901165175936645), ('INGAN', 3.58271991599357), ('BOGAN', 3.569061285207977), ('GOBAN', 3.569061285207977), ('GONAD', 3.551026636617177), ('MONAD', 3.546098960174848), ('GOWAN', 3.5353775490983694), ('DUNAM', 3.4898625379709074), ('WIGAN', 3.4506544749443613)]
+GUESS: HOGAN
+
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.765534746362977, 'expected_info_gain': 3.710141622917679}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: YOKAN with entropy: 1.9219
+Bot chose: COWAN with entropy: 1.3710
+Top ten guesses: [('YOKAN', 1.9219280948873623), ('COWAN', 1.3709505944546687), ('KOBAN', 1.3709505944546687), ('WOMAN', 1.3709505944546687), ('YOJAN', 1.3709505944546687)]
+GUESS: COWAN
+
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WOMAN with entropy: 0.0000
+Bot chose: WOMAN with entropy: 0.0000
+Top ten guesses: [('WOMAN', 0.0)]
+GUESS: WOMAN
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.550 bits, Posterior Entropy: 8.308, 
+Guess: 𝙉𝘼𝙏𝘼𝙇, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.308, Expected Info Gain: 4.766 bits, Actual Info Gain: 3.221 bits, Posterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.710 bits, Actual Info Gain: 2.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙈𝘼𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.5458 bits
+Posterior entropy: 7.312882955284356
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.312882955284356, 'actual_info_gain': 6.545778029438421, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 255 potential guesses from 159 remaining candidates...
+Top 5 guesses: [('NODAL', '3.893'), ('TOLAN', '3.893'), ('NOPAL', '3.866'), ('NOTAL', '3.861'), ('TONAL', '3.851')]
+Top entropy choice: 𝙉𝙊𝘿𝘼𝙇 with entropy: 3.8934
+Ended up choosing COMMON word: 𝙏𝙊𝙉𝘼𝙇 with entropy: 3.8512
+GUESS: TONAL
+
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.4060 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 7.312882955284356, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 3.405992359675837, 'expected_info_gain': 3.8512007713237906}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('GOWAN', '2.790'), ('BOGAN', '2.423'), ('GOBAN', '2.423'), ('NOWAY', '2.423'), ('COWAN', '2.330')]
+Top entropy choice: 𝙂𝙊𝙒𝘼𝙉 with entropy: 2.7899
+Ended up choosing COMMON word: 𝘾𝙊𝙒𝘼𝙉 with entropy: 2.3301
+GUESS: COWAN
+
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 0.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 2.33012496531497}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('WOMAN', '0.000')]
+Top entropy choice: 𝙒𝙊𝙈𝘼𝙉 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙒𝙊𝙈𝘼𝙉 with entropy: 0.0000
+GUESS: WOMAN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙏𝙊𝙉𝘼𝙇, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 7.313, Expected Info Gain: 3.851 bits, Actual Info Gain: 3.406 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝙊𝙒𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.330 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙈𝘼𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.5458 bits
+Posterior entropy: 7.312882955284356
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.312882955284356, 'actual_info_gain': 6.545778029438421, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+159 candidate words remaining.
+Top 5 guesses: [('LINAC', '4.240'), ('NIDAL', '4.234'), ('LIMAN', '4.186'), ('NITAL', '4.185'), ('LINGA', '4.148')]
+Top entropy choice: 𝙇𝙄𝙉𝘼𝘾 with entropy: 4.2404
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝘼𝘾 with entropy: 4.2404
+GUESS: LINAC
+
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 3.4060 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 7.312882955284356, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 3.405992359675837, 'expected_info_gain': 4.240387469672681}
+----------
+The bot is making a guess...
+15 candidate words remaining.
+Top 5 guesses: [('GAWKY', '3.140'), ('BUMPY', '3.006'), ('DUMKY', '3.000'), ('WEDGY', '2.956'), ('WODGY', '2.956')]
+Top entropy choice: 𝙂𝘼𝙒𝙆𝙔 with entropy: 3.1396
+Guess count low, choosing the word with highest entropy: 𝙂𝘼𝙒𝙆𝙔 with entropy: 3.1396
+GUESS: GAWKY
+
+Guess: 𝙂𝘼𝙒𝙆𝙔, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 0.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 3.139572261986723}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('WOMAN', '0.000')]
+Top entropy choice: 𝙒𝙊𝙈𝘼𝙉 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙒𝙊𝙈𝘼𝙉 with entropy: 0.0000
+GUESS: WOMAN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.546 bits, Posterior Entropy: 7.313, 
+Guess: 𝙇𝙄𝙉𝘼𝘾, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 7.313, Expected Info Gain: 4.240 bits, Actual Info Gain: 3.406 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝘼𝙒𝙆𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 3.907, Expected Info Gain: 3.140 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

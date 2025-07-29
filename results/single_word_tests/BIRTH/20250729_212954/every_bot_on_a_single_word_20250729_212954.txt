@@ -1,0 +1,253 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙄𝙍𝙏𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MUIRY 
+The top ten guesses and scores: [('MUIRY', 526), ('RYUGI', 517), ('RUTIN', 507), ('CHIRU', 499), ('MURTI', 499), ('INCUR', 494), ('RUNIC', 494), ('CURLI', 493), ('UNRID', 491), ('LURID', 490)]
+The bot finally chose: INCUR 
+GUESS: INCUR
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: YIRTH 
+The top ten guesses and scores: [('YIRTH', 149), ('DIRTY', 145), ('RIFTY', 144), ('THIRL', 144), ('MITRY', 143), ('RITZY', 140), ('THIRD', 140), ('THRID', 140), ('BIRTH', 139), ('FIRTH', 139)]
+The bot finally chose: DIRTY 
+GUESS: DIRTY
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BIRTH 
+The top ten guesses and scores: [('BIRTH', 22), ('FIRTH', 22), ('GIRTH', 22), ('MIRTH', 22), ('TIRTH', 21)]
+The bot finally chose: BIRTH 
+GUESS: BIRTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘽𝙄𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙄𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.7612 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.7611600991789995, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRTH with entropy: 3.1692
+Bot chose: FIRTH with entropy: 3.1692
+Top ten guesses: [('FIRTH', 3.1692486956952335), ('FRITH', 3.1692486956952335), ('RIFTY', 3.1018812234760182), ('BIRTH', 3.0071964896856174), ('GIRTH', 3.0071964896856174), ('FRITZ', 2.9398290174664026), ('BRITH', 2.889549430862088), ('GRITH', 2.889549430862088), ('MIRTH', 2.8451442836760017), ('TIRTH', 2.8451442836760017)]
+GUESS: FIRTH
+
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 3.1692486956952335}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIRTH with entropy: 0.7219
+Bot chose: BIRTH with entropy: 0.7219
+Top ten guesses: [('BIRTH', 0.7219280948873623), ('GIRTH', 0.7219280948873623), ('MIRTH', 0.7219280948873623), ('TIRTH', 0.7219280948873623), ('YIRTH', 0.7219280948873623)]
+GUESS: BIRTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 4.761 bits, Posterior Entropy: 4.087, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 3.169 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙄𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.7612 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.7611600991789995, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRTH with entropy: 3.1692
+Bot chose: FIRTH with entropy: 3.1692
+Top ten guesses: [('FIRTH', 3.1692486956952335), ('FRITH', 3.1692486956952335), ('RIFTY', 3.1018812234760182), ('BIRTH', 3.0071964896856174), ('GIRTH', 3.0071964896856174), ('FRITZ', 2.9398290174664026), ('BRITH', 2.889549430862088), ('GRITH', 2.889549430862088), ('MIRTH', 2.8451442836760017), ('TIRTH', 2.8451442836760017)]
+GUESS: FIRTH
+
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 3.1692486956952335}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIRTH with entropy: 0.7219
+Bot chose: BIRTH with entropy: 0.7219
+Top ten guesses: [('BIRTH', 0.7219280948873623), ('GIRTH', 0.7219280948873623), ('MIRTH', 0.7219280948873623), ('TIRTH', 0.7219280948873623), ('YIRTH', 0.7219280948873623)]
+GUESS: BIRTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 4.761 bits, Posterior Entropy: 4.087, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 3.169 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙄𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙍𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 405 potential guesses from 208 remaining candidates...
+Top 5 guesses: [('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUILT', '4.856'), ('CURNY', '4.831'), ('TURFY', '4.808')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+Ended up choosing COMMON word: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+GUESS: DIRTY
+
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 5.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 5.115477217419936, 'expected_info_gain': 5.006260121401016}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BIRTH', '1.252'), ('FIRTH', '1.252'), ('GIRTH', '1.252'), ('MIRTH', '1.252'), ('TIRTH', '1.252')]
+Top entropy choice: 𝘽𝙄𝙍𝙏𝙃 with entropy: 1.2516
+Ended up choosing COMMON word: 𝘽𝙄𝙍𝙏𝙃 with entropy: 1.2516
+GUESS: BIRTH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.700, Expected Info Gain: 5.006 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙍𝙏𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+208 candidate words remaining.
+Top 5 guesses: [('TYING', '5.042'), ('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUNTY', '4.931'), ('CUNIT', '4.926')]
+Top entropy choice: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+Guess count low, choosing the word with highest entropy: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+GUESS: TYING
+
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 3.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 5.04238338201697}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('BIMAH', '3.000'), ('BUFTY', '3.000'), ('BUMFS', '3.000'), ('BURFI', '3.000'), ('CRUMB', '3.000')]
+Top entropy choice: 𝘽𝙄𝙈𝘼𝙃 with entropy: 3.0000
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝙈𝘼𝙃 with entropy: 3.0000
+GUESS: BIMAH
+
+Guess: 𝘽𝙄𝙈𝘼𝙃, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BIRTH', '0.000')]
+Top entropy choice: 𝘽𝙄𝙍𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙄𝙍𝙏𝙃 with entropy: 0.0000
+GUESS: BIRTH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.700, Expected Info Gain: 5.042 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙄𝙈𝘼𝙃, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙄𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

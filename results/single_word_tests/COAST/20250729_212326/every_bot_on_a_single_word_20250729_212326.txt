@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝘼𝙎𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BOAST 
+The top ten guesses and scores: [('BOAST', 69), ('LOAST', 69), ('LOTSA', 69), ('COAST', 68), ('FATSO', 68), ('HOAST', 67), ('TASSO', 66), ('TOAST', 66), ('CANSO', 61), ('MANSO', 61)]
+The bot finally chose: BOAST 
+GUESS: BOAST
+Guess: 𝘽𝙊𝘼𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: COAST 
+The top ten guesses and scores: [('COAST', 18), ('HOAST', 18), ('LOAST', 18), ('TOAST', 17)]
+The bot finally chose: COAST 
+GUESS: COAST
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨🟩⬜
+Guess: 𝘽𝙊𝘼𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝙎𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 4.4219 bits
+Posterior entropy: 9.436711542137214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.436711542137214, 'actual_info_gain': 4.4219494425855626, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAILS with entropy: 4.6426
+Bot chose: TAILS with entropy: 4.6426
+Top ten guesses: [('TAILS', 4.6426202617583), ('TAINS', 4.554409684498415), ('LANTS', 4.510413952877927), ('NATIS', 4.47258384736077), ('NAILS', 4.466163568376669), ('MALTS', 4.448823947924817), ('MAILS', 4.437474782379613), ('TAMIS', 4.405888267777704), ('DALTS', 4.396166456187204), ('MANTS', 4.393584901676819)]
+GUESS: TAILS
+
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 5.5298 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 9.436711542137214, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 5.529820946528695, 'expected_info_gain': 4.6426202617583}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASCOT with entropy: 3.2402
+Bot chose: ASCOT with entropy: 3.2402
+Top ten guesses: [('ASCOT', 3.2402239289418517), ('HOAST', 3.2402239289418513), ('COAST', 3.1898980954642875), ('AGAST', 3.139572261986723), ('GHAST', 3.1395722619867223), ('ANGST', 3.0062389286533895), ('ASSOT', 2.923231428797621), ('BOAST', 2.923231428797621), ('ADUST', 2.7898980954642876), ('AVAST', 2.7898980954642876)]
+GUESS: ASCOT
+
+Guess: 𝘼𝙎𝘾𝙊𝙏, Feedback: 🟨🟨🟨🟨🟩
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 0.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 3.2402239289418517}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COAST with entropy: 0.0000
+Bot chose: COAST with entropy: 0.0000
+Top ten guesses: [('COAST', 0.0)]
+GUESS: COAST
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.422 bits, Posterior Entropy: 9.437, 
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 9.437, Expected Info Gain: 4.643 bits, Actual Info Gain: 5.530 bits, Posterior Entropy: 3.907, 
+Guess: 𝘼𝙎𝘾𝙊𝙏, Feedback: 🟨🟨🟨🟨🟩, Prior Entropy: 3.907, Expected Info Gain: 3.240 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝙎𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 4.4219 bits
+Posterior entropy: 9.436711542137214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.436711542137214, 'actual_info_gain': 4.4219494425855626, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAILS with entropy: 4.6426
+Bot chose: TAILS with entropy: 4.6426
+Top ten guesses: [('TAILS', 4.6426202617583), ('TAINS', 4.554409684498415), ('LANTS', 4.510413952877927), ('NATIS', 4.47258384736077), ('NAILS', 4.466163568376669), ('MALTS', 4.448823947924817), ('MAILS', 4.437474782379613), ('TAMIS', 4.405888267777704), ('DALTS', 4.396166456187204), ('MANTS', 4.393584901676819)]
+GUESS: TAILS
+
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 5.5298 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 9.436711542137214, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 5.529820946528695, 'expected_info_gain': 4.6426202617583}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASCOT with entropy: 3.2402
+Bot chose: ASCOT with entropy: 3.2402
+Top ten guesses: [('ASCOT', 3.2402239289418517), ('HOAST', 3.2402239289418513), ('COAST', 3.1898980954642875), ('AGAST', 3.139572261986723), ('GHAST', 3.1395722619867223), ('ANGST', 3.0062389286533895), ('ASSOT', 2.923231428797621), ('BOAST', 2.923231428797621), ('ADUST', 2.7898980954642876), ('AVAST', 2.7898980954642876)]
+GUESS: ASCOT
+
+Guess: 𝘼𝙎𝘾𝙊𝙏, Feedback: 🟨🟨🟨🟨🟩
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 0.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 3.2402239289418517}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COAST with entropy: 0.0000
+Bot chose: COAST with entropy: 0.0000
+Top ten guesses: [('COAST', 0.0)]
+GUESS: COAST
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.422 bits, Posterior Entropy: 9.437, 
+Guess: 𝙏𝘼𝙄𝙇𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 9.437, Expected Info Gain: 4.643 bits, Actual Info Gain: 5.530 bits, Posterior Entropy: 3.907, 
+Guess: 𝘼𝙎𝘾𝙊𝙏, Feedback: 🟨🟨🟨🟨🟩, Prior Entropy: 3.907, Expected Info Gain: 3.240 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝙎𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 32 potential guesses from 32 remaining candidates...
+Top 5 guesses: [('LOADS', '2.475'), ('LOAMS', '2.473'), ('MOALS', '2.473'), ('LOANS', '2.289'), ('FOALS', '2.281')]
+Top entropy choice: 𝙇𝙊𝘼𝘿𝙎 with entropy: 2.4746
+GUESS: LOADS
+
+Guess: 𝙇𝙊𝘼𝘿𝙎, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 2.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.474601752714581}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('BOAST', '0.811'), ('COAST', '0.811'), ('HOAST', '0.811'), ('TOAST', '0.811')]
+Top entropy choice: 𝘽𝙊𝘼𝙎𝙏 with entropy: 0.8113
+Ended up choosing COMMON word: 𝘽𝙊𝘼𝙎𝙏 with entropy: 0.8113
+GUESS: BOAST
+
+Guess: 𝘽𝙊𝘼𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('COAST', '0.918'), ('HOAST', '0.918'), ('TOAST', '0.918')]
+Top entropy choice: 𝘾𝙊𝘼𝙎𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝙊𝘼𝙎𝙏 with entropy: 0.9183
+GUESS: COAST
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙇𝙊𝘼𝘿𝙎, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 5.000, Expected Info Gain: 2.475 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙊𝘼𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝘼𝙎𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+32 candidate words remaining.
+Top 5 guesses: [('DELFT', '3.325'), ('FLINT', '3.226'), ('GLINT', '3.163'), ('DOILT', '3.147'), ('MULCT', '3.138')]
+Top entropy choice: 𝘿𝙀𝙇𝙁𝙏 with entropy: 3.3247
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙇𝙁𝙏 with entropy: 3.3247
+GUESS: DELFT
+
+Guess: 𝘿𝙀𝙇𝙁𝙏, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 2.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.3246987351738495}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('BACHA', '2.000'), ('BACHS', '2.000'), ('BATCH', '2.000'), ('BEACH', '2.000'), ('BEECH', '2.000')]
+Top entropy choice: 𝘽𝘼𝘾𝙃𝘼 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝘾𝙃𝘼 with entropy: 2.0000
+GUESS: BACHA
+
+Guess: 𝘽𝘼𝘾𝙃𝘼, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('COAST', '0.000')]
+Top entropy choice: 𝘾𝙊𝘼𝙎𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙊𝘼𝙎𝙏 with entropy: 0.0000
+GUESS: COAST
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝘿𝙀𝙇𝙁𝙏, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 3.325 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝘾𝙃𝘼, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,205 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝙊𝘾𝙆 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOTH 
+The top ten guesses and scores: [('CLOTH', 540), ('YMOLT', 538), ('PHONY', 527), ('CHOIL', 526), ('CHOLI', 526), ('GLOBY', 526), ('CHOKY', 524), ('PHOTY', 524), ('CLONK', 523), ('THOLI', 522)]
+The bot finally chose: CLOTH 
+GUESS: CLOTH
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: 🟨🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: BLOCK 
+The top ten guesses and scores: [('BLOCK', 13), ('FLOCK', 13), ('PLOCK', 13)]
+The bot finally chose: BLOCK 
+GUESS: BLOCK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: 🟨🟩🟩⬜⬜
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝘾𝙆 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 8.5648 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 8.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLOCK with entropy: 1.5850
+Bot chose: BLOCK with entropy: 1.5850
+Top ten guesses: [('BLOCK', 1.584962500721156), ('FLOCK', 1.584962500721156), ('OCTYL', 0.9182958340544896)]
+GUESS: BLOCK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝘾𝙆 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 8.5648 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 8.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLOCK with entropy: 1.5850
+Bot chose: BLOCK with entropy: 1.5850
+Top ten guesses: [('BLOCK', 1.584962500721156), ('FLOCK', 1.584962500721156), ('OCTYL', 0.9182958340544896)]
+GUESS: BLOCK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝘾𝙆 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 321 remaining candidates...
+Top 5 guesses: [('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245'), ('PINOT', '5.217'), ('PILOT', '5.195')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.2877
+Ended up choosing COMMON word: 𝙋𝙄𝙉𝙊𝙏 with entropy: 5.2172
+GUESS: PINOT
+
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.7718 bits
+Posterior entropy: 5.554588851677638
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 5.554588851677638, 'actual_info_gain': 2.771840635444665, 'expected_info_gain': 5.217226610084238}
+----------
+The bot is making a guess...
+Evaluating 47 potential guesses from 47 remaining candidates...
+Top 5 guesses: [('BLOCK', '4.526'), ('CLOMB', '4.265'), ('BUCKO', '4.259'), ('FLOCK', '4.254'), ('MUCHO', '4.155')]
+Top entropy choice: 𝘽𝙇𝙊𝘾𝙆 with entropy: 4.5256
+Ended up choosing COMMON word: 𝘽𝙇𝙊𝘾𝙆 with entropy: 4.5256
+GUESS: BLOCK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 2.772 bits, Posterior Entropy: 5.555, 
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝘾𝙆 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+321 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.311'), ('PUTIN', '5.299'), ('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 6.7415 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.7414669864011465, 'expected_info_gain': 5.310909875682413}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('BLOCK', '0.918'), ('FLOCK', '0.918'), ('PLOCK', '0.918')]
+Top entropy choice: 𝘽𝙇𝙊𝘾𝙆 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝙊𝘾𝙆 with entropy: 0.9183
+GUESS: BLOCK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 6.741 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
