@@ -1,4 +1,4 @@
-from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE
+from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
 class WordleBot:
     def __init__(self, game, word_list, common_words):
         self.game = game
@@ -77,7 +77,7 @@ class WordleBot:
 
 
     def receive_feedback(self, feedback):
-        print(f"Guess: {self.guess_history[-1]}, Feedback: {feedback}")
+        print(f"Guess: {to_fancy(self.guess_history[-1])}, Feedback: {feedback}")
         self.filter_candidates(self.guess_history[-1], feedback)
     
 

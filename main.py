@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+
 from wordle_game import WordleGame
 from wordle_bot import WordleBot
 from entropy_wordle_bot import EntropyWordleBot
@@ -21,7 +23,6 @@ check_and_setup_entropy_cache(game.all_words, game.common_words)
 
 # results = game.test_bot_optimized_x_words(game.common_words,x=100,  bot_class=CachedEntropyWordleBot , file_name= "cached_entropy_bot_common_words.txt")
 # results = game.test_bot_optimized_x_words(game.common_words,x=100,  bot_class=NonGreedyCachedEntropyWordleBot, file_name= "non_greedy_cached_entropy_bot_common_words.txt")
-print("Testing bots completed.")
 
 
 # TODO: #4 Make non-greedy bot faster   
@@ -30,13 +31,19 @@ print("Testing bots completed.")
 # TODO: #7 Add a function for testing every bot on a single word 
 
 
-secret_word = "SAPPY"
-bot = CachedEntropyWordleBot(game, game.all_words, game.common_words)
-game.let_bot_guess_a_word(bot=bot, word=secret_word)
-game.reset_game(secret_word)
-bot = NonGreedyCachedEntropyWordleBot(game, game.all_words, game.common_words)
-game.let_bot_guess_a_word(bot=bot, word=secret_word)
-game.reset_game(secret_word )
+secret_word = ""
+# bot = CachedEntropyWordleBot(game, game.all_words, game.common_words)
+# game.let_bot_guess_a_word(bot=bot, word=secret_word)
+# game.reset_game(secret_word)
+# bot = NonGreedyCachedEntropyWordleBot(game, game.all_words, game.common_words)
+# game.let_bot_guess_a_word(bot=bot, word=secret_word)
+# game.reset_game(secret_word )
+
+bot_classes = [WordleBot, EntropyWordleBot, FastEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot]
+words = ["crisp", "blaze", "thump", "swirl", "brick", "flair", "jolly", "quest", "knock", "plume"]
+for word in words:
+    game.test_every_bot_on_a_single_word(secret_word, bot_classes, file_name="every_bot_on_a_single_word.txt")
 
 
-
+sys.stdout = sys.__stdout__
+print("Testing bots completed.")

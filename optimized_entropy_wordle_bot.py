@@ -688,6 +688,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                         print(f"Using common word: {to_fancy(word)} with entropy: {entropy:.4f}")
                         return word
                 # In exploitation mode: just guess from remaining candidates
+            return best_word
 
 
 # Usage example

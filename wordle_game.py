@@ -1,4 +1,5 @@
 import sys
+import json
 from datetime import datetime
 from functools import lru_cache
 import os
@@ -16,7 +17,9 @@ RESULT_FOLDER = "results"
 os.makedirs(RESULT_FOLDER, exist_ok=True)
 class WordleGame:
     def __init__(self):
-        self.common_words = self.load_words("wordle-answers-alphabetical.txt")
+        # self.common_words = self.load_words("wordle-answers-alphabetical.txt")
+        self.common_words = self.load_words_json("word-data.json")
+
         self.all_words  =self.load_words("valid-wordle-words.txt") 
 
         self.weights = np.array([self.weight_function(word) for word in self.all_words])
@@ -39,6 +42,15 @@ class WordleGame:
 
         # self.game_loop()
         pass
+
+    def load_words_json(self, file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        words = [word.upper() for word in data["common"]]
+        return words
+    
+    import json
+
 
     def load_words(self,file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -344,6 +356,30 @@ class WordleGame:
         
         sys.stdout = open(f"{folder_path}/results_only_{str(x)}_words.txt", 'w', encoding='utf-8')
         analyze_guess_data(results)
+
+
+
+    def test_every_bot_on_a_single_word(self, secret_word, bot_classes, file_name: str = None): 
+        if file_name:
+
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            folder_path = f"{RESULT_FOLDER}/single_word_tests/{secret_word}"
+            os.makedirs(folder_path, exist_ok=True)
+            file_name_without_ext = os.path.splitext(os.path.basename(file_name))[0]
+            file_name = f"{folder_path}/{file_name_without_ext}_{timestamp}.txt"
+            sys.stdout = open(file_name, 'w', encoding='utf-8')
+        self.set_secret_word(secret_word)
+        for bot_class in bot_classes:
+            print(f"Testing bot: {bot_class.__name__}")
+            print(f"___ Testing word: {to_fancy(secret_word )} ___\n")
+            bot = bot_class(self, self.all_words, self.common_words)
+            self.game_loop_bot(bot)
+            self.print_guess_history()
+            self.reset_game(secret_word)
+            print("Testing bot class: " + bot_class.__name__ + " complete.")
+            print("\n" + "-"*100)
+
+
 
     def compute_entropy_fast(self, guess):
         """Fast approximate entropy using sampling"""
