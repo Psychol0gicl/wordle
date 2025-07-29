@@ -1,0 +1,70 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙂𝙊𝘿𝙇𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙊𝙒𝙇𝙔, Feedback: 🟨🟩⬜🟩🟩
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 10.150, Actual Info Gain: 3.709 bits
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 10.150, Posterior Entropy: 4.459, Actual Info Gain: 5.690 bits
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.459, Posterior Entropy: 3.000, Actual Info Gain: 1.459 bits
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 2.807, Actual Info Gain: 0.193 bits
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Posterior Entropy: 2.585, Actual Info Gain: 0.222 bits
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 10.150, Actual Info Gain: 3.709 bits
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 10.150, Posterior Entropy: 4.459, Actual Info Gain: 5.690 bits
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.459, Posterior Entropy: 3.000, Actual Info Gain: 1.459 bits
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 2.807, Actual Info Gain: 0.193 bits
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Posterior Entropy: 2.585, Actual Info Gain: 0.222 bits
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 8.778, Actual Info Gain: 5.081 bits
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 8.778, Posterior Entropy: 4.700, Actual Info Gain: 4.078 bits
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.700, Posterior Entropy: 3.170, Actual Info Gain: 1.531 bits
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Posterior Entropy: 3.000, Actual Info Gain: 0.170 bits
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 2.807, Actual Info Gain: 0.193 bits
+Guess: 𝙃𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 8.778, Actual Info Gain: 5.081 bits
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 8.778, Posterior Entropy: 6.524, Actual Info Gain: 2.255 bits
+Guess: 𝘽𝙊𝙇𝘿𝙊, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 6.524, Posterior Entropy: 3.322, Actual Info Gain: 3.202 bits
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.322, Posterior Entropy: 2.322, Actual Info Gain: 1.000 bits
+Guess: 𝙇𝘼𝙋𝙅𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 2.322, Posterior Entropy: 0.000, Actual Info Gain: 2.322 bits
+Guess: 𝙅𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

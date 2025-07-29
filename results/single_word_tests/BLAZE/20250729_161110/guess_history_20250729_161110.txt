@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝘼𝙕𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙋𝙇𝘼𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘽𝙇𝘼𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙕𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Posterior Entropy: 9.042, Actual Info Gain: 4.817 bits
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 9.042, Posterior Entropy: 5.285, Actual Info Gain: 3.756 bits
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.285, Posterior Entropy: 1.000, Actual Info Gain: 4.285 bits
+Guess: 𝘽𝙇𝘼𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙕𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Posterior Entropy: 9.042, Actual Info Gain: 4.817 bits
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 9.042, Posterior Entropy: 5.285, Actual Info Gain: 3.756 bits
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.285, Posterior Entropy: 1.000, Actual Info Gain: 4.285 bits
+Guess: 𝘽𝙇𝘼𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙕𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Posterior Entropy: 6.209, Actual Info Gain: 7.649 bits
+Guess: 𝙇𝙄𝙂𝙃𝙏, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.209, Posterior Entropy: 4.000, Actual Info Gain: 2.209 bits
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.000, Posterior Entropy: 1.000, Actual Info Gain: 3.000 bits
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.000, Posterior Entropy: 0.000, Actual Info Gain: 1.000 bits
+Guess: 𝘽𝙇𝘼𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙕𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Posterior Entropy: 6.209, Actual Info Gain: 7.649 bits
+Guess: 𝙇𝙀𝙏𝘾𝙃, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 6.209, Posterior Entropy: 3.807, Actual Info Gain: 2.402 bits
+Guess: 𝙂𝙇𝘼𝙉𝘿, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 3.807, Posterior Entropy: 2.000, Actual Info Gain: 1.807 bits
+Guess: 𝘼𝘽𝙍𝘼𝙈, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 2.000, Posterior Entropy: 0.000, Actual Info Gain: 2.000 bits
+Guess: 𝘽𝙇𝘼𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

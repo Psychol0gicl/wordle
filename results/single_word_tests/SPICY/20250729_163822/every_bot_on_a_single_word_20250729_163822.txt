@@ -1,0 +1,265 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙄𝘾𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SLUIT 
+The top ten guesses and scores: [('SLUIT', 2174), ('SUINT', 2121), ('UNITS', 2121), ('MUILS', 2094), ('SIMUL', 2094), ('PILUS', 2087), ('PULIS', 2087), ('KUSTI', 2085), ('KUTIS', 2085), ('HILUS', 2077)]
+The bot finally chose: SLUIT 
+GUESS: SLUIT
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SPINK 
+The top ten guesses and scores: [('SPINK', 195), ('SNICK', 185), ('SINKY', 184), ('SNIPY', 184), ('SPINY', 184), ('SPICK', 183), ('SPIKY', 182), ('SKIMP', 180), ('SWINK', 180), ('SINKS', 175)]
+The bot finally chose: SPINY 
+GUESS: SPINY
+Guess: 𝙎𝙋𝙄𝙉𝙔, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SPICY 
+The top ten guesses and scores: [('SPICY', 9), ('SPIKY', 9)]
+The bot finally chose: SPICY 
+GUESS: SPICY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝙎𝙋𝙄𝙉𝙔, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙋𝙄𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝘾𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITS with entropy: 3.0899
+Bot chose: SPITS with entropy: 3.0899
+Top ten guesses: [('SPITS', 3.089929107106409), ('SPIKS', 2.998652546878167), ('SPINS', 2.935661092464158), ('SPOTS', 2.9098422525059937), ('SPIFS', 2.7333716642706993), ('SPIMS', 2.7333716642706993), ('SPICS', 2.6645057704384634), ('SPLIT', 2.585307023201394), ('SPILT', 2.5264834937896294), ('SPINK', 2.519080568170698)]
+GUESS: SPITS
+
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 2.2801 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.280107919192735, 'expected_info_gain': 3.089929107106409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPICK with entropy: 2.1281
+Bot chose: SPIKY with entropy: 1.9502
+Top ten guesses: [('SPICK', 2.1280852788913944), ('SPINK', 2.1280852788913944), ('SPIKY', 1.950212064914747), ('SPINY', 1.8423709931771088), ('SPICY', 1.8423709931771084), ('SPIFF', 0.5916727785823275), ('SPILL', 0.5916727785823275)]
+GUESS: SPIKY
+
+Guess: 𝙎𝙋𝙄𝙆𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 1.950212064914747}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPICY with entropy: 1.0000
+Bot chose: SPICY with entropy: 1.0000
+Top ten guesses: [('SPICY', 1.0), ('SPINY', 1.0)]
+GUESS: SPICY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bitsPosterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.087, Expected Info Gain: 3.090 bits, Actual Info Gain: 2.280 bitsPosterior Entropy: 2.807, 
+Guess: 𝙎𝙋𝙄𝙆𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.950 bits, Actual Info Gain: 1.807 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝙄𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝘾𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITS with entropy: 3.0899
+Bot chose: SPITS with entropy: 3.0899
+Top ten guesses: [('SPITS', 3.089929107106409), ('SPIKS', 2.998652546878167), ('SPINS', 2.935661092464158), ('SPOTS', 2.9098422525059937), ('SPIFS', 2.7333716642706993), ('SPIMS', 2.7333716642706993), ('SPICS', 2.6645057704384634), ('SPLIT', 2.585307023201394), ('SPILT', 2.5264834937896294), ('SPINK', 2.519080568170698)]
+GUESS: SPITS
+
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 2.2801 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.280107919192735, 'expected_info_gain': 3.089929107106409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPICK with entropy: 2.1281
+Bot chose: SPIKY with entropy: 1.9502
+Top ten guesses: [('SPICK', 2.1280852788913944), ('SPINK', 2.1280852788913944), ('SPIKY', 1.950212064914747), ('SPINY', 1.8423709931771088), ('SPICY', 1.8423709931771084), ('SPIFF', 0.5916727785823275), ('SPILL', 0.5916727785823275)]
+GUESS: SPIKY
+
+Guess: 𝙎𝙋𝙄𝙆𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 1.950212064914747}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPICY with entropy: 1.0000
+Bot chose: SPICY with entropy: 1.0000
+Top ten guesses: [('SPICY', 1.0), ('SPINY', 1.0)]
+GUESS: SPICY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bitsPosterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.087, Expected Info Gain: 3.090 bits, Actual Info Gain: 2.280 bitsPosterior Entropy: 2.807, 
+Guess: 𝙎𝙋𝙄𝙆𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.950 bits, Actual Info Gain: 1.807 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝙄𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝘾𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 440 potential guesses from 243 remaining candidates...
+Top 5 guesses: [('THINK', '5.001'), ('SLITS', '4.751'), ('BUILT', '4.704'), ('SNITS', '4.680'), ('STUNS', '4.680')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+GUESS: THINK
+
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 3.6769 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 3.676884990162196, 'expected_info_gain': 5.001168424825656}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('SLIPS', '2.985'), ('SPIMS', '2.971'), ('SLIMS', '2.800'), ('SWIMS', '2.710'), ('SPICS', '2.670')]
+Top entropy choice: 𝙎𝙇𝙄𝙋𝙎 with entropy: 2.9848
+GUESS: SLIPS
+
+Guess: 𝙎𝙇𝙄𝙋𝙎, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 3.2479 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.0, 'actual_info_gain': 3.247927513443585, 'expected_info_gain': 2.984769618706743}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SPICY', '1.000'), ('SPIFF', '1.000')]
+Top entropy choice: 𝙎𝙋𝙄𝘾𝙔 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝘾𝙔 with entropy: 1.0000
+GUESS: SPICY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bitsPosterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.925, Expected Info Gain: 5.001 bits, Actual Info Gain: 3.677 bitsPosterior Entropy: 4.248, 
+Guess: 𝙎𝙇𝙄𝙋𝙎, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 4.248, Expected Info Gain: 2.985 bits, Actual Info Gain: 3.248 bitsPosterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝙄𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝘾𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+243 candidate words remaining.
+Top 5 guesses: [('THINS', '5.114'), ('KNITS', '5.114'), ('CLINT', '5.102'), ('CLITS', '5.086'), ('THILK', '5.075')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+GUESS: THINS
+
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 3.8373 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.837349662355442, 'expected_info_gain': 5.114328466456172}
+----------
+The bot is making a guess...
+17 candidate words remaining.
+Top 5 guesses: [('PLACK', '3.617'), ('PLECK', '3.617'), ('PLOCK', '3.617'), ('PLUCK', '3.617'), ('CLYPE', '3.499')]
+Top entropy choice: 𝙋𝙇𝘼𝘾𝙆 with entropy: 3.6169
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝘼𝘾𝙆 with entropy: 3.6169
+GUESS: PLACK
+
+Guess: 𝙋𝙇𝘼𝘾𝙆, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 3.6168746059562227}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SPICY', '0.000')]
+Top entropy choice: 𝙎𝙋𝙄𝘾𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙋𝙄𝘾𝙔 with entropy: 0.0000
+GUESS: SPICY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bitsPosterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.114 bits, Actual Info Gain: 3.837 bitsPosterior Entropy: 4.087, 
+Guess: 𝙋𝙇𝘼𝘾𝙆, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 3.617 bits, Actual Info Gain: 4.087 bitsPosterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙄𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

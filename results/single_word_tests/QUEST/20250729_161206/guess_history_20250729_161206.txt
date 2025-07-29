@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙌𝙐𝙀𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝙃𝙀𝙄𝙎𝙏, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙌𝙐𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 7.257, Actual Info Gain: 6.601 bits
+Guess: 𝙏𝙀𝙀𝙇𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 7.257, Posterior Entropy: 2.807, Actual Info Gain: 4.450 bits
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Posterior Entropy: 0.000, Actual Info Gain: 2.807 bits
+Guess: 𝙌𝙐𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Posterior Entropy: 7.257, Actual Info Gain: 6.601 bits
+Guess: 𝙏𝙀𝙀𝙇𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 7.257, Posterior Entropy: 2.807, Actual Info Gain: 4.450 bits
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Posterior Entropy: 0.000, Actual Info Gain: 2.807 bits
+Guess: 𝙌𝙐𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Posterior Entropy: 9.422, Actual Info Gain: 4.437 bits
+Guess: 𝘿𝙀𝙇𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.422, Posterior Entropy: 3.000, Actual Info Gain: 6.422 bits
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 0.000, Actual Info Gain: 3.000 bits
+Guess: 𝙌𝙐𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙀𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Posterior Entropy: 9.422, Actual Info Gain: 4.437 bits
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 9.422, Posterior Entropy: 2.807, Actual Info Gain: 6.615 bits
+Guess: 𝘽𝙄𝙂𝙃𝘼, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.807, Posterior Entropy: 0.000, Actual Info Gain: 2.807 bits
+Guess: 𝙌𝙐𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

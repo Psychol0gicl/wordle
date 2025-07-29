@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙇𝘼𝙄𝙍 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘾𝙇𝘼𝙄𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙇𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙇𝘼𝙄𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Posterior Entropy: 5.248, Actual Info Gain: 8.611 bits
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 5.248, Posterior Entropy: 3.000, Actual Info Gain: 2.248 bits
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 1.000, Actual Info Gain: 2.000 bits
+Guess: 𝙁𝙇𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙇𝘼𝙄𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Posterior Entropy: 5.248, Actual Info Gain: 8.611 bits
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 5.248, Posterior Entropy: 3.000, Actual Info Gain: 2.248 bits
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.000, Posterior Entropy: 1.000, Actual Info Gain: 2.000 bits
+Guess: 𝙁𝙇𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙇𝘼𝙄𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Posterior Entropy: 6.858, Actual Info Gain: 7.001 bits
+Guess: 𝙏𝙃𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 6.858, Posterior Entropy: 3.700, Actual Info Gain: 3.158 bits
+Guess: 𝘾𝙇𝘼𝙄𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Posterior Entropy: 0.000, Actual Info Gain: 3.700 bits
+Guess: 𝙁𝙇𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙇𝘼𝙄𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Posterior Entropy: 6.858, Actual Info Gain: 7.001 bits
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.858, Posterior Entropy: 1.000, Actual Info Gain: 5.858 bits
+Guess: 𝙁𝙇𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙒𝙄𝙍𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: ⬜🟨🟨⬜🟨
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙒𝙄𝙍𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙍𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Posterior Entropy: 6.170, Actual Info Gain: 7.689 bits
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 6.170, Posterior Entropy: 3.459, Actual Info Gain: 2.710 bits
+Guess: 𝙎𝙈𝙄𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.459, Posterior Entropy: 0.000, Actual Info Gain: 3.459 bits
+Guess: 𝙎𝙒𝙄𝙍𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙍𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Posterior Entropy: 6.170, Actual Info Gain: 7.689 bits
+Guess: 𝙎𝙃𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 6.170, Posterior Entropy: 3.459, Actual Info Gain: 2.710 bits
+Guess: 𝙎𝙈𝙄𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.459, Posterior Entropy: 0.000, Actual Info Gain: 3.459 bits
+Guess: 𝙎𝙒𝙄𝙍𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙍𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Posterior Entropy: 4.858, Actual Info Gain: 9.001 bits
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.858, Posterior Entropy: 2.585, Actual Info Gain: 2.273 bits
+Guess: 𝙎𝙃𝙄𝙍𝙍, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Posterior Entropy: 1.585, Actual Info Gain: 1.000 bits
+Guess: 𝙎𝙒𝙄𝙍𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙍𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Posterior Entropy: 4.858, Actual Info Gain: 9.001 bits
+Guess: 𝙆𝙄𝙇𝙏𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 4.858, Posterior Entropy: 0.000, Actual Info Gain: 4.858 bits
+Guess: 𝙎𝙒𝙄𝙍𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
