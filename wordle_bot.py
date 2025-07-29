@@ -27,13 +27,14 @@ class WordleBot:
                 continue
             if word_plus_score[0] in self.common_words:
                 chosen_word = word_plus_score[0]
+                chosen_word_score = word_plus_score[1]
                 break
 
         # return "AAPAS"
         print(f"The bot finally chose: {chosen_word} ")
 
 
-        return chosen_word 
+        return chosen_word
     
     def filter_candidates(self, guess, feedback):
         def valid(word):

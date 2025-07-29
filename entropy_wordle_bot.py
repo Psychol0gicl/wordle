@@ -62,7 +62,7 @@ class EntropyWordleBot(WordleBot):
             # print(f"Candidates after choosing: {len(self.candidates)}")
             print("First guess by a human: SPEAR")
 
-            return "SPEAR"
+            return "SPEAR", -1 # TODO: #8 fix this, find out the entropy of the first guess
         best_word = ""
         best_entropy = -1
         
@@ -87,9 +87,9 @@ class EntropyWordleBot(WordleBot):
 
         print(f"Bot chose: {best_word} with entropy: {best_entropy:.4f}")
         print(f"Top ten guesses: {top_guesses}")
-        return best_word        
+        return best_word, best_entropy        
 
-    def receive_feedback(self, feedback):
+    def receive_feedback(self, feedback) -> dict:
         prior_entropy = math.log2(len(self.candidates))
         self.filter_candidates(self.guess_history[-1], feedback)
         posterior_entropy = math.log2(len(self.candidates)) if self.candidates else 0
@@ -97,3 +97,5 @@ class EntropyWordleBot(WordleBot):
         
         print(f"\nGuess: {to_fancy(self.guess_history[-1])}, Feedback: {feedback}\nActual Info Gain: {actual_info_gain:.4f} bits")
         print(f"Posterior entropy: {posterior_entropy}")
+        entropy_dict = {"prior_entropy": prior_entropy, "posterior_entropy": posterior_entropy, "actual_info_gain": actual_info_gain}
+        return entropy_dict

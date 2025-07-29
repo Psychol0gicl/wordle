@@ -40,9 +40,11 @@ secret_word = ""
 # game.reset_game(secret_word )
 
 bot_classes = [WordleBot, EntropyWordleBot, FastEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot]
-words = ["crisp", "blaze", "thump", "swirl", "brick", "flair", "jolly", "quest", "knock", "plume"]
+words = ["CRISP", "BLAZE", "THUMP", "SWIRL", "BRICK", "FLAIR", "JOLLY", "QUEST", "KNOCK", "PLUME"]
+words = ["FABLE", "GRIME", "PLUSH", "SPICY", "TWIRL"]
 for word in words:
-    game.test_every_bot_on_a_single_word(secret_word, bot_classes, file_name="every_bot_on_a_single_word.txt")
+    game.test_every_bot_on_a_single_word(word, bot_classes, file_name="every_bot_on_a_single_word.txt")
+    # game.test_every_bot_on_a_single_word(word, bot_classes)
 
 
 sys.stdout = sys.__stdout__

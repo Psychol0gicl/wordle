@@ -37,6 +37,7 @@ class WordleGame:
         self.game_is_over = False
         self.guess_history = []
         self.feedback_history = []
+        self.entropy_history = []
         self.game_result = ""
         # print(self.guess_history)
 
@@ -169,6 +170,10 @@ class WordleGame:
             if self.check_game_over():
                 return
             guess = bot.choose_guess()
+            if isinstance(guess, tuple):
+                expected_info_gain = guess[-1]
+                guess = guess[0]
+            print(f"GUESS: {guess}")
 
             guess = guess.upper()
             bot.guess_history.append(guess)
@@ -176,12 +181,17 @@ class WordleGame:
             feedback = self.guess(guess)
             if feedback is not None:
                 self.feedback_history.append(feedback)
-                bot.receive_feedback(feedback)
+                entropy_info: dict|None = bot.receive_feedback(feedback)
+                if bool(entropy_info):
+                    entropy_info["expected_info_gain"] = expected_info_gain
+                print("entropy_info: " + str(entropy_info))
+                if entropy_info is not None:
+                    self.entropy_history.append(entropy_info)
                 # print(feedback+"\n" + "-"*25)
                 print("-"*10)
 
     def set_secret_word(self, word):
-        self.secret_word = word
+        self.secret_word = word.upper()
         self.check_letters_secret_word()
 
     def let_bot_guess_a_word(self, bot, word = None):
@@ -217,7 +227,8 @@ class WordleGame:
         self.game_result = ""
         self.guess_history = []
         self.feedback_history = []
-        self.secret_word = new_word
+        self.entropy_history = []
+        self.secret_word = new_word.upper()
         self.check_letters_secret_word()
 
         
@@ -240,10 +251,25 @@ class WordleGame:
     #     return results
     
     def print_guess_history(self):
-        print("\n" + "=" * 35 + "\nHistory:")
+        # print(self.entropy_history)
+        history = ""
+        history += "\n" + "=" * 35 + "\nHistory:\n"
         for i  in range(self.get_guess_count()):
-            print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
-        print("=" * 35)
+            history += f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}"
+            if bool(self.entropy_history) and i != self.get_guess_count() - 1:
+                history += (
+                    f", Prior Entropy: {self.entropy_history[i]['prior_entropy']:.3f}, "
+                    f"Expected Info Gain: {self.entropy_history[i]['expected_info_gain']:.3f} bits, "
+                    f"Actual Info Gain: {self.entropy_history[i]['actual_info_gain']:.3f} bits"
+                    f"Posterior Entropy: {self.entropy_history[i]['posterior_entropy']:.3f}, "
+                )
+
+
+
+            history += "\n"
+        history += "=" * 35 + "\n"
+        print(history)
+        return history
 
     def test_bot(self, word_list, bot_class, file_name=None):
         results = {"W": 0, "L": 0}
@@ -360,21 +386,32 @@ class WordleGame:
 
 
     def test_every_bot_on_a_single_word(self, secret_word, bot_classes, file_name: str = None): 
+        if secret_word is None:
+            print("Please provide a secret word.")
+            return
+
         if file_name:
 
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            folder_path = f"{RESULT_FOLDER}/single_word_tests/{secret_word}"
+            folder_path = f"{RESULT_FOLDER}/single_word_tests/{secret_word}/{timestamp}"
             os.makedirs(folder_path, exist_ok=True)
             file_name_without_ext = os.path.splitext(os.path.basename(file_name))[0]
             file_name = f"{folder_path}/{file_name_without_ext}_{timestamp}.txt"
             sys.stdout = open(file_name, 'w', encoding='utf-8')
+            history_file = open(f"{folder_path}/guess_history_{timestamp}.txt", 'w', encoding='utf-8')
+
         self.set_secret_word(secret_word)
         for bot_class in bot_classes:
             print(f"Testing bot: {bot_class.__name__}")
             print(f"___ Testing word: {to_fancy(secret_word )} ___\n")
             bot = bot_class(self, self.all_words, self.common_words)
             self.game_loop_bot(bot)
-            self.print_guess_history()
+            history = self.print_guess_history()
+            if file_name:
+                history_file.write("\n" + "-"*100 + "\n")
+                history_file.write(f"Testing bot: {bot_class.__name__}\n")
+                history_file.write(f"___ Testing word: {to_fancy(secret_word )} ___\n")
+                history_file.write(history)
             self.reset_game(secret_word)
             print("Testing bot class: " + bot_class.__name__ + " complete.")
             print("\n" + "-"*100)

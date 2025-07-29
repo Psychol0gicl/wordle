@@ -117,7 +117,7 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
         
         if self.game.get_guess_count() == 0:
             print("First guess: SOARE (optimal starting word)")
-            return "SOARE"  # Proven optimal first guess
+            return "SOARE", -1  # Proven optimal first guess
         
         # Smart candidate pool selection
         candidate_pool = self._get_candidate_pool()
@@ -155,7 +155,7 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
                 break
         
         print(f"Top 5 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:5]]}")
-        return best_word
+        return best_word, best_entropy
 
 
 
@@ -591,7 +591,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         if self.game.get_guess_count() == 0:
             # print("First guess: SOARE (optimal starting word)")
             print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
-            return "SOARE"
+            return "SOARE", -1
         
         candidate_pool = self._get_candidate_pool()
         print(f"Evaluating {len(candidate_pool)} potential guesses from {len(self.candidates)} remaining candidates...")
@@ -624,7 +624,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
                 print(f"Ended up choosing COMMON word: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
                 break
         
-        return best_word
+        return best_word, best_entropy
     
     def reset_for_new_game(self):
         """Reset bot state while keeping shared cache"""
@@ -647,7 +647,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
 
             if self.game.get_guess_count() == 0:
                 print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
-                return "SOARE"
+                return "SOARE", -1 
 
             num_candidates = len(self.candidates)
             print(f"{num_candidates} candidate words remaining.")
@@ -671,7 +671,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
             # If we're still in exploration mode, prefer a high-entropy guess even if not a valid candidate
             if self.game.get_guess_count() <= 2:
                 print(f"Guess count low, choosing the word with highest entropy: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
-                return best_word    
+                return best_word, best_entropy      
             if use_full_word_list:
                 for word, entropy in entropy_list[:10]:
                     entropy_loss = (best_entropy - entropy) / best_entropy 
@@ -680,7 +680,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                     if word in self.common_words and entropy_loss < MAX_ENTROPY_LOSS_FOR_COMMON_WORDS: 
                         print(f"Using common exploratory word: {to_fancy(word)} with entropy: {entropy:.4f}")
                         return word
-                return best_word
+                return best_word, best_entropy  
             else:
                 print(f"Few candidates left, going through them all to pick a common word...")
                 for word, entropy in entropy_list[:10]:
@@ -688,7 +688,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                         print(f"Using common word: {to_fancy(word)} with entropy: {entropy:.4f}")
                         return word
                 # In exploitation mode: just guess from remaining candidates
-            return best_word
+            return best_word, best_entropy
 
 
 # Usage example
