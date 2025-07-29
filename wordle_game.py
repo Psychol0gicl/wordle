@@ -168,6 +168,36 @@ class WordleGame:
                 # print(feedback+"\n" + "-"*25)
                 print("-"*10)
 
+    def set_secret_word(self, word):
+        self.secret_word = word
+        self.check_letters_secret_word()
+
+    def let_bot_guess_a_word(self, bot, word = None):
+
+
+        print(f"\nBot: {bot.__class__.__name__} guessing the word: {word}")
+        if word is None:
+            print("Please provide a word to guess.")
+            return
+        self.set_secret_word(word)
+        while(True):
+            if self.check_game_over():
+                break
+            guess = bot.choose_guess()
+
+            guess = guess.upper()
+            bot.guess_history.append(guess)
+
+            feedback = self.guess(guess)
+            if feedback is not None:
+                self.feedback_history.append(feedback)
+                bot.receive_feedback(feedback)
+                # print(feedback+"\n" + "-"*25)
+                print("-"*10)
+        print("\n" + "=" * 35 + "\nHistory:")
+        for i  in range(self.get_guess_count()):
+            print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
+        print("=" * 35)
 
 
     def reset_game(self, new_word):
@@ -197,6 +227,11 @@ class WordleGame:
     #     print("Testing bot class: " + bot_class.__name__ + " complete.")
     #     return results
     
+    def print_guess_history(self):
+        print("\n" + "=" * 35 + "\nHistory:")
+        for i  in range(self.get_guess_count()):
+            print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
+        print("=" * 35)
 
     def test_bot(self, word_list, bot_class, file_name=None):
         results = {"W": 0, "L": 0}
@@ -244,9 +279,9 @@ class WordleGame:
 
 
 
-    def test_bot_optimized_x_words(self, word_list, bot_class, x: int = 500, random_seed: int = None, file_name=None):
-        RANDOM_SEED = 42
-        np.random.seed(RANDOM_SEED)
+    def test_bot_optimized_x_words(self, word_list, bot_class, x: int = 500, file_name=None):
+        # RANDOM_SEED = 42
+        # np.random.seed(RANDOM_SEED)
         results = {"W": 0, "L": 0}
         total_start = time.time()
         
@@ -292,10 +327,7 @@ class WordleGame:
             # Run the game
             self.game_loop_bot(bot)
 
-            print("\n" + "=" * 35 + "\nHistory:")
-            for i  in range(self.get_guess_count()):
-                print(f"Guess: {to_fancy(self.guess_history[i])}, Feedback: {self.feedback_history[i]}")
-            print("=" * 10)
+            self.print_guess_history()
             word_time = time.time() - word_start
             print(f"Time taken for '{word}': {word_time:.4f} seconds")
             
@@ -443,6 +475,9 @@ def analyze_guess_data(guess_data):
 
 
 def to_fancy(text):
+    if sys.stdout is sys.__stdout__:
+        return text
+
     fancy_map = {
         'A': '𝘼', 'B': '𝘽', 'C': '𝘾', 'D': '𝘿', 'E': '𝙀',
         'F': '𝙁', 'G': '𝙂', 'H': '𝙃', 'I': '𝙄', 'J': '𝙅',

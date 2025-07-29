@@ -4,7 +4,7 @@ import os
 import hashlib
 import time
 import math
-from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
+from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy, WordleGame
 from wordle_bot import WordleBot
 from entropy_wordle_bot import EntropyWordleBot
 from functools import lru_cache
@@ -13,7 +13,7 @@ from collections import Counter, defaultdict
 MAX_ENTROPY_LOSS_FOR_COMMON_WORDS = 0.2
 class OptimizedEntropyWordleBot(EntropyWordleBot):  
 
-    def __init__(self, game, word_list, common_words):
+    def __init__(self, game: WordleGame, word_list, common_words):
         super().__init__(game, word_list, common_words)
         # Precompute feedback patterns for all word pairs (one-time cost)
         self.feedback_cache = {}
@@ -160,7 +160,7 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
 
 
 class HybridOptimizedEntropyWordleBot(OptimizedEntropyWordleBot):
-    def __init__(self, game, word_list, common_words):
+    def __init__(self, game: WordleGame, word_list, common_words):
         super().__init__(game, word_list, common_words)
         self.feedback_cache = {}
         # Precompute only the most common patterns
@@ -489,7 +489,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
     _entropy_system = None
     _cache_loaded = False
     
-    def __init__(self, game, word_list, common_words):
+    def __init__(self, game: WordleGame, word_list, common_words):
         # Call EntropyWordleBot.__init__ directly, skip OptimizedEntropyWordleBot
         print("Calculating letter frequencies...")
         letter_counts = Counter(letter for word in word_list for letter in set(word))
@@ -669,6 +669,9 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
             print(f"Top entropy choice: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
 
             # If we're still in exploration mode, prefer a high-entropy guess even if not a valid candidate
+            if self.game.get_guess_count() <= 2:
+                print(f"Guess count low, choosing the word with highest entropy: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
+                return best_word    
             if use_full_word_list:
                 for word, entropy in entropy_list[:10]:
                     entropy_loss = (best_entropy - entropy) / best_entropy 
@@ -679,9 +682,12 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                         return word
                 return best_word
             else:
+                print(f"Few candidates left, going through them all to pick a common word...")
+                for word, entropy in entropy_list[:10]:
+                    if word in self.common_words:
+                        print(f"Using common word: {to_fancy(word)} with entropy: {entropy:.4f}")
+                        return word
                 # In exploitation mode: just guess from remaining candidates
-                print(f"Few candidates left; guessing likely answer: {to_fancy(best_word)}")
-                return best_word
 
 
 # Usage example
