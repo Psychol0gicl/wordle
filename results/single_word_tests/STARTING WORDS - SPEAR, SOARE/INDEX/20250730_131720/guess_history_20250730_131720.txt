@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙄𝙉𝘿𝙀𝙓 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜🟨🟨🟩🟨
+Guess: 𝙄𝙉𝘿𝙀𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙀𝙓 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟨⬜🟩🟨, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 7.867 bits, Posterior Entropy: 1.000, 
+Guess: 𝙄𝙉𝘿𝙀𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙀𝙓 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟨⬜🟩🟨, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 7.867 bits, Posterior Entropy: 1.000, 
+Guess: 𝙄𝙉𝘿𝙀𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙀𝙓 ___
+
+===================================
+History:
+Guess: 𝘼𝙀𝙍𝙊𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.003 bits, Actual Info Gain: 4.546 bits, Posterior Entropy: 9.313, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 9.313, Expected Info Gain: 5.313 bits, Actual Info Gain: 2.955 bits, Posterior Entropy: 6.358, 
+Guess: 𝙈𝙄𝙉𝙀𝘿, Feedback: ⬜🟨🟨🟩🟨, Prior Entropy: 6.358, Expected Info Gain: 3.774 bits, Actual Info Gain: 5.358 bits, Posterior Entropy: 1.000, 
+Guess: 𝙄𝙉𝘿𝙀𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙄𝙉𝘿𝙀𝙓 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 7.867 bits, Posterior Entropy: 1.000, 
+Guess: 𝙄𝙉𝘿𝙀𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
