@@ -490,19 +490,18 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
     _entropy_system = None
     _cache_loaded = False
     
+    
     def __init__(self, game: WordleGame, word_list, common_words):
         # Call EntropyWordleBot.__init__ directly, skip OptimizedEntropyWordleBot
-        print("Calculating letter frequencies...")
-        letter_counts = Counter(letter for word in word_list for letter in set(word))
-        total_letters = sum(letter_counts.values())
-
-        # Normalize to get letter frequencies
-        self.letter_frequency = {letter: count / total_letters for letter, count in letter_counts.items()}
-
-        # Step 2: Create a fake frequency score for each word based on its unique letters
+        
+        # Load letter frequencies using the new system
+        print("Loading letter frequencies...")
+        self.letter_frequency = load_letter_frequencies(word_list)
+        
+        # Step 2: Create a frequency score for each word based on its unique letters
         def word_score(word):
             return sum(self.letter_frequency.get(ch, 0) for ch in set(word))
-
+        
         # Step 3: Sort common_words by descending score
         self.common_words = sorted(common_words, key=word_score, reverse=True)
         # print("Common words sorted by score:", self.common_words[:100])
@@ -522,7 +521,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
             CachedEntropyWordleBot._cache_loaded = True
         
         self.entropy_system = CachedEntropyWordleBot._entropy_system
-    
+
     def get_feedback(self, guess_word, secret_word):
         """Use cached feedback if available"""
         cache_key = (guess_word, secret_word)
@@ -650,7 +649,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                 return OPTIMAL_STARTING_TUPLE
 
             num_candidates = len(self.candidates)
-            print(f"THe possible candidates are: {self.candidates}")
+            # print(f"THe possible candidates are: {self.candidates}")
             print(f"{num_candidates} candidate words remaining.")
 
             # Use full word list as guess pool for entropy, especially when many candidates remain
@@ -745,6 +744,161 @@ def check_and_setup_entropy_cache(all_words, common_words, cache_dir="entropy_ca
         setup_entropy_cache(all_words, common_words)
         print("Cache creation complete!")
         return False
+
+
+
+
+
+class LetterFrequencySystem:
+    """System for precomputing and caching letter frequency values"""
+    
+    def __init__(self, word_list, cache_dir="frequency_cache"):
+        self.word_list = word_list
+        self.cache_dir = cache_dir
+        self.letter_frequency = {}
+        
+        # Create cache directory
+        os.makedirs(cache_dir, exist_ok=True)
+        
+        # Generate unique hash for this word list
+        self.word_list_hash = self._generate_word_list_hash()
+        self.cache_file = os.path.join(cache_dir, f"letter_freq_{self.word_list_hash}.pkl")
+        self.metadata_file = os.path.join(cache_dir, f"freq_metadata_{self.word_list_hash}.json")
+    
+    def _generate_word_list_hash(self):
+        """Generate unique hash for current word list"""
+        combined = ''.join(sorted(self.word_list))
+        return hashlib.md5(combined.encode()).hexdigest()[:12]
+    
+    def precompute_letter_frequencies(self):
+        """Precompute letter frequencies from word list"""
+        print("Computing letter frequencies...")
+        
+        # Count letters (only unique letters per word)
+        letter_counts = Counter(letter for word in self.word_list for letter in set(word))
+        total_letters = sum(letter_counts.values())
+        
+        # Normalize to get frequencies
+        self.letter_frequency = {
+            letter: count / total_letters 
+            for letter, count in letter_counts.items()
+        }
+        
+        print(f"Computed frequencies for {len(self.letter_frequency)} letters")
+        print(f"Based on {len(self.word_list)} words")
+    
+    def save_cache(self):
+        """Save precomputed letter frequencies to disk"""
+        cache_data = {
+            'letter_frequency': self.letter_frequency,
+            'word_list_hash': self.word_list_hash
+        }
+        
+        metadata = {
+            'num_words': len(self.word_list),
+            'num_letters': len(self.letter_frequency),
+            'created_time': time.time(),
+            'word_list_hash': self.word_list_hash
+        }
+        
+        # Save binary cache
+        with open(self.cache_file, 'wb') as f:
+            pickle.dump(cache_data, f, protocol=pickle.HIGHEST_PROTOCOL)
+        
+        # Save human-readable metadata
+        with open(self.metadata_file, 'w') as f:
+            json.dump(metadata, f, indent=2)
+        
+        print(f"Letter frequency cache saved to {self.cache_file}")
+        print(f"Metadata saved to {self.metadata_file}")
+    
+    def load_cache(self):
+        """Load precomputed letter frequencies from disk"""
+        if not os.path.exists(self.cache_file):
+            print(f"Cache file not found: {self.cache_file}")
+            return False
+        
+        try:
+            with open(self.cache_file, 'rb') as f:
+                cache_data = pickle.load(f)
+            
+            # Verify this cache matches our word list
+            if cache_data['word_list_hash'] != self.word_list_hash:
+                print("Cache was created with different word list - ignoring")
+                return False
+            
+            self.letter_frequency = cache_data['letter_frequency']
+            
+            print(f"Loaded letter frequency cache with {len(self.letter_frequency)} letters")
+            return True
+            
+        except Exception as e:
+            print(f"Error loading letter frequency cache: {e}")
+            return False
+    
+    def get_letter_frequencies(self):
+        """Get the computed letter frequencies"""
+        return self.letter_frequency.copy()
+
+
+# Utility functions for setup
+def setup_letter_frequency_cache(word_list, cache_dir="frequency_cache"):
+    """One-time setup to create letter frequency cache"""
+    print("Setting up letter frequency cache...")
+    
+    freq_system = LetterFrequencySystem(word_list, cache_dir)
+    freq_system.precompute_letter_frequencies()
+    freq_system.save_cache()
+    
+    print("Letter frequency setup complete! Future instances will load instantly.")
+
+
+def check_and_setup_letter_frequency_cache(word_list, cache_dir="frequency_cache"):
+    """Check if letter frequency cache exists, create it only if needed"""
+    
+    # Generate the same hash that LetterFrequencySystem uses
+    def generate_word_list_hash(word_list):
+        combined = ''.join(sorted(word_list))
+        return hashlib.md5(combined.encode()).hexdigest()[:12]
+    
+    word_list_hash = generate_word_list_hash(word_list)
+    cache_file = os.path.join(cache_dir, f"letter_freq_{word_list_hash}.pkl")
+    metadata_file = os.path.join(cache_dir, f"freq_metadata_{word_list_hash}.json")
+    
+    # Check if cache already exists
+    if os.path.exists(cache_file) and os.path.exists(metadata_file):
+        print(f"Letter frequency cache found: {cache_file}")
+        
+        # Optional: Show cache info
+        try:
+            with open(metadata_file, 'r') as f:
+                metadata = json.load(f)
+            print(f"Cache contains frequencies for {metadata.get('num_letters', 'unknown')} letters")
+            print(f"Based on {metadata.get('num_words', 'unknown')} words")
+            print("Skipping letter frequency cache creation.")
+        except:
+            print("Cache exists but metadata unreadable - proceeding anyway.")
+        
+        return True
+    else:
+        print("Letter frequency cache not found - creating new cache...")
+        print("This should take just a few seconds...")
+        
+        setup_letter_frequency_cache(word_list, cache_dir)
+        print("Letter frequency cache creation complete!")
+        return False
+
+
+def load_letter_frequencies(word_list, cache_dir="frequency_cache"):
+    """Load letter frequencies, computing if cache doesn't exist"""
+    freq_system = LetterFrequencySystem(word_list, cache_dir)
+    
+    if not freq_system.load_cache():
+        print("Computing letter frequencies since cache not available...")
+        freq_system.precompute_letter_frequencies()
+    
+    return freq_system.get_letter_frequencies()
+
 
 
 # Example usage in your code:

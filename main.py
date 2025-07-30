@@ -4,9 +4,9 @@ import sys
 from wordle_game import WordleGame
 from wordle_bot import WordleBot
 from entropy_wordle_bot import EntropyWordleBot
-from optimized_entropy_wordle_bot import OptimizedEntropyWordleBot, HybridOptimizedEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot
+from optimized_entropy_wordle_bot import OptimizedEntropyWordleBot, HybridOptimizedEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot 
 from approximation_wordle_bot import FastEntropyWordleBot
-from optimized_entropy_wordle_bot import setup_entropy_cache, check_and_setup_entropy_cache    
+from optimized_entropy_wordle_bot import setup_entropy_cache, check_and_setup_entropy_cache, check_and_setup_letter_frequency_cache    
 
 print("+" *50 + "\n" + "Welcome to Wordle Bot Tester" + "\n" + "+" *50 + "\n")
 game: WordleGame = WordleGame()
@@ -42,7 +42,9 @@ secret_word = ""
 bot_classes = [WordleBot, EntropyWordleBot, FastEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot]
 bot_classes = [NonGreedyCachedEntropyWordleBot]
 words = game.common_words
-words = ["ASSAY"]
+words = ["GUESS"]
+check_and_setup_letter_frequency_cache(game.all_words)
+
 for word in words:
     # game.test_every_bot_on_a_single_word(word, bot_classes, file_name="every_bot_on_a_single_word.txt")
     game.test_every_bot_on_a_single_word(word, bot_classes)
