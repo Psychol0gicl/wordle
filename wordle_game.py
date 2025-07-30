@@ -386,6 +386,9 @@ class WordleGame:
 
 
     def test_every_bot_on_a_single_word(self, secret_word, bot_classes, file_name: str = None): 
+        if len(secret_word) != 5:
+            print("Secret word must be 5 characters long.")
+            return
         if secret_word is None:
             print("Please provide a secret word.")
             return

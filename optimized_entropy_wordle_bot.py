@@ -641,6 +641,19 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
 
 class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
         def choose_guess(self):
+            def has_at_least_four_matching_positions(words):
+                if not words or any(len(word) != 5 for word in words):
+                    raise ValueError("All words must be 5 letters long.")
+
+                # Transpose the words: positions[0] is the list of all first letters, etc.
+                positions = list(zip(*words))
+                
+                # Count how many positions have the same character across all words
+                matching_positions = sum(len(set(pos)) == 1 for pos in positions)
+                
+                return matching_positions >= 4
+
+            
             """Improved strategy: balances entropy vs. greedy answer guessing"""
             print("The bot is making a guess...")
 
@@ -649,7 +662,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                 return OPTIMAL_STARTING_TUPLE
 
             num_candidates = len(self.candidates)
-            # print(f"THe possible candidates are: {self.candidates}")
+            print(f"THe possible candidates are: {self.candidates}")
             print(f"{num_candidates} candidate words remaining.")
 
             # Use full word list as guess pool for entropy, especially when many candidates remain
@@ -673,7 +686,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                 print(f"Guess count low, choosing the word with highest entropy: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
                 return best_word, best_entropy      
 
-            if self.game.get_guess_count() >= 3:
+            if self.game.get_guess_count() >= 3 and num_candidates < 8 and not has_at_least_four_matching_positions(self.candidates):
                 for word, entropy in entropy_list:
                     if word in self.common_words and word in self.candidates:
                         print(f"Guess count high, choosing a candidate with the highest entropy: {to_fancy(word)} with entropy: {entropy:.4f}")
