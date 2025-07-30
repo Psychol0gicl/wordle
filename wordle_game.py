@@ -18,9 +18,9 @@ os.makedirs(RESULT_FOLDER, exist_ok=True)
 class WordleGame:
     def __init__(self):
         # self.common_words = self.load_words("wordle-answers-alphabetical.txt")
-        self.common_words = self.load_words_json("word-data.json")
+        self.common_words = self.load_words_json("data/word-data.json")
 
-        self.all_words  =self.load_words("valid-wordle-words.txt") 
+        self.all_words  =self.load_words("data/valid-wordle-words.txt") 
 
         self.weights = np.array([self.weight_function(word) for word in self.all_words])
         total_weight = self.weights.sum()

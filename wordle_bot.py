@@ -1,4 +1,5 @@
 from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
+from collections import Counter
 class WordleBot:
     def __init__(self, game, word_list, common_words):
         self.game = game
@@ -12,7 +13,10 @@ class WordleBot:
 
 
     def choose_guess(self):
-        from collections import Counter
+        if self.game.get_guess_count() == 0:
+            print(f"First Starting word: 'TARES' (Best starting word for catching common words)")
+            return "TARES"
+
 
         letter_counts = Counter(''.join(self.candidates))
         scored = [(word, sum(letter_counts[c] for c in set(word))) for word in self.candidates]

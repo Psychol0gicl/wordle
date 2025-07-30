@@ -3,6 +3,10 @@ from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy
 from wordle_bot import WordleBot
 
 
+OPTIMAL_STARTING_TUPLE = ('TARES', 6.15937645579268)
+
+
+
 class EntropyWordleBot(WordleBot):  
     def __init__(self, game, word_list, common_words):
         super().__init__(game, word_list, common_words)
@@ -59,10 +63,9 @@ class EntropyWordleBot(WordleBot):
 
         print("\nThe bot is making a guess...")
         if self.game.get_guess_count() == 0:
-            # print(f"Candidates after choosing: {len(self.candidates)}")
-            print("First guess by a human: SPEAR")
+                print(f"First Starting word: {OPTIMAL_STARTING_TUPLE[0]} (Best starting word for catching common words)")
+                return OPTIMAL_STARTING_TUPLE
 
-            return "SPEAR", -1 # TODO: #8 fix this, find out the entropy of the first guess
         best_word = ""
         best_entropy = -1
         

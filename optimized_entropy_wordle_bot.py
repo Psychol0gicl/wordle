@@ -6,7 +6,7 @@ import time
 import math
 from wordle_game import GREY_SQUARE, YELLOW_SQUARE, GREEN_SQUARE, to_fancy, WordleGame
 from wordle_bot import WordleBot
-from entropy_wordle_bot import EntropyWordleBot
+from entropy_wordle_bot import EntropyWordleBot, OPTIMAL_STARTING_TUPLE
 from functools import lru_cache
 from collections import Counter, defaultdict
 
@@ -116,8 +116,9 @@ class OptimizedEntropyWordleBot(EntropyWordleBot):
         print("The bot is making a guess...")
         
         if self.game.get_guess_count() == 0:
-            print("First guess: SOARE (optimal starting word)")
-            return "SOARE", -1  # Proven optimal first guess
+            print(f"First Starting word: {OPTIMAL_STARTING_TUPLE[0]} (Best starting word for catching common words)")
+            return OPTIMAL_STARTING_TUPLE
+            
         
         # Smart candidate pool selection
         candidate_pool = self._get_candidate_pool()
@@ -576,7 +577,7 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         elif len(self.candidates) <= 200:
             pool = set(self.candidates)
             print("Updating candidate pool: Adding 100 common words...")
-            print(self.common_words[:100])
+            # print(self.common_words[:100])
             pool.update(w for w in self.common_words[:100] if w in self.all_words)
             return list(pool)
         else:
@@ -589,10 +590,9 @@ class CachedEntropyWordleBot(EntropyWordleBot):  # Inherit from EntropyWordleBot
         print("The bot is making a guess...")
         
         if self.game.get_guess_count() == 0:
-            # print("First guess: SOARE (optimal starting word)")
-            print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
-            return "SOARE", -1
-        
+            print(f"First Starting word: {OPTIMAL_STARTING_TUPLE[0]} (Best starting word for catching common words)")
+            return OPTIMAL_STARTING_TUPLE
+
         candidate_pool = self._get_candidate_pool()
         print(f"Evaluating {len(candidate_pool)} potential guesses from {len(self.candidates)} remaining candidates...")
         
@@ -646,10 +646,11 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
             print("The bot is making a guess...")
 
             if self.game.get_guess_count() == 0:
-                print(f"First guess: {to_fancy('SOARE')} (optimal starting word)")
-                return "SOARE", -1 
+                print(f"First Starting word: {OPTIMAL_STARTING_TUPLE[0]} (Best starting word for catching common words)")
+                return OPTIMAL_STARTING_TUPLE
 
             num_candidates = len(self.candidates)
+            print(f"THe possible candidates are: {self.candidates}")
             print(f"{num_candidates} candidate words remaining.")
 
             # Use full word list as guess pool for entropy, especially when many candidates remain
@@ -665,13 +666,21 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
             entropy_list.sort(key=lambda x: x[1], reverse=True)
 
             best_word, best_entropy = entropy_list[0]
-            print(f"Top 5 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:5]]}")
+            print(f"Top 10 guesses: {[(w, f'{e:.3f}') for w, e in entropy_list[:10]]}")
             print(f"Top entropy choice: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
 
             # If we're still in exploration mode, prefer a high-entropy guess even if not a valid candidate
-            if self.game.get_guess_count() <= 2:
+            if self.game.get_guess_count() < 2: # So for first or second guess
                 print(f"Guess count low, choosing the word with highest entropy: {to_fancy(best_word)} with entropy: {best_entropy:.4f}")
                 return best_word, best_entropy      
+
+            if self.game.get_guess_count() >= 3:
+                for word, entropy in entropy_list:
+                    if word in self.common_words and word in self.candidates:
+                        print(f"Guess count high, choosing a candidate with the highest entropy: {to_fancy(word)} with entropy: {entropy:.4f}")
+                        return word, entropy
+
+
             if use_full_word_list:
                 for word, entropy in entropy_list[:10]:
                     entropy_loss = (best_entropy - entropy) / best_entropy 
