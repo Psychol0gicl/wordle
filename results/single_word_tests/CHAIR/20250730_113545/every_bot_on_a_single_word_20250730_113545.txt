@@ -1,0 +1,229 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝘼𝙄𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CIMAR 
+The top ten guesses and scores: [('CIMAR', 125), ('CLAIR', 124), ('FIRMA', 121), ('IHRAM', 121), ('MIRAH', 121), ('RIVAL', 121), ('VICAR', 121), ('VIRAL', 121), ('CHAIR', 120), ('CIGAR', 120)]
+The bot finally chose: CLAIR 
+GUESS: CLAIR
+Guess: 𝘾𝙇𝘼𝙄𝙍, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CHAIR 
+The top ten guesses and scores: [('CHAIR', 5)]
+The bot finally chose: CHAIR 
+GUESS: CHAIR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘾𝙇𝘼𝙄𝙍, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝘼𝙄𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAGOR with entropy: 3.4151
+Bot chose: GATOR with entropy: 3.1883
+Top ten guesses: [('NAGOR', 3.41506592155557), ('GATOR', 3.188331131693838), ('MANOR', 3.0660889497439903), ('MAROR', 3.0348497126994363), ('ALGOR', 3.0208435533622513), ('GLAIR', 3.0160131999400743), ('LABOR', 3.012777593192335), ('FLAIR', 2.9321380397593746), ('GNARR', 2.9312952802328742), ('JAGIR', 2.899022751175654)]
+GUESS: GATOR
+
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.188331131693838}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CHAIR with entropy: 2.5000
+Bot chose: CHAIR with entropy: 2.5000
+Top ten guesses: [('CHAIR', 2.5), ('CHARR', 2.4056390622295662), ('CLAIR', 2.4056390622295662), ('FLAIR', 2.1556390622295662), ('WHAUR', 2.1556390622295662), ('FNARR', 2.0), ('KNAUR', 2.0), ('QUAIR', 1.9056390622295665)]
+GUESS: CHAIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.188 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝘼𝙄𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 8.6107 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 8.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAGOR with entropy: 3.4151
+Bot chose: GATOR with entropy: 3.1883
+Top ten guesses: [('NAGOR', 3.41506592155557), ('GATOR', 3.188331131693838), ('MANOR', 3.0660889497439903), ('MAROR', 3.0348497126994363), ('ALGOR', 3.0208435533622513), ('GLAIR', 3.0160131999400743), ('LABOR', 3.012777593192335), ('FLAIR', 2.9321380397593746), ('GNARR', 2.9312952802328742), ('JAGIR', 2.899022751175654)]
+GUESS: GATOR
+
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.188331131693838}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CHAIR with entropy: 2.5000
+Bot chose: CHAIR with entropy: 2.5000
+Top ten guesses: [('CHAIR', 2.5), ('CHARR', 2.4056390622295662), ('CLAIR', 2.4056390622295662), ('FLAIR', 2.1556390622295662), ('WHAUR', 2.1556390622295662), ('FNARR', 2.0), ('KNAUR', 2.0), ('QUAIR', 1.9056390622295665)]
+GUESS: CHAIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.188 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝘼𝙄𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0007 bits
+Posterior entropy: 6.857980995127572
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.857980995127572, 'actual_info_gain': 7.000679989595205, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 216 potential guesses from 116 remaining candidates...
+Top 5 guesses: [('THING', '4.075'), ('THINK', '3.982'), ('NIGHT', '3.896'), ('LIGHT', '3.708'), ('UNTIL', '3.687')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙂 with entropy: 4.0750
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙂 with entropy: 4.0750
+GUESS: THING
+
+Guess: 𝙏𝙃𝙄𝙉𝙂, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.8580 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.857980995127572, 'posterior_entropy': 0.0, 'actual_info_gain': 6.857980995127572, 'expected_info_gain': 4.075037094736766}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CHAIR', '0.000')]
+Top entropy choice: 𝘾𝙃𝘼𝙄𝙍 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝙃𝘼𝙄𝙍 with entropy: 0.0000
+GUESS: CHAIR
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.001 bits, Posterior Entropy: 6.858, 
+Guess: 𝙏𝙃𝙄𝙉𝙂, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.858, Expected Info Gain: 4.075 bits, Actual Info Gain: 6.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝘼𝙄𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0007 bits
+Posterior entropy: 6.857980995127572
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.857980995127572, 'actual_info_gain': 7.000679989595205, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+116 candidate words remaining.
+Top 5 guesses: [('CLINT', '4.342'), ('GLINT', '4.331'), ('CUNIT', '4.234'), ('CLIPT', '4.208'), ('TUNIC', '4.153')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 4.3420
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 4.3420
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 5.2730 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.857980995127572, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.273018494406416, 'expected_info_gain': 4.342039981608079}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('CRAIC', '1.585'), ('CRAIG', '1.585'), ('CHAIR', '0.918')]
+Top entropy choice: 𝘾𝙍𝘼𝙄𝘾 with entropy: 1.5850
+Guess count low, choosing the word with highest entropy: 𝘾𝙍𝘼𝙄𝘾 with entropy: 1.5850
+GUESS: CRAIC
+
+Guess: 𝘾𝙍𝘼𝙄𝘾, Feedback: 🟩🟨🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CHAIR', '0.000')]
+Top entropy choice: 𝘾𝙃𝘼𝙄𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙃𝘼𝙄𝙍 with entropy: 0.0000
+GUESS: CHAIR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.001 bits, Posterior Entropy: 6.858, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 6.858, Expected Info Gain: 4.342 bits, Actual Info Gain: 5.273 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙍𝘼𝙄𝘾, Feedback: 🟩🟨🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝘼𝙄𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

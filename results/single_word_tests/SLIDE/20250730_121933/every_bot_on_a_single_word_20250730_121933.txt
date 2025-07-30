@@ -1,0 +1,309 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝙄𝘿𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SUITE 
+The top ten guesses and scores: [('SUITE', 337), ('ISTLE', 336), ('STILE', 336), ('PISTE', 330), ('SPITE', 330), ('STIPE', 330), ('SMITE', 328), ('STIME', 328), ('STIVE', 322), ('SHITE', 321)]
+The bot finally chose: SUITE 
+GUESS: SUITE
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SLIPE 
+The top ten guesses and scores: [('SLIPE', 90), ('SPILE', 90), ('SNIPE', 89), ('SPINE', 89), ('SLIVE', 87), ('SNIVE', 86), ('SWILE', 86), ('SWIPE', 86), ('SLIDE', 85), ('SLIME', 85)]
+The bot finally chose: SNIPE 
+GUESS: SNIPE
+Guess: 𝙎𝙉𝙄𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SLIVE 
+The top ten guesses and scores: [('SLIVE', 44), ('SLIME', 43), ('SMILE', 43), ('SWILE', 42), ('SLICE', 41), ('SLIDE', 41), ('SWIVE', 40), ('SHIVE', 39), ('SKIVE', 39), ('SMIZE', 39)]
+The bot finally chose: SLIME 
+GUESS: SLIME
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SLICE 
+The top ten guesses and scores: [('SLICE', 13), ('SLIDE', 13), ('SLIVE', 13)]
+The bot finally chose: SLICE 
+GUESS: SLICE
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SLIDE 
+The top ten guesses and scores: [('SLIDE', 9), ('SLIVE', 9)]
+The bot finally chose: SLIDE 
+GUESS: SLIDE
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝙎𝙉𝙄𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙇𝙄𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝙄𝘿𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.5199 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.5198674724992713, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STILE with entropy: 2.4404
+Bot chose: SLIME with entropy: 2.4165
+Top ten guesses: [('STILE', 2.440404017720928), ('SLIME', 2.4164997849817107), ('SMILE', 2.4164997849817107), ('SMITE', 2.4164997849817107), ('STIME', 2.4164997849817107), ('SLIVE', 2.1451363701530526), ('STIVE', 2.1162996057016965), ('SKITE', 1.8498687225851778), ('SHITE', 1.8498687225851775), ('SWILE', 1.8210319581338212)]
+GUESS: SLIME
+
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 2.4164997849817107}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLICE with entropy: 0.9183
+Bot chose: SLICE with entropy: 0.9183
+Top ten guesses: [('SLICE', 0.9182958340544896), ('SLIDE', 0.9182958340544896), ('SLIVE', 0.9182958340544896)]
+GUESS: SLICE
+
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLIDE with entropy: 1.0000
+Bot chose: SLIDE with entropy: 1.0000
+Top ten guesses: [('SLIDE', 1.0), ('SLIVE', 1.0)]
+GUESS: SLIDE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.520 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 2.416 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙇𝙄𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙄𝘿𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.5199 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.5198674724992713, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STILE with entropy: 2.4404
+Bot chose: SLIME with entropy: 2.4165
+Top ten guesses: [('STILE', 2.440404017720928), ('SLIME', 2.4164997849817107), ('SMILE', 2.4164997849817107), ('SMITE', 2.4164997849817107), ('STIME', 2.4164997849817107), ('SLIVE', 2.1451363701530526), ('STIVE', 2.1162996057016965), ('SKITE', 1.8498687225851778), ('SHITE', 1.8498687225851775), ('SWILE', 1.8210319581338212)]
+GUESS: SLIME
+
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 2.4164997849817107}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLICE with entropy: 0.9183
+Bot chose: SLICE with entropy: 0.9183
+Top ten guesses: [('SLICE', 0.9182958340544896), ('SLIDE', 0.9182958340544896), ('SLIVE', 0.9182958340544896)]
+GUESS: SLICE
+
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLIDE with entropy: 1.0000
+Bot chose: SLIDE with entropy: 1.0000
+Top ten guesses: [('SLIDE', 1.0), ('SLIVE', 1.0)]
+GUESS: SLIDE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.520 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 2.416 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙇𝙄𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙄𝘿𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 176 potential guesses from 77 remaining candidates...
+Top 5 guesses: [('UNTIL', '3.817'), ('THINK', '3.779'), ('THING', '3.629'), ('LIGHT', '3.605'), ('CHILD', '3.599')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.8168
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 3.8168
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 3.0969 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 3.096861539252589, 'expected_info_gain': 3.816808491121397}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('SLIME', '2.059'), ('SLIPE', '2.059'), ('SMILE', '2.059'), ('SPILE', '2.059'), ('SLICE', '1.753')]
+Top entropy choice: 𝙎𝙇𝙄𝙈𝙀 with entropy: 2.0588
+Ended up choosing COMMON word: 𝙎𝙇𝙄𝙈𝙀 with entropy: 2.0588
+GUESS: SLIME
+
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 2.058813890331201}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('SLICE', '0.811'), ('SLIDE', '0.811'), ('SLIPE', '0.811'), ('SLIVE', '0.811')]
+Top entropy choice: 𝙎𝙇𝙄𝘾𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙎𝙇𝙄𝘾𝙀 with entropy: 0.8113
+GUESS: SLICE
+
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SLIDE', '0.918'), ('SLIPE', '0.918'), ('SLIVE', '0.918')]
+Top entropy choice: 𝙎𝙇𝙄𝘿𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙇𝙄𝘿𝙀 with entropy: 0.9183
+GUESS: SLIDE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 6.267, Expected Info Gain: 3.817 bits, Actual Info Gain: 3.097 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙇𝙄𝙈𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙇𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝙄𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙄𝘿𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 7.5919 bits
+Posterior entropy: 6.266786540694901
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.266786540694901, 'actual_info_gain': 7.591874444027876, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+77 candidate words remaining.
+Top 5 guesses: [('CLIPT', '4.180'), ('MILTY', '4.129'), ('CLINT', '4.121'), ('LINTY', '4.101'), ('ELITE', '4.032')]
+Top entropy choice: 𝘾𝙇𝙄𝙋𝙏 with entropy: 4.1796
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙋𝙏 with entropy: 4.1796
+GUESS: CLIPT
+
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 4.6818 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.266786540694901, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.681824039973745, 'expected_info_gain': 4.17963258557609}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('SLIDE', '0.918'), ('SLIME', '0.918'), ('SLIVE', '0.918')]
+Top entropy choice: 𝙎𝙇𝙄𝘿𝙀 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙎𝙇𝙄𝘿𝙀 with entropy: 0.9183
+GUESS: SLIDE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝘾𝙇𝙄𝙋𝙏, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 6.267, Expected Info Gain: 4.180 bits, Actual Info Gain: 4.682 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝙄𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

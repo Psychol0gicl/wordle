@@ -1,0 +1,265 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙀𝙈𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: TUILE 
+The top ten guesses and scores: [('TUILE', 1012), ('UTILE', 1012), ('UNITE', 1005), ('UNTIE', 1005), ('INGLE', 998), ('LIGNE', 998), ('GUILE', 991), ('CLINE', 979), ('INCLE', 979), ('MULIE', 977)]
+The bot finally chose: UNITE 
+GUESS: UNITE
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: KYTHE 
+The top ten guesses and scores: [('KYTHE', 71), ('LYTHE', 71), ('THYME', 71), ('WYTHE', 70), ('HYTHE', 68), ('TYTHE', 68), ('LETHE', 64), ('THEME', 64), ('THEBE', 62), ('PTYPE', 61)]
+The bot finally chose: THYME 
+GUESS: THYME
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: THEME 
+The top ten guesses and scores: [('THEME', 5)]
+The bot finally chose: THEME 
+GUESS: THEME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙈𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.4923 bits
+Posterior entropy: 7.366322214245816
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.366322214245816, 'actual_info_gain': 6.492338770476961, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NEELD with entropy: 4.3948
+Bot chose: TEENY with entropy: 4.2487
+Top ten guesses: [('NEELD', 4.394760467937193), ('TEEND', 4.383913143113506), ('ELEET', 4.271871263733658), ('NEELE', 4.25922011430165), ('TEENE', 4.250028512815247), ('TEENY', 4.248673076092933), ('FLEET', 4.238032519285317), ('GLEET', 4.195565824188181), ('ELECT', 4.191590254748579), ('THEED', 4.174168858457817)]
+GUESS: TEENY
+
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 4.3663 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.366322214245816, 'posterior_entropy': 3.0, 'actual_info_gain': 4.366322214245816, 'expected_info_gain': 4.248673076092933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THETE with entropy: 2.2500
+Bot chose: TWEET with entropy: 2.2500
+Top ten guesses: [('THETE', 2.25), ('TWEET', 2.25), ('THEED', 2.1556390622295662), ('TWEED', 2.1556390622295662), ('THEBE', 1.9056390622295665), ('THEME', 1.9056390622295665), ('TWEEL', 1.9056390622295665), ('THEEK', 1.811278124459133)]
+GUESS: TWEET
+
+Guess: 𝙏𝙒𝙀𝙀𝙏, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.25}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEBE with entropy: 1.0000
+Bot chose: THEME with entropy: 1.0000
+Top ten guesses: [('THEBE', 1.0), ('THEME', 1.0)]
+GUESS: THEME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.366 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙏, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 2.250 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙈𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.4923 bits
+Posterior entropy: 7.366322214245816
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.366322214245816, 'actual_info_gain': 6.492338770476961, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NEELD with entropy: 4.3948
+Bot chose: TEENY with entropy: 4.2487
+Top ten guesses: [('NEELD', 4.394760467937193), ('TEEND', 4.383913143113506), ('ELEET', 4.271871263733658), ('NEELE', 4.25922011430165), ('TEENE', 4.250028512815247), ('TEENY', 4.248673076092933), ('FLEET', 4.238032519285317), ('GLEET', 4.195565824188181), ('ELECT', 4.191590254748579), ('THEED', 4.174168858457817)]
+GUESS: TEENY
+
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 4.3663 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.366322214245816, 'posterior_entropy': 3.0, 'actual_info_gain': 4.366322214245816, 'expected_info_gain': 4.248673076092933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THETE with entropy: 2.2500
+Bot chose: TWEET with entropy: 2.2500
+Top ten guesses: [('THETE', 2.25), ('TWEET', 2.25), ('THEED', 2.1556390622295662), ('TWEED', 2.1556390622295662), ('THEBE', 1.9056390622295665), ('THEME', 1.9056390622295665), ('TWEEL', 1.9056390622295665), ('THEEK', 1.811278124459133)]
+GUESS: TWEET
+
+Guess: 𝙏𝙒𝙀𝙀𝙏, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.25}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEBE with entropy: 1.0000
+Bot chose: THEME with entropy: 1.0000
+Top ten guesses: [('THEBE', 1.0), ('THEME', 1.0)]
+GUESS: THEME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 7.366, 
+Guess: 𝙏𝙀𝙀𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 7.366, Expected Info Gain: 4.249 bits, Actual Info Gain: 4.366 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙏, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 2.250 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙈𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 346 remaining candidates...
+Top 5 guesses: [('BUILT', '4.942'), ('UNTIL', '4.914'), ('BUILD', '4.807'), ('THING', '4.633'), ('LIGHT', '4.606')]
+Top entropy choice: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+GUESS: BUILT
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.6797 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 3.6797407254732573, 'expected_info_gain': 4.941602285901406}
+----------
+The bot is making a guess...
+Evaluating 27 potential guesses from 27 remaining candidates...
+Top 5 guesses: [('TEENE', '3.852'), ('THETE', '3.838'), ('TEHEE', '3.810'), ('KENTE', '3.574'), ('TEPEE', '3.528')]
+Top entropy choice: 𝙏𝙀𝙀𝙉𝙀 with entropy: 3.8525
+GUESS: TEENE
+
+Guess: 𝙏𝙀𝙀𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.7549 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7548875021634682, 'expected_info_gain': 3.8524975771042}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('THEME', '1.000'), ('THETE', '1.000')]
+Top entropy choice: 𝙏𝙃𝙀𝙈𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙈𝙀 with entropy: 1.0000
+GUESS: THEME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 3.680 bits, Posterior Entropy: 4.755, 
+Guess: 𝙏𝙀𝙀𝙉𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 3.852 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙀𝙈𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+346 candidate words remaining.
+Top 5 guesses: [('GUILT', '5.036'), ('GLINT', '4.996'), ('TUNIC', '4.992'), ('LINUM', '4.952'), ('BUILT', '4.942')]
+Top entropy choice: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+Guess count low, choosing the word with highest entropy: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+GUESS: GUILT
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.6797 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 3.6797407254732573, 'expected_info_gain': 5.035900893183782}
+----------
+The bot is making a guess...
+27 candidate words remaining.
+Top 5 guesses: [('TEETH', '3.958'), ('THEEK', '3.930'), ('TENTH', '3.902'), ('TENET', '3.884'), ('THETE', '3.884')]
+Top entropy choice: 𝙏𝙀𝙀𝙏𝙃 with entropy: 3.9582
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙀𝙏𝙃 with entropy: 3.9582
+GUESS: TEETH
+
+Guess: 𝙏𝙀𝙀𝙏𝙃, Feedback: 🟩🟨🟩⬜🟨
+Actual Info Gain: 3.7549 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7548875021634682, 'expected_info_gain': 3.958229168669879}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('THEBE', '1.000'), ('THEME', '1.000')]
+Top entropy choice: 𝙏𝙃𝙀𝘽𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙀𝙈𝙀 with entropy: 1.0000
+GUESS: THEME
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 3.680 bits, Posterior Entropy: 4.755, 
+Guess: 𝙏𝙀𝙀𝙏𝙃, Feedback: 🟩🟨🟩⬜🟨, Prior Entropy: 4.755, Expected Info Gain: 3.958 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

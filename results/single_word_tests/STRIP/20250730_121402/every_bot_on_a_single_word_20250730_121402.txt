@@ -1,0 +1,218 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: KURIS 
+The top ten guesses and scores: [('KURIS', 682), ('PURIS', 677), ('SIRUP', 677), ('RUINS', 670), ('RUDIS', 667), ('MUIRS', 665), ('RIMUS', 665), ('SHIUR', 665), ('VIRUS', 648), ('JURIS', 647)]
+The bot finally chose: VIRUS 
+GUESS: VIRUS
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: ⬜🟨🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SPRIT 
+The top ten guesses and scores: [('SPRIT', 32), ('STRIP', 32), ('SCRIP', 30), ('SPRIG', 30), ('STRIG', 30), ('STRIM', 30), ('SCRIM', 28), ('SKRIK', 26)]
+The bot finally chose: STRIP 
+GUESS: STRIP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: ⬜🟨🟩⬜🟨
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCRIP with entropy: 2.7500
+Bot chose: SCRIP with entropy: 2.7500
+Top ten guesses: [('SCRIP', 2.75), ('SIRUP', 2.75), ('STRIP', 2.75), ('STIRP', 2.5), ('STROP', 2.4056390622295662), ('SCORP', 2.1556390622295662), ('SYRUP', 2.1556390622295662), ('SLURP', 1.9056390622295665)]
+GUESS: SCRIP
+
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STRIP with entropy: 0.0000
+Bot chose: STRIP with entropy: 0.0000
+Top ten guesses: [('STRIP', 0.0)]
+GUESS: STRIP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCRIP with entropy: 2.7500
+Bot chose: SCRIP with entropy: 2.7500
+Top ten guesses: [('SCRIP', 2.75), ('SIRUP', 2.75), ('STRIP', 2.75), ('STIRP', 2.5), ('STROP', 2.4056390622295662), ('SCORP', 2.1556390622295662), ('SYRUP', 2.1556390622295662), ('SLURP', 1.9056390622295665)]
+GUESS: SCRIP
+
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STRIP with entropy: 0.0000
+Bot chose: STRIP with entropy: 0.0000
+Top ten guesses: [('STRIP', 0.0)]
+GUESS: STRIP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 9.0513 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 9.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 28 potential guesses from 28 remaining candidates...
+Top 5 guesses: [('SPRUG', '3.339'), ('SPRIT', '3.231'), ('SIRUP', '3.210'), ('SHRUG', '3.194'), ('STRIP', '3.160')]
+Top entropy choice: 𝙎𝙋𝙍𝙐𝙂 with entropy: 3.3388
+Ended up choosing COMMON word: 𝙎𝙃𝙍𝙐𝙂 with entropy: 3.1945
+GUESS: SHRUG
+
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.9999999999999996, 'expected_info_gain': 3.1944527985315267}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SCRIP', '2.128'), ('SPRIT', '2.128'), ('STRIM', '2.128'), ('STRIP', '2.128'), ('SCRIM', '1.664')]
+Top entropy choice: 𝙎𝘾𝙍𝙄𝙋 with entropy: 2.1281
+Ended up choosing COMMON word: 𝙎𝘾𝙍𝙄𝙋 with entropy: 2.1281
+GUESS: SCRIP
+
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.1280852788913944}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('STRIP', '0.000')]
+Top entropy choice: 𝙎𝙏𝙍𝙄𝙋 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙏𝙍𝙄𝙋 with entropy: 0.0000
+GUESS: STRIP
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.194 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘾𝙍𝙄𝙋, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 9.0513 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 9.051306062665173, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+28 candidate words remaining.
+Top 5 guesses: [('PIGHT', '3.891'), ('THUMP', '3.842'), ('PIYUT', '3.767'), ('GULPH', '3.753'), ('MIGHT', '3.748')]
+Top entropy choice: 𝙋𝙄𝙂𝙃𝙏 with entropy: 3.8912
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙂𝙃𝙏 with entropy: 3.8912
+GUESS: PIGHT
+
+Guess: 𝙋𝙄𝙂𝙃𝙏, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 4.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 4.807354922057604, 'expected_info_gain': 3.891230477257489}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('STRIP', '0.000')]
+Top entropy choice: 𝙎𝙏𝙍𝙄𝙋 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙏𝙍𝙄𝙋 with entropy: 0.0000
+GUESS: STRIP
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙄𝙂𝙃𝙏, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 4.807, Expected Info Gain: 3.891 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

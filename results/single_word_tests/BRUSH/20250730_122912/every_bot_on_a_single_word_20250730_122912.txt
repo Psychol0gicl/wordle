@@ -1,0 +1,220 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝙐𝙎𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BRUST 
+The top ten guesses and scores: [('BRUST', 81), ('CRUST', 81), ('FRIST', 81), ('FRUST', 80), ('GRIST', 79), ('WRIST', 78), ('TRIST', 77), ('TRUSS', 76), ('TRUST', 76), ('BRISK', 72)]
+The bot finally chose: CRUST 
+GUESS: CRUST
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BRUSH 
+The top ten guesses and scores: [('BRUSH', 16), ('BRUSK', 15), ('FRUSH', 15), ('DRUSY', 14)]
+The bot finally chose: BRUSH 
+GUESS: BRUSH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘽𝙍𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝙐𝙎𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 5.3708 bits
+Posterior entropy: 8.487840033823051
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.487840033823051, 'actual_info_gain': 5.370820950899725, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIROS with entropy: 4.8297
+Bot chose: TORUS with entropy: 4.8012
+Top ten guesses: [('TIROS', 4.829736442163947), ('TORUS', 4.801202293712492), ('RIOTS', 4.792049818207057), ('TORSI', 4.774040762596228), ('TROIS', 4.651609123090498), ('ROUTS', 4.638120416768803), ('TRIOS', 4.625710354503837), ('ROIST', 4.621461998676617), ('DORTS', 4.616477615821218), ('DORIS', 4.591248976424952)]
+GUESS: TORUS
+
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.1659 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 8.487840033823051, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.16591193893569, 'expected_info_gain': 4.801202293712492}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRUSH with entropy: 2.9219
+Bot chose: BRUSH with entropy: 2.9219
+Top ten guesses: [('BRUSH', 2.9219280948873623), ('CRUSH', 2.9219280948873623), ('CRUSY', 2.6464393446710153), ('FRUSH', 2.6464393446710153), ('BRUSK', 2.5219280948873624), ('RUSHY', 2.3709505944546687), ('RUSKY', 2.3709505944546687), ('DRUSY', 2.321928094887362), ('USURY', 2.1219280948873624), ('URSID', 1.9609640474436814)]
+GUESS: BRUSH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.371 bits, Posterior Entropy: 8.488, 
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.488, Expected Info Gain: 4.801 bits, Actual Info Gain: 5.166 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙍𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙐𝙎𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 5.3708 bits
+Posterior entropy: 8.487840033823051
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.487840033823051, 'actual_info_gain': 5.370820950899725, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIROS with entropy: 4.8297
+Bot chose: TORUS with entropy: 4.8012
+Top ten guesses: [('TIROS', 4.829736442163947), ('TORUS', 4.801202293712492), ('RIOTS', 4.792049818207057), ('TORSI', 4.774040762596228), ('TROIS', 4.651609123090498), ('ROUTS', 4.638120416768803), ('TRIOS', 4.625710354503837), ('ROIST', 4.621461998676617), ('DORTS', 4.616477615821218), ('DORIS', 4.591248976424952)]
+GUESS: TORUS
+
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.1659 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 8.487840033823051, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.16591193893569, 'expected_info_gain': 4.801202293712492}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRUSH with entropy: 2.9219
+Bot chose: BRUSH with entropy: 2.9219
+Top ten guesses: [('BRUSH', 2.9219280948873623), ('CRUSH', 2.9219280948873623), ('CRUSY', 2.6464393446710153), ('FRUSH', 2.6464393446710153), ('BRUSK', 2.5219280948873624), ('RUSHY', 2.3709505944546687), ('RUSKY', 2.3709505944546687), ('DRUSY', 2.321928094887362), ('USURY', 2.1219280948873624), ('URSID', 1.9609640474436814)]
+GUESS: BRUSH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.371 bits, Posterior Entropy: 8.488, 
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.488, Expected Info Gain: 4.801 bits, Actual Info Gain: 5.166 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙍𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙐𝙎𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 294 potential guesses from 195 remaining candidates...
+Top 5 guesses: [('DIRTS', '4.548'), ('GIRTS', '4.531'), ('TURDS', '4.497'), ('TURKS', '4.423'), ('TURNS', '4.420')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙎 with entropy: 4.5483
+GUESS: DIRTS
+
+Guess: 𝘿𝙄𝙍𝙏𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 4.8000 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.799975391692007, 'expected_info_gain': 4.548303092749817}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('BRUSH', '2.522'), ('CRUSH', '2.522'), ('FRUSH', '2.236'), ('BRUSK', '2.128'), ('RUSHY', '2.128')]
+Top entropy choice: 𝘽𝙍𝙐𝙎𝙃 with entropy: 2.5216
+Ended up choosing COMMON word: 𝘽𝙍𝙐𝙎𝙃 with entropy: 2.5216
+GUESS: BRUSH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝘿𝙄𝙍𝙏𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 7.607, Expected Info Gain: 4.548 bits, Actual Info Gain: 4.800 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙍𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙐𝙎𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+195 candidate words remaining.
+Top 5 guesses: [('DIRTS', '4.548'), ('GIRTS', '4.531'), ('BURNT', '4.524'), ('DUITS', '4.509'), ('TURDS', '4.497')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙎 with entropy: 4.5483
+Guess count low, choosing the word with highest entropy: 𝘿𝙄𝙍𝙏𝙎 with entropy: 4.5483
+GUESS: DIRTS
+
+Guess: 𝘿𝙄𝙍𝙏𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 4.8000 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.799975391692007, 'expected_info_gain': 4.548303092749817}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('BACHA', '2.807'), ('BACHS', '2.807'), ('BACKY', '2.807'), ('BATCH', '2.807'), ('BEACH', '2.807')]
+Top entropy choice: 𝘽𝘼𝘾𝙃𝘼 with entropy: 2.8074
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝘾𝙃𝘼 with entropy: 2.8074
+GUESS: BACHA
+
+Guess: 𝘽𝘼𝘾𝙃𝘼, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.807354922057604}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BRUSH', '0.000')]
+Top entropy choice: 𝘽𝙍𝙐𝙎𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙍𝙐𝙎𝙃 with entropy: 0.0000
+GUESS: BRUSH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝘿𝙄𝙍𝙏𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 7.607, Expected Info Gain: 4.548 bits, Actual Info Gain: 4.800 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝘼𝘾𝙃𝘼, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.807 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

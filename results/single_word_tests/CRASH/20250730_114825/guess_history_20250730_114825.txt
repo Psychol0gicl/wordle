@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 4.989 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 4.989 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 6.209, Expected Info Gain: 2.665 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.352 bits, Actual Info Gain: 1.566 bits, Posterior Entropy: 4.644, 
+Guess: 𝘽𝙐𝙉𝘿𝙃, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.644, Expected Info Gain: 3.317 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,300 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙍𝘼𝙑𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CRATE 
+The top ten guesses and scores: [('CRATE', 135), ('TRACE', 135), ('GRACE', 131), ('GRATE', 131), ('BRACE', 130), ('CRAPE', 130), ('PRATE', 130), ('TRADE', 130), ('TRAPE', 130), ('CRAVE', 129)]
+The bot finally chose: CRATE 
+GUESS: CRATE
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GRADE 
+The top ten guesses and scores: [('GRADE', 62), ('BRAME', 60), ('BRAVE', 60), ('DRAPE', 60), ('DRAVE', 60), ('GRAME', 60), ('GRAPE', 60), ('GRAVE', 60), ('BRAKE', 59), ('BRAZE', 59)]
+The bot finally chose: GRADE 
+GUESS: GRADE
+Guess: 𝙂𝙍𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GRAME 
+The top ten guesses and scores: [('GRAME', 17), ('GRAPE', 17), ('GRAVE', 17), ('GRAZE', 17)]
+The bot finally chose: GRAPE 
+GUESS: GRAPE
+Guess: 𝙂𝙍𝘼𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: GRAME 
+The top ten guesses and scores: [('GRAME', 13), ('GRAVE', 13), ('GRAZE', 13)]
+The bot finally chose: GRAVE 
+GUESS: GRAVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙂𝙍𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙂𝙍𝘼𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙂𝙍𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.9945 bits
+Posterior entropy: 7.864186144654281
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.864186144654281, 'actual_info_gain': 5.994474840068496, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARRE with entropy: 4.3615
+Bot chose: CADRE with entropy: 4.1634
+Top ten guesses: [('DARRE', 4.361455849110788), ('TARRE', 4.3392034530047585), ('REARD', 4.183119052046633), ('REATE', 4.179695574290623), ('CADRE', 4.163435515066075), ('CARTE', 4.147569850019738), ('GARRE', 4.143839634862652), ('DEARE', 4.098268769448609), ('BARRE', 4.062828024932036), ('TARGE', 4.042678903017506)]
+GUESS: CADRE
+
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 3.0062 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.864186144654281, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 3.006205149526709, 'expected_info_gain': 4.163435515066075}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRATE with entropy: 3.1762
+Bot chose: GRATE with entropy: 3.1762
+Top ten guesses: [('GRATE', 3.1762258250183657), ('TRAVE', 2.9607551327601973), ('GRAME', 2.9018066519137595), ('GRAVE', 2.8990625362595126), ('ORATE', 2.803366894249162), ('FRATE', 2.801127874722587), ('URATE', 2.7773362907262835), ('BRAVE', 2.763875617431001), ('REATE', 2.763875617431001), ('IRATE', 2.7344013770077824)]
+GUESS: GRATE
+
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 3.2730 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.273018494406416, 'expected_info_gain': 3.1762258250183657}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRAME with entropy: 0.9183
+Bot chose: GRAVE with entropy: 0.9183
+Top ten guesses: [('GRAME', 0.9182958340544896), ('GRAVE', 0.9182958340544896), ('GRAZE', 0.9182958340544896)]
+GUESS: GRAVE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 3.006 bits, Posterior Entropy: 4.858, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.176 bits, Actual Info Gain: 3.273 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.9945 bits
+Posterior entropy: 7.864186144654281
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.864186144654281, 'actual_info_gain': 5.994474840068496, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARRE with entropy: 4.3615
+Bot chose: CADRE with entropy: 4.1634
+Top ten guesses: [('DARRE', 4.361455849110788), ('TARRE', 4.3392034530047585), ('REARD', 4.183119052046633), ('REATE', 4.179695574290623), ('CADRE', 4.163435515066075), ('CARTE', 4.147569850019738), ('GARRE', 4.143839634862652), ('DEARE', 4.098268769448609), ('BARRE', 4.062828024932036), ('TARGE', 4.042678903017506)]
+GUESS: CADRE
+
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 3.0062 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.864186144654281, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 3.006205149526709, 'expected_info_gain': 4.163435515066075}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRATE with entropy: 3.1762
+Bot chose: GRATE with entropy: 3.1762
+Top ten guesses: [('GRATE', 3.1762258250183657), ('TRAVE', 2.9607551327601973), ('GRAME', 2.9018066519137595), ('GRAVE', 2.8990625362595126), ('ORATE', 2.803366894249162), ('FRATE', 2.801127874722587), ('URATE', 2.7773362907262835), ('BRAVE', 2.763875617431001), ('REATE', 2.763875617431001), ('IRATE', 2.7344013770077824)]
+GUESS: GRATE
+
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 3.2730 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.273018494406416, 'expected_info_gain': 3.1762258250183657}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRAME with entropy: 0.9183
+Bot chose: GRAVE with entropy: 0.9183
+Top ten guesses: [('GRAME', 0.9182958340544896), ('GRAVE', 0.9182958340544896), ('GRAZE', 0.9182958340544896)]
+GUESS: GRAVE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 3.006 bits, Posterior Entropy: 4.858, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.176 bits, Actual Info Gain: 3.273 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 40 potential guesses from 40 remaining candidates...
+Top 5 guesses: [('CRATE', '2.522'), ('TRACE', '2.522'), ('TRADE', '2.263'), ('GRATE', '2.210'), ('PRATE', '2.190')]
+Top entropy choice: 𝘾𝙍𝘼𝙏𝙀 with entropy: 2.5215
+Ended up choosing COMMON word: 𝘾𝙍𝘼𝙏𝙀 with entropy: 2.5215
+GUESS: CRATE
+
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2345 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 1.2344652536370235, 'expected_info_gain': 2.5215232620314474}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('GRADE', '1.925'), ('DRAPE', '1.780'), ('DRAVE', '1.780'), ('BRAME', '1.659'), ('GRAME', '1.659')]
+Top entropy choice: 𝙂𝙍𝘼𝘿𝙀 with entropy: 1.9254
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝘿𝙀 with entropy: 1.9254
+GUESS: GRADE
+
+Guess: 𝙂𝙍𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 1.9254106352407234}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('GRAME', '0.811'), ('GRAPE', '0.811'), ('GRAVE', '0.811'), ('GRAZE', '0.811')]
+Top entropy choice: 𝙂𝙍𝘼𝙈𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙋𝙀 with entropy: 0.8113
+GUESS: GRAPE
+
+Guess: 𝙂𝙍𝘼𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('GRAME', '0.918'), ('GRAVE', '0.918'), ('GRAZE', '0.918')]
+Top entropy choice: 𝙂𝙍𝘼𝙈𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙑𝙀 with entropy: 0.9183
+GUESS: GRAVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.322, Expected Info Gain: 2.522 bits, Actual Info Gain: 1.234 bits, Posterior Entropy: 4.087, 
+Guess: 𝙂𝙍𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.925 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝙍𝘼𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙑𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+40 candidate words remaining.
+Top 5 guesses: [('TRICK', '3.140'), ('DEMPT', '3.010'), ('TRUCK', '3.007'), ('COMPT', '2.987'), ('CREPT', '2.920')]
+Top entropy choice: 𝙏𝙍𝙄𝘾𝙆 with entropy: 3.1400
+Guess count low, choosing the word with highest entropy: 𝙏𝙍𝙄𝘾𝙆 with entropy: 3.1400
+GUESS: TRICK
+
+Guess: 𝙏𝙍𝙄𝘾𝙆, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 1.5146 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 1.5145731728297585, 'expected_info_gain': 3.139999660891273}
+----------
+The bot is making a guess...
+14 candidate words remaining.
+Top 5 guesses: [('GAMBA', '2.557'), ('BEGEM', '2.414'), ('BEGUM', '2.414'), ('EMBOG', '2.414'), ('GAMBE', '2.414')]
+Top entropy choice: 𝙂𝘼𝙈𝘽𝘼 with entropy: 2.5567
+Guess count low, choosing the word with highest entropy: 𝙂𝘼𝙈𝘽𝘼 with entropy: 2.5567
+GUESS: GAMBA
+
+Guess: 𝙂𝘼𝙈𝘽𝘼, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.556656707462823}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('PAVED', '2.000'), ('PAVID', '2.000'), ('PIZED', '2.000'), ('VAPED', '2.000'), ('VAPID', '2.000')]
+Top entropy choice: 𝙋𝘼𝙑𝙀𝘿 with entropy: 2.0000
+Using common exploratory word: 𝙋𝘼𝙑𝙀𝘿 with entropy: 2.0000
+GUESS: PAVED
+
+Guess: 𝙋𝘼𝙑𝙀𝘿, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.556656707462823}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('GRAVE', '0.000')]
+Top entropy choice: 𝙂𝙍𝘼𝙑𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝙍𝘼𝙑𝙀 with entropy: 0.0000
+GUESS: GRAVE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙏𝙍𝙄𝘾𝙆, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 5.322, Expected Info Gain: 3.140 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 3.807, 
+Guess: 𝙂𝘼𝙈𝘽𝘼, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 3.807, Expected Info Gain: 2.557 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝘼𝙑𝙀𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.557 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

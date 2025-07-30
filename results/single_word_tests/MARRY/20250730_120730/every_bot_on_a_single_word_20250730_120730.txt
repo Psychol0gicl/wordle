@@ -1,0 +1,374 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙍𝙍𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: KAURY 
+The top ten guesses and scores: [('KAURY', 29), ('BARRY', 28), ('CARRY', 28), ('HARRY', 28), ('MARRY', 28), ('PARRY', 28), ('TARRY', 28)]
+The bot finally chose: BARRY 
+GUESS: BARRY
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CARRY 
+The top ten guesses and scores: [('CARRY', 21), ('HARRY', 21), ('MARRY', 21), ('PARRY', 21), ('TARRY', 21)]
+The bot finally chose: CARRY 
+GUESS: CARRY
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: HARRY 
+The top ten guesses and scores: [('HARRY', 17), ('MARRY', 17), ('PARRY', 17), ('TARRY', 17)]
+The bot finally chose: HARRY 
+GUESS: HARRY
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MARRY 
+The top ten guesses and scores: [('MARRY', 13), ('PARRY', 13), ('TARRY', 13)]
+The bot finally chose: MARRY 
+GUESS: MARRY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝘼𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 4.1550 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 4.155005581606574, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABORN with entropy: 3.6023
+Bot chose: ADORN with entropy: 3.2818
+Top ten guesses: [('ABORN', 3.602316558505553), ('ABORD', 3.4489199122064305), ('ABURN', 3.38009433628333), ('ADORB', 3.3748458381323565), ('ADORN', 3.281760186948012), ('ACORN', 3.207686112873938), ('ANDRO', 3.2076861128739376), ('BARRO', 3.174478818346539), ('KAURY', 3.0822482629512407), ('AMBRY', 3.0413814834045647)]
+GUESS: ADORN
+
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 3.281760186948012}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BARRY with entropy: 1.7925
+Bot chose: BARRY with entropy: 1.7925
+Top ten guesses: [('BARRY', 1.7924812503605778), ('CARRY', 1.7924812503605778), ('HARRY', 1.7924812503605778), ('MARRY', 1.7924812503605778), ('KAURU', 1.2516291673878228), ('KAURY', 1.2516291673878228)]
+GUESS: BARRY
+
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CARRY with entropy: 0.9183
+Bot chose: CARRY with entropy: 0.9183
+Top ten guesses: [('CARRY', 0.9182958340544896), ('HARRY', 0.9182958340544896), ('MARRY', 0.9182958340544896)]
+GUESS: CARRY
+
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HARRY with entropy: 1.0000
+Bot chose: HARRY with entropy: 1.0000
+Top ten guesses: [('HARRY', 1.0), ('MARRY', 1.0)]
+GUESS: HARRY
+Game Over! You ran out of guesses.
+
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.155 bits, Posterior Entropy: 4.755, 
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 4.755, Expected Info Gain: 3.282 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 4.1550 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 4.155005581606574, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABORN with entropy: 3.6023
+Bot chose: ADORN with entropy: 3.2818
+Top ten guesses: [('ABORN', 3.602316558505553), ('ABORD', 3.4489199122064305), ('ABURN', 3.38009433628333), ('ADORB', 3.3748458381323565), ('ADORN', 3.281760186948012), ('ACORN', 3.207686112873938), ('ANDRO', 3.2076861128739376), ('BARRO', 3.174478818346539), ('KAURY', 3.0822482629512407), ('AMBRY', 3.0413814834045647)]
+GUESS: ADORN
+
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 3.281760186948012}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BARRY with entropy: 1.7925
+Bot chose: BARRY with entropy: 1.7925
+Top ten guesses: [('BARRY', 1.7924812503605778), ('CARRY', 1.7924812503605778), ('HARRY', 1.7924812503605778), ('MARRY', 1.7924812503605778), ('KAURU', 1.2516291673878228), ('KAURY', 1.2516291673878228)]
+GUESS: BARRY
+
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CARRY with entropy: 0.9183
+Bot chose: CARRY with entropy: 0.9183
+Top ten guesses: [('CARRY', 0.9182958340544896), ('HARRY', 0.9182958340544896), ('MARRY', 0.9182958340544896)]
+GUESS: CARRY
+
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HARRY with entropy: 1.0000
+Bot chose: HARRY with entropy: 1.0000
+Top ten guesses: [('HARRY', 1.0), ('MARRY', 1.0)]
+GUESS: HARRY
+Game Over! You ran out of guesses.
+
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.155 bits, Posterior Entropy: 4.755, 
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 4.755, Expected Info Gain: 3.282 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 187 potential guesses from 87 remaining candidates...
+Top 5 guesses: [('YARRA', '3.719'), ('BARRA', '3.673'), ('DAIRY', '3.668'), ('MAURI', '3.650'), ('MARRI', '3.641')]
+Top entropy choice: 𝙔𝘼𝙍𝙍𝘼 with entropy: 3.7191
+Ended up choosing COMMON word: 𝙔𝘼𝙍𝙍𝘼 with entropy: 3.7191
+GUESS: YARRA
+
+Guess: 𝙔𝘼𝙍𝙍𝘼, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 3.8580 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.857980995127572, 'expected_info_gain': 3.719083467302329}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BARRY', '0.650'), ('CARRY', '0.650'), ('HARRY', '0.650'), ('MARRY', '0.650'), ('PARRY', '0.650')]
+Top entropy choice: 𝘽𝘼𝙍𝙍𝙔 with entropy: 0.6500
+Ended up choosing COMMON word: 𝘽𝘼𝙍𝙍𝙔 with entropy: 0.6500
+GUESS: BARRY
+
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('CARRY', '0.722'), ('HARRY', '0.722'), ('MARRY', '0.722'), ('PARRY', '0.722'), ('TARRY', '0.722')]
+Top entropy choice: 𝘾𝘼𝙍𝙍𝙔 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘾𝘼𝙍𝙍𝙔 with entropy: 0.7219
+GUESS: CARRY
+
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('HARRY', '0.811'), ('MARRY', '0.811'), ('PARRY', '0.811'), ('TARRY', '0.811')]
+Top entropy choice: 𝙃𝘼𝙍𝙍𝙔 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙃𝘼𝙍𝙍𝙔 with entropy: 0.8113
+GUESS: HARRY
+
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('MARRY', '0.918'), ('PARRY', '0.918'), ('TARRY', '0.918')]
+Top entropy choice: 𝙈𝘼𝙍𝙍𝙔 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙍𝙔 with entropy: 0.9183
+GUESS: MARRY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙔𝘼𝙍𝙍𝘼, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 6.443, Expected Info Gain: 3.719 bits, Actual Info Gain: 3.858 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝘼𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙍𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+87 candidate words remaining.
+Top 5 guesses: [('ALIYA', '4.129'), ('UBITY', '4.103'), ('NUBIA', '4.101'), ('ANIMA', '4.099'), ('DAUBY', '4.088')]
+Top entropy choice: 𝘼𝙇𝙄𝙔𝘼 with entropy: 4.1294
+Guess count low, choosing the word with highest entropy: 𝘼𝙇𝙄𝙔𝘼 with entropy: 4.1294
+GUESS: ALIYA
+
+Guess: 𝘼𝙇𝙄𝙔𝘼, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 3.6356 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.6355885737911238, 'expected_info_gain': 4.129389219217373}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('BUMPH', '2.522'), ('CHUMP', '2.522'), ('MUTCH', '2.522'), ('THUMB', '2.522'), ('THUMP', '2.522')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.5216
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.5216
+GUESS: BUMPH
+
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.5216406363433186}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('MARRY', '0.000')]
+Top entropy choice: 𝙈𝘼𝙍𝙍𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙍𝙍𝙔 with entropy: 0.0000
+GUESS: MARRY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝘼𝙇𝙄𝙔𝘼, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 6.443, Expected Info Gain: 4.129 bits, Actual Info Gain: 3.636 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

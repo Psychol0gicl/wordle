@@ -1,0 +1,287 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝙄𝙉𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: UNITY 
+The top ten guesses and scores: [('UNITY', 1680), ('PIYUT', 1598), ('UNLIT', 1594), ('UNTIL', 1594), ('LINTY', 1571), ('UNIFY', 1547), ('BUYIN', 1542), ('CUNIT', 1537), ('CUTIN', 1537), ('INCUT', 1537)]
+The bot finally chose: UNITY 
+GUESS: UNITY
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜🟨🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLING 
+The top ten guesses and scores: [('CLING', 55), ('BLING', 54), ('CLINK', 54), ('BLINK', 53), ('PLING', 53), ('PLINK', 52), ('FLING', 51), ('BLIND', 49), ('CHING', 48), ('BLINI', 47)]
+The bot finally chose: CLING 
+GUESS: CLING
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BLINK 
+The top ten guesses and scores: [('BLINK', 18), ('BLIND', 17), ('BLINI', 16), ('PLINK', 16)]
+The bot finally chose: BLINK 
+GUESS: BLINK
+Guess: 𝘽𝙇𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BLIND 
+The top ten guesses and scores: [('BLIND', 10), ('BLINI', 9)]
+The bot finally chose: BLIND 
+GUESS: BLIND
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜🟨🟩⬜⬜
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘽𝙇𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘽𝙇𝙄𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝙄𝙉𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.9798 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 5.979822118062369, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LYING with entropy: 3.2391
+Bot chose: LYING with entropy: 3.2391
+Top ten guesses: [('LYING', 3.239097917988786), ('LINGY', 2.905764584655453), ('LUNGI', 2.905764584655453), ('GLINT', 2.858278308418045), ('LINTY', 2.858278308418045), ('LINDY', 2.752715278979705), ('LINKY', 2.752715278979705), ('BLING', 2.7527152789797045), ('BLINY', 2.7527152789797045), ('FLING', 2.7527152789797045)]
+GUESS: LYING
+
+Guess: 𝙇𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟩🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 3.239097917988786}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLIND with entropy: 1.5000
+Bot chose: BLIND with entropy: 1.5000
+Top ten guesses: [('BLIND', 1.5), ('BLINI', 1.5), ('BLINK', 1.5), ('FLINT', 0.8112781244591328)]
+GUESS: BLIND
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.980 bits, Posterior Entropy: 4.170, 
+Guess: 𝙇𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 4.170, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝙄𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙄𝙉𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.9798 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 5.979822118062369, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LYING with entropy: 3.2391
+Bot chose: LYING with entropy: 3.2391
+Top ten guesses: [('LYING', 3.239097917988786), ('LINGY', 2.905764584655453), ('LUNGI', 2.905764584655453), ('GLINT', 2.858278308418045), ('LINTY', 2.858278308418045), ('LINDY', 2.752715278979705), ('LINKY', 2.752715278979705), ('BLING', 2.7527152789797045), ('BLINY', 2.7527152789797045), ('FLING', 2.7527152789797045)]
+GUESS: LYING
+
+Guess: 𝙇𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟩🟩⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 3.239097917988786}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLIND with entropy: 1.5000
+Bot chose: BLIND with entropy: 1.5000
+Top ten guesses: [('BLIND', 1.5), ('BLINI', 1.5), ('BLINK', 1.5), ('FLINT', 0.8112781244591328)]
+GUESS: BLIND
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.980 bits, Posterior Entropy: 4.170, 
+Guess: 𝙇𝙔𝙄𝙉𝙂, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 4.170, Expected Info Gain: 3.239 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝙄𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙄𝙉𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 664 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.626'), ('CULTY', '5.568'), ('CLINT', '5.536'), ('CUTIN', '5.478'), ('CLIPT', '5.399')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.6263
+Ended up choosing COMMON word: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.5355
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 6.3750 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 3.0, 'actual_info_gain': 6.375039431346925, 'expected_info_gain': 5.535549212492506}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('BLING', '1.750'), ('BLINK', '1.750'), ('PLING', '1.750'), ('PLINK', '1.549'), ('BLIND', '1.406')]
+Top entropy choice: 𝘽𝙇𝙄𝙉𝙂 with entropy: 1.7500
+Ended up choosing COMMON word: 𝘽𝙇𝙄𝙉𝙂 with entropy: 1.7500
+GUESS: BLING
+
+Guess: 𝘽𝙇𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('BLIND', '0.811'), ('BLINI', '0.811'), ('BLINK', '0.811'), ('BLINY', '0.811')]
+Top entropy choice: 𝘽𝙇𝙄𝙉𝘿 with entropy: 0.8113
+Ended up choosing COMMON word: 𝘽𝙇𝙄𝙉𝘿 with entropy: 0.8113
+GUESS: BLIND
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 6.375 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙇𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝙄𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙄𝙉𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.4836 bits
+Posterior entropy: 9.375039431346925
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.375039431346925, 'actual_info_gain': 4.483621553375851, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+664 candidate words remaining.
+Top 5 guesses: [('LINTY', '5.686'), ('CUNIT', '5.626'), ('MINTY', '5.599'), ('PUNTY', '5.583'), ('MILTY', '5.572')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝙉𝙏𝙔 with entropy: 5.6860
+GUESS: LINTY
+
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 5.9156 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 9.375039431346925, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.915607812709628, 'expected_info_gain': 5.685970316525066}
+----------
+The bot is making a guess...
+11 candidate words remaining.
+Top 5 guesses: [('PLUCK', '2.732'), ('BUDGE', '2.664'), ('DEBUG', '2.664'), ('BRICK', '2.664'), ('BRUCK', '2.664')]
+Top entropy choice: 𝙋𝙇𝙐𝘾𝙆 with entropy: 2.7322
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝙐𝘾𝙆 with entropy: 2.7322
+GUESS: PLUCK
+
+Guess: 𝙋𝙇𝙐𝘾𝙆, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.7321588913645707}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('BADGE', '2.000'), ('BEEDI', '2.000'), ('BEGAD', '2.000'), ('BIDIS', '2.000'), ('BIDRI', '2.000')]
+Top entropy choice: 𝘽𝘼𝘿𝙂𝙀 with entropy: 2.0000
+Using common exploratory word: 𝘽𝘼𝘿𝙂𝙀 with entropy: 2.0000
+GUESS: BADGE
+
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.7321588913645707}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BLIND', '0.000')]
+Top entropy choice: 𝘽𝙇𝙄𝙉𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙇𝙄𝙉𝘿 with entropy: 0.0000
+GUESS: BLIND
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 5.916 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙇𝙐𝘾𝙆, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.732 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.732 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙇𝙄𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

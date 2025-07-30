@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙏𝙊𝙍𝙐𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.859 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.859 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙁𝙄𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 6.700, Expected Info Gain: 3.351 bits, Actual Info Gain: 1.746 bits, Posterior Entropy: 4.954, 
+Guess: 𝘿𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.954, Expected Info Gain: 2.125 bits, Actual Info Gain: 1.147 bits, Posterior Entropy: 3.807, 
+Guess: 𝙋𝙊𝙍𝙉𝙎, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 3.807, Expected Info Gain: 2.299 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝘿𝙄𝙍𝙏𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 6.700, Expected Info Gain: 3.760 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 4.700, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 4.700, Expected Info Gain: 3.177 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

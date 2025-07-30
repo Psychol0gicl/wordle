@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝘿𝙈𝙄𝙏 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝘿𝙈𝙄𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 8.039 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝘿𝙈𝙄𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 8.039 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝘿𝙈𝙄𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.904 bits, Posterior Entropy: 6.044, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 6.044, Expected Info Gain: 4.611 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝘿𝙈𝙄𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 7.948 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙅𝙐𝘿, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

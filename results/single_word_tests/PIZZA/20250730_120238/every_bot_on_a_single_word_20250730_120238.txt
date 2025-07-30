@@ -1,0 +1,280 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙕𝙕𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TACHI 
+The top ten guesses and scores: [('TACHI', 305), ('TAKHI', 305), ('THAIM', 300), ('PAHIT', 297), ('BAITH', 294), ('HABIT', 294), ('HAICK', 292), ('THAGI', 292), ('DIACT', 290), ('DICTA', 290)]
+The bot finally chose: HABIT 
+GUESS: HABIT
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: MIKVA 
+The top ten guesses and scores: [('MIKVA', 41), ('PIUMA', 37), ('KIPPA', 35), ('KIACK', 34), ('MIGMA', 34), ('UMAMI', 33), ('VIFDA', 32), ('KIAKI', 31), ('PIZZA', 31), ('VIVDA', 31)]
+The bot finally chose: PIZZA 
+GUESS: PIZZA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙋𝙄𝙕𝙕𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙕𝙕𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.3195 bits
+Posterior entropy: 7.539158811108031
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.539158811108031, 'actual_info_gain': 6.319502173614746, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PATIA with entropy: 4.6930
+Bot chose: PATIO with entropy: 4.5856
+Top ten guesses: [('PATIA', 4.692994593238461), ('PAOLI', 4.6466919315082045), ('PALPI', 4.625162425145589), ('PATIO', 4.585572863961993), ('POPIA', 4.507944585577373), ('PANTO', 4.49269531597693), ('PALKI', 4.483807239284457), ('CALPA', 4.475810057486294), ('NAPPA', 4.453707977495748), ('PATKA', 4.428077730104796)]
+GUESS: PATIO
+
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 4.7318 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.539158811108031, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.731803889050427, 'expected_info_gain': 4.585572863961993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PIANI with entropy: 2.2359
+Bot chose: PIANI with entropy: 2.2359
+Top ten guesses: [('PIANI', 2.2359263506290326), ('PINDA', 2.2359263506290326), ('PINGA', 2.2359263506290326), ('PINNA', 2.2359263506290326), ('PIUMA', 1.6644977792004614), ('PIZZA', 1.6644977792004614), ('PLICA', 1.1488348542809166)]
+GUESS: PIANI
+
+Guess: 𝙋𝙄𝘼𝙉𝙄, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PIUMA with entropy: 1.0000
+Bot chose: PIZZA with entropy: 1.0000
+Top ten guesses: [('PIUMA', 1.0), ('PIZZA', 1.0)]
+GUESS: PIZZA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 4.732 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙄𝘼𝙉𝙄, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙕𝙕𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙕𝙕𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.3195 bits
+Posterior entropy: 7.539158811108031
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.539158811108031, 'actual_info_gain': 6.319502173614746, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PATIA with entropy: 4.6930
+Bot chose: PATIO with entropy: 4.5856
+Top ten guesses: [('PATIA', 4.692994593238461), ('PAOLI', 4.6466919315082045), ('PALPI', 4.625162425145589), ('PATIO', 4.585572863961993), ('POPIA', 4.507944585577373), ('PANTO', 4.49269531597693), ('PALKI', 4.483807239284457), ('CALPA', 4.475810057486294), ('NAPPA', 4.453707977495748), ('PATKA', 4.428077730104796)]
+GUESS: PATIO
+
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 4.7318 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.539158811108031, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.731803889050427, 'expected_info_gain': 4.585572863961993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PIANI with entropy: 2.2359
+Bot chose: PIANI with entropy: 2.2359
+Top ten guesses: [('PIANI', 2.2359263506290326), ('PINDA', 2.2359263506290326), ('PINGA', 2.2359263506290326), ('PINNA', 2.2359263506290326), ('PIUMA', 1.6644977792004614), ('PIZZA', 1.6644977792004614), ('PLICA', 1.1488348542809166)]
+GUESS: PIANI
+
+Guess: 𝙋𝙄𝘼𝙉𝙄, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PIUMA with entropy: 1.0000
+Bot chose: PIZZA with entropy: 1.0000
+Top ten guesses: [('PIUMA', 1.0), ('PIZZA', 1.0)]
+GUESS: PIZZA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 4.732 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙄𝘼𝙉𝙄, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙕𝙕𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙕𝙕𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.9040 bits
+Posterior entropy: 6.044394119358453
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.044394119358453, 'actual_info_gain': 3.9039731122262245, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 166 potential guesses from 66 remaining candidates...
+Top 5 guesses: [('MIGHT', '4.611'), ('AMBIT', '4.520'), ('AUDIT', '4.477'), ('HUTIA', '4.468'), ('ADMIT', '4.465')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.6110
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.6110
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.044394119358453, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 4.611009893083794}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BIVIA', '2.252'), ('VIFDA', '1.792'), ('VIVDA', '1.792'), ('JIBBA', '1.252'), ('KIPPA', '1.252')]
+Top entropy choice: 𝘽𝙄𝙑𝙄𝘼 with entropy: 2.2516
+GUESS: BIVIA
+
+Guess: 𝘽𝙄𝙑𝙄𝘼, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('KIPPA', '1.000'), ('PIZZA', '1.000')]
+Top entropy choice: 𝙆𝙄𝙋𝙋𝘼 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙋𝙄𝙕𝙕𝘼 with entropy: 1.0000
+GUESS: PIZZA
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.904 bits, Posterior Entropy: 6.044, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.044, Expected Info Gain: 4.611 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙑𝙄𝘼, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙕𝙕𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙕𝙕𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 5.1935 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 5.19347972942121, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+27 candidate words remaining.
+Top 5 guesses: [('BLIMP', '3.866'), ('MBILA', '3.662'), ('CLIMB', '3.658'), ('BLIMY', '3.588'), ('MILCH', '3.486')]
+Top entropy choice: 𝘽𝙇𝙄𝙈𝙋 with entropy: 3.8660
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝙄𝙈𝙋 with entropy: 3.8660
+GUESS: BLIMP
+
+Guess: 𝘽𝙇𝙄𝙈𝙋, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 3.7549 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7548875021634682, 'expected_info_gain': 3.8659986132745803}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('KIPPA', '1.000'), ('PIZZA', '1.000')]
+Top entropy choice: 𝙆𝙄𝙋𝙋𝘼 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙄𝙕𝙕𝘼 with entropy: 1.0000
+GUESS: PIZZA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 5.193 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝙇𝙄𝙈𝙋, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 4.755, Expected Info Gain: 3.866 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙕𝙕𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

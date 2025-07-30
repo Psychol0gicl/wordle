@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙇𝙊𝙐𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOTH 
+The top ten guesses and scores: [('CLOTH', 540), ('YMOLT', 538), ('PHONY', 527), ('CHOIL', 526), ('CHOLI', 526), ('GLOBY', 526), ('CHOKY', 524), ('PHOTY', 524), ('CLONK', 523), ('THOLI', 522)]
+The bot finally chose: CLOTH 
+GUESS: CLOTH
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOMP 
+The top ten guesses and scores: [('CLOMP', 30), ('CLONK', 30), ('CLOMB', 29), ('CLOWN', 29), ('CLOCK', 28), ('CLOFF', 28), ('CLOOP', 28), ('CLOUD', 28)]
+The bot finally chose: CLOWN 
+GUESS: CLOWN
+Guess: 𝘾𝙇𝙊𝙒𝙉, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CLOMP 
+The top ten guesses and scores: [('CLOMP', 24), ('CLOMB', 23), ('CLOFF', 22), ('CLOOP', 22), ('CLOUD', 22), ('CLOCK', 21)]
+The bot finally chose: CLOUD 
+GUESS: CLOUD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙒𝙉, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙐𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 6.8278 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 6.82781902461732, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUT with entropy: 2.6464
+Bot chose: CLOUT with entropy: 2.6464
+Top ten guesses: [('CLOUT', 2.6464393446710157), ('CLOOT', 2.5219280948873624), ('CHOLO', 2.1609640474436813), ('CLOTH', 2.1219280948873624), ('CLOUD', 1.9609640474436814), ('CLOCK', 1.7709505944546688), ('CLOMB', 1.7709505944546688), ('CYCLO', 1.7709505944546688), ('CYMOL', 1.7709505944546688), ('CLOFF', 1.5709505944546687)]
+GUESS: CLOUT
+
+Guess: 𝘾𝙇𝙊𝙐𝙏, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.6464393446710157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUD with entropy: 0.0000
+Bot chose: CLOUD with entropy: 0.0000
+Top ten guesses: [('CLOUD', 0.0)]
+GUESS: CLOUD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.828 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙇𝙊𝙐𝙏, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.646 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙐𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 6.8278 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 6.82781902461732, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUT with entropy: 2.6464
+Bot chose: CLOUT with entropy: 2.6464
+Top ten guesses: [('CLOUT', 2.6464393446710157), ('CLOOT', 2.5219280948873624), ('CHOLO', 2.1609640474436813), ('CLOTH', 2.1219280948873624), ('CLOUD', 1.9609640474436814), ('CLOCK', 1.7709505944546688), ('CLOMB', 1.7709505944546688), ('CYCLO', 1.7709505944546688), ('CYMOL', 1.7709505944546688), ('CLOFF', 1.5709505944546687)]
+GUESS: CLOUT
+
+Guess: 𝘾𝙇𝙊𝙐𝙏, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.6464393446710157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUD with entropy: 0.0000
+Bot chose: CLOUD with entropy: 0.0000
+Top ten guesses: [('CLOUD', 0.0)]
+GUESS: CLOUD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 6.828 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙇𝙊𝙐𝙏, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.646 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙐𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 321 remaining candidates...
+Top 5 guesses: [('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245'), ('PINOT', '5.217'), ('PILOT', '5.195')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.2877
+Ended up choosing COMMON word: 𝙋𝙄𝙉𝙊𝙏 with entropy: 5.2172
+GUESS: PINOT
+
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.7718 bits
+Posterior entropy: 5.554588851677638
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 5.554588851677638, 'actual_info_gain': 2.771840635444665, 'expected_info_gain': 5.217226610084238}
+----------
+The bot is making a guess...
+Evaluating 47 potential guesses from 47 remaining candidates...
+Top 5 guesses: [('BLOCK', '4.526'), ('CLOMB', '4.265'), ('BUCKO', '4.259'), ('FLOCK', '4.254'), ('MUCHO', '4.155')]
+Top entropy choice: 𝘽𝙇𝙊𝘾𝙆 with entropy: 4.5256
+Ended up choosing COMMON word: 𝘽𝙇𝙊𝘾𝙆 with entropy: 4.5256
+GUESS: BLOCK
+
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.5546 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.554588851677638, 'posterior_entropy': 1.0, 'actual_info_gain': 4.554588851677638, 'expected_info_gain': 4.5255563415372055}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('CLOFF', '1.000'), ('CLOUD', '1.000')]
+Top entropy choice: 𝘾𝙇𝙊𝙁𝙁 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘾𝙇𝙊𝙐𝘿 with entropy: 1.0000
+GUESS: CLOUD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 2.772 bits, Posterior Entropy: 5.555, 
+Guess: 𝘽𝙇𝙊𝘾𝙆, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 5.555, Expected Info Gain: 4.526 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙇𝙊𝙐𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 5.5322 bits
+Posterior entropy: 8.326429487122303
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.326429487122303, 'actual_info_gain': 5.532231497600474, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+321 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.311'), ('PUTIN', '5.299'), ('PILON', '5.288'), ('PINOL', '5.264'), ('PITON', '5.245')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.3109
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 5.7415 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.326429487122303, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 5.7414669864011465, 'expected_info_gain': 5.310909875682413}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('FLUMP', '2.585'), ('FRUMP', '2.585'), ('KRUMP', '2.585'), ('PUBCO', '2.252'), ('AMPED', '2.252')]
+Top entropy choice: 𝙁𝙇𝙐𝙈𝙋 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝙁𝙇𝙐𝙈𝙋 with entropy: 2.5850
+GUESS: FLUMP
+
+Guess: 𝙁𝙇𝙐𝙈𝙋, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CLOUD', '0.000')]
+Top entropy choice: 𝘾𝙇𝙊𝙐𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙇𝙊𝙐𝘿 with entropy: 0.0000
+GUESS: CLOUD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 5.741 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙇𝙐𝙈𝙋, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,281 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝘼𝙐𝙂𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CLAUT 
+The top ten guesses and scores: [('CLAUT', 204), ('CAULD', 201), ('CAPUL', 200), ('LAUCH', 200), ('LUACH', 200), ('CAULK', 199), ('DAULT', 198), ('TAULD', 198), ('FAULT', 197), ('HAULT', 197)]
+The bot finally chose: FAULT 
+GUESS: FAULT
+Guess: 𝙁𝘼𝙐𝙇𝙏, Feedback: ⬜🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LAUCH 
+The top ten guesses and scores: [('LAUCH', 9), ('LAUGH', 9)]
+The bot finally chose: LAUGH 
+GUESS: LAUGH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙁𝘼𝙐𝙇𝙏, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝘼𝙐𝙂𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0616 bits
+Posterior entropy: 6.977279923499917
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.977279923499917, 'actual_info_gain': 3.0616390657923853, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.3586
+Bot chose: BADLY with entropy: 4.3586
+Top ten guesses: [('BADLY', 4.358557546321531), ('BALDY', 4.3119360940919504), ('BALMY', 4.304951203249307), ('LAMBY', 4.182777416715866), ('CALMY', 4.158841393860349), ('BALKY', 4.143071179463956), ('MADLY', 4.1358787112812125), ('MALKY', 3.983921019388066), ('DAUBY', 3.9828071717152453), ('CADGY', 3.9799704218506866)]
+GUESS: BADLY
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 4.9773 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.977279923499917, 'posterior_entropy': 2.0, 'actual_info_gain': 4.977279923499917, 'expected_info_gain': 4.358557546321531}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GALVO with entropy: 2.0000
+Bot chose: LAUGH with entropy: 2.0000
+Top ten guesses: [('GALVO', 2.0), ('LAUCH', 2.0), ('LAUGH', 2.0), ('LAZZO', 1.5)]
+GUESS: LAUGH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.062 bits, Posterior Entropy: 6.977, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 6.977, Expected Info Gain: 4.359 bits, Actual Info Gain: 4.977 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙐𝙂𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0616 bits
+Posterior entropy: 6.977279923499917
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.977279923499917, 'actual_info_gain': 3.0616390657923853, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.3586
+Bot chose: BADLY with entropy: 4.3586
+Top ten guesses: [('BADLY', 4.358557546321531), ('BALDY', 4.3119360940919504), ('BALMY', 4.304951203249307), ('LAMBY', 4.182777416715866), ('CALMY', 4.158841393860349), ('BALKY', 4.143071179463956), ('MADLY', 4.1358787112812125), ('MALKY', 3.983921019388066), ('DAUBY', 3.9828071717152453), ('CADGY', 3.9799704218506866)]
+GUESS: BADLY
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 4.9773 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.977279923499917, 'posterior_entropy': 2.0, 'actual_info_gain': 4.977279923499917, 'expected_info_gain': 4.358557546321531}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GALVO with entropy: 2.0000
+Bot chose: LAUGH with entropy: 2.0000
+Top ten guesses: [('GALVO', 2.0), ('LAUCH', 2.0), ('LAUGH', 2.0), ('LAZZO', 1.5)]
+GUESS: LAUGH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.062 bits, Posterior Entropy: 6.977, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 6.977, Expected Info Gain: 4.359 bits, Actual Info Gain: 4.977 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙐𝙂𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 3.8398 bits
+Posterior entropy: 6.108524456778169
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.108524456778169, 'actual_info_gain': 3.8398427748065087, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 169 potential guesses from 69 remaining candidates...
+Top 5 guesses: [('TALLY', '4.119'), ('DALLY', '3.890'), ('LALDY', '3.843'), ('MALTY', '3.798'), ('MIGHT', '3.698')]
+Top entropy choice: 𝙏𝘼𝙇𝙇𝙔 with entropy: 4.1188
+Ended up choosing COMMON word: 𝙏𝘼𝙇𝙇𝙔 with entropy: 4.1188
+GUESS: TALLY
+
+Guess: 𝙏𝘼𝙇𝙇𝙔, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 4.1085 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.108524456778169, 'posterior_entropy': 2.0, 'actual_info_gain': 4.108524456778169, 'expected_info_gain': 4.1187686627079225}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('LAIGH', '2.000'), ('LAUGH', '2.000'), ('LADDU', '1.500'), ('LAZZI', '1.500')]
+Top entropy choice: 𝙇𝘼𝙄𝙂𝙃 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙇𝘼𝙐𝙂𝙃 with entropy: 2.0000
+GUESS: LAUGH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.840 bits, Posterior Entropy: 6.109, 
+Guess: 𝙏𝘼𝙇𝙇𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.109, Expected Info Gain: 4.119 bits, Actual Info Gain: 4.109 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙐𝙂𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0657 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 3.0657241822228363, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+118 candidate words remaining.
+Top 5 guesses: [('CLUMP', '4.392'), ('PLUMB', '4.348'), ('MULCH', '4.284'), ('DUPLY', '4.240'), ('GULPH', '4.159')]
+Top entropy choice: 𝘾𝙇𝙐𝙈𝙋 with entropy: 4.3916
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙐𝙈𝙋 with entropy: 4.3916
+GUESS: CLUMP
+
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 4.2977 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.2976805486406855, 'expected_info_gain': 4.391600616366305}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('HOWDY', '2.585'), ('WHYDA', '2.585'), ('BADLY', '2.252'), ('BANDH', '2.252'), ('BAWDY', '2.252')]
+Top entropy choice: 𝙃𝙊𝙒𝘿𝙔 with entropy: 2.5850
+Using common exploratory word: 𝙃𝙊𝙒𝘿𝙔 with entropy: 2.5850
+GUESS: HOWDY
+
+Guess: 𝙃𝙊𝙒𝘿𝙔, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.391600616366305}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('LAUGH', '0.000')]
+Top entropy choice: 𝙇𝘼𝙐𝙂𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝘼𝙐𝙂𝙃 with entropy: 0.0000
+GUESS: LAUGH
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 3.066 bits, Posterior Entropy: 6.883, 
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 6.883, Expected Info Gain: 4.392 bits, Actual Info Gain: 4.298 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝙊𝙒𝘿𝙔, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.392 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

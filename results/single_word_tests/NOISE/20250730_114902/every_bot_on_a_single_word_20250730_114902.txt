@@ -1,0 +1,279 @@
+Testing bot: WordleBot
+___ Testing word: 𝙉𝙊𝙄𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BOUSE 
+The top ten guesses and scores: [('BOUSE', 93), ('TOUSE', 93), ('BOWSE', 92), ('DOUSE', 92), ('HOUSE', 92), ('LOUSE', 92), ('TOWSE', 92), ('YOUSE', 92), ('DOWSE', 91), ('LOWSE', 91)]
+The bot finally chose: DOUSE 
+GUESS: DOUSE
+Guess: 𝘿𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: POISE 
+The top ten guesses and scores: [('POISE', 58), ('TOWSE', 58), ('BOWSE', 57), ('LOWSE', 57), ('NOISE', 56), ('SOWSE', 56), ('TOISE', 56), ('WOWSE', 56), ('COPSE', 55), ('HOISE', 55)]
+The bot finally chose: POISE 
+GUESS: POISE
+Guess: 𝙋𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: HOISE 
+The top ten guesses and scores: [('HOISE', 13), ('NOISE', 13), ('TOISE', 13)]
+The bot finally chose: NOISE 
+GUESS: NOISE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝘿𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝙊𝙄𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.3951 bits
+Posterior entropy: 9.46352437327118
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.46352437327118, 'actual_info_gain': 4.395136611451596, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOLES with entropy: 4.5856
+Bot chose: TOLES with entropy: 4.5856
+Top ten guesses: [('TOLES', 4.585614807310383), ('TILES', 4.579976868284351), ('TEILS', 4.5585640452574205), ('LITES', 4.542428260774857), ('TINES', 4.533118371932379), ('LOTES', 4.525065935640585), ('LINES', 4.513460803595886), ('TONES', 4.51174084822825), ('NITES', 4.508376806897453), ('NOLES', 4.507916911074735)]
+GUESS: TOLES
+
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 5.1416 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 9.46352437327118, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 5.141596278383818, 'expected_info_gain': 4.585614807310383}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WOOSE with entropy: 2.2955
+Bot chose: WOOSE with entropy: 2.2955
+Top ten guesses: [('WOOSE', 2.295461844238322), ('BOSIE', 2.2232196723355075), ('BOWSE', 2.219240704636849), ('BOUSE', 2.1609640474436813), ('BOOSE', 2.160964047443681), ('DOWSE', 1.9709505944546686), ('EOSIN', 1.9709505944546686), ('DOUSE', 1.9192407046368487), ('GOOSE', 1.9192407046368487), ('HOUSE', 1.9192407046368487)]
+GUESS: WOOSE
+
+Guess: 𝙒𝙊𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.1520 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 1.1520030934450505, 'expected_info_gain': 2.295461844238322}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOUSE with entropy: 1.7527
+Bot chose: HOUSE with entropy: 1.7527
+Top ten guesses: [('HOUSE', 1.7527152789797045), ('HOISE', 1.4466166676282082), ('BOUSE', 1.3921472236645345), ('DOUSE', 1.3921472236645345), ('MOUSE', 1.3921472236645345), ('YOUSE', 1.3921472236645345), ('FOSSE', 0.9864267287308424), ('GOSSE', 0.9864267287308424), ('NOISE', 0.9864267287308424)]
+GUESS: HOUSE
+
+Guess: 𝙃𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.7527152789797045}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FOSSE with entropy: 1.5850
+Bot chose: NOISE with entropy: 0.9183
+Top ten guesses: [('FOSSE', 1.584962500721156), ('GOSSE', 1.584962500721156), ('NOISE', 0.9182958340544896)]
+GUESS: NOISE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.142 bits, Posterior Entropy: 4.322, 
+Guess: 𝙒𝙊𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.295 bits, Actual Info Gain: 1.152 bits, Posterior Entropy: 3.170, 
+Guess: 𝙃𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.753 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙄𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.3951 bits
+Posterior entropy: 9.46352437327118
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.46352437327118, 'actual_info_gain': 4.395136611451596, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOLES with entropy: 4.5856
+Bot chose: TOLES with entropy: 4.5856
+Top ten guesses: [('TOLES', 4.585614807310383), ('TILES', 4.579976868284351), ('TEILS', 4.5585640452574205), ('LITES', 4.542428260774857), ('TINES', 4.533118371932379), ('LOTES', 4.525065935640585), ('LINES', 4.513460803595886), ('TONES', 4.51174084822825), ('NITES', 4.508376806897453), ('NOLES', 4.507916911074735)]
+GUESS: TOLES
+
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 5.1416 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 9.46352437327118, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 5.141596278383818, 'expected_info_gain': 4.585614807310383}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WOOSE with entropy: 2.2955
+Bot chose: WOOSE with entropy: 2.2955
+Top ten guesses: [('WOOSE', 2.295461844238322), ('BOSIE', 2.2232196723355075), ('BOWSE', 2.219240704636849), ('BOUSE', 2.1609640474436813), ('BOOSE', 2.160964047443681), ('DOWSE', 1.9709505944546686), ('EOSIN', 1.9709505944546686), ('DOUSE', 1.9192407046368487), ('GOOSE', 1.9192407046368487), ('HOUSE', 1.9192407046368487)]
+GUESS: WOOSE
+
+Guess: 𝙒𝙊𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.1520 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 1.1520030934450505, 'expected_info_gain': 2.295461844238322}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOUSE with entropy: 1.7527
+Bot chose: HOUSE with entropy: 1.7527
+Top ten guesses: [('HOUSE', 1.7527152789797045), ('HOISE', 1.4466166676282082), ('BOUSE', 1.3921472236645345), ('DOUSE', 1.3921472236645345), ('MOUSE', 1.3921472236645345), ('YOUSE', 1.3921472236645345), ('FOSSE', 0.9864267287308424), ('GOSSE', 0.9864267287308424), ('NOISE', 0.9864267287308424)]
+GUESS: HOUSE
+
+Guess: 𝙃𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.7527152789797045}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FOSSE with entropy: 1.5850
+Bot chose: NOISE with entropy: 0.9183
+Top ten guesses: [('FOSSE', 1.584962500721156), ('GOSSE', 1.584962500721156), ('NOISE', 0.9182958340544896)]
+GUESS: NOISE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.142 bits, Posterior Entropy: 4.322, 
+Guess: 𝙒𝙊𝙊𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.295 bits, Actual Info Gain: 1.152 bits, Posterior Entropy: 3.170, 
+Guess: 𝙃𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.753 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙄𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 32 potential guesses from 32 remaining candidates...
+Top 5 guesses: [('POSTE', '2.131'), ('WOOSE', '2.024'), ('POISE', '1.963'), ('TOWSE', '1.954'), ('BOSIE', '1.945')]
+Top entropy choice: 𝙋𝙊𝙎𝙏𝙀 with entropy: 2.1308
+Ended up choosing COMMON word: 𝙋𝙊𝙄𝙎𝙀 with entropy: 1.9627
+GUESS: POISE
+
+Guess: 𝙋𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.415037499278844, 'expected_info_gain': 1.96270470625279}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('HOISE', '0.918'), ('NOISE', '0.918'), ('TOISE', '0.918')]
+Top entropy choice: 𝙃𝙊𝙄𝙎𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙉𝙊𝙄𝙎𝙀 with entropy: 0.9183
+GUESS: NOISE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙋𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.000, Expected Info Gain: 1.963 bits, Actual Info Gain: 3.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙄𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+32 candidate words remaining.
+Top 5 guesses: [('TULIP', '3.201'), ('UPLIT', '3.114'), ('PUTID', '3.112'), ('UNWIT', '3.100'), ('PLOIT', '3.099')]
+Top entropy choice: 𝙏𝙐𝙇𝙄𝙋 with entropy: 3.2005
+Guess count low, choosing the word with highest entropy: 𝙏𝙐𝙇𝙄𝙋 with entropy: 3.2005
+GUESS: TULIP
+
+Guess: 𝙏𝙐𝙇𝙄𝙋, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 1.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.2005059710789405}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('HOISE', '1.000'), ('NOISE', '1.000')]
+Top entropy choice: 𝙃𝙊𝙄𝙎𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙃𝙊𝙄𝙎𝙀 with entropy: 1.0000
+GUESS: HOISE
+
+Guess: 𝙃𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('NOISE', '0.000')]
+Top entropy choice: 𝙉𝙊𝙄𝙎𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙉𝙊𝙄𝙎𝙀 with entropy: 0.0000
+GUESS: NOISE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙏𝙐𝙇𝙄𝙋, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 5.000, Expected Info Gain: 3.201 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙄𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

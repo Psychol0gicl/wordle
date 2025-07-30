@@ -1,0 +1,237 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝘽𝙐𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: ABUSE 
+The top ten guesses and scores: [('ABUSE', 20), ('AMUSE', 19), ('ANISE', 19), ('AVISE', 19), ('ABASE', 18)]
+The bot finally chose: ABUSE 
+GUESS: ABUSE
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝘼𝘽𝙐𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝘽𝙐𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 5.7449 bits
+Posterior entropy: 8.113742166049189
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.113742166049189, 'actual_info_gain': 5.744918818673588, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALES with entropy: 4.0574
+Bot chose: TALES with entropy: 4.0574
+Top ten guesses: [('TALES', 4.0573759696515275), ('LAMES', 3.955979709887186), ('MALES', 3.952994739792507), ('TAMES', 3.9368416364000565), ('LANES', 3.9037497073329566), ('MATES', 3.882269410995971), ('LADES', 3.8667937475953424), ('DALES', 3.851498634777859), ('LASED', 3.8232304031713555), ('ALMES', 3.8024396880923956)]
+GUESS: TALES
+
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 3.7214 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 8.113742166049189, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 3.721424743270428, 'expected_info_gain': 4.0573759696515275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEASE with entropy: 3.5585
+Bot chose: CEASE with entropy: 3.4040
+Top ten guesses: [('MEASE', 3.5585186130489057), ('CEASE', 3.403989446485262), ('CHASE', 3.308751351247166), ('AMUSE', 3.291392876170962), ('ABUSE', 3.2680488287579594), ('ABASE', 3.232101804845414), ('ANISE', 3.196154780932867), ('FEASE', 3.1775662320965252), ('MENSA', 3.1416192081839784), ('BEISA', 3.1182751607709758)]
+GUESS: CEASE
+
+Guess: 𝘾𝙀𝘼𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.3923 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3923174227787607, 'expected_info_gain': 3.403989446485262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABUSE with entropy: 1.5000
+Bot chose: ABUSE with entropy: 1.5000
+Top ten guesses: [('ABUSE', 1.5), ('AMUSE', 1.5), ('ANISE', 1.5), ('AVISE', 1.5)]
+GUESS: ABUSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.745 bits, Posterior Entropy: 8.114, 
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 8.114, Expected Info Gain: 4.057 bits, Actual Info Gain: 3.721 bits, Posterior Entropy: 4.392, 
+Guess: 𝘾𝙀𝘼𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 3.404 bits, Actual Info Gain: 2.392 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙐𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙐𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 5.7449 bits
+Posterior entropy: 8.113742166049189
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.113742166049189, 'actual_info_gain': 5.744918818673588, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALES with entropy: 4.0574
+Bot chose: TALES with entropy: 4.0574
+Top ten guesses: [('TALES', 4.0573759696515275), ('LAMES', 3.955979709887186), ('MALES', 3.952994739792507), ('TAMES', 3.9368416364000565), ('LANES', 3.9037497073329566), ('MATES', 3.882269410995971), ('LADES', 3.8667937475953424), ('DALES', 3.851498634777859), ('LASED', 3.8232304031713555), ('ALMES', 3.8024396880923956)]
+GUESS: TALES
+
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 3.7214 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 8.113742166049189, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 3.721424743270428, 'expected_info_gain': 4.0573759696515275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEASE with entropy: 3.5585
+Bot chose: CEASE with entropy: 3.4040
+Top ten guesses: [('MEASE', 3.5585186130489057), ('CEASE', 3.403989446485262), ('CHASE', 3.308751351247166), ('AMUSE', 3.291392876170962), ('ABUSE', 3.2680488287579594), ('ABASE', 3.232101804845414), ('ANISE', 3.196154780932867), ('FEASE', 3.1775662320965252), ('MENSA', 3.1416192081839784), ('BEISA', 3.1182751607709758)]
+GUESS: CEASE
+
+Guess: 𝘾𝙀𝘼𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.3923 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3923174227787607, 'expected_info_gain': 3.403989446485262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABUSE with entropy: 1.5000
+Bot chose: ABUSE with entropy: 1.5000
+Top ten guesses: [('ABUSE', 1.5), ('AMUSE', 1.5), ('ANISE', 1.5), ('AVISE', 1.5)]
+GUESS: ABUSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.745 bits, Posterior Entropy: 8.114, 
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 8.114, Expected Info Gain: 4.057 bits, Actual Info Gain: 3.721 bits, Posterior Entropy: 4.392, 
+Guess: 𝘾𝙀𝘼𝙎𝙀, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 3.404 bits, Actual Info Gain: 2.392 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙐𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙐𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 37 potential guesses from 37 remaining candidates...
+Top 5 guesses: [('PASTE', '3.124'), ('PAISE', '3.021'), ('PASSE', '3.009'), ('LAPSE', '2.972'), ('PAUSE', '2.946')]
+Top entropy choice: 𝙋𝘼𝙎𝙏𝙀 with entropy: 3.1237
+Ended up choosing COMMON word: 𝙋𝘼𝙎𝙏𝙀 with entropy: 3.1237
+GUESS: PASTE
+
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 2.6245 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.624490864907794, 'expected_info_gain': 3.12369219579722}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('ABUSE', '2.252'), ('AMUSE', '2.252'), ('ANISE', '2.252'), ('AVISE', '2.252'), ('ISNAE', '2.252')]
+Top entropy choice: 𝘼𝘽𝙐𝙎𝙀 with entropy: 2.2516
+Ended up choosing COMMON word: 𝘼𝘽𝙐𝙎𝙀 with entropy: 2.2516
+GUESS: ABUSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 3.124 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝘽𝙐𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙐𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+37 candidate words remaining.
+Top 5 guesses: [('PLISH', '3.527'), ('PTISH', '3.460'), ('PASHM', '3.459'), ('PITSU', '3.417'), ('APISH', '3.386')]
+Top entropy choice: 𝙋𝙇𝙄𝙎𝙃 with entropy: 3.5273
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝙄𝙎𝙃 with entropy: 3.5273
+GUESS: PLISH
+
+Guess: 𝙋𝙇𝙄𝙎𝙃, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 1.8875 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.887525270741588, 'expected_info_gain': 3.527322799209288}
+----------
+The bot is making a guess...
+10 candidate words remaining.
+Top 5 guesses: [('MASUT', '3.122'), ('ADSUM', '2.922'), ('AMENT', '2.922'), ('CUSUM', '2.922'), ('MAUNT', '2.922')]
+Top entropy choice: 𝙈𝘼𝙎𝙐𝙏 with entropy: 3.1219
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙎𝙐𝙏 with entropy: 3.1219
+GUESS: MASUT
+
+Guess: 𝙈𝘼𝙎𝙐𝙏, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 3.121928094887362}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('ABUSE', '0.000')]
+Top entropy choice: 𝘼𝘽𝙐𝙎𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝘽𝙐𝙎𝙀 with entropy: 0.0000
+GUESS: ABUSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙇𝙄𝙎𝙃, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 5.209, Expected Info Gain: 3.527 bits, Actual Info Gain: 1.888 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝘼𝙎𝙐𝙏, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.322, Expected Info Gain: 3.122 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘽𝙐𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

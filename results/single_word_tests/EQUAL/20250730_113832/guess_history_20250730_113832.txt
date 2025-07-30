@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙌𝙐𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙀𝙌𝙐𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙌𝙐𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.267, Expected Info Gain: 3.783 bits, Actual Info Gain: 5.267 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙌𝙐𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙌𝙐𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.592 bits, Posterior Entropy: 6.267, 
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.267, Expected Info Gain: 3.783 bits, Actual Info Gain: 5.267 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙌𝙐𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙌𝙐𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 3.145 bits, Posterior Entropy: 5.524, 
+Guess: 𝙈𝙀𝙏𝘼𝙇, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 5.524, Expected Info Gain: 3.931 bits, Actual Info Gain: 3.524 bits, Posterior Entropy: 2.000, 
+Guess: 𝙀𝙌𝙐𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙌𝙐𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.968 bits, Posterior Entropy: 3.700, 
+Guess: 𝙉𝙀𝙄𝙂𝙃, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙌𝙐𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

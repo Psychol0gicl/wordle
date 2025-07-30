@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙊𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: 🟨🟨🟨🟨🟨
+Guess: 𝙉𝙊𝙍𝙈𝘼, Feedback: 🟨🟩🟨🟨🟨
+Guess: 𝙍𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙊𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 6.966 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 6.966 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.793 bits, Posterior Entropy: 6.066, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 6.066, Expected Info Gain: 3.582 bits, Actual Info Gain: 6.066 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙈𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.793 bits, Posterior Entropy: 6.066, 
+Guess: 𝙉𝙂𝙍𝘼𝙈, Feedback: 🟨⬜🟨🟩🟨, Prior Entropy: 6.066, Expected Info Gain: 3.753 bits, Actual Info Gain: 6.066 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙈𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

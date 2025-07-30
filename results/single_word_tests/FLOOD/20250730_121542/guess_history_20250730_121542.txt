@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘽𝙇𝙊𝙒𝙉, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙂𝙇𝙊𝙊𝙈, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.565 bits, Posterior Entropy: 4.585, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 3.439 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 5.565 bits, Posterior Entropy: 4.585, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 3.439 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 4.239 bits, Posterior Entropy: 4.087, 
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 4.157 bits, Posterior Entropy: 4.170, 
+Guess: 𝘽𝙊𝘿𝙂𝙔, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 4.170, Expected Info Gain: 3.530 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

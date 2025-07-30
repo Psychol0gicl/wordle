@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙈𝙋𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙃𝙀𝙁𝙏𝙔, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙀𝙈𝙋𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙈𝙋𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.407 bits, Posterior Entropy: 7.451, 
+Guess: 𝙋𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.451, Expected Info Gain: 4.555 bits, Actual Info Gain: 3.281 bits, Posterior Entropy: 4.170, 
+Guess: 𝙏𝙀𝙈𝙋𝙊, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 4.170, Expected Info Gain: 3.725 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝙋𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙈𝙋𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.407 bits, Posterior Entropy: 7.451, 
+Guess: 𝙋𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.451, Expected Info Gain: 4.555 bits, Actual Info Gain: 3.281 bits, Posterior Entropy: 4.170, 
+Guess: 𝙏𝙀𝙈𝙋𝙊, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 4.170, Expected Info Gain: 3.725 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝙋𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝙋𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 6.254 bits, Posterior Entropy: 3.170, 
+Guess: 𝙋𝙄𝙀𝙏𝙔, Feedback: 🟨⬜🟨🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝙋𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝙋𝙏𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.669 bits, Posterior Entropy: 4.755, 
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 4.755, Expected Info Gain: 3.828 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙈𝙋𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

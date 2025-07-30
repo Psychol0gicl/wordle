@@ -1,0 +1,258 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙐𝙇𝙀𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TIRED 
+The top ten guesses and scores: [('TIRED', 1257), ('UTERI', 1238), ('IDLER', 1237), ('RILED', 1237), ('DINER', 1233), ('LITER', 1228), ('RELIT', 1228), ('TILER', 1228), ('REDIP', 1226), ('RIPED', 1226)]
+The bot finally chose: TIRED 
+GUESS: TIRED
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: RULED 
+The top ten guesses and scores: [('RULED', 29), ('RUNED', 29), ('RYKED', 29), ('REKED', 28), ('REFED', 27), ('REWED', 27), ('REDED', 26)]
+The bot finally chose: RULED 
+GUESS: RULED
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙍𝙐𝙇𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙐𝙇𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 5.3985 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.398549376490275, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REBUD with entropy: 3.0958
+Bot chose: REBUD with entropy: 3.0958
+Top ten guesses: [('REBUD', 3.095795255000934), ('REDUB', 3.095795255000934), ('RUNED', 3.027169118440619), ('RENDU', 2.7321588913645707), ('REDUG', 2.7321588913645702), ('REDUX', 2.7321588913645702), ('REBUY', 2.5949066182439395), ('RULED', 2.5503407095463886), ('RUBEL', 2.3685225277282065), ('RERUN', 2.2221915755066783)]
+GUESS: REBUD
+
+Guess: 𝙍𝙀𝘽𝙐𝘿, Feedback: 🟩🟨⬜🟨🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 3.095795255000934}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RULED with entropy: 1.0000
+Bot chose: RULED with entropy: 1.0000
+Top ten guesses: [('RULED', 1.0), ('RUNED', 1.0)]
+GUESS: RULED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 5.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙍𝙀𝘽𝙐𝘿, Feedback: 🟩🟨⬜🟨🟩, Prior Entropy: 3.459, Expected Info Gain: 3.096 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙐𝙇𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙇𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.0007 bits
+Posterior entropy: 8.857980995127573
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.857980995127573, 'actual_info_gain': 5.000679989595204, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RETIE with entropy: 4.9815
+Bot chose: ROUTE with entropy: 4.7212
+Top ten guesses: [('RETIE', 4.98150941181993), ('REINE', 4.917587697255329), ('RORIE', 4.814591056195909), ('NORIE', 4.807745614106419), ('RIONE', 4.803222679549654), ('DOREE', 4.79799585285756), ('TERNE', 4.768042519058105), ('RENTE', 4.7504075671259915), ('RONTE', 4.7271321423590065), ('ROUTE', 4.721183125649802)]
+GUESS: ROUTE
+
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 5.3985 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.857980995127573, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.398549376490275, 'expected_info_gain': 4.721183125649802}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REBUD with entropy: 3.0958
+Bot chose: REBUD with entropy: 3.0958
+Top ten guesses: [('REBUD', 3.095795255000934), ('REDUB', 3.095795255000934), ('RUNED', 3.027169118440619), ('RENDU', 2.7321588913645707), ('REDUG', 2.7321588913645702), ('REDUX', 2.7321588913645702), ('REBUY', 2.5949066182439395), ('RULED', 2.5503407095463886), ('RUBEL', 2.3685225277282065), ('RERUN', 2.2221915755066783)]
+GUESS: REBUD
+
+Guess: 𝙍𝙀𝘽𝙐𝘿, Feedback: 🟩🟨⬜🟨🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 3.095795255000934}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RULED with entropy: 1.0000
+Bot chose: RULED with entropy: 1.0000
+Top ten guesses: [('RULED', 1.0), ('RUNED', 1.0)]
+GUESS: RULED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 5.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙍𝙀𝘽𝙐𝘿, Feedback: 🟩🟨⬜🟨🟩, Prior Entropy: 3.459, Expected Info Gain: 3.096 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙐𝙇𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙇𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 438 remaining candidates...
+Top 5 guesses: [('DIRER', '4.603'), ('DRIER', '4.596'), ('DETER', '4.554'), ('TRIED', '4.520'), ('EIDER', '4.437')]
+Top entropy choice: 𝘿𝙄𝙍𝙀𝙍 with entropy: 4.6032
+Ended up choosing COMMON word: 𝘿𝙍𝙄𝙀𝙍 with entropy: 4.5957
+GUESS: DRIER
+
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: 🟨🟨⬜🟩⬜
+Actual Info Gain: 4.6049 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 4.6048620581588615, 'expected_info_gain': 4.5957202266937065}
+----------
+The bot is making a guess...
+Evaluating 18 potential guesses from 18 remaining candidates...
+Top 5 guesses: [('LURED', '2.616'), ('RULED', '2.616'), ('CURED', '2.505'), ('MURED', '2.505'), ('LERED', '2.412')]
+Top entropy choice: 𝙇𝙐𝙍𝙀𝘿 with entropy: 2.6158
+Ended up choosing COMMON word: 𝙇𝙐𝙍𝙀𝘿 with entropy: 2.6158
+GUESS: LURED
+
+Guess: 𝙇𝙐𝙍𝙀𝘿, Feedback: 🟨🟩🟨🟩🟩
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 2.6158045319402516}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('RULED', '0.000')]
+Top entropy choice: 𝙍𝙐𝙇𝙀𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙍𝙐𝙇𝙀𝘿 with entropy: 0.0000
+GUESS: RULED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 4.605 bits, Posterior Entropy: 4.170, 
+Guess: 𝙇𝙐𝙍𝙀𝘿, Feedback: 🟨🟩🟨🟩🟩, Prior Entropy: 4.170, Expected Info Gain: 2.616 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙇𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙇𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+438 candidate words remaining.
+Top 5 guesses: [('PUTID', '4.628'), ('DENET', '4.615'), ('TINED', '4.610'), ('DIRER', '4.603'), ('TEEND', '4.601')]
+Top entropy choice: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+GUESS: PUTID
+
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 6.1898 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.189824558880018, 'expected_info_gain': 4.628396401808578}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('DOLCE', '2.252'), ('DOLCI', '2.252'), ('DULCE', '2.252'), ('ACRAL', '2.252'), ('ACRYL', '2.252')]
+Top entropy choice: 𝘿𝙊𝙇𝘾𝙀 with entropy: 2.2516
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙇𝘾𝙀 with entropy: 2.2516
+GUESS: DOLCE
+
+Guess: 𝘿𝙊𝙇𝘾𝙀, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.251629167387823}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('RULED', '0.000')]
+Top entropy choice: 𝙍𝙐𝙇𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙐𝙇𝙀𝘿 with entropy: 0.0000
+GUESS: RULED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 6.190 bits, Posterior Entropy: 2.585, 
+Guess: 𝘿𝙊𝙇𝘾𝙀, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙇𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

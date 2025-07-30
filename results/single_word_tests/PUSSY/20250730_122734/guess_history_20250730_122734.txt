@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙁𝙐𝙎𝙎𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.200 bits, Posterior Entropy: 7.658, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.658, Expected Info Gain: 4.764 bits, Actual Info Gain: 5.336 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.200 bits, Posterior Entropy: 7.658, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.658, Expected Info Gain: 4.764 bits, Actual Info Gain: 5.336 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.049 bits, Actual Info Gain: 4.309 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.250 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.090 bits, Actual Info Gain: 4.416 bits, Posterior Entropy: 4.700, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

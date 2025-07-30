@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙄𝙁𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SLUIT 
+The top ten guesses and scores: [('SLUIT', 2174), ('SUINT', 2121), ('UNITS', 2121), ('MUILS', 2094), ('SIMUL', 2094), ('PILUS', 2087), ('PULIS', 2087), ('KUSTI', 2085), ('KUTIS', 2085), ('HILUS', 2077)]
+The bot finally chose: SLUIT 
+GUESS: SLUIT
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SHIFT 
+The top ten guesses and scores: [('SHIFT', 28), ('SNIFT', 28), ('SICHT', 26), ('SIGHT', 26), ('SKINT', 26), ('SWIFT', 26), ('STINT', 25)]
+The bot finally chose: SHIFT 
+GUESS: SHIFT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩⬜⬜🟨🟩
+Guess: 𝙎𝙃𝙄𝙁𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙁𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.3234 bits
+Posterior entropy: 8.535275376620802
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.535275376620802, 'actual_info_gain': 5.323385608101974, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILS with entropy: 4.7008
+Bot chose: SOILS with entropy: 4.7008
+Top ten guesses: [('SOILS', 4.70084808459308), ('SOULS', 4.696997732591879), ('SOUTS', 4.694291744213746), ('SLOTS', 4.643510240559974), ('SNOTS', 4.596709317630574), ('SLITS', 4.595471024287088), ('SUITS', 4.589052399970175), ('SNITS', 4.536878197109811), ('STUNS', 4.53296245706507), ('SOLUS', 4.520679016112652)]
+GUESS: SOILS
+
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 3.7279 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 8.535275376620802, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 3.7279204545631988, 'expected_info_gain': 4.70084808459308}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKINT with entropy: 3.6820
+Bot chose: STINK with entropy: 3.6645
+Top ten guesses: [('SKINT', 3.6820058147602137), ('STINK', 3.6644977792004614), ('SNIFT', 3.1455933144511468), ('STICK', 3.138460066586156), ('STING', 3.1209520310264036), ('SWINK', 3.0960639591685455), ('STINT', 3.067031495157584), ('SNICK', 3.012188403968661), ('SUINT', 2.9905418719405734), ('STICH', 2.8962915290459277)]
+GUESS: STINK
+
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 2.8073549220576037, 'expected_info_gain': 3.6644977792004614}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SMITH with entropy: 2.0000
+Bot chose: SMITH with entropy: 2.0000
+Top ten guesses: [('SMITH', 2.0), ('SWIFT', 2.0), ('SWITH', 2.0), ('SHIFT', 1.5)]
+GUESS: SMITH
+
+Guess: 𝙎𝙈𝙄𝙏𝙃, Feedback: 🟩⬜🟩🟨🟨
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHIFT with entropy: 0.0000
+Bot chose: SHIFT with entropy: 0.0000
+Top ten guesses: [('SHIFT', 0.0)]
+GUESS: SHIFT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 3.728 bits, Posterior Entropy: 4.807, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.664 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙈𝙄𝙏𝙃, Feedback: 🟩⬜🟩🟨🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙄𝙁𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙁𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.3234 bits
+Posterior entropy: 8.535275376620802
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.535275376620802, 'actual_info_gain': 5.323385608101974, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILS with entropy: 4.7008
+Bot chose: SOILS with entropy: 4.7008
+Top ten guesses: [('SOILS', 4.70084808459308), ('SOULS', 4.696997732591879), ('SOUTS', 4.694291744213746), ('SLOTS', 4.643510240559974), ('SNOTS', 4.596709317630574), ('SLITS', 4.595471024287088), ('SUITS', 4.589052399970175), ('SNITS', 4.536878197109811), ('STUNS', 4.53296245706507), ('SOLUS', 4.520679016112652)]
+GUESS: SOILS
+
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 3.7279 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 8.535275376620802, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 3.7279204545631988, 'expected_info_gain': 4.70084808459308}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKINT with entropy: 3.6820
+Bot chose: STINK with entropy: 3.6645
+Top ten guesses: [('SKINT', 3.6820058147602137), ('STINK', 3.6644977792004614), ('SNIFT', 3.1455933144511468), ('STICK', 3.138460066586156), ('STING', 3.1209520310264036), ('SWINK', 3.0960639591685455), ('STINT', 3.067031495157584), ('SNICK', 3.012188403968661), ('SUINT', 2.9905418719405734), ('STICH', 2.8962915290459277)]
+GUESS: STINK
+
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 2.8073549220576037, 'expected_info_gain': 3.6644977792004614}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SMITH with entropy: 2.0000
+Bot chose: SMITH with entropy: 2.0000
+Top ten guesses: [('SMITH', 2.0), ('SWIFT', 2.0), ('SWITH', 2.0), ('SHIFT', 1.5)]
+GUESS: SMITH
+
+Guess: 𝙎𝙈𝙄𝙏𝙃, Feedback: 🟩⬜🟩🟨🟨
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHIFT with entropy: 0.0000
+Bot chose: SHIFT with entropy: 0.0000
+Top ten guesses: [('SHIFT', 0.0)]
+GUESS: SHIFT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 3.728 bits, Posterior Entropy: 4.807, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.664 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙈𝙄𝙏𝙃, Feedback: 🟩⬜🟩🟨🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙄𝙁𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙁𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 440 potential guesses from 243 remaining candidates...
+Top 5 guesses: [('THINK', '5.001'), ('SLITS', '4.751'), ('BUILT', '4.704'), ('SNITS', '4.680'), ('STUNS', '4.680')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+GUESS: THINK
+
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 6.3399 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.339850002884625, 'expected_info_gain': 5.001168424825656}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SHIFT', '1.585'), ('SHIST', '1.585'), ('SHITS', '1.585')]
+Top entropy choice: 𝙎𝙃𝙄𝙁𝙏 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙎𝙃𝙄𝙁𝙏 with entropy: 1.5850
+GUESS: SHIFT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 7.925, Expected Info Gain: 5.001 bits, Actual Info Gain: 6.340 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙄𝙁𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙁𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+243 candidate words remaining.
+Top 5 guesses: [('THINS', '5.114'), ('KNITS', '5.114'), ('CLINT', '5.102'), ('CLITS', '5.086'), ('THILK', '5.075')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+GUESS: THINS
+
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: 🟨🟩🟩⬜🟨
+Actual Info Gain: 6.9248 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 1.0, 'actual_info_gain': 6.924812503605781, 'expected_info_gain': 5.114328466456172}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SHIFT', '1.000'), ('SHIST', '1.000')]
+Top entropy choice: 𝙎𝙃𝙄𝙁𝙏 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙄𝙁𝙏 with entropy: 1.0000
+GUESS: SHIFT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: 🟨🟩🟩⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.114 bits, Actual Info Gain: 6.925 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝙄𝙁𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

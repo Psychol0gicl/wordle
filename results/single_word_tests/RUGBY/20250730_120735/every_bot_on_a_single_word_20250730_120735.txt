@@ -1,0 +1,253 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙐𝙂𝘽𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MUIRY 
+The top ten guesses and scores: [('MUIRY', 526), ('RYUGI', 517), ('RUTIN', 507), ('CHIRU', 499), ('MURTI', 499), ('INCUR', 494), ('RUNIC', 494), ('CURLI', 493), ('UNRID', 491), ('LURID', 490)]
+The bot finally chose: INCUR 
+GUESS: INCUR
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: BURLY 
+The top ten guesses and scores: [('BURLY', 149), ('GURLY', 149), ('HURLY', 149), ('LURGY', 149), ('MURLY', 149), ('RUMLY', 149), ('RUGBY', 147), ('HURTY', 146), ('DURGY', 144), ('GURDY', 144)]
+The bot finally chose: BURLY 
+GUESS: BURLY
+Guess: 𝘽𝙐𝙍𝙇𝙔, Feedback: 🟨🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: RUGBY 
+The top ten guesses and scores: [('RUGBY', 10), ('RUBBY', 9)]
+The bot finally chose: RUGBY 
+GUESS: RUGBY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝙄𝙉𝘾𝙐𝙍, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝘽𝙐𝙍𝙇𝙔, Feedback: 🟨🟩🟨⬜🟩
+Guess: 𝙍𝙐𝙂𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙐𝙂𝘽𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 3.6392 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 3.6391695748003885, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MURGI with entropy: 4.0981
+Bot chose: LURID with entropy: 3.9360
+Top ten guesses: [('MURGI', 4.09811781214885), ('LURGI', 4.054614015542449), ('DURGY', 3.969607339117404), ('LURID', 3.9359556499866866), ('LURGY', 3.92880260927073), ('GURLY', 3.874748555216676), ('MURID', 3.864198297769022), ('RUBLI', 3.827847541878579), ('GURDY', 3.8074451769552415), ('MURLY', 3.7020361356068596)]
+GUESS: LURID
+
+Guess: 𝙇𝙐𝙍𝙄𝘿, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 2.6245 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.624490864907794, 'expected_info_gain': 3.9359556499866866}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUGBY with entropy: 1.7925
+Bot chose: RUGBY with entropy: 1.7925
+Top ten guesses: [('RUGBY', 1.7924812503605778), ('RUBBY', 1.2516291673878228), ('RUGGY', 1.2516291673878228), ('RUFFY', 0.6500224216483541), ('RUMMY', 0.6500224216483541), ('RUNNY', 0.6500224216483541)]
+GUESS: RUGBY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 3.639 bits, Posterior Entropy: 5.209, 
+Guess: 𝙇𝙐𝙍𝙄𝘿, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.209, Expected Info Gain: 3.936 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙐𝙂𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙂𝘽𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 3.6392 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 3.6391695748003885, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MURGI with entropy: 4.0981
+Bot chose: LURID with entropy: 3.9360
+Top ten guesses: [('MURGI', 4.09811781214885), ('LURGI', 4.054614015542449), ('DURGY', 3.969607339117404), ('LURID', 3.9359556499866866), ('LURGY', 3.92880260927073), ('GURLY', 3.874748555216676), ('MURID', 3.864198297769022), ('RUBLI', 3.827847541878579), ('GURDY', 3.8074451769552415), ('MURLY', 3.7020361356068596)]
+GUESS: LURID
+
+Guess: 𝙇𝙐𝙍𝙄𝘿, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 2.6245 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.624490864907794, 'expected_info_gain': 3.9359556499866866}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUGBY with entropy: 1.7925
+Bot chose: RUGBY with entropy: 1.7925
+Top ten guesses: [('RUGBY', 1.7924812503605778), ('RUBBY', 1.2516291673878228), ('RUGGY', 1.2516291673878228), ('RUFFY', 0.6500224216483541), ('RUMMY', 0.6500224216483541), ('RUNNY', 0.6500224216483541)]
+GUESS: RUGBY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 3.639 bits, Posterior Entropy: 5.209, 
+Guess: 𝙇𝙐𝙍𝙄𝘿, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.209, Expected Info Gain: 3.936 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙐𝙂𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙂𝘽𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 405 potential guesses from 208 remaining candidates...
+Top 5 guesses: [('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUILT', '4.856'), ('CURNY', '4.831'), ('TURFY', '4.808')]
+Top entropy choice: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+Ended up choosing COMMON word: 𝘿𝙄𝙍𝙏𝙔 with entropy: 5.0063
+GUESS: DIRTY
+
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.9999999999999996, 'expected_info_gain': 5.006260121401016}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('RHYMY', '2.354'), ('RUMLY', '2.354'), ('RUGBY', '2.189'), ('RUMMY', '2.035'), ('RUMPY', '2.035')]
+Top entropy choice: 𝙍𝙃𝙔𝙈𝙔 with entropy: 2.3535
+Ended up choosing COMMON word: 𝙍𝙐𝙂𝘽𝙔 with entropy: 2.1888
+GUESS: RUGBY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝘿𝙄𝙍𝙏𝙔, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 7.700, Expected Info Gain: 5.006 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 3.700, 
+Guess: 𝙍𝙐𝙂𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙂𝘽𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 6.1582 bits
+Posterior entropy: 7.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.700439718141092, 'actual_info_gain': 6.158221266581685, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+208 candidate words remaining.
+Top 5 guesses: [('TYING', '5.042'), ('DIRTY', '5.006'), ('PURTY', '4.939'), ('BUNTY', '4.931'), ('CUNIT', '4.926')]
+Top entropy choice: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+Guess count low, choosing the word with highest entropy: 𝙏𝙔𝙄𝙉𝙂 with entropy: 5.0424
+GUESS: TYING
+
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 5.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 5.115477217419936, 'expected_info_gain': 5.04238338201697}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('DAGGA', '2.585'), ('DAGGY', '2.585'), ('DARGA', '2.585'), ('DARGS', '2.585'), ('DIRGE', '2.585')]
+Top entropy choice: 𝘿𝘼𝙂𝙂𝘼 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙂𝙂𝘼 with entropy: 2.5850
+GUESS: DAGGA
+
+Guess: 𝘿𝘼𝙂𝙂𝘼, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('RUGBY', '0.000')]
+Top entropy choice: 𝙍𝙐𝙂𝘽𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙐𝙂𝘽𝙔 with entropy: 0.0000
+GUESS: RUGBY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.158 bits, Posterior Entropy: 7.700, 
+Guess: 𝙏𝙔𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 7.700, Expected Info Gain: 5.042 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘿𝘼𝙂𝙂𝘼, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙂𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

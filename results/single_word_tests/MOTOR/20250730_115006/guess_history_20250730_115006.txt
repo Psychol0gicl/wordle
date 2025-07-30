@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙏𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙍𝙉𝙔, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝘾𝙊𝙇𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙊𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.274 bits, Posterior Entropy: 5.585, 
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 4.058 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙄𝙉𝙊𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.274 bits, Posterior Entropy: 5.585, 
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 4.058 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙄𝙉𝙊𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙊𝙉, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 6.700, Expected Info Gain: 3.738 bits, Actual Info Gain: 6.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙍𝙐𝙉𝙏𝙔, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 6.700, Expected Info Gain: 4.151 bits, Actual Info Gain: 4.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝘾𝙈𝙄𝘾, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

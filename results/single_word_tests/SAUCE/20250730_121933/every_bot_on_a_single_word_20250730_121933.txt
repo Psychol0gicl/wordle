@@ -1,0 +1,205 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙐𝘾𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SLATE 
+The top ten guesses and scores: [('SLATE', 222), ('STALE', 222), ('PASTE', 216), ('SPATE', 216), ('HASTE', 214), ('SKATE', 213), ('STAKE', 213), ('STANE', 213), ('CASTE', 212), ('SAUTE', 212)]
+The bot finally chose: SLATE 
+GUESS: SLATE
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SAICE 
+The top ten guesses and scores: [('SAICE', 26), ('SAINE', 26), ('SAUCE', 26), ('SAYNE', 26), ('SAUVE', 25), ('SADHE', 24), ('SAYEE', 24)]
+The bot finally chose: SAUCE 
+GUESS: SAUCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟨⬜🟩
+Guess: 𝙎𝘼𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙐𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟨⬜🟩
+Actual Info Gain: 3.3576 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 3.0, 'actual_info_gain': 3.357552004618084, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAICE with entropy: 1.5488
+Bot chose: SAUCE with entropy: 1.5488
+Top ten guesses: [('SAICE', 1.5487949406953985), ('SAINE', 1.5487949406953985), ('SAUCE', 1.5487949406953985), ('SAYNE', 1.5487949406953985), ('SAUVE', 1.061278124459133), ('SAYEE', 1.061278124459133), ('SADHE', 0.5435644431995964), ('SASSE', 0.5435644431995964)]
+GUESS: SAUCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 3.358 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙐𝘾𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟨⬜🟩
+Actual Info Gain: 3.3576 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 3.0, 'actual_info_gain': 3.357552004618084, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAICE with entropy: 1.5488
+Bot chose: SAUCE with entropy: 1.5488
+Top ten guesses: [('SAICE', 1.5487949406953985), ('SAINE', 1.5487949406953985), ('SAUCE', 1.5487949406953985), ('SAYNE', 1.5487949406953985), ('SAUVE', 1.061278124459133), ('SAYEE', 1.061278124459133), ('SADHE', 0.5435644431995964), ('SASSE', 0.5435644431995964)]
+GUESS: SAUCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 3.358 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙐𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜🟩
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('SALUE', '2.239'), ('SALSE', '1.990'), ('SALVE', '1.990'), ('SAUCE', '1.872'), ('SAUVE', '1.872')]
+Top entropy choice: 𝙎𝘼𝙇𝙐𝙀 with entropy: 2.2389
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙑𝙀 with entropy: 1.9899
+GUESS: SALVE
+
+Guess: 𝙎𝘼𝙇𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.9069 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 3.0, 'actual_info_gain': 0.9068905956085187, 'expected_info_gain': 1.9898980954642875}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('SAICE', '1.549'), ('SAINE', '1.549'), ('SAUCE', '1.549'), ('SAYNE', '1.549'), ('SAUTE', '1.061')]
+Top entropy choice: 𝙎𝘼𝙄𝘾𝙀 with entropy: 1.5488
+Ended up choosing COMMON word: 𝙎𝘼𝙐𝘾𝙀 with entropy: 1.5488
+GUESS: SAUCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙎𝘼𝙇𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 1.990 bits, Actual Info Gain: 0.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙐𝘾𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜🟩
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+15 candidate words remaining.
+Top 5 guesses: [('TULSI', '3.190'), ('CULTY', '3.140'), ('UNLIT', '3.140'), ('CULET', '3.057'), ('CULTI', '3.057')]
+Top entropy choice: 𝙏𝙐𝙇𝙎𝙄 with entropy: 3.1899
+Guess count low, choosing the word with highest entropy: 𝙏𝙐𝙇𝙎𝙄 with entropy: 3.1899
+GUESS: TULSI
+
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 1.0, 'actual_info_gain': 2.9068905956085187, 'expected_info_gain': 3.189898095464287}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SAUCE', '1.000'), ('SAUVE', '1.000')]
+Top entropy choice: 𝙎𝘼𝙐𝘾𝙀 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝘼𝙐𝘾𝙀 with entropy: 1.0000
+GUESS: SAUCE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 3.190 bits, Actual Info Gain: 2.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

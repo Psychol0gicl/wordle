@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙇𝙋𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝘼𝙇𝘽𝙐𝙈, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝘼𝙇𝙆𝙔𝙇, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝘼𝙇𝙋𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙇𝙋𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.632 bits, Posterior Entropy: 3.907, 
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 3.507 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙇𝙋𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙋𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 3.632 bits, Posterior Entropy: 3.907, 
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 3.507 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙇𝙋𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙋𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 7.948 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙂𝙄𝙇𝘼, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙇𝙋𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙋𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 7.626 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙂𝙇𝙐𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙇𝙋𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

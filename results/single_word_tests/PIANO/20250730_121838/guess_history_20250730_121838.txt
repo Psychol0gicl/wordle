@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝘼𝙉𝙊 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙏𝘼𝙇𝙊𝙉, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙂𝙐𝘼𝙉𝙊, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙋𝙄𝘼𝙉𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝘼𝙉𝙊 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨🟩, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.539 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝘼𝙉𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝘼𝙉𝙊 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟨🟩, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.539 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝘼𝙉𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝘼𝙉𝙊 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙄𝘼𝙉𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝘼𝙉𝙊 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙐𝙉𝙂𝙄, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 4.392, Expected Info Gain: 3.690 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝘼𝙉𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================

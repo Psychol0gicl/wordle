@@ -1,0 +1,236 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝙏𝙄𝙊 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MORAT 
+The top ten guesses and scores: [('MORAT', 522), ('MANOR', 521), ('MARON', 521), ('MORAN', 521), ('MORNA', 521), ('NORMA', 521), ('RAMON', 521), ('ROMAN', 521), ('MOLAR', 520), ('MORAL', 520)]
+The bot finally chose: MANOR 
+GUESS: MANOR
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: ⬜🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: BARDO 
+The top ten guesses and scores: [('BARDO', 58), ('GARBO', 58), ('CARBO', 57), ('CARGO', 57), ('PARGO', 57), ('TARDO', 57), ('RADIO', 56), ('VARDO', 56), ('LARGO', 55), ('PARVO', 55)]
+The bot finally chose: CARGO 
+GUESS: CARGO
+Guess: 𝘾𝘼𝙍𝙂𝙊, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: RADIO 
+The top ten guesses and scores: [('RADIO', 12), ('RATIO', 12), ('RAUPO', 11)]
+The bot finally chose: RADIO 
+GUESS: RADIO
+Guess: 𝙍𝘼𝘿𝙄𝙊, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: RATIO 
+The top ten guesses and scores: [('RATIO', 5)]
+The bot finally chose: RATIO 
+GUESS: RATIO
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙈𝘼𝙉𝙊𝙍, Feedback: ⬜🟩⬜🟨🟨
+Guess: 𝘾𝘼𝙍𝙂𝙊, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙍𝘼𝘿𝙄𝙊, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝙏𝙄𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 5.9099 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 3.0, 'actual_info_gain': 5.909893083770042, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AFRIT with entropy: 2.7500
+Bot chose: RATIO with entropy: 2.7500
+Top ten guesses: [('AFRIT', 2.75), ('AMRIT', 2.75), ('ARIOT', 2.75), ('ARITH', 2.75), ('RATIO', 2.75), ('ARTIC', 2.5), ('RAITH', 2.4056390622295662), ('RATTI', 2.4056390622295662)]
+GUESS: RATIO
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 5.910 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙏𝙄𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 5.9099 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 3.0, 'actual_info_gain': 5.909893083770042, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AFRIT with entropy: 2.7500
+Bot chose: RATIO with entropy: 2.7500
+Top ten guesses: [('AFRIT', 2.75), ('AMRIT', 2.75), ('ARIOT', 2.75), ('ARITH', 2.75), ('RATIO', 2.75), ('ARTIC', 2.5), ('RAITH', 2.4056390622295662), ('RATTI', 2.4056390622295662)]
+GUESS: RATIO
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 5.910 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙏𝙄𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.3668 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 7.366807888393102, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 189 potential guesses from 90 remaining candidates...
+Top 5 guesses: [('MARON', '4.158'), ('BARON', '4.118'), ('CARON', '4.045'), ('TAROC', '4.024'), ('GATOR', '4.010')]
+Top entropy choice: 𝙈𝘼𝙍𝙊𝙉 with entropy: 4.1583
+Ended up choosing COMMON word: 𝘽𝘼𝙍𝙊𝙉 with entropy: 4.1176
+GUESS: BARON
+
+Guess: 𝘽𝘼𝙍𝙊𝙉, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 4.9069 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.906890595608519, 'expected_info_gain': 4.117637532880224}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('RADIO', '1.585'), ('RATIO', '1.585'), ('RAUPO', '0.918')]
+Top entropy choice: 𝙍𝘼𝘿𝙄𝙊 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙍𝘼𝘿𝙄𝙊 with entropy: 1.5850
+GUESS: RADIO
+
+Guess: 𝙍𝘼𝘿𝙄𝙊, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('RATIO', '0.000')]
+Top entropy choice: 𝙍𝘼𝙏𝙄𝙊 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙍𝘼𝙏𝙄𝙊 with entropy: 0.0000
+GUESS: RATIO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.367 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝘼𝙍𝙊𝙉, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 6.492, Expected Info Gain: 4.118 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝘿𝙄𝙊, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙏𝙄𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.3668 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 7.366807888393102, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+90 candidate words remaining.
+Top 5 guesses: [('BATON', '4.217'), ('MARON', '4.158'), ('BARON', '4.118'), ('TALON', '4.056'), ('MAGOT', '4.046')]
+Top entropy choice: 𝘽𝘼𝙏𝙊𝙉 with entropy: 4.2172
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝙏𝙊𝙉 with entropy: 4.2172
+GUESS: BATON
+
+Guess: 𝘽𝘼𝙏𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 6.4919 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 0.0, 'actual_info_gain': 6.491853096329675, 'expected_info_gain': 4.21724280593316}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('RATIO', '0.000')]
+Top entropy choice: 𝙍𝘼𝙏𝙄𝙊 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙍𝘼𝙏𝙄𝙊 with entropy: 0.0000
+GUESS: RATIO
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.367 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝘼𝙏𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 6.492, Expected Info Gain: 4.217 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

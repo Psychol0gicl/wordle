@@ -1,0 +1,270 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝙉𝙀𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DEALT 
+The top ten guesses and scores: [('DEALT', 1214), ('DELTA', 1214), ('LATED', 1214), ('ELAND', 1213), ('LADEN', 1213), ('LANED', 1213), ('NALED', 1213), ('LAMED', 1186), ('MEDAL', 1186), ('DECAL', 1176)]
+The bot finally chose: DEALT 
+GUESS: DEALT
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CAVEL 
+The top ten guesses and scores: [('CAVEL', 124), ('ELVAN', 124), ('GAVEL', 124), ('NAVEL', 124), ('BAGEL', 123), ('GLEBA', 123), ('HAVEL', 123), ('BLEAH', 122), ('CAMEL', 122), ('CLEAN', 122)]
+The bot finally chose: GAVEL 
+GUESS: GAVEL
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: HAMEL 
+The top ten guesses and scores: [('HAMEL', 31), ('MAZEL', 31), ('CAMEL', 30), ('HAZEL', 30), ('BABEL', 29), ('LABEL', 29), ('PANEL', 29), ('LAPEL', 28)]
+The bot finally chose: CAMEL 
+GUESS: CAMEL
+Guess: 𝘾𝘼𝙈𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BABEL 
+The top ten guesses and scores: [('BABEL', 20), ('LABEL', 20), ('PANEL', 20), ('HAZEL', 19), ('LAPEL', 19)]
+The bot finally chose: BABEL 
+GUESS: BABEL
+Guess: 𝘽𝘼𝘽𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PANEL 
+The top ten guesses and scores: [('PANEL', 13), ('HAZEL', 12), ('LAPEL', 12)]
+The bot finally chose: PANEL 
+GUESS: PANEL
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝘼𝙈𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝘼𝘽𝙀𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝘼𝙉𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝙉𝙀𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PALET with entropy: 4.2917
+Bot chose: PATEL with entropy: 4.1437
+Top ten guesses: [('PALET', 4.291695148425388), ('PAGLE', 4.230457427325036), ('CAPLE', 4.174543100256106), ('PADLE', 4.156929210198596), ('PATEL', 4.143708731313533), ('PLATE', 4.104745865889743), ('PANEL', 4.07879514206748), ('PANCE', 4.076021101231095), ('PLANE', 4.003714573619461), ('PATEE', 3.9931729610066395)]
+GUESS: PATEL
+
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 6.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 6.169925001442312, 'expected_info_gain': 4.143708731313533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PANEL with entropy: 0.0000
+Bot chose: PANEL with entropy: 0.0000
+Top ten guesses: [('PANEL', 0.0)]
+GUESS: PANEL
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 6.170, Expected Info Gain: 4.144 bits, Actual Info Gain: 6.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙉𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙉𝙀𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.6887 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 7.6887359832804645, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PALET with entropy: 4.2917
+Bot chose: PATEL with entropy: 4.1437
+Top ten guesses: [('PALET', 4.291695148425388), ('PAGLE', 4.230457427325036), ('CAPLE', 4.174543100256106), ('PADLE', 4.156929210198596), ('PATEL', 4.143708731313533), ('PLATE', 4.104745865889743), ('PANEL', 4.07879514206748), ('PANCE', 4.076021101231095), ('PLANE', 4.003714573619461), ('PATEE', 3.9931729610066395)]
+GUESS: PATEL
+
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 6.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 6.169925001442312, 'expected_info_gain': 4.143708731313533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PANEL with entropy: 0.0000
+Bot chose: PANEL with entropy: 0.0000
+Top ten guesses: [('PANEL', 0.0)]
+GUESS: PANEL
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.689 bits, Posterior Entropy: 6.170, 
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 6.170, Expected Info Gain: 4.144 bits, Actual Info Gain: 6.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙉𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙉𝙀𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 494 potential guesses from 407 remaining candidates...
+Top 5 guesses: [('LANED', '4.613'), ('LADEN', '4.596'), ('LATEN', '4.510'), ('LATED', '4.508'), ('LAMED', '4.431')]
+Top entropy choice: 𝙇𝘼𝙉𝙀𝘿 with entropy: 4.6130
+Ended up choosing COMMON word: 𝙇𝘼𝘿𝙀𝙉 with entropy: 4.5961
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟩⬜🟩🟨
+Actual Info Gain: 7.6689 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 1.0, 'actual_info_gain': 7.668884984266247, 'expected_info_gain': 4.596051774874372}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('NAVEL', '1.000'), ('PANEL', '1.000')]
+Top entropy choice: 𝙉𝘼𝙑𝙀𝙇 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙉𝘼𝙑𝙀𝙇 with entropy: 1.0000
+GUESS: NAVEL
+
+Guess: 𝙉𝘼𝙑𝙀𝙇, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('PANEL', '0.000')]
+Top entropy choice: 𝙋𝘼𝙉𝙀𝙇 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙋𝘼𝙉𝙀𝙇 with entropy: 0.0000
+GUESS: PANEL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟩⬜🟩🟨, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 7.669 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝘼𝙑𝙀𝙇, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙉𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝙉𝙀𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+407 candidate words remaining.
+Top 5 guesses: [('DATAL', '4.794'), ('NATAL', '4.752'), ('MADAL', '4.731'), ('CANAL', '4.672'), ('DAMAN', '4.641')]
+Top entropy choice: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+GUESS: DATAL
+
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 4.7620 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 4.761994388657729, 'expected_info_gain': 4.794133113193984}
+----------
+The bot is making a guess...
+15 candidate words remaining.
+Top 5 guesses: [('BUMPH', '2.733'), ('BENCH', '2.549'), ('BUNCH', '2.549'), ('LYMPH', '2.463'), ('MUNCH', '2.463')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.7329
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.7329
+GUESS: BUMPH
+
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 1.0, 'actual_info_gain': 2.9068905956085187, 'expected_info_gain': 2.732914563979398}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('LAPEL', '1.000'), ('PANEL', '1.000')]
+Top entropy choice: 𝙇𝘼𝙋𝙀𝙇 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝘼𝙋𝙀𝙇 with entropy: 1.0000
+GUESS: LAPEL
+
+Guess: 𝙇𝘼𝙋𝙀𝙇, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 2.732914563979398}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PANEL', '0.000')]
+Top entropy choice: 𝙋𝘼𝙉𝙀𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝘼𝙉𝙀𝙇 with entropy: 0.0000
+GUESS: PANEL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.762 bits, Posterior Entropy: 3.907, 
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 2.733 bits, Actual Info Gain: 2.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝘼𝙋𝙀𝙇, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 2.733 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝙉𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

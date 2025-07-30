@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙄𝙉𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LITAS 
+The top ten guesses and scores: [('LITAS', 2970), ('TAILS', 2970), ('NAILS', 2947), ('NILAS', 2947), ('SLAIN', 2947), ('SNAIL', 2947), ('LANTS', 2939), ('SLANT', 2939), ('NATIS', 2924), ('SAINT', 2924)]
+The bot finally chose: SLAIN 
+GUESS: SLAIN
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SAINT 
+The top ten guesses and scores: [('SAINT', 18), ('SIGNA', 18), ('SPINA', 18), ('SAINS', 17)]
+The bot finally chose: SAINT 
+GUESS: SAINT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟨🟨🟨
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙄𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 6.0069 bits
+Posterior entropy: 7.851749041416057
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.851749041416057, 'actual_info_gain': 6.0069119433067195, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STANS with entropy: 4.0432
+Bot chose: SLANT with entropy: 3.9342
+Top ten guesses: [('STANS', 4.04319669622971), ('SLATS', 4.036046199474396), ('SALTS', 3.995073465012498), ('SANTS', 3.9528330646340417), ('SLANT', 3.9342213147994833), ('SALIS', 3.881557771510367), ('SAILS', 3.8774212011954043), ('SIALS', 3.8497701115343723), ('SAINS', 3.840749555810498), ('SHALT', 3.8300003561713023)]
+GUESS: SLANT
+
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 6.8517 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.851749041416057, 'posterior_entropy': 1.0, 'actual_info_gain': 6.851749041416057, 'expected_info_gain': 3.9342213147994833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAINT with entropy: 1.0000
+Bot chose: SAINT with entropy: 1.0000
+Top ten guesses: [('SAINT', 1.0), ('SAUNT', 1.0)]
+GUESS: SAINT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.007 bits, Posterior Entropy: 7.852, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 7.852, Expected Info Gain: 3.934 bits, Actual Info Gain: 6.852 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙄𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 6.0069 bits
+Posterior entropy: 7.851749041416057
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.851749041416057, 'actual_info_gain': 6.0069119433067195, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STANS with entropy: 4.0432
+Bot chose: SLANT with entropy: 3.9342
+Top ten guesses: [('STANS', 4.04319669622971), ('SLATS', 4.036046199474396), ('SALTS', 3.995073465012498), ('SANTS', 3.9528330646340417), ('SLANT', 3.9342213147994833), ('SALIS', 3.881557771510367), ('SAILS', 3.8774212011954043), ('SIALS', 3.8497701115343723), ('SAINS', 3.840749555810498), ('SHALT', 3.8300003561713023)]
+GUESS: SLANT
+
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 6.8517 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.851749041416057, 'posterior_entropy': 1.0, 'actual_info_gain': 6.851749041416057, 'expected_info_gain': 3.9342213147994833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAINT with entropy: 1.0000
+Bot chose: SAINT with entropy: 1.0000
+Top ten guesses: [('SAINT', 1.0), ('SAUNT', 1.0)]
+GUESS: SAINT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.007 bits, Posterior Entropy: 7.852, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 7.852, Expected Info Gain: 3.934 bits, Actual Info Gain: 6.852 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙄𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.7818 bits
+Posterior entropy: 7.076815597050831
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.076815597050831, 'actual_info_gain': 6.781845387671946, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 235 potential guesses from 135 remaining candidates...
+Top 5 guesses: [('UNTIL', '4.086'), ('SALIS', '4.031'), ('SAILS', '4.010'), ('SATIS', '3.907'), ('SAINS', '3.885')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0857
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0857
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 7.0768 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.076815597050831, 'posterior_entropy': 0.0, 'actual_info_gain': 7.076815597050831, 'expected_info_gain': 4.085749839818434}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SAINT', '0.000')]
+Top entropy choice: 𝙎𝘼𝙄𝙉𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝘼𝙄𝙉𝙏 with entropy: 0.0000
+GUESS: SAINT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.782 bits, Posterior Entropy: 7.077, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.077, Expected Info Gain: 4.086 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙄𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.7818 bits
+Posterior entropy: 7.076815597050831
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.076815597050831, 'actual_info_gain': 6.781845387671946, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+135 candidate words remaining.
+Top 5 guesses: [('TANIA', '4.543'), ('LANAI', '4.491'), ('NAIAD', '4.454'), ('LAMIA', '4.441'), ('LABIA', '4.439')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 4.5427
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 4.5427
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩🟨🟨⬜
+Actual Info Gain: 7.0768 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.076815597050831, 'posterior_entropy': 0.0, 'actual_info_gain': 7.076815597050831, 'expected_info_gain': 4.542704040256794}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SAINT', '0.000')]
+Top entropy choice: 𝙎𝘼𝙄𝙉𝙏 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙎𝘼𝙄𝙉𝙏 with entropy: 0.0000
+GUESS: SAINT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.782 bits, Posterior Entropy: 7.077, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩🟨🟨⬜, Prior Entropy: 7.077, Expected Info Gain: 4.543 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

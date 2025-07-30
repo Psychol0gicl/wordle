@@ -1,0 +1,262 @@
+Testing bot: WordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BURSE 
+The top ten guesses and scores: [('BURSE', 54), ('NURSE', 54), ('PURSE', 54), ('CURSE', 53), ('REUSE', 52), ('RUSSE', 52), ('BIRSE', 50), ('RINSE', 50), ('PERSE', 48), ('HERSE', 47)]
+The bot finally chose: NURSE 
+GUESS: NURSE
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURSE with entropy: 2.1972
+Bot chose: BURSE with entropy: 2.1972
+Top ten guesses: [('BURSE', 2.1971597234241496), ('HERSE', 2.058813890331201), ('MERSE', 2.058813890331201), ('CURSE', 1.836591668108979), ('NURSE', 1.836591668108979), ('VERSE', 1.836591668108979), ('MERSK', 1.7527152789797045), ('WERSH', 1.7527152789797045), ('BIRSE', 1.6577427265048887)]
+GUESS: BURSE
+
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.1971597234241496}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURSE with entropy: 1.0000
+Bot chose: CURSE with entropy: 1.0000
+Top ten guesses: [('CURSE', 1.0), ('NURSE', 1.0)]
+GUESS: CURSE
+
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NURSE with entropy: 0.0000
+Bot chose: NURSE with entropy: 0.0000
+Top ten guesses: [('NURSE', 0.0)]
+GUESS: NURSE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 6.1038 bits
+Posterior entropy: 7.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.754887502163468, 'actual_info_gain': 6.103773482559308, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORES with entropy: 4.2071
+Bot chose: TORES with entropy: 4.2071
+Top ten guesses: [('TORES', 4.207129245492416), ('DORES', 4.148156793656083), ('ROUES', 4.147396140445702), ('DEROS', 4.121181725938684), ('MORES', 4.048908273068736), ('BORES', 4.043187777559982), ('ROTES', 4.040388164928964), ('TERES', 4.035611538784447), ('KORES', 4.027247098096229), ('RORES', 4.022739936261412)]
+GUESS: TORES
+
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.754887502163468, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 4.207129245492416}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURSE with entropy: 2.1972
+Bot chose: BURSE with entropy: 2.1972
+Top ten guesses: [('BURSE', 2.1971597234241496), ('HERSE', 2.058813890331201), ('MERSE', 2.058813890331201), ('CURSE', 1.836591668108979), ('NURSE', 1.836591668108979), ('VERSE', 1.836591668108979), ('MERSK', 1.7527152789797045), ('WERSH', 1.7527152789797045), ('BIRSE', 1.6577427265048887)]
+GUESS: BURSE
+
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.1971597234241496}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURSE with entropy: 1.0000
+Bot chose: CURSE with entropy: 1.0000
+Top ten guesses: [('CURSE', 1.0), ('NURSE', 1.0)]
+GUESS: CURSE
+
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NURSE with entropy: 0.0000
+Bot chose: NURSE with entropy: 0.0000
+Top ten guesses: [('NURSE', 0.0)]
+GUESS: NURSE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 25 potential guesses from 25 remaining candidates...
+Top 5 guesses: [('PURSE', '2.988'), ('REUSE', '2.913'), ('PERSE', '2.884'), ('BURSE', '2.839'), ('CURSE', '2.793')]
+Top entropy choice: 𝙋𝙐𝙍𝙎𝙀 with entropy: 2.9885
+Ended up choosing COMMON word: 𝙋𝙐𝙍𝙎𝙀 with entropy: 2.9885
+GUESS: PURSE
+
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.0589 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.0588936890535683, 'expected_info_gain': 2.988493070364558}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BURSE', '0.918'), ('CURSE', '0.918'), ('NURSE', '0.918')]
+Top entropy choice: 𝘽𝙐𝙍𝙎𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝙐𝙍𝙎𝙀 with entropy: 0.9183
+GUESS: CURSE
+
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BURSE', '1.000'), ('NURSE', '1.000')]
+Top entropy choice: 𝘽𝙐𝙍𝙎𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙉𝙐𝙍𝙎𝙀 with entropy: 1.0000
+GUESS: NURSE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.988 bits, Actual Info Gain: 3.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+25 candidate words remaining.
+Top 5 guesses: [('PURIN', '3.444'), ('PUREE', '3.429'), ('SIRUP', '3.334'), ('UNRIP', '3.299'), ('PUBIC', '3.293')]
+Top entropy choice: 𝙋𝙐𝙍𝙄𝙉 with entropy: 3.4439
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙍𝙄𝙉 with entropy: 3.4439
+GUESS: PURIN
+
+Guess: 𝙋𝙐𝙍𝙄𝙉, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 4.6439 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 0.0, 'actual_info_gain': 4.643856189774724, 'expected_info_gain': 3.4438561897747233}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('NURSE', '0.000')]
+Top entropy choice: 𝙉𝙐𝙍𝙎𝙀 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙉𝙐𝙍𝙎𝙀 with entropy: 0.0000
+GUESS: NURSE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙐𝙍𝙄𝙉, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.644, Expected Info Gain: 3.444 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

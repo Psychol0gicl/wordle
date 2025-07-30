@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙎𝙎𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝘼𝙉𝙄𝙇𝙎, Feedback: 🟩⬜⬜⬜🟨
+Guess: 𝘼𝘿𝙎𝙐𝙈, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝘼𝙎𝙎𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.064 bits, Posterior Entropy: 7.794, 
+Guess: 𝙉𝘼𝙎𝘼𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.794, Expected Info Gain: 3.434 bits, Actual Info Gain: 6.209 bits, Posterior Entropy: 1.585, 
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.064 bits, Posterior Entropy: 7.794, 
+Guess: 𝙉𝘼𝙎𝘼𝙇, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.794, Expected Info Gain: 3.434 bits, Actual Info Gain: 6.209 bits, Posterior Entropy: 1.585, 
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.391 bits, Posterior Entropy: 9.468, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.468, Expected Info Gain: 4.257 bits, Actual Info Gain: 2.239 bits, Posterior Entropy: 7.229, 
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 7.229, Expected Info Gain: 3.994 bits, Actual Info Gain: 7.229 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝘼𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.391 bits, Posterior Entropy: 9.468, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.468, Expected Info Gain: 4.495 bits, Actual Info Gain: 5.220 bits, Posterior Entropy: 4.248, 
+Guess: 𝙂𝙇𝙐𝙈𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 4.248, Expected Info Gain: 3.366 bits, Actual Info Gain: 3.248 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

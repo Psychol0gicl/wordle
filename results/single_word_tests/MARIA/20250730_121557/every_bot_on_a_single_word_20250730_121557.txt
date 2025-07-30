@@ -1,0 +1,187 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙍𝙄𝘼 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: FAKIR 
+The top ten guesses and scores: [('FAKIR', 138), ('KAFIR', 138), ('RAFIK', 138), ('PANIR', 137), ('PARKI', 137), ('RAPIN', 137), ('NARIC', 136), ('RAMIN', 135), ('BARFI', 134), ('FARCI', 134)]
+The bot finally chose: FAKIR 
+GUESS: FAKIR
+Guess: 𝙁𝘼𝙆𝙄𝙍, Feedback: ⬜🟩⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: RAMIN 
+The top ten guesses and scores: [('RAMIN', 47), ('NARIC', 46), ('RAVIN', 46), ('RAPIN', 44), ('RAWIN', 44), ('BARIC', 43), ('HARIM', 43), ('MARIL', 43), ('RABIC', 43), ('MARIA', 42)]
+The bot finally chose: MARIA 
+GUESS: MARIA
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝙁𝘼𝙆𝙄𝙍, Feedback: ⬜🟩⬜🟩🟨
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙄𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜🟨🟨🟨🟩
+Actual Info Gain: 6.9099 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 2.0, 'actual_info_gain': 6.909893083770042, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARIA with entropy: 2.0000
+Bot chose: MARIA with entropy: 2.0000
+Top ten guesses: [('MARIA', 2.0), ('VARIA', 2.0), ('AGRIA', 1.5), ('RAKIA', 1.5)]
+GUESS: MARIA
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜🟨🟨🟨🟩, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 6.910 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙄𝘼 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜🟨🟨🟨🟩
+Actual Info Gain: 6.9099 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 2.0, 'actual_info_gain': 6.909893083770042, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARIA with entropy: 2.0000
+Bot chose: MARIA with entropy: 2.0000
+Top ten guesses: [('MARIA', 2.0), ('VARIA', 2.0), ('AGRIA', 1.5), ('RAKIA', 1.5)]
+GUESS: MARIA
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜🟨🟨🟨🟩, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 6.910 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙄𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 324 remaining candidates...
+Top 5 guesses: [('MARIA', '5.094'), ('AARTI', '4.862'), ('MARAL', '4.841'), ('MARAN', '4.818'), ('MIRAA', '4.787')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙄𝘼 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+324 candidate words remaining.
+Top 5 guesses: [('MARIA', '5.094'), ('MATAI', '5.018'), ('TANIA', '4.976'), ('MANIA', '4.958'), ('MALAI', '4.946')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,279 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙄𝘽𝙇𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: TUILE 
+The top ten guesses and scores: [('TUILE', 1012), ('UTILE', 1012), ('UNITE', 1005), ('UNTIE', 1005), ('INGLE', 998), ('LIGNE', 998), ('GUILE', 991), ('CLINE', 979), ('INCLE', 979), ('MULIE', 977)]
+The bot finally chose: UNITE 
+GUESS: UNITE
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BILGE 
+The top ten guesses and scores: [('BILGE', 126), ('VILDE', 123), ('LIEGE', 119), ('LIGGE', 119), ('MIDGE', 119), ('ICKLE', 118), ('KIDGE', 118), ('FIDGE', 117), ('KYLIE', 116), ('LIEVE', 115)]
+The bot finally chose: BILGE 
+GUESS: BILGE
+Guess: 𝘽𝙄𝙇𝙂𝙀, Feedback: 🟩🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BIBLE 
+The top ten guesses and scores: [('BIBLE', 5)]
+The bot finally chose: BIBLE 
+GUESS: BIBLE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝘽𝙄𝙇𝙂𝙀, Feedback: 🟩🟩🟨⬜🟩
+Guess: 𝘽𝙄𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙄𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 4.6391 bits
+Posterior entropy: 5.614709844115208
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.614709844115208, 'actual_info_gain': 4.639137640872195, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILE with entropy: 4.1242
+Bot chose: GUILE with entropy: 4.1242
+Top ten guesses: [('GUILE', 4.124188161673221), ('TUILE', 4.124188161673221), ('UTILE', 3.8846914781322086), ('GLIME', 3.857298947412051), ('BLITE', 3.855917814168595), ('GLIDE', 3.818520691700008), ('GUYLE', 3.793110232560486), ('BUTLE', 3.7871817824491942), ('TULLE', 3.6897604784527522), ('GLUTE', 3.6801386702484487)]
+GUESS: GUILE
+
+Guess: 𝙂𝙐𝙄𝙇𝙀, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 4.124188161673221}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MILLE with entropy: 1.9502
+Bot chose: MILLE with entropy: 1.9502
+Top ten guesses: [('MILLE', 1.950212064914747), ('VILLE', 1.950212064914747), ('FILLE', 1.9502120649147465), ('IXTLE', 1.6644977792004614), ('TITLE', 1.6644977792004614), ('BIBLE', 1.3787834934861753), ('ICKLE', 1.1488348542809166)]
+GUESS: MILLE
+
+Guess: 𝙈𝙄𝙇𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 1.950212064914747}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIBLE with entropy: 1.0000
+Bot chose: BIBLE with entropy: 1.0000
+Top ten guesses: [('BIBLE', 1.0), ('TITLE', 1.0)]
+GUESS: BIBLE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.639 bits, Posterior Entropy: 5.615, 
+Guess: 𝙂𝙐𝙄𝙇𝙀, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.615, Expected Info Gain: 4.124 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙄𝙇𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.950 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙄𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙄𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 4.6391 bits
+Posterior entropy: 5.614709844115208
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.614709844115208, 'actual_info_gain': 4.639137640872195, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILE with entropy: 4.1242
+Bot chose: GUILE with entropy: 4.1242
+Top ten guesses: [('GUILE', 4.124188161673221), ('TUILE', 4.124188161673221), ('UTILE', 3.8846914781322086), ('GLIME', 3.857298947412051), ('BLITE', 3.855917814168595), ('GLIDE', 3.818520691700008), ('GUYLE', 3.793110232560486), ('BUTLE', 3.7871817824491942), ('TULLE', 3.6897604784527522), ('GLUTE', 3.6801386702484487)]
+GUESS: GUILE
+
+Guess: 𝙂𝙐𝙄𝙇𝙀, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 4.124188161673221}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MILLE with entropy: 1.9502
+Bot chose: MILLE with entropy: 1.9502
+Top ten guesses: [('MILLE', 1.950212064914747), ('VILLE', 1.950212064914747), ('FILLE', 1.9502120649147465), ('IXTLE', 1.6644977792004614), ('TITLE', 1.6644977792004614), ('BIBLE', 1.3787834934861753), ('ICKLE', 1.1488348542809166)]
+GUESS: MILLE
+
+Guess: 𝙈𝙄𝙇𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 1.950212064914747}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIBLE with entropy: 1.0000
+Bot chose: BIBLE with entropy: 1.0000
+Top ten guesses: [('BIBLE', 1.0), ('TITLE', 1.0)]
+GUESS: BIBLE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.639 bits, Posterior Entropy: 5.615, 
+Guess: 𝙂𝙐𝙄𝙇𝙀, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.615, Expected Info Gain: 4.124 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙄𝙇𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.950 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙄𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝘽𝙇𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 346 remaining candidates...
+Top 5 guesses: [('BUILT', '4.942'), ('UNTIL', '4.914'), ('BUILD', '4.807'), ('THING', '4.633'), ('LIGHT', '4.606')]
+Top entropy choice: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝙏 with entropy: 4.9416
+GUESS: BUILT
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 8.4346 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 0.0, 'actual_info_gain': 8.434628227636725, 'expected_info_gain': 4.941602285901406}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('BIBLE', '0.000')]
+Top entropy choice: 𝘽𝙄𝘽𝙇𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘽𝙄𝘽𝙇𝙀 with entropy: 0.0000
+GUESS: BIBLE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 8.435 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙄𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝘽𝙇𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 5.4240 bits
+Posterior entropy: 8.434628227636725
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.434628227636725, 'actual_info_gain': 5.424032757086051, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+346 candidate words remaining.
+Top 5 guesses: [('GUILT', '5.036'), ('GLINT', '4.996'), ('TUNIC', '4.992'), ('LINUM', '4.952'), ('BUILT', '4.942')]
+Top entropy choice: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+Guess count low, choosing the word with highest entropy: 𝙂𝙐𝙄𝙇𝙏 with entropy: 5.0359
+GUESS: GUILT
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.4346 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.434628227636725, 'posterior_entropy': 3.0, 'actual_info_gain': 5.4346282276367255, 'expected_info_gain': 5.035900893183782}
+----------
+The bot is making a guess...
+8 candidate words remaining.
+Top 5 guesses: [('FILCH', '2.500'), ('FILKS', '2.500'), ('FILON', '2.500'), ('NIMBI', '2.500'), ('NIMBS', '2.500')]
+Top entropy choice: 𝙁𝙄𝙇𝘾𝙃 with entropy: 2.5000
+Guess count low, choosing the word with highest entropy: 𝙁𝙄𝙇𝘾𝙃 with entropy: 2.5000
+GUESS: FILCH
+
+Guess: 𝙁𝙄𝙇𝘾𝙃, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.5}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BIBLE', '0.000')]
+Top entropy choice: 𝘽𝙄𝘽𝙇𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙄𝘽𝙇𝙀 with entropy: 0.0000
+GUESS: BIBLE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 5.435 bits, Posterior Entropy: 3.000, 
+Guess: 𝙁𝙄𝙇𝘾𝙃, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙄𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

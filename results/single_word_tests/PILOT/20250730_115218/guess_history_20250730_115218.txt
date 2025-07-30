@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙇𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝘽𝙄𝙂𝙊𝙏, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙄𝙑𝙊𝙏, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙇𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙇𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙇𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝙋𝙄𝙉𝙊𝙏, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 8.326, Expected Info Gain: 5.217 bits, Actual Info Gain: 6.326 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙇𝙊𝙏 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.532 bits, Posterior Entropy: 8.326, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 8.326, Expected Info Gain: 5.311 bits, Actual Info Gain: 8.326 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

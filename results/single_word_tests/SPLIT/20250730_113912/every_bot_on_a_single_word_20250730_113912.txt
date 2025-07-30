@@ -1,0 +1,219 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙇𝙄𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SLUIT 
+The top ten guesses and scores: [('SLUIT', 2174), ('SUINT', 2121), ('UNITS', 2121), ('MUILS', 2094), ('SIMUL', 2094), ('PILUS', 2087), ('PULIS', 2087), ('KUSTI', 2085), ('KUTIS', 2085), ('HILUS', 2077)]
+The bot finally chose: SLUIT 
+GUESS: SLUIT
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩🟨⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SPLIT 
+The top ten guesses and scores: [('SPLIT', 5)]
+The bot finally chose: SPLIT 
+GUESS: SPLIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩🟨⬜🟩🟩
+Guess: 𝙎𝙋𝙇𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙇𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITS with entropy: 3.0899
+Bot chose: SPITS with entropy: 3.0899
+Top ten guesses: [('SPITS', 3.089929107106409), ('SPIKS', 2.998652546878167), ('SPINS', 2.935661092464158), ('SPOTS', 2.9098422525059937), ('SPIFS', 2.7333716642706993), ('SPIMS', 2.7333716642706993), ('SPICS', 2.6645057704384634), ('SPLIT', 2.585307023201394), ('SPILT', 2.5264834937896294), ('SPINK', 2.519080568170698)]
+GUESS: SPITS
+
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟨🟨⬜
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.089929107106409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPLIT with entropy: 0.0000
+Bot chose: SPLIT with entropy: 0.0000
+Top ten guesses: [('SPLIT', 0.0)]
+GUESS: SPLIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟨🟨⬜, Prior Entropy: 5.087, Expected Info Gain: 3.090 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙇𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙇𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITS with entropy: 3.0899
+Bot chose: SPITS with entropy: 3.0899
+Top ten guesses: [('SPITS', 3.089929107106409), ('SPIKS', 2.998652546878167), ('SPINS', 2.935661092464158), ('SPOTS', 2.9098422525059937), ('SPIFS', 2.7333716642706993), ('SPIMS', 2.7333716642706993), ('SPICS', 2.6645057704384634), ('SPLIT', 2.585307023201394), ('SPILT', 2.5264834937896294), ('SPINK', 2.519080568170698)]
+GUESS: SPITS
+
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟨🟨⬜
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.089929107106409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPLIT with entropy: 0.0000
+Bot chose: SPLIT with entropy: 0.0000
+Top ten guesses: [('SPLIT', 0.0)]
+GUESS: SPLIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙄𝙏𝙎, Feedback: 🟩🟩🟨🟨⬜, Prior Entropy: 5.087, Expected Info Gain: 3.090 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙇𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙇𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 440 potential guesses from 243 remaining candidates...
+Top 5 guesses: [('THINK', '5.001'), ('SLITS', '4.751'), ('BUILT', '4.704'), ('SNITS', '4.680'), ('STUNS', '4.680')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+GUESS: THINK
+
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 4.4654 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.465380884968484, 'expected_info_gain': 5.001168424825656}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('SILTS', '3.096'), ('SILTY', '3.096'), ('SPLIT', '2.550'), ('SITUS', '2.482'), ('SIXTY', '2.413')]
+Top entropy choice: 𝙎𝙄𝙇𝙏𝙎 with entropy: 3.0958
+Ended up choosing COMMON word: 𝙎𝙋𝙇𝙄𝙏 with entropy: 2.5503
+GUESS: SPLIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.925, Expected Info Gain: 5.001 bits, Actual Info Gain: 4.465 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙋𝙇𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙇𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+243 candidate words remaining.
+Top 5 guesses: [('THINS', '5.114'), ('KNITS', '5.114'), ('CLINT', '5.102'), ('CLITS', '5.086'), ('THILK', '5.075')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+GUESS: THINS
+
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 5.1175 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 5.117457581548177, 'expected_info_gain': 5.114328466456172}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('ADULT', '2.807'), ('ALUMY', '2.807'), ('AMPLY', '2.807'), ('APPLY', '2.807'), ('APTLY', '2.807')]
+Top entropy choice: 𝘼𝘿𝙐𝙇𝙏 with entropy: 2.8074
+Guess count low, choosing the word with highest entropy: 𝘼𝘿𝙐𝙇𝙏 with entropy: 2.8074
+GUESS: ADULT
+
+Guess: 𝘼𝘿𝙐𝙇𝙏, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.807354922057604}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SPLIT', '0.000')]
+Top entropy choice: 𝙎𝙋𝙇𝙄𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙋𝙇𝙄𝙏 with entropy: 0.0000
+GUESS: SPLIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.114 bits, Actual Info Gain: 5.117 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝘿𝙐𝙇𝙏, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 2.807, Expected Info Gain: 2.807 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙇𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bits, Posterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 5.644, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.830 bits, Actual Info Gain: 0.690 bits, Posterior Entropy: 4.954, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 1.747 bits, Actual Info Gain: 0.784 bits, Posterior Entropy: 4.170, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bits, Posterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 5.644, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.830 bits, Actual Info Gain: 0.690 bits, Posterior Entropy: 4.954, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 1.747 bits, Actual Info Gain: 0.784 bits, Posterior Entropy: 4.170, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.140, Expected Info Gain: 3.892 bits, Actual Info Gain: 2.233 bits, Posterior Entropy: 5.907, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 1.920 bits, Actual Info Gain: 0.697 bits, Posterior Entropy: 5.209, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.209, Expected Info Gain: 1.716 bits, Actual Info Gain: 0.686 bits, Posterior Entropy: 4.524, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 1.706 bits, Actual Info Gain: 0.716 bits, Posterior Entropy: 3.807, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.140, Expected Info Gain: 4.098 bits, Actual Info Gain: 1.990 bits, Posterior Entropy: 6.150, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 2.975 bits, Actual Info Gain: 1.292 bits, Posterior Entropy: 4.858, 
+Guess: 𝙏𝙒𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 4.858, Expected Info Gain: 2.975 bits, Actual Info Gain: 2.858 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙐𝙈𝘽𝙊, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.975 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

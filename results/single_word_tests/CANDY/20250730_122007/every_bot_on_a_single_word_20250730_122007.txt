@@ -1,0 +1,227 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝙉𝘿𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: TANKY 
+The top ten guesses and scores: [('TANKY', 165), ('CANTY', 164), ('BANTY', 163), ('KANDY', 163), ('MANTY', 163), ('PANTY', 163), ('TANGY', 163), ('TAWNY', 163), ('WANTY', 163), ('CANDY', 162)]
+The bot finally chose: KANDY 
+GUESS: KANDY
+Guess: 𝙆𝘼𝙉𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BANDY 
+The top ten guesses and scores: [('BANDY', 35), ('CANDY', 35), ('GANDY', 35), ('HANDY', 35), ('MANDY', 35), ('PANDY', 35), ('DANDY', 34), ('YANDY', 34)]
+The bot finally chose: CANDY 
+GUESS: CANDY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙆𝘼𝙉𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝙉𝘿𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 4.6127 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.612654234590204, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DANCY with entropy: 2.9578
+Bot chose: CANDY with entropy: 2.9080
+Top ten guesses: [('DANCY', 2.9577806534662385), ('CANDY', 2.9079734569528366), ('NANCY', 2.8558153357955676), ('DANNY', 2.786730896879597), ('CANDO', 2.7718702084830835), ('MANDY', 2.7425417217658734), ('CANNY', 2.7253585805761067), ('MANNY', 2.6136588160563967), ('CANON', 2.5993350482716098), ('GANDY', 2.5837295956423745)]
+GUESS: CANDY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 4.613 bits, Posterior Entropy: 5.426, 
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙉𝘿𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 4.6127 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.612654234590204, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DANCY with entropy: 2.9578
+Bot chose: CANDY with entropy: 2.9080
+Top ten guesses: [('DANCY', 2.9577806534662385), ('CANDY', 2.9079734569528366), ('NANCY', 2.8558153357955676), ('DANNY', 2.786730896879597), ('CANDO', 2.7718702084830835), ('MANDY', 2.7425417217658734), ('CANNY', 2.7253585805761067), ('MANNY', 2.6136588160563967), ('CANON', 2.5993350482716098), ('GANDY', 2.5837295956423745)]
+GUESS: CANDY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 4.613 bits, Posterior Entropy: 5.426, 
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙉𝘿𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 7.6264 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 7.626439136697316, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('CANDY', '1.922'), ('CANID', '1.922'), ('CANTI', '1.922'), ('CANTY', '1.922'), ('CANNY', '1.522')]
+Top entropy choice: 𝘾𝘼𝙉𝘿𝙔 with entropy: 1.9219
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘿𝙔 with entropy: 1.9219
+GUESS: CANDY
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 7.626 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙉𝘿𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 4.7389 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 4.738913865955728, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+37 candidate words remaining.
+Top 5 guesses: [('CHYND', '3.317'), ('DUMKY', '3.301'), ('DUCKY', '3.270'), ('DICKY', '3.216'), ('DIMLY', '3.123')]
+Top entropy choice: 𝘾𝙃𝙔𝙉𝘿 with entropy: 3.3171
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙔𝙉𝘿 with entropy: 3.3171
+GUESS: CHYND
+
+Guess: 𝘾𝙃𝙔𝙉𝘿, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 0.0, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 3.317128705331558}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CANDY', '0.000')]
+Top entropy choice: 𝘾𝘼𝙉𝘿𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝘼𝙉𝘿𝙔 with entropy: 0.0000
+GUESS: CANDY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 4.739 bits, Posterior Entropy: 5.209, 
+Guess: 𝘾𝙃𝙔𝙉𝘿, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.209, Expected Info Gain: 3.317 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

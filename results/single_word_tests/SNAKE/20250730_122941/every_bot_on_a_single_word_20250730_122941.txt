@@ -1,0 +1,304 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙉𝘼𝙆𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SLATE 
+The top ten guesses and scores: [('SLATE', 222), ('STALE', 222), ('PASTE', 216), ('SPATE', 216), ('HASTE', 214), ('SKATE', 213), ('STAKE', 213), ('STANE', 213), ('CASTE', 212), ('SAUTE', 212)]
+The bot finally chose: SLATE 
+GUESS: SLATE
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SHAPE 
+The top ten guesses and scores: [('SHAPE', 61), ('SPAKE', 59), ('SCAPE', 58), ('SHAKE', 58), ('SHAME', 58), ('SPACE', 58), ('SPADE', 58), ('SPANE', 58), ('SHADE', 57), ('SHAVE', 57)]
+The bot finally chose: SHAPE 
+GUESS: SHAPE
+Guess: 𝙎𝙃𝘼𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SMAZE 
+The top ten guesses and scores: [('SMAZE', 24), ('SEAME', 22), ('SEAZE', 22), ('SNAKE', 22), ('SUAVE', 22), ('SWAGE', 22)]
+The bot finally chose: SNAKE 
+GUESS: SNAKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝙎𝙃𝘼𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝙎𝙉𝘼𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙉𝘼𝙆𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 2.7726 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.7725895038969277, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAME with entropy: 1.8962
+Bot chose: SHAME with entropy: 1.8962
+Top ten guesses: [('SHAME', 1.896240625180289), ('SEAME', 1.780672129520887), ('SHAVE', 1.7295739585136223), ('SHAKE', 1.5510981710072647), ('SEAZE', 1.4182958340544896), ('SMAZE', 1.4182958340544896), ('SHADE', 1.188721875540867), ('SOAVE', 1.0408520829727552), ('SUAVE', 1.0408520829727552), ('SEASE', 1.040852082972755)]
+GUESS: SHAME
+
+Guess: 𝙎𝙃𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.896240625180289}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEASE with entropy: 1.2516
+Bot chose: SUAVE with entropy: 1.2516
+Top ten guesses: [('SEASE', 1.2516291673878228), ('SEAZE', 1.2516291673878228), ('SOAVE', 1.2516291673878228), ('SUAVE', 1.2516291673878228), ('SNAKE', 0.6500224216483541), ('SWAGE', 0.6500224216483541)]
+GUESS: SUAVE
+
+Guess: 𝙎𝙐𝘼𝙑𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEASE with entropy: 1.5000
+Bot chose: SNAKE with entropy: 0.8113
+Top ten guesses: [('SEASE', 1.5), ('SEAZE', 1.5), ('SNAKE', 0.8112781244591328), ('SWAGE', 0.8112781244591328)]
+GUESS: SNAKE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 2.773 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙃𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 1.896 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙐𝘼𝙑𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙉𝘼𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙉𝘼𝙆𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.5011 bits
+Posterior entropy: 6.357552004618084
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.357552004618084, 'actual_info_gain': 7.501108980104693, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 3.4642
+Bot chose: STALE with entropy: 3.4488
+Top ten guesses: [('SALSE', 3.464171343836208), ('STALE', 3.448830111990442), ('SEALS', 3.428689606273066), ('SLATE', 3.3732236371097137), ('SALVE', 3.3224163359621137), ('SLANE', 3.2994533866858364), ('SLAES', 3.285407969237484), ('SALES', 3.2610924400118435), ('SEATS', 3.232739342645654), ('SLAVE', 3.216458356960039)]
+GUESS: STALE
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 2.7726 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.357552004618084, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.7725895038969277, 'expected_info_gain': 3.448830111990442}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAME with entropy: 1.8962
+Bot chose: SHAME with entropy: 1.8962
+Top ten guesses: [('SHAME', 1.896240625180289), ('SEAME', 1.780672129520887), ('SHAVE', 1.7295739585136223), ('SHAKE', 1.5510981710072647), ('SEAZE', 1.4182958340544896), ('SMAZE', 1.4182958340544896), ('SHADE', 1.188721875540867), ('SOAVE', 1.0408520829727552), ('SUAVE', 1.0408520829727552), ('SEASE', 1.040852082972755)]
+GUESS: SHAME
+
+Guess: 𝙎𝙃𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.896240625180289}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEASE with entropy: 1.2516
+Bot chose: SUAVE with entropy: 1.2516
+Top ten guesses: [('SEASE', 1.2516291673878228), ('SEAZE', 1.2516291673878228), ('SOAVE', 1.2516291673878228), ('SUAVE', 1.2516291673878228), ('SNAKE', 0.6500224216483541), ('SWAGE', 0.6500224216483541)]
+GUESS: SUAVE
+
+Guess: 𝙎𝙐𝘼𝙑𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEASE with entropy: 1.5000
+Bot chose: SNAKE with entropy: 0.8113
+Top ten guesses: [('SEASE', 1.5), ('SEAZE', 1.5), ('SNAKE', 0.8112781244591328), ('SWAGE', 0.8112781244591328)]
+GUESS: SNAKE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.501 bits, Posterior Entropy: 6.358, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 6.358, Expected Info Gain: 3.449 bits, Actual Info Gain: 2.773 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙃𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 1.896 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙐𝘼𝙑𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙉𝘼𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙉𝘼𝙆𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('SLATE', '2.219'), ('STALE', '2.187'), ('SPALE', '2.036'), ('SPATE', '2.017'), ('SLAKE', '1.871')]
+Top entropy choice: 𝙎𝙇𝘼𝙏𝙀 with entropy: 2.2192
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝙏𝙀 with entropy: 2.2192
+GUESS: SLATE
+
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.0418 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 1.0418201756946273, 'expected_info_gain': 2.2192431232919363}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('SHAPE', '1.990'), ('SPAKE', '1.894'), ('SPADE', '1.736'), ('SPANE', '1.736'), ('SHAME', '1.663')]
+Top entropy choice: 𝙎𝙃𝘼𝙋𝙀 with entropy: 1.9903
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙋𝙀 with entropy: 1.9903
+GUESS: SHAPE
+
+Guess: 𝙎𝙃𝘼𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.2801 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.280107919192735, 'expected_info_gain': 1.990316696873679}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SEAME', '1.842'), ('SEAZE', '1.842'), ('SMAZE', '1.664'), ('SEASE', '1.379'), ('SNAKE', '0.592')]
+Top entropy choice: 𝙎𝙀𝘼𝙈𝙀 with entropy: 1.8424
+GUESS: SEAME
+
+Guess: 𝙎𝙀𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771086}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SNAKE', '0.918'), ('SUAVE', '0.918'), ('SWAGE', '0.918')]
+Top entropy choice: 𝙎𝙉𝘼𝙆𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙉𝘼𝙆𝙀 with entropy: 0.9183
+GUESS: SNAKE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.129, Expected Info Gain: 2.219 bits, Actual Info Gain: 1.042 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙃𝘼𝙋𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.990 bits, Actual Info Gain: 1.280 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙀𝘼𝙈𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙉𝘼𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙉𝘼𝙆𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+35 candidate words remaining.
+Top 5 guesses: [('KLUTZ', '3.199'), ('DEPTH', '3.150'), ('PLANT', '3.134'), ('THILK', '3.122'), ('DELPH', '3.118')]
+Top entropy choice: 𝙆𝙇𝙐𝙏𝙕 with entropy: 3.1989
+Guess count low, choosing the word with highest entropy: 𝙆𝙇𝙐𝙏𝙕 with entropy: 3.1989
+GUESS: KLUTZ
+
+Guess: 𝙆𝙇𝙐𝙏𝙕, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.5443 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.5443205162238103, 'expected_info_gain': 3.1988966509639027}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('SHAKE', '0.918'), ('SNAKE', '0.918'), ('SPAKE', '0.918')]
+Top entropy choice: 𝙎𝙃𝘼𝙆𝙀 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝘼𝙆𝙀 with entropy: 0.9183
+GUESS: SHAKE
+
+Guess: 𝙎𝙃𝘼𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SNAKE', '1.000'), ('SPAKE', '1.000')]
+Top entropy choice: 𝙎𝙉𝘼𝙆𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙉𝘼𝙆𝙀 with entropy: 1.0000
+GUESS: SNAKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙆𝙇𝙐𝙏𝙕, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.199 bits, Actual Info Gain: 3.544 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝘼𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙉𝘼𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

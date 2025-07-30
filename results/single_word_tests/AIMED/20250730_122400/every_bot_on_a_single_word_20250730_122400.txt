@@ -1,0 +1,258 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙄𝙈𝙀𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ABLED 
+The top ten guesses and scores: [('ABLED', 228), ('ANTED', 225), ('ADMEN', 223), ('AILED', 223), ('AMEND', 223), ('AXLED', 221), ('ACNED', 220), ('ALDEA', 217), ('ADEPT', 215), ('ADNEX', 215)]
+The bot finally chose: AMEND 
+GUESS: AMEND
+Guess: 𝘼𝙈𝙀𝙉𝘿, Feedback: 🟩🟨🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: AIMED 
+The top ten guesses and scores: [('AIMED', 5)]
+The bot finally chose: AIMED 
+GUESS: AIMED
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜🟨
+Guess: 𝘼𝙈𝙀𝙉𝘿, Feedback: 🟩🟨🟨⬜🟩
+Guess: 𝘼𝙄𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙄𝙈𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 5.7197 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.719731056749852, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADIEU with entropy: 2.4464
+Bot chose: ADIEU with entropy: 2.4464
+Top ten guesses: [('ADIEU', 2.4464393446710155), ('ACHED', 2.321928094887362), ('ACTED', 2.321928094887362), ('AGUED', 1.9609640474436814), ('AIMED', 1.9609640474436814), ('HOAED', 1.9609640474436814), ('TEAED', 1.9609640474436814), ('ABBED', 1.7609640474436812), ('ADVEW', 1.7609640474436812), ('ADZED', 1.7609640474436812)]
+GUESS: ADIEU
+
+Guess: 𝘼𝘿𝙄𝙀𝙐, Feedback: 🟩🟨🟨🟩⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.4464393446710155}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AIMED with entropy: 0.0000
+Bot chose: AIMED with entropy: 0.0000
+Top ten guesses: [('AIMED', 0.0)]
+GUESS: AIMED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.720 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝘿𝙄𝙀𝙐, Feedback: 🟩🟨🟨🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.446 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙄𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙈𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 5.7197 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.719731056749852, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADIEU with entropy: 2.4464
+Bot chose: ADIEU with entropy: 2.4464
+Top ten guesses: [('ADIEU', 2.4464393446710155), ('ACHED', 2.321928094887362), ('ACTED', 2.321928094887362), ('AGUED', 1.9609640474436814), ('AIMED', 1.9609640474436814), ('HOAED', 1.9609640474436814), ('TEAED', 1.9609640474436814), ('ABBED', 1.7609640474436812), ('ADVEW', 1.7609640474436812), ('ADZED', 1.7609640474436812)]
+GUESS: ADIEU
+
+Guess: 𝘼𝘿𝙄𝙀𝙐, Feedback: 🟩🟨🟨🟩⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.4464393446710155}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AIMED with entropy: 0.0000
+Bot chose: AIMED with entropy: 0.0000
+Top ten guesses: [('AIMED', 0.0)]
+GUESS: AIMED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.720 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝘿𝙄𝙀𝙐, Feedback: 🟩🟨🟨🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.446 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙄𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙈𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 494 potential guesses from 407 remaining candidates...
+Top 5 guesses: [('LANED', '4.613'), ('LADEN', '4.596'), ('LATEN', '4.510'), ('LATED', '4.508'), ('LAMED', '4.431')]
+Top entropy choice: 𝙇𝘼𝙉𝙀𝘿 with entropy: 4.6130
+Ended up choosing COMMON word: 𝙇𝘼𝘿𝙀𝙉 with entropy: 4.5961
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 4.596051774874372}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('AMPED', '2.222'), ('AIMED', '2.049'), ('ACTED', '1.972'), ('ADIEU', '1.972'), ('APTED', '1.972')]
+Top entropy choice: 𝘼𝙈𝙋𝙀𝘿 with entropy: 2.2222
+Ended up choosing COMMON word: 𝘼𝙈𝙋𝙀𝘿 with entropy: 2.2222
+GUESS: AMPED
+
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: 🟩🟨⬜🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.2221915755066783}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('AIMED', '0.000')]
+Top entropy choice: 𝘼𝙄𝙈𝙀𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘼𝙄𝙈𝙀𝘿 with entropy: 0.0000
+GUESS: AIMED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 3.459, 
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: 🟩🟨⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙄𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙈𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+407 candidate words remaining.
+Top 5 guesses: [('DATAL', '4.794'), ('NATAL', '4.752'), ('MADAL', '4.731'), ('CANAL', '4.672'), ('DAMAN', '4.641')]
+Top entropy choice: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+GUESS: DATAL
+
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 4.3470 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.346956889378885, 'expected_info_gain': 4.794133113193984}
+----------
+The bot is making a guess...
+20 candidate words remaining.
+Top 5 guesses: [('ADMIN', '3.584'), ('MINED', '3.541'), ('AMNIC', '3.441'), ('ADMEN', '3.422'), ('ADDIN', '3.404')]
+Top entropy choice: 𝘼𝘿𝙈𝙄𝙉 with entropy: 3.5842
+Guess count low, choosing the word with highest entropy: 𝘼𝘿𝙈𝙄𝙉 with entropy: 3.5842
+GUESS: ADMIN
+
+Guess: 𝘼𝘿𝙈𝙄𝙉, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 4.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 0.0, 'actual_info_gain': 4.321928094887363, 'expected_info_gain': 3.5841837197791886}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('AIMED', '0.000')]
+Top entropy choice: 𝘼𝙄𝙈𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙄𝙈𝙀𝘿 with entropy: 0.0000
+GUESS: AIMED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 4.347 bits, Posterior Entropy: 4.322, 
+Guess: 𝘼𝘿𝙈𝙄𝙉, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 4.322, Expected Info Gain: 3.584 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙄𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

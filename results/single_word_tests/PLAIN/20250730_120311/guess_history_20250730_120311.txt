@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨🟨🟨⬜
+Guess: 𝙇𝙄𝘼𝙉𝙂, Feedback: 🟨🟨🟩🟨⬜
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.954 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.954 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 7.665, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.665, Expected Info Gain: 4.629 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 7.665, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 7.665, Expected Info Gain: 5.013 bits, Actual Info Gain: 6.665 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙇𝘼𝙄𝙉, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

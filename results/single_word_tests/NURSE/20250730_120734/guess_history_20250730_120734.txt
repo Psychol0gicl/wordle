@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.104 bits, Posterior Entropy: 7.755, 
+Guess: 𝙏𝙊𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 7.755, Expected Info Gain: 4.207 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.988 bits, Actual Info Gain: 3.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙐𝙍𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝙐𝙍𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙐𝙍𝙄𝙉, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.644, Expected Info Gain: 3.444 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙏𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝙋𝙀𝙍𝙆𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 2.951 bits, Posterior Entropy: 5.907, 
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 5.907, Expected Info Gain: 4.028 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙀𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.001 bits, Posterior Entropy: 8.858, 
+Guess: 𝙍𝙊𝙐𝙏𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 8.858, Expected Info Gain: 4.721 bits, Actual Info Gain: 2.951 bits, Posterior Entropy: 5.907, 
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 5.907, Expected Info Gain: 4.028 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙀𝙍𝘾𝙃, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 3.687 bits, Posterior Entropy: 5.087, 
+Guess: 𝙋𝙀𝙍𝘾𝙃, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 3.395 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 2.527 bits, Posterior Entropy: 6.248, 
+Guess: 𝙁𝙀𝙑𝙀𝙍, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 6.248, Expected Info Gain: 4.212 bits, Actual Info Gain: 3.248 bits, Posterior Entropy: 3.000, 
+Guess: 𝙅𝘼𝘾𝙆𝙔, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 4.212 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

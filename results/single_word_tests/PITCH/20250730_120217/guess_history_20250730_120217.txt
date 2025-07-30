@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙈𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 6.539 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙄𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 6.539 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙄𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.205 bits, Posterior Entropy: 4.170, 
+Guess: 𝘿𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.170, Expected Info Gain: 2.614 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝙄𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 4.517 bits, Posterior Entropy: 4.858, 
+Guess: 𝙏𝙃𝙄𝙂𝙃, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 3.137 bits, Actual Info Gain: 2.273 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 3.137 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

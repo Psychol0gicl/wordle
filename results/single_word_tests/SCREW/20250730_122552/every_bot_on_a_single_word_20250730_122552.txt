@@ -1,0 +1,227 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘾𝙍𝙀𝙒 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SIEUR 
+The top ten guesses and scores: [('SIEUR', 933), ('EPRIS', 932), ('PERIS', 932), ('PIERS', 932), ('RIPES', 932), ('SPEIR', 932), ('SPIER', 932), ('RESIT', 928), ('RITES', 928), ('TIERS', 928)]
+The bot finally chose: SIEUR 
+GUESS: SIEUR
+Guess: 𝙎𝙄𝙀𝙐𝙍, Feedback: 🟩⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SPREW 
+The top ten guesses and scores: [('SPREW', 57), ('SHREW', 56), ('SPRED', 56), ('STREW', 56), ('SCREW', 55), ('SHRED', 55), ('STREP', 55), ('SERED', 53), ('SYREN', 53), ('SERRY', 52)]
+The bot finally chose: SHREW 
+GUESS: SHREW
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SCREW 
+The top ten guesses and scores: [('SCREW', 13), ('SPREW', 13), ('STREW', 13)]
+The bot finally chose: SCREW 
+GUESS: SCREW
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙎𝙄𝙀𝙐𝙍, Feedback: 🟩⬜🟨⬜🟨
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 8.2148 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 8.214804794948051, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOREE with entropy: 3.2391
+Bot chose: SCORE with entropy: 3.0256
+Top ten guesses: [('SOREE', 3.2390795706241744), ('SEIRS', 3.200756631406301), ('SIREE', 3.1731023645672383), ('SEHRI', 3.06319982023475), ('SCIRE', 3.0448061294638697), ('SCORE', 3.0256040021098594), ('SEROW', 3.0248431859717613), ('SCREE', 3.0011835379370932), ('SERON', 2.998004614523969), ('SORES', 2.9861194829389395)]
+GUESS: SCORE
+
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 5.6439 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 0.0, 'actual_info_gain': 5.643856189774724, 'expected_info_gain': 3.0256040021098594}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCREW with entropy: 0.0000
+Bot chose: SCREW with entropy: 0.0000
+Top ten guesses: [('SCREW', 0.0)]
+GUESS: SCREW
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.215 bits, Posterior Entropy: 5.644, 
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 5.644, Expected Info Gain: 3.026 bits, Actual Info Gain: 5.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 8.2148 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 8.214804794948051, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOREE with entropy: 3.2391
+Bot chose: SCORE with entropy: 3.0256
+Top ten guesses: [('SOREE', 3.2390795706241744), ('SEIRS', 3.200756631406301), ('SIREE', 3.1731023645672383), ('SEHRI', 3.06319982023475), ('SCIRE', 3.0448061294638697), ('SCORE', 3.0256040021098594), ('SEROW', 3.0248431859717613), ('SCREE', 3.0011835379370932), ('SERON', 2.998004614523969), ('SORES', 2.9861194829389395)]
+GUESS: SCORE
+
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 5.6439 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 0.0, 'actual_info_gain': 5.643856189774724, 'expected_info_gain': 3.0256040021098594}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCREW with entropy: 0.0000
+Bot chose: SCREW with entropy: 0.0000
+Top ten guesses: [('SCREW', 0.0)]
+GUESS: SCREW
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.215 bits, Posterior Entropy: 5.644, 
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 5.644, Expected Info Gain: 3.026 bits, Actual Info Gain: 5.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙀𝙒 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 159 potential guesses from 59 remaining candidates...
+Top 5 guesses: [('THEIR', '3.357'), ('SPEIR', '3.275'), ('SPEER', '3.207'), ('SIEUR', '3.201'), ('NEVER', '3.155')]
+Top entropy choice: 𝙏𝙃𝙀𝙄𝙍 with entropy: 3.3571
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙄𝙍 with entropy: 3.3571
+GUESS: THEIR
+
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 2.4232 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.4232114307245443, 'expected_info_gain': 3.357126825538768}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('SURED', '2.369'), ('SERES', '2.222'), ('SURES', '2.222'), ('SERED', '2.118'), ('SPRED', '2.118')]
+Top entropy choice: 𝙎𝙐𝙍𝙀𝘿 with entropy: 2.3685
+GUESS: SURED
+
+Guess: 𝙎𝙐𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.3685225277282065}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('SCREW', '1.500'), ('SPREW', '1.500'), ('SERES', '0.811'), ('SYREN', '0.811')]
+Top entropy choice: 𝙎𝘾𝙍𝙀𝙒 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙎𝘾𝙍𝙀𝙒 with entropy: 1.5000
+GUESS: SCREW
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 5.883, Expected Info Gain: 3.357 bits, Actual Info Gain: 2.423 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙐𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.369 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙀𝙒 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 7.9760 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 7.976017935360935, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+59 candidate words remaining.
+Top 5 guesses: [('WIPER', '3.546'), ('PERIL', '3.535'), ('LURID', '3.527'), ('PURIN', '3.521'), ('PIKER', '3.520')]
+Top entropy choice: 𝙒𝙄𝙋𝙀𝙍 with entropy: 3.5462
+Guess count low, choosing the word with highest entropy: 𝙒𝙄𝙋𝙀𝙍 with entropy: 3.5462
+GUESS: WIPER
+
+Guess: 𝙒𝙄𝙋𝙀𝙍, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 4.2977 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.2976805486406855, 'expected_info_gain': 3.5461576672358603}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('SCREW', '0.918'), ('SHREW', '0.918'), ('STREW', '0.918')]
+Top entropy choice: 𝙎𝘾𝙍𝙀𝙒 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙎𝘾𝙍𝙀𝙒 with entropy: 0.9183
+GUESS: SCREW
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.976 bits, Posterior Entropy: 5.883, 
+Guess: 𝙒𝙄𝙋𝙀𝙍, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 5.883, Expected Info Gain: 3.546 bits, Actual Info Gain: 4.298 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙄𝙈𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝙐𝙉𝙄𝙏𝙔, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙄𝙈𝙋𝙇𝙔, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙅𝙄𝙈𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙄𝙈𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 2.280 bits, Posterior Entropy: 3.807, 
+Guess: 𝙅𝙄𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.807, Expected Info Gain: 1.975 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙄𝙈𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙄𝙈𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.062 bits, Posterior Entropy: 6.087, 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.087, Expected Info Gain: 4.162 bits, Actual Info Gain: 2.280 bits, Posterior Entropy: 3.807, 
+Guess: 𝙅𝙄𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.807, Expected Info Gain: 1.975 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙄𝙈𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙄𝙈𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 9.375, Expected Info Gain: 5.536 bits, Actual Info Gain: 3.703 bits, Posterior Entropy: 5.672, 
+Guess: 𝙈𝙄𝘿𝙂𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 5.672, Expected Info Gain: 3.973 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 1.585, 
+Guess: 𝙅𝙄𝙈𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙄𝙈𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.484 bits, Posterior Entropy: 9.375, 
+Guess: 𝙇𝙄𝙉𝙏𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 9.375, Expected Info Gain: 5.686 bits, Actual Info Gain: 3.851 bits, Posterior Entropy: 5.524, 
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 5.524, Expected Info Gain: 2.943 bits, Actual Info Gain: 5.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙅𝙄𝙈𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

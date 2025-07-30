@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: DROPT 
+The top ten guesses and scores: [('DROPT', 296), ('TRONC', 296), ('PRONK', 289), ('TRONK', 289), ('BRONC', 288), ('BROND', 288), ('CRONK', 288), ('FRONT', 288), ('TROCK', 288), ('CROFT', 287)]
+The bot finally chose: FRONT 
+GUESS: FRONT
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: DROCK 
+The top ten guesses and scores: [('DROCK', 147), ('CROWD', 143), ('PROUD', 143), ('BROCK', 142), ('DROIL', 142), ('DROUK', 140), ('CROUP', 139), ('CROWL', 139), ('PROUL', 139), ('PROWL', 139)]
+The bot finally chose: CROWD 
+GUESS: CROWD
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 5.2637 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.2636604397081825, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRONK with entropy: 2.2842
+Bot chose: CROWN with entropy: 2.2842
+Top ten guesses: [('CRONK', 2.2841591278514217), ('CROON', 2.2841591278514217), ('CROWN', 2.2841591278514217), ('CROOK', 1.9591479170272446), ('CROCK', 1.780672129520887), ('CRONY', 1.780672129520887), ('CROOL', 1.780672129520887), ('CROWL', 1.780672129520887), ('CROWD', 1.4182958340544896), ('CRIBO', 1.207518749639422)]
+GUESS: CROWN
+
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2841591278514217}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROWD with entropy: 1.0000
+Bot chose: CROWD with entropy: 1.0000
+Top ten guesses: [('CROWD', 1.0), ('CROWL', 1.0)]
+GUESS: CROWD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 5.264 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.284 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.0100 bits
+Posterior entropy: 8.848622940429339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.848622940429339, 'actual_info_gain': 5.010038044293438, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COURT with entropy: 5.1906
+Bot chose: COURT with entropy: 5.1906
+Top ten guesses: [('COURT', 5.190577047821109), ('TORIC', 5.140295445370256), ('YOURT', 5.1289328222720245), ('TURON', 5.127512240072673), ('DROIT', 5.126023203332468), ('CORNI', 5.1155402177826055), ('BOURN', 5.073329193519317), ('TRIGO', 5.060780835107048), ('TURBO', 5.0553260163990075), ('RIOTY', 5.052776492558963)]
+GUESS: COURT
+
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 5.2637 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 8.848622940429339, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.2636604397081825, 'expected_info_gain': 5.190577047821109}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRONK with entropy: 2.2842
+Bot chose: CROWN with entropy: 2.2842
+Top ten guesses: [('CRONK', 2.2841591278514217), ('CROON', 2.2841591278514217), ('CROWN', 2.2841591278514217), ('CROOK', 1.9591479170272446), ('CROCK', 1.780672129520887), ('CRONY', 1.780672129520887), ('CROOL', 1.780672129520887), ('CROWL', 1.780672129520887), ('CROWD', 1.4182958340544896), ('CRIBO', 1.207518749639422)]
+GUESS: CROWN
+
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2841591278514217}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROWD with entropy: 1.0000
+Bot chose: CROWD with entropy: 1.0000
+Top ten guesses: [('CROWD', 1.0), ('CROWL', 1.0)]
+GUESS: CROWD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.010 bits, Posterior Entropy: 8.849, 
+Guess: 𝘾𝙊𝙐𝙍𝙏, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 8.849, Expected Info Gain: 5.191 bits, Actual Info Gain: 5.264 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.284 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.4324 bits
+Posterior entropy: 7.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.426264754702098, 'actual_info_gain': 6.432396230020679, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 269 potential guesses from 172 remaining candidates...
+Top 5 guesses: [('CROON', '4.323'), ('PROOT', '4.315'), ('TROOP', '4.299'), ('PROTO', '4.203'), ('TROPO', '4.202')]
+Top entropy choice: 𝘾𝙍𝙊𝙊𝙉 with entropy: 4.3231
+Ended up choosing COMMON word: 𝙏𝙍𝙊𝙊𝙋 with entropy: 4.2987
+GUESS: TROOP
+
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 7.426264754702098, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 4.298666318536998}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('CROWN', '3.282'), ('BROND', '3.202'), ('CROWD', '3.191'), ('DROWN', '3.158'), ('BRONC', '3.071')]
+Top entropy choice: 𝘾𝙍𝙊𝙒𝙉 with entropy: 3.2818
+Ended up choosing COMMON word: 𝘾𝙍𝙊𝙒𝙉 with entropy: 3.2818
+GUESS: CROWN
+
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 3.2817536555801703}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('CROWD', '1.000'), ('CROWL', '1.000')]
+Top entropy choice: 𝘾𝙍𝙊𝙒𝘿 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘾𝙍𝙊𝙒𝘿 with entropy: 1.0000
+GUESS: CROWD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 7.426, Expected Info Gain: 4.299 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 5.170, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.170, Expected Info Gain: 3.282 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.4324 bits
+Posterior entropy: 7.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.426264754702098, 'actual_info_gain': 6.432396230020679, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+172 candidate words remaining.
+Top 5 guesses: [('CLOOT', '4.482'), ('PLOOT', '4.429'), ('CUTIN', '4.389'), ('PITON', '4.371'), ('PINOT', '4.366')]
+Top entropy choice: 𝘾𝙇𝙊𝙊𝙏 with entropy: 4.4824
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙊𝙊𝙏 with entropy: 4.4824
+GUESS: CLOOT
+
+Guess: 𝘾𝙇𝙊𝙊𝙏, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 4.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.256339753259786, 'expected_info_gain': 4.482419613432131}
+----------
+The bot is making a guess...
+9 candidate words remaining.
+Top 5 guesses: [('BRINK', '2.948'), ('AWKIN', '2.948'), ('BUYIN', '2.948'), ('DRINK', '2.948'), ('DRUNK', '2.948')]
+Top entropy choice: 𝘽𝙍𝙄𝙉𝙆 with entropy: 2.9477
+Guess count low, choosing the word with highest entropy: 𝘽𝙍𝙄𝙉𝙆 with entropy: 2.9477
+GUESS: BRINK
+
+Guess: 𝘽𝙍𝙄𝙉𝙆, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.9477027792200903}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('CROUP', '1.000'), ('CROWD', '1.000')]
+Top entropy choice: 𝘾𝙍𝙊𝙐𝙋 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙍𝙊𝙒𝘿 with entropy: 1.0000
+GUESS: CROWD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝘾𝙇𝙊𝙊𝙏, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.426, Expected Info Gain: 4.482 bits, Actual Info Gain: 4.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙍𝙄𝙉𝙆, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙒𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

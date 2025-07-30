@@ -1,0 +1,213 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BRAST 
+The top ten guesses and scores: [('BRAST', 45), ('TRASH', 45), ('BRASH', 44), ('CRASH', 43), ('WRAST', 43), ('TRASS', 42), ('BRASS', 41), ('GRASP', 41), ('CRASS', 40), ('GRASS', 40)]
+The bot finally chose: TRASH 
+GUESS: TRASH
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 5.8700 bits
+Posterior entropy: 7.9886846867721655
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.9886846867721655, 'actual_info_gain': 5.869976297950611, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARNS with entropy: 3.5819
+Bot chose: TARNS with entropy: 3.5819
+Top ten guesses: [('TARNS', 3.5818689501208123), ('TARDS', 3.580819909765573), ('RAITS', 3.578143066596046), ('DARTS', 3.5611487978665597), ('MARTS', 3.5179601673107297), ('KARTS', 3.4995151168438783), ('DARIS', 3.495114286624106), ('TARSI', 3.477756105928692), ('DRATS', 3.4711776372050007), ('TIARS', 3.470981722566058)]
+GUESS: TARNS
+
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 7.9887 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.9886846867721655, 'posterior_entropy': 0.0, 'actual_info_gain': 7.9886846867721655, 'expected_info_gain': 3.5818689501208123}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRASH with entropy: 0.0000
+Bot chose: TRASH with entropy: 0.0000
+Top ten guesses: [('TRASH', 0.0)]
+GUESS: TRASH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 7.989 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 5.8700 bits
+Posterior entropy: 7.9886846867721655
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.9886846867721655, 'actual_info_gain': 5.869976297950611, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARNS with entropy: 3.5819
+Bot chose: TARNS with entropy: 3.5819
+Top ten guesses: [('TARNS', 3.5818689501208123), ('TARDS', 3.580819909765573), ('RAITS', 3.578143066596046), ('DARTS', 3.5611487978665597), ('MARTS', 3.5179601673107297), ('KARTS', 3.4995151168438783), ('DARIS', 3.495114286624106), ('TARSI', 3.477756105928692), ('DRATS', 3.4711776372050007), ('TIARS', 3.470981722566058)]
+GUESS: TARNS
+
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 7.9887 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.9886846867721655, 'posterior_entropy': 0.0, 'actual_info_gain': 7.9886846867721655, 'expected_info_gain': 3.5818689501208123}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRASH with entropy: 0.0000
+Bot chose: TRASH with entropy: 0.0000
+Top ten guesses: [('TRASH', 0.0)]
+GUESS: TRASH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 7.989 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 174 potential guesses from 74 remaining candidates...
+Top 5 guesses: [('MIGHT', '2.665'), ('BRAST', '2.616'), ('THING', '2.579'), ('NIGHT', '2.577'), ('TRABS', '2.556')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 2.6650
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 2.6650
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 6.2095 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 0.0, 'actual_info_gain': 6.20945336562895, 'expected_info_gain': 2.664950781106563}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TRASH', '0.000')]
+Top entropy choice: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+GUESS: TRASH
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 6.209, Expected Info Gain: 2.665 bits, Actual Info Gain: 6.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+74 candidate words remaining.
+Top 5 guesses: [('GRYPT', '3.352'), ('BUNDT', '3.163'), ('BITSY', '3.116'), ('BIGHT', '3.113'), ('DICTY', '3.085')]
+Top entropy choice: 𝙂𝙍𝙔𝙋𝙏 with entropy: 3.3520
+Guess count low, choosing the word with highest entropy: 𝙂𝙍𝙔𝙋𝙏 with entropy: 3.3520
+GUESS: GRYPT
+
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 2.8875 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.887525270741588, 'expected_info_gain': 3.3519580794038215}
+----------
+The bot is making a guess...
+10 candidate words remaining.
+Top 5 guesses: [('DEBTS', '2.646'), ('BANDH', '2.522'), ('BANDS', '2.522'), ('BENDS', '2.522'), ('BINDS', '2.522')]
+Top entropy choice: 𝘿𝙀𝘽𝙏𝙎 with entropy: 2.6464
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝘽𝙏𝙎 with entropy: 2.6464
+GUESS: DEBTS
+
+Guess: 𝘿𝙀𝘽𝙏𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.6464393446710157}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('TRASH', '0.000')]
+Top entropy choice: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+GUESS: TRASH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 6.209, Expected Info Gain: 3.352 bits, Actual Info Gain: 2.888 bits, Posterior Entropy: 3.322, 
+Guess: 𝘿𝙀𝘽𝙏𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 3.322, Expected Info Gain: 2.646 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

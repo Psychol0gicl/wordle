@@ -1,0 +1,255 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LINOS 
+The top ten guesses and scores: [('LINOS', 1495), ('LOINS', 1495), ('NOILS', 1495), ('OSLIN', 1495), ('LOUIS', 1493), ('LOUNS', 1493), ('NOULS', 1493), ('TOILS', 1491), ('LOTUS', 1489), ('LOUTS', 1489)]
+The bot finally chose: LOTUS 
+GUESS: LOTUS
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: COMUS 
+The top ten guesses and scores: [('COMUS', 70), ('MOCUS', 70), ('DOCUS', 67), ('CONUS', 66), ('MODUS', 66), ('FOCUS', 64), ('HOCUS', 64), ('MOPUS', 64), ('COCUS', 63), ('MOKUS', 63)]
+The bot finally chose: MODUS 
+GUESS: MODUS
+Guess: 𝙈𝙊𝘿𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CONUS 
+The top ten guesses and scores: [('CONUS', 35), ('FOCUS', 34), ('HOCUS', 34), ('BONUS', 33), ('COCUS', 33), ('BOGUS', 32), ('ZOBUS', 32), ('WOJUS', 31), ('SOJUS', 30)]
+The bot finally chose: FOCUS 
+GUESS: FOCUS
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BOGUS 
+The top ten guesses and scores: [('BOGUS', 20), ('BONUS', 20), ('ZOBUS', 20), ('WOJUS', 19), ('SOJUS', 18)]
+The bot finally chose: BOGUS 
+GUESS: BOGUS
+Guess: 𝘽𝙊𝙂𝙐𝙎, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BONUS 
+The top ten guesses and scores: [('BONUS', 5)]
+The bot finally chose: BONUS 
+GUESS: BONUS
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙊𝘿𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙂𝙐𝙎, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.9088 bits
+Posterior entropy: 9.94982671075911
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.94982671075911, 'actual_info_gain': 3.9088342739636666, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOILS with entropy: 5.1338
+Bot chose: LOTUS with entropy: 5.0295
+Top ten guesses: [('TOILS', 5.133816047903427), ('TOLUS', 5.11098647937818), ('LIONS', 5.091794620463315), ('LOUTS', 5.0644543219712235), ('TONUS', 5.052578281348073), ('LINOS', 5.05130132261248), ('NOILS', 5.045820129446514), ('LOINS', 5.034133815456458), ('LOTUS', 5.029450140213361), ('MILOS', 5.015972106029607)]
+GUESS: LOTUS
+
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 6.0429 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 9.94982671075911, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 6.042936115150591, 'expected_info_gain': 5.029450140213361}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COMUS with entropy: 2.5493
+Bot chose: COMUS with entropy: 2.5493
+Top ten guesses: [('COMUS', 2.5492553971685), ('MOCUS', 2.2825887305018338), ('CONUS', 2.206238928653389), ('DOCUS', 2.0729055953200564), ('MODUS', 1.9898980954642875), ('BONUS', 1.6922718656836107), ('FOCUS', 1.640223928941852), ('HOCUS', 1.640223928941852), ('COCUS', 1.6402239289418519), ('NODUS', 1.5589385323502774)]
+GUESS: COMUS
+
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.5849625007211565, 'expected_info_gain': 2.5492553971685}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BONUS with entropy: 2.3219
+Bot chose: BONUS with entropy: 2.3219
+Top ten guesses: [('BONUS', 2.321928094887362), ('BOGUS', 1.9219280948873623), ('ZOBUS', 1.5219280948873621), ('NODUS', 1.3709505944546687), ('WOJUS', 0.7219280948873623)]
+GUESS: BONUS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.043 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.549 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.9088 bits
+Posterior entropy: 9.94982671075911
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.94982671075911, 'actual_info_gain': 3.9088342739636666, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOILS with entropy: 5.1338
+Bot chose: LOTUS with entropy: 5.0295
+Top ten guesses: [('TOILS', 5.133816047903427), ('TOLUS', 5.11098647937818), ('LIONS', 5.091794620463315), ('LOUTS', 5.0644543219712235), ('TONUS', 5.052578281348073), ('LINOS', 5.05130132261248), ('NOILS', 5.045820129446514), ('LOINS', 5.034133815456458), ('LOTUS', 5.029450140213361), ('MILOS', 5.015972106029607)]
+GUESS: LOTUS
+
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 6.0429 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 9.94982671075911, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 6.042936115150591, 'expected_info_gain': 5.029450140213361}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COMUS with entropy: 2.5493
+Bot chose: COMUS with entropy: 2.5493
+Top ten guesses: [('COMUS', 2.5492553971685), ('MOCUS', 2.2825887305018338), ('CONUS', 2.206238928653389), ('DOCUS', 2.0729055953200564), ('MODUS', 1.9898980954642875), ('BONUS', 1.6922718656836107), ('FOCUS', 1.640223928941852), ('HOCUS', 1.640223928941852), ('COCUS', 1.6402239289418519), ('NODUS', 1.5589385323502774)]
+GUESS: COMUS
+
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.5849625007211565, 'expected_info_gain': 2.5492553971685}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BONUS with entropy: 2.3219
+Bot chose: BONUS with entropy: 2.3219
+Top ten guesses: [('BONUS', 2.321928094887362), ('BOGUS', 1.9219280948873623), ('ZOBUS', 1.5219280948873621), ('NODUS', 1.3709505944546687), ('WOJUS', 0.7219280948873623)]
+GUESS: BONUS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.043 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.549 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 5.0773 bits
+Posterior entropy: 8.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.78135971352466, 'actual_info_gain': 5.077301271198117, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 499 potential guesses from 440 remaining candidates...
+Top 5 guesses: [('BUILT', '3.709'), ('LOOTS', '3.647'), ('PHOTO', '3.608'), ('LOTOS', '3.596'), ('UNTIL', '3.583')]
+Top entropy choice: 𝘽𝙐𝙄𝙇𝙏 with entropy: 3.7090
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝙏 with entropy: 3.7090
+GUESS: BUILT
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 6.1964 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.78135971352466, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.196397212803504, 'expected_info_gain': 3.7090272339200063}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BONUS', '2.585'), ('BOUNS', '2.585'), ('BOGUS', '2.252'), ('BOSUN', '2.252'), ('BOUKS', '2.252')]
+Top entropy choice: 𝘽𝙊𝙉𝙐𝙎 with entropy: 2.5850
+Ended up choosing COMMON word: 𝘽𝙊𝙉𝙐𝙎 with entropy: 2.5850
+GUESS: BONUS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.077 bits, Posterior Entropy: 8.781, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.781, Expected Info Gain: 3.709 bits, Actual Info Gain: 6.196 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 5.0773 bits
+Posterior entropy: 8.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.78135971352466, 'actual_info_gain': 5.077301271198117, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+440 candidate words remaining.
+Top 5 guesses: [('BLUNT', '3.930'), ('MULCT', '3.906'), ('LUNTS', '3.894'), ('CULTY', '3.869'), ('PLOUT', '3.869')]
+Top entropy choice: 𝘽𝙇𝙐𝙉𝙏 with entropy: 3.9296
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝙐𝙉𝙏 with entropy: 3.9296
+GUESS: BLUNT
+
+Guess: 𝘽𝙇𝙐𝙉𝙏, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.7814 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 8.78135971352466, 'posterior_entropy': 1.0, 'actual_info_gain': 7.78135971352466, 'expected_info_gain': 3.9295530920021373}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('BONUS', '1.000'), ('BOSUN', '1.000')]
+Top entropy choice: 𝘽𝙊𝙉𝙐𝙎 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝘽𝙊𝙉𝙐𝙎 with entropy: 1.0000
+GUESS: BONUS
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.077 bits, Posterior Entropy: 8.781, 
+Guess: 𝘽𝙇𝙐𝙉𝙏, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 8.781, Expected Info Gain: 3.930 bits, Actual Info Gain: 7.781 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

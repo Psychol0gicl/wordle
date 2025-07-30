@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 1.819 bits, Posterior Entropy: 6.170, 
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 6.170, Expected Info Gain: 3.046 bits, Actual Info Gain: 3.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 1.819 bits, Posterior Entropy: 6.170, 
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 6.170, Expected Info Gain: 3.046 bits, Actual Info Gain: 3.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 2.665 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 3.585, 
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 1.951 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.352 bits, Actual Info Gain: 3.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝘿𝘼𝙈, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

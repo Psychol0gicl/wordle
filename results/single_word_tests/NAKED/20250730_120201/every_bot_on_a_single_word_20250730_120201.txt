@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙉𝘼𝙆𝙀𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DEALT 
+The top ten guesses and scores: [('DEALT', 1214), ('DELTA', 1214), ('LATED', 1214), ('ELAND', 1213), ('LADEN', 1213), ('LANED', 1213), ('NALED', 1213), ('LAMED', 1186), ('MEDAL', 1186), ('DECAL', 1176)]
+The bot finally chose: DEALT 
+GUESS: DEALT
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MAWED 
+The top ten guesses and scores: [('MAWED', 232), ('WAMED', 232), ('PAWED', 230), ('WANED', 230), ('MANED', 229), ('NAMED', 229), ('CAWED', 227), ('KAWED', 227), ('NAPED', 227), ('PANED', 227)]
+The bot finally chose: WANED 
+GUESS: WANED
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: NAKED 
+The top ten guesses and scores: [('NAKED', 17), ('NAMED', 17), ('NAPED', 17), ('NAVED', 17)]
+The bot finally chose: NAKED 
+GUESS: NAKED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩🟨🟩🟩
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝘼𝙆𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 5.8717 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.871734150194902, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANED with entropy: 1.6577
+Bot chose: NAMED with entropy: 1.6577
+Top ten guesses: [('MANED', 1.6577427265048887), ('NAMED', 1.6577427265048887), ('NAVED', 1.6577427265048887), ('VANED', 1.6577427265048887), ('BANED', 1.3516441151533924), ('CANED', 1.3516441151533924), ('EANED', 1.3516441151533924), ('WANED', 1.3516441151533922), ('NAKED', 1.224394445405986)]
+GUESS: NAMED
+
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 1.6577427265048887}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAKED with entropy: 1.0000
+Bot chose: NAKED with entropy: 1.0000
+Top ten guesses: [('NAKED', 1.0), ('NAVED', 1.0)]
+GUESS: NAKED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.872 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙆𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 5.8717 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.871734150194902, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANED with entropy: 1.6577
+Bot chose: NAMED with entropy: 1.6577
+Top ten guesses: [('MANED', 1.6577427265048887), ('NAMED', 1.6577427265048887), ('NAVED', 1.6577427265048887), ('VANED', 1.6577427265048887), ('BANED', 1.3516441151533924), ('CANED', 1.3516441151533924), ('EANED', 1.3516441151533924), ('WANED', 1.3516441151533922), ('NAKED', 1.224394445405986)]
+GUESS: NAMED
+
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 1.6577427265048887}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NAKED with entropy: 1.0000
+Bot chose: NAKED with entropy: 1.0000
+Top ten guesses: [('NAKED', 1.0), ('NAVED', 1.0)]
+GUESS: NAKED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 5.872 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙆𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 494 potential guesses from 407 remaining candidates...
+Top 5 guesses: [('LANED', '4.613'), ('LADEN', '4.596'), ('LATEN', '4.510'), ('LATED', '4.508'), ('LAMED', '4.431')]
+Top entropy choice: 𝙇𝘼𝙉𝙀𝘿 with entropy: 4.6130
+Ended up choosing COMMON word: 𝙇𝘼𝘿𝙀𝙉 with entropy: 4.5961
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 5.2095 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.20945336562895, 'expected_info_gain': 4.596051774874372}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('MANED', '1.617'), ('NAMED', '1.617'), ('NAPED', '1.617'), ('NAVED', '1.617'), ('PANED', '1.617')]
+Top entropy choice: 𝙈𝘼𝙉𝙀𝘿 with entropy: 1.6172
+Ended up choosing COMMON word: 𝙉𝘼𝙈𝙀𝘿 with entropy: 1.6172
+GUESS: NAMED
+
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.8744691179161412, 'expected_info_gain': 1.6171895725927152}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('NAKED', '0.918'), ('NAPED', '0.918'), ('NAVED', '0.918')]
+Top entropy choice: 𝙉𝘼𝙆𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙉𝘼𝙆𝙀𝘿 with entropy: 0.9183
+GUESS: NAKED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 3.459, 
+Guess: 𝙉𝘼𝙈𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝘼𝙆𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+407 candidate words remaining.
+Top 5 guesses: [('DATAL', '4.794'), ('NATAL', '4.752'), ('MADAL', '4.731'), ('CANAL', '4.672'), ('DAMAN', '4.641')]
+Top entropy choice: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+GUESS: DATAL
+
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 2.7620 bits
+Posterior entropy: 5.906890595608519
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 5.906890595608519, 'actual_info_gain': 2.7619943886577287, 'expected_info_gain': 4.794133113193984}
+----------
+The bot is making a guess...
+60 candidate words remaining.
+Top 5 guesses: [('NYMPH', '3.160'), ('WIMPY', '3.059'), ('WOMYN', '3.040'), ('POWNY', '2.975'), ('WINGY', '2.877')]
+Top entropy choice: 𝙉𝙔𝙈𝙋𝙃 with entropy: 3.1596
+Guess count low, choosing the word with highest entropy: 𝙉𝙔𝙈𝙋𝙃 with entropy: 3.1596
+GUESS: NYMPH
+
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 4.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.906890595608519, 'posterior_entropy': 1.0, 'actual_info_gain': 4.906890595608519, 'expected_info_gain': 3.1596147362215}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('NAKED', '1.000'), ('NAVED', '1.000')]
+Top entropy choice: 𝙉𝘼𝙆𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙉𝘼𝙆𝙀𝘿 with entropy: 1.0000
+GUESS: NAKED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.762 bits, Posterior Entropy: 5.907, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 3.160 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝘼𝙆𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

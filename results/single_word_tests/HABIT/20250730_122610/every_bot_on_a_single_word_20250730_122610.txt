@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝘽𝙄𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TACHI 
+The top ten guesses and scores: [('TACHI', 305), ('TAKHI', 305), ('THAIM', 300), ('PAHIT', 297), ('BAITH', 294), ('HABIT', 294), ('HAICK', 292), ('THAGI', 292), ('DIACT', 290), ('DICTA', 290)]
+The bot finally chose: HABIT 
+GUESS: HABIT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝘽𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 7.7170 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 7.71699089440494, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DAVIT with entropy: 2.3219
+Bot chose: DAVIT with entropy: 2.3219
+Top ten guesses: [('DAVIT', 2.321928094887362), ('BATIK', 1.9219280948873623), ('DATIL', 1.9219280948873623), ('HABIT', 1.9219280948873623), ('VATIC', 1.9219280948873623)]
+GUESS: DAVIT
+
+Guess: 𝘿𝘼𝙑𝙄𝙏, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HABIT with entropy: 0.0000
+Bot chose: HABIT with entropy: 0.0000
+Top ten guesses: [('HABIT', 0.0)]
+GUESS: HABIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 7.717 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝘼𝙑𝙄𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝘽𝙄𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 7.7170 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 7.71699089440494, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DAVIT with entropy: 2.3219
+Bot chose: DAVIT with entropy: 2.3219
+Top ten guesses: [('DAVIT', 2.321928094887362), ('BATIK', 1.9219280948873623), ('DATIL', 1.9219280948873623), ('HABIT', 1.9219280948873623), ('VATIC', 1.9219280948873623)]
+GUESS: DAVIT
+
+Guess: 𝘿𝘼𝙑𝙄𝙏, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HABIT with entropy: 0.0000
+Bot chose: HABIT with entropy: 0.0000
+Top ten guesses: [('HABIT', 0.0)]
+GUESS: HABIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 7.717 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝘼𝙑𝙄𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝘽𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.1410 bits
+Posterior entropy: 6.807354922057604
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.807354922057604, 'actual_info_gain': 3.141012309527074, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 211 potential guesses from 112 remaining candidates...
+Top 5 guesses: [('MIGHT', '4.292'), ('DAMPY', '3.903'), ('PAMBY', '3.830'), ('MAUBY', '3.792'), ('TABID', '3.758')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 5.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 5.807354922057604, 'expected_info_gain': 4.291800071176598}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('HABIT', '1.000'), ('PAHIT', '1.000')]
+Top entropy choice: 𝙃𝘼𝘽𝙄𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙃𝘼𝘽𝙄𝙏 with entropy: 1.0000
+GUESS: HABIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.141 bits, Posterior Entropy: 6.807, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 6.807, Expected Info Gain: 4.292 bits, Actual Info Gain: 5.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝘽𝙄𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 7.3634 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 7.363404730863522, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('ADBOT', '2.585'), ('BATCH', '2.585'), ('BATED', '2.585'), ('BELCH', '2.585'), ('BETED', '2.585')]
+Top entropy choice: 𝘼𝘿𝘽𝙊𝙏 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝘼𝘿𝘽𝙊𝙏 with entropy: 2.5850
+GUESS: ADBOT
+
+Guess: 𝘼𝘿𝘽𝙊𝙏, Feedback: 🟨⬜🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('HABIT', '0.000')]
+Top entropy choice: 𝙃𝘼𝘽𝙄𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝘼𝘽𝙄𝙏 with entropy: 0.0000
+GUESS: HABIT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 7.363 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝘿𝘽𝙊𝙏, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝘽𝙄𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

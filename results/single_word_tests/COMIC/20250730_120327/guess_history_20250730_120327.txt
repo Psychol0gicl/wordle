@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙊𝙂𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 2.824 bits, Posterior Entropy: 5.954, 
+Guess: 𝙏𝙊𝙐𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 5.954, Expected Info Gain: 4.323 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝘾𝙈𝙄𝘾, Feedback: ⬜🟨🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================

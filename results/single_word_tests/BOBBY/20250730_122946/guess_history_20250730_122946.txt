@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙂𝙊𝘿𝙇𝙔, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙃𝙊𝘽𝘽𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙊𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 6.728, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.728, Expected Info Gain: 4.580 bits, Actual Info Gain: 5.143 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙊𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 3.422 bits, Posterior Entropy: 6.728, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.728, Expected Info Gain: 4.580 bits, Actual Info Gain: 5.143 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙊𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 2.778 bits, Posterior Entropy: 6.000, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.000, Expected Info Gain: 3.388 bits, Actual Info Gain: 1.913 bits, Posterior Entropy: 4.087, 
+Guess: 𝘽𝙊𝙋𝙋𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 2.537 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙊𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 2.255 bits, Posterior Entropy: 6.524, 
+Guess: 𝘽𝙊𝙇𝘿𝙊, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.524, Expected Info Gain: 4.077 bits, Actual Info Gain: 4.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙊𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

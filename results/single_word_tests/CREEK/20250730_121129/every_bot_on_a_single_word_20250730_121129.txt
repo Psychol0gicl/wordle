@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙀𝙀𝙆 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TRIED 
+The top ten guesses and scores: [('TRIED', 320), ('CRIED', 315), ('PRIED', 315), ('UREID', 313), ('FRIED', 311), ('DRENT', 310), ('TREND', 310), ('TRUED', 309), ('IRKED', 307), ('BREID', 304)]
+The bot finally chose: TRIED 
+GUESS: TRIED
+Guess: 𝙏𝙍𝙄𝙀𝘿, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CRUEL 
+The top ten guesses and scores: [('CRUEL', 79), ('GRUEL', 78), ('YRNEH', 78), ('CREEK', 77), ('CREEP', 77), ('CRYER', 77), ('KREEN', 77), ('KREEP', 77), ('PREEN', 77), ('PRYER', 77)]
+The bot finally chose: CRUEL 
+GUESS: CRUEL
+Guess: 𝘾𝙍𝙐𝙀𝙇, Feedback: 🟩🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CREEK 
+The top ten guesses and scores: [('CREEK', 13), ('CREEP', 13), ('CRYER', 13)]
+The bot finally chose: CREEK 
+GUESS: CREEK
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙏𝙍𝙄𝙀𝘿, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝘾𝙍𝙐𝙀𝙇, Feedback: 🟩🟩⬜🟩⬜
+Guess: 𝘾𝙍𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙀𝙀𝙆 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 7.2737 bits
+Posterior entropy: 6.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.584962500721156, 'actual_info_gain': 7.273698484001621, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TREED with entropy: 4.0075
+Bot chose: ERECT with entropy: 3.8194
+Top ten guesses: [('TREED', 4.007544034202682), ('FREET', 3.872719004073488), ('BREDE', 3.860652886053039), ('ERECT', 3.8193898753026874), ('CREED', 3.809054740582303), ('FREED', 3.768885234828283), ('TREEN', 3.757642982213146), ('DRERE', 3.752509503790746), ('GRECE', 3.748506310392375), ('GREET', 3.742719862379213)]
+GUESS: ERECT
+
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟩🟩🟨⬜
+Actual Info Gain: 4.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.263034405833794, 'expected_info_gain': 3.8193898753026874}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CREED with entropy: 1.5219
+Bot chose: CREED with entropy: 1.5219
+Top ten guesses: [('CREED', 1.5219280948873621), ('CREEK', 1.5219280948873621), ('CREEL', 1.5219280948873621), ('CREME', 1.3709505944546687), ('CREWE', 1.3709505944546687)]
+GUESS: CREED
+
+Guess: 𝘾𝙍𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.5219280948873621}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CREEK with entropy: 1.0000
+Bot chose: CREEK with entropy: 1.0000
+Top ten guesses: [('CREEK', 1.0), ('CREEL', 1.0)]
+GUESS: CREEK
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟩🟩🟨⬜, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙍𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.522 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙀𝙀𝙆 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 7.2737 bits
+Posterior entropy: 6.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.584962500721156, 'actual_info_gain': 7.273698484001621, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TREED with entropy: 4.0075
+Bot chose: ERECT with entropy: 3.8194
+Top ten guesses: [('TREED', 4.007544034202682), ('FREET', 3.872719004073488), ('BREDE', 3.860652886053039), ('ERECT', 3.8193898753026874), ('CREED', 3.809054740582303), ('FREED', 3.768885234828283), ('TREEN', 3.757642982213146), ('DRERE', 3.752509503790746), ('GRECE', 3.748506310392375), ('GREET', 3.742719862379213)]
+GUESS: ERECT
+
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟩🟩🟨⬜
+Actual Info Gain: 4.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.263034405833794, 'expected_info_gain': 3.8193898753026874}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CREED with entropy: 1.5219
+Bot chose: CREED with entropy: 1.5219
+Top ten guesses: [('CREED', 1.5219280948873621), ('CREEK', 1.5219280948873621), ('CREEL', 1.5219280948873621), ('CREME', 1.3709505944546687), ('CREWE', 1.3709505944546687)]
+GUESS: CREED
+
+Guess: 𝘾𝙍𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.5219280948873621}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CREEK with entropy: 1.0000
+Bot chose: CREEK with entropy: 1.0000
+Top ten guesses: [('CREEK', 1.0), ('CREEL', 1.0)]
+GUESS: CREEK
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.274 bits, Posterior Entropy: 6.585, 
+Guess: 𝙀𝙍𝙀𝘾𝙏, Feedback: 🟨🟩🟩🟨⬜, Prior Entropy: 6.585, Expected Info Gain: 3.819 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙍𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.522 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙀𝙀𝙆 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 438 remaining candidates...
+Top 5 guesses: [('DIRER', '4.603'), ('DRIER', '4.596'), ('DETER', '4.554'), ('TRIED', '4.520'), ('EIDER', '4.437')]
+Top entropy choice: 𝘿𝙄𝙍𝙀𝙍 with entropy: 4.6032
+Ended up choosing COMMON word: 𝘿𝙍𝙄𝙀𝙍 with entropy: 4.5957
+GUESS: DRIER
+
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 4.4529 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.452858964713811, 'expected_info_gain': 4.5957202266937065}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('KREEN', '2.709'), ('KREEP', '2.666'), ('CREEK', '2.664'), ('GREEK', '2.602'), ('PREEN', '2.602')]
+Top entropy choice: 𝙆𝙍𝙀𝙀𝙉 with entropy: 2.7087
+Ended up choosing COMMON word: 𝘾𝙍𝙀𝙀𝙆 with entropy: 2.6639
+GUESS: CREEK
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝘿𝙍𝙄𝙀𝙍, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.775, Expected Info Gain: 4.596 bits, Actual Info Gain: 4.453 bits, Posterior Entropy: 4.322, 
+Guess: 𝘾𝙍𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙀𝙀𝙆 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.0839 bits
+Posterior entropy: 8.774787059601174
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.774787059601174, 'actual_info_gain': 5.083873925121603, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+438 candidate words remaining.
+Top 5 guesses: [('PUTID', '4.628'), ('DENET', '4.615'), ('TINED', '4.610'), ('DIRER', '4.603'), ('TEEND', '4.601')]
+Top entropy choice: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙏𝙄𝘿 with entropy: 4.6284
+GUESS: PUTID
+
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.5269 bits
+Posterior entropy: 6.247927513443585
+entropy_info: {'prior_entropy': 8.774787059601174, 'posterior_entropy': 6.247927513443585, 'actual_info_gain': 2.5268595461575885, 'expected_info_gain': 4.628396401808578}
+----------
+The bot is making a guess...
+76 candidate words remaining.
+Top 5 guesses: [('FEVER', '4.212'), ('FEELY', '4.188'), ('KEVEL', '4.179'), ('NEBEL', '4.161'), ('REFER', '4.155')]
+Top entropy choice: 𝙁𝙀𝙑𝙀𝙍 with entropy: 4.2121
+Guess count low, choosing the word with highest entropy: 𝙁𝙀𝙑𝙀𝙍 with entropy: 4.2121
+GUESS: FEVER
+
+Guess: 𝙁𝙀𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟨
+Actual Info Gain: 3.6630 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.247927513443585, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.662965012722429, 'expected_info_gain': 4.212075115179542}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('ABACK', '2.585'), ('AMUCK', '2.585'), ('BLACK', '2.585'), ('BLING', '2.585'), ('BLOCK', '2.585')]
+Top entropy choice: 𝘼𝘽𝘼𝘾𝙆 with entropy: 2.5850
+Using common exploratory word: 𝘼𝘽𝘼𝘾𝙆 with entropy: 2.5850
+GUESS: ABACK
+
+Guess: 𝘼𝘽𝘼𝘾𝙆, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.212075115179542}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('CREEK', '0.000')]
+Top entropy choice: 𝘾𝙍𝙀𝙀𝙆 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙍𝙀𝙀𝙆 with entropy: 0.0000
+GUESS: CREEK
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.084 bits, Posterior Entropy: 8.775, 
+Guess: 𝙋𝙐𝙏𝙄𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.775, Expected Info Gain: 4.628 bits, Actual Info Gain: 2.527 bits, Posterior Entropy: 6.248, 
+Guess: 𝙁𝙀𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟨, Prior Entropy: 6.248, Expected Info Gain: 4.212 bits, Actual Info Gain: 3.663 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝘽𝘼𝘾𝙆, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 2.585, Expected Info Gain: 4.212 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙍𝙀𝙀𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

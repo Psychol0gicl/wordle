@@ -1,0 +1,239 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙀𝙇𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ISLET 
+The top ten guesses and scores: [('ISLET', 2828), ('LITES', 2828), ('STEIL', 2828), ('TEILS', 2828), ('TILES', 2828), ('ELSIN', 2772), ('LENIS', 2772), ('LIENS', 2772), ('LINES', 2772), ('NELIS', 2772)]
+The bot finally chose: ISLET 
+GUESS: ISLET
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: FLEWS 
+The top ten guesses and scores: [('FLEWS', 190), ('FLEYS', 190), ('PLEWS', 190), ('SKELF', 190), ('SKELP', 190), ('SPELD', 190), ('SPELK', 190), ('FLEGS', 189), ('PLEBS', 189), ('BLEYS', 188)]
+The bot finally chose: FLEWS 
+GUESS: FLEWS
+Guess: 𝙁𝙇𝙀𝙒𝙎, Feedback: ⬜🟨🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SKELP 
+The top ten guesses and scores: [('SKELP', 48), ('SPELK', 48), ('SKELM', 46), ('SPELD', 46), ('SKELL', 44), ('SPELL', 44), ('SEELD', 42), ('SMELL', 42), ('SEELY', 41), ('SHELL', 41)]
+The bot finally chose: SPELL 
+GUESS: SPELL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙁𝙇𝙀𝙒𝙎, Feedback: ⬜🟨🟩⬜🟨
+Guess: 𝙎𝙋𝙀𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙀𝙇𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPELT with entropy: 2.0388
+Bot chose: SPELT with entropy: 2.0388
+Top ten guesses: [('SPELT', 2.038760752862686), ('SPELK', 1.8895782867502307), ('SPETS', 1.8282344370732124), ('SPELD', 1.7843151288554941), ('SPEKS', 1.7187828921272557), ('SPECS', 1.7187828921272554), ('SPEEL', 1.6282202760321463), ('SPEWS', 1.562688039303908), ('SPECT', 1.5055213905049436), ('SPEIL', 1.3605273114437084)]
+GUESS: SPELT
+
+Guess: 𝙎𝙋𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.038760752862686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPELD with entropy: 0.9183
+Bot chose: SPELL with entropy: 0.9183
+Top ten guesses: [('SPELD', 0.9182958340544896), ('SPELK', 0.9182958340544896), ('SPELL', 0.9182958340544896)]
+GUESS: SPELL
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙎𝙋𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 4.248, Expected Info Gain: 2.039 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙋𝙀𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙀𝙇𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPELT with entropy: 2.0388
+Bot chose: SPELT with entropy: 2.0388
+Top ten guesses: [('SPELT', 2.038760752862686), ('SPELK', 1.8895782867502307), ('SPETS', 1.8282344370732124), ('SPELD', 1.7843151288554941), ('SPEKS', 1.7187828921272557), ('SPECS', 1.7187828921272554), ('SPEEL', 1.6282202760321463), ('SPEWS', 1.562688039303908), ('SPECT', 1.5055213905049436), ('SPEIL', 1.3605273114437084)]
+GUESS: SPELT
+
+Guess: 𝙎𝙋𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.038760752862686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPELD with entropy: 0.9183
+Bot chose: SPELL with entropy: 0.9183
+Top ten guesses: [('SPELD', 0.9182958340544896), ('SPELK', 0.9182958340544896), ('SPELL', 0.9182958340544896)]
+GUESS: SPELL
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙎𝙋𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 4.248, Expected Info Gain: 2.039 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙋𝙀𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙀𝙇𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 422 potential guesses from 227 remaining candidates...
+Top 5 guesses: [('SNEES', '4.121'), ('SENES', '4.086'), ('SEELS', '4.072'), ('STEEN', '4.072'), ('STEEL', '4.070')]
+Top entropy choice: 𝙎𝙉𝙀𝙀𝙎 with entropy: 4.1209
+Ended up choosing COMMON word: 𝙎𝙏𝙀𝙀𝙉 with entropy: 4.0718
+GUESS: STEEN
+
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.6566 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.656623485848603, 'expected_info_gain': 4.07179195655567}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('SPELK', '3.515'), ('SKELP', '3.459'), ('SKEPS', '3.211'), ('SKEWS', '3.173'), ('SPELD', '3.092')]
+Top entropy choice: 𝙎𝙋𝙀𝙇𝙆 with entropy: 3.5148
+GUESS: SPELK
+
+Guess: 𝙎𝙋𝙀𝙇𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 3.5148191979569257}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SPELD', '1.000'), ('SPELL', '1.000')]
+Top entropy choice: 𝙎𝙋𝙀𝙇𝘿 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙋𝙀𝙇𝙇 with entropy: 1.0000
+GUESS: SPELL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.827, Expected Info Gain: 4.072 bits, Actual Info Gain: 2.657 bits, Posterior Entropy: 5.170, 
+Guess: 𝙎𝙋𝙀𝙇𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 5.170, Expected Info Gain: 3.515 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝙀𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙀𝙇𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+227 candidate words remaining.
+Top 5 guesses: [('TEENS', '4.682'), ('TENES', '4.665'), ('LEETS', '4.661'), ('NETES', '4.643'), ('DENET', '4.638')]
+Top entropy choice: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+GUESS: TEENS
+
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 3.5046 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.5046203924035524, 'expected_info_gain': 4.682414796651863}
+----------
+The bot is making a guess...
+20 candidate words remaining.
+Top 5 guesses: [('PIKUL', '3.684'), ('WHILK', '3.584'), ('PIKEL', '3.546'), ('PHIAL', '3.509'), ('PULIK', '3.384')]
+Top entropy choice: 𝙋𝙄𝙆𝙐𝙇 with entropy: 3.6842
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙆𝙐𝙇 with entropy: 3.6842
+GUESS: PIKUL
+
+Guess: 𝙋𝙄𝙆𝙐𝙇, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 4.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 0.0, 'actual_info_gain': 4.321928094887363, 'expected_info_gain': 3.6841837197791887}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SPELL', '0.000')]
+Top entropy choice: 𝙎𝙋𝙀𝙇𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙋𝙀𝙇𝙇 with entropy: 0.0000
+GUESS: SPELL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 7.827, Expected Info Gain: 4.682 bits, Actual Info Gain: 3.505 bits, Posterior Entropy: 4.322, 
+Guess: 𝙋𝙄𝙆𝙐𝙇, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.684 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙀𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

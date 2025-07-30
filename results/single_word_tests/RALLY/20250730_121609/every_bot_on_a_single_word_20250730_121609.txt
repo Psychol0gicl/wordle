@@ -1,0 +1,291 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝙇𝙇𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: RANTY 
+The top ten guesses and scores: [('RANTY', 116), ('BARNY', 115), ('BARMY', 114), ('RAFTY', 114), ('BARFY', 113), ('BARKY', 113), ('PARTY', 113), ('CARBY', 112), ('MARLY', 112), ('NARKY', 112)]
+The bot finally chose: PARTY 
+GUESS: PARTY
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: RANGY 
+The top ten guesses and scores: [('RANGY', 27), ('RAWLY', 25), ('RAGGY', 24), ('RALLY', 24), ('RANNY', 24), ('RAFFY', 23), ('RAMMY', 23)]
+The bot finally chose: RALLY 
+GUESS: RALLY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙍𝘼𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 2.7601 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 2.7601459642653596, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAROM with entropy: 4.1562
+Bot chose: CAROL with entropy: 4.0844
+Top ten guesses: [('CAROM', 4.156200642514064), ('CARBO', 4.149271526240292), ('CARDY', 4.1269494398194935), ('BARDO', 4.095460889959773), ('CAROL', 4.084360373709816), ('MARDY', 4.080268908140051), ('CARON', 4.069636689799721), ('NARCO', 4.042874231632255), ('DARCY', 4.042442397565972), ('CAROB', 4.025373899731421)]
+GUESS: CAROL
+
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: ⬜🟩🟨⬜🟨
+Actual Info Gain: 5.1497 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 1.0, 'actual_info_gain': 5.149747119504682, 'expected_info_gain': 4.084360373709816}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RALLY with entropy: 1.0000
+Bot chose: RALLY with entropy: 1.0000
+Top ten guesses: [('RALLY', 1.0), ('RAWLY', 1.0)]
+GUESS: RALLY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.760 bits, Posterior Entropy: 6.150, 
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: ⬜🟩🟨⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.084 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 2.7601 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 2.7601459642653596, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAROM with entropy: 4.1562
+Bot chose: CAROL with entropy: 4.0844
+Top ten guesses: [('CAROM', 4.156200642514064), ('CARBO', 4.149271526240292), ('CARDY', 4.1269494398194935), ('BARDO', 4.095460889959773), ('CAROL', 4.084360373709816), ('MARDY', 4.080268908140051), ('CARON', 4.069636689799721), ('NARCO', 4.042874231632255), ('DARCY', 4.042442397565972), ('CAROB', 4.025373899731421)]
+GUESS: CAROL
+
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: ⬜🟩🟨⬜🟨
+Actual Info Gain: 5.1497 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 1.0, 'actual_info_gain': 5.149747119504682, 'expected_info_gain': 4.084360373709816}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RALLY with entropy: 1.0000
+Bot chose: RALLY with entropy: 1.0000
+Top ten guesses: [('RALLY', 1.0), ('RAWLY', 1.0)]
+GUESS: RALLY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.760 bits, Posterior Entropy: 6.150, 
+Guess: 𝘾𝘼𝙍𝙊𝙇, Feedback: ⬜🟩🟨⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.084 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 324 remaining candidates...
+Top 5 guesses: [('MARIA', '5.094'), ('AARTI', '4.862'), ('MARAL', '4.841'), ('MARAN', '4.818'), ('MIRAA', '4.787')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 4.2524 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.252387161634285, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('RANDY', '2.660'), ('RANTY', '2.534'), ('RADGY', '2.416'), ('RANGY', '2.416'), ('RAWDY', '2.278')]
+Top entropy choice: 𝙍𝘼𝙉𝘿𝙔 with entropy: 2.6601
+Ended up choosing COMMON word: 𝙍𝘼𝙉𝘿𝙔 with entropy: 2.6601
+GUESS: RANDY
+
+Guess: 𝙍𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.502500340529183, 'expected_info_gain': 2.660129752633257}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('RAFTY', '1.792'), ('RAFFY', '1.252'), ('RALLY', '1.252'), ('RATTY', '1.252'), ('RAWLY', '1.252')]
+Top entropy choice: 𝙍𝘼𝙁𝙏𝙔 with entropy: 1.7925
+GUESS: RAFTY
+
+Guess: 𝙍𝘼𝙁𝙏𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('RALLY', '1.585'), ('RAWLY', '1.585'), ('RAGGY', '0.918')]
+Top entropy choice: 𝙍𝘼𝙇𝙇𝙔 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙍𝘼𝙇𝙇𝙔 with entropy: 1.5850
+GUESS: RALLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.252 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 2.660 bits, Actual Info Gain: 1.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝘼𝙁𝙏𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+324 candidate words remaining.
+Top 5 guesses: [('MARIA', '5.094'), ('MATAI', '5.018'), ('TANIA', '4.976'), ('MANIA', '4.958'), ('MALAI', '4.946')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 4.2524 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.252387161634285, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+17 candidate words remaining.
+Top 5 guesses: [('NUDGY', '3.169'), ('TYNDE', '3.146'), ('DAYNT', '3.102'), ('DUNGY', '3.052'), ('GUNDY', '3.052')]
+Top entropy choice: 𝙉𝙐𝘿𝙂𝙔 with entropy: 3.1692
+Guess count low, choosing the word with highest entropy: 𝙉𝙐𝘿𝙂𝙔 with entropy: 3.1692
+GUESS: NUDGY
+
+Guess: 𝙉𝙐𝘿𝙂𝙔, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 3.1692486956952335}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('CALFS', '2.322'), ('DELFS', '2.322'), ('DELFT', '2.322'), ('FATWA', '2.322'), ('FELTS', '2.322')]
+Top entropy choice: 𝘾𝘼𝙇𝙁𝙎 with entropy: 2.3219
+Using common exploratory word: 𝘿𝙀𝙇𝙁𝙏 with entropy: 2.3219
+GUESS: DELFT
+
+Guess: 𝘿𝙀𝙇𝙁𝙏, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.1692486956952335}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('RALLY', '0.000')]
+Top entropy choice: 𝙍𝘼𝙇𝙇𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝘼𝙇𝙇𝙔 with entropy: 0.0000
+GUESS: RALLY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.252 bits, Posterior Entropy: 4.087, 
+Guess: 𝙉𝙐𝘿𝙂𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 3.169 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙀𝙇𝙁𝙏, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 3.169 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

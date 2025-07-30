@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙀𝙉𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙐𝙉𝙄𝙏𝙀, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙉𝙐𝘿𝙂𝙀, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙑𝙀𝙉𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙀𝙉𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.006 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙀𝙉𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.545 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙀𝙉𝘾𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙉𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙉𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.006 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙀𝙉𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.545 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙀𝙉𝘾𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙉𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙉𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 4.942 bits, Actual Info Gain: 4.975 bits, Posterior Entropy: 3.459, 
+Guess: 𝙑𝙀𝙉𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙉𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 8.435, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.435, Expected Info Gain: 5.036 bits, Actual Info Gain: 4.627 bits, Posterior Entropy: 3.807, 
+Guess: 𝙀𝙈𝙀𝙉𝘿, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 3.807, Expected Info Gain: 3.522 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙉𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,253 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙒𝙁𝙐𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ALGIN 
+The top ten guesses and scores: [('ALGIN', 526), ('ALIGN', 526), ('ALKIN', 501), ('ADMIN', 498), ('ALGID', 498), ('AUMIL', 497), ('ANVIL', 492), ('APING', 488), ('ALLIN', 487), ('AMNIC', 486)]
+The bot finally chose: ALIGN 
+GUESS: ALIGN
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AFLAP 
+The top ten guesses and scores: [('AFLAP', 43), ('AMPLY', 43), ('AMPUL', 43), ('APTLY', 43), ('APPLY', 41), ('AWFUL', 40), ('AFFLY', 39), ('ADULT', 37), ('AFALD', 37), ('APPAL', 37)]
+The bot finally chose: AMPLY 
+GUESS: AMPLY
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: AWFUL 
+The top ten guesses and scores: [('AWFUL', 9), ('AFLAJ', 8)]
+The bot finally chose: AWFUL 
+GUESS: AWFUL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩🟨⬜⬜⬜
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙒𝙁𝙐𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.5795 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 3.5794873706550048, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALOUD with entropy: 4.9048
+Bot chose: ALOUD with entropy: 4.9048
+Top ten guesses: [('ALOUD', 4.904772528290995), ('COALY', 4.902796398844895), ('AHOLD', 4.890623522633761), ('ALUMY', 4.878084851636488), ('ACOLD', 4.8518745506540215), ('ALMUD', 4.785493171610418), ('GLADY', 4.762227382828685), ('ALKYD', 4.750673422164066), ('FLAMY', 4.686553567860653), ('BLADY', 4.677975300790614)]
+GUESS: ALOUD
+
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 6.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 0.0, 'actual_info_gain': 6.459431618637297, 'expected_info_gain': 4.904772528290995}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWFUL with entropy: 0.0000
+Bot chose: AWFUL with entropy: 0.0000
+Top ten guesses: [('AWFUL', 0.0)]
+GUESS: AWFUL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.579 bits, Posterior Entropy: 6.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 6.459, Expected Info Gain: 4.905 bits, Actual Info Gain: 6.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙒𝙁𝙐𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.5795 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 3.5794873706550048, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALOUD with entropy: 4.9048
+Bot chose: ALOUD with entropy: 4.9048
+Top ten guesses: [('ALOUD', 4.904772528290995), ('COALY', 4.902796398844895), ('AHOLD', 4.890623522633761), ('ALUMY', 4.878084851636488), ('ACOLD', 4.8518745506540215), ('ALMUD', 4.785493171610418), ('GLADY', 4.762227382828685), ('ALKYD', 4.750673422164066), ('FLAMY', 4.686553567860653), ('BLADY', 4.677975300790614)]
+GUESS: ALOUD
+
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 6.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 0.0, 'actual_info_gain': 6.459431618637297, 'expected_info_gain': 4.904772528290995}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWFUL with entropy: 0.0000
+Bot chose: AWFUL with entropy: 0.0000
+Top ten guesses: [('AWFUL', 0.0)]
+GUESS: AWFUL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.579 bits, Posterior Entropy: 6.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 6.459, Expected Info Gain: 4.905 bits, Actual Info Gain: 6.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝙁𝙐𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 7.3634 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 7.363404730863522, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('AMPUL', '2.252'), ('AUMIL', '1.918'), ('AWFUL', '1.918'), ('ALKYL', '1.792'), ('ALLYL', '1.792')]
+Top entropy choice: 𝘼𝙈𝙋𝙐𝙇 with entropy: 2.2516
+Ended up choosing COMMON word: 𝘼𝙒𝙁𝙐𝙇 with entropy: 1.9183
+GUESS: AWFUL
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 7.363 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝙁𝙐𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.6630 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 4.662965012722429, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+39 candidate words remaining.
+Top 5 guesses: [('PYGAL', '4.580'), ('AMPUL', '4.497'), ('BULGY', '4.426'), ('ALMUG', '4.417'), ('ALGUM', '4.385')]
+Top entropy choice: 𝙋𝙔𝙂𝘼𝙇 with entropy: 4.5800
+Guess count low, choosing the word with highest entropy: 𝙋𝙔𝙂𝘼𝙇 with entropy: 4.5800
+GUESS: PYGAL
+
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 4.2854 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.285402218862249, 'posterior_entropy': 1.0, 'actual_info_gain': 4.285402218862249, 'expected_info_gain': 4.580023372597455}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('AHULL', '1.000'), ('AWFUL', '1.000')]
+Top entropy choice: 𝘼𝙃𝙐𝙇𝙇 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙒𝙁𝙐𝙇 with entropy: 1.0000
+GUESS: AWFUL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 4.663 bits, Posterior Entropy: 5.285, 
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 5.285, Expected Info Gain: 4.580 bits, Actual Info Gain: 4.285 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙊𝘾𝘾𝙐𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: YOURT 
+The top ten guesses and scores: [('YOURT', 549), ('YOURN', 545), ('TURON', 542), ('CURIO', 540), ('RUBIO', 537), ('TUMOR', 537), ('COURT', 536), ('DUROY', 535), ('MOURN', 533), ('TURBO', 533)]
+The bot finally chose: RUBIO 
+GUESS: RUBIO
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: CORNU 
+The top ten guesses and scores: [('CORNU', 57), ('MOURN', 57), ('MORUK', 56), ('COURD', 55), ('COURT', 55), ('FORUM', 55), ('KORUN', 55), ('YOURN', 55), ('JORUM', 54), ('MOHUR', 54)]
+The bot finally chose: MOURN 
+GUESS: MOURN
+Guess: 𝙈𝙊𝙐𝙍𝙉, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: OCCUR 
+The top ten guesses and scores: [('OCCUR', 8), ('OKRUG', 8)]
+The bot finally chose: OCCUR 
+GUESS: OCCUR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙈𝙊𝙐𝙍𝙉, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙊𝘾𝘾𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙊𝘾𝘾𝙐𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 8.2737 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 8.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUMOR with entropy: 4.0582
+Bot chose: RUMOR with entropy: 4.0582
+Top ten guesses: [('RUMOR', 4.058208073322317), ('MOHUR', 4.045914521951839), ('MILOR', 3.959147917027245), ('MOROR', 3.91883399132455), ('ROBUR', 3.878433271591261), ('CRUOR', 3.8699100232740653), ('MUCOR', 3.8013064311344653), ('CLOUR', 3.7566874842578764), ('MINOR', 3.7353207557584307), ('TUMOR', 3.726105587917032)]
+GUESS: RUMOR
+
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.058208073322317}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUR with entropy: 2.0000
+Bot chose: FLOUR with entropy: 2.0000
+Top ten guesses: [('CLOUR', 2.0), ('FLOUR', 2.0), ('OCCUR', 2.0), ('ODOUR', 1.5)]
+GUESS: FLOUR
+
+Guess: 𝙁𝙇𝙊𝙐𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OCCUR with entropy: 0.0000
+Bot chose: OCCUR with entropy: 0.0000
+Top ten guesses: [('OCCUR', 0.0)]
+GUESS: OCCUR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.274 bits, Posterior Entropy: 5.585, 
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 5.585, Expected Info Gain: 4.058 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙇𝙊𝙐𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝘾𝘾𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙊𝘾𝘾𝙐𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 8.2737 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 8.27369848400162, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUMOR with entropy: 4.0582
+Bot chose: RUMOR with entropy: 4.0582
+Top ten guesses: [('RUMOR', 4.058208073322317), ('MOHUR', 4.045914521951839), ('MILOR', 3.959147917027245), ('MOROR', 3.91883399132455), ('ROBUR', 3.878433271591261), ('CRUOR', 3.8699100232740653), ('MUCOR', 3.8013064311344653), ('CLOUR', 3.7566874842578764), ('MINOR', 3.7353207557584307), ('TUMOR', 3.726105587917032)]
+GUESS: RUMOR
+
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.058208073322317}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLOUR with entropy: 2.0000
+Bot chose: FLOUR with entropy: 2.0000
+Top ten guesses: [('CLOUR', 2.0), ('FLOUR', 2.0), ('OCCUR', 2.0), ('ODOUR', 1.5)]
+GUESS: FLOUR
+
+Guess: 𝙁𝙇𝙊𝙐𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OCCUR with entropy: 0.0000
+Bot chose: OCCUR with entropy: 0.0000
+Top ten guesses: [('OCCUR', 0.0)]
+GUESS: OCCUR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.274 bits, Posterior Entropy: 5.585, 
+Guess: 𝙍𝙐𝙈𝙊𝙍, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 5.585, Expected Info Gain: 4.058 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙇𝙊𝙐𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝘾𝘾𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙊𝘾𝘾𝙐𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.4324 bits
+Posterior entropy: 7.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.426264754702098, 'actual_info_gain': 6.432396230020679, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 269 potential guesses from 172 remaining candidates...
+Top 5 guesses: [('CROON', '4.323'), ('PROOT', '4.315'), ('TROOP', '4.299'), ('PROTO', '4.203'), ('TROPO', '4.202')]
+Top entropy choice: 𝘾𝙍𝙊𝙊𝙉 with entropy: 4.3231
+Ended up choosing COMMON word: 𝙏𝙍𝙊𝙊𝙋 with entropy: 4.2987
+GUESS: TROOP
+
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 4.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.256339753259786, 'expected_info_gain': 4.298666318536998}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('BIRDO', '3.170'), ('OKRUG', '2.948'), ('RIGMO', '2.948'), ('RUMBO', '2.948'), ('VIRGO', '2.948')]
+Top entropy choice: 𝘽𝙄𝙍𝘿𝙊 with entropy: 3.1699
+Ended up choosing COMMON word: 𝙑𝙄𝙍𝙂𝙊 with entropy: 2.9477
+GUESS: VIRGO
+
+Guess: 𝙑𝙄𝙍𝙂𝙊, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.94770277922009}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('OCCUR', '0.000')]
+Top entropy choice: 𝙊𝘾𝘾𝙐𝙍 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙊𝘾𝘾𝙐𝙍 with entropy: 0.0000
+GUESS: OCCUR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 7.426, Expected Info Gain: 4.299 bits, Actual Info Gain: 4.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝙑𝙄𝙍𝙂𝙊, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝘾𝘾𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙊𝘾𝘾𝙐𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.4324 bits
+Posterior entropy: 7.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.426264754702098, 'actual_info_gain': 6.432396230020679, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+172 candidate words remaining.
+Top 5 guesses: [('CLOOT', '4.482'), ('PLOOT', '4.429'), ('CUTIN', '4.389'), ('PITON', '4.371'), ('PINOT', '4.366')]
+Top entropy choice: 𝘾𝙇𝙊𝙊𝙏 with entropy: 4.4824
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙊𝙊𝙏 with entropy: 4.4824
+GUESS: CLOOT
+
+Guess: 𝘾𝙇𝙊𝙊𝙏, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 5.4263 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 7.426264754702098, 'posterior_entropy': 2.0, 'actual_info_gain': 5.426264754702098, 'expected_info_gain': 4.482419613432131}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('ABENG', '2.000'), ('ABRIN', '2.000'), ('ABUNA', '2.000'), ('ABUNE', '2.000'), ('ABURN', '2.000')]
+Top entropy choice: 𝘼𝘽𝙀𝙉𝙂 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝘽𝙀𝙉𝙂 with entropy: 2.0000
+GUESS: ABENG
+
+Guess: 𝘼𝘽𝙀𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('OCCUR', '0.000')]
+Top entropy choice: 𝙊𝘾𝘾𝙐𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙊𝘾𝘾𝙐𝙍 with entropy: 0.0000
+GUESS: OCCUR
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.432 bits, Posterior Entropy: 7.426, 
+Guess: 𝘾𝙇𝙊𝙊𝙏, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.426, Expected Info Gain: 4.482 bits, Actual Info Gain: 5.426 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙀𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝘾𝘾𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

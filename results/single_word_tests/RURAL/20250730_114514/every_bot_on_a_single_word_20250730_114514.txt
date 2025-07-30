@@ -1,0 +1,286 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: LAIRY 
+The top ten guesses and scores: [('LAIRY', 1180), ('RIYAL', 1180), ('DAIRY', 1170), ('DIARY', 1170), ('YAIRD', 1170), ('RAINY', 1166), ('RAULI', 1166), ('MAURI', 1162), ('MARIL', 1161), ('LAIRD', 1155)]
+The bot finally chose: DAIRY 
+GUESS: DAIRY
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LUNAR 
+The top ten guesses and scores: [('LUNAR', 134), ('ULNAR', 134), ('BURAN', 131), ('RUBAN', 131), ('UNBAR', 131), ('MURAL', 130), ('RUMAL', 130), ('GLAUR', 128), ('GULAR', 128), ('RUGAL', 128)]
+The bot finally chose: LUNAR 
+GUESS: LUNAR
+Guess: 𝙇𝙐𝙉𝘼𝙍, Feedback: 🟨🟩⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: MURAL 
+The top ten guesses and scores: [('MURAL', 27), ('RUMAL', 27), ('FURAL', 26), ('JURAL', 26), ('RUGAL', 26), ('RURAL', 25)]
+The bot finally chose: MURAL 
+GUESS: MURAL
+Guess: 𝙈𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FURAL 
+The top ten guesses and scores: [('FURAL', 14), ('JURAL', 14), ('RURAL', 13)]
+The bot finally chose: RURAL 
+GUESS: RURAL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙇𝙐𝙉𝘼𝙍, Feedback: 🟨🟩⬜🟩🟨
+Guess: 𝙈𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 6.8929 bits
+Posterior entropy: 6.965784284662087
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.965784284662087, 'actual_info_gain': 6.89287670006069, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAL with entropy: 3.9162
+Bot chose: MORAL with entropy: 3.9106
+Top ten guesses: [('MARAL', 3.916178407018746), ('MORAL', 3.910598150351696), ('MORAT', 3.876310886678561), ('MARAN', 3.7835126825483494), ('MORAN', 3.7576279755957076), ('TORAN', 3.7525036729150187), ('AURAL', 3.7227558582323796), ('MORAH', 3.6976961430089546), ('TORAH', 3.686866699182602), ('LORAN', 3.683716359860888)]
+GUESS: MORAL
+
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 3.9658 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.965784284662087, 'posterior_entropy': 3.0, 'actual_info_gain': 3.965784284662087, 'expected_info_gain': 3.910598150351696}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AURAL with entropy: 1.7500
+Bot chose: AURAL with entropy: 1.7500
+Top ten guesses: [('AURAL', 1.75), ('DURAL', 1.4056390622295665), ('FURAL', 1.4056390622295665), ('JURAL', 1.4056390622295665), ('RURAL', 1.4056390622295665), ('ACRAL', 1.061278124459133), ('GYRAL', 0.5435644431995964), ('VIRAL', 0.5435644431995964)]
+GUESS: AURAL
+
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DURAL with entropy: 0.8113
+Bot chose: RURAL with entropy: 0.8113
+Top ten guesses: [('DURAL', 0.8112781244591328), ('FURAL', 0.8112781244591328), ('JURAL', 0.8112781244591328), ('RURAL', 0.8112781244591328)]
+GUESS: RURAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.966 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 6.8929 bits
+Posterior entropy: 6.965784284662087
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.965784284662087, 'actual_info_gain': 6.89287670006069, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAL with entropy: 3.9162
+Bot chose: MORAL with entropy: 3.9106
+Top ten guesses: [('MARAL', 3.916178407018746), ('MORAL', 3.910598150351696), ('MORAT', 3.876310886678561), ('MARAN', 3.7835126825483494), ('MORAN', 3.7576279755957076), ('TORAN', 3.7525036729150187), ('AURAL', 3.7227558582323796), ('MORAH', 3.6976961430089546), ('TORAH', 3.686866699182602), ('LORAN', 3.683716359860888)]
+GUESS: MORAL
+
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 3.9658 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.965784284662087, 'posterior_entropy': 3.0, 'actual_info_gain': 3.965784284662087, 'expected_info_gain': 3.910598150351696}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AURAL with entropy: 1.7500
+Bot chose: AURAL with entropy: 1.7500
+Top ten guesses: [('AURAL', 1.75), ('DURAL', 1.4056390622295665), ('FURAL', 1.4056390622295665), ('JURAL', 1.4056390622295665), ('RURAL', 1.4056390622295665), ('ACRAL', 1.061278124459133), ('GYRAL', 0.5435644431995964), ('VIRAL', 0.5435644431995964)]
+GUESS: AURAL
+
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DURAL with entropy: 0.8113
+Bot chose: RURAL with entropy: 0.8113
+Top ten guesses: [('DURAL', 0.8112781244591328), ('FURAL', 0.8112781244591328), ('JURAL', 0.8112781244591328), ('RURAL', 0.8112781244591328)]
+GUESS: RURAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.966 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 324 remaining candidates...
+Top 5 guesses: [('MARIA', '5.094'), ('AARTI', '4.862'), ('MARAL', '4.841'), ('MARAN', '4.818'), ('MIRAA', '4.787')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 4.0919 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 4.091922489441039, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('PYRAL', '2.905'), ('TYRAN', '2.860'), ('PYRAN', '2.858'), ('UPRAN', '2.760'), ('FURAL', '2.670')]
+Top entropy choice: 𝙋𝙔𝙍𝘼𝙇 with entropy: 2.9053
+GUESS: PYRAL
+
+Guess: 𝙋𝙔𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 2.9053077763737454}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('DURAL', '0.811'), ('FURAL', '0.811'), ('JURAL', '0.811'), ('RURAL', '0.811')]
+Top entropy choice: 𝘿𝙐𝙍𝘼𝙇 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙍𝙐𝙍𝘼𝙇 with entropy: 0.8113
+GUESS: RURAL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.092 bits, Posterior Entropy: 4.248, 
+Guess: 𝙋𝙔𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 2.905 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.5188 bits
+Posterior entropy: 8.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.339850002884624, 'actual_info_gain': 5.518810981838152, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+324 candidate words remaining.
+Top 5 guesses: [('MARIA', '5.094'), ('MATAI', '5.018'), ('TANIA', '4.976'), ('MANIA', '4.958'), ('MALAI', '4.946')]
+Top entropy choice: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙍𝙄𝘼 with entropy: 5.0936
+GUESS: MARIA
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 4.0919 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 8.339850002884624, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 4.091922489441039, 'expected_info_gain': 5.093558775593975}
+----------
+The bot is making a guess...
+19 candidate words remaining.
+Top 5 guesses: [('TYPAL', '3.366'), ('PYLON', '3.326'), ('FULTH', '3.287'), ('PLUTY', '3.261'), ('UNPLY', '3.261')]
+Top entropy choice: 𝙏𝙔𝙋𝘼𝙇 with entropy: 3.3661
+Guess count low, choosing the word with highest entropy: 𝙏𝙔𝙋𝘼𝙇 with entropy: 3.3661
+GUESS: TYPAL
+
+Guess: 𝙏𝙔𝙋𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.3660913291191914}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('FJELD', '2.000'), ('FJORD', '2.000'), ('RADIF', '2.000'), ('REDIF', '2.000'), ('REFED', '2.000')]
+Top entropy choice: 𝙁𝙅𝙀𝙇𝘿 with entropy: 2.0000
+Using common exploratory word: 𝙁𝙅𝙊𝙍𝘿 with entropy: 2.0000
+GUESS: FJORD
+
+Guess: 𝙁𝙅𝙊𝙍𝘿, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.3660913291191914}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('RURAL', '0.000')]
+Top entropy choice: 𝙍𝙐𝙍𝘼𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙐𝙍𝘼𝙇 with entropy: 0.0000
+GUESS: RURAL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.092 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙔𝙋𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 3.366 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙅𝙊𝙍𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 3.366 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

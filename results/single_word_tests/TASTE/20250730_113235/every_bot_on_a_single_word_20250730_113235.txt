@@ -1,0 +1,274 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SLATE 
+The top ten guesses and scores: [('SLATE', 222), ('STALE', 222), ('PASTE', 216), ('SPATE', 216), ('HASTE', 214), ('SKATE', 213), ('STAKE', 213), ('STANE', 213), ('CASTE', 212), ('SAUTE', 212)]
+The bot finally chose: SLATE 
+GUESS: SLATE
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟨⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BASTE 
+The top ten guesses and scores: [('BASTE', 26), ('CASTE', 26), ('HASTE', 26), ('PASTE', 26), ('WASTE', 26), ('TASTE', 25)]
+The bot finally chose: CASTE 
+GUESS: CASTE
+Guess: 𝘾𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BASTE 
+The top ten guesses and scores: [('BASTE', 22), ('HASTE', 22), ('PASTE', 22), ('WASTE', 22), ('TASTE', 21)]
+The bot finally chose: HASTE 
+GUESS: HASTE
+Guess: 𝙃𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BASTE 
+The top ten guesses and scores: [('BASTE', 18), ('PASTE', 18), ('WASTE', 18), ('TASTE', 17)]
+The bot finally chose: PASTE 
+GUESS: PASTE
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BASTE 
+The top ten guesses and scores: [('BASTE', 14), ('WASTE', 14), ('TASTE', 13)]
+The bot finally chose: WASTE 
+GUESS: WASTE
+Game Over! You ran out of guesses.
+Guess: 𝙒𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟨⬜🟨🟩🟩
+Guess: 𝘾𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙒𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 5.7449 bits
+Posterior entropy: 8.113742166049189
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.113742166049189, 'actual_info_gain': 5.744918818673588, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALES with entropy: 4.0574
+Bot chose: TALES with entropy: 4.0574
+Top ten guesses: [('TALES', 4.0573759696515275), ('LAMES', 3.955979709887186), ('MALES', 3.952994739792507), ('TAMES', 3.9368416364000565), ('LANES', 3.9037497073329566), ('MATES', 3.882269410995971), ('LADES', 3.8667937475953424), ('DALES', 3.851498634777859), ('LASED', 3.8232304031713555), ('ALMES', 3.8024396880923956)]
+GUESS: TALES
+
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 6.5288 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.113742166049189, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.528779665328033, 'expected_info_gain': 4.0573759696515275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TASSE with entropy: 1.5850
+Bot chose: TASTE with entropy: 1.5850
+Top ten guesses: [('TASSE', 1.584962500721156), ('TASTE', 1.584962500721156), ('TAWSE', 1.584962500721156)]
+GUESS: TASTE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.745 bits, Posterior Entropy: 8.114, 
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 8.114, Expected Info Gain: 4.057 bits, Actual Info Gain: 6.529 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙎𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 5.7449 bits
+Posterior entropy: 8.113742166049189
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.113742166049189, 'actual_info_gain': 5.744918818673588, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALES with entropy: 4.0574
+Bot chose: TALES with entropy: 4.0574
+Top ten guesses: [('TALES', 4.0573759696515275), ('LAMES', 3.955979709887186), ('MALES', 3.952994739792507), ('TAMES', 3.9368416364000565), ('LANES', 3.9037497073329566), ('MATES', 3.882269410995971), ('LADES', 3.8667937475953424), ('DALES', 3.851498634777859), ('LASED', 3.8232304031713555), ('ALMES', 3.8024396880923956)]
+GUESS: TALES
+
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 6.5288 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.113742166049189, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.528779665328033, 'expected_info_gain': 4.0573759696515275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TASSE with entropy: 1.5850
+Bot chose: TASTE with entropy: 1.5850
+Top ten guesses: [('TASSE', 1.584962500721156), ('TASTE', 1.584962500721156), ('TAWSE', 1.584962500721156)]
+GUESS: TASTE
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.745 bits, Posterior Entropy: 8.114, 
+Guess: 𝙏𝘼𝙇𝙀𝙎, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 8.114, Expected Info Gain: 4.057 bits, Actual Info Gain: 6.529 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙎𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙀 ___
+
+Calculating letter frequencies...
+Loaded cache with 34,411 entropy values
+Loaded cache with 44,565,000 feedback patterns
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 37 potential guesses from 37 remaining candidates...
+Top 5 guesses: [('PASTE', '3.124'), ('PAISE', '3.021'), ('PASSE', '3.009'), ('LAPSE', '2.972'), ('PAUSE', '2.946')]
+Top entropy choice: 𝙋𝘼𝙎𝙏𝙀 with entropy: 3.1237
+Ended up choosing COMMON word: 𝙋𝘼𝙎𝙏𝙀 with entropy: 3.1237
+GUESS: PASTE
+
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.8875 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.887525270741588, 'expected_info_gain': 3.12369219579722}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BASTE', '0.722'), ('CASTE', '0.722'), ('HASTE', '0.722'), ('TASTE', '0.722'), ('WASTE', '0.722')]
+Top entropy choice: 𝘽𝘼𝙎𝙏𝙀 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘾𝘼𝙎𝙏𝙀 with entropy: 0.7219
+GUESS: CASTE
+
+Guess: 𝘾𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('BASTE', '0.811'), ('HASTE', '0.811'), ('TASTE', '0.811'), ('WASTE', '0.811')]
+Top entropy choice: 𝘽𝘼𝙎𝙏𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙃𝘼𝙎𝙏𝙀 with entropy: 0.8113
+GUESS: HASTE
+
+Guess: 𝙃𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BASTE', '0.918'), ('TASTE', '0.918'), ('WASTE', '0.918')]
+Top entropy choice: 𝘽𝘼𝙎𝙏𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙏𝘼𝙎𝙏𝙀 with entropy: 0.9183
+GUESS: TASTE
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.209, Expected Info Gain: 3.124 bits, Actual Info Gain: 2.888 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝘼𝙎𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙎𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+37 candidate words remaining.
+Top 5 guesses: [('PLISH', '3.527'), ('PTISH', '3.460'), ('PASHM', '3.459'), ('PITSU', '3.417'), ('APISH', '3.386')]
+Top entropy choice: 𝙋𝙇𝙄𝙎𝙃 with entropy: 3.5273
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝙄𝙎𝙃 with entropy: 3.5273
+GUESS: PLISH
+
+Guess: 𝙋𝙇𝙄𝙎𝙃, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.6245 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.624490864907794, 'expected_info_gain': 3.527322799209288}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('TABAC', '2.585'), ('ABACK', '2.252'), ('ATTIC', '2.252'), ('BACKS', '2.252'), ('BACKY', '2.252')]
+Top entropy choice: 𝙏𝘼𝘽𝘼𝘾 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝘽𝘼𝘾 with entropy: 2.5850
+GUESS: TABAC
+
+Guess: 𝙏𝘼𝘽𝘼𝘾, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('TASTE', '0.000')]
+Top entropy choice: 𝙏𝘼𝙎𝙏𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙎𝙏𝙀 with entropy: 0.0000
+GUESS: TASTE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙇𝙄𝙎𝙃, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 5.209, Expected Info Gain: 3.527 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝘼𝘽𝘼𝘾, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙎𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 3.762 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 6.492, Expected Info Gain: 4.399 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.295 bits, Actual Info Gain: 1.152 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙄𝙓𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 3.762 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 6.492, Expected Info Gain: 4.399 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.295 bits, Actual Info Gain: 1.152 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙄𝙓𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 3.157 bits, Posterior Entropy: 6.267, 
+Guess: 𝙋𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.267, Expected Info Gain: 3.526 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 4.392, 
+Guess: 𝙑𝙄𝘽𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.009 bits, Actual Info Gain: 0.933 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.868 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙄𝙓𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 4.102 bits, Posterior Entropy: 5.322, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.322, Expected Info Gain: 2.667 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙄𝙓𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

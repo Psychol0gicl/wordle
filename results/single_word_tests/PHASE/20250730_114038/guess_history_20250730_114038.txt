@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙃𝘼𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟩🟩
+Guess: 𝙇𝘼𝙋𝙎𝙀, Feedback: ⬜🟨🟨🟩🟩
+Guess: 𝙋𝙃𝘼𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙃𝘼𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.649 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙀𝘼𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝘼𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙃𝘼𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.611 bits, Posterior Entropy: 5.248, 
+Guess: 𝙋𝘼𝙎𝙏𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.649 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙀𝘼𝙎𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝘼𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙃𝘼𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙇𝙀𝘼𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.283 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙃𝘼𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝘼𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙃𝘼𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙇𝙀𝙏𝙐𝙋, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 3.907, Expected Info Gain: 3.140 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙃𝘼𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,304 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙆𝙄𝙇𝙇 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SLUIT 
+The top ten guesses and scores: [('SLUIT', 2174), ('SUINT', 2121), ('UNITS', 2121), ('MUILS', 2094), ('SIMUL', 2094), ('PILUS', 2087), ('PULIS', 2087), ('KUSTI', 2085), ('KUTIS', 2085), ('HILUS', 2077)]
+The bot finally chose: SLUIT 
+GUESS: SLUIT
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SILKY 
+The top ten guesses and scores: [('SILKY', 53), ('SHILY', 52), ('SIBYL', 51), ('SMILY', 51), ('SILLY', 50), ('SILKS', 48), ('SKILL', 48), ('SHILL', 47), ('SILDS', 46), ('SPILL', 46)]
+The bot finally chose: SILKY 
+GUESS: SILKY
+Guess: 𝙎𝙄𝙇𝙆𝙔, Feedback: 🟩🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SKILL 
+The top ten guesses and scores: [('SKILL', 5)]
+The bot finally chose: SKILL 
+GUESS: SKILL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙎𝙇𝙐𝙄𝙏, Feedback: 🟩🟨⬜🟨⬜
+Guess: 𝙎𝙄𝙇𝙆𝙔, Feedback: 🟩🟨🟨🟨⬜
+Guess: 𝙎𝙆𝙄𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙇𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.3234 bits
+Posterior entropy: 8.535275376620802
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.535275376620802, 'actual_info_gain': 5.323385608101974, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILS with entropy: 4.7008
+Bot chose: SOILS with entropy: 4.7008
+Top ten guesses: [('SOILS', 4.70084808459308), ('SOULS', 4.696997732591879), ('SOUTS', 4.694291744213746), ('SLOTS', 4.643510240559974), ('SNOTS', 4.596709317630574), ('SLITS', 4.595471024287088), ('SUITS', 4.589052399970175), ('SNITS', 4.536878197109811), ('STUNS', 4.53296245706507), ('SOLUS', 4.520679016112652)]
+GUESS: SOILS
+
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 5.3654 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.535275376620802, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.36535037517849, 'expected_info_gain': 4.70084808459308}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STILL with entropy: 2.1972
+Bot chose: STILL with entropy: 2.1972
+Top ten guesses: [('STILL', 2.197159723424149), ('SHILL', 2.113283334294875), ('SLILY', 1.836591668108979), ('SKILL', 1.7527152789797045), ('SWILL', 1.7527152789797045), ('SHILY', 1.6577427265048887), ('SMILY', 1.224394445405986), ('STILB', 1.224394445405986), ('STILT', 1.224394445405986)]
+GUESS: STILL
+
+Guess: 𝙎𝙏𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.197159723424149}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHILL with entropy: 0.9183
+Bot chose: SHILL with entropy: 0.9183
+Top ten guesses: [('SHILL', 0.9182958340544896), ('SKILL', 0.9182958340544896), ('SWILL', 0.9182958340544896)]
+GUESS: SHILL
+
+Guess: 𝙎𝙃𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKILL with entropy: 1.0000
+Bot chose: SKILL with entropy: 1.0000
+Top ten guesses: [('SKILL', 1.0), ('SWILL', 1.0)]
+GUESS: SKILL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 5.365 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙇𝙇 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.3234 bits
+Posterior entropy: 8.535275376620802
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.535275376620802, 'actual_info_gain': 5.323385608101974, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILS with entropy: 4.7008
+Bot chose: SOILS with entropy: 4.7008
+Top ten guesses: [('SOILS', 4.70084808459308), ('SOULS', 4.696997732591879), ('SOUTS', 4.694291744213746), ('SLOTS', 4.643510240559974), ('SNOTS', 4.596709317630574), ('SLITS', 4.595471024287088), ('SUITS', 4.589052399970175), ('SNITS', 4.536878197109811), ('STUNS', 4.53296245706507), ('SOLUS', 4.520679016112652)]
+GUESS: SOILS
+
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 5.3654 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.535275376620802, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.36535037517849, 'expected_info_gain': 4.70084808459308}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STILL with entropy: 2.1972
+Bot chose: STILL with entropy: 2.1972
+Top ten guesses: [('STILL', 2.197159723424149), ('SHILL', 2.113283334294875), ('SLILY', 1.836591668108979), ('SKILL', 1.7527152789797045), ('SWILL', 1.7527152789797045), ('SHILY', 1.6577427265048887), ('SMILY', 1.224394445405986), ('STILB', 1.224394445405986), ('STILT', 1.224394445405986)]
+GUESS: STILL
+
+Guess: 𝙎𝙏𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.197159723424149}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHILL with entropy: 0.9183
+Bot chose: SHILL with entropy: 0.9183
+Top ten guesses: [('SHILL', 0.9182958340544896), ('SKILL', 0.9182958340544896), ('SWILL', 0.9182958340544896)]
+GUESS: SHILL
+
+Guess: 𝙎𝙃𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKILL with entropy: 1.0000
+Bot chose: SKILL with entropy: 1.0000
+Top ten guesses: [('SKILL', 1.0), ('SWILL', 1.0)]
+GUESS: SKILL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.323 bits, Posterior Entropy: 8.535, 
+Guess: 𝙎𝙊𝙄𝙇𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 8.535, Expected Info Gain: 4.701 bits, Actual Info Gain: 5.365 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.197 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙄𝙇𝙇, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙇𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 440 potential guesses from 243 remaining candidates...
+Top 5 guesses: [('THINK', '5.001'), ('SLITS', '4.751'), ('BUILT', '4.704'), ('SNITS', '4.680'), ('STUNS', '4.680')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙆 with entropy: 5.0012
+GUESS: THINK
+
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 4.7549 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.754887502163469, 'expected_info_gain': 5.001168424825656}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('SKIMS', '2.419'), ('SKIPS', '2.419'), ('SPIKS', '2.419'), ('SKIDS', '2.059'), ('SKIMP', '2.059')]
+Top entropy choice: 𝙎𝙆𝙄𝙈𝙎 with entropy: 2.4194
+GUESS: SKIMS
+
+Guess: 𝙎𝙆𝙄𝙈𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.4193819456463714}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SKIFF', '0.918'), ('SKILL', '0.918'), ('SKIVY', '0.918')]
+Top entropy choice: 𝙎𝙆𝙄𝙁𝙁 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙆𝙄𝙁𝙁 with entropy: 0.9183
+GUESS: SKIFF
+
+Guess: 𝙎𝙆𝙄𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SKILL', '1.000'), ('SKIVY', '1.000')]
+Top entropy choice: 𝙎𝙆𝙄𝙇𝙇 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙆𝙄𝙇𝙇 with entropy: 1.0000
+GUESS: SKILL
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.001 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙆𝙄𝙈𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙆𝙄𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙇𝙇 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.9338 bits
+Posterior entropy: 7.924812503605781
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.924812503605781, 'actual_info_gain': 5.933848481116995, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+243 candidate words remaining.
+Top 5 guesses: [('THINS', '5.114'), ('KNITS', '5.114'), ('CLINT', '5.102'), ('CLITS', '5.086'), ('THILK', '5.075')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+Guess count low, choosing the word with highest entropy: 𝙏𝙃𝙄𝙉𝙎 with entropy: 5.1143
+GUESS: THINS
+
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 3.8373 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.924812503605781, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.837349662355442, 'expected_info_gain': 5.114328466456172}
+----------
+The bot is making a guess...
+17 candidate words remaining.
+Top 5 guesses: [('PLACK', '3.617'), ('PLECK', '3.617'), ('PLOCK', '3.617'), ('PLUCK', '3.617'), ('CLYPE', '3.499')]
+Top entropy choice: 𝙋𝙇𝘼𝘾𝙆 with entropy: 3.6169
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝘼𝘾𝙆 with entropy: 3.6169
+GUESS: PLACK
+
+Guess: 𝙋𝙇𝘼𝘾𝙆, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 3.6168746059562227}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SKILL', '0.000')]
+Top entropy choice: 𝙎𝙆𝙄𝙇𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙆𝙄𝙇𝙇 with entropy: 0.0000
+GUESS: SKILL
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.934 bits, Posterior Entropy: 7.925, 
+Guess: 𝙏𝙃𝙄𝙉𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 7.925, Expected Info Gain: 5.114 bits, Actual Info Gain: 3.837 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝙇𝘼𝘾𝙆, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 4.087, Expected Info Gain: 3.617 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙆𝙄𝙇𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

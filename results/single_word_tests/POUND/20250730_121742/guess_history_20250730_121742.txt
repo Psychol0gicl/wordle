@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙊𝙐𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙒𝙊𝙐𝙉𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙊𝙐𝙉𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙊𝙐𝙉𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙊𝙐𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙃𝙊𝙉𝙔, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 4.954, Expected Info Gain: 3.187 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙐𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙐𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.735 bits, Posterior Entropy: 8.124, 
+Guess: 𝙋𝙄𝙇𝙊𝙏, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.124, Expected Info Gain: 5.489 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙃𝙊𝙉𝙔, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 4.954, Expected Info Gain: 3.187 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙐𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙐𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 4.456 bits, Posterior Entropy: 4.322, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 2.723 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙐𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙐𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 4.691 bits, Posterior Entropy: 4.087, 
+Guess: 𝘾𝙇𝙐𝙉𝙂, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 3.405 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙐𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

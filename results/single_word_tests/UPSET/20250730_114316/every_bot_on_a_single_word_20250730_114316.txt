@@ -1,0 +1,192 @@
+Testing bot: WordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ISLET 
+The top ten guesses and scores: [('ISLET', 2828), ('LITES', 2828), ('STEIL', 2828), ('TEILS', 2828), ('TILES', 2828), ('ELSIN', 2772), ('LENIS', 2772), ('LIENS', 2772), ('LINES', 2772), ('NELIS', 2772)]
+The bot finally chose: ISLET 
+GUESS: ISLET
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MUSET 
+The top ten guesses and scores: [('MUSET', 29), ('UNSET', 29), ('UPSET', 29), ('BESET', 26), ('SHEET', 26), ('SKEET', 26), ('SWEET', 26)]
+The bot finally chose: UPSET 
+GUESS: UPSET
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: UPSEE with entropy: 1.5000
+Bot chose: UPSET with entropy: 1.5000
+Top ten guesses: [('UPSEE', 1.5), ('UPSET', 1.5), ('UPSEY', 1.5), ('EPICS', 0.8112781244591328)]
+GUESS: UPSET
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: UPSEE with entropy: 1.5000
+Bot chose: UPSET with entropy: 1.5000
+Top ten guesses: [('UPSEE', 1.5), ('UPSET', 1.5), ('UPSEY', 1.5), ('EPICS', 0.8112781244591328)]
+GUESS: UPSET
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 4.4366 bits
+Posterior entropy: 9.422064766172813
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.422064766172813, 'actual_info_gain': 4.436596218549964, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 499 potential guesses from 686 remaining candidates...
+Top 5 guesses: [('DELES', '4.541'), ('DEETS', '4.442'), ('DENES', '4.369'), ('DELTS', '4.293'), ('DEENS', '4.291')]
+Top entropy choice: 𝘿𝙀𝙇𝙀𝙎 with entropy: 4.5413
+GUESS: DELES
+
+Guess: 𝘿𝙀𝙇𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 6.1001 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 9.422064766172813, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 6.100136671285451, 'expected_info_gain': 4.541252853219488}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('UNSET', '3.122'), ('UPSET', '2.922'), ('INSET', '2.722'), ('UNSEW', '2.722'), ('UNSEX', '2.722')]
+Top entropy choice: 𝙐𝙉𝙎𝙀𝙏 with entropy: 3.1219
+Ended up choosing COMMON word: 𝙐𝙋𝙎𝙀𝙏 with entropy: 2.9219
+GUESS: UPSET
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.437 bits, Posterior Entropy: 9.422, 
+Guess: 𝘿𝙀𝙇𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 9.422, Expected Info Gain: 4.541 bits, Actual Info Gain: 6.100 bits, Posterior Entropy: 3.322, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 4.4366 bits
+Posterior entropy: 9.422064766172813
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.422064766172813, 'actual_info_gain': 4.436596218549964, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+686 candidate words remaining.
+Top 5 guesses: [('DENET', '4.805'), ('TILED', '4.744'), ('TELES', '4.725'), ('LENTI', '4.697'), ('TEEND', '4.692')]
+Top entropy choice: 𝘿𝙀𝙉𝙀𝙏 with entropy: 4.8052
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙉𝙀𝙏 with entropy: 4.8052
+GUESS: DENET
+
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 7.8371 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 9.422064766172813, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 7.837102265451657, 'expected_info_gain': 4.8051578162810635}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('MUSET', '1.585'), ('UPSET', '1.585'), ('ISLET', '0.918')]
+Top entropy choice: 𝙈𝙐𝙎𝙀𝙏 with entropy: 1.5850
+Guess count low, choosing the word with highest entropy: 𝙈𝙐𝙎𝙀𝙏 with entropy: 1.5850
+GUESS: MUSET
+
+Guess: 𝙈𝙐𝙎𝙀𝙏, Feedback: ⬜🟨🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('UPSET', '0.000')]
+Top entropy choice: 𝙐𝙋𝙎𝙀𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙐𝙋𝙎𝙀𝙏 with entropy: 0.0000
+GUESS: UPSET
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.437 bits, Posterior Entropy: 9.422, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 9.422, Expected Info Gain: 4.805 bits, Actual Info Gain: 7.837 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙐𝙎𝙀𝙏, Feedback: ⬜🟨🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

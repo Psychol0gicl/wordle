@@ -1,0 +1,276 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙌𝙐𝘼𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LITAS 
+The top ten guesses and scores: [('LITAS', 2970), ('TAILS', 2970), ('NAILS', 2947), ('NILAS', 2947), ('SLAIN', 2947), ('SNAIL', 2947), ('LANTS', 2939), ('SLANT', 2939), ('NATIS', 2924), ('SAINT', 2924)]
+The bot finally chose: SLAIN 
+GUESS: SLAIN
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: SHUBA 
+The top ten guesses and scores: [('SHUBA', 155), ('SUBAH', 155), ('SUBHA', 155), ('SAUCH', 152), ('SCUBA', 151), ('SUMAC', 150), ('SADHU', 149), ('SAUGH', 149), ('SAUCY', 148), ('SCUTA', 148)]
+The bot finally chose: SCUBA 
+GUESS: SCUBA
+Guess: 𝙎𝘾𝙐𝘽𝘼, Feedback: 🟩⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SQUAT 
+The top ten guesses and scores: [('SQUAT', 25), ('SQUAD', 24), ('SQUAW', 24), ('SAUGH', 22), ('SAUTS', 22), ('SKUAS', 21)]
+The bot finally chose: SQUAT 
+GUESS: SQUAT
+Guess: 𝙎𝙌𝙐𝘼𝙏, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SQUAD 
+The top ten guesses and scores: [('SQUAD', 9), ('SQUAW', 9)]
+The bot finally chose: SQUAD 
+GUESS: SQUAD
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝙎𝘾𝙐𝘽𝘼, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙎𝙌𝙐𝘼𝙏, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙌𝙐𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙌𝙐𝘼𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOLAS with entropy: 2.9514
+Bot chose: SHOAL with entropy: 2.9284
+Top ten guesses: [('SOLAS', 2.951390365331075), ('SHOAL', 2.9284457731195963), ('SOLAH', 2.881460395842746), ('SALAS', 2.8369937400405556), ('SOBAS', 2.8316162658870465), ('SOMAS', 2.815567457230352), ('SODAS', 2.762711120048056), ('SKOAL', 2.741003709359393), ('STOAS', 2.696131941233667), ('SOLAN', 2.6940716334411006)]
+GUESS: SHOAL
+
+Guess: 𝙎𝙃𝙊𝘼𝙇, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 1.2685 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 5.727920454563199, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 1.2684888359259014, 'expected_info_gain': 2.9284457731195963}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKUAS with entropy: 2.8974
+Bot chose: SKUAS with entropy: 2.8974
+Top ten guesses: [('SKUAS', 2.8974076197009206), ('SAMAS', 2.748000507073514), ('SUBAK', 2.63947252694149), ('SUBAS', 2.617189572592715), ('SUDAN', 2.5828765043125568), ('SMAAK', 2.568084324344715), ('SIMAS', 2.526280481683624), ('SAKAI', 2.481714572986073), ('SANAD', 2.4576543451233084), ('SAMAN', 2.45311500557286)]
+GUESS: SKUAS
+
+Guess: 𝙎𝙆𝙐𝘼𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.8974076197009206}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SQUAB with entropy: 0.8113
+Bot chose: SQUAD with entropy: 0.8113
+Top ten guesses: [('SQUAB', 0.8112781244591328), ('SQUAD', 0.8112781244591328), ('SQUAT', 0.8112781244591328), ('SQUAW', 0.8112781244591328)]
+GUESS: SQUAD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙃𝙊𝘼𝙇, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.728, Expected Info Gain: 2.928 bits, Actual Info Gain: 1.268 bits, Posterior Entropy: 4.459, 
+Guess: 𝙎𝙆𝙐𝘼𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.459, Expected Info Gain: 2.897 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙌𝙐𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙌𝙐𝘼𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOLAS with entropy: 2.9514
+Bot chose: SHOAL with entropy: 2.9284
+Top ten guesses: [('SOLAS', 2.951390365331075), ('SHOAL', 2.9284457731195963), ('SOLAH', 2.881460395842746), ('SALAS', 2.8369937400405556), ('SOBAS', 2.8316162658870465), ('SOMAS', 2.815567457230352), ('SODAS', 2.762711120048056), ('SKOAL', 2.741003709359393), ('STOAS', 2.696131941233667), ('SOLAN', 2.6940716334411006)]
+GUESS: SHOAL
+
+Guess: 𝙎𝙃𝙊𝘼𝙇, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 1.2685 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 5.727920454563199, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 1.2684888359259014, 'expected_info_gain': 2.9284457731195963}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKUAS with entropy: 2.8974
+Bot chose: SKUAS with entropy: 2.8974
+Top ten guesses: [('SKUAS', 2.8974076197009206), ('SAMAS', 2.748000507073514), ('SUBAK', 2.63947252694149), ('SUBAS', 2.617189572592715), ('SUDAN', 2.5828765043125568), ('SMAAK', 2.568084324344715), ('SIMAS', 2.526280481683624), ('SAKAI', 2.481714572986073), ('SANAD', 2.4576543451233084), ('SAMAN', 2.45311500557286)]
+GUESS: SKUAS
+
+Guess: 𝙎𝙆𝙐𝘼𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.8974076197009206}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SQUAB with entropy: 0.8113
+Bot chose: SQUAD with entropy: 0.8113
+Top ten guesses: [('SQUAB', 0.8112781244591328), ('SQUAD', 0.8112781244591328), ('SQUAT', 0.8112781244591328), ('SQUAW', 0.8112781244591328)]
+GUESS: SQUAD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙃𝙊𝘼𝙇, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.728, Expected Info Gain: 2.928 bits, Actual Info Gain: 1.268 bits, Posterior Entropy: 4.459, 
+Guess: 𝙎𝙆𝙐𝘼𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.459, Expected Info Gain: 2.897 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙌𝙐𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙌𝙐𝘼𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.7818 bits
+Posterior entropy: 7.076815597050831
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.076815597050831, 'actual_info_gain': 6.781845387671946, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 235 potential guesses from 135 remaining candidates...
+Top 5 guesses: [('UNTIL', '4.086'), ('SALIS', '4.031'), ('SAILS', '4.010'), ('SATIS', '3.907'), ('SAINS', '3.885')]
+Top entropy choice: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0857
+Ended up choosing COMMON word: 𝙐𝙉𝙏𝙄𝙇 with entropy: 4.0857
+GUESS: UNTIL
+
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.8289 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.076815597050831, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.8288880836072456, 'expected_info_gain': 4.085749839818434}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('SAUCH', '3.471'), ('SUBAH', '3.432'), ('SHUBA', '3.261'), ('SAUBA', '3.142'), ('SCUBA', '3.116')]
+Top entropy choice: 𝙎𝘼𝙐𝘾𝙃 with entropy: 3.4714
+Ended up choosing COMMON word: 𝙎𝘾𝙐𝘽𝘼 with entropy: 3.1158
+GUESS: SCUBA
+
+Guess: 𝙎𝘾𝙐𝘽𝘼, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.1158340921632197}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('SQUAD', '2.000'), ('SQUAW', '2.000'), ('SKUAS', '1.500'), ('SAUGH', '0.811')]
+Top entropy choice: 𝙎𝙌𝙐𝘼𝘿 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙎𝙌𝙐𝘼𝘿 with entropy: 2.0000
+GUESS: SQUAD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.782 bits, Posterior Entropy: 7.077, 
+Guess: 𝙐𝙉𝙏𝙄𝙇, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 7.077, Expected Info Gain: 4.086 bits, Actual Info Gain: 2.829 bits, Posterior Entropy: 4.248, 
+Guess: 𝙎𝘾𝙐𝘽𝘼, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 4.248, Expected Info Gain: 3.116 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙌𝙐𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙌𝙐𝘼𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.7818 bits
+Posterior entropy: 7.076815597050831
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.076815597050831, 'actual_info_gain': 6.781845387671946, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+135 candidate words remaining.
+Top 5 guesses: [('TANIA', '4.543'), ('LANAI', '4.491'), ('NAIAD', '4.454'), ('LAMIA', '4.441'), ('LABIA', '4.439')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 4.5427
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 4.5427
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.4919 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.076815597050831, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.4918530963296748, 'expected_info_gain': 4.542704040256794}
+----------
+The bot is making a guess...
+12 candidate words remaining.
+Top 5 guesses: [('BULKS', '3.418'), ('BULBS', '3.252'), ('BULLS', '3.252'), ('BHUTS', '3.252'), ('BLUDS', '3.252')]
+Top entropy choice: 𝘽𝙐𝙇𝙆𝙎 with entropy: 3.4183
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙇𝙆𝙎 with entropy: 3.4183
+GUESS: BULKS
+
+Guess: 𝘽𝙐𝙇𝙆𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 3.4182958340544896}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SQUAD', '1.000'), ('SQUAW', '1.000')]
+Top entropy choice: 𝙎𝙌𝙐𝘼𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙌𝙐𝘼𝘿 with entropy: 1.0000
+GUESS: SQUAD
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.782 bits, Posterior Entropy: 7.077, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 7.077, Expected Info Gain: 4.543 bits, Actual Info Gain: 3.492 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝙐𝙇𝙆𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 3.585, Expected Info Gain: 3.418 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙌𝙐𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

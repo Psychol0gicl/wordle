@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BRAST 
+The top ten guesses and scores: [('BRAST', 45), ('TRASH', 45), ('BRASH', 44), ('CRASH', 43), ('WRAST', 43), ('TRASS', 42), ('BRASS', 41), ('GRASP', 41), ('CRASS', 40), ('GRASS', 40)]
+The bot finally chose: TRASH 
+GUESS: TRASH
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GRASP 
+The top ten guesses and scores: [('GRASP', 22), ('GRASS', 21), ('BRASS', 20), ('CRASS', 20), ('FRASS', 20)]
+The bot finally chose: GRASP 
+GUESS: GRASP
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GRASS 
+The top ten guesses and scores: [('GRASS', 5)]
+The bot finally chose: GRASS 
+GUESS: GRASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 5.8700 bits
+Posterior entropy: 7.9886846867721655
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.9886846867721655, 'actual_info_gain': 5.869976297950611, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARNS with entropy: 3.5819
+Bot chose: TARNS with entropy: 3.5819
+Top ten guesses: [('TARNS', 3.5818689501208123), ('TARDS', 3.580819909765573), ('RAITS', 3.578143066596046), ('DARTS', 3.5611487978665597), ('MARTS', 3.5179601673107297), ('KARTS', 3.4995151168438783), ('DARIS', 3.495114286624106), ('TARSI', 3.477756105928692), ('DRATS', 3.4711776372050007), ('TIARS', 3.470981722566058)]
+GUESS: TARNS
+
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 1.8188 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 7.9886846867721655, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 1.8187596853298533, 'expected_info_gain': 3.5818689501208123}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAGS with entropy: 3.0457
+Bot chose: BRAGS with entropy: 3.0457
+Top ten guesses: [('BRAGS', 3.0456606549674965), ('GRABS', 3.035176106326338), ('BRADS', 2.9920487388222763), ('DRABS', 2.9537864124033395), ('GRADS', 2.937028332334771), ('BOARS', 2.917530383383499), ('DRAGS', 2.9092505545569933), ('BRAYS', 2.8472866185079226), ('GRAMS', 2.8082379055275855), ('BRAKS', 2.8052097545386614)]
+GUESS: BRAGS
+
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 3.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.84799690655495, 'expected_info_gain': 3.0456606549674965}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRADS with entropy: 0.7219
+Bot chose: GRASS with entropy: 0.7219
+Top ten guesses: [('GRADS', 0.7219280948873623), ('GRAMS', 0.7219280948873623), ('GRASS', 0.7219280948873623), ('GRAVS', 0.7219280948873623), ('GRAYS', 0.7219280948873623)]
+GUESS: GRASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 1.819 bits, Posterior Entropy: 6.170, 
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 6.170, Expected Info Gain: 3.046 bits, Actual Info Gain: 3.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 5.8700 bits
+Posterior entropy: 7.9886846867721655
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.9886846867721655, 'actual_info_gain': 5.869976297950611, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TARNS with entropy: 3.5819
+Bot chose: TARNS with entropy: 3.5819
+Top ten guesses: [('TARNS', 3.5818689501208123), ('TARDS', 3.580819909765573), ('RAITS', 3.578143066596046), ('DARTS', 3.5611487978665597), ('MARTS', 3.5179601673107297), ('KARTS', 3.4995151168438783), ('DARIS', 3.495114286624106), ('TARSI', 3.477756105928692), ('DRATS', 3.4711776372050007), ('TIARS', 3.470981722566058)]
+GUESS: TARNS
+
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩
+Actual Info Gain: 1.8188 bits
+Posterior entropy: 6.169925001442312
+entropy_info: {'prior_entropy': 7.9886846867721655, 'posterior_entropy': 6.169925001442312, 'actual_info_gain': 1.8187596853298533, 'expected_info_gain': 3.5818689501208123}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAGS with entropy: 3.0457
+Bot chose: BRAGS with entropy: 3.0457
+Top ten guesses: [('BRAGS', 3.0456606549674965), ('GRABS', 3.035176106326338), ('BRADS', 2.9920487388222763), ('DRABS', 2.9537864124033395), ('GRADS', 2.937028332334771), ('BOARS', 2.917530383383499), ('DRAGS', 2.9092505545569933), ('BRAYS', 2.8472866185079226), ('GRAMS', 2.8082379055275855), ('BRAKS', 2.8052097545386614)]
+GUESS: BRAGS
+
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩
+Actual Info Gain: 3.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.84799690655495, 'expected_info_gain': 3.0456606549674965}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRADS with entropy: 0.7219
+Bot chose: GRASS with entropy: 0.7219
+Top ten guesses: [('GRADS', 0.7219280948873623), ('GRAMS', 0.7219280948873623), ('GRASS', 0.7219280948873623), ('GRAVS', 0.7219280948873623), ('GRAYS', 0.7219280948873623)]
+GUESS: GRASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.870 bits, Posterior Entropy: 7.989, 
+Guess: 𝙏𝘼𝙍𝙉𝙎, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 7.989, Expected Info Gain: 3.582 bits, Actual Info Gain: 1.819 bits, Posterior Entropy: 6.170, 
+Guess: 𝘽𝙍𝘼𝙂𝙎, Feedback: ⬜🟩🟩🟨🟩, Prior Entropy: 6.170, Expected Info Gain: 3.046 bits, Actual Info Gain: 3.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 174 potential guesses from 74 remaining candidates...
+Top 5 guesses: [('MIGHT', '2.665'), ('BRAST', '2.616'), ('THING', '2.579'), ('NIGHT', '2.577'), ('TRABS', '2.556')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 2.6650
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 2.6650
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.6245 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.624490864907794, 'expected_info_gain': 2.664950781106563}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('BRAGS', '1.951'), ('GRABS', '1.951'), ('DRAGS', '1.951'), ('GRADS', '1.951'), ('GRASP', '1.951')]
+Top entropy choice: 𝘽𝙍𝘼𝙂𝙎 with entropy: 1.9508
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙎𝙋 with entropy: 1.9508
+GUESS: GRASP
+
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 1.9508257945180885}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('GRASS', '0.000')]
+Top entropy choice: 𝙂𝙍𝘼𝙎𝙎 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙎𝙎 with entropy: 0.0000
+GUESS: GRASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 2.665 bits, Actual Info Gain: 2.624 bits, Posterior Entropy: 3.585, 
+Guess: 𝙂𝙍𝘼𝙎𝙋, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 1.951 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙎𝙎 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+74 candidate words remaining.
+Top 5 guesses: [('GRYPT', '3.352'), ('BUNDT', '3.163'), ('BITSY', '3.116'), ('BIGHT', '3.113'), ('DICTY', '3.085')]
+Top entropy choice: 𝙂𝙍𝙔𝙋𝙏 with entropy: 3.3520
+Guess count low, choosing the word with highest entropy: 𝙂𝙍𝙔𝙋𝙏 with entropy: 3.3520
+GUESS: GRYPT
+
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 3.6245 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.624490864907794, 'expected_info_gain': 3.3519580794038215}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('BADAM', '1.792'), ('BEDIM', '1.792'), ('BEMAD', '1.792'), ('BEMUD', '1.792'), ('DEMOB', '1.792')]
+Top entropy choice: 𝘽𝘼𝘿𝘼𝙈 with entropy: 1.7925
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝘿𝘼𝙈 with entropy: 1.7925
+GUESS: BADAM
+
+Guess: 𝘽𝘼𝘿𝘼𝙈, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.792481250360578}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('GRANS', '0.918'), ('GRASS', '0.918'), ('GRAVS', '0.918')]
+Top entropy choice: 𝙂𝙍𝘼𝙉𝙎 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝙍𝘼𝙎𝙎 with entropy: 0.9183
+GUESS: GRASS
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙂𝙍𝙔𝙋𝙏, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 6.209, Expected Info Gain: 3.352 bits, Actual Info Gain: 3.624 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝘿𝘼𝙈, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

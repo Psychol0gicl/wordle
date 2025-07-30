@@ -1,0 +1,242 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOILY 
+The top ten guesses and scores: [('NOILY', 1438), ('ONTIC', 1425), ('TONIC', 1425), ('YONIC', 1421), ('COLIN', 1408), ('NICOL', 1408), ('PINOT', 1408), ('PINTO', 1408), ('PITON', 1408), ('POINT', 1408)]
+The bot finally chose: TONIC 
+GUESS: TONIC
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: LOGIC 
+The top ten guesses and scores: [('LOGIC', 29), ('DOMIC', 28), ('FOLIC', 28), ('COLIC', 27), ('YOGIC', 27), ('COMIC', 26), ('IODIC', 26)]
+The bot finally chose: LOGIC 
+GUESS: LOGIC
+Guess: 𝙇𝙊𝙂𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DOMIC 
+The top ten guesses and scores: [('DOMIC', 15), ('COMIC', 13), ('IODIC', 13)]
+The bot finally chose: COMIC 
+GUESS: COMIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙊𝙂𝙄𝘾, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 8.5648 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 8.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COMIC with entropy: 1.5850
+Bot chose: COMIC with entropy: 1.5850
+Top ten guesses: [('COMIC', 1.584962500721156), ('COMIX', 1.584962500721156), ('COXIB', 1.584962500721156)]
+GUESS: COMIC
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 8.5648 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 8.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COMIC with entropy: 1.5850
+Bot chose: COMIC with entropy: 1.5850
+Top ten guesses: [('COMIC', 1.584962500721156), ('COMIX', 1.584962500721156), ('COXIB', 1.584962500721156)]
+GUESS: COMIC
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 8.565 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 439 remaining candidates...
+Top 5 guesses: [('CONTO', '4.283'), ('LOONY', '4.256'), ('CHILD', '4.253'), ('THING', '4.220'), ('MOONY', '4.220')]
+Top entropy choice: 𝘾𝙊𝙉𝙏𝙊 with entropy: 4.2833
+Ended up choosing COMMON word: 𝙇𝙊𝙊𝙉𝙔 with entropy: 4.2559
+GUESS: LOONY
+
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.8239 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 2.823880819148483, 'expected_info_gain': 4.255862991264833}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 162 potential guesses from 62 remaining candidates...
+Top 5 guesses: [('COUTH', '4.434'), ('BOTCH', '4.380'), ('TOUCH', '4.323'), ('MOUCH', '4.255'), ('COMBI', '4.227')]
+Top entropy choice: 𝘾𝙊𝙐𝙏𝙃 with entropy: 4.4342
+Ended up choosing COMMON word: 𝙏𝙊𝙐𝘾𝙃 with entropy: 4.3226
+GUESS: TOUCH
+
+Guess: 𝙏𝙊𝙐𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 4.322607350772819}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('COMIC', '2.585'), ('COMIX', '2.585'), ('DOMIC', '2.585'), ('COMBI', '2.252'), ('COXIB', '2.252')]
+Top entropy choice: 𝘾𝙊𝙈𝙄𝘾 with entropy: 2.5850
+Ended up choosing COMMON word: 𝘾𝙊𝙈𝙄𝘾 with entropy: 2.5850
+GUESS: COMIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 2.824 bits, Posterior Entropy: 5.954, 
+Guess: 𝙏𝙊𝙐𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 5.954, Expected Info Gain: 4.323 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙈𝙄𝘾 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+439 candidate words remaining.
+Top 5 guesses: [('MINTY', '4.748'), ('LINTY', '4.747'), ('CULTY', '4.644'), ('MILTY', '4.637'), ('MINCY', '4.608')]
+Top entropy choice: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+GUESS: MINTY
+
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.1931 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 6.193114628814202, 'expected_info_gain': 4.748356112198221}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('ACMIC', '2.252'), ('ANDIC', '2.252'), ('ASDIC', '2.252'), ('AZOIC', '2.252'), ('CABOC', '2.252')]
+Top entropy choice: 𝘼𝘾𝙈𝙄𝘾 with entropy: 2.2516
+Guess count low, choosing the word with highest entropy: 𝘼𝘾𝙈𝙄𝘾 with entropy: 2.2516
+GUESS: ACMIC
+
+Guess: 𝘼𝘾𝙈𝙄𝘾, Feedback: ⬜🟨🟩🟩🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('COMIC', '0.000')]
+Top entropy choice: 𝘾𝙊𝙈𝙄𝘾 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙊𝙈𝙄𝘾 with entropy: 0.0000
+GUESS: COMIC
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝘾𝙈𝙄𝘾, Feedback: ⬜🟨🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙈𝙄𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

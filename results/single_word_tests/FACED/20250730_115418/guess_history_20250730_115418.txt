@@ -1,0 +1,65 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.398 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 2.104 bits, Actual Info Gain: 0.943 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.700, Expected Info Gain: 1.692 bits, Actual Info Gain: 2.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.398 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 2.104 bits, Actual Info Gain: 0.943 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.700, Expected Info Gain: 1.692 bits, Actual Info Gain: 2.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 2.836 bits, Posterior Entropy: 5.833, 
+Guess: 𝙒𝘼𝙏𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 5.833, Expected Info Gain: 2.830 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.762 bits, Posterior Entropy: 5.907, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 3.160 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 4.459, 
+Guess: 𝙒𝘼𝘾𝙆𝙔, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.459, Expected Info Gain: 3.160 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

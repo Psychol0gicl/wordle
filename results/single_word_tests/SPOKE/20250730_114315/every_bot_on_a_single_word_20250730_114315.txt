@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙊𝙆𝙀 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: STOPE 
+The top ten guesses and scores: [('STOPE', 93), ('STOKE', 92), ('STOLE', 92), ('STONE', 92), ('SCOTE', 91), ('SHOTE', 91), ('STOVE', 90), ('SLOPE', 89), ('SMOTE', 89), ('SPOKE', 89)]
+The bot finally chose: STOKE 
+GUESS: STOKE
+Guess: 𝙎𝙏𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SMOKE 
+The top ten guesses and scores: [('SMOKE', 13), ('SNOKE', 13), ('SPOKE', 13)]
+The bot finally chose: SMOKE 
+GUESS: SMOKE
+Guess: 𝙎𝙈𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SNOKE 
+The top ten guesses and scores: [('SNOKE', 9), ('SPOKE', 9)]
+The bot finally chose: SPOKE 
+GUESS: SPOKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+Guess: 𝙎𝙏𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙈𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙋𝙊𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙆𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPIDE with entropy: 2.6826
+Bot chose: SPIED with entropy: 2.6826
+Top ten guesses: [('SPIDE', 2.682588730501833), ('SPIED', 2.682588730501833), ('SPIEL', 2.5492553971685), ('SPILE', 2.5492553971685), ('SPUED', 2.4729055953200563), ('SPIKE', 2.365596230357602), ('SPULE', 2.33012496531497), ('SPIES', 2.2062389286533897), ('SPICE', 2.1492553971685), ('SPINE', 2.1492553971685)]
+GUESS: SPIED
+
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 2.682588730501833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPULE with entropy: 1.5850
+Bot chose: SPULE with entropy: 1.5850
+Top ten guesses: [('SPULE', 1.584962500721156), ('SPUME', 1.584962500721156), ('SPOKE', 0.9182958340544896)]
+GUESS: SPULE
+
+Guess: 𝙎𝙋𝙐𝙇𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPOKE with entropy: 0.0000
+Bot chose: SPOKE with entropy: 0.0000
+Top ten guesses: [('SPOKE', 0.0)]
+GUESS: SPOKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 2.683 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙋𝙐𝙇𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙊𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙆𝙀 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPIDE with entropy: 2.6826
+Bot chose: SPIED with entropy: 2.6826
+Top ten guesses: [('SPIDE', 2.682588730501833), ('SPIED', 2.682588730501833), ('SPIEL', 2.5492553971685), ('SPILE', 2.5492553971685), ('SPUED', 2.4729055953200563), ('SPIKE', 2.365596230357602), ('SPULE', 2.33012496531497), ('SPIES', 2.2062389286533897), ('SPICE', 2.1492553971685), ('SPINE', 2.1492553971685)]
+GUESS: SPIED
+
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 2.682588730501833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPULE with entropy: 1.5850
+Bot chose: SPULE with entropy: 1.5850
+Top ten guesses: [('SPULE', 1.584962500721156), ('SPUME', 1.584962500721156), ('SPOKE', 0.9182958340544896)]
+GUESS: SPULE
+
+Guess: 𝙎𝙋𝙐𝙇𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPOKE with entropy: 0.0000
+Bot chose: SPOKE with entropy: 0.0000
+Top ten guesses: [('SPOKE', 0.0)]
+GUESS: SPOKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 2.683 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙋𝙐𝙇𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙊𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙆𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜🟩
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('STOPE', '2.500'), ('STOKE', '2.388'), ('STOLE', '2.301'), ('STONE', '2.301'), ('SHOTE', '2.234')]
+Top entropy choice: 𝙎𝙏𝙊𝙋𝙀 with entropy: 2.5000
+Ended up choosing COMMON word: 𝙎𝙏𝙊𝙆𝙀 with entropy: 2.3879
+GUESS: STOKE
+
+Guess: 𝙎𝙏𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.0, 'expected_info_gain': 2.387918502671133}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SMOKE', '0.918'), ('SNOKE', '0.918'), ('SPOKE', '0.918')]
+Top entropy choice: 𝙎𝙈𝙊𝙆𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙈𝙊𝙆𝙀 with entropy: 0.9183
+GUESS: SMOKE
+
+Guess: 𝙎𝙈𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SNOKE', '1.000'), ('SPOKE', '1.000')]
+Top entropy choice: 𝙎𝙉𝙊𝙆𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙋𝙊𝙆𝙀 with entropy: 1.0000
+GUESS: SPOKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 2.388 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙈𝙊𝙆𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙋𝙊𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙆𝙀 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜🟩
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+24 candidate words remaining.
+Top 5 guesses: [('CLOTH', '3.288'), ('CLAPT', '3.116'), ('CLEPT', '3.116'), ('CLIPT', '3.116'), ('CHAPT', '3.090')]
+Top entropy choice: 𝘾𝙇𝙊𝙏𝙃 with entropy: 3.2883
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙊𝙏𝙃 with entropy: 3.2883
+GUESS: CLOTH
+
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.263034405833794, 'expected_info_gain': 3.2883201891060003}
+----------
+The bot is making a guess...
+5 candidate words remaining.
+Top 5 guesses: [('MANKS', '2.322'), ('MANKY', '2.322'), ('MINKE', '2.322'), ('MINKS', '2.322'), ('MIRKN', '2.322')]
+Top entropy choice: 𝙈𝘼𝙉𝙆𝙎 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝙈𝘼𝙉𝙆𝙎 with entropy: 2.3219
+GUESS: MANKS
+
+Guess: 𝙈𝘼𝙉𝙆𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SPOKE', '0.000')]
+Top entropy choice: 𝙎𝙋𝙊𝙆𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙋𝙊𝙆𝙀 with entropy: 0.0000
+GUESS: SPOKE
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝘾𝙇𝙊𝙏𝙃, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.585, Expected Info Gain: 3.288 bits, Actual Info Gain: 2.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙈𝘼𝙉𝙆𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙊𝙆𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

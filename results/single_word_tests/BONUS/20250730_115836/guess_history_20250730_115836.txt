@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙊𝘿𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙂𝙐𝙎, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.043 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.549 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.909 bits, Posterior Entropy: 9.950, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 9.950, Expected Info Gain: 5.029 bits, Actual Info Gain: 6.043 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝙊𝙈𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.549 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.077 bits, Posterior Entropy: 8.781, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.781, Expected Info Gain: 3.709 bits, Actual Info Gain: 6.196 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.077 bits, Posterior Entropy: 8.781, 
+Guess: 𝘽𝙇𝙐𝙉𝙏, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 8.781, Expected Info Gain: 3.930 bits, Actual Info Gain: 7.781 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙊𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

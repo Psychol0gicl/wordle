@@ -1,0 +1,307 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙀𝙇𝙇𝙊 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: LODEN 
+The top ten guesses and scores: [('LODEN', 990), ('OLDEN', 990), ('NOTED', 978), ('TONED', 978), ('TOLED', 974), ('DEMON', 954), ('LOMED', 950), ('MODEL', 950), ('MOLED', 950), ('DOYEN', 946)]
+The bot finally chose: OLDEN 
+GUESS: OLDEN
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TELCO 
+The top ten guesses and scores: [('TELCO', 65), ('HELOT', 64), ('METOL', 63), ('TELOI', 63), ('EXTOL', 62), ('KETOL', 62), ('CELOM', 61), ('HELIO', 60), ('LEUCO', 60), ('CELLO', 59)]
+The bot finally chose: TELCO 
+GUESS: TELCO
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: HELIO 
+The top ten guesses and scores: [('HELIO', 18), ('HELLO', 17), ('BELLO', 16), ('JELLO', 16)]
+The bot finally chose: HELLO 
+GUESS: HELLO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜🟨
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙃𝙀𝙇𝙇𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙀𝙇𝙇𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 6.6689 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 6.668884984266247, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELCO with entropy: 2.7516
+Bot chose: TELCO with entropy: 2.7516
+Top ten guesses: [('TELCO', 2.751629167387823), ('HELOT', 2.688721875540867), ('CELLO', 2.6258145836939115), ('HELLO', 2.6258145836939115), ('HELIO', 2.584962500721156), ('TELOI', 2.584962500721156), ('CELOM', 2.5220552088742005), ('BELLO', 2.459147917027245), ('METOL', 2.4508257945180882), ('KETOL', 2.2841591278514217)]
+GUESS: TELCO
+
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.751629167387823}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BELLO with entropy: 1.5000
+Bot chose: BELLO with entropy: 1.5000
+Top ten guesses: [('BELLO', 1.5), ('HELIO', 1.5), ('HELLO', 1.5), ('JELLO', 1.5)]
+GUESS: BELLO
+
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HELLO with entropy: 1.0000
+Bot chose: HELLO with entropy: 1.0000
+Top ten guesses: [('HELLO', 1.0), ('JELLO', 1.0)]
+GUESS: HELLO
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.669 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝙇𝙇𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙇𝙇𝙊 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 6.6689 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 6.668884984266247, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELCO with entropy: 2.7516
+Bot chose: TELCO with entropy: 2.7516
+Top ten guesses: [('TELCO', 2.751629167387823), ('HELOT', 2.688721875540867), ('CELLO', 2.6258145836939115), ('HELLO', 2.6258145836939115), ('HELIO', 2.584962500721156), ('TELOI', 2.584962500721156), ('CELOM', 2.5220552088742005), ('BELLO', 2.459147917027245), ('METOL', 2.4508257945180882), ('KETOL', 2.2841591278514217)]
+GUESS: TELCO
+
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.751629167387823}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BELLO with entropy: 1.5000
+Bot chose: BELLO with entropy: 1.5000
+Top ten guesses: [('BELLO', 1.5), ('HELIO', 1.5), ('HELLO', 1.5), ('JELLO', 1.5)]
+GUESS: BELLO
+
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HELLO with entropy: 1.0000
+Bot chose: HELLO with entropy: 1.0000
+Top ten guesses: [('HELLO', 1.0), ('JELLO', 1.0)]
+GUESS: HELLO
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 6.669 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙀𝙇𝘾𝙊, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝙇𝙇𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙇𝙇𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.6688 bits
+Posterior entropy: 7.189824558880018
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.189824558880018, 'actual_info_gain': 6.668836425842759, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 244 potential guesses from 146 remaining candidates...
+Top 5 guesses: [('MELON', '4.793'), ('PELON', '4.735'), ('BELON', '4.689'), ('LEMON', '4.688'), ('LENTO', '4.667')]
+Top entropy choice: 𝙈𝙀𝙇𝙊𝙉 with entropy: 4.7931
+Ended up choosing COMMON word: 𝙈𝙀𝙇𝙊𝙉 with entropy: 4.7931
+GUESS: MELON
+
+Guess: 𝙈𝙀𝙇𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.6049 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.189824558880018, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.6048620581588615, 'expected_info_gain': 4.79314302799386}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('CELLO', '1.792'), ('HELLO', '1.792'), ('JELLO', '1.459'), ('BELLO', '1.459'), ('HELIO', '1.252')]
+Top entropy choice: 𝘾𝙀𝙇𝙇𝙊 with entropy: 1.7925
+Ended up choosing COMMON word: 𝘾𝙀𝙇𝙇𝙊 with entropy: 1.7925
+GUESS: CELLO
+
+Guess: 𝘾𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BELLO', '0.918'), ('HELLO', '0.918'), ('JELLO', '0.918')]
+Top entropy choice: 𝘽𝙀𝙇𝙇𝙊 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘽𝙀𝙇𝙇𝙊 with entropy: 0.9183
+GUESS: BELLO
+
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('HELLO', '1.000'), ('JELLO', '1.000')]
+Top entropy choice: 𝙃𝙀𝙇𝙇𝙊 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙃𝙀𝙇𝙇𝙊 with entropy: 1.0000
+GUESS: HELLO
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.669 bits, Posterior Entropy: 7.190, 
+Guess: 𝙈𝙀𝙇𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.190, Expected Info Gain: 4.793 bits, Actual Info Gain: 4.605 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙀𝙇𝙇𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝙇𝙇𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙇𝙇𝙊 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.6688 bits
+Posterior entropy: 7.189824558880018
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.189824558880018, 'actual_info_gain': 6.668836425842759, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+146 candidate words remaining.
+Top 5 guesses: [('MELON', '4.793'), ('PELON', '4.735'), ('BELON', '4.689'), ('LEMON', '4.688'), ('LENTO', '4.667')]
+Top entropy choice: 𝙈𝙀𝙇𝙊𝙉 with entropy: 4.7931
+Guess count low, choosing the word with highest entropy: 𝙈𝙀𝙇𝙊𝙉 with entropy: 4.7931
+GUESS: MELON
+
+Guess: 𝙈𝙀𝙇𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.6049 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.189824558880018, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.6048620581588615, 'expected_info_gain': 4.79314302799386}
+----------
+The bot is making a guess...
+6 candidate words remaining.
+Top 5 guesses: [('BIACH', '2.585'), ('BIRCH', '2.585'), ('BITCH', '2.585'), ('CHIBA', '2.585'), ('CHIBS', '2.585')]
+Top entropy choice: 𝘽𝙄𝘼𝘾𝙃 with entropy: 2.5850
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝘼𝘾𝙃 with entropy: 2.5850
+GUESS: BIACH
+
+Guess: 𝘽𝙄𝘼𝘾𝙃, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('HELLO', '0.000')]
+Top entropy choice: 𝙃𝙀𝙇𝙇𝙊 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝙀𝙇𝙇𝙊 with entropy: 0.0000
+GUESS: HELLO
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.669 bits, Posterior Entropy: 7.190, 
+Guess: 𝙈𝙀𝙇𝙊𝙉, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.190, Expected Info Gain: 4.793 bits, Actual Info Gain: 4.605 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝘼𝘾𝙃, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙀𝙇𝙇𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

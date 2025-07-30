@@ -1,0 +1,265 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙀𝙉𝘾𝙃 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ELDIN 
+The top ten guesses and scores: [('ELDIN', 1888), ('LINED', 1888), ('LITED', 1886), ('TILED', 1886), ('YIELD', 1851), ('IDENT', 1840), ('TEIND', 1840), ('TINED', 1840), ('ELINT', 1806), ('ENLIT', 1806)]
+The bot finally chose: LINED 
+GUESS: LINED
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BENTY 
+The top ten guesses and scores: [('BENTY', 67), ('TENCH', 67), ('GENTY', 66), ('TENNY', 64), ('TENTY', 64), ('HENNY', 63), ('BENCH', 61), ('TENTH', 61), ('CENTU', 60), ('WENCH', 60)]
+The bot finally chose: HENNY 
+GUESS: HENNY
+Guess: 𝙃𝙀𝙉𝙉𝙔, Feedback: 🟨🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TENCH 
+The top ten guesses and scores: [('TENCH', 22), ('BENCH', 20), ('KENCH', 20), ('WENCH', 20), ('TENTH', 18)]
+The bot finally chose: BENCH 
+GUESS: BENCH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝙃𝙀𝙉𝙉𝙔, Feedback: 🟨🟩🟩⬜⬜
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙀𝙉𝘾𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 5.0444 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 5.044394119358453, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENIC with entropy: 3.4143
+Bot chose: DENIM with entropy: 3.3492
+Top ten guesses: [('GENIC', 3.4142537875865124), ('DENIM', 3.3492122460800196), ('BENDY', 3.2492013382510905), ('DENCH', 3.1996012581532667), ('TENDU', 3.1897491506775837), ('XENIC', 3.1886182323001124), ('GENIN', 3.184788247162916), ('VENTI', 3.1753689080927328), ('HEMIN', 3.1747449192736994), ('VENIN', 3.153835624791925)]
+GUESS: DENIM
+
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 1.8875 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.887525270741588, 'expected_info_gain': 3.3492122460800196}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BENTY with entropy: 2.4464
+Bot chose: BENCH with entropy: 2.3219
+Top ten guesses: [('BENTY', 2.4464393446710155), ('BENCH', 2.321928094887362), ('TENCH', 2.321928094887362), ('TENTY', 2.321928094887362), ('GENTY', 2.1219280948873624), ('HENCH', 2.0464393446710156), ('KENCH', 2.0464393446710156), ('TENTH', 2.0464393446710156), ('WENCH', 2.0464393446710156), ('CENTU', 1.7219280948873623)]
+GUESS: BENCH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 5.209, 
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.209, Expected Info Gain: 3.349 bits, Actual Info Gain: 1.888 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙉𝘾𝙃 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 5.0444 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 5.044394119358453, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GENIC with entropy: 3.4143
+Bot chose: DENIM with entropy: 3.3492
+Top ten guesses: [('GENIC', 3.4142537875865124), ('DENIM', 3.3492122460800196), ('BENDY', 3.2492013382510905), ('DENCH', 3.1996012581532667), ('TENDU', 3.1897491506775837), ('XENIC', 3.1886182323001124), ('GENIN', 3.184788247162916), ('VENTI', 3.1753689080927328), ('HEMIN', 3.1747449192736994), ('VENIN', 3.153835624791925)]
+GUESS: DENIM
+
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 1.8875 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.887525270741588, 'expected_info_gain': 3.3492122460800196}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BENTY with entropy: 2.4464
+Bot chose: BENCH with entropy: 2.3219
+Top ten guesses: [('BENTY', 2.4464393446710155), ('BENCH', 2.321928094887362), ('TENCH', 2.321928094887362), ('TENTY', 2.321928094887362), ('GENTY', 2.1219280948873624), ('HENCH', 2.0464393446710156), ('KENCH', 2.0464393446710156), ('TENTH', 2.0464393446710156), ('WENCH', 2.0464393446710156), ('CENTU', 1.7219280948873623)]
+GUESS: BENCH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 5.209, 
+Guess: 𝘿𝙀𝙉𝙄𝙈, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.209, Expected Info Gain: 3.349 bits, Actual Info Gain: 1.888 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙉𝘾𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 493 potential guesses from 687 remaining candidates...
+Top 5 guesses: [('DENET', '5.429'), ('DEELY', '5.174'), ('BILED', '5.141'), ('DEBEL', '5.128'), ('HELED', '5.121')]
+Top entropy choice: 𝘿𝙀𝙉𝙀𝙏 with entropy: 5.4293
+GUESS: DENET
+
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 5.0318 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 5.031848866039339, 'expected_info_gain': 5.42929232433715}
+----------
+The bot is making a guess...
+Evaluating 21 potential guesses from 21 remaining candidates...
+Top 5 guesses: [('BENNI', '2.951'), ('GENIN', '2.856'), ('PENNI', '2.856'), ('GENIC', '2.725'), ('HENNY', '2.498')]
+Top entropy choice: 𝘽𝙀𝙉𝙉𝙄 with entropy: 2.9511
+Ended up choosing COMMON word: 𝙃𝙀𝙉𝙉𝙔 with entropy: 2.4983
+GUESS: HENNY
+
+Guess: 𝙃𝙀𝙉𝙉𝙔, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.8073549220576046, 'expected_info_gain': 2.498296588930315}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BENCH', '0.918'), ('KENCH', '0.918'), ('WENCH', '0.918')]
+Top entropy choice: 𝘽𝙀𝙉𝘾𝙃 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘽𝙀𝙉𝘾𝙃 with entropy: 0.9183
+GUESS: BENCH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 5.032 bits, Posterior Entropy: 4.392, 
+Guess: 𝙃𝙀𝙉𝙉𝙔, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 4.392, Expected Info Gain: 2.498 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙉𝘾𝙃 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+687 candidate words remaining.
+Top 5 guesses: [('TILED', '5.435'), ('DENET', '5.429'), ('LINTY', '5.360'), ('LINED', '5.339'), ('LITED', '5.336')]
+Top entropy choice: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+Guess count low, choosing the word with highest entropy: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+GUESS: TILED
+
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.6168 bits
+Posterior entropy: 5.807354922057604
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 5.807354922057604, 'actual_info_gain': 3.616811366760496, 'expected_info_gain': 5.43464172370874}
+----------
+The bot is making a guess...
+56 candidate words remaining.
+Top 5 guesses: [('BUNCH', '4.331'), ('BUNGY', '4.281'), ('MUNGY', '4.180'), ('PUNGY', '4.172'), ('MUNCH', '4.154')]
+Top entropy choice: 𝘽𝙐𝙉𝘾𝙃 with entropy: 4.3309
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙉𝘾𝙃 with entropy: 4.3309
+GUESS: BUNCH
+
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 5.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 5.807354922057604, 'expected_info_gain': 4.330873881198659}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('BENCH', '0.000')]
+Top entropy choice: 𝘽𝙀𝙉𝘾𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙀𝙉𝘾𝙃 with entropy: 0.0000
+GUESS: BENCH
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 3.617 bits, Posterior Entropy: 5.807, 
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 5.807, Expected Info Gain: 4.331 bits, Actual Info Gain: 5.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

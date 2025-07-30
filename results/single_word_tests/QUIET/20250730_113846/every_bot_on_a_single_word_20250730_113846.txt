@@ -1,0 +1,251 @@
+Testing bot: WordleBot
+___ Testing word: 𝙌𝙐𝙄𝙀𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ELDIN 
+The top ten guesses and scores: [('ELDIN', 1888), ('LINED', 1888), ('LITED', 1886), ('TILED', 1886), ('YIELD', 1851), ('IDENT', 1840), ('TEIND', 1840), ('TINED', 1840), ('ELINT', 1806), ('ENLIT', 1806)]
+The bot finally chose: LINED 
+GUESS: LINED
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜🟨⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: THIEF 
+The top ten guesses and scores: [('THIEF', 14), ('CHIEF', 13), ('QUIET', 12), ('IMMEW', 11)]
+The bot finally chose: THIEF 
+GUESS: THIEF
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟨⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: QUIET 
+The top ten guesses and scores: [('QUIET', 5)]
+The bot finally chose: QUIET 
+GUESS: QUIET
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: ⬜🟨⬜🟩⬜
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟨⬜🟩🟩⬜
+Guess: 𝙌𝙐𝙄𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙀𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.7620 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 3.7619943886577287, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIDET with entropy: 4.3994
+Bot chose: BIDET with entropy: 4.3994
+Top ten guesses: [('BIDET', 4.399422921391908), ('TIMED', 4.314503759760276), ('BITEY', 4.296821844695412), ('DITED', 4.2907412815369685), ('DIVEY', 4.2681977486598415), ('VIBED', 4.265511748666957), ('KITED', 4.259939901284264), ('BIKED', 4.2440414767661725), ('TIDED', 4.224074614870302), ('CITED', 4.186297855324928)]
+GUESS: BIDET
+
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 6.4919 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 0.0, 'actual_info_gain': 6.491853096329675, 'expected_info_gain': 4.399422921391908}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUIET with entropy: 0.0000
+Bot chose: QUIET with entropy: 0.0000
+Top ten guesses: [('QUIET', 0.0)]
+GUESS: QUIET
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 3.762 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.492, Expected Info Gain: 4.399 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙀𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.7620 bits
+Posterior entropy: 6.491853096329675
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 6.491853096329675, 'actual_info_gain': 3.7619943886577287, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIDET with entropy: 4.3994
+Bot chose: BIDET with entropy: 4.3994
+Top ten guesses: [('BIDET', 4.399422921391908), ('TIMED', 4.314503759760276), ('BITEY', 4.296821844695412), ('DITED', 4.2907412815369685), ('DIVEY', 4.2681977486598415), ('VIBED', 4.265511748666957), ('KITED', 4.259939901284264), ('BIKED', 4.2440414767661725), ('TIDED', 4.224074614870302), ('CITED', 4.186297855324928)]
+GUESS: BIDET
+
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 6.4919 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.491853096329675, 'posterior_entropy': 0.0, 'actual_info_gain': 6.491853096329675, 'expected_info_gain': 4.399422921391908}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUIET with entropy: 0.0000
+Bot chose: QUIET with entropy: 0.0000
+Top ten guesses: [('QUIET', 0.0)]
+GUESS: QUIET
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 3.762 bits, Posterior Entropy: 6.492, 
+Guess: 𝘽𝙄𝘿𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.492, Expected Info Gain: 4.399 bits, Actual Info Gain: 6.492 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙀𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 493 potential guesses from 687 remaining candidates...
+Top 5 guesses: [('DENET', '5.429'), ('DEELY', '5.174'), ('BILED', '5.141'), ('DEBEL', '5.128'), ('HELED', '5.121')]
+Top entropy choice: 𝘿𝙀𝙉𝙀𝙏 with entropy: 5.4293
+GUESS: DENET
+
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 5.7237 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 5.723726570677007, 'expected_info_gain': 5.42929232433715}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('CULET', '3.027'), ('FILET', '2.931'), ('GILET', '2.931'), ('GULET', '2.931'), ('LICET', '2.873')]
+Top entropy choice: 𝘾𝙐𝙇𝙀𝙏 with entropy: 3.0270
+Ended up choosing COMMON word: 𝙁𝙄𝙇𝙀𝙏 with entropy: 2.9312
+GUESS: FILET
+
+Guess: 𝙁𝙄𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.9312089489103235}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('QUIET', '0.000')]
+Top entropy choice: 𝙌𝙐𝙄𝙀𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙌𝙐𝙄𝙀𝙏 with entropy: 0.0000
+GUESS: QUIET
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 5.724 bits, Posterior Entropy: 3.700, 
+Guess: 𝙁𝙄𝙇𝙀𝙏, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.931 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙀𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+687 candidate words remaining.
+Top 5 guesses: [('TILED', '5.435'), ('DENET', '5.429'), ('LINTY', '5.360'), ('LINED', '5.339'), ('LITED', '5.336')]
+Top entropy choice: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+Guess count low, choosing the word with highest entropy: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+GUESS: TILED
+
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: 🟨🟨⬜🟩⬜
+Actual Info Gain: 9.4242 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 0.0, 'actual_info_gain': 9.4241662888181, 'expected_info_gain': 5.43464172370874}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('QUIET', '0.000')]
+Top entropy choice: 𝙌𝙐𝙄𝙀𝙏 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙌𝙐𝙄𝙀𝙏 with entropy: 0.0000
+GUESS: QUIET
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 9.424 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

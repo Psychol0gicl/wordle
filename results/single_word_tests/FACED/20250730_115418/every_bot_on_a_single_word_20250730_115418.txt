@@ -1,0 +1,328 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DEALT 
+The top ten guesses and scores: [('DEALT', 1214), ('DELTA', 1214), ('LATED', 1214), ('ELAND', 1213), ('LADEN', 1213), ('LANED', 1213), ('NALED', 1213), ('LAMED', 1186), ('MEDAL', 1186), ('DECAL', 1176)]
+The bot finally chose: DEALT 
+GUESS: DEALT
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MAWED 
+The top ten guesses and scores: [('MAWED', 232), ('WAMED', 232), ('PAWED', 230), ('WANED', 230), ('MANED', 229), ('NAMED', 229), ('CAWED', 227), ('KAWED', 227), ('NAPED', 227), ('PANED', 227)]
+The bot finally chose: WANED 
+GUESS: WANED
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CAPED 
+The top ten guesses and scores: [('CAPED', 122), ('GAPED', 122), ('PACED', 122), ('PAGED', 122), ('CAGED', 121), ('FACED', 121), ('FAMED', 121), ('GAMED', 121), ('MACED', 121), ('PAVED', 120)]
+The bot finally chose: PACED 
+GUESS: PACED
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FACED 
+The top ten guesses and scores: [('FACED', 9), ('MACED', 9)]
+The bot finally chose: FACED 
+GUESS: FACED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.3978 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 3.3978029618624896, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAWED with entropy: 2.1042
+Bot chose: MAWED with entropy: 2.1042
+Top ten guesses: [('MAWED', 2.1042095376780177), ('WAMED', 2.1042095376780177), ('TAWED', 1.8983167441613245), ('MATED', 1.8298661677595869), ('TAMED', 1.8298661677595869), ('CAWED', 1.7964966432350105), ('WAGED', 1.7249639178028564), ('HAWED', 1.709029288160259), ('MACED', 1.6692750707107136), ('KAWED', 1.6586336911979238)]
+GUESS: MAWED
+
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.9434 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 0.9434164716336326, 'expected_info_gain': 2.1042095376780177}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FATED with entropy: 1.6922
+Bot chose: FATED with entropy: 1.6922
+Top ten guesses: [('FATED', 1.6922474331963002), ('GATED', 1.643252475785101), ('HATED', 1.643252475785101), ('CAGED', 1.5537651978285885), ('BATED', 1.5372952641634292), ('FACED', 1.4846843152781377), ('CAKED', 1.4478079862069166), ('CAAED', 1.4133047082337233), ('FAKED', 1.3984629382235516), ('FAZED', 1.3984629382235516)]
+GUESS: FATED
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.3785 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.3785116232537296, 'expected_info_gain': 1.6922474331963002}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FACED with entropy: 0.7219
+Bot chose: FACED with entropy: 0.7219
+Top ten guesses: [('FACED', 0.7219280948873623), ('FAKED', 0.7219280948873623), ('FAXED', 0.7219280948873623), ('FAYED', 0.7219280948873623), ('FAZED', 0.7219280948873623)]
+GUESS: FACED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.398 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 2.104 bits, Actual Info Gain: 0.943 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.700, Expected Info Gain: 1.692 bits, Actual Info Gain: 2.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.3978 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 3.3978029618624896, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAWED with entropy: 2.1042
+Bot chose: MAWED with entropy: 2.1042
+Top ten guesses: [('MAWED', 2.1042095376780177), ('WAMED', 2.1042095376780177), ('TAWED', 1.8983167441613245), ('MATED', 1.8298661677595869), ('TAMED', 1.8298661677595869), ('CAWED', 1.7964966432350105), ('WAGED', 1.7249639178028564), ('HAWED', 1.709029288160259), ('MACED', 1.6692750707107136), ('KAWED', 1.6586336911979238)]
+GUESS: MAWED
+
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.9434 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 0.9434164716336326, 'expected_info_gain': 2.1042095376780177}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FATED with entropy: 1.6922
+Bot chose: FATED with entropy: 1.6922
+Top ten guesses: [('FATED', 1.6922474331963002), ('GATED', 1.643252475785101), ('HATED', 1.643252475785101), ('CAGED', 1.5537651978285885), ('BATED', 1.5372952641634292), ('FACED', 1.4846843152781377), ('CAKED', 1.4478079862069166), ('CAAED', 1.4133047082337233), ('FAKED', 1.3984629382235516), ('FAZED', 1.3984629382235516)]
+GUESS: FATED
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.3785 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.3785116232537296, 'expected_info_gain': 1.6922474331963002}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FACED with entropy: 0.7219
+Bot chose: FACED with entropy: 0.7219
+Top ten guesses: [('FACED', 0.7219280948873623), ('FAKED', 0.7219280948873623), ('FAXED', 0.7219280948873623), ('FAYED', 0.7219280948873623), ('FAZED', 0.7219280948873623)]
+GUESS: FACED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 3.398 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 2.104 bits, Actual Info Gain: 0.943 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.700, Expected Info Gain: 1.692 bits, Actual Info Gain: 2.379 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 494 potential guesses from 407 remaining candidates...
+Top 5 guesses: [('LANED', '4.613'), ('LADEN', '4.596'), ('LATEN', '4.510'), ('LATED', '4.508'), ('LAMED', '4.431')]
+Top entropy choice: 𝙇𝘼𝙉𝙀𝘿 with entropy: 4.6130
+Ended up choosing COMMON word: 𝙇𝘼𝘿𝙀𝙉 with entropy: 4.5961
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 2.8360 bits
+Posterior entropy: 5.832890014164741
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 5.832890014164741, 'actual_info_gain': 2.835994970101506, 'expected_info_gain': 4.596051774874372}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 157 potential guesses from 57 remaining candidates...
+Top 5 guesses: [('WATCH', '2.830'), ('MIGHT', '2.681'), ('WHITE', '2.214'), ('PARTY', '2.085'), ('WHICH', '2.085')]
+Top entropy choice: 𝙒𝘼𝙏𝘾𝙃 with entropy: 2.8298
+Ended up choosing COMMON word: 𝙒𝘼𝙏𝘾𝙃 with entropy: 2.8298
+GUESS: WATCH
+
+Guess: 𝙒𝘼𝙏𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 3.0255 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.832890014164741, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.025535092107137, 'expected_info_gain': 2.829831016833136}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('CAPED', '1.842'), ('PACED', '1.842'), ('CAGED', '1.449'), ('CAKED', '1.449'), ('CAVED', '1.449')]
+Top entropy choice: 𝘾𝘼𝙋𝙀𝘿 with entropy: 1.8424
+Ended up choosing COMMON word: 𝙋𝘼𝘾𝙀𝘿 with entropy: 1.8424
+GUESS: PACED
+
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 1.8423709931771084}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('FACED', '1.000'), ('MACED', '1.000')]
+Top entropy choice: 𝙁𝘼𝘾𝙀𝘿 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙁𝘼𝘾𝙀𝘿 with entropy: 1.0000
+GUESS: FACED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 8.669, Expected Info Gain: 4.596 bits, Actual Info Gain: 2.836 bits, Posterior Entropy: 5.833, 
+Guess: 𝙒𝘼𝙏𝘾𝙃, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 5.833, Expected Info Gain: 2.830 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘾𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 5.1898 bits
+Posterior entropy: 8.668884984266247
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.668884984266247, 'actual_info_gain': 5.189776000456529, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+407 candidate words remaining.
+Top 5 guesses: [('DATAL', '4.794'), ('NATAL', '4.752'), ('MADAL', '4.731'), ('CANAL', '4.672'), ('DAMAN', '4.641')]
+Top entropy choice: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+Guess count low, choosing the word with highest entropy: 𝘿𝘼𝙏𝘼𝙇 with entropy: 4.7941
+GUESS: DATAL
+
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 2.7620 bits
+Posterior entropy: 5.906890595608519
+entropy_info: {'prior_entropy': 8.668884984266247, 'posterior_entropy': 5.906890595608519, 'actual_info_gain': 2.7619943886577287, 'expected_info_gain': 4.794133113193984}
+----------
+The bot is making a guess...
+60 candidate words remaining.
+Top 5 guesses: [('NYMPH', '3.160'), ('WIMPY', '3.059'), ('WOMYN', '3.040'), ('POWNY', '2.975'), ('WINGY', '2.877')]
+Top entropy choice: 𝙉𝙔𝙈𝙋𝙃 with entropy: 3.1596
+Guess count low, choosing the word with highest entropy: 𝙉𝙔𝙈𝙋𝙃 with entropy: 3.1596
+GUESS: NYMPH
+
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.4475 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 5.906890595608519, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 1.4474589769712214, 'expected_info_gain': 3.1596147362215}
+----------
+The bot is making a guess...
+22 candidate words remaining.
+Top 5 guesses: [('CAWKS', '2.823'), ('COWKS', '2.823'), ('WACKE', '2.823'), ('WACKO', '2.823'), ('WACKS', '2.823')]
+Top entropy choice: 𝘾𝘼𝙒𝙆𝙎 with entropy: 2.8231
+Using common exploratory word: 𝙒𝘼𝘾𝙆𝙔 with entropy: 2.8231
+GUESS: WACKY
+
+Guess: 𝙒𝘼𝘾𝙆𝙔, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 0.0, 'actual_info_gain': 4.459431618637297, 'expected_info_gain': 3.1596147362215}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('FACED', '0.000')]
+Top entropy choice: 𝙁𝘼𝘾𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝘼𝘾𝙀𝘿 with entropy: 0.0000
+GUESS: FACED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.190 bits, Posterior Entropy: 8.669, 
+Guess: 𝘿𝘼𝙏𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.669, Expected Info Gain: 4.794 bits, Actual Info Gain: 2.762 bits, Posterior Entropy: 5.907, 
+Guess: 𝙉𝙔𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 3.160 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 4.459, 
+Guess: 𝙒𝘼𝘾𝙆𝙔, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.459, Expected Info Gain: 3.160 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

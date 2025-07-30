@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙂𝙊𝙊𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙇𝙊𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩🟨🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.879 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝙊𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.395 bits, Posterior Entropy: 9.464, 
+Guess: 𝙏𝙊𝙇𝙀𝙎, Feedback: ⬜🟩🟨🟨🟨, Prior Entropy: 9.464, Expected Info Gain: 4.586 bits, Actual Info Gain: 7.879 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝙊𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙋𝙊𝙄𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.000, Expected Info Gain: 1.963 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 4.322, 
+Guess: 𝙇𝙊𝙐𝙎𝙀, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 1.544 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙏𝙐𝙇𝙄𝙋, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 3.201 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

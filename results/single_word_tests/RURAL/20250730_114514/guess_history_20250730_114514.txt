@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘿𝘼𝙄𝙍𝙔, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙇𝙐𝙉𝘼𝙍, Feedback: 🟨🟩⬜🟩🟨
+Guess: 𝙈𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.966 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.893 bits, Posterior Entropy: 6.966, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 6.966, Expected Info Gain: 3.911 bits, Actual Info Gain: 3.966 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.092 bits, Posterior Entropy: 4.248, 
+Guess: 𝙋𝙔𝙍𝘼𝙇, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 2.905 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.519 bits, Posterior Entropy: 8.340, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.340, Expected Info Gain: 5.094 bits, Actual Info Gain: 4.092 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙔𝙋𝘼𝙇, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 3.366 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙅𝙊𝙍𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 3.366 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

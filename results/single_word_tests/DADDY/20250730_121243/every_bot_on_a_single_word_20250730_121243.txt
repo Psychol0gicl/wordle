@@ -1,0 +1,339 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝘼𝘿𝘿𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: DAMPY 
+The top ten guesses and scores: [('DAMPY', 242), ('PAMBY', 242), ('CAMPY', 235), ('CADGY', 228), ('MAUBY', 228), ('DWAMY', 227), ('GAUMY', 225), ('BAWTY', 224), ('DAUBY', 224), ('BAWDY', 223)]
+The bot finally chose: BAWDY 
+GUESS: BAWDY
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: GAUDY 
+The top ten guesses and scores: [('GAUDY', 26), ('CADDY', 25), ('FADDY', 25), ('MADDY', 25), ('PADDY', 25), ('DADDY', 24)]
+The bot finally chose: GAUDY 
+GUESS: GAUDY
+Guess: 𝙂𝘼𝙐𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CADDY 
+The top ten guesses and scores: [('CADDY', 22), ('FADDY', 22), ('MADDY', 22), ('PADDY', 22), ('DADDY', 21)]
+The bot finally chose: CADDY 
+GUESS: CADDY
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FADDY 
+The top ten guesses and scores: [('FADDY', 18), ('MADDY', 18), ('PADDY', 18), ('DADDY', 17)]
+The bot finally chose: MADDY 
+GUESS: MADDY
+Game Over! You ran out of guesses.
+Guess: 𝙈𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙂𝘼𝙐𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝘼𝘿𝘿𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0616 bits
+Posterior entropy: 6.977279923499917
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.977279923499917, 'actual_info_gain': 3.0616390657923853, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.3586
+Bot chose: BADLY with entropy: 4.3586
+Top ten guesses: [('BADLY', 4.358557546321531), ('BALDY', 4.3119360940919504), ('BALMY', 4.304951203249307), ('LAMBY', 4.182777416715866), ('CALMY', 4.158841393860349), ('BALKY', 4.143071179463956), ('MADLY', 4.1358787112812125), ('MALKY', 3.983921019388066), ('DAUBY', 3.9828071717152453), ('CADGY', 3.9799704218506866)]
+GUESS: BADLY
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.977279923499917, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 4.358557546321531}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CADDY with entropy: 1.6645
+Bot chose: CADDY with entropy: 1.6645
+Top ten guesses: [('CADDY', 1.6644977792004614), ('CADGY', 1.6644977792004614), ('DADDY', 1.3787834934861753), ('FADDY', 1.3787834934861753), ('MADDY', 1.3787834934861753), ('WADDY', 1.3787834934861753), ('GADGY', 1.1488348542809166)]
+GUESS: CADDY
+
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 0.8073549220576042, 'expected_info_gain': 1.6644977792004614}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DADDY with entropy: 0.8113
+Bot chose: DADDY with entropy: 0.8113
+Top ten guesses: [('DADDY', 0.8112781244591328), ('FADDY', 0.8112781244591328), ('MADDY', 0.8112781244591328), ('WADDY', 0.8112781244591328)]
+GUESS: DADDY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.062 bits, Posterior Entropy: 6.977, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.977, Expected Info Gain: 4.359 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.664 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝘼𝘿𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝘼𝘿𝘿𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.8197 bits
+Posterior entropy: 10.038918989292302
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.038918989292302, 'actual_info_gain': 3.8197419954304745, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 5.4602
+Bot chose: TANIA with entropy: 5.4602
+Top ten guesses: [('TANIA', 5.460195352645883), ('MANIA', 5.301468313164232), ('BANIA', 5.218781940753349), ('GALIA', 5.190157680248868), ('LAMIA', 5.174338913709676), ('MANTA', 5.156946956845307), ('LIANA', 5.156450852403998), ('CANTI', 5.137031076545447), ('CONIA', 5.121294141383766), ('TANGA', 5.116861419135439)]
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0616 bits
+Posterior entropy: 6.977279923499917
+entropy_info: {'prior_entropy': 10.038918989292302, 'posterior_entropy': 6.977279923499917, 'actual_info_gain': 3.0616390657923853, 'expected_info_gain': 5.460195352645883}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.3586
+Bot chose: BADLY with entropy: 4.3586
+Top ten guesses: [('BADLY', 4.358557546321531), ('BALDY', 4.3119360940919504), ('BALMY', 4.304951203249307), ('LAMBY', 4.182777416715866), ('CALMY', 4.158841393860349), ('BALKY', 4.143071179463956), ('MADLY', 4.1358787112812125), ('MALKY', 3.983921019388066), ('DAUBY', 3.9828071717152453), ('CADGY', 3.9799704218506866)]
+GUESS: BADLY
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.977279923499917, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 4.358557546321531}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CADDY with entropy: 1.6645
+Bot chose: CADDY with entropy: 1.6645
+Top ten guesses: [('CADDY', 1.6644977792004614), ('CADGY', 1.6644977792004614), ('DADDY', 1.3787834934861753), ('FADDY', 1.3787834934861753), ('MADDY', 1.3787834934861753), ('WADDY', 1.3787834934861753), ('GADGY', 1.1488348542809166)]
+GUESS: CADDY
+
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 0.8073549220576042, 'expected_info_gain': 1.6644977792004614}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DADDY with entropy: 0.8113
+Bot chose: DADDY with entropy: 0.8113
+Top ten guesses: [('DADDY', 0.8112781244591328), ('FADDY', 0.8112781244591328), ('MADDY', 0.8112781244591328), ('WADDY', 0.8112781244591328)]
+GUESS: DADDY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 3.062 bits, Posterior Entropy: 6.977, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.977, Expected Info Gain: 4.359 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝘼𝘿𝘿𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.664 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝘼𝘿𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝘼𝘿𝘿𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 497 potential guesses from 988 remaining candidates...
+Top 5 guesses: [('CANAL', '5.321'), ('BANIA', '5.315'), ('AMNIA', '5.284'), ('BANAL', '5.237'), ('DAMNA', '5.157')]
+Top entropy choice: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 5.3215
+GUESS: CANAL
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.1410 bits
+Posterior entropy: 6.807354922057604
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.807354922057604, 'actual_info_gain': 3.141012309527074, 'expected_info_gain': 5.32149425210813}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 211 potential guesses from 112 remaining candidates...
+Top 5 guesses: [('MIGHT', '4.292'), ('DAMPY', '3.903'), ('PAMBY', '3.830'), ('MAUBY', '3.792'), ('TABID', '3.758')]
+Top entropy choice: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+Ended up choosing COMMON word: 𝙈𝙄𝙂𝙃𝙏 with entropy: 4.2918
+GUESS: MIGHT
+
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.3479 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 6.807354922057604, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 2.3479233034203064, 'expected_info_gain': 4.291800071176598}
+----------
+The bot is making a guess...
+Evaluating 22 potential guesses from 22 remaining candidates...
+Top 5 guesses: [('BAWDY', '3.266'), ('PADDY', '2.993'), ('BADDY', '2.930'), ('DAPPY', '2.868'), ('DAUBY', '2.827')]
+Top entropy choice: 𝘽𝘼𝙒𝘿𝙔 with entropy: 3.2656
+Ended up choosing COMMON word: 𝘽𝘼𝙒𝘿𝙔 with entropy: 3.2656
+GUESS: BAWDY
+
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.8744691179161412, 'expected_info_gain': 3.265583322887733}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('DADDY', '0.918'), ('FADDY', '0.918'), ('PADDY', '0.918')]
+Top entropy choice: 𝘿𝘼𝘿𝘿𝙔 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘿𝘼𝘿𝘿𝙔 with entropy: 0.9183
+GUESS: DADDY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.141 bits, Posterior Entropy: 6.807, 
+Guess: 𝙈𝙄𝙂𝙃𝙏, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.807, Expected Info Gain: 4.292 bits, Actual Info Gain: 2.348 bits, Posterior Entropy: 4.459, 
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.459, Expected Info Gain: 3.266 bits, Actual Info Gain: 2.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝘼𝘿𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝘼𝘿𝘿𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.9103 bits
+Posterior entropy: 9.948367231584678
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.948367231584678, 'actual_info_gain': 3.910293753138099, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+988 candidate words remaining.
+Top 5 guesses: [('TANIA', '5.629'), ('MANIA', '5.560'), ('LANAI', '5.539'), ('MALAI', '5.444'), ('NATAL', '5.434')]
+Top entropy choice: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+Guess count low, choosing the word with highest entropy: 𝙏𝘼𝙉𝙄𝘼 with entropy: 5.6287
+GUESS: TANIA
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.0657 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 9.948367231584678, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 3.0657241822228363, 'expected_info_gain': 5.628743089515377}
+----------
+The bot is making a guess...
+118 candidate words remaining.
+Top 5 guesses: [('CLUMP', '4.392'), ('PLUMB', '4.348'), ('MULCH', '4.284'), ('DUPLY', '4.240'), ('GULPH', '4.159')]
+Top entropy choice: 𝘾𝙇𝙐𝙈𝙋 with entropy: 4.3916
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙐𝙈𝙋 with entropy: 4.3916
+GUESS: CLUMP
+
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.6347 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.6347155359182564, 'expected_info_gain': 4.391600616366305}
+----------
+The bot is making a guess...
+19 candidate words remaining.
+Top 5 guesses: [('BADGE', '3.577'), ('BODGE', '3.577'), ('BODGY', '3.577'), ('BUDGE', '3.577'), ('FADGE', '3.432')]
+Top entropy choice: 𝘽𝘼𝘿𝙂𝙀 with entropy: 3.5766
+Using common exploratory word: 𝘽𝘼𝘿𝙂𝙀 with entropy: 3.5766
+GUESS: BADGE
+
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 4.391600616366305}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('DADDY', '0.918'), ('FADDY', '0.918'), ('WADDY', '0.918')]
+Top entropy choice: 𝘿𝘼𝘿𝘿𝙔 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝘼𝘿𝘿𝙔 with entropy: 0.9183
+GUESS: DADDY
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 3.066 bits, Posterior Entropy: 6.883, 
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.883, Expected Info Gain: 4.392 bits, Actual Info Gain: 2.635 bits, Posterior Entropy: 4.248, 
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 4.392 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝘼𝘿𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,192 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙇𝙀𝙍𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ADRET 
+The top ten guesses and scores: [('ADRET', 143), ('AIDER', 140), ('AIRED', 140), ('ALERT', 140), ('ALTER', 140), ('ALDER', 139), ('ACRED', 137), ('AFRET', 137), ('AFTER', 137), ('APERT', 137)]
+The bot finally chose: AIRED 
+GUESS: AIRED
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: APERT 
+The top ten guesses and scores: [('APERT', 32), ('ALERT', 31), ('AVERT', 31), ('ACERB', 30), ('APERY', 30), ('ABEAR', 29), ('AFEAR', 28), ('ANEAR', 28)]
+The bot finally chose: ALERT 
+GUESS: ALERT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟩🟨⬜⬜🟨
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟨🟨⬜
+Guess: 𝘼𝙇𝙀𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙇𝙀𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 9.1582 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 9.158221266581684, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARETE with entropy: 3.2728
+Bot chose: ARETE with entropy: 3.2728
+Top ten guesses: [('ARETE', 3.2727698920347943), ('TREFA', 3.1629717007935114), ('ARENE', 3.137778545714527), ('CRENA', 3.064696448411061), ('AREDE', 3.0129665265669683), ('TREMA', 3.0129665265669683), ('ARECA', 3.0113571427221064), ('CREMA', 3.0075161631024954), ('FRENA', 2.9587392367893885), ('ALERT', 2.9305930861794183)]
+GUESS: ARETE
+
+Guess: 𝘼𝙍𝙀𝙏𝙀, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7004397181410917, 'expected_info_gain': 3.2727698920347943}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALERT with entropy: 1.0000
+Bot chose: ALERT with entropy: 1.0000
+Top ten guesses: [('ALERT', 1.0), ('AVERT', 1.0)]
+GUESS: ALERT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.158 bits, Posterior Entropy: 4.700, 
+Guess: 𝘼𝙍𝙀𝙏𝙀, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 4.700, Expected Info Gain: 3.273 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙇𝙀𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙀𝙍𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 9.1582 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 9.158221266581684, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARETE with entropy: 3.2728
+Bot chose: ARETE with entropy: 3.2728
+Top ten guesses: [('ARETE', 3.2727698920347943), ('TREFA', 3.1629717007935114), ('ARENE', 3.137778545714527), ('CRENA', 3.064696448411061), ('AREDE', 3.0129665265669683), ('TREMA', 3.0129665265669683), ('ARECA', 3.0113571427221064), ('CREMA', 3.0075161631024954), ('FRENA', 2.9587392367893885), ('ALERT', 2.9305930861794183)]
+GUESS: ARETE
+
+Guess: 𝘼𝙍𝙀𝙏𝙀, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7004397181410917, 'expected_info_gain': 3.2727698920347943}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALERT with entropy: 1.0000
+Bot chose: ALERT with entropy: 1.0000
+Top ten guesses: [('ALERT', 1.0), ('AVERT', 1.0)]
+GUESS: ALERT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.158 bits, Posterior Entropy: 4.700, 
+Guess: 𝘼𝙍𝙀𝙏𝙀, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 4.700, Expected Info Gain: 3.273 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙇𝙀𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙀𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩🟨
+Actual Info Gain: 9.6887 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 9.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 18 potential guesses from 18 remaining candidates...
+Top 5 guesses: [('ALERT', '2.822'), ('APERT', '2.795'), ('AVERT', '2.642'), ('APERY', '2.550'), ('TERRA', '2.399')]
+Top entropy choice: 𝘼𝙇𝙀𝙍𝙏 with entropy: 2.8219
+Ended up choosing COMMON word: 𝘼𝙇𝙀𝙍𝙏 with entropy: 2.8219
+GUESS: ALERT
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.689 bits, Posterior Entropy: 4.170, 
+Guess: 𝘼𝙇𝙀𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙇𝙀𝙍𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩🟨
+Actual Info Gain: 9.6887 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 9.688735983280464, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+18 candidate words remaining.
+Top 5 guesses: [('BETEL', '3.572'), ('BELIT', '3.392'), ('TABLA', '3.392'), ('BEPAT', '3.239'), ('BERET', '3.239')]
+Top entropy choice: 𝘽𝙀𝙏𝙀𝙇 with entropy: 3.5724
+Guess count low, choosing the word with highest entropy: 𝘽𝙀𝙏𝙀𝙇 with entropy: 3.5724
+GUESS: BETEL
+
+Guess: 𝘽𝙀𝙏𝙀𝙇, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 4.169925001442312, 'expected_info_gain': 3.5724312513221195}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('ALERT', '0.000')]
+Top entropy choice: 𝘼𝙇𝙀𝙍𝙏 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝙇𝙀𝙍𝙏 with entropy: 0.0000
+GUESS: ALERT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 9.689 bits, Posterior Entropy: 4.170, 
+Guess: 𝘽𝙀𝙏𝙀𝙇, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 4.170, Expected Info Gain: 3.572 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙇𝙀𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

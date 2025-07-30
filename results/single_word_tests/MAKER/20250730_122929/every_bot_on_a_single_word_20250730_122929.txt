@@ -1,0 +1,365 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DATER 
+The top ten guesses and scores: [('DATER', 864), ('DERAT', 864), ('RATED', 864), ('TARED', 864), ('LADER', 853), ('LATER', 850), ('RATEL', 850), ('TALER', 850), ('PARED', 848), ('RAPED', 848)]
+The bot finally chose: RATED 
+GUESS: RATED
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GAPER 
+The top ten guesses and scores: [('GAPER', 237), ('PAGER', 237), ('CAPER', 236), ('PACER', 236), ('PALER', 236), ('PAREV', 234), ('PAVER', 234), ('VAPER', 234), ('CAGER', 233), ('LAGER', 233)]
+The bot finally chose: PAGER 
+GUESS: PAGER
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: LACER 
+The top ten guesses and scores: [('LACER', 133), ('LAKER', 133), ('LAVER', 132), ('LAWER', 132), ('WALER', 132), ('BALER', 131), ('LAMER', 131), ('LAYER', 131), ('HALER', 130), ('CAVER', 129)]
+The bot finally chose: LAKER 
+GUESS: LAKER
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BAKER 
+The top ten guesses and scores: [('BAKER', 25), ('FAKER', 25), ('JAKER', 25), ('MAKER', 25), ('NAKER', 25), ('WAKER', 25)]
+The bot finally chose: BAKER 
+GUESS: BAKER
+Guess: 𝘽𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FAKER 
+The top ten guesses and scores: [('FAKER', 21), ('JAKER', 21), ('MAKER', 21), ('NAKER', 21), ('WAKER', 21)]
+The bot finally chose: FAKER 
+GUESS: FAKER
+Game Over! You ran out of guesses.
+Guess: 𝙁𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝘼𝙆𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.1444 bits
+Posterior entropy: 6.714245517666122
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.714245517666122, 'actual_info_gain': 7.144415467056654, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALER with entropy: 2.5579
+Bot chose: LATER with entropy: 2.5146
+Top ten guesses: [('TALER', 2.5579339083953796), ('LATER', 2.5146172751971267), ('ALTER', 2.4790426324017973), ('RATER', 2.4764708057444333), ('GATER', 2.4302841624449187), ('ARTER', 2.35794983165406), ('LAGER', 2.3297827260489328), ('CATER', 2.322637517708743), ('TAWER', 2.313076938913123), ('TAMER', 2.3105376280642886)]
+GUESS: LATER
+
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.0704 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 6.714245517666122, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 1.070389327891398, 'expected_info_gain': 2.5146172751971267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAGER with entropy: 1.9261
+Bot chose: CARER with entropy: 1.8299
+Top ten guesses: [('RAGER', 1.9260531831195808), ('CARER', 1.829866167759587), ('RACER', 1.829866167759587), ('RAKER', 1.7258362124276552), ('FARER', 1.7196706676730482), ('YARER', 1.6634651896016472), ('CAGER', 1.654165070825068), ('RAWER', 1.6416679770752456), ('DARER', 1.6141650708250679), ('RAVER', 1.591272380112911)]
+GUESS: CARER
+
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6897 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 0.6896598793878495, 'expected_info_gain': 1.829866167759587}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WAGER with entropy: 1.7470
+Bot chose: WAGER with entropy: 1.7470
+Top ten guesses: [('WAGER', 1.7469970199816527), ('GAYER', 1.705705200572757), ('GAMER', 1.6898914910349165), ('YAGER', 1.6898914910349165), ('GAZER', 1.6010241522554498), ('FAKER', 1.563325513225752), ('WAKER', 1.5245261505545633), ('FAYER', 1.4826714518595372), ('DAKER', 1.4674206216078276), ('MAKER', 1.4674206216078276)]
+GUESS: WAGER
+
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7843 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 0.7842713089445628, 'expected_info_gain': 1.7469970199816527}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DAKER with entropy: 1.7233
+Bot chose: MAKER with entropy: 1.7233
+Top ten guesses: [('DAKER', 1.7233083338141042), ('MAKER', 1.7233083338141042), ('FAKER', 1.7107770844150674), ('BAKER', 1.4627552262645034), ('NAKER', 1.4627552262645034), ('FADER', 1.404678473063571), ('FAVER', 1.404678473063571), ('FAYER', 1.404678473063571), ('MAZER', 1.3862740938959681), ('DAZER', 1.386274093895968)]
+GUESS: MAKER
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bits, Posterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 5.644, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.830 bits, Actual Info Gain: 0.690 bits, Posterior Entropy: 4.954, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 1.747 bits, Actual Info Gain: 0.784 bits, Posterior Entropy: 4.170, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 7.1444 bits
+Posterior entropy: 6.714245517666122
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.714245517666122, 'actual_info_gain': 7.144415467056654, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALER with entropy: 2.5579
+Bot chose: LATER with entropy: 2.5146
+Top ten guesses: [('TALER', 2.5579339083953796), ('LATER', 2.5146172751971267), ('ALTER', 2.4790426324017973), ('RATER', 2.4764708057444333), ('GATER', 2.4302841624449187), ('ARTER', 2.35794983165406), ('LAGER', 2.3297827260489328), ('CATER', 2.322637517708743), ('TAWER', 2.313076938913123), ('TAMER', 2.3105376280642886)]
+GUESS: LATER
+
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.0704 bits
+Posterior entropy: 5.643856189774724
+entropy_info: {'prior_entropy': 6.714245517666122, 'posterior_entropy': 5.643856189774724, 'actual_info_gain': 1.070389327891398, 'expected_info_gain': 2.5146172751971267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAGER with entropy: 1.9261
+Bot chose: CARER with entropy: 1.8299
+Top ten guesses: [('RAGER', 1.9260531831195808), ('CARER', 1.829866167759587), ('RACER', 1.829866167759587), ('RAKER', 1.7258362124276552), ('FARER', 1.7196706676730482), ('YARER', 1.6634651896016472), ('CAGER', 1.654165070825068), ('RAWER', 1.6416679770752456), ('DARER', 1.6141650708250679), ('RAVER', 1.591272380112911)]
+GUESS: CARER
+
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6897 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 5.643856189774724, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 0.6896598793878495, 'expected_info_gain': 1.829866167759587}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WAGER with entropy: 1.7470
+Bot chose: WAGER with entropy: 1.7470
+Top ten guesses: [('WAGER', 1.7469970199816527), ('GAYER', 1.705705200572757), ('GAMER', 1.6898914910349165), ('YAGER', 1.6898914910349165), ('GAZER', 1.6010241522554498), ('FAKER', 1.563325513225752), ('WAKER', 1.5245261505545633), ('FAYER', 1.4826714518595372), ('DAKER', 1.4674206216078276), ('MAKER', 1.4674206216078276)]
+GUESS: WAGER
+
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7843 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 0.7842713089445628, 'expected_info_gain': 1.7469970199816527}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DAKER with entropy: 1.7233
+Bot chose: MAKER with entropy: 1.7233
+Top ten guesses: [('DAKER', 1.7233083338141042), ('MAKER', 1.7233083338141042), ('FAKER', 1.7107770844150674), ('BAKER', 1.4627552262645034), ('NAKER', 1.4627552262645034), ('FADER', 1.404678473063571), ('FAVER', 1.404678473063571), ('FAYER', 1.404678473063571), ('MAZER', 1.3862740938959681), ('DAZER', 1.386274093895968)]
+GUESS: MAKER
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.144 bits, Posterior Entropy: 6.714, 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.714, Expected Info Gain: 2.515 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 5.644, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.830 bits, Actual Info Gain: 0.690 bits, Posterior Entropy: 4.954, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 1.747 bits, Actual Info Gain: 0.784 bits, Posterior Entropy: 4.170, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 473 potential guesses from 282 remaining candidates...
+Top 5 guesses: [('RATER', '3.990'), ('ARTER', '3.987'), ('ARRET', '3.920'), ('DARER', '3.907'), ('ALTER', '3.892')]
+Top entropy choice: 𝙍𝘼𝙏𝙀𝙍 with entropy: 3.9904
+Ended up choosing COMMON word: 𝘼𝙇𝙏𝙀𝙍 with entropy: 3.8916
+GUESS: ALTER
+
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 2.2327 bits
+Posterior entropy: 5.906890595608519
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 5.906890595608519, 'actual_info_gain': 2.232660756790275, 'expected_info_gain': 3.891642305514907}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 160 potential guesses from 60 remaining candidates...
+Top 5 guesses: [('PARTY', '1.920'), ('RAPER', '1.897'), ('PARER', '1.896'), ('MARCH', '1.890'), ('RAGER', '1.868')]
+Top entropy choice: 𝙋𝘼𝙍𝙏𝙔 with entropy: 1.9204
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙏𝙔 with entropy: 1.9204
+GUESS: PARTY
+
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 0.6974 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 5.906890595608519, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 0.6974372299795686, 'expected_info_gain': 1.9204183218415452}
+----------
+The bot is making a guess...
+Evaluating 37 potential guesses from 37 remaining candidates...
+Top 5 guesses: [('CAGER', '1.773'), ('WAGER', '1.716'), ('GAMER', '1.575'), ('RAGER', '1.554'), ('WAKER', '1.553')]
+Top entropy choice: 𝘾𝘼𝙂𝙀𝙍 with entropy: 1.7727
+Ended up choosing COMMON word: 𝙒𝘼𝙂𝙀𝙍 with entropy: 1.7159
+GUESS: WAGER
+
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6859 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 0.6858914095719371, 'expected_info_gain': 1.7159072591915199}
+----------
+The bot is making a guess...
+Evaluating 23 potential guesses from 23 remaining candidates...
+Top 5 guesses: [('MACER', '1.825'), ('CAVER', '1.790'), ('FACER', '1.706'), ('RACER', '1.706'), ('MAKER', '1.671')]
+Top entropy choice: 𝙈𝘼𝘾𝙀𝙍 with entropy: 1.8254
+Ended up choosing COMMON word: 𝙍𝘼𝘾𝙀𝙍 with entropy: 1.7056
+GUESS: RACER
+
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7162 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 0.7162070339994089, 'expected_info_gain': 1.705616568529474}
+----------
+The bot is making a guess...
+Evaluating 14 potential guesses from 14 remaining candidates...
+Top 5 guesses: [('DAKER', '1.870'), ('MAKER', '1.870'), ('FAKER', '1.727'), ('MAZER', '1.627'), ('DAZER', '1.627')]
+Top entropy choice: 𝘿𝘼𝙆𝙀𝙍 with entropy: 1.8703
+Ended up choosing COMMON word: 𝙈𝘼𝙆𝙀𝙍 with entropy: 1.8703
+GUESS: MAKER
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝘼𝙇𝙏𝙀𝙍, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.140, Expected Info Gain: 3.892 bits, Actual Info Gain: 2.233 bits, Posterior Entropy: 5.907, 
+Guess: 𝙋𝘼𝙍𝙏𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.907, Expected Info Gain: 1.920 bits, Actual Info Gain: 0.697 bits, Posterior Entropy: 5.209, 
+Guess: 𝙒𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.209, Expected Info Gain: 1.716 bits, Actual Info Gain: 0.686 bits, Posterior Entropy: 4.524, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 1.706 bits, Actual Info Gain: 0.716 bits, Posterior Entropy: 3.807, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙆𝙀𝙍 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 5.7191 bits
+Posterior entropy: 8.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.139551352398794, 'actual_info_gain': 5.719109632323983, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+282 candidate words remaining.
+Top 5 guesses: [('RADAR', '4.098'), ('TALAR', '4.078'), ('DATAL', '4.024'), ('RATER', '3.990'), ('ARTER', '3.987')]
+Top entropy choice: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+Guess count low, choosing the word with highest entropy: 𝙍𝘼𝘿𝘼𝙍 with entropy: 4.0984
+GUESS: RADAR
+
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.9898 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 8.139551352398794, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 1.9898042328941115, 'expected_info_gain': 4.0984166563619855}
+----------
+The bot is making a guess...
+71 candidate words remaining.
+Top 5 guesses: [('GLYPH', '2.975'), ('PATLY', '2.939'), ('TYPAL', '2.939'), ('POWLT', '2.936'), ('PLOWT', '2.880')]
+Top entropy choice: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.9753
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.9753
+GUESS: GLYPH
+
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.2918 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 1.2917661243771104, 'expected_info_gain': 2.9753113121424652}
+----------
+The bot is making a guess...
+29 candidate words remaining.
+Top 5 guesses: [('TWANK', '3.107'), ('TWINK', '3.107'), ('TWONK', '3.107'), ('MATCH', '2.803'), ('METIC', '2.803')]
+Top entropy choice: 𝙏𝙒𝘼𝙉𝙆 with entropy: 3.1073
+Using common exploratory word: 𝙏𝙒𝙄𝙉𝙆 with entropy: 3.1073
+GUESS: TWINK
+
+Guess: 𝙏𝙒𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.8580 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 2.0, 'actual_info_gain': 2.857980995127572, 'expected_info_gain': 2.9753113121424652}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('BUMFS', '2.000'), ('JAMBE', '2.000'), ('JAMBO', '2.000'), ('JAMBS', '2.000'), ('JAMBU', '2.000')]
+Top entropy choice: 𝘽𝙐𝙈𝙁𝙎 with entropy: 2.0000
+Using common exploratory word: 𝙅𝙐𝙈𝘽𝙊 with entropy: 2.0000
+GUESS: JUMBO
+
+Guess: 𝙅𝙐𝙈𝘽𝙊, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.9753113121424652}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('MAKER', '0.000')]
+Top entropy choice: 𝙈𝘼𝙆𝙀𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙆𝙀𝙍 with entropy: 0.0000
+GUESS: MAKER
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.719 bits, Posterior Entropy: 8.140, 
+Guess: 𝙍𝘼𝘿𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.140, Expected Info Gain: 4.098 bits, Actual Info Gain: 1.990 bits, Posterior Entropy: 6.150, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 2.975 bits, Actual Info Gain: 1.292 bits, Posterior Entropy: 4.858, 
+Guess: 𝙏𝙒𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 4.858, Expected Info Gain: 2.975 bits, Actual Info Gain: 2.858 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙐𝙈𝘽𝙊, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.975 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

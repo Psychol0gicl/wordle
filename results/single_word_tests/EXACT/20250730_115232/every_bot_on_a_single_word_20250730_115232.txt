@@ -1,0 +1,268 @@
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙓𝘼𝘾𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DEALT 
+The top ten guesses and scores: [('DEALT', 1214), ('DELTA', 1214), ('LATED', 1214), ('ELAND', 1213), ('LADEN', 1213), ('LANED', 1213), ('NALED', 1213), ('LAMED', 1186), ('MEDAL', 1186), ('DECAL', 1176)]
+The bot finally chose: DEALT 
+GUESS: DEALT
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ENACT 
+The top ten guesses and scores: [('ENACT', 13), ('EPACT', 13), ('EXACT', 13)]
+The bot finally chose: ENACT 
+GUESS: ENACT
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: EPACT 
+The top ten guesses and scores: [('EPACT', 9), ('EXACT', 9)]
+The bot finally chose: EXACT 
+GUESS: EXACT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟩⬜🟩
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙀𝙓𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙓𝘼𝘾𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.8518 bits
+Posterior entropy: 6.189824558880018
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 6.189824558880018, 'actual_info_gain': 2.8518345927571964, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEATH with entropy: 4.6822
+Bot chose: MEATH with entropy: 4.6822
+Top ten guesses: [('MEATH', 4.682220278766165), ('BEATH', 4.456899990879773), ('MEATY', 4.448597211471737), ('AMATE', 4.423141176541277), ('TEACH', 4.322649729786892), ('BEATY', 4.267435206242974), ('COATE', 4.21387001335602), ('HEATY', 4.2053333758465286), ('ABATE', 4.151904614078533), ('AGATE', 4.1212566519545195)]
+GUESS: MEATH
+
+Guess: 𝙈𝙀𝘼𝙏𝙃, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 4.6049 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.189824558880018, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.6048620581588615, 'expected_info_gain': 4.682220278766165}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ETAGE with entropy: 1.5850
+Bot chose: EXACT with entropy: 1.5850
+Top ten guesses: [('ETAGE', 1.584962500721156), ('EXACT', 1.584962500721156), ('TOAZE', 1.584962500721156)]
+GUESS: EXACT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 2.852 bits, Posterior Entropy: 6.190, 
+Guess: 𝙈𝙀𝘼𝙏𝙃, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 6.190, Expected Info Gain: 4.682 bits, Actual Info Gain: 4.605 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙓𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙓𝘼𝘾𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8170 bits
+Posterior entropy: 9.041659151637214
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.041659151637214, 'actual_info_gain': 4.817001833085563, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LANDE with entropy: 4.8916
+Bot chose: LADEN with entropy: 4.7590
+Top ten guesses: [('LANDE', 4.891632906334927), ('LANED', 4.791446774549335), ('LADEN', 4.759011590939387), ('NALED', 4.739189852982577), ('LATEN', 4.71848719747979), ('LANCE', 4.714489163078609), ('LATED', 4.674696479228335), ('MANTE', 4.65759015765852), ('LAMED', 4.623799612252138), ('MACLE', 4.613605855480808)]
+GUESS: LADEN
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.8518 bits
+Posterior entropy: 6.189824558880018
+entropy_info: {'prior_entropy': 9.041659151637214, 'posterior_entropy': 6.189824558880018, 'actual_info_gain': 2.8518345927571964, 'expected_info_gain': 4.759011590939387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEATH with entropy: 4.6822
+Bot chose: MEATH with entropy: 4.6822
+Top ten guesses: [('MEATH', 4.682220278766165), ('BEATH', 4.456899990879773), ('MEATY', 4.448597211471737), ('AMATE', 4.423141176541277), ('TEACH', 4.322649729786892), ('BEATY', 4.267435206242974), ('COATE', 4.21387001335602), ('HEATY', 4.2053333758465286), ('ABATE', 4.151904614078533), ('AGATE', 4.1212566519545195)]
+GUESS: MEATH
+
+Guess: 𝙈𝙀𝘼𝙏𝙃, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 4.6049 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.189824558880018, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.6048620581588615, 'expected_info_gain': 4.682220278766165}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ETAGE with entropy: 1.5850
+Bot chose: EXACT with entropy: 1.5850
+Top ten guesses: [('ETAGE', 1.584962500721156), ('EXACT', 1.584962500721156), ('TOAZE', 1.584962500721156)]
+GUESS: EXACT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.817 bits, Posterior Entropy: 9.042, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.042, Expected Info Gain: 4.759 bits, Actual Info Gain: 2.852 bits, Posterior Entropy: 6.190, 
+Guess: 𝙈𝙀𝘼𝙏𝙃, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 6.190, Expected Info Gain: 4.682 bits, Actual Info Gain: 4.605 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙓𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙓𝘼𝘾𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.0773 bits
+Posterior entropy: 5.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.78135971352466, 'actual_info_gain': 8.077301271198117, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 154 potential guesses from 55 remaining candidates...
+Top 5 guesses: [('DEALT', '3.686'), ('HEALD', '3.615'), ('BEATH', '3.599'), ('LEANT', '3.591'), ('CHILD', '3.563')]
+Top entropy choice: 𝘿𝙀𝘼𝙇𝙏 with entropy: 3.6856
+Ended up choosing COMMON word: 𝘿𝙀𝘼𝙇𝙏 with entropy: 3.6856
+GUESS: DEALT
+
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟩⬜🟩
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.78135971352466, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 3.685646407490011}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('ENACT', '0.918'), ('EPACT', '0.918'), ('EXACT', '0.918')]
+Top entropy choice: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.9183
+GUESS: ENACT
+
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('EPACT', '1.000'), ('EXACT', '1.000')]
+Top entropy choice: 𝙀𝙋𝘼𝘾𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙀𝙓𝘼𝘾𝙏 with entropy: 1.0000
+GUESS: EXACT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.077 bits, Posterior Entropy: 5.781, 
+Guess: 𝘿𝙀𝘼𝙇𝙏, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 5.781, Expected Info Gain: 3.686 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙓𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙓𝘼𝘾𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.0773 bits
+Posterior entropy: 5.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.78135971352466, 'actual_info_gain': 8.077301271198117, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+55 candidate words remaining.
+Top 5 guesses: [('MELTY', '4.076'), ('LINTY', '4.026'), ('BENTY', '4.015'), ('DEPTH', '3.971'), ('LYNCH', '3.955')]
+Top entropy choice: 𝙈𝙀𝙇𝙏𝙔 with entropy: 4.0757
+Guess count low, choosing the word with highest entropy: 𝙈𝙀𝙇𝙏𝙔 with entropy: 4.0757
+GUESS: MELTY
+
+Guess: 𝙈𝙀𝙇𝙏𝙔, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.78135971352466, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 4.075659031195111}
+----------
+The bot is making a guess...
+3 candidate words remaining.
+Top 5 guesses: [('ENACT', '0.918'), ('EPACT', '0.918'), ('EXACT', '0.918')]
+Top entropy choice: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.9183
+GUESS: ENACT
+
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('EPACT', '1.000'), ('EXACT', '1.000')]
+Top entropy choice: 𝙀𝙋𝘼𝘾𝙏 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙀𝙓𝘼𝘾𝙏 with entropy: 1.0000
+GUESS: EXACT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.077 bits, Posterior Entropy: 5.781, 
+Guess: 𝙈𝙀𝙇𝙏𝙔, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 5.781, Expected Info Gain: 4.076 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙓𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

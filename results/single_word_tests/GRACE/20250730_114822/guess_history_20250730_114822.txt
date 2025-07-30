@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙍𝘼𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: 🟨🟩🟩⬜🟩
+Guess: 𝘽𝙍𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙂𝙍𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: 🟨🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 6.279 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙍𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.994 bits, Posterior Entropy: 7.864, 
+Guess: 𝘾𝘼𝘿𝙍𝙀, Feedback: 🟨🟨⬜🟨🟩, Prior Entropy: 7.864, Expected Info Gain: 4.163 bits, Actual Info Gain: 6.279 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙍𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 5.322, Expected Info Gain: 2.522 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙍𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙏𝙍𝙄𝘾𝙆, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 5.322, Expected Info Gain: 3.140 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙍𝘼𝘾𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

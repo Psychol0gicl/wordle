@@ -1,0 +1,389 @@
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ELDIN 
+The top ten guesses and scores: [('ELDIN', 1888), ('LINED', 1888), ('LITED', 1886), ('TILED', 1886), ('YIELD', 1851), ('IDENT', 1840), ('TEIND', 1840), ('TINED', 1840), ('ELINT', 1806), ('ENLIT', 1806)]
+The bot finally chose: LINED 
+GUESS: LINED
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CETYL 
+The top ten guesses and scores: [('CETYL', 163), ('ETHYL', 161), ('KELTY', 157), ('FELTY', 155), ('WETLY', 154), ('MELTY', 151), ('KELPY', 149), ('CELLY', 148), ('HEXYL', 148), ('CLEFT', 147)]
+The bot finally chose: ETHYL 
+GUESS: ETHYL
+Guess: 𝙀𝙏𝙃𝙔𝙇, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: GLEBY 
+The top ten guesses and scores: [('GLEBY', 54), ('KELPY', 54), ('FEELY', 53), ('FELLY', 53), ('FEYLY', 53), ('BELLY', 52), ('GELLY', 52), ('JEELY', 52), ('JELLY', 52), ('KELLY', 52)]
+The bot finally chose: FEELY 
+GUESS: FEELY
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BELLY 
+The top ten guesses and scores: [('BELLY', 25), ('CELLY', 25), ('GELLY', 25), ('JELLY', 25), ('KELLY', 25), ('WELLY', 25)]
+The bot finally chose: BELLY 
+GUESS: BELLY
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CELLY 
+The top ten guesses and scores: [('CELLY', 21), ('GELLY', 21), ('JELLY', 21), ('KELLY', 21), ('WELLY', 21)]
+The bot finally chose: JELLY 
+GUESS: JELLY
+Game Over! You ran out of guesses.
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙇𝙄𝙉𝙀𝘿, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙀𝙏𝙃𝙔𝙇, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 4.8276 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.827582730285306, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELIC with entropy: 3.5389
+Bot chose: TELIC with entropy: 3.5389
+Top ten guesses: [('TELIC', 3.5388574175841563), ('MELIC', 3.3874857573670574), ('CELLI', 3.3836532681489055), ('KELTY', 3.356042661477589), ('FELTY', 3.323514155129759), ('BELIT', 3.311481104247505), ('MELTY', 3.26271083663236), ('FELID', 3.2314322792382573), ('CETYL', 3.220941000671623), ('BELLI', 3.164441941535089)]
+GUESS: TELIC
+
+Guess: 𝙏𝙀𝙇𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 3.5388574175841563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BELLY with entropy: 0.9864
+Bot chose: BELLY with entropy: 0.9864
+Top ten guesses: [('BELLY', 0.9864267287308424), ('DELLY', 0.9864267287308424), ('FELLY', 0.9864267287308424), ('GELLY', 0.9864267287308424), ('HELLY', 0.9864267287308424), ('JELLY', 0.9864267287308424), ('KELLY', 0.9864267287308424), ('WELLY', 0.9864267287308424), ('VELUM', 0.5032583347756457)]
+GUESS: BELLY
+
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3626 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.362570079384708, 'expected_info_gain': 0.9864267287308424}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DELLY with entropy: 0.5917
+Bot chose: JELLY with entropy: 0.5917
+Top ten guesses: [('DELLY', 0.5916727785823275), ('FELLY', 0.5916727785823275), ('GELLY', 0.5916727785823275), ('HELLY', 0.5916727785823275), ('JELLY', 0.5916727785823275), ('KELLY', 0.5916727785823275), ('WELLY', 0.5916727785823275)]
+GUESS: JELLY
+
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DELLY with entropy: 0.6500
+Bot chose: KELLY with entropy: 0.6500
+Top ten guesses: [('DELLY', 0.6500224216483541), ('FELLY', 0.6500224216483541), ('GELLY', 0.6500224216483541), ('HELLY', 0.6500224216483541), ('KELLY', 0.6500224216483541), ('WELLY', 0.6500224216483541)]
+GUESS: KELLY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.828 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙀𝙇𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.426, Expected Info Gain: 3.539 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 0.986 bits, Actual Info Gain: 0.363 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.6048 bits
+Posterior entropy: 10.253847484987404
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.253847484987404, 'actual_info_gain': 3.604813499735373, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.5994
+Bot chose: LEONE with entropy: 5.3642
+Top ten guesses: [('DOLIE', 5.599420812600444), ('DOLEE', 5.465112711639416), ('DONEE', 5.384763631262583), ('TOILE', 5.3805095463271995), ('LEONE', 5.364153082149347), ('MOLIE', 5.347428950491962), ('TOLED', 5.34581352752834), ('OLDIE', 5.3365095157039715), ('LODEN', 5.332807688942869), ('OILED', 5.321781900954062)]
+GUESS: LEONE
+
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 4.8276 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 10.253847484987404, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.827582730285306, 'expected_info_gain': 5.364153082149347}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELIC with entropy: 3.5389
+Bot chose: TELIC with entropy: 3.5389
+Top ten guesses: [('TELIC', 3.5388574175841563), ('MELIC', 3.3874857573670574), ('CELLI', 3.3836532681489055), ('KELTY', 3.356042661477589), ('FELTY', 3.323514155129759), ('BELIT', 3.311481104247505), ('MELTY', 3.26271083663236), ('FELID', 3.2314322792382573), ('CETYL', 3.220941000671623), ('BELLI', 3.164441941535089)]
+GUESS: TELIC
+
+Guess: 𝙏𝙀𝙇𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 3.5388574175841563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BELLY with entropy: 0.9864
+Bot chose: BELLY with entropy: 0.9864
+Top ten guesses: [('BELLY', 0.9864267287308424), ('DELLY', 0.9864267287308424), ('FELLY', 0.9864267287308424), ('GELLY', 0.9864267287308424), ('HELLY', 0.9864267287308424), ('JELLY', 0.9864267287308424), ('KELLY', 0.9864267287308424), ('WELLY', 0.9864267287308424), ('VELUM', 0.5032583347756457)]
+GUESS: BELLY
+
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3626 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.362570079384708, 'expected_info_gain': 0.9864267287308424}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DELLY with entropy: 0.5917
+Bot chose: JELLY with entropy: 0.5917
+Top ten guesses: [('DELLY', 0.5916727785823275), ('FELLY', 0.5916727785823275), ('GELLY', 0.5916727785823275), ('HELLY', 0.5916727785823275), ('JELLY', 0.5916727785823275), ('KELLY', 0.5916727785823275), ('WELLY', 0.5916727785823275)]
+GUESS: JELLY
+
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DELLY with entropy: 0.6500
+Bot chose: KELLY with entropy: 0.6500
+Top ten guesses: [('DELLY', 0.6500224216483541), ('FELLY', 0.6500224216483541), ('GELLY', 0.6500224216483541), ('HELLY', 0.6500224216483541), ('KELLY', 0.6500224216483541), ('WELLY', 0.6500224216483541)]
+GUESS: KELLY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.605 bits, Posterior Entropy: 10.254, 
+Guess: 𝙇𝙀𝙊𝙉𝙀, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 10.254, Expected Info Gain: 5.364 bits, Actual Info Gain: 4.828 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙀𝙇𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.426, Expected Info Gain: 3.539 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 0.986 bits, Actual Info Gain: 0.363 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 493 potential guesses from 687 remaining candidates...
+Top 5 guesses: [('DENET', '5.429'), ('DEELY', '5.174'), ('BILED', '5.141'), ('DEBEL', '5.128'), ('HELED', '5.121')]
+Top entropy choice: 𝘿𝙀𝙉𝙀𝙏 with entropy: 5.4293
+GUESS: DENET
+
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.3798 bits
+Posterior entropy: 6.044394119358453
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 6.044394119358453, 'actual_info_gain': 3.3797721694596463, 'expected_info_gain': 5.42929232433715}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 166 potential guesses from 66 remaining candidates...
+Top 5 guesses: [('MELIC', '4.131'), ('CHILD', '4.040'), ('MELCH', '4.037'), ('BELCH', '3.955'), ('HELIX', '3.856')]
+Top entropy choice: 𝙈𝙀𝙇𝙄𝘾 with entropy: 4.1306
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 4.0401
+GUESS: CHILD
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 3.2370 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.044394119358453, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.237039197300849, 'expected_info_gain': 4.040052819309693}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('BELLY', '1.149'), ('FELLY', '1.149'), ('FEYLY', '1.149'), ('GELLY', '1.149'), ('JELLY', '1.149')]
+Top entropy choice: 𝘽𝙀𝙇𝙇𝙔 with entropy: 1.1488
+Ended up choosing COMMON word: 𝘽𝙀𝙇𝙇𝙔 with entropy: 1.1488
+GUESS: BELLY
+
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('FELLY', '0.722'), ('GELLY', '0.722'), ('JELLY', '0.722'), ('KELLY', '0.722'), ('WELLY', '0.722')]
+Top entropy choice: 𝙁𝙀𝙇𝙇𝙔 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙅𝙀𝙇𝙇𝙔 with entropy: 0.7219
+GUESS: JELLY
+
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FELLY', '0.811'), ('GELLY', '0.811'), ('KELLY', '0.811'), ('WELLY', '0.811')]
+Top entropy choice: 𝙁𝙀𝙇𝙇𝙔 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙆𝙀𝙇𝙇𝙔 with entropy: 0.8113
+GUESS: KELLY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝘿𝙀𝙉𝙀𝙏, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.424, Expected Info Gain: 5.429 bits, Actual Info Gain: 3.380 bits, Posterior Entropy: 6.044, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 6.044, Expected Info Gain: 4.040 bits, Actual Info Gain: 3.237 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4345 bits
+Posterior entropy: 9.4241662888181
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.4241662888181, 'actual_info_gain': 4.434494695904677, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+687 candidate words remaining.
+Top 5 guesses: [('TILED', '5.435'), ('DENET', '5.429'), ('LINTY', '5.360'), ('LINED', '5.339'), ('LITED', '5.336')]
+Top entropy choice: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+Guess count low, choosing the word with highest entropy: 𝙏𝙄𝙇𝙀𝘿 with entropy: 5.4346
+GUESS: TILED
+
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 5.4242 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 9.4241662888181, 'posterior_entropy': 4.0, 'actual_info_gain': 5.4241662888181, 'expected_info_gain': 5.43464172370874}
+----------
+The bot is making a guess...
+16 candidate words remaining.
+Top 5 guesses: [('BUMPH', '2.647'), ('BUNCH', '2.531'), ('PUNCH', '2.531'), ('WHELK', '2.531'), ('WHILK', '2.531')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.6468
+Guess count low, choosing the word with highest entropy: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.6468
+GUESS: BUMPH
+
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.1926450779423958, 'expected_info_gain': 2.646782221599798}
+----------
+The bot is making a guess...
+7 candidate words remaining.
+Top 5 guesses: [('ACING', '1.664'), ('AFANC', '1.664'), ('AJWAN', '1.664'), ('AKING', '1.664'), ('AWING', '1.664')]
+Top entropy choice: 𝘼𝘾𝙄𝙉𝙂 with entropy: 1.6645
+Using common exploratory word: 𝘾𝘼𝙅𝙐𝙉 with entropy: 1.6645
+GUESS: CAJUN
+
+Guess: 𝘾𝘼𝙅𝙐𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 0.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 0.8073549220576042, 'expected_info_gain': 2.646782221599798}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('GAWKS', '2.000'), ('GAWKY', '2.000'), ('GOWFS', '2.000'), ('GOWKS', '2.000'), ('WAKFS', '2.000')]
+Top entropy choice: 𝙂𝘼𝙒𝙆𝙎 with entropy: 2.0000
+GUESS: GAWKS
+
+Guess: 𝙂𝘼𝙒𝙆𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('KELLY', '0.000')]
+Top entropy choice: 𝙆𝙀𝙇𝙇𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙆𝙀𝙇𝙇𝙔 with entropy: 0.0000
+GUESS: KELLY
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.434 bits, Posterior Entropy: 9.424, 
+Guess: 𝙏𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 9.424, Expected Info Gain: 5.435 bits, Actual Info Gain: 5.424 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙐𝙈𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 2.647 bits, Actual Info Gain: 1.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝘼𝙅𝙐𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.647 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝙒𝙆𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

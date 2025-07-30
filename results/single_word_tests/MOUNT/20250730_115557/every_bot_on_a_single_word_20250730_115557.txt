@@ -1,0 +1,271 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙐𝙉𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOILY 
+The top ten guesses and scores: [('NOILY', 1438), ('ONTIC', 1425), ('TONIC', 1425), ('YONIC', 1421), ('COLIN', 1408), ('NICOL', 1408), ('PINOT', 1408), ('PINTO', 1408), ('PITON', 1408), ('POINT', 1408)]
+The bot finally chose: TONIC 
+GUESS: TONIC
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: 🟨🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MOUNT 
+The top ten guesses and scores: [('MOUNT', 29), ('NOTUM', 29), ('FOUNT', 27), ('JOTUN', 27), ('MOTON', 25), ('NOWTY', 25), ('POYNT', 25)]
+The bot finally chose: MOUNT 
+GUESS: MOUNT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙏𝙊𝙉𝙄𝘾, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝙈𝙊𝙐𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 4.5648 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 4.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NONDO with entropy: 3.9958
+Bot chose: MONDO with entropy: 3.9928
+Top ten guesses: [('NONDO', 3.995781772856699), ('MONDO', 3.9928294926467767), ('DONNY', 3.8529744192676714), ('DONUT', 3.728846168850305), ('MONTY', 3.7266216783036996), ('TONDO', 3.6697091800566324), ('MOONY', 3.6335563156085158), ('MONGO', 3.5925134021694025), ('DOWNY', 3.571039781962855), ('BONNY', 3.54383399132455)]
+GUESS: MONDO
+
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 5.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 5.584962500721156, 'expected_info_gain': 3.9928294926467767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOUNT with entropy: 0.0000
+Bot chose: MOUNT with entropy: 0.0000
+Top ten guesses: [('MOUNT', 0.0)]
+GUESS: MOUNT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.565 bits, Posterior Entropy: 5.585, 
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 5.585, Expected Info Gain: 3.993 bits, Actual Info Gain: 5.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙐𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.7089 bits
+Posterior entropy: 10.149747119504681
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 10.149747119504681, 'actual_info_gain': 3.7089138652180953, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9198
+Bot chose: COLIN with entropy: 5.9198
+Top ten guesses: [('COLIN', 5.91978578493742), ('TONIC', 5.855420387872311), ('NOILY', 5.834584526118711), ('COUNT', 5.775492908904467), ('DINLO', 5.7740499015125835), ('CUNIT', 5.771932346021269), ('BIONT', 5.759391778596679), ('TOMIN', 5.731402998544385), ('TONDI', 5.725385540227881), ('DOILT', 5.721565406824533)]
+GUESS: COLIN
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 4.5648 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 10.149747119504681, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 4.564784618783525, 'expected_info_gain': 5.91978578493742}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NONDO with entropy: 3.9958
+Bot chose: MONDO with entropy: 3.9928
+Top ten guesses: [('NONDO', 3.995781772856699), ('MONDO', 3.9928294926467767), ('DONNY', 3.8529744192676714), ('DONUT', 3.728846168850305), ('MONTY', 3.7266216783036996), ('TONDO', 3.6697091800566324), ('MOONY', 3.6335563156085158), ('MONGO', 3.5925134021694025), ('DOWNY', 3.571039781962855), ('BONNY', 3.54383399132455)]
+GUESS: MONDO
+
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 5.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 5.584962500721156, 'expected_info_gain': 3.9928294926467767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOUNT with entropy: 0.0000
+Bot chose: MOUNT with entropy: 0.0000
+Top ten guesses: [('MOUNT', 0.0)]
+GUESS: MOUNT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.709 bits, Posterior Entropy: 10.150, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 10.150, Expected Info Gain: 5.920 bits, Actual Info Gain: 4.565 bits, Posterior Entropy: 5.585, 
+Guess: 𝙈𝙊𝙉𝘿𝙊, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 5.585, Expected Info Gain: 3.993 bits, Actual Info Gain: 5.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙐𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 439 remaining candidates...
+Top 5 guesses: [('CONTO', '4.283'), ('LOONY', '4.256'), ('CHILD', '4.253'), ('THING', '4.220'), ('MOONY', '4.220')]
+Top entropy choice: 𝘾𝙊𝙉𝙏𝙊 with entropy: 4.2833
+Ended up choosing COMMON word: 𝙇𝙊𝙊𝙉𝙔 with entropy: 4.2559
+GUESS: LOONY
+
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 4.4561 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 4.4561490346479955, 'expected_info_gain': 4.255862991264833}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('POINT', '2.723'), ('BOUND', '2.528'), ('MOUNT', '2.421'), ('POUND', '2.421'), ('FOUNT', '2.421')]
+Top entropy choice: 𝙋𝙊𝙄𝙉𝙏 with entropy: 2.7232
+Ended up choosing COMMON word: 𝙋𝙊𝙄𝙉𝙏 with entropy: 2.7232
+GUESS: POINT
+
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.7369655941662066, 'expected_info_gain': 2.7232196723355075}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('COUNT', '0.918'), ('FOUNT', '0.918'), ('MOUNT', '0.918')]
+Top entropy choice: 𝘾𝙊𝙐𝙉𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙉𝙏 with entropy: 0.9183
+GUESS: COUNT
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('FOUNT', '1.000'), ('MOUNT', '1.000')]
+Top entropy choice: 𝙁𝙊𝙐𝙉𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙈𝙊𝙐𝙉𝙏 with entropy: 1.0000
+GUESS: MOUNT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙇𝙊𝙊𝙉𝙔, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 8.778, Expected Info Gain: 4.256 bits, Actual Info Gain: 4.456 bits, Posterior Entropy: 4.322, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.723 bits, Actual Info Gain: 2.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙐𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙐𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 5.0806 bits
+Posterior entropy: 8.778077129535358
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.778077129535358, 'actual_info_gain': 5.0805838551874185, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+439 candidate words remaining.
+Top 5 guesses: [('MINTY', '4.748'), ('LINTY', '4.747'), ('CULTY', '4.644'), ('MILTY', '4.637'), ('MINCY', '4.608')]
+Top entropy choice: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝙏𝙔 with entropy: 4.7484
+GUESS: MINTY
+
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟩⬜🟨🟨⬜
+Actual Info Gain: 7.7781 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 8.778077129535358, 'posterior_entropy': 1.0, 'actual_info_gain': 7.778077129535358, 'expected_info_gain': 4.748356112198221}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('MOTON', '1.000'), ('MOUNT', '1.000')]
+Top entropy choice: 𝙈𝙊𝙏𝙊𝙉 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝙈𝙊𝙏𝙊𝙉 with entropy: 1.0000
+GUESS: MOTON
+
+Guess: 𝙈𝙊𝙏𝙊𝙉, Feedback: 🟩🟩🟨⬜🟨
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('MOUNT', '0.000')]
+Top entropy choice: 𝙈𝙊𝙐𝙉𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙊𝙐𝙉𝙏 with entropy: 0.0000
+GUESS: MOUNT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.081 bits, Posterior Entropy: 8.778, 
+Guess: 𝙈𝙄𝙉𝙏𝙔, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 8.778, Expected Info Gain: 4.748 bits, Actual Info Gain: 7.778 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙏𝙊𝙉, Feedback: 🟩🟩🟨⬜🟨, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙐𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

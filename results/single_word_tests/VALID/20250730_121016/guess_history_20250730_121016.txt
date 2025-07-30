@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙑𝘼𝙇𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨⬜🟩🟨⬜
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘾𝘼𝙇𝙄𝙁, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝘼𝙇𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.717 bits, Posterior Entropy: 4.322, 
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.241 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝙇𝙄𝙁, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.522 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝘼𝙇𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.820 bits, Posterior Entropy: 10.039, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 10.039, Expected Info Gain: 5.460 bits, Actual Info Gain: 5.717 bits, Posterior Entropy: 4.322, 
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.241 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝙇𝙄𝙁, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.522 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝘼𝙇𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.948, Expected Info Gain: 5.321 bits, Actual Info Gain: 3.840 bits, Posterior Entropy: 6.109, 
+Guess: 𝙏𝘼𝙇𝙇𝙔, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 6.109, Expected Info Gain: 4.119 bits, Actual Info Gain: 3.301 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝘼𝙇𝙄𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝘼𝙇𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 3.910 bits, Posterior Entropy: 9.948, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 9.948, Expected Info Gain: 5.629 bits, Actual Info Gain: 5.363 bits, Posterior Entropy: 4.585, 
+Guess: 𝙈𝙀𝙇𝘾𝙃, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.585, Expected Info Gain: 3.804 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

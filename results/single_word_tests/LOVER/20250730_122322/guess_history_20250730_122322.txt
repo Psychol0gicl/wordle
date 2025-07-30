@@ -1,0 +1,66 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜🟨🟨⬜🟨
+Guess: 𝙏𝙀𝙉𝙊𝙍, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙈𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙊𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bits, Posterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 1.290 bits, Posterior Entropy: 6.629, 
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.629, Expected Info Gain: 3.132 bits, Actual Info Gain: 1.986 bits, Posterior Entropy: 4.644, 
+Guess: 𝙈𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 1.941 bits, Actual Info Gain: 3.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 5.940 bits, Posterior Entropy: 7.919, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.919, Expected Info Gain: 3.134 bits, Actual Info Gain: 1.290 bits, Posterior Entropy: 6.629, 
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.629, Expected Info Gain: 3.132 bits, Actual Info Gain: 1.986 bits, Posterior Entropy: 4.644, 
+Guess: 𝙈𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 1.941 bits, Actual Info Gain: 3.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙑𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.229 bits, Posterior Entropy: 6.629, 
+Guess: 𝙒𝙊𝙍𝙇𝘿, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 6.629, Expected Info Gain: 2.606 bits, Actual Info Gain: 4.044 bits, Posterior Entropy: 2.585, 
+Guess: 𝙇𝙊𝙉𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙑𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.229 bits, Posterior Entropy: 6.629, 
+Guess: 𝙍𝙊𝙒𝙉𝘿, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 6.629, Expected Info Gain: 2.904 bits, Actual Info Gain: 1.237 bits, Posterior Entropy: 5.392, 
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 5.392, Expected Info Gain: 3.226 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

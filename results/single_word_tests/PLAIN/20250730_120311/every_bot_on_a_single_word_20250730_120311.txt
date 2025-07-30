@@ -1,0 +1,266 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NITAL 
+The top ten guesses and scores: [('NITAL', 2690), ('INLAY', 2657), ('LAYIN', 2657), ('NAILY', 2657), ('INULA', 2642), ('LIMAN', 2640), ('LAPIN', 2611), ('PLAIN', 2611), ('LINAC', 2602), ('LAKIN', 2587)]
+The bot finally chose: INLAY 
+GUESS: INLAY
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LAPIN 
+The top ten guesses and scores: [('LAPIN', 35), ('LIANG', 35), ('LINGA', 35), ('PLAIN', 35), ('BLAIN', 34), ('LAKIN', 34), ('LAWIN', 34), ('LIANA', 33)]
+The bot finally chose: LIANG 
+GUESS: LIANG
+Guess: 𝙇𝙄𝘼𝙉𝙂, Feedback: 🟨🟨🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BLAIN 
+The top ten guesses and scores: [('BLAIN', 9), ('PLAIN', 9)]
+The bot finally chose: PLAIN 
+GUESS: PLAIN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙄𝙉𝙇𝘼𝙔, Feedback: 🟨🟨🟨🟨⬜
+Guess: 𝙇𝙄𝘼𝙉𝙂, Feedback: 🟨🟨🟩🟨⬜
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.3195 bits
+Posterior entropy: 7.539158811108031
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.539158811108031, 'actual_info_gain': 6.319502173614746, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PATIA with entropy: 4.6930
+Bot chose: PATIO with entropy: 4.5856
+Top ten guesses: [('PATIA', 4.692994593238461), ('PAOLI', 4.6466919315082045), ('PALPI', 4.625162425145589), ('PATIO', 4.585572863961993), ('POPIA', 4.507944585577373), ('PANTO', 4.49269531597693), ('PALKI', 4.483807239284457), ('CALPA', 4.475810057486294), ('NAPPA', 4.453707977495748), ('PATKA', 4.428077730104796)]
+GUESS: PATIO
+
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 5.9542 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 7.539158811108031, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.954196310386875, 'expected_info_gain': 4.585572863961993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLAID with entropy: 0.9183
+Bot chose: PLAID with entropy: 0.9183
+Top ten guesses: [('PLAID', 0.9182958340544896), ('PLAIG', 0.9182958340544896), ('PLAIN', 0.9182958340544896)]
+GUESS: PLAID
+
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLAIG with entropy: 1.0000
+Bot chose: PLAIN with entropy: 1.0000
+Top ten guesses: [('PLAIG', 1.0), ('PLAIN', 1.0)]
+GUESS: PLAIN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.954 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.3195 bits
+Posterior entropy: 7.539158811108031
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.539158811108031, 'actual_info_gain': 6.319502173614746, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PATIA with entropy: 4.6930
+Bot chose: PATIO with entropy: 4.5856
+Top ten guesses: [('PATIA', 4.692994593238461), ('PAOLI', 4.6466919315082045), ('PALPI', 4.625162425145589), ('PATIO', 4.585572863961993), ('POPIA', 4.507944585577373), ('PANTO', 4.49269531597693), ('PALKI', 4.483807239284457), ('CALPA', 4.475810057486294), ('NAPPA', 4.453707977495748), ('PATKA', 4.428077730104796)]
+GUESS: PATIO
+
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 5.9542 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 7.539158811108031, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.954196310386875, 'expected_info_gain': 4.585572863961993}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLAID with entropy: 0.9183
+Bot chose: PLAID with entropy: 0.9183
+Top ten guesses: [('PLAID', 0.9182958340544896), ('PLAIG', 0.9182958340544896), ('PLAIN', 0.9182958340544896)]
+GUESS: PLAID
+
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLAIG with entropy: 1.0000
+Bot chose: PLAIN with entropy: 1.0000
+Top ten guesses: [('PLAIG', 1.0), ('PLAIN', 1.0)]
+GUESS: PLAIN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.320 bits, Posterior Entropy: 7.539, 
+Guess: 𝙋𝘼𝙏𝙄𝙊, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 7.539, Expected Info Gain: 4.586 bits, Actual Info Gain: 5.954 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙇𝘼𝙄𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.1933 bits
+Posterior entropy: 7.6653359171851765
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.6653359171851765, 'actual_info_gain': 6.1933250675376, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 399 potential guesses from 203 remaining candidates...
+Top 5 guesses: [('THINK', '4.629'), ('ALANT', '4.599'), ('THING', '4.518'), ('UNTIL', '4.507'), ('NIGHT', '4.464')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙆 with entropy: 4.6290
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙆 with entropy: 4.6290
+GUESS: THINK
+
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.8580 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 7.6653359171851765, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 4.857980995127573, 'expected_info_gain': 4.628986553894932}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('GNAPI', '2.522'), ('NGAPI', '2.522'), ('AGAIN', '2.236'), ('PLAIN', '2.236'), ('UNAGI', '2.128')]
+Top entropy choice: 𝙂𝙉𝘼𝙋𝙄 with entropy: 2.5216
+Ended up choosing COMMON word: 𝘼𝙂𝘼𝙄𝙉 with entropy: 2.2359
+GUESS: AGAIN
+
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BLAIN', '1.000'), ('PLAIN', '1.000')]
+Top entropy choice: 𝘽𝙇𝘼𝙄𝙉 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙋𝙇𝘼𝙄𝙉 with entropy: 1.0000
+GUESS: PLAIN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 7.665, 
+Guess: 𝙏𝙃𝙄𝙉𝙆, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.665, Expected Info Gain: 4.629 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙇𝘼𝙄𝙉 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.1933 bits
+Posterior entropy: 7.6653359171851765
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.6653359171851765, 'actual_info_gain': 6.1933250675376, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+203 candidate words remaining.
+Top 5 guesses: [('CLINT', '5.013'), ('GLINT', '4.927'), ('CLING', '4.808'), ('CLINK', '4.744'), ('PLINK', '4.722')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.0128
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 5.0128
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 6.6653 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.6653359171851765, 'posterior_entropy': 1.0, 'actual_info_gain': 6.6653359171851765, 'expected_info_gain': 5.012820946811383}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('BLAIN', '1.000'), ('PLAIN', '1.000')]
+Top entropy choice: 𝘽𝙇𝘼𝙄𝙉 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝘼𝙄𝙉 with entropy: 1.0000
+GUESS: BLAIN
+
+Guess: 𝘽𝙇𝘼𝙄𝙉, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PLAIN', '0.000')]
+Top entropy choice: 𝙋𝙇𝘼𝙄𝙉 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙇𝘼𝙄𝙉 with entropy: 0.0000
+GUESS: PLAIN
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.193 bits, Posterior Entropy: 7.665, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 7.665, Expected Info Gain: 5.013 bits, Actual Info Gain: 6.665 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙇𝘼𝙄𝙉, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙇𝘼𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

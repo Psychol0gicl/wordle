@@ -1,0 +1,281 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙍𝘼𝙉𝙏 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRAIN 
+The top ten guesses and scores: [('TRAIN', 392), ('TRIAC', 383), ('TRAGI', 380), ('FRATI', 378), ('FRITA', 378), ('GRANT', 378), ('KRAIT', 378), ('TRAIK', 378), ('TRIFA', 378), ('BRANT', 377)]
+The bot finally chose: TRAIN 
+GUESS: TRAIN
+Guess: 𝙏𝙍𝘼𝙄𝙉, Feedback: 🟨🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: BRANT 
+The top ten guesses and scores: [('BRANT', 13), ('DRANT', 13), ('GRANT', 13)]
+The bot finally chose: BRANT 
+GUESS: BRANT
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DRANT 
+The top ten guesses and scores: [('DRANT', 9), ('GRANT', 9)]
+The bot finally chose: GRANT 
+GUESS: GRANT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: 🟨🟩⬜⬜⬜
+Guess: 𝙏𝙍𝘼𝙄𝙉, Feedback: 🟨🟩🟩⬜🟨
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙂𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 5.3249 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.324930583048886, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRAFT with entropy: 2.2213
+Bot chose: CRAFT with entropy: 2.2213
+Top ten guesses: [('CRAFT', 2.221251836004466), ('DRAFT', 2.221251836004466), ('FRACT', 2.221251836004466), ('GRAFT', 2.221251836004466), ('KRAFT', 2.221251836004466), ('BRACT', 1.9473387961875537), ('BRANT', 1.896240625180289), ('DRANT', 1.896240625180289), ('GRANT', 1.896240625180289), ('ORANT', 1.5510981710072647)]
+GUESS: CRAFT
+
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 2.221251836004466}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANT with entropy: 1.3710
+Bot chose: BRANT with entropy: 1.3710
+Top ten guesses: [('BRANT', 1.3709505944546687), ('DRANT', 1.3709505944546687), ('GRANT', 1.3709505944546687), ('ORANT', 1.3709505944546687), ('KRAUT', 0.7219280948873623)]
+GUESS: BRANT
+
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DRANT with entropy: 0.9183
+Bot chose: GRANT with entropy: 0.9183
+Top ten guesses: [('DRANT', 0.9182958340544896), ('GRANT', 0.9182958340544896), ('ORANT', 0.9182958340544896)]
+GUESS: GRANT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 5.325 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.221 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙉𝙏 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.9488 bits
+Posterior entropy: 8.909893083770042
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.909893083770042, 'actual_info_gain': 4.948767900952735, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 4.8568
+Bot chose: TIARA with entropy: 4.7939
+Top ten guesses: [('TAIRA', 4.856771559797687), ('TIARA', 4.793892986964574), ('NAIRA', 4.720534756417449), ('LAARI', 4.6857932660505615), ('AARTI', 4.675232674971346), ('ACARI', 4.652714235052302), ('AMARI', 4.594110225849599), ('TAYRA', 4.58928046060716), ('MARIA', 4.576898682974674), ('ATRIA', 4.5543821144030385)]
+GUESS: TIARA
+
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 5.3249 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 8.909893083770042, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.324930583048886, 'expected_info_gain': 4.793892986964574}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CRAFT with entropy: 2.2213
+Bot chose: CRAFT with entropy: 2.2213
+Top ten guesses: [('CRAFT', 2.221251836004466), ('DRAFT', 2.221251836004466), ('FRACT', 2.221251836004466), ('GRAFT', 2.221251836004466), ('KRAFT', 2.221251836004466), ('BRACT', 1.9473387961875537), ('BRANT', 1.896240625180289), ('DRANT', 1.896240625180289), ('GRANT', 1.896240625180289), ('ORANT', 1.5510981710072647)]
+GUESS: CRAFT
+
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 2.221251836004466}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANT with entropy: 1.3710
+Bot chose: BRANT with entropy: 1.3710
+Top ten guesses: [('BRANT', 1.3709505944546687), ('DRANT', 1.3709505944546687), ('GRANT', 1.3709505944546687), ('ORANT', 1.3709505944546687), ('KRAUT', 0.7219280948873623)]
+GUESS: BRANT
+
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DRANT with entropy: 0.9183
+Bot chose: GRANT with entropy: 0.9183
+Top ten guesses: [('DRANT', 0.9182958340544896), ('GRANT', 0.9182958340544896), ('ORANT', 0.9182958340544896)]
+GUESS: GRANT
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.949 bits, Posterior Entropy: 8.910, 
+Guess: 𝙏𝙄𝘼𝙍𝘼, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 8.910, Expected Info Gain: 4.794 bits, Actual Info Gain: 5.325 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.221 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0007 bits
+Posterior entropy: 6.857980995127572
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.857980995127572, 'actual_info_gain': 7.000679989595205, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+['ABOUT', 'THEIR', 'THERE', 'WHICH', 'WOULD', 'OTHER', 'AFTER', 'FIRST', 'THINK', 'COULD', 'WHERE', 'RIGHT', 'BEING', 'GOING', 'STILL', 'NEVER', 'WORLD', 'GREAT', 'WHILE', 'EVERY', 'STATE', 'THREE', 'SINCE', 'UNDER', 'THING', 'HOUSE', 'PLACE', 'AGAIN', 'FOUND', 'MIGHT', 'MONEY', 'NIGHT', 'UNTIL', 'DOING', 'GROUP', 'START', 'TODAY', 'POINT', 'MUSIC', 'POWER', 'WATER', 'BASED', 'SMALL', 'WHITE', 'LATER', 'ORDER', 'PARTY', 'THANK', 'USING', 'BLACK', 'WHOLE', 'MAYBE', 'STORY', 'LEAST', 'EARLY', 'LOCAL', 'VIDEO', 'YOUNG', 'COURT', 'GIVEN', 'LEVEL', 'OFTEN', 'DEATH', 'SOUTH', 'KNOWN', 'LARGE', 'WRONG', 'ALONG', 'CLASS', 'CLOSE', 'CAUSE', 'HAPPY', 'HUMAN', 'WOMAN', 'LEAVE', 'NORTH', 'WATCH', 'LIGHT', 'SHORT', 'TAKEN', 'THIRD', 'AMONG', 'CHECK', 'HEART', 'ASKED', 'CHILD', 'MAJOR', 'MEDIA', 'PHONE', 'GONNA', 'QUITE', 'FINAL', 'FRONT', 'READY', 'BRING', 'HEARD', 'MARCH', 'STUDY', 'CLEAR', 'MONTH']
+Evaluating 216 potential guesses from 116 remaining candidates...
+Top 5 guesses: [('THING', '4.075'), ('THINK', '3.982'), ('NIGHT', '3.896'), ('LIGHT', '3.708'), ('UNTIL', '3.687')]
+Top entropy choice: 𝙏𝙃𝙄𝙉𝙂 with entropy: 4.0750
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙉𝙂 with entropy: 4.0750
+GUESS: THING
+
+Guess: 𝙏𝙃𝙄𝙉𝙂, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 6.8580 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.857980995127572, 'posterior_entropy': 0.0, 'actual_info_gain': 6.857980995127572, 'expected_info_gain': 4.075037094736766}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('GRANT', '0.000')]
+Top entropy choice: 𝙂𝙍𝘼𝙉𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙉𝙏 with entropy: 0.0000
+GUESS: GRANT
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.001 bits, Posterior Entropy: 6.858, 
+Guess: 𝙏𝙃𝙄𝙉𝙂, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 6.858, Expected Info Gain: 4.075 bits, Actual Info Gain: 6.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙍𝘼𝙉𝙏 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0007 bits
+Posterior entropy: 6.857980995127572
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.857980995127572, 'actual_info_gain': 7.000679989595205, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+116 candidate words remaining.
+Top 5 guesses: [('CLINT', '4.342'), ('GLINT', '4.331'), ('CUNIT', '4.234'), ('CLIPT', '4.208'), ('TUNIC', '4.153')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙏 with entropy: 4.3420
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙏 with entropy: 4.3420
+GUESS: CLINT
+
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 4.8580 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.857980995127572, 'posterior_entropy': 2.0, 'actual_info_gain': 4.857980995127572, 'expected_info_gain': 4.342039981608079}
+----------
+The bot is making a guess...
+4 candidate words remaining.
+Top 5 guesses: [('BADGE', '2.000'), ('BEGAD', '2.000'), ('BODGE', '2.000'), ('BODGY', '2.000'), ('BUDGE', '2.000')]
+Top entropy choice: 𝘽𝘼𝘿𝙂𝙀 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝘿𝙂𝙀 with entropy: 2.0000
+GUESS: BADGE
+
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('GRANT', '0.000')]
+Top entropy choice: 𝙂𝙍𝘼𝙉𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝙍𝘼𝙉𝙏 with entropy: 0.0000
+GUESS: GRANT
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 7.001 bits, Posterior Entropy: 6.858, 
+Guess: 𝘾𝙇𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 6.858, Expected Info Gain: 4.342 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

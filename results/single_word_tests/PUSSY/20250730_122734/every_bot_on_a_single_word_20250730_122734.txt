@@ -1,0 +1,265 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: PITSU 
+The top ten guesses and scores: [('PITSU', 219), ('TULSI', 219), ('CUISH', 217), ('MUIST', 217), ('TUISM', 217), ('BUIST', 215), ('PTISH', 214), ('GIUST', 213), ('INUST', 213), ('TIPSY', 212)]
+The bot finally chose: TULSI 
+GUESS: TULSI
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: FUBSY 
+The top ten guesses and scores: [('FUBSY', 55), ('PUBSY', 55), ('PUDSY', 55), ('FUNSY', 54), ('FUSSY', 52), ('MUMSY', 52), ('MUSSY', 52), ('PUSSY', 52), ('SUDSY', 52), ('HUSSY', 51)]
+The bot finally chose: FUSSY 
+GUESS: FUSSY
+Guess: 𝙁𝙐𝙎𝙎𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: GUSSY 
+The top ten guesses and scores: [('GUSSY', 21), ('HUSSY', 21), ('MUSSY', 21), ('PUSSY', 21), ('WUSSY', 21)]
+The bot finally chose: PUSSY 
+GUESS: PUSSY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙁𝙐𝙎𝙎𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.2004 bits
+Posterior entropy: 7.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.658211482751795, 'actual_info_gain': 6.200449501970982, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POLIS with entropy: 4.8504
+Bot chose: PIOUS with entropy: 4.7639
+Top ten guesses: [('POLIS', 4.850399770365138), ('LOUPS', 4.7751845663108705), ('PIOUS', 4.763946811285569), ('PILUS', 4.717753830510711), ('PULIS', 4.713888701473345), ('POUIS', 4.685256388190017), ('POUTS', 4.675163725687686), ('POLTS', 4.624187988497352), ('PLOTS', 4.5964346397449045), ('PLOPS', 4.589864525073467)]
+GUESS: PIOUS
+
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 5.3363 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.658211482751795, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.336283387864432, 'expected_info_gain': 4.763946811285569}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBSY with entropy: 1.9219
+Bot chose: PUSHY with entropy: 1.9219
+Top ten guesses: [('PUBSY', 1.9219280948873623), ('PUDSY', 1.9219280948873623), ('PUSHY', 1.9219280948873623), ('PUSSY', 1.9219280948873623), ('PLUSH', 1.3709505944546687)]
+GUESS: PUSHY
+
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUSSY with entropy: 0.0000
+Bot chose: PUSSY with entropy: 0.0000
+Top ten guesses: [('PUSSY', 0.0)]
+GUESS: PUSSY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.200 bits, Posterior Entropy: 7.658, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.658, Expected Info Gain: 4.764 bits, Actual Info Gain: 5.336 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.2004 bits
+Posterior entropy: 7.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.658211482751795, 'actual_info_gain': 6.200449501970982, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POLIS with entropy: 4.8504
+Bot chose: PIOUS with entropy: 4.7639
+Top ten guesses: [('POLIS', 4.850399770365138), ('LOUPS', 4.7751845663108705), ('PIOUS', 4.763946811285569), ('PILUS', 4.717753830510711), ('PULIS', 4.713888701473345), ('POUIS', 4.685256388190017), ('POUTS', 4.675163725687686), ('POLTS', 4.624187988497352), ('PLOTS', 4.5964346397449045), ('PLOPS', 4.589864525073467)]
+GUESS: PIOUS
+
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 5.3363 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.658211482751795, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.336283387864432, 'expected_info_gain': 4.763946811285569}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBSY with entropy: 1.9219
+Bot chose: PUSHY with entropy: 1.9219
+Top ten guesses: [('PUBSY', 1.9219280948873623), ('PUDSY', 1.9219280948873623), ('PUSHY', 1.9219280948873623), ('PUSSY', 1.9219280948873623), ('PLUSH', 1.3709505944546687)]
+GUESS: PUSHY
+
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUSSY with entropy: 0.0000
+Bot chose: PUSSY with entropy: 0.0000
+Top ten guesses: [('PUSSY', 0.0)]
+GUESS: PUSSY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.200 bits, Posterior Entropy: 7.658, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.658, Expected Info Gain: 4.764 bits, Actual Info Gain: 5.336 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 4.7423 bits
+Posterior entropy: 9.116343961237469
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.116343961237469, 'actual_info_gain': 4.742317023485308, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 500 potential guesses from 555 remaining candidates...
+Top 5 guesses: [('LINTS', '5.049'), ('KILTS', '5.025'), ('HILTS', '4.920'), ('GILTS', '4.873'), ('HINTS', '4.857')]
+Top entropy choice: 𝙇𝙄𝙉𝙏𝙎 with entropy: 5.0493
+GUESS: LINTS
+
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.3090 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 9.116343961237469, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 4.308989039179865, 'expected_info_gain': 5.049279713884529}
+----------
+The bot is making a guess...
+Evaluating 28 potential guesses from 28 remaining candidates...
+Top 5 guesses: [('PUSHY', '3.250'), ('BUSHY', '3.250'), ('PUBSY', '3.239'), ('MUSHY', '3.223'), ('HUSSY', '3.206')]
+Top entropy choice: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.2499
+Ended up choosing COMMON word: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.2499
+GUESS: PUSHY
+
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 4.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 4.807354922057604, 'expected_info_gain': 3.2498677622562893}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('PUSSY', '0.000')]
+Top entropy choice: 𝙋𝙐𝙎𝙎𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙋𝙐𝙎𝙎𝙔 with entropy: 0.0000
+GUESS: PUSSY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙇𝙄𝙉𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.049 bits, Actual Info Gain: 4.309 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.250 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙎𝙎𝙔 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 4.7423 bits
+Posterior entropy: 9.116343961237469
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.116343961237469, 'actual_info_gain': 4.742317023485308, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+555 candidate words remaining.
+Top 5 guesses: [('MILTS', '5.090'), ('MILTY', '5.080'), ('LINTS', '5.049'), ('KILTY', '5.030'), ('KILTS', '5.025')]
+Top entropy choice: 𝙈𝙄𝙇𝙏𝙎 with entropy: 5.0896
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙇𝙏𝙎 with entropy: 5.0896
+GUESS: MILTS
+
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.4159 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 9.116343961237469, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 4.415904243096377, 'expected_info_gain': 5.089615096338242}
+----------
+The bot is making a guess...
+26 candidate words remaining.
+Top 5 guesses: [('PUSHY', '3.565'), ('PUBSY', '3.548'), ('SYPHS', '3.504'), ('BUSHY', '3.489'), ('PHYSA', '3.442')]
+Top entropy choice: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.5654
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.5654
+GUESS: PUSHY
+
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 3.5654483718208243}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('PUSSY', '0.000')]
+Top entropy choice: 𝙋𝙐𝙎𝙎𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙐𝙎𝙎𝙔 with entropy: 0.0000
+GUESS: PUSSY
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 4.742 bits, Posterior Entropy: 9.116, 
+Guess: 𝙈𝙄𝙇𝙏𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.116, Expected Info Gain: 5.090 bits, Actual Info Gain: 4.416 bits, Posterior Entropy: 4.700, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙎𝙎𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

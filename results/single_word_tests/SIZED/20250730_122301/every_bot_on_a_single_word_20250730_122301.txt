@@ -1,0 +1,345 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+The bot originally chose: AEROS 
+The top ten guesses and scores: [('AEROS', 31828), ('AROSE', 31828), ('SOARE', 31828), ('AESIR', 30997), ('ARISE', 30997), ('RAISE', 30997), ('REAIS', 30997), ('SERAI', 30997), ('SERIA', 30997), ('ALOES', 30894)]
+The bot finally chose: AROSE 
+GUESS: AROSE
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ISLET 
+The top ten guesses and scores: [('ISLET', 2828), ('LITES', 2828), ('STEIL', 2828), ('TEILS', 2828), ('TILES', 2828), ('ELSIN', 2772), ('LENIS', 2772), ('LIENS', 2772), ('LINES', 2772), ('NELIS', 2772)]
+The bot finally chose: ISLET 
+GUESS: ISLET
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: 🟨🟨⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: DINES 
+The top ten guesses and scores: [('DINES', 357), ('NIDES', 357), ('SINED', 357), ('SNIED', 357), ('DIKES', 352), ('SIPED', 352), ('SKIED', 352), ('SPIED', 352), ('DIVES', 350), ('VISED', 350)]
+The bot finally chose: SPIED 
+GUESS: SPIED
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SINED 
+The top ten guesses and scores: [('SINED', 14), ('SIZED', 14), ('SIDED', 13)]
+The bot finally chose: SIZED 
+GUESS: SIZED
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝘼𝙍𝙊𝙎𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙄𝙎𝙇𝙀𝙏, Feedback: 🟨🟨⬜🟩⬜
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 3.6073 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 4.0, 'actual_info_gain': 3.6073303137496104, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILED with entropy: 2.4835
+Bot chose: SILED with entropy: 2.4835
+Top ten guesses: [('SILED', 2.48345859334435), ('SIDES', 2.224601752714581), ('SIZED', 2.224601752714581), ('SILES', 2.146782221599798), ('SITED', 2.077819531114783), ('SIZES', 1.9211796919474975), ('SITES', 1.8024212838293647), ('SIXES', 1.8024212838293647), ('SILEX', 1.7987949406953985), ('SIZEL', 1.7947367178034825)]
+GUESS: SILED
+
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.48345859334435}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIDED with entropy: 0.9183
+Bot chose: SIDED with entropy: 0.9183
+Top ten guesses: [('SIDED', 0.9182958340544896), ('SITED', 0.9182958340544896), ('SIZED', 0.9182958340544896)]
+GUESS: SIDED
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SITED with entropy: 1.0000
+Bot chose: SITED with entropy: 1.0000
+Top ten guesses: [('SITED', 1.0), ('SIZED', 1.0)]
+GUESS: SITED
+
+Guess: 𝙎𝙄𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIZED with entropy: 0.0000
+Bot chose: SIZED with entropy: 0.0000
+Top ten guesses: [('SIZED', 0.0)]
+GUESS: SIZED
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.607 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 2.483 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+
+The bot is making a guess...
+First guess by a human: SPEAR
+GUESS: SPEAR
+
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 6.2513 bits
+Posterior entropy: 7.60733031374961
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.60733031374961, 'actual_info_gain': 6.251330670973166, 'expected_info_gain': -1}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINES with entropy: 4.1371
+Bot chose: SEINE with entropy: 4.1130
+Top ten guesses: [('SINES', 4.137100175175436), ('SEINE', 4.113024742824214), ('SNIES', 4.106958674015652), ('SEILS', 4.068918588960051), ('STIES', 4.048865925988239), ('SILES', 4.046205057475166), ('SEISE', 4.028277860294657), ('SONES', 3.9810171107572585), ('STILE', 3.9497164451578795), ('SITES', 3.9335235130538426)]
+GUESS: SEINE
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 3.6073 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 7.60733031374961, 'posterior_entropy': 4.0, 'actual_info_gain': 3.6073303137496104, 'expected_info_gain': 4.113024742824214}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILED with entropy: 2.4835
+Bot chose: SILED with entropy: 2.4835
+Top ten guesses: [('SILED', 2.48345859334435), ('SIDES', 2.224601752714581), ('SIZED', 2.224601752714581), ('SILES', 2.146782221599798), ('SITED', 2.077819531114783), ('SIZES', 1.9211796919474975), ('SITES', 1.8024212838293647), ('SIXES', 1.8024212838293647), ('SILEX', 1.7987949406953985), ('SIZEL', 1.7947367178034825)]
+GUESS: SILED
+
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.48345859334435}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIDED with entropy: 0.9183
+Bot chose: SIDED with entropy: 0.9183
+Top ten guesses: [('SIDED', 0.9182958340544896), ('SITED', 0.9182958340544896), ('SIZED', 0.9182958340544896)]
+GUESS: SIDED
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SITED with entropy: 1.0000
+Bot chose: SITED with entropy: 1.0000
+Top ten guesses: [('SITED', 1.0), ('SIZED', 1.0)]
+GUESS: SITED
+
+Guess: 𝙎𝙄𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIZED with entropy: 0.0000
+Bot chose: SIZED with entropy: 0.0000
+Top ten guesses: [('SIZED', 0.0)]
+GUESS: SIZED
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙎𝙋𝙀𝘼𝙍, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.251 bits, Posterior Entropy: 7.607, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 7.607, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.607 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 2.483 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙏𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+Evaluating 422 potential guesses from 227 remaining candidates...
+Top 5 guesses: [('SNEES', '4.121'), ('SENES', '4.086'), ('SEELS', '4.072'), ('STEEN', '4.072'), ('STEEL', '4.070')]
+Top entropy choice: 𝙎𝙉𝙀𝙀𝙎 with entropy: 4.1209
+Ended up choosing COMMON word: 𝙎𝙏𝙀𝙀𝙉 with entropy: 4.0718
+GUESS: STEEN
+
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.4003 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 2.400283732588817, 'expected_info_gain': 4.07179195655567}
+----------
+The bot is making a guess...
+Evaluating 43 potential guesses from 43 remaining candidates...
+Top 5 guesses: [('SIPES', '3.586'), ('SPIES', '3.568'), ('SIPED', '3.540'), ('SPIED', '3.522'), ('SILES', '3.404')]
+Top entropy choice: 𝙎𝙄𝙋𝙀𝙎 with entropy: 3.5859
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙀𝘿 with entropy: 3.5222
+GUESS: SPIED
+
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 3.8413 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.841302253980942, 'expected_info_gain': 3.522211197006116}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SIDED', '0.918'), ('SILED', '0.918'), ('SIZED', '0.918')]
+Top entropy choice: 𝙎𝙄𝘿𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙄𝘿𝙀𝘿 with entropy: 0.9183
+GUESS: SIDED
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SILED', '1.000'), ('SIZED', '1.000')]
+Top entropy choice: 𝙎𝙄𝙇𝙀𝘿 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙄𝙕𝙀𝘿 with entropy: 1.0000
+GUESS: SIZED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙎𝙏𝙀𝙀𝙉, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 7.827, Expected Info Gain: 4.072 bits, Actual Info Gain: 2.400 bits, Posterior Entropy: 5.426, 
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 5.426, Expected Info Gain: 3.522 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+Calculating letter frequencies...
+The bot is making a guess...
+First guess: 𝙎𝙊𝘼𝙍𝙀 (optimal starting word)
+GUESS: SOARE
+
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 6.0321 bits
+Posterior entropy: 7.826548487290915
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.826548487290915, 'actual_info_gain': 6.032112497431862, 'expected_info_gain': -1}
+----------
+The bot is making a guess...
+227 candidate words remaining.
+Top 5 guesses: [('TEENS', '4.682'), ('TENES', '4.665'), ('LEETS', '4.661'), ('NETES', '4.643'), ('DENET', '4.638')]
+Top entropy choice: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+Guess count low, choosing the word with highest entropy: 𝙏𝙀𝙀𝙉𝙎 with entropy: 4.6824
+GUESS: TEENS
+
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 3.3030 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 7.826548487290915, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 3.302986531233902, 'expected_info_gain': 4.682414796651863}
+----------
+The bot is making a guess...
+23 candidate words remaining.
+Top 5 guesses: [('HIPLY', '4.143'), ('GILPY', '4.089'), ('DIPPY', '3.969'), ('PIGLY', '3.969'), ('PILEY', '3.969')]
+Top entropy choice: 𝙃𝙄𝙋𝙇𝙔 with entropy: 4.1429
+Guess count low, choosing the word with highest entropy: 𝙃𝙄𝙋𝙇𝙔 with entropy: 4.1429
+GUESS: HIPLY
+
+Guess: 𝙃𝙄𝙋𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.5236 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 1.0, 'actual_info_gain': 3.523561956057013, 'expected_info_gain': 4.142914673354254}
+----------
+The bot is making a guess...
+2 candidate words remaining.
+Top 5 guesses: [('SIDED', '1.000'), ('SIZED', '1.000')]
+Top entropy choice: 𝙎𝙄𝘿𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙄𝘿𝙀𝘿 with entropy: 1.0000
+GUESS: SIDED
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 4.142914673354254}
+----------
+The bot is making a guess...
+1 candidate words remaining.
+Top 5 guesses: [('SIZED', '0.000')]
+Top entropy choice: 𝙎𝙄𝙕𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙄𝙕𝙀𝘿 with entropy: 0.0000
+GUESS: SIZED
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙎𝙊𝘼𝙍𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: -1.000 bits, Actual Info Gain: 6.032 bits, Posterior Entropy: 7.827, 
+Guess: 𝙏𝙀𝙀𝙉𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 7.827, Expected Info Gain: 4.682 bits, Actual Info Gain: 3.303 bits, Posterior Entropy: 4.524, 
+Guess: 𝙃𝙄𝙋𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 4.143 bits, Actual Info Gain: 3.524 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 4.143 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
