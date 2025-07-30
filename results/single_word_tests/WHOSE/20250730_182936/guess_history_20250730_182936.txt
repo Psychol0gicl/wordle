@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙃𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝘾𝙃𝙊𝙎𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙒𝙃𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 3.459, 
+Guess: 𝙒𝙃𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 3.459, 
+Guess: 𝙒𝙃𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 3.459, 
+Guess: 𝙒𝙃𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝙊𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙇𝙐𝙈𝘽, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.044, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.044 bits, Posterior Entropy: 3.000, 
+Guess: 𝙒𝘼𝙃𝙊𝙊, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 4.888 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙃𝙊𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

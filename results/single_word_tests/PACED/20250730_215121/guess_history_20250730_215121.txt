@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜
+Guess: 𝙒𝘼𝙂𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.999 bits, Actual Info Gain: 0.837 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 5.644, 
+Guess: 𝙈𝘼𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.999 bits, Actual Info Gain: 0.837 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 5.644 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝘼𝘾𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝘼𝘾𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 1.943 bits, Posterior Entropy: 5.285, 
+Guess: 𝘾𝙃𝘼𝙈𝙋, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 5.285, Expected Info Gain: 3.832 bits, Actual Info Gain: 5.285 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

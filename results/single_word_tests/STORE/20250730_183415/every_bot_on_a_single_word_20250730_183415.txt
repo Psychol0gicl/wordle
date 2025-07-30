@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙊𝙍𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ESTRO 
+The top ten guesses and scores: [('ESTRO', 74), ('OSETR', 74), ('RESTO', 74), ('STORE', 74), ('REIST', 73), ('RESIT', 73), ('STIRE', 73), ('RESTY', 72), ('STYRE', 72), ('CREST', 71)]
+The bot finally chose: STORE 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+Guess: 𝙎𝙏𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REEST with entropy: 2.6987
+Bot chose: REEST with entropy: 2.6987
+Top ten guesses: [('REEST', 2.6986604604011157), ('STERE', 2.463366342754056), ('CREST', 2.372094637795624), ('DREST', 2.372094637795624), ('PREST', 2.372094637795624), ('WREST', 2.372094637795624), ('REIST', 2.3432578733442675), ('RESIT', 2.3432578733442675), ('RESTO', 2.291620193427939), ('OSETR', 2.2485731395538666)]
+
+Guess: 𝙍𝙀𝙀𝙎𝙏, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 2.6986604604011157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ESTRO with entropy: 1.3710
+Bot chose: STORE with entropy: 1.3710
+Top ten guesses: [('ESTRO', 1.3709505944546687), ('STIRE', 1.3709505944546687), ('STORE', 1.3709505944546687), ('STURE', 1.3709505944546687), ('STYRE', 1.3709505944546687)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝙀𝙀𝙎𝙏, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REEST with entropy: 2.6987
+Bot chose: REEST with entropy: 2.6987
+Top ten guesses: [('REEST', 2.6986604604011157), ('STERE', 2.463366342754056), ('CREST', 2.372094637795624), ('DREST', 2.372094637795624), ('PREST', 2.372094637795624), ('WREST', 2.372094637795624), ('REIST', 2.3432578733442675), ('RESIT', 2.3432578733442675), ('RESTO', 2.291620193427939), ('OSETR', 2.2485731395538666)]
+
+Guess: 𝙍𝙀𝙀𝙎𝙏, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 2.6986604604011157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ESTRO with entropy: 1.3710
+Bot chose: STORE with entropy: 1.3710
+Top ten guesses: [('ESTRO', 1.3709505944546687), ('STIRE', 1.3709505944546687), ('STORE', 1.3709505944546687), ('STURE', 1.3709505944546687), ('STYRE', 1.3709505944546687)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝙀𝙀𝙎𝙏, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('REEST', '2.699'), ('STERE', '2.463'), ('CREST', '2.372'), ('DREST', '2.372'), ('PREST', '2.372')]
+Top entropy choice: 𝙍𝙀𝙀𝙎𝙏 with entropy: 2.6987
+Ended up choosing COMMON word: 𝘾𝙍𝙀𝙎𝙏 with entropy: 2.3721
+
+Guess: 𝘾𝙍𝙀𝙎𝙏, Feedback: ⬜🟨🟨🟨🟨
+Actual Info Gain: 1.2801 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.280107919192735, 'expected_info_gain': 2.372094637795624}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('ESTRO', '2.128'), ('RESTO', '2.128'), ('STORE', '2.128'), ('STYRE', '2.128'), ('STIRE', '1.842')]
+Top entropy choice: 𝙀𝙎𝙏𝙍𝙊 with entropy: 2.1281
+Ended up choosing COMMON word: 𝙎𝙏𝙊𝙍𝙀 with entropy: 2.1281
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝘾𝙍𝙀𝙎𝙏, Feedback: ⬜🟨🟨🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.372 bits, Actual Info Gain: 1.280 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙏𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CREST', 'DREST', 'ESTRO', 'OSETR', 'PREST', 'REEST', 'REIST', 'RESIT', 'RESTO', 'RESTY', 'STERE', 'STERN', 'STIRE', 'STORE', 'STURE', 'STYRE', 'WREST']
+17 candidate words remaining.
+Top 10 guesses: [('PEEOY', '3.264'), ('POETE', '3.220'), ('OPERY', '3.146'), ('ORDIE', '3.131'), ('PEISE', '3.131'), ('PEYSE', '3.131'), ('WEISE', '3.131'), ('OBESE', '3.102'), ('ROWIE', '3.102'), ('SEISE', '3.102')]
+Top entropy choice: 𝙋𝙀𝙀𝙊𝙔 with entropy: 3.2639
+Guess count low, choosing the word with highest entropy: 𝙋𝙀𝙀𝙊𝙔 with entropy: 3.2639
+
+Guess: 𝙋𝙀𝙀𝙊𝙔, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.2639334294856344}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ESTRO', 'STORE']
+2 candidate words remaining.
+Top 10 guesses: [('ESTRO', '1.000'), ('STORE', '1.000')]
+Top entropy choice: 𝙀𝙎𝙏𝙍𝙊 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙊𝙍𝙀 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝙀𝙀𝙊𝙔, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 4.087, Expected Info Gain: 3.264 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

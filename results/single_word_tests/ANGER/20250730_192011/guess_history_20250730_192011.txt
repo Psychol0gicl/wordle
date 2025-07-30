@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝘼𝙇𝘿𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝙐𝙉𝙇𝙄𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 3.308 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

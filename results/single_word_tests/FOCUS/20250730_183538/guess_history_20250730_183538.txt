@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝘾𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙇𝙊𝘾𝙐𝙎, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝘾𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 2.641 bits, Posterior Entropy: 7.170, 
+Guess: 𝙈𝙊𝘿𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.170, Expected Info Gain: 3.557 bits, Actual Info Gain: 4.363 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝘾𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 2.641 bits, Posterior Entropy: 7.170, 
+Guess: 𝙈𝙊𝘿𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.170, Expected Info Gain: 3.557 bits, Actual Info Gain: 4.363 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝘾𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 9.811, Expected Info Gain: 4.941 bits, Actual Info Gain: 8.226 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝘾𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙋𝙄𝙇𝙊𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 9.811, Expected Info Gain: 5.176 bits, Actual Info Gain: 2.953 bits, Posterior Entropy: 6.858, 
+Guess: 𝙎𝙈𝙊𝘾𝙆, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 6.858, Expected Info Gain: 5.176 bits, Actual Info Gain: 4.273 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙊𝘾𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙈𝙊𝙇𝘿𝙔, Feedback: ⬜🟩🟩🟨🟩
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝘿𝙄𝙈𝙇𝙔, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

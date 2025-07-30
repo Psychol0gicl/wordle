@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝘼𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝘽𝙇𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘽𝙇𝘼𝙉𝘾, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘽𝙇𝘼𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.990 bits, Posterior Entropy: 4.524, 
+Guess: 𝘾𝙇𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.524, Expected Info Gain: 3.262 bits, Actual Info Gain: 2.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙇𝘼𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.990 bits, Posterior Entropy: 4.524, 
+Guess: 𝘾𝙇𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.524, Expected Info Gain: 3.262 bits, Actual Info Gain: 2.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙇𝘼𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 6.054 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙇𝘼𝙉𝘾, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙇𝘼𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 5.813 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝘽𝘼𝘾𝙆, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 5.613 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙇𝘼𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

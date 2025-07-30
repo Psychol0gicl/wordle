@@ -1,0 +1,381 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LODEN 
+The top ten guesses and scores: [('LODEN', 1367), ('OLDEN', 1367), ('OILED', 1366), ('DOLEY', 1347), ('YODEL', 1347), ('LOMED', 1324), ('MODEL', 1324), ('MOLED', 1324), ('LOPED', 1315), ('POLED', 1315)]
+The bot finally chose: OLDEN 
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: ⬜⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: DIKEY 
+The top ten guesses and scores: [('DIKEY', 275), ('YIKED', 275), ('PIKED', 272), ('MIKED', 270), ('BIKED', 269), ('FIKED', 268), ('DIVEY', 266), ('HIKED', 265), ('IMPED', 265), ('BIPED', 264)]
+The bot finally chose: HIKED 
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: VIBED 
+The top ten guesses and scores: [('VIBED', 66), ('BIPED', 65), ('WIVED', 65), ('GIVED', 64), ('JIVED', 64), ('VICED', 64), ('WIPED', 64), ('WIFED', 63), ('DIVED', 62), ('FIXED', 62)]
+The bot finally chose: WIPED 
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: VIBED 
+The top ten guesses and scores: [('VIBED', 46), ('GIVED', 45), ('JIVED', 45), ('VICED', 45), ('DIVED', 43), ('FIXED', 43), ('GIBED', 43), ('JIBED', 43), ('MIXED', 43), ('FIFED', 41)]
+The bot finally chose: DIVED 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FIXED 
+The top ten guesses and scores: [('FIXED', 23), ('MIXED', 23), ('FIFED', 21), ('GIBED', 21), ('JIBED', 21), ('MIMED', 21)]
+The bot finally chose: FIXED 
+Game Over! You ran out of guesses.
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 3.5454 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 3.5453506448222987, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DINED with entropy: 1.8415
+Bot chose: DINED with entropy: 1.8415
+Top ten guesses: [('DINED', 1.8415325893090655), ('NIDED', 1.8415325893090655), ('VINED', 1.8215963831787416), ('DIVED', 1.781773601169986), ('PINED', 1.7726604017549792), ('BIDED', 1.6246346558188478), ('DIKED', 1.6093586773639923), ('VIBED', 1.6032658315120139), ('FINED', 1.5843936439579274), ('BIPED', 1.5501630867847795)]
+
+Guess: 𝘿𝙄𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 0.6780719051126383, 'expected_info_gain': 1.8415325893090655}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIPED with entropy: 1.8393
+Bot chose: WIPED with entropy: 1.5142
+Top ten guesses: [('BIPED', 1.839330832236536), ('PIKED', 1.8290410360817406), ('VIBED', 1.8197218324096138), ('BIKED', 1.7011509331628503), ('FIKED', 1.5993308322365363), ('HIPED', 1.514185957637955), ('HIVED', 1.514185957637955), ('WIPED', 1.514185957637955), ('WIVED', 1.514185957637955), ('HIKED', 1.3834651896016472)]
+
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.5564 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 0.5563933485243853, 'expected_info_gain': 1.514185957637955}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VIBED with entropy: 2.0119
+Bot chose: HIKED with entropy: 1.4505
+Top ten guesses: [('VIBED', 2.0119209285947934), ('BIKED', 1.7130788426267936), ('GIVED', 1.6137129703673825), ('HIVED', 1.6137129703673825), ('JIVED', 1.6137129703673825), ('MIKED', 1.6087001655198914), ('FIKED', 1.608700165519891), ('HIKED', 1.450467463408549), ('GIBED', 1.439254017211876), ('JIBED', 1.439254017211876)]
+
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.450467463408549}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VIBED with entropy: 2.1219
+Bot chose: FIXED with entropy: 1.3568
+Top ten guesses: [('VIBED', 2.1219280948873624), ('GIVED', 1.9609640474436814), ('JIVED', 1.9609640474436814), ('GIBED', 1.5709505944546687), ('JIBED', 1.5709505944546687), ('VICED', 1.5709505944546687), ('FIXED', 1.3567796494470397), ('MIXED', 1.3567796494470397), ('FIFED', 0.9219280948873623), ('MIMED', 0.9219280948873623)]
+Game Over! You ran out of guesses.
+
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 1.3567796494470397}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.545 bits, Posterior Entropy: 5.322, 
+Guess: 𝘿𝙄𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.322, Expected Info Gain: 1.842 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 4.644, 
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 1.514 bits, Actual Info Gain: 0.556 bits, Posterior Entropy: 4.087, 
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 1.450 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 3.5454 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 3.5453506448222987, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DINED with entropy: 1.8415
+Bot chose: DINED with entropy: 1.8415
+Top ten guesses: [('DINED', 1.8415325893090655), ('NIDED', 1.8415325893090655), ('VINED', 1.8215963831787416), ('DIVED', 1.781773601169986), ('PINED', 1.7726604017549792), ('BIDED', 1.6246346558188478), ('DIKED', 1.6093586773639923), ('VIBED', 1.6032658315120139), ('FINED', 1.5843936439579274), ('BIPED', 1.5501630867847795)]
+
+Guess: 𝘿𝙄𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 0.6780719051126383, 'expected_info_gain': 1.8415325893090655}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BIPED with entropy: 1.8393
+Bot chose: WIPED with entropy: 1.5142
+Top ten guesses: [('BIPED', 1.839330832236536), ('PIKED', 1.8290410360817406), ('VIBED', 1.8197218324096138), ('BIKED', 1.7011509331628503), ('FIKED', 1.5993308322365363), ('HIPED', 1.514185957637955), ('HIVED', 1.514185957637955), ('WIPED', 1.514185957637955), ('WIVED', 1.514185957637955), ('HIKED', 1.3834651896016472)]
+
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.5564 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 0.5563933485243853, 'expected_info_gain': 1.514185957637955}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VIBED with entropy: 2.0119
+Bot chose: HIKED with entropy: 1.4505
+Top ten guesses: [('VIBED', 2.0119209285947934), ('BIKED', 1.7130788426267936), ('GIVED', 1.6137129703673825), ('HIVED', 1.6137129703673825), ('JIVED', 1.6137129703673825), ('MIKED', 1.6087001655198914), ('FIKED', 1.608700165519891), ('HIKED', 1.450467463408549), ('GIBED', 1.439254017211876), ('JIBED', 1.439254017211876)]
+
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.450467463408549}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VIBED with entropy: 2.1219
+Bot chose: FIXED with entropy: 1.3568
+Top ten guesses: [('VIBED', 2.1219280948873624), ('GIVED', 1.9609640474436814), ('JIVED', 1.9609640474436814), ('GIBED', 1.5709505944546687), ('JIBED', 1.5709505944546687), ('VICED', 1.5709505944546687), ('FIXED', 1.3567796494470397), ('MIXED', 1.3567796494470397), ('FIFED', 0.9219280948873623), ('MIMED', 0.9219280948873623)]
+Game Over! You ran out of guesses.
+
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 1.3567796494470397}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.545 bits, Posterior Entropy: 5.322, 
+Guess: 𝘿𝙄𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.322, Expected Info Gain: 1.842 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 4.644, 
+Guess: 𝙒𝙄𝙋𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 1.514 bits, Actual Info Gain: 0.556 bits, Posterior Entropy: 4.087, 
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 1.450 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 467 remaining candidates...
+Top 5 guesses: [('WOULD', '4.464'), ('BUILD', '4.444'), ('COULD', '4.440'), ('LODEN', '4.426'), ('LINED', '4.326')]
+Top entropy choice: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+Ended up choosing COMMON word: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.7175 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 2.717531620204979, 'expected_info_gain': 4.463549067876786}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 171 potential guesses from 71 remaining candidates...
+Top 5 guesses: [('BEING', '3.216'), ('GIVEN', '3.213'), ('NIGHT', '3.144'), ('DINED', '3.110'), ('NIDED', '3.037')]
+Top entropy choice: 𝘽𝙀𝙄𝙉𝙂 with entropy: 3.2157
+Ended up choosing COMMON word: 𝘽𝙀𝙄𝙉𝙂 with entropy: 3.2157
+
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 1.6262 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 1.6261851634476692, 'expected_info_gain': 3.215664641136421}
+----------
+The bot is making a guess...
+Evaluating 23 potential guesses from 23 remaining candidates...
+Top 5 guesses: [('DIKED', '2.144'), ('PIKED', '2.108'), ('DIVED', '2.084'), ('HIDED', '2.019'), ('HIKED', '1.988')]
+Top entropy choice: 𝘿𝙄𝙆𝙀𝘿 with entropy: 2.1440
+Ended up choosing COMMON word: 𝘿𝙄𝙑𝙀𝘿 with entropy: 2.0842
+
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.8231 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 0.8231222379159209, 'expected_info_gain': 2.0841829849337867}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('PIKED', '2.038'), ('FIKED', '1.760'), ('MIKED', '1.760'), ('HIPED', '1.700'), ('HIKED', '1.614')]
+Top entropy choice: 𝙋𝙄𝙆𝙀𝘿 with entropy: 2.0382
+
+Guess: 𝙋𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 1.7004397181410922, 'expected_info_gain': 2.038159681645953}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FIXED', '2.000'), ('MIXED', '2.000'), ('FIFED', '1.500'), ('MIMED', '1.500')]
+Top entropy choice: 𝙁𝙄𝙓𝙀𝘿 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙁𝙄𝙓𝙀𝘿 with entropy: 2.0000
+Game Over! You ran out of guesses.
+
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 6.150, 
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 3.216 bits, Actual Info Gain: 1.626 bits, Posterior Entropy: 4.524, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 2.084 bits, Actual Info Gain: 0.823 bits, Posterior Entropy: 3.700, 
+Guess: 𝙋𝙄𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.038 bits, Actual Info Gain: 1.700 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙄𝙓𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEDEL', 'BEDEW', 'BEGEM', 'BELEE', 'BEVEL', 'BEZEL', 'BICEP', 'BIDED', 'BIKED', 'BILED', 'BIPED', 'BLEED', 'BLEEP', 'BLUED', 'BLUEY', 'BODED', 'BOGEY', 'BOKED', 'BOKEH', 'BONED', 'BONEY', 'BOOED', 'BOWED', 'BOWEL', 'BOXED', 'BOXEN', 'BOYED', 'BOYEY', 'BUDED', 'BYDED', 'BYKED', 'CEDED', 'CELEB', 'CHEEB', 'CHEEK', 'CHEEP', 'CHIEF', 'CHIEL', 'CIDED', 'CIMEX', 'CLEEK', 'CLEEP', 'CLIED', 'CLUED', 'CLUEY', 'CODEC', 'CODED', 'CODEN', 'CODEX', 'COHEN', 'COKED', 'COKEY', 'COLED', 'COLEY', 'CONED', 'CONEX', 'CONEY', 'COOED', 'COOEE', 'COOEY', 'COPED', 'COPEN', 'COVED', 'COVEN', 'COVEY', 'COWED', 'COXED', 'COYED', 'COZED', 'COZEN', 'COZEY', 'CUBEB', 'CUBED', 'CULEX', 'CUMEC', 'CUNEI', 'CUPEL', 'CUVEE', 'DEBEL', 'DEKED', 'DELED', 'DEVEL', 'DEWED', 'DICED', 'DICEY', 'DIKED', 'DIKEY', 'DINED', 'DIVED', 'DIVEY', 'DIZEN', 'DOGEY', 'DOLED', 'DOLEE', 'DOLEY', 'DOMED', 'DONEE', 'DOPED', 'DOPEY', 'DOVED', 'DOVEN', 'DOWED', 'DOWEL', 'DOXED', 'DOYEN', 'DOZED', 'DOZEN', 'DUDED', 'DUKED', 'DUPED', 'DWEEB', 'DYKED', 'DYKEY', 'DYNEL', 'EBBED', 'ECHED', 'EDGED', 'EEVEN', 'EFFED', 'EGGED', 'EIKED', 'ELFED', 'ELMEN', 'ELPEE', 'ELVEN', 'EMBED', 'EMCEE', 'EMMEW', 'ENDED', 'ENDEW', 'ENMEW', 'EUKED', 'EWKED', 'EXCEL', 'EXEEM', 'EXPEL', 'FEDEX', 'FEUED', 'FEYED', 'FIFED', 'FIKED', 'FILED', 'FINED', 'FIXED', 'FLEEK', 'FLIED', 'FLUED', 'FLUEY', 'FOGEY', 'FOLEY', 'FOXED', 'FUMED', 'FUZED', 'FUZEE', 'FYKED', 'GELEE', 'GEMEL', 'GIBED', 'GIBEL', 'GIMEL', 'GIVED', 'GIVEN', 'GLEED', 'GLEEK', 'GLUED', 'GLUEY', 'GOLEM', 'GONEF', 'GOOEY', 'GOVED', 'GUYED', 'GYBED', 'GYVED', 'HEBEN', 'HELED', 'HEVEL', 'HEWED', 'HEXED', 'HEYED', 'HIDED', 'HIKED', 'HIPED', 'HIVED', 'HIZEN', 'HOGEN', 'HOHED', 'HOIED', 'HOKED', 'HOKEY', 'HOLED', 'HOLEY', 'HOMED', 'HOMEY', 'HONED', 'HONEY', 'HOOEY', 'HOPED', 'HOVED', 'HOVEL', 'HOVEN', 'HOXED', 'HOYED', 'HYDEL', 'HYLEG', 'HYMEN', 'HYPED', 'ICHED', 'IDLED', 'IGGED', 'IMBED', 'IMMEW', 'IMPED', 'IMPEL', 'INCEL', 'INDEW', 'INDEX', 'INKED', 'INNED', 'IVIED', 'JEBEL', 'JEWED', 'JEWEL', 'JHEEL', 'JIBED', 'JIVED', 'JIVEY', 'JOBED', 'JODEL', 'JOKED', 'JOKEY', 'JOLED', 'JOWED', 'JOYED', 'JUKED', 'JULEP', 'KELEP', 'KEVEL', 'KEYED', 'KIBEI', 'KIDEL', 'KIDEO', 'KILEY', 'KLIEG', 'KNEED', 'KNEEL', 'KOHEN', 'KOPEK', 'KUGEL', 'LEBEN', 'LEMED', 'LEMEL', 'LEVEE', 'LEVEL', 'LIBEL', 'LIFEY', 'LIKED', 'LIKEN', 'LIMED', 'LIMEN', 'LIMEY', 'LINED', 'LINEN', 'LINEY', 'LIVED', 'LIVEN', 'LOBED', 'LODEN', 'LOKEY', 'LOLED', 'LOMED', 'LOOED', 'LOOEY', 'LOPED', 'LOUED', 'LOVED', 'LOVEE', 'LOVEY', 'LOWED', 'LOWEN', 'LOXED', 'LOZEN', 'LUBED', 'LUGED', 'LUMEN', 'LUXED', 'LYCEE', 'MELEE', 'MENED', 'MEVED', 'MEWED', 'MIKED', 'MIMED', 'MIMEO', 'MINED', 'MIVEY', 'MIXED', 'MIXEN', 'MIZEN', 'MOBED', 'MOBEE', 'MOBEY', 'MODEL', 'MODEM', 'MOHEL', 'MOKEY', 'MOLED', 'MOLEY', 'MONEY', 'MOOED', 'MOOEY', 'MOPED', 'MOPEY', 'MOVED', 'MOWED', 'MOZED', 'MULED', 'MULEY', 'MUXED', 'NEBEK', 'NEBEL', 'NEVEL', 'NEWED', 'NEWEL', 'NGWEE', 'NICED', 'NICEY', 'NIDED', 'NIVEL', 'NIXED', 'NODED', 'NOMEN', 'NOVEL', 'NOWED', 'NOYED', 'NUKED', 'NUMEN', 'OBIED', 'OFFED', 'OGEED', 'OGLED', 'OILED', 'OLDEN', 'OMDEH', 'OMMEL', 'ONNED', 'OOHED', 'OOPED', 'OOZED', 'OUPED', 'OUZEL', 'OWLED', 'OWNED', 'OXMEN', 'PENED', 'PEWED', 'PEWEE', 'PICEY', 'PIKED', 'PIKEL', 'PIKEY', 'PILED', 'PILEI', 'PILEY', 'PINED', 'PINEY', 'PIPED', 'PIXEL', 'PIZED', 'PLEEP', 'PLIED', 'PODEX', 'POGEY', 'POHED', 'POKED', 'POKEY', 'POLED', 'POLEY', 'PONEY', 'POOED', 'POOEY', 'POXED', 'PUKED', 'PUKEY', 'PULED', 'PUZEL', 'PWNED', 'PYNED', 'PYXED', 'QUEEK', 'QUEEM', 'QUEEN', 'UGGED', 'UMBEL', 'UMMED', 'UMPED', 'UNBED', 'UNDEE', 'UNFED', 'UNKED', 'UNKEY', 'UNLED', 'UNLEG', 'UNMEW', 'UNPEG', 'UNPEN', 'UNWED', 'UPLED', 'UPPED', 'VENEY', 'VEXED', 'VIBED', 'VIBEX', 'VIBEY', 'VICED', 'VIDEO', 'VIMEN', 'VINED', 'VINEW', 'VIXEN', 'VOLED', 'VOWED', 'VOWEL', 'VOXEL', 'WEDEL', 'WEXED', 'WHEEK', 'WHEEL', 'WHEEN', 'WHEEP', 'WIDEN', 'WIFED', 'WIFEY', 'WILED', 'WINED', 'WINEY', 'WIPED', 'WIVED', 'WIZEN', 'WOKEN', 'WOMEN', 'WOOED', 'WOVEN', 'WOWED', 'WOWEE', 'WOXEN', 'WYLED', 'XEBEC', 'XYLEM', 'YCLED', 'YEEEK', 'YEVEN', 'YEWEN', 'YEXED', 'YIKED', 'YODEL', 'YOGEE', 'YOKED', 'YOKEG', 'YOKEL', 'YOWED', 'YUKED', 'ZEBEC', 'ZINEB', 'ZIZEL', 'ZONED', 'ZOOEY', 'ZOWEE']
+467 candidate words remaining.
+Top 10 guesses: [('INDOL', '4.933'), ('DINLO', '4.859'), ('LOWND', '4.836'), ('BLOND', '4.832'), ('LOUND', '4.773'), ('LINDY', '4.749'), ('DOLCI', '4.730'), ('DOILY', '4.707'), ('NOULD', '4.703'), ('MODIN', '4.688')]
+Top entropy choice: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+Guess count low, choosing the word with highest entropy: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.9131 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 3.9130824293227864, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIKED', 'BIPED', 'DICED', 'DICEY', 'DIKED', 'DIKEY', 'DIVED', 'DIVEY', 'EIKED', 'FIFED', 'FIKED', 'FIXED', 'GIBED', 'GIVED', 'HIKED', 'HIPED', 'HIVED', 'JIBED', 'JIVED', 'MIKED', 'MIMED', 'MIXED', 'PIKED', 'PIPED', 'PIZED', 'VIBED', 'VICED', 'WIFED', 'WIPED', 'WIVED', 'YIKED']
+31 candidate words remaining.
+Top 10 guesses: [('VAMPY', '2.658'), ('PAWKY', '2.644'), ('PACKY', '2.620'), ('PECKY', '2.620'), ('PICKY', '2.620'), ('POCKY', '2.620'), ('KEMPY', '2.589'), ('PAMBY', '2.541'), ('BACKY', '2.517'), ('BICKY', '2.517')]
+Top entropy choice: 𝙑𝘼𝙈𝙋𝙔 with entropy: 2.6583
+Using common exploratory word: 𝙋𝙄𝘾𝙆𝙔 with entropy: 2.6197
+
+Guess: 𝙋𝙄𝘾𝙆𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 1.2538 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.2537565922457827, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DIVED', 'FIFED', 'FIXED', 'GIBED', 'GIVED', 'HIVED', 'JIBED', 'JIVED', 'MIMED', 'MIXED', 'VIBED', 'WIFED', 'WIVED']
+13 candidate words remaining.
+Top 10 guesses: [('BEFOG', '2.200'), ('VIFFS', '2.192'), ('VUGHS', '2.142'), ('VUGHY', '2.142'), ('VIBEX', '2.134'), ('BUMFS', '2.076'), ('BHAVA', '2.038'), ('FAVAS', '2.038'), ('FAVEL', '2.038'), ('FAVER', '2.038')]
+Top entropy choice: 𝘽𝙀𝙁𝙊𝙂 with entropy: 2.1997
+
+Guess: 𝘽𝙀𝙁𝙊𝙂, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 1.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.115477217419936, 'expected_info_gain': 2.199687794731328}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DIVED', 'HIVED', 'JIVED', 'MIMED', 'MIXED', 'WIVED']
+6 candidate words remaining.
+Top 10 guesses: [('DWALM', '1.918'), ('DWAMS', '1.918'), ('DWAMY', '1.918'), ('DWAUM', '1.918'), ('HAWMS', '1.918'), ('MAHWA', '1.918'), ('SHAWM', '1.918'), ('WHAMO', '1.918'), ('WHAMS', '1.918'), ('WHELM', '1.918')]
+Top entropy choice: 𝘿𝙒𝘼𝙇𝙈 with entropy: 1.9183
+Guess count high, choosing a candidate with the highest entropy: 𝘿𝙄𝙑𝙀𝘿 with entropy: 1.4591
+
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.4591479170272446}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MIMED', 'MIXED']
+2 candidate words remaining.
+Top 10 guesses: [('MIMED', '1.000'), ('MIXED', '1.000')]
+Top entropy choice: 𝙈𝙄𝙈𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙄𝙓𝙀𝘿 with entropy: 1.0000
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 3.913 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙄𝘾𝙆𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 4.933 bits, Actual Info Gain: 1.254 bits, Posterior Entropy: 3.700, 
+Guess: 𝘽𝙀𝙁𝙊𝙂, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 2.200 bits, Actual Info Gain: 1.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙄𝙓𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

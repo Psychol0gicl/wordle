@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙐𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙐𝙍𝙇𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙋𝙐𝙍𝘿𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙐𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙐𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.168 bits, Actual Info Gain: 2.481 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.585, Expected Info Gain: 2.836 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.168 bits, Actual Info Gain: 2.481 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.585, Expected Info Gain: 2.836 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.818 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝙔𝙍𝙍𝙃, Feedback: ⬜🟨🟩🟩🟨, Prior Entropy: 4.248, Expected Info Gain: 2.815 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙂𝙊𝙔𝙄𝙈, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.762 bits, Actual Info Gain: 2.979 bits, Posterior Entropy: 4.087, 
+Guess: 𝘾𝙃𝘼𝙍𝘿, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 4.762 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

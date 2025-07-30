@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙄𝙎𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙎𝙆𝙄𝙀𝙍, Feedback: 🟨⬜🟨🟩🟨
+Guess: 𝙍𝙄𝙎𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙄𝙎𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙎𝙆𝙄𝙀𝙍, Feedback: 🟨⬜🟨🟩🟨, Prior Entropy: 5.672, Expected Info Gain: 2.847 bits, Actual Info Gain: 5.672 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙎𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙎𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙎𝙆𝙄𝙀𝙍, Feedback: 🟨⬜🟨🟩🟨, Prior Entropy: 5.672, Expected Info Gain: 2.847 bits, Actual Info Gain: 5.672 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙎𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙎𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 2.880 bits, Actual Info Gain: 1.149 bits, Posterior Entropy: 4.524, 
+Guess: 𝙎𝙆𝙄𝙀𝙍, Feedback: 🟨⬜🟨🟩🟨, Prior Entropy: 4.524, Expected Info Gain: 3.012 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙎𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙎𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.186 bits, Posterior Entropy: 5.672, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 3.546 bits, Actual Info Gain: 3.672 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙍𝙈𝙊𝙍, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 3.546 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙎𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

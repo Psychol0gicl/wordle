@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝙔𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙈𝙊𝘿𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙊𝘾𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙊𝙔𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝙔𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.514 bits, Posterior Entropy: 5.000, 
+Guess: 𝘾𝙊𝙋𝘼𝙔, Feedback: ⬜🟩⬜🟩🟨, Prior Entropy: 5.000, Expected Info Gain: 3.129 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝙊𝙔𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙔𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.514 bits, Posterior Entropy: 5.000, 
+Guess: 𝘾𝙊𝙋𝘼𝙔, Feedback: ⬜🟩⬜🟩🟨, Prior Entropy: 5.000, Expected Info Gain: 3.129 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝙊𝙔𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙔𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 3.405 bits, Posterior Entropy: 6.109, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 6.109, Expected Info Gain: 4.259 bits, Actual Info Gain: 3.301 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙊𝙇𝙆𝘼, Feedback: ⬜🟩🟨⬜🟨, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙔𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙔𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 5.192 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙄𝙈𝙇𝙔, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 4.322, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙊𝙔𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

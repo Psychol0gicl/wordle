@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TERAI 
+The top ten guesses and scores: [('TERAI', 22), ('TERGA', 22), ('TERZA', 22), ('THRAE', 22), ('TERRA', 21)]
+The bot finally chose: TERRA 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+Guess: 𝙏𝙀𝙍𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERGA with entropy: 1.9219
+Bot chose: TERRA with entropy: 1.9219
+Top ten guesses: [('TERGA', 1.9219280948873623), ('TERRA', 1.9219280948873623), ('TERZA', 1.9219280948873623), ('TERAI', 1.3709505944546687), ('THRAE', 1.3709505944546687)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙀𝙍𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERGA with entropy: 1.9219
+Bot chose: TERRA with entropy: 1.9219
+Top ten guesses: [('TERGA', 1.9219280948873623), ('TERRA', 1.9219280948873623), ('TERZA', 1.9219280948873623), ('TERAI', 1.3709505944546687), ('THRAE', 1.3709505944546687)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙀𝙍𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('TERGA', '1.922'), ('TERRA', '1.922'), ('TERZA', '1.922'), ('TERAI', '1.371'), ('THRAE', '1.371')]
+Top entropy choice: 𝙏𝙀𝙍𝙂𝘼 with entropy: 1.9219
+Ended up choosing COMMON word: 𝙏𝙀𝙍𝙍𝘼 with entropy: 1.9219
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙀𝙍𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TERAI', 'TERGA', 'TERRA', 'TERZA', 'THRAE']
+5 candidate words remaining.
+Top 10 guesses: [('GHAZI', '2.322'), ('GRIZE', '2.322'), ('NEGRI', '2.322'), ('NIGRE', '2.322'), ('REGAR', '2.322'), ('RERIG', '2.322'), ('ZAIRE', '2.322'), ('ZEBRA', '2.322'), ('ZEERA', '2.322'), ('ZIGAN', '2.322')]
+Top entropy choice: 𝙂𝙃𝘼𝙕𝙄 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝙂𝙃𝘼𝙕𝙄 with entropy: 2.3219
+
+Guess: 𝙂𝙃𝘼𝙕𝙄, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TERRA']
+1 candidate words remaining.
+Top 10 guesses: [('TERRA', '0.000')]
+Top entropy choice: 𝙏𝙀𝙍𝙍𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙀𝙍𝙍𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙃𝘼𝙕𝙄, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝙍𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

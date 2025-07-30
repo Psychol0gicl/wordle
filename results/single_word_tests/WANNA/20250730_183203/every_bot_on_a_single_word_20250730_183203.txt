@@ -1,0 +1,305 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MANLY 
+The top ten guesses and scores: [('MANLY', 1420), ('LAYIN', 1361), ('NAILY', 1361), ('MANDY', 1359), ('PALMY', 1354), ('LANKY', 1353), ('MADLY', 1346), ('MANKY', 1343), ('CALMY', 1341), ('BALMY', 1336)]
+The bot finally chose: MANLY 
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CANDO 
+The top ten guesses and scores: [('CANDO', 141), ('CANID', 140), ('DANIO', 140), ('HANDI', 139), ('GANCH', 138), ('PANCH', 138), ('PANIC', 138), ('BANDH', 137), ('HANGI', 137), ('BANCO', 136)]
+The bot finally chose: PANIC 
+Guess: 𝙋𝘼𝙉𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: FANGO 
+The top ten guesses and scores: [('FANGO', 73), ('GANOF', 73), ('BANDH', 70), ('BANJO', 70), ('BANDA', 69), ('FANGA', 69), ('KANZU', 69), ('GANJA', 68), ('KANGA', 68), ('NANDU', 68)]
+The bot finally chose: BANJO 
+Guess: 𝘽𝘼𝙉𝙅𝙊, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: KANZU 
+The top ten guesses and scores: [('KANZU', 44), ('NANDU', 43), ('VANDA', 42), ('KANGA', 41), ('VANGA', 41), ('DANDA', 40), ('FANGA', 40), ('NANUA', 39), ('ZANZA', 39), ('WANNA', 37)]
+The bot finally chose: WANNA 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙋𝘼𝙉𝙄𝘾, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘽𝘼𝙉𝙅𝙊, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANIA with entropy: 4.4435
+Bot chose: MANIA with entropy: 4.4435
+Top ten guesses: [('MANIA', 4.4434735467256905), ('MALAI', 4.379759228898698), ('MANLY', 4.378362955235555), ('LANAI', 4.372727333019895), ('MAYAN', 4.3674710337936355), ('CAMAN', 4.342263148392526), ('LAMIA', 4.318254553347223), ('CANAL', 4.317180472021532), ('DAMAN', 4.278426755034213), ('MANGA', 4.268312241406495)]
+
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.9404 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.940443155319546, 'expected_info_gain': 4.4434735467256905}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PANGA with entropy: 1.7360
+Bot chose: PANGA with entropy: 1.7360
+Top ten guesses: [('PANGA', 1.7360411676599226), ('PANNA', 1.7360411676599226), ('VANGA', 1.5693078231812962), ('PANDA', 1.4516607643577668), ('GANJA', 1.3784188527203236), ('BANDA', 1.2772018112022603), ('CANNA', 1.2772018112022603), ('FANGA', 1.2772018112022603), ('KANGA', 1.2772018112022603), ('NANNA', 1.2772018112022603)]
+
+Guess: 𝙋𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.7360411676599226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BANDA with entropy: 1.5710
+Bot chose: BANDA with entropy: 1.5710
+Top ten guesses: [('BANDA', 1.5709505944546687), ('CANNA', 1.5709505944546687), ('NANNA', 1.5709505944546687), ('NANUA', 1.5709505944546687), ('WANNA', 1.5709505944546687), ('DANDA', 1.1567796494470395), ('VANDA', 1.1567796494470395), ('BANYA', 0.9219280948873623), ('ZANJA', 0.9219280948873623), ('ZANZA', 0.9219280948873623)]
+
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.5709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CANNA with entropy: 1.9183
+Bot chose: WANNA with entropy: 1.9183
+Top ten guesses: [('CANNA', 1.9182958340544896), ('NANNA', 1.9182958340544896), ('NANUA', 1.9182958340544896), ('WANNA', 1.9182958340544896), ('ZANJA', 1.2516291673878228), ('ZANZA', 1.2516291673878228)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 4.940 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.736 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 1.571 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANIA with entropy: 4.4435
+Bot chose: MANIA with entropy: 4.4435
+Top ten guesses: [('MANIA', 4.4434735467256905), ('MALAI', 4.379759228898698), ('MANLY', 4.378362955235555), ('LANAI', 4.372727333019895), ('MAYAN', 4.3674710337936355), ('CAMAN', 4.342263148392526), ('LAMIA', 4.318254553347223), ('CANAL', 4.317180472021532), ('DAMAN', 4.278426755034213), ('MANGA', 4.268312241406495)]
+
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.9404 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.940443155319546, 'expected_info_gain': 4.4434735467256905}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PANGA with entropy: 1.7360
+Bot chose: PANGA with entropy: 1.7360
+Top ten guesses: [('PANGA', 1.7360411676599226), ('PANNA', 1.7360411676599226), ('VANGA', 1.5693078231812962), ('PANDA', 1.4516607643577668), ('GANJA', 1.3784188527203236), ('BANDA', 1.2772018112022603), ('CANNA', 1.2772018112022603), ('FANGA', 1.2772018112022603), ('KANGA', 1.2772018112022603), ('NANNA', 1.2772018112022603)]
+
+Guess: 𝙋𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7655 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.7655347463629769, 'expected_info_gain': 1.7360411676599226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BANDA with entropy: 1.5710
+Bot chose: BANDA with entropy: 1.5710
+Top ten guesses: [('BANDA', 1.5709505944546687), ('CANNA', 1.5709505944546687), ('NANNA', 1.5709505944546687), ('NANUA', 1.5709505944546687), ('WANNA', 1.5709505944546687), ('DANDA', 1.1567796494470395), ('VANDA', 1.1567796494470395), ('BANYA', 0.9219280948873623), ('ZANJA', 0.9219280948873623), ('ZANZA', 0.9219280948873623)]
+
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.5709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CANNA with entropy: 1.9183
+Bot chose: WANNA with entropy: 1.9183
+Top ten guesses: [('CANNA', 1.9182958340544896), ('NANNA', 1.9182958340544896), ('NANUA', 1.9182958340544896), ('WANNA', 1.9182958340544896), ('ZANJA', 1.2516291673878228), ('ZANZA', 1.2516291673878228)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 4.940 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 1.736 bits, Actual Info Gain: 0.766 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 1.571 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 522 remaining candidates...
+Top 5 guesses: [('LANAI', '4.373'), ('CAMAN', '4.342'), ('LAMIA', '4.318'), ('CANAL', '4.317'), ('DAMAN', '4.278')]
+Top entropy choice: 𝙇𝘼𝙉𝘼𝙄 with entropy: 4.3727
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 4.3172
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.6356 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 4.635588573791124, 'expected_info_gain': 4.317180472021532}
+----------
+The bot is making a guess...
+Evaluating 21 potential guesses from 21 remaining candidates...
+Top 5 guesses: [('MANGA', '1.736'), ('MANNA', '1.649'), ('PANGA', '1.625'), ('PANNA', '1.532'), ('VANGA', '1.473')]
+Top entropy choice: 𝙈𝘼𝙉𝙂𝘼 with entropy: 1.7364
+Ended up choosing COMMON word: 𝙈𝘼𝙉𝙂𝘼 with entropy: 1.7364
+
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.8074 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 0.8073549220576046, 'expected_info_gain': 1.7363918270255536}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('PANNA', '1.781'), ('BANDA', '1.730'), ('PANDA', '1.551'), ('NANNA', '1.418'), ('NANUA', '1.418')]
+Top entropy choice: 𝙋𝘼𝙉𝙉𝘼 with entropy: 1.7807
+Ended up choosing COMMON word: 𝘽𝘼𝙉𝘿𝘼 with entropy: 1.7296
+
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7295739585136223}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('NANNA', '1.918'), ('NANUA', '1.918'), ('PANNA', '1.918'), ('WANNA', '1.918'), ('ZANJA', '1.252')]
+Top entropy choice: 𝙉𝘼𝙉𝙉𝘼 with entropy: 1.9183
+Ended up choosing COMMON word: 𝙒𝘼𝙉𝙉𝘼 with entropy: 1.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 4.636 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 1.736 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝘼𝙉𝘿𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 1.730 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙉𝙉𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AALII', 'BABBY', 'BABKA', 'BABOO', 'BABUL', 'BACCA', 'BACCO', 'BACCY', 'BACHA', 'BACKY', 'BACON', 'BADAM', 'BADDY', 'BADLY', 'BAFFY', 'BAGGY', 'BAGUA', 'BAIZA', 'BAJAN', 'BALDY', 'BALKY', 'BALLO', 'BALLY', 'BALMY', 'BALOI', 'BALON', 'BALOO', 'BALUN', 'BAMBI', 'BAMMA', 'BAMMY', 'BANAK', 'BANAL', 'BANCO', 'BANDA', 'BANDH', 'BANDY', 'BANIA', 'BANJO', 'BANKY', 'BANYA', 'BAOZI', 'BAPPU', 'BAULK', 'BAVIN', 'BAWDY', 'BAYOU', 'BAZOO', 'CABAL', 'CABBY', 'CABIN', 'CABOB', 'CABOC', 'CACAO', 'CACKY', 'CADDY', 'CADGY', 'CAHOW', 'CAJON', 'CAJUN', 'CALID', 'CALIF', 'CALIX', 'CALLA', 'CALMY', 'CALPA', 'CALYX', 'CAMAN', 'CAMPI', 'CAMPO', 'CAMPY', 'CANAL', 'CANDO', 'CANDY', 'CANID', 'CANNA', 'CANNY', 'CANON', 'CAPAX', 'CAPIZ', 'CAPON', 'CAPUL', 'CAUDA', 'CAULD', 'CAULK', 'CAVIL', 'CAXON', 'DABBA', 'DACHA', 'DADAH', 'DADDY', 'DADLA', 'DAFFY', 'DAGGA', 'DAGGY', 'DAIKO', 'DAILY', 'DALLY', 'DAMAN', 'DAMNA', 'DAMPY', 'DANCY', 'DANDA', 'DANDY', 'DANIO', 'DANNY', 'DAPPY', 'DAUBY', 'DAWAH', 'DAYAL', 'DAYAN', 'DAYCH', 'FABBO', 'FABBY', 'FACIA', 'FADDY', 'FAFFY', 'FAGGY', 'FAGIN', 'FALAJ', 'FANAL', 'FANCY', 'FANGA', 'FANGO', 'FANNY', 'FANON', 'FANUM', 'FAUCH', 'FAUGH', 'FAULD', 'FAUNA', 'FAWNY', 'GABBA', 'GABBY', 'GADDI', 'GADGY', 'GADID', 'GADJO', 'GAILY', 'GALAH', 'GALAX', 'GALIA', 'GALLY', 'GALOP', 'GALVO', 'GAMAY', 'GAMBA', 'GAMBO', 'GAMIC', 'GAMIN', 'GAMMA', 'GAMMY', 'GANCH', 'GANDY', 'GANJA', 'GANOF', 'GAPPY', 'GAUCH', 'GAUCY', 'GAUDY', 'GAUMY', 'GAUZY', 'GAWCY', 'GAWKY', 'GAYAL', 'GAYLY', 'GAZAL', 'GAZON', 'GAZOO', 'HACKY', 'HADAL', 'HADJI', 'HAFIZ', 'HAHAM', 'HAICK', 'HAIKA', 'HAIKU', 'HAILY', 'HAJJI', 'HAKAM', 'HAKIM', 'HALAL', 'HALDI', 'HALFA', 'HALID', 'HALLO', 'HALMA', 'HALON', 'HALVA', 'HALWA', 'HAMAL', 'HAMBA', 'HAMMY', 'HAMZA', 'HANAP', 'HANCH', 'HANDI', 'HANDY', 'HANGI', 'HANKY', 'HAOMA', 'HAPAX', 'HAPLY', 'HAPPI', 'HAPPY', 'HAUGH', 'HAUGO', 'HAULD', 'HAULM', 'HAVAN', 'HAVOC', 'HAZAN', 'IAMBI', 'JACAL', 'JACKY', 'JAFFA', 'JAGGY', 'JALAP', 'JALOP', 'JAMBO', 'JAMBU', 'JAMMY', 'JAMON', 'JAMUN', 'JANKY', 'JANNY', 'JAPAN', 'JAWAN', 'JAZZY', 'KAAMA', 'KABAB', 'KABOB', 'KACHA', 'KADAI', 'KAHAL', 'KAIAK', 'KAIKA', 'KAING', 'KAJAL', 'KALAM', 'KALIF', 'KALPA', 'KALUA', 'KAMIK', 'KANAL', 'KANDY', 'KANGA', 'KANJI', 'KANZU', 'KAPAI', 'KAPHA', 'KAPOK', 'KAPOW', 'KAPPA', 'KAUGH', 'KAVAL', 'KAWAU', 'KAYAK', 'KAZOO', 'LABDA', 'LABIA', 'LACCY', 'LACKA', 'LACKY', 'LADDU', 'LADDY', 'LADOO', 'LAGAN', 'LAGGY', 'LAHAL', 'LAICH', 'LAIGH', 'LAIKA', 'LAKIN', 'LALDY', 'LAMBY', 'LAMIA', 'LAMMY', 'LANAI', 'LANCH', 'LANKY', 'LAPIN', 'LAPPA', 'LAPPY', 'LAUAN', 'LAUCH', 'LAUGH', 'LAUND', 'LAVAL', 'LAVVY', 'LAWIN', 'LAWNY', 'LAXLY', 'LAYBY', 'LAYIN', 'LAYUP', 'LAZZI', 'LAZZO', 'MABAN', 'MACAW', 'MACCA', 'MACHI', 'MACHO', 'MACKA', 'MACON', 'MADAL', 'MADAM', 'MADDY', 'MADID', 'MADLY', 'MAFIA', 'MAFIC', 'MAGIC', 'MAGMA', 'MAGNA', 'MAHAL', 'MAHUA', 'MAHWA', 'MAIKO', 'MAILL', 'MAILO', 'MAKAF', 'MAKAI', 'MAKAN', 'MALAI', 'MALAM', 'MALAX', 'MALIC', 'MALIK', 'MALKY', 'MALMY', 'MALVA', 'MALWA', 'MAMAK', 'MAMBA', 'MAMBO', 'MAMBU', 'MAMIL', 'MAMMA', 'MAMMY', 'MANDI', 'MANDY', 'MANGA', 'MANGI', 'MANGO', 'MANGY', 'MANIA', 'MANIC', 'MANKY', 'MANLY', 'MANNA', 'MANNY', 'MANOA', 'MANUL', 'MANZO', 'MAPAU', 'MAPOU', 'MAPPY', 'MAQAM', 'MAQUI', 'MAUBY', 'MAUKA', 'MAULA', 'MAUMY', 'MAUND', 'MAUVY', 'MAUZY', 'MAVIN', 'MAWKY', 'MAWLA', 'MAXIM', 'MAYAN', 'MAZAC', 'MAZAK', 'NABAM', 'NABBY', 'NABLA', 'NABOB', 'NACHO', 'NAGGY', 'NAHAL', 'NAIAD', 'NAILY', 'NAJIB', 'NAKFA', 'NALLA', 'NAMAD', 'NAMAK', 'NAMAZ', 'NAMMA', 'NANCY', 'NANDU', 'NANNA', 'NANNY', 'NANUA', 'NAPOH', 'NAPOO', 'NAPPA', 'NAPPY', 'NAUCH', 'NAVAL', 'NAVVY', 'NAWAB', 'NAWAL', 'NAZZY', 'OAKUM', 'PAAHO', 'PACAI', 'PACAY', 'PACHA', 'PACKY', 'PADAM', 'PADDO', 'PADDY', 'PADMA', 'PADOU', 'PAGAN', 'PAGOD', 'PAKAY', 'PAKKA', 'PAKKI', 'PAKUA', 'PAKUL', 'PALAK', 'PALAY', 'PALKI', 'PALLA', 'PALLU', 'PALLY', 'PALMY', 'PALPI', 'PAMBY', 'PAMPA', 'PANAX', 'PANCH', 'PANDA', 'PANDY', 'PANGA', 'PANIC', 'PANIM', 'PANKO', 'PANNA', 'PANNI', 'PANNY', 'PAOLI', 'PAOLO', 'PAPAD', 'PAPAL', 'PAPAW', 'PAPPI', 'PAPPY', 'PAUXI', 'PAVAN', 'PAVID', 'PAVIN', 'PAVON', 'PAVVY', 'PAWAW', 'PAWKY', 'QAJAQ', 'QAPIK', 'VACAY', 'VACUA', 'VACUI', 'VACUO', 'VAGAL', 'VAKIL', 'VALID', 'VALLI', 'VAMPY', 'VANDA', 'VANGA', 'VAPID', 'VAUCH', 'WACKO', 'WACKY', 'WADDY', 'WAGGA', 'WAGON', 'WAGYU', 'WAHAY', 'WAHOO', 'WALDO', 'WALLA', 'WALLY', 'WANKY', 'WANLY', 'WANNA', 'WAUFF', 'WAUGH', 'WAULK', 'WAZOO', 'YABBA', 'YABBY', 'YACCA', 'YACKA', 'YADDA', 'YAGNA', 'YAHOO', 'YAJNA', 'YAKKA', 'YAKOW', 'YAMPA', 'YAMPY', 'YAMUN', 'YANDY', 'YAPOK', 'YAPON', 'YAPPY', 'YAULD', 'YAWNY', 'ZAIDA', 'ZAIDY', 'ZAMAC', 'ZAMAK', 'ZAMAN', 'ZAMBO', 'ZAMIA', 'ZANJA', 'ZANZA', 'ZAPPY', 'ZAYIN']
+522 candidate words remaining.
+Top 10 guesses: [('MINCY', '4.781'), ('LINDY', '4.711'), ('MILKY', '4.698'), ('KYLIN', '4.687'), ('LINKY', '4.677'), ('MINGY', '4.632'), ('PYLON', '4.632'), ('MOLDY', '4.626'), ('DIMLY', '4.626'), ('LINGY', '4.613')]
+Top entropy choice: 𝙈𝙄𝙉𝘾𝙔 with entropy: 4.7811
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝘾𝙔 with entropy: 4.7811
+
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 4.1699 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 4.169925001442313, 'expected_info_gain': 4.781133838721642}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BANAK', 'BANAL', 'BANDA', 'BANDH', 'BANJO', 'DANDA', 'FANAL', 'FANGA', 'FANGO', 'FANON', 'GANJA', 'GANOF', 'HANAP', 'KANAL', 'KANGA', 'KANZU', 'NANDU', 'NANNA', 'NANUA', 'PANAX', 'PANDA', 'PANGA', 'PANKO', 'PANNA', 'VANDA', 'VANGA', 'WANNA', 'ZANJA', 'ZANZA']
+29 candidate words remaining.
+Top 10 guesses: [('GOPAK', '3.368'), ('PLAGA', '3.233'), ('PUNGA', '3.132'), ('PURGA', '3.132'), ('PANGA', '3.121'), ('NGAKA', '3.108'), ('OPGAF', '3.080'), ('PULKA', '3.079'), ('PAGAN', '3.065'), ('PONGA', '3.051')]
+Top entropy choice: 𝙂𝙊𝙋𝘼𝙆 with entropy: 3.3677
+Using common exploratory word: 𝙋𝘼𝙂𝘼𝙉 with entropy: 3.0649
+
+Guess: 𝙋𝘼𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 1.8580 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 3.0, 'actual_info_gain': 1.8579809951275719, 'expected_info_gain': 4.781133838721642}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BANDA', 'DANDA', 'NANNA', 'NANUA', 'VANDA', 'WANNA', 'ZANJA', 'ZANZA']
+8 candidate words remaining.
+Top 10 guesses: [('DJINN', '2.500'), ('DURZI', '2.500'), ('NUDZH', '2.406'), ('BOUND', '2.250'), ('DANNY', '2.250'), ('DAUNT', '2.250'), ('DINNA', '2.250'), ('DJINS', '2.250'), ('DONNA', '2.250'), ('DONNE', '2.250')]
+Top entropy choice: 𝘿𝙅𝙄𝙉𝙉 with entropy: 2.5000
+Using common exploratory word: 𝘽𝙊𝙐𝙉𝘿 with entropy: 2.2500
+
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.781133838721642}
+----------
+The bot is making a guess...
+THe possible candidates are: ['NANNA', 'WANNA']
+2 candidate words remaining.
+Top 10 guesses: [('NANNA', '1.000'), ('WANNA', '1.000')]
+Top entropy choice: 𝙉𝘼𝙉𝙉𝘼 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙒𝘼𝙉𝙉𝘼 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 4.858, 
+Guess: 𝙋𝘼𝙂𝘼𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 4.858, Expected Info Gain: 4.781 bits, Actual Info Gain: 1.858 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 4.781 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙒𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

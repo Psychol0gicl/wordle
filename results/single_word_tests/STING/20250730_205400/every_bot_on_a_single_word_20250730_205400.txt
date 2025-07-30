@@ -1,0 +1,250 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙄𝙉𝙂 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HOIST 
+The top ten guesses and scores: [('HOIST', 512), ('MISTO', 505), ('MOIST', 505), ('OPSIT', 504), ('PITSO', 504), ('POSIT', 504), ('SHOUT', 495), ('SOUTH', 495), ('FOIST', 494), ('STOIC', 494)]
+The bot finally chose: HOIST 
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: STILB 
+The top ten guesses and scores: [('STILB', 31), ('STINK', 31), ('STICK', 30), ('STILL', 30), ('STIMY', 30), ('STING', 30), ('STIVY', 30), ('SPITZ', 29), ('STIFF', 29)]
+The bot finally chose: STINK 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: STING 
+The top ten guesses and scores: [('STING', 5)]
+The bot finally chose: STING 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙏𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 3.5757 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.5756846871331454, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILTY with entropy: 2.7774
+Bot chose: STINK with entropy: 2.6535
+Top ten guesses: [('SILTY', 2.7773627950641693), ('STYLI', 2.7773627950641693), ('STINK', 2.6535442970305683), ('STILB', 2.5073801024236357), ('STILL', 2.5073801024236357), ('SIXTY', 2.353533948577482), ('STICK', 2.353533948577482), ('STIMY', 2.353533948577482), ('STING', 2.353533948577482), ('STIVY', 2.353533948577482)]
+
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.6535442970305683}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STING with entropy: 0.0000
+Bot chose: STING with entropy: 0.0000
+Top ten guesses: [('STING', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.576 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.700, Expected Info Gain: 2.654 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝙉𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 3.5757 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.5756846871331454, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILTY with entropy: 2.7774
+Bot chose: STINK with entropy: 2.6535
+Top ten guesses: [('SILTY', 2.7773627950641693), ('STYLI', 2.7773627950641693), ('STINK', 2.6535442970305683), ('STILB', 2.5073801024236357), ('STILL', 2.5073801024236357), ('SIXTY', 2.353533948577482), ('STICK', 2.353533948577482), ('STIMY', 2.353533948577482), ('STING', 2.353533948577482), ('STIVY', 2.353533948577482)]
+
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.6535442970305683}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STING with entropy: 0.0000
+Bot chose: STING with entropy: 0.0000
+Top ten guesses: [('STING', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.576 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.700, Expected Info Gain: 2.654 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝙉𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 252 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Ended up choosing COMMON word: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 3.5757 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.5756846871331454, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('SILTY', '2.777'), ('STYLI', '2.777'), ('STINK', '2.654'), ('STILB', '2.507'), ('STILL', '2.507')]
+Top entropy choice: 𝙎𝙄𝙇𝙏𝙔 with entropy: 2.7774
+Ended up choosing COMMON word: 𝙎𝙏𝙄𝙉𝙆 with entropy: 2.6535
+
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.6535442970305683}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('STING', '0.000')]
+Top entropy choice: 𝙎𝙏𝙄𝙉𝙂 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙏𝙄𝙉𝙂 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.576 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙏𝙄𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.700, Expected Info Gain: 2.654 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙄𝙉𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITSY', 'BLIST', 'BOOST', 'BUIST', 'BUSTI', 'BUSTY', 'COOST', 'DIDST', 'DITSY', 'DUSTY', 'FISTY', 'FOIST', 'FUSTY', 'GHOST', 'GIUST', 'GLOST', 'GOSHT', 'GUSTO', 'GUSTY', 'GUTSY', 'HOIST', 'INUST', 'JOIST', 'JOUST', 'KUSTI', 'KYDST', 'LUSTY', 'MIDST', 'MISTO', 'MISTY', 'MOIST', 'MOSTO', 'MOUST', 'MUIST', 'MUSIT', 'MUSTH', 'MUSTY', 'NOUST', 'NUTSO', 'NUTSY', 'ODIST', 'OPSIT', 'OVIST', 'PITSO', 'PITSU', 'POSIT', 'POTSY', 'PSHUT', 'PTISH', 'QUIST', 'SCOOT', 'SCOUT', 'SCUFT', 'SHIFT', 'SHIST', 'SHOOT', 'SHOTT', 'SHOUT', 'SHTIK', 'SHTUM', 'SHTUP', 'SHUNT', 'SICHT', 'SIGHT', 'SILTY', 'SITCH', 'SITUP', 'SIXTH', 'SIXTY', 'SKINT', 'SLIPT', 'SLOOT', 'SLOTH', 'SLUIT', 'SMITH', 'SMOLT', 'SMOOT', 'SMOUT', 'SMOWT', 'SNIFT', 'SNOOT', 'SNOUT', 'SOFTY', 'SOOTH', 'SOOTY', 'SOTOL', 'SOTTO', 'SOUCT', 'SOUTH', 'SOWTH', 'SPILT', 'SPITZ', 'SPLIT', 'SPOOT', 'SPOUT', 'SQUIT', 'STICH', 'STICK', 'STIFF', 'STILB', 'STILL', 'STILT', 'STIMY', 'STING', 'STINK', 'STINT', 'STIVY', 'STOCK', 'STOGY', 'STOIC', 'STOIT', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOPT', 'STOTT', 'STOUN', 'STOUP', 'STOUT', 'STOWN', 'STOWP', 'STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK', 'STUNT', 'STUSH', 'STYLI', 'STYLO', 'STYMY', 'SUINT', 'SWIFT', 'SWITH', 'SWOPT', 'SYNTH', 'VISIT', 'VISTO', 'WHIST', 'WISHT', 'XYSTI', 'YTOST', 'ZOIST']
+155 candidate words remaining.
+Top 10 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUNT', '4.690'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665'), ('MOULT', '4.655'), ('MOIST', '4.647'), ('POULT', '4.637'), ('SLUIT', '4.617')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 3.5757 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.5756846871331454, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SILTY', 'SIXTY', 'SPITZ', 'STICK', 'STIFF', 'STILB', 'STILL', 'STIMY', 'STING', 'STINK', 'STIVY', 'STYLI', 'STYMY']
+13 candidate words remaining.
+Top 10 guesses: [('LINKY', '3.239'), ('VINYL', '3.181'), ('KILTY', '3.085'), ('LINTY', '3.085'), ('BINKY', '3.027'), ('BLINY', '3.027'), ('FLYTE', '3.027'), ('GILPY', '3.027'), ('KYLIN', '3.027'), ('LINGY', '3.027')]
+Top entropy choice: 𝙇𝙄𝙉𝙆𝙔 with entropy: 3.2389
+Using common exploratory word: 𝙑𝙄𝙉𝙔𝙇 with entropy: 3.1808
+
+Guess: 𝙑𝙄𝙉𝙔𝙇, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 2.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 2.700439718141092, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STING', 'STINK']
+2 candidate words remaining.
+Top 10 guesses: [('STING', '1.000'), ('STINK', '1.000')]
+Top entropy choice: 𝙎𝙏𝙄𝙉𝙂 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙄𝙉𝙂 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.576 bits, Posterior Entropy: 3.700, 
+Guess: 𝙑𝙄𝙉𝙔𝙇, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 4.721 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

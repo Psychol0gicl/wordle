@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TANSY 
+The top ten guesses and scores: [('TANSY', 34), ('TANSU', 33), ('TAISH', 32), ('TASSO', 32), ('TASTO', 32), ('TASTY', 32), ('TASCA', 31), ('TASSA', 30)]
+The bot finally chose: TASTY 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+Guess: 𝙏𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANSY with entropy: 2.1556
+Bot chose: TASTY with entropy: 2.1556
+Top ten guesses: [('TANSY', 2.1556390622295662), ('TASSA', 2.1556390622295662), ('TASSO', 2.1556390622295662), ('TASTO', 2.1556390622295662), ('TASTY', 2.1556390622295662), ('TANSU', 1.811278124459133), ('TASCA', 1.811278124459133), ('TAISH', 1.4056390622295665)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANSY with entropy: 2.1556
+Bot chose: TASTY with entropy: 2.1556
+Top ten guesses: [('TANSY', 2.1556390622295662), ('TASSA', 2.1556390622295662), ('TASSO', 2.1556390622295662), ('TASTO', 2.1556390622295662), ('TASTY', 2.1556390622295662), ('TANSU', 1.811278124459133), ('TASCA', 1.811278124459133), ('TAISH', 1.4056390622295665)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('TANSY', '2.156'), ('TASSA', '2.156'), ('TASSO', '2.156'), ('TASTO', '2.156'), ('TASTY', '2.156')]
+Top entropy choice: 𝙏𝘼𝙉𝙎𝙔 with entropy: 2.1556
+Ended up choosing COMMON word: 𝙏𝘼𝙎𝙏𝙔 with entropy: 2.1556
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAISH', 'TANSU', 'TANSY', 'TASCA', 'TASSA', 'TASSO', 'TASTO', 'TASTY']
+8 candidate words remaining.
+Top 10 guesses: [('NOISY', '3.000'), ('NYSSA', '3.000'), ('SONSY', '3.000'), ('ASSAY', '2.750'), ('BOSSY', '2.750'), ('BOUSY', '2.750'), ('CHOSS', '2.750'), ('CHOTA', '2.750'), ('CISSY', '2.750'), ('COUTA', '2.750')]
+Top entropy choice: 𝙉𝙊𝙄𝙎𝙔 with entropy: 3.0000
+Guess count low, choosing the word with highest entropy: 𝙉𝙊𝙄𝙎𝙔 with entropy: 3.0000
+
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.0}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TASTY']
+1 candidate words remaining.
+Top 10 guesses: [('TASTY', '0.000')]
+Top entropy choice: 𝙏𝘼𝙎𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙎𝙏𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

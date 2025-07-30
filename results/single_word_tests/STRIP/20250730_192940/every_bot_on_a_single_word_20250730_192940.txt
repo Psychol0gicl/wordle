@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: WURST 
+The top ten guesses and scores: [('WURST', 62), ('HURST', 61), ('STRUM', 61), ('BURST', 60), ('CURST', 60), ('DURST', 60), ('SPRIT', 60), ('STRIP', 60), ('STROP', 60), ('STROW', 60)]
+The bot finally chose: HURST 
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: STRIP 
+The top ten guesses and scores: [('STRIP', 23), ('STROP', 23), ('STRIG', 22), ('STRIM', 22), ('STROW', 22), ('STROY', 22)]
+The bot finally chose: STRIP 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WURST with entropy: 2.8163
+Bot chose: WORST with entropy: 2.6987
+Top ten guesses: [('WURST', 2.816307519224645), ('WORST', 2.6986604604011153), ('STROW', 2.603975726610715), ('HURST', 2.5868878409958143), ('HORST', 2.5366082543914996), ('SPRIT', 2.5341468438052397), ('STROP', 2.4692407821722844), ('STRUM', 2.441923520601099), ('BURST', 2.424835634986198), ('CURST', 2.424835634986198)]
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 2.6986604604011153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STRIG with entropy: 1.5000
+Bot chose: STRIP with entropy: 1.5000
+Top ten guesses: [('STRIG', 1.5), ('STRIM', 1.5), ('STRIP', 1.5), ('STRUM', 1.5)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WURST with entropy: 2.8163
+Bot chose: WORST with entropy: 2.6987
+Top ten guesses: [('WURST', 2.816307519224645), ('WORST', 2.6986604604011153), ('STROW', 2.603975726610715), ('HURST', 2.5868878409958143), ('HORST', 2.5366082543914996), ('SPRIT', 2.5341468438052397), ('STROP', 2.4692407821722844), ('STRUM', 2.441923520601099), ('BURST', 2.424835634986198), ('CURST', 2.424835634986198)]
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 2.6986604604011153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STRIG with entropy: 1.5000
+Bot chose: STRIP with entropy: 1.5000
+Top ten guesses: [('STRIG', 1.5), ('STRIM', 1.5), ('STRIP', 1.5), ('STRUM', 1.5)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('WURST', '2.816'), ('WORST', '2.699'), ('STROW', '2.604'), ('HURST', '2.587'), ('HORST', '2.537')]
+Top entropy choice: 𝙒𝙐𝙍𝙎𝙏 with entropy: 2.8163
+Ended up choosing COMMON word: 𝙒𝙊𝙍𝙎𝙏 with entropy: 2.6987
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 2.6986604604011153}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('STRIG', '1.500'), ('STRIM', '1.500'), ('STRIP', '1.500'), ('STRUM', '1.500')]
+Top entropy choice: 𝙎𝙏𝙍𝙄𝙂 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙎𝙏𝙍𝙄𝙋 with entropy: 1.5000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BURST', 'CURST', 'DURST', 'FIRST', 'HORST', 'HURST', 'SPRIT', 'STRIG', 'STRIM', 'STRIP', 'STROP', 'STROW', 'STROY', 'STRUM', 'STRUT', 'WORST', 'WURST']
+17 candidate words remaining.
+Top 10 guesses: [('WHUMP', '3.220'), ('PIYUT', '3.169'), ('SCOUP', '3.146'), ('WHIPT', '3.146'), ('SCOWP', '3.146'), ('CHOUT', '3.131'), ('OUCHT', '3.131'), ('CUBIT', '3.131'), ('SWOPT', '3.125'), ('UPBOW', '3.125')]
+Top entropy choice: 𝙒𝙃𝙐𝙈𝙋 with entropy: 3.2195
+Guess count low, choosing the word with highest entropy: 𝙒𝙃𝙐𝙈𝙋 with entropy: 3.2195
+
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.2195282822995477}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STRIP', 'STROP']
+2 candidate words remaining.
+Top 10 guesses: [('STRIP', '1.000'), ('STROP', '1.000')]
+Top entropy choice: 𝙎𝙏𝙍𝙄𝙋 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙍𝙄𝙋 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 3.220 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

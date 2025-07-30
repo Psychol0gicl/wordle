@@ -1,0 +1,243 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙀𝙉𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: LENDS 
+The top ten guesses and scores: [('LENDS', 1006), ('LENIS', 1000), ('LIENS', 1000), ('NELIS', 1000), ('DEILS', 991), ('DELIS', 991), ('DIELS', 991), ('EILDS', 991), ('ENOLS', 991), ('LENOS', 991)]
+The bot finally chose: LENDS 
+Guess: 𝙇𝙀𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: FENIS 
+The top ten guesses and scores: [('FENIS', 35), ('FENKS', 35), ('GENUS', 35), ('MENUS', 35), ('PENIS', 35), ('PENKS', 35), ('BENIS', 34), ('KENOS', 34), ('MENGS', 34), ('VENUS', 34)]
+The bot finally chose: GENUS 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙇𝙀𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙂𝙀𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙀𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 5.5549 bits
+Posterior entropy: 8.303780748177102
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.303780748177102, 'actual_info_gain': 5.554880236545674, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEILS with entropy: 3.8970
+Bot chose: DEILS with entropy: 3.8970
+Top ten guesses: [('DEILS', 3.896984892855821), ('DIELS', 3.885904934718695), ('NOELS', 3.8255822471402143), ('LENDS', 3.8123040560482218), ('LIENS', 3.801843551437741), ('DELIS', 3.791148483262635), ('NELIS', 3.7777987965844253), ('DELOS', 3.726640623302039), ('LENIS', 3.726121050947497), ('PEELS', 3.718837734813096)]
+
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.9287 bits
+Posterior entropy: 6.3750394313469245
+entropy_info: {'prior_entropy': 8.303780748177102, 'posterior_entropy': 6.3750394313469245, 'actual_info_gain': 1.9287413168301777, 'expected_info_gain': 3.896984892855821}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PENKS with entropy: 3.2519
+Bot chose: PENKS with entropy: 3.2519
+Top ten guesses: [('PENKS', 3.2518586837932855), ('KEENS', 3.2131205483894063), ('NEEMS', 3.1202116695000823), ('NEEPS', 3.102511300964083), ('PEENS', 3.100698417137181), ('PEEKS', 3.0731785495067196), ('KEMPS', 3.055150785140613), ('KEEPS', 3.0486110794186745), ('NEUKS', 3.048434776583099), ('KENOS', 2.943176736214794)]
+
+Guess: 𝙋𝙀𝙉𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.3750 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.3750394313469245, 'posterior_entropy': 2.0, 'actual_info_gain': 4.3750394313469245, 'expected_info_gain': 3.2518586837932855}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MENGS with entropy: 2.0000
+Bot chose: GENUS with entropy: 1.5000
+Top ten guesses: [('MENGS', 2.0), ('GENUS', 1.5), ('MENUS', 1.5), ('VENUS', 1.5)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.304, Expected Info Gain: 3.897 bits, Actual Info Gain: 1.929 bits, Posterior Entropy: 6.375, 
+Guess: 𝙋𝙀𝙉𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.375, Expected Info Gain: 3.252 bits, Actual Info Gain: 4.375 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝙀𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙀𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 5.5549 bits
+Posterior entropy: 8.303780748177102
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.303780748177102, 'actual_info_gain': 5.554880236545674, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEILS with entropy: 3.8970
+Bot chose: DEILS with entropy: 3.8970
+Top ten guesses: [('DEILS', 3.896984892855821), ('DIELS', 3.885904934718695), ('NOELS', 3.8255822471402143), ('LENDS', 3.8123040560482218), ('LIENS', 3.801843551437741), ('DELIS', 3.791148483262635), ('NELIS', 3.7777987965844253), ('DELOS', 3.726640623302039), ('LENIS', 3.726121050947497), ('PEELS', 3.718837734813096)]
+
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.9287 bits
+Posterior entropy: 6.3750394313469245
+entropy_info: {'prior_entropy': 8.303780748177102, 'posterior_entropy': 6.3750394313469245, 'actual_info_gain': 1.9287413168301777, 'expected_info_gain': 3.896984892855821}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PENKS with entropy: 3.2519
+Bot chose: PENKS with entropy: 3.2519
+Top ten guesses: [('PENKS', 3.2518586837932855), ('KEENS', 3.2131205483894063), ('NEEMS', 3.1202116695000823), ('NEEPS', 3.102511300964083), ('PEENS', 3.100698417137181), ('PEEKS', 3.0731785495067196), ('KEMPS', 3.055150785140613), ('KEEPS', 3.0486110794186745), ('NEUKS', 3.048434776583099), ('KENOS', 2.943176736214794)]
+
+Guess: 𝙋𝙀𝙉𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.3750 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.3750394313469245, 'posterior_entropy': 2.0, 'actual_info_gain': 4.3750394313469245, 'expected_info_gain': 3.2518586837932855}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MENGS with entropy: 2.0000
+Bot chose: GENUS with entropy: 1.5000
+Top ten guesses: [('MENGS', 2.0), ('GENUS', 1.5), ('MENUS', 1.5), ('VENUS', 1.5)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.304, Expected Info Gain: 3.897 bits, Actual Info Gain: 1.929 bits, Posterior Entropy: 6.375, 
+Guess: 𝙋𝙀𝙉𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.375, Expected Info Gain: 3.252 bits, Actual Info Gain: 4.375 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝙀𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙀𝙉𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 5.5549 bits
+Posterior entropy: 8.303780748177102
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.303780748177102, 'actual_info_gain': 5.554880236545674, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 316 remaining candidates...
+Top 5 guesses: [('FIELD', '4.202'), ('DOING', '3.922'), ('DEILS', '3.897'), ('DIELS', '3.886'), ('SPEND', '3.853')]
+Top entropy choice: 𝙁𝙄𝙀𝙇𝘿 with entropy: 4.2020
+Ended up choosing COMMON word: 𝙁𝙄𝙀𝙇𝘿 with entropy: 4.2020
+
+Guess: 𝙁𝙄𝙀𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.3969 bits
+Posterior entropy: 5.906890595608519
+entropy_info: {'prior_entropy': 8.303780748177102, 'posterior_entropy': 5.906890595608519, 'actual_info_gain': 2.3968901525685835, 'expected_info_gain': 4.202024247231284}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 160 potential guesses from 60 remaining candidates...
+Top 5 guesses: [('YOUNG', '3.886'), ('MENUS', '3.733'), ('AMONG', '3.684'), ('NEUKS', '3.612'), ('NEUMS', '3.570')]
+Top entropy choice: 𝙔𝙊𝙐𝙉𝙂 with entropy: 3.8865
+Ended up choosing COMMON word: 𝙔𝙊𝙐𝙉𝙂 with entropy: 3.8865
+
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 4.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.906890595608519, 'posterior_entropy': 1.0, 'actual_info_gain': 4.906890595608519, 'expected_info_gain': 3.8864717320318856}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('GENUS', '1.000'), ('NEGUS', '1.000')]
+Top entropy choice: 𝙂𝙀𝙉𝙐𝙎 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙂𝙀𝙉𝙐𝙎 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝙁𝙄𝙀𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.304, Expected Info Gain: 4.202 bits, Actual Info Gain: 2.397 bits, Posterior Entropy: 5.907, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 5.907, Expected Info Gain: 3.886 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙀𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙀𝙉𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 5.5549 bits
+Posterior entropy: 8.303780748177102
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.303780748177102, 'actual_info_gain': 5.554880236545674, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BECKS', 'BEEFS', 'BEEPS', 'BEINS', 'BELLS', 'BENDS', 'BENIS', 'BHELS', 'BLEBS', 'BLESS', 'BLEYS', 'BOEPS', 'CEDIS', 'CEILS', 'CELLS', 'CHEFS', 'CHEMS', 'CHESS', 'CHEWS', 'CIELS', 'CLEFS', 'CLEGS', 'CLEMS', 'CLEWS', 'COEDS', 'DEBUS', 'DECKS', 'DECOS', 'DEEDS', 'DEEMS', 'DEENS', 'DEEPS', 'DEEVS', 'DEFIS', 'DEGUS', 'DEIDS', 'DEILS', 'DELFS', 'DELIS', 'DELLS', 'DELOS', 'DEMOS', 'DENIS', 'DESIS', 'DESKS', 'DEVIS', 'DEVOS', 'DEXYS', 'DIEBS', 'DIELS', 'DOEKS', 'DUELS', 'EBONS', 'ECHOS', 'ECIGS', 'EEVNS', 'EIDOS', 'EILDS', 'ELOPS', 'EMBUS', 'EMEUS', 'EMICS', 'EMMYS', 'EMYDS', 'ENEWS', 'ENOLS', 'ENOWS', 'EPICS', 'EUGHS', 'EVEGS', 'EVENS', 'EVILS', 'EXECS', 'EXONS', 'EXPOS', 'EXULS', 'FECKS', 'FEEBS', 'FEEDS', 'FEELS', 'FEENS', 'FELLS', 'FENDS', 'FENIS', 'FENKS', 'FEODS', 'FEUDS', 'FIEFS', 'FLEGS', 'FLEWS', 'FLEYS', 'FUELS', 'GECKS', 'GEEKS', 'GEEPS', 'GELDS', 'GENUS', 'GEUMS', 'GLEDS', 'GLEIS', 'GLENS', 'GLEYS', 'GOELS', 'GUESS', 'HECKS', 'HEEDS', 'HEELS', 'HEIDS', 'HEILS', 'HELLS', 'HELMS', 'HELOS', 'HELPS', 'HEMPS', 'HENDS', 'HESPS', 'HIEMS', 'HYENS', 'ILEUS', 'JEDIS', 'JEELS', 'JEEPS', 'JEFFS', 'JEHUS', 'JELLS', 'JEONS', 'JESUS', 'JOEYS', 'KECKS', 'KEEFS', 'KEEKS', 'KEELS', 'KEENS', 'KEEPS', 'KELLS', 'KELPS', 'KEMBS', 'KEMPS', 'KENOS', 'KEPIS', 'KIEFS', 'KIEVS', 'KOELS', 'LEEKS', 'LEEPS', 'LENDS', 'LENGS', 'LENIS', 'LENOS', 'LESOS', 'LEUDS', 'LEVIS', 'LEWIS', 'LEXIS', 'LIEFS', 'LIENS', 'LIEUS', 'LOESS', 'LWEIS', 'MEBOS', 'MECHS', 'MECKS', 'MEEDS', 'MEEPS', 'MEFFS', 'MEIDS', 'MEILS', 'MEINS', 'MELDS', 'MELLS', 'MELOS', 'MEMOS', 'MENDS', 'MENGS', 'MENUS', 'MEOUS', 'MEOWS', 'MEUMS', 'MEWLS', 'MIENS', 'NECKS', 'NEEBS', 'NEEDS', 'NEEFS', 'NEEMS', 'NEEPS', 'NEGUS', 'NEIFS', 'NELIS', 'NEMNS', 'NEONS', 'NEUKS', 'NEUMS', 'NEVIS', 'NEVUS', 'NEWBS', 'NEXUS', 'NIEFS', 'NIESS', 'NOELS', 'OBEYS', 'OKEHS', 'OLEHS', 'OLEOS', 'OMENS', 'OPENS', 'OSEYS', 'OUEDS', 'OUENS', 'OVELS', 'OVENS', 'PECHS', 'PECKS', 'PEDIS', 'PEDOS', 'PEEKS', 'PEELS', 'PEENS', 'PEEPS', 'PEGHS', 'PEGOS', 'PEINS', 'PELFS', 'PELLS', 'PELUS', 'PENDS', 'PENIS', 'PENKS', 'PEONS', 'PEPOS', 'PESOS', 'PIEDS', 'PLEBS', 'PLEWS', 'PNEUS', 'POEMS', 'POEPS', 'QUEYS', 'SECHS', 'SEEDS', 'SEEKS', 'SEELS', 'SEEMS', 'SEEPS', 'SEGOS', 'SEIFS', 'SEILS', 'SEKOS', 'SELFS', 'SELLS', 'SEMIS', 'SENDS', 'SHEDS', 'SHEWS', 'SIENS', 'SKEDS', 'SKEGS', 'SKENS', 'SKEOS', 'SKEPS', 'SKEWS', 'SLEBS', 'SLEDS', 'SLEWS', 'SLEYS', 'SMEWS', 'SNEBS', 'SNEDS', 'SPECS', 'SPEKS', 'SPEOS', 'SPEWS', 'SWEYS', 'SYEDS', 'SYENS', 'USENS', 'VEEPS', 'VEGOS', 'VEILS', 'VEINS', 'VELDS', 'VELLS', 'VENDS', 'VENUS', 'VIEWS', 'VLEIS', 'WEEDS', 'WEEIS', 'WEEKS', 'WEELS', 'WEEMS', 'WEENS', 'WEEPS', 'WEIDS', 'WEILS', 'WELDS', 'WELKS', 'WELLS', 'WEMBS', 'WENDS', 'WHENS', 'WHEWS', 'WHEYS', 'WIELS', 'YECHS', 'YEEDS', 'YEGGS', 'YELKS', 'YELLS', 'YELMS', 'YELPS', 'YESKS', 'YEUKS', 'YLEMS', 'ZEBUS', 'ZEINS']
+316 candidate words remaining.
+Top 10 guesses: [('NEELD', '4.541'), ('DINLO', '4.453'), ('PLEIN', '4.419'), ('PLENO', '4.370'), ('OLEIN', '4.317'), ('PLINK', '4.309'), ('PILON', '4.305'), ('PLEON', '4.279'), ('PELON', '4.259'), ('MENIL', '4.255')]
+Top entropy choice: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.5411
+Guess count low, choosing the word with highest entropy: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.5411
+
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 4.2163 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.303780748177102, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.216317906926763, 'expected_info_gain': 4.541062196151988}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEINS', 'BENIS', 'FENIS', 'FENKS', 'GENUS', 'JEONS', 'KENOS', 'MEINS', 'MENGS', 'MENUS', 'PEINS', 'PENIS', 'PENKS', 'PEONS', 'VEINS', 'VENUS', 'ZEINS']
+17 candidate words remaining.
+Top 10 guesses: [('OPIUM', '3.455'), ('PUNIM', '3.455'), ('GOPIK', '3.382'), ('GUIMP', '3.293'), ('PUNGI', '3.264'), ('PINGO', '3.220'), ('PRIMO', '3.175'), ('PUMIE', '3.175'), ('SKIMP', '3.175'), ('UMPIE', '3.175')]
+Top entropy choice: 𝙊𝙋𝙄𝙐𝙈 with entropy: 3.4548
+Using common exploratory word: 𝙊𝙋𝙄𝙐𝙈 with entropy: 3.4548
+
+Guess: 𝙊𝙋𝙄𝙐𝙈, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 4.541062196151988}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GENUS', 'VENUS']
+2 candidate words remaining.
+Top 10 guesses: [('GENUS', '1.000'), ('VENUS', '1.000')]
+Top entropy choice: 𝙂𝙀𝙉𝙐𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝙀𝙉𝙐𝙎 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.304, Expected Info Gain: 4.541 bits, Actual Info Gain: 4.216 bits, Posterior Entropy: 4.087, 
+Guess: 𝙊𝙋𝙄𝙐𝙈, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 4.541 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙀𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

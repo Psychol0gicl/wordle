@@ -1,0 +1,303 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝘾𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GAPER 
+The top ten guesses and scores: [('GAPER', 311), ('PAGER', 311), ('RAGED', 311), ('LAGER', 310), ('RAPED', 310), ('LADER', 309), ('PALER', 309), ('PAVER', 308), ('RAVED', 308), ('VAPER', 308)]
+The bot finally chose: PAGER 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: LAKER 
+The top ten guesses and scores: [('LAKER', 159), ('LAWER', 157), ('WALER', 157), ('LACER', 156), ('LAVER', 156), ('WAKER', 156), ('FAKER', 154), ('LADER', 154), ('LAMER', 154), ('BALER', 153)]
+The bot finally chose: LAKER 
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CAVER 
+The top ten guesses and scores: [('CAVER', 89), ('FACER', 88), ('FAVER', 88), ('WAVER', 88), ('WAFER', 87), ('HAVER', 86), ('MACER', 86), ('CABER', 85), ('CANER', 85), ('FADER', 85)]
+The bot finally chose: WAVER 
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FACER 
+The top ten guesses and scores: [('FACER', 52), ('MACER', 52), ('CABER', 51), ('CANER', 51), ('MAZER', 51), ('DAZER', 50), ('FAYER', 50), ('HAZER', 50), ('BAYER', 49), ('FADER', 49)]
+The bot finally chose: BAYER 
+Guess: 𝘽𝘼𝙔𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MACER 
+The top ten guesses and scores: [('MACER', 39), ('MAZER', 39), ('CANER', 38), ('DAZER', 38), ('FACER', 38), ('HAZER', 37), ('NAMER', 37), ('FADER', 36), ('RACER', 36), ('RAZER', 36)]
+The bot finally chose: FADER 
+Game Over! You ran out of guesses.
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝘼𝙔𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝘾𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 2.3166
+Bot chose: PAGER with entropy: 2.3007
+Top ten guesses: [('GAPER', 2.3165608808580505), ('PAGER', 2.3007211410488058), ('LAGER', 2.2828863711069616), ('PALER', 2.245889999636617), ('RAGED', 2.238200369323572), ('RAPED', 2.2154160256120425), ('CAGER', 2.188957984146004), ('CAPER', 2.171436084504522), ('PACER', 2.168135015692553), ('LACER', 2.14745829403843)]
+
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 1.0, 'expected_info_gain': 2.3007211410488058}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAWER with entropy: 1.7857
+Bot chose: LAKER with entropy: 1.7555
+Top ten guesses: [('LAWER', 1.7857250848360773), ('WALER', 1.7857250848360773), ('LACER', 1.7708382204712227), ('LAKER', 1.7554589598451324), ('LAVER', 1.6344745841075865), ('LADER', 1.6119811455630637), ('LAMER', 1.594824611422985), ('WAKER', 1.5839559812320412), ('BALER', 1.4774607579951256), ('WAVER', 1.4520194971141314)]
+
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.7554589598451324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FACER with entropy: 1.8844
+Bot chose: WAVER with entropy: 1.6822
+Top ten guesses: [('FACER', 1.8844315043405981), ('CAVER', 1.815368987703053), ('FAVER', 1.6821501304958755), ('WAVER', 1.6821501304958755), ('RACER', 1.6635819199522097), ('MACER', 1.6368421881310118), ('WAFER', 1.6117022325423545), ('FADER', 1.4915560089120214), ('WADER', 1.4915560089120212), ('RAVER', 1.4613005461074873)]
+
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7776 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 0.7776075786635519, 'expected_info_gain': 1.6821501304958755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MACER with entropy: 2.1180
+Bot chose: RACER with entropy: 1.8074
+Top ten guesses: [('MACER', 2.1179631753145163), ('FACER', 1.9751060324573735), ('RACER', 1.8073549220576042), ('CABER', 1.753434386188785), ('CANER', 1.7534343861887849), ('MAZER', 1.7534343861887849), ('FAYER', 1.4838317068446891), ('DAZER', 1.4299111709758698), ('HAZER', 1.4299111709758698), ('RAZER', 1.4299111709758698)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 5.459, 
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 1.755 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 4.585, 
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 1.682 bits, Actual Info Gain: 0.778 bits, Posterior Entropy: 3.807, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘾𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 2.3166
+Bot chose: PAGER with entropy: 2.3007
+Top ten guesses: [('GAPER', 2.3165608808580505), ('PAGER', 2.3007211410488058), ('LAGER', 2.2828863711069616), ('PALER', 2.245889999636617), ('RAGED', 2.238200369323572), ('RAPED', 2.2154160256120425), ('CAGER', 2.188957984146004), ('CAPER', 2.171436084504522), ('PACER', 2.168135015692553), ('LACER', 2.14745829403843)]
+
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 1.0, 'expected_info_gain': 2.3007211410488058}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAWER with entropy: 1.7857
+Bot chose: LAKER with entropy: 1.7555
+Top ten guesses: [('LAWER', 1.7857250848360773), ('WALER', 1.7857250848360773), ('LACER', 1.7708382204712227), ('LAKER', 1.7554589598451324), ('LAVER', 1.6344745841075865), ('LADER', 1.6119811455630637), ('LAMER', 1.594824611422985), ('WAKER', 1.5839559812320412), ('BALER', 1.4774607579951256), ('WAVER', 1.4520194971141314)]
+
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.7554589598451324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FACER with entropy: 1.8844
+Bot chose: WAVER with entropy: 1.6822
+Top ten guesses: [('FACER', 1.8844315043405981), ('CAVER', 1.815368987703053), ('FAVER', 1.6821501304958755), ('WAVER', 1.6821501304958755), ('RACER', 1.6635819199522097), ('MACER', 1.6368421881310118), ('WAFER', 1.6117022325423545), ('FADER', 1.4915560089120214), ('WADER', 1.4915560089120212), ('RAVER', 1.4613005461074873)]
+
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.7776 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 0.7776075786635519, 'expected_info_gain': 1.6821501304958755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MACER with entropy: 2.1180
+Bot chose: RACER with entropy: 1.8074
+Top ten guesses: [('MACER', 2.1179631753145163), ('FACER', 1.9751060324573735), ('RACER', 1.8073549220576042), ('CABER', 1.753434386188785), ('CANER', 1.7534343861887849), ('MAZER', 1.7534343861887849), ('FAYER', 1.4838317068446891), ('DAZER', 1.4299111709758698), ('HAZER', 1.4299111709758698), ('RAZER', 1.4299111709758698)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 5.459, 
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 1.755 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 4.585, 
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 1.682 bits, Actual Info Gain: 0.778 bits, Posterior Entropy: 3.807, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘾𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 188 potential guesses from 88 remaining candidates...
+Top 5 guesses: [('CHILD', '2.340'), ('GAPER', '2.317'), ('PAGER', '2.301'), ('PLACE', '2.291'), ('LAGER', '2.283')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 2.3402
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 2.3402
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 4.459431618637297, 'expected_info_gain': 2.340153484362001}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FACER', '0.811'), ('MACER', '0.811'), ('PACER', '0.811'), ('RACER', '0.811')]
+Top entropy choice: 𝙁𝘼𝘾𝙀𝙍 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙋𝘼𝘾𝙀𝙍 with entropy: 0.8113
+
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('FACER', '0.918'), ('MACER', '0.918'), ('RACER', '0.918')]
+Top entropy choice: 𝙁𝘼𝘾𝙀𝙍 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙍𝘼𝘾𝙀𝙍 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.459, Expected Info Gain: 2.340 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝘼𝘾𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘾𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAKER', 'BALER', 'BAYER', 'CABER', 'CAGER', 'CANER', 'CAPER', 'CAVER', 'DAKER', 'DAZER', 'EAGER', 'EAVER', 'FACER', 'FADER', 'FAKER', 'FAVER', 'FAYER', 'GAGER', 'GAMER', 'GAPER', 'GAYER', 'GAZER', 'HALER', 'HAVER', 'HAYER', 'HAZER', 'JAGER', 'JAKER', 'JAPER', 'LACER', 'LADER', 'LAGER', 'LAKER', 'LAMER', 'LAVER', 'LAWER', 'LAXER', 'LAYER', 'MACER', 'MAKER', 'MAZER', 'NAKER', 'NAMER', 'OAKER', 'PACER', 'PAGER', 'PALER', 'PAPER', 'PAVER', 'PAWER', 'PAYER', 'RACED', 'RACER', 'RAFEE', 'RAGED', 'RAGEE', 'RAGER', 'RAHED', 'RAKED', 'RAKEE', 'RAKER', 'RAMEE', 'RAMEN', 'RANED', 'RANEE', 'RAPED', 'RAPEE', 'RAPER', 'RAVED', 'RAVEL', 'RAVEN', 'RAVER', 'RAVEY', 'RAWER', 'RAXED', 'RAYED', 'RAZED', 'RAZEE', 'RAZER', 'VAPER', 'WADER', 'WAFER', 'WAGER', 'WAKER', 'WALER', 'WAVER', 'WAXER', 'YAGER']
+88 candidate words remaining.
+Top 10 guesses: [('GLYPH', '2.823'), ('CLYPE', '2.771'), ('GOLDY', '2.755'), ('PODGY', '2.753'), ('GODLY', '2.726'), ('DOGLY', '2.713'), ('REPLY', '2.685'), ('REPEG', '2.679'), ('PUDGY', '2.675'), ('PYGAL', '2.658')]
+Top entropy choice: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.8229
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.8229
+
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.1019 bits
+Posterior entropy: 5.357552004618084
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 5.357552004618084, 'actual_info_gain': 1.1018796140192135, 'expected_info_gain': 2.822905015819318}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAKER', 'CABER', 'CANER', 'CAVER', 'DAKER', 'DAZER', 'EAVER', 'FACER', 'FADER', 'FAKER', 'FAVER', 'JAKER', 'MACER', 'MAKER', 'MAZER', 'NAKER', 'NAMER', 'OAKER', 'RACED', 'RACER', 'RAFEE', 'RAKED', 'RAKEE', 'RAKER', 'RAMEE', 'RAMEN', 'RANED', 'RANEE', 'RAVED', 'RAVEN', 'RAVER', 'RAWER', 'RAXED', 'RAZED', 'RAZEE', 'RAZER', 'WADER', 'WAFER', 'WAKER', 'WAVER', 'WAXER']
+41 candidate words remaining.
+Top 10 guesses: [('KNOWD', '3.084'), ('ROWND', '3.018'), ('KNEED', '3.004'), ('EWKED', '2.983'), ('REKED', '2.978'), ('RANKE', '2.906'), ('NEWED', '2.886'), ('RONDE', '2.874'), ('KYNDE', '2.818'), ('MEVED', '2.807')]
+Top entropy choice: 𝙆𝙉𝙊𝙒𝘿 with entropy: 3.0838
+
+Guess: 𝙆𝙉𝙊𝙒𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.6571 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 5.357552004618084, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.6571122864769916, 'expected_info_gain': 3.083768301823012}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CABER', 'CAVER', 'EAVER', 'FACER', 'FAVER', 'MACER', 'MAZER', 'RACER', 'RAFEE', 'RAMEE', 'RAVER', 'RAZEE', 'RAZER']
+13 candidate words remaining.
+Top 10 guesses: [('CEZVE', '2.873'), ('CREME', '2.873'), ('EMCEE', '2.873'), ('COMBE', '2.777'), ('COMFY', '2.777'), ('CEAZE', '2.719'), ('FEMIC', '2.719'), ('MAFIC', '2.719'), ('RECCE', '2.719'), ('RECEP', '2.719')]
+Top entropy choice: 𝘾𝙀𝙕𝙑𝙀 with entropy: 2.8731
+Using common exploratory word: 𝘾𝙍𝙀𝙈𝙀 with entropy: 2.8731
+
+Guess: 𝘾𝙍𝙀𝙈𝙀, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 2.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 2.700439718141092, 'expected_info_gain': 3.083768301823012}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FACER', 'RACER']
+2 candidate words remaining.
+Top 10 guesses: [('FACER', '1.000'), ('RACER', '1.000')]
+Top entropy choice: 𝙁𝘼𝘾𝙀𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝘼𝘾𝙀𝙍 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.459, Expected Info Gain: 2.823 bits, Actual Info Gain: 1.102 bits, Posterior Entropy: 5.358, 
+Guess: 𝙆𝙉𝙊𝙒𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.358, Expected Info Gain: 3.084 bits, Actual Info Gain: 1.657 bits, Posterior Entropy: 3.700, 
+Guess: 𝘾𝙍𝙀𝙈𝙀, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 3.084 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

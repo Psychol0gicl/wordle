@@ -1,0 +1,263 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: EIRON 
+The top ten guesses and scores: [('EIRON', 350), ('NORIE', 350), ('OURIE', 346), ('KYRIE', 343), ('PEROG', 342), ('PORGE', 342), ('DERPY', 338), ('PERDY', 338), ('PERVO', 338), ('DERIG', 337)]
+The bot finally chose: KYRIE 
+Guess: 𝙆𝙔𝙍𝙄𝙀, Feedback: ⬜🟨🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DERPY 
+The top ten guesses and scores: [('DERPY', 85), ('PERDY', 85), ('DERBY', 84), ('DERNY', 84), ('NERDY', 84), ('PERMY', 83), ('PERVY', 82), ('FERNY', 81), ('NERVY', 81), ('BERYL', 80)]
+The bot finally chose: DERBY 
+Guess: 𝘿𝙀𝙍𝘽𝙔, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: PERMY 
+The top ten guesses and scores: [('PERMY', 52), ('PERVY', 51), ('FERNY', 50), ('GERMY', 50), ('MERCY', 50), ('NERVY', 50), ('FERLY', 49), ('MERRY', 49), ('FERRY', 48), ('PERRY', 48)]
+The bot finally chose: MERCY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝙆𝙔𝙍𝙄𝙀, Feedback: ⬜🟨🟩⬜🟨
+Guess: 𝘿𝙀𝙍𝘽𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0385 bits
+Posterior entropy: 6.820178962415188
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.820178962415188, 'actual_info_gain': 7.038482022307589, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RORIE with entropy: 3.4995
+Bot chose: BORNE with entropy: 3.1915
+Top ten guesses: [('RORIE', 3.4995296454213394), ('NORIE', 3.4680383010193387), ('PIRRE', 3.327622158916211), ('DIRGE', 3.2512247325125476), ('OURIE', 3.22592516146086), ('BORDE', 3.220988692619381), ('DERNY', 3.204297678903109), ('MORNE', 3.203375549672435), ('RERIG', 3.199934370719201), ('BORNE', 3.1915045784897877)]
+
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 1.8660 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 6.820178962415188, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 1.865982652028313, 'expected_info_gain': 3.1915045784897877}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PERMY with entropy: 2.9931
+Bot chose: MERRY with entropy: 2.7831
+Top ten guesses: [('PERMY', 2.9930999387910293), ('MERRY', 2.78313279719957), ('DERPY', 2.7701565600832136), ('PERRY', 2.7601313932577294), ('DERRY', 2.7073742312125773), ('PERDY', 2.7056404310509556), ('MERCY', 2.6666927818951565), ('PERKY', 2.6376305836731624), ('PERIL', 2.4935293769193296), ('MERIL', 2.471361248750486)]
+
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 4.9542 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 0.0, 'actual_info_gain': 4.954196310386875, 'expected_info_gain': 2.78313279719957}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MERCY with entropy: 0.0000
+Bot chose: MERCY with entropy: 0.0000
+Top ten guesses: [('MERCY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.192 bits, Actual Info Gain: 1.866 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.954, Expected Info Gain: 2.783 bits, Actual Info Gain: 4.954 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0385 bits
+Posterior entropy: 6.820178962415188
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.820178962415188, 'actual_info_gain': 7.038482022307589, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RORIE with entropy: 3.4995
+Bot chose: BORNE with entropy: 3.1915
+Top ten guesses: [('RORIE', 3.4995296454213394), ('NORIE', 3.4680383010193387), ('PIRRE', 3.327622158916211), ('DIRGE', 3.2512247325125476), ('OURIE', 3.22592516146086), ('BORDE', 3.220988692619381), ('DERNY', 3.204297678903109), ('MORNE', 3.203375549672435), ('RERIG', 3.199934370719201), ('BORNE', 3.1915045784897877)]
+
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 1.8660 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 6.820178962415188, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 1.865982652028313, 'expected_info_gain': 3.1915045784897877}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PERMY with entropy: 2.9931
+Bot chose: MERRY with entropy: 2.7831
+Top ten guesses: [('PERMY', 2.9930999387910293), ('MERRY', 2.78313279719957), ('DERPY', 2.7701565600832136), ('PERRY', 2.7601313932577294), ('DERRY', 2.7073742312125773), ('PERDY', 2.7056404310509556), ('MERCY', 2.6666927818951565), ('PERKY', 2.6376305836731624), ('PERIL', 2.4935293769193296), ('MERIL', 2.471361248750486)]
+
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 4.9542 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 0.0, 'actual_info_gain': 4.954196310386875, 'expected_info_gain': 2.78313279719957}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MERCY with entropy: 0.0000
+Bot chose: MERCY with entropy: 0.0000
+Top ten guesses: [('MERCY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.192 bits, Actual Info Gain: 1.866 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.954, Expected Info Gain: 2.783 bits, Actual Info Gain: 4.954 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0385 bits
+Posterior entropy: 6.820178962415188
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.820178962415188, 'actual_info_gain': 7.038482022307589, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 213 potential guesses from 113 remaining candidates...
+Top 5 guesses: [('DOING', '3.795'), ('BEING', '3.558'), ('RORIE', '3.500'), ('YOUNG', '3.495'), ('PHONE', '3.492')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 3.7954
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 3.7954
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.6909 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 6.820178962415188, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 1.6908959454702215, 'expected_info_gain': 3.7953508161269762}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('MERRY', '3.282'), ('PERKY', '3.275'), ('KERRY', '3.243'), ('PERVY', '3.234'), ('VERRY', '3.199')]
+Top entropy choice: 𝙈𝙀𝙍𝙍𝙔 with entropy: 3.2815
+Ended up choosing COMMON word: 𝙈𝙀𝙍𝙍𝙔 with entropy: 3.2815
+
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 0.0, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 3.2815391751433336}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('MERCY', '0.000')]
+Top entropy choice: 𝙈𝙀𝙍𝘾𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙈𝙀𝙍𝘾𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.820, Expected Info Gain: 3.795 bits, Actual Info Gain: 1.691 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.129, Expected Info Gain: 3.282 bits, Actual Info Gain: 5.129 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙀𝙍𝘾𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 7.0385 bits
+Posterior entropy: 6.820178962415188
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.820178962415188, 'actual_info_gain': 7.038482022307589, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERKO', 'BERME', 'BEROB', 'BERRY', 'BERYL', 'BIRLE', 'BIRZE', 'BORDE', 'BORNE', 'BURKE', 'CERCI', 'CERGE', 'CERIC', 'CERNE', 'CEROC', 'CORBE', 'CURIE', 'CURVE', 'DERBY', 'DERIG', 'DERNY', 'DERPY', 'DERRO', 'DERRY', 'DIRGE', 'DIRKE', 'DORJE', 'EERIE', 'EIRON', 'ENROL', 'ERROR', 'EYRIE', 'EYRIR', 'FERLY', 'FERMI', 'FERNY', 'FEROX', 'FERRY', 'FIRIE', 'FORCE', 'FORGE', 'FORME', 'FORZE', 'FURZE', 'GERBE', 'GERLE', 'GERMY', 'GERNE', 'GORGE', 'GURGE', 'HERBY', 'HERON', 'HERRY', 'HERYE', 'HORDE', 'HORME', 'JERID', 'JERKY', 'JERRY', 'JIRRE', 'KERKY', 'KERNE', 'KERRY', 'KERVE', 'KURRE', 'KYRIE', 'LURVE', 'MERCH', 'MERCY', 'MERDE', 'MERGE', 'MERIL', 'MERLE', 'MERRY', 'MORNE', 'MURRE', 'NERDY', 'NEROL', 'NERVE', 'NERVY', 'NORIE', 'OORIE', 'OURIE', 'OWRIE', 'PERCE', 'PERCH', 'PERDU', 'PERDY', 'PERIL', 'PERKY', 'PERLE', 'PERMY', 'PERNE', 'PEROG', 'PERRY', 'PERVE', 'PERVO', 'PERVY', 'PIRRE', 'PORGE', 'PURGE', 'PURRE', 'RERIG', 'RERUN', 'RORIE', 'VERDE', 'VERGE', 'VERRE', 'VERRY', 'VERVE', 'VIRGE', 'XERIC', 'XEROX']
+113 candidate words remaining.
+Top 10 guesses: [('DOGIE', '3.963'), ('DOBIE', '3.947'), ('DOVIE', '3.911'), ('MONIE', '3.904'), ('COGIE', '3.903'), ('BONIE', '3.902'), ('BOGIE', '3.884'), ('POKIE', '3.878'), ('GIPON', '3.872'), ('DOLIE', '3.872')]
+Top entropy choice: 𝘿𝙊𝙂𝙄𝙀 with entropy: 3.9627
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙂𝙄𝙀 with entropy: 3.9627
+
+Guess: 𝘿𝙊𝙂𝙄𝙀, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.3607 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 6.820178962415188, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 2.3607473437778905, 'expected_info_gain': 3.9626500565177647}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERRY', 'BERYL', 'FERLY', 'FERNY', 'FERRY', 'HERBY', 'HERRY', 'JERKY', 'JERRY', 'KERKY', 'KERRY', 'MERCH', 'MERCY', 'MERRY', 'NERVY', 'PERCH', 'PERKY', 'PERMY', 'PERRY', 'PERVY', 'RERUN', 'VERRY']
+22 candidate words remaining.
+Top 10 guesses: [('PHARM', '2.948'), ('KEMPY', '2.890'), ('VAMPY', '2.768'), ('PINKY', '2.765'), ('PUNKY', '2.765'), ('MANKY', '2.765'), ('NYMPH', '2.765'), ('BUMPH', '2.765'), ('AMBRY', '2.679'), ('KNURL', '2.679')]
+Top entropy choice: 𝙋𝙃𝘼𝙍𝙈 with entropy: 2.9476
+Using common exploratory word: 𝙋𝙄𝙉𝙆𝙔 with entropy: 2.7647
+
+Guess: 𝙋𝙄𝙉𝙆𝙔, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 1.2895 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 1.2895066171949852, 'expected_info_gain': 3.9626500565177647}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERRY', 'FERLY', 'FERRY', 'HERBY', 'HERRY', 'JERRY', 'MERCY', 'MERRY', 'VERRY']
+9 candidate words remaining.
+Top 10 guesses: [('AMBRY', '2.281'), ('BELCH', '2.281'), ('BLECH', '2.281'), ('CHARM', '2.281'), ('CHIMB', '2.281'), ('CHIRM', '2.281'), ('FIBRE', '2.281'), ('FIBRO', '2.281'), ('MAHRS', '2.281'), ('MBARI', '2.281')]
+Top entropy choice: 𝘼𝙈𝘽𝙍𝙔 with entropy: 2.2810
+Using common exploratory word: 𝘾𝙃𝘼𝙍𝙈 with entropy: 2.2810
+
+Guess: 𝘾𝙃𝘼𝙍𝙈, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.9626500565177647}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MERCY']
+1 candidate words remaining.
+Top 10 guesses: [('MERCY', '0.000')]
+Top entropy choice: 𝙈𝙀𝙍𝘾𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙀𝙍𝘾𝙔 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘿𝙊𝙂𝙄𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.963 bits, Actual Info Gain: 2.361 bits, Posterior Entropy: 4.459, 
+Guess: 𝙋𝙄𝙉𝙆𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.459, Expected Info Gain: 3.963 bits, Actual Info Gain: 1.290 bits, Posterior Entropy: 3.170, 
+Guess: 𝘾𝙃𝘼𝙍𝙈, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 3.170, Expected Info Gain: 3.963 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙀𝙍𝘾𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

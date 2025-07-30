@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝘿𝘼𝙋𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘼𝘾𝙏𝙊𝙉, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝘼𝘿𝙈𝙄𝙏, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝘼𝘿𝙐𝙇𝙏, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝘼𝘿𝘼𝙋𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝘿𝘼𝙋𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 2.907 bits, Posterior Entropy: 4.322, 
+Guess: 𝘼𝙐𝘿𝙄𝙏, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.546 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘿𝘼𝙋𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝘿𝘼𝙋𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 2.907 bits, Posterior Entropy: 4.322, 
+Guess: 𝘼𝙐𝘿𝙄𝙏, Feedback: 🟩⬜🟨⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.546 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘿𝘼𝙋𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝘿𝘼𝙋𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 4.636 bits, Actual Info Gain: 5.644 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙃𝘼𝙋𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘿𝘼𝙋𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝘿𝘼𝙋𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙄𝘼𝙉𝘼, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 7.229, Expected Info Gain: 4.828 bits, Actual Info Gain: 4.229 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙊𝙐𝙂𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 4.828 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝘿𝘼𝙋𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

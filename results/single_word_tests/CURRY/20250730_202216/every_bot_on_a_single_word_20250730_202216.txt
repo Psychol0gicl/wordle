@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙐𝙍𝙍𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CURIO 
+The top ten guesses and scores: [('CURIO', 391), ('DUROY', 382), ('MORIN', 359), ('CORNU', 358), ('CORNI', 356), ('DUROC', 355), ('CORGI', 353), ('DORIC', 353), ('GIRON', 353), ('LORIC', 352)]
+The bot finally chose: MORIN 
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CURLY 
+The top ten guesses and scores: [('CURLY', 92), ('GURLY', 92), ('LURGY', 92), ('HURLY', 90), ('CURDY', 89), ('DURGY', 89), ('GURDY', 89), ('BURLY', 88), ('PURDY', 86), ('CURVY', 85)]
+The bot finally chose: CURLY 
+Guess: 𝘾𝙐𝙍𝙇𝙔, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CURDY 
+The top ten guesses and scores: [('CURDY', 14), ('CURVY', 14), ('CURRY', 13)]
+The bot finally chose: CURVY 
+Guess: 𝘾𝙐𝙍𝙑𝙔, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CURDY 
+The top ten guesses and scores: [('CURDY', 10), ('CURRY', 9)]
+The bot finally chose: CURRY 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Guess: 𝘾𝙐𝙍𝙇𝙔, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘾𝙐𝙍𝙑𝙔, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘾𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙐𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.7926 bits
+Posterior entropy: 7.066089190457772
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.066089190457772, 'actual_info_gain': 6.792571794265005, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURIO with entropy: 4.1729
+Bot chose: MORIN with entropy: 4.1681
+Top ten guesses: [('CURIO', 4.172892209161786), ('MORIN', 4.168099469141523), ('MURGI', 4.079218075718397), ('GIRON', 4.072875826143294), ('MURID', 4.0529935555401755), ('MURRI', 4.031150398705502), ('DUROY', 4.023634943497557), ('LURGI', 4.0018362357103925), ('CORGI', 3.9702774702418973), ('MORGY', 3.9691276052227438)]
+
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.4811 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.066089190457772, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.481126689736616, 'expected_info_gain': 4.168099469141523}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRRRL with entropy: 2.8758
+Bot chose: LURCH with entropy: 2.8360
+Top ten guesses: [('GRRRL', 2.8758145836939115), ('LURCH', 2.8360388152612774), ('GURLY', 2.7179360295889174), ('LURGY', 2.7179360295889174), ('DURGY', 2.5424812503605785), ('GURDY', 2.5424812503605785), ('LURRY', 2.530672129520887), ('CURLY', 2.5198157169987727), ('GURRY', 2.5161506484543548), ('BURGH', 2.467936029588917)]
+
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.0, 'expected_info_gain': 2.8360388152612774}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURDY with entropy: 0.9183
+Bot chose: CURRY with entropy: 0.9183
+Top ten guesses: [('CURDY', 0.9182958340544896), ('CURRY', 0.9182958340544896), ('CURVY', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.168 bits, Actual Info Gain: 2.481 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 4.585, Expected Info Gain: 2.836 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙐𝙍𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.7926 bits
+Posterior entropy: 7.066089190457772
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.066089190457772, 'actual_info_gain': 6.792571794265005, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURIO with entropy: 4.1729
+Bot chose: MORIN with entropy: 4.1681
+Top ten guesses: [('CURIO', 4.172892209161786), ('MORIN', 4.168099469141523), ('MURGI', 4.079218075718397), ('GIRON', 4.072875826143294), ('MURID', 4.0529935555401755), ('MURRI', 4.031150398705502), ('DUROY', 4.023634943497557), ('LURGI', 4.0018362357103925), ('CORGI', 3.9702774702418973), ('MORGY', 3.9691276052227438)]
+
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.4811 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.066089190457772, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.481126689736616, 'expected_info_gain': 4.168099469141523}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GRRRL with entropy: 2.8758
+Bot chose: LURCH with entropy: 2.8360
+Top ten guesses: [('GRRRL', 2.8758145836939115), ('LURCH', 2.8360388152612774), ('GURLY', 2.7179360295889174), ('LURGY', 2.7179360295889174), ('DURGY', 2.5424812503605785), ('GURDY', 2.5424812503605785), ('LURRY', 2.530672129520887), ('CURLY', 2.5198157169987727), ('GURRY', 2.5161506484543548), ('BURGH', 2.467936029588917)]
+
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.0, 'expected_info_gain': 2.8360388152612774}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURDY with entropy: 0.9183
+Bot chose: CURRY with entropy: 0.9183
+Top ten guesses: [('CURDY', 0.9182958340544896), ('CURRY', 0.9182958340544896), ('CURVY', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙈𝙊𝙍𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.168 bits, Actual Info Gain: 2.481 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝙐𝙍𝘾𝙃, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 4.585, Expected Info Gain: 2.836 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙐𝙍𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.7926 bits
+Posterior entropy: 7.066089190457772
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.066089190457772, 'actual_info_gain': 6.792571794265005, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 233 potential guesses from 134 remaining candidates...
+Top 5 guesses: [('DOING', '4.443'), ('YOUNG', '4.371'), ('COULD', '4.365'), ('CURIO', '4.173'), ('MORIN', '4.168')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.4432
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.4432
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.8182 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.066089190457772, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.818161677014187, 'expected_info_gain': 4.443155416417135}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('MYRRH', '2.815'), ('LURCH', '2.774'), ('CURLY', '2.629'), ('MURLY', '2.629'), ('CURRY', '2.510')]
+Top entropy choice: 𝙈𝙔𝙍𝙍𝙃 with entropy: 2.8153
+Ended up choosing COMMON word: 𝙈𝙔𝙍𝙍𝙃 with entropy: 2.8153
+
+Guess: 𝙈𝙔𝙍𝙍𝙃, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 2.8153337792923416}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BURRY', '0.722'), ('CURRY', '0.722'), ('FURRY', '0.722'), ('LURRY', '0.722'), ('PURRY', '0.722')]
+Top entropy choice: 𝘽𝙐𝙍𝙍𝙔 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘾𝙐𝙍𝙍𝙔 with entropy: 0.7219
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.818 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝙔𝙍𝙍𝙃, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 4.248, Expected Info Gain: 2.815 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙐𝙍𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 6.7926 bits
+Posterior entropy: 7.066089190457772
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.066089190457772, 'actual_info_gain': 6.792571794265005, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRCH', 'BIRDO', 'BIRZZ', 'BORGO', 'BORIC', 'BORON', 'BURFI', 'BURGH', 'BURIN', 'BURLY', 'BUROO', 'BURRO', 'BURRY', 'CIRRI', 'CORBY', 'CORGI', 'CORKY', 'CORNI', 'CORNO', 'CORNU', 'CORNY', 'CURCH', 'CURDY', 'CURIO', 'CURLI', 'CURLY', 'CURNY', 'CURRY', 'CURVY', 'DORIC', 'DORKY', 'DORMY', 'DURGY', 'DUROC', 'DUROY', 'DURRY', 'DURUM', 'DURZI', 'FIRNI', 'FIRRY', 'FORBY', 'FORDO', 'FORGO', 'FORKY', 'FORUM', 'FUROL', 'FUROR', 'FURRY', 'FURZY', 'GIRLF', 'GIRLY', 'GIRON', 'GORDO', 'GORMY', 'GRRRL', 'GURDY', 'GURLY', 'GURRY', 'GYRON', 'HORNY', 'HURLY', 'HURRY', 'IBRIK', 'INRUN', 'JORUM', 'JUROR', 'KIRBY', 'KIRRI', 'KORUN', 'LORDY', 'LORIC', 'LORRY', 'LURCH', 'LURGI', 'LURGY', 'LURID', 'LURRY', 'LYRIC', 'MIRCH', 'MIRID', 'MIRIN', 'MIRKN', 'MIRKY', 'MIRLY', 'MIRRL', 'MORGY', 'MORIN', 'MORMO', 'MORON', 'MOROR', 'MORPH', 'MORRO', 'MORUK', 'MURGH', 'MURGI', 'MURID', 'MURKY', 'MURLY', 'MURRI', 'MURRY', 'MURUK', 'MYRRH', 'NIRLY', 'NURDY', 'OKRUG', 'PIROG', 'PIRRI', 'PORCH', 'PORGY', 'PORIN', 'PORKY', 'PORNO', 'PORNY', 'PURDY', 'PURIN', 'PURPY', 'PURRY', 'PYRIC', 'RORIC', 'RORID', 'UNRID', 'UNRIG', 'UNRIP', 'UPRUN', 'VIRGO', 'VIRID', 'WIRRI', 'WORDY', 'WORKY', 'WORLD', 'WORMY', 'WORRY', 'ZORIL', 'ZORRO']
+134 candidate words remaining.
+Top 10 guesses: [('GOYIM', '4.762'), ('DINGO', '4.689'), ('MODIN', '4.675'), ('DINLO', '4.673'), ('MUGIL', '4.672'), ('MIGOD', '4.666'), ('LINGO', '4.633'), ('MUCID', '4.620'), ('LOGIN', '4.605'), ('YOGIN', '4.602')]
+Top entropy choice: 𝙂𝙊𝙔𝙄𝙈 with entropy: 4.7622
+Guess count low, choosing the word with highest entropy: 𝙂𝙊𝙔𝙄𝙈 with entropy: 4.7622
+
+Guess: 𝙂𝙊𝙔𝙄𝙈, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.9786 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.066089190457772, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 2.978626349207433, 'expected_info_gain': 4.762246063934135}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BURLY', 'BURRY', 'CURDY', 'CURLY', 'CURNY', 'CURRY', 'CURVY', 'DURRY', 'FURRY', 'FURZY', 'HURLY', 'HURRY', 'LURRY', 'NURDY', 'PURDY', 'PURPY', 'PURRY']
+17 candidate words remaining.
+Top 10 guesses: [('CHARD', '2.940'), ('CHORD', '2.940'), ('CHIRL', '2.867'), ('CHURL', '2.867'), ('CHILD', '2.845'), ('DELPH', '2.778'), ('CHIRP', '2.749'), ('CHELP', '2.654'), ('CHURN', '2.654'), ('LANCH', '2.652')]
+Top entropy choice: 𝘾𝙃𝘼𝙍𝘿 with entropy: 2.9398
+Using common exploratory word: 𝘾𝙃𝘼𝙍𝘿 with entropy: 2.9398
+
+Guess: 𝘾𝙃𝘼𝙍𝘿, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 4.762246063934135}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CURRY']
+1 candidate words remaining.
+Top 10 guesses: [('CURRY', '0.000')]
+Top entropy choice: 𝘾𝙐𝙍𝙍𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙐𝙍𝙍𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.793 bits, Posterior Entropy: 7.066, 
+Guess: 𝙂𝙊𝙔𝙄𝙈, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.066, Expected Info Gain: 4.762 bits, Actual Info Gain: 2.979 bits, Posterior Entropy: 4.087, 
+Guess: 𝘾𝙃𝘼𝙍𝘿, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 4.762 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙐𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

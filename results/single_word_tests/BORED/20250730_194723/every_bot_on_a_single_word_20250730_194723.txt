@@ -1,0 +1,214 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝙍𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: PORED 
+The top ten guesses and scores: [('PORED', 193), ('CORED', 192), ('LURED', 192), ('BORED', 191), ('MURED', 189), ('GORED', 188), ('MIRED', 187), ('PURED', 187), ('CURED', 186), ('DOREE', 186)]
+The bot finally chose: LURED 
+Guess: 𝙇𝙐𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MIRED 
+The top ten guesses and scores: [('MIRED', 59), ('CORED', 58), ('FIRED', 58), ('GORED', 58), ('HIRED', 58), ('VIRED', 58), ('WIRED', 58), ('BORED', 57), ('PORED', 57), ('GYRED', 56)]
+The bot finally chose: MIRED 
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CORED 
+The top ten guesses and scores: [('CORED', 39), ('GORED', 39), ('BORED', 38), ('PORED', 38), ('GYRED', 37), ('CERED', 35), ('YDRED', 35), ('DERED', 33), ('ERRED', 33)]
+The bot finally chose: BORED 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Guess: 𝙇𝙐𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘽𝙊𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝙍𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.0513 bits
+Posterior entropy: 5.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.807354922057604, 'actual_info_gain': 8.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOREE with entropy: 3.1087
+Bot chose: DOREE with entropy: 3.1087
+Top ten guesses: [('DOREE', 3.10865767886699), ('LERED', 2.896700577315056), ('LURED', 2.7916176022546937), ('MERED', 2.751878362790244), ('PORED', 2.6939020645683285), ('CORED', 2.6500578630009297), ('MURED', 2.641734982895558), ('DIRER', 2.6245706021344732), ('CERED', 2.622501353900306), ('MOREE', 2.5965281846709822)]
+
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8073549220576037, 'expected_info_gain': 3.10865767886699}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BORED with entropy: 0.8113
+Bot chose: BORED with entropy: 0.8113
+Top ten guesses: [('BORED', 0.8112781244591328), ('CORED', 0.8112781244591328), ('GORED', 0.8112781244591328), ('PORED', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 5.807, Expected Info Gain: 3.109 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙊𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙍𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.0513 bits
+Posterior entropy: 5.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.807354922057604, 'actual_info_gain': 8.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOREE with entropy: 3.1087
+Bot chose: DOREE with entropy: 3.1087
+Top ten guesses: [('DOREE', 3.10865767886699), ('LERED', 2.896700577315056), ('LURED', 2.7916176022546937), ('MERED', 2.751878362790244), ('PORED', 2.6939020645683285), ('CORED', 2.6500578630009297), ('MURED', 2.641734982895558), ('DIRER', 2.6245706021344732), ('CERED', 2.622501353900306), ('MOREE', 2.5965281846709822)]
+
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8073549220576037, 'expected_info_gain': 3.10865767886699}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BORED with entropy: 0.8113
+Bot chose: BORED with entropy: 0.8113
+Top ten guesses: [('BORED', 0.8112781244591328), ('CORED', 0.8112781244591328), ('GORED', 0.8112781244591328), ('PORED', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 5.807, Expected Info Gain: 3.109 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙊𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙍𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.0513 bits
+Posterior entropy: 5.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.807354922057604, 'actual_info_gain': 8.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 156 potential guesses from 56 remaining candidates...
+Top 5 guesses: [('COULD', '3.823'), ('WOULD', '3.597'), ('FOUND', '3.247'), ('DOING', '3.135'), ('DOREE', '3.109')]
+Top entropy choice: 𝘾𝙊𝙐𝙇𝘿 with entropy: 3.8228
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙇𝘿 with entropy: 3.8228
+
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 4.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.222392421336448, 'expected_info_gain': 3.822793709383189}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BORED', '0.918'), ('GORED', '0.918'), ('PORED', '0.918')]
+Top entropy choice: 𝘽𝙊𝙍𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘽𝙊𝙍𝙀𝘿 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.823 bits, Actual Info Gain: 4.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙊𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙍𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 8.0513 bits
+Posterior entropy: 5.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.807354922057604, 'actual_info_gain': 8.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BORED', 'BOREE', 'BOREK', 'BOREL', 'BORER', 'CERED', 'CORED', 'CORER', 'COREY', 'CURED', 'CURER', 'DERED', 'DIRER', 'DOREE', 'DURED', 'ERRED', 'FERER', 'FIRED', 'FIRER', 'FOREL', 'FOREX', 'GORED', 'GYRED', 'HIRED', 'HIREE', 'HIRER', 'JUREL', 'KEREL', 'LERED', 'LOREL', 'LURED', 'LURER', 'LUREX', 'MERED', 'MEREL', 'MERER', 'MIRED', 'MIREX', 'MOREE', 'MOREL', 'MURED', 'MUREX', 'OUREY', 'PORED', 'PORER', 'POREY', 'PURED', 'PUREE', 'PURER', 'PYREX', 'UNRED', 'VIRED', 'VIREO', 'WIRED', 'WIRER', 'YDRED']
+56 candidate words remaining.
+Top 10 guesses: [('MOULD', '3.981'), ('DUOMI', '3.974'), ('DOMIC', '3.884'), ('DOLCI', '3.836'), ('COULD', '3.823'), ('DUMBO', '3.814'), ('DOILY', '3.778'), ('DEMOI', '3.766'), ('LUCID', '3.759'), ('CLOUD', '3.745')]
+Top entropy choice: 𝙈𝙊𝙐𝙇𝘿 with entropy: 3.9805
+Guess count low, choosing the word with highest entropy: 𝙈𝙊𝙐𝙇𝘿 with entropy: 3.9805
+
+Guess: 𝙈𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8073549220576037, 'expected_info_gain': 3.980502019846924}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BORED', 'CORED', 'GORED', 'PORED']
+4 candidate words remaining.
+Top 10 guesses: [('BECAP', '2.000'), ('BICEP', '2.000'), ('PUBCO', '2.000'), ('PUBIC', '2.000'), ('ABACA', '1.500'), ('ABACI', '1.500'), ('ABACK', '1.500'), ('ABACS', '1.500'), ('ABAMP', '1.500'), ('ABCEE', '1.500')]
+Top entropy choice: 𝘽𝙀𝘾𝘼𝙋 with entropy: 2.0000
+Using common exploratory word: 𝘽𝙄𝘾𝙀𝙋 with entropy: 2.0000
+
+Guess: 𝘽𝙄𝘾𝙀𝙋, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.980502019846924}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BORED']
+1 candidate words remaining.
+Top 10 guesses: [('BORED', '0.000')]
+Top entropy choice: 𝘽𝙊𝙍𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙊𝙍𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝙈𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.981 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙄𝘾𝙀𝙋, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 3.981 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙊𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

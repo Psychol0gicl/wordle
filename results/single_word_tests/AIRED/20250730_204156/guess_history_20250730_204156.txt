@@ -1,0 +1,51 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙐𝙋𝙄𝘿, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,157 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝙊𝙊𝙋 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRIOL 
+The top ten guesses and scores: [('TRIOL', 130), ('TRIGO', 120), ('THORP', 118), ('TRIOR', 118), ('TUMOR', 117), ('TRUGO', 116), ('THIRL', 115), ('THORN', 115), ('TROLL', 115), ('TROUT', 114)]
+The bot finally chose: TUMOR 
+Guess: 𝙏𝙐𝙈𝙊𝙍, Feedback: 🟩⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: TRIOL 
+The top ten guesses and scores: [('TRIOL', 13), ('TROOP', 12), ('TROOZ', 12)]
+The bot finally chose: TROOP 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝙏𝙐𝙈𝙊𝙍, Feedback: 🟩⬜⬜🟩🟨
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝙊𝙊𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRIOL with entropy: 3.7969
+Bot chose: TROOP with entropy: 3.4379
+Top ten guesses: [('TRIOL', 3.796894919507588), ('TROOP', 3.4378621488280126), ('TROPO', 3.4378621488280126), ('TROUT', 3.3624615702873992), ('THORP', 3.3093516757965675), ('TRONK', 3.2321220289065127), ('TROMP', 3.217815947474599), ('THURL', 3.165791437516487), ('TROCK', 3.157665609929122), ('TRIOR', 3.1550407043223325)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙊𝙊𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRIOL with entropy: 3.7969
+Bot chose: TROOP with entropy: 3.4379
+Top ten guesses: [('TRIOL', 3.796894919507588), ('TROOP', 3.4378621488280126), ('TROPO', 3.4378621488280126), ('TROUT', 3.3624615702873992), ('THORP', 3.3093516757965675), ('TRONK', 3.2321220289065127), ('TROMP', 3.217815947474599), ('THURL', 3.165791437516487), ('TROCK', 3.157665609929122), ('TRIOR', 3.1550407043223325)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙊𝙊𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 37 potential guesses from 37 remaining candidates...
+Top 5 guesses: [('TRIOL', '3.797'), ('TROOP', '3.438'), ('TROPO', '3.438'), ('TROUT', '3.362'), ('THORP', '3.309')]
+Top entropy choice: 𝙏𝙍𝙄𝙊𝙇 with entropy: 3.7969
+Ended up choosing COMMON word: 𝙏𝙍𝙊𝙊𝙋 with entropy: 3.4379
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙊𝙊𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 8.6492 bits
+Posterior entropy: 5.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.20945336562895, 'actual_info_gain': 8.649207619093826, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THIRD', 'THIRL', 'THORN', 'THORO', 'THORP', 'THURL', 'TITIR', 'TRICK', 'TRIFF', 'TRIGO', 'TRILD', 'TRILL', 'TRIOL', 'TRIOR', 'TRIPY', 'TROCK', 'TROLL', 'TROMP', 'TRONC', 'TRONK', 'TROOP', 'TROOZ', 'TROPO', 'TROTH', 'TROUT', 'TRUCK', 'TRUGO', 'TRULL', 'TRULY', 'TRUMP', 'TRUNK', 'TRUTH', 'TUMOR', 'TUTOR', 'TWIRK', 'TWIRL', 'TWIRP']
+37 candidate words remaining.
+Top 10 guesses: [('PROUL', '4.240'), ('KRIOL', '4.229'), ('CHOIL', '4.101'), ('PRION', '4.031'), ('PINOL', '4.003'), ('CROUP', '3.990'), ('CUPRO', '3.979'), ('CHOLI', '3.949'), ('PILON', '3.916'), ('CHIKO', '3.914')]
+Top entropy choice: 𝙋𝙍𝙊𝙐𝙇 with entropy: 4.2399
+Guess count low, choosing the word with highest entropy: 𝙋𝙍𝙊𝙐𝙇 with entropy: 4.2399
+
+Guess: 𝙋𝙍𝙊𝙐𝙇, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 3.6245 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.20945336562895, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.624490864907794, 'expected_info_gain': 4.239877609387674}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TROMP', 'TROOP', 'TROPO']
+3 candidate words remaining.
+Top 10 guesses: [('TROMP', '1.585'), ('TROOP', '1.585'), ('TROPO', '1.585')]
+Top entropy choice: 𝙏𝙍𝙊𝙈𝙋 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙍𝙊𝙊𝙋 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙍𝙊𝙐𝙇, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 5.209, Expected Info Gain: 4.240 bits, Actual Info Gain: 3.624 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝙍𝙎𝙊 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TORSI 
+The top ten guesses and scores: [('TORSI', 14), ('TORSK', 14), ('TORSO', 13)]
+The bot finally chose: TORSO 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙏𝙊𝙍𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝙎𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORSI with entropy: 0.9183
+Bot chose: TORSO with entropy: 0.9183
+Top ten guesses: [('TORSI', 0.9182958340544896), ('TORSK', 0.9182958340544896), ('TORSO', 0.9182958340544896)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙍𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝙎𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORSI with entropy: 0.9183
+Bot chose: TORSO with entropy: 0.9183
+Top ten guesses: [('TORSI', 0.9182958340544896), ('TORSK', 0.9182958340544896), ('TORSO', 0.9182958340544896)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙍𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝙎𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TORSI', '0.918'), ('TORSK', '0.918'), ('TORSO', '0.918')]
+Top entropy choice: 𝙏𝙊𝙍𝙎𝙄 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙏𝙊𝙍𝙎𝙊 with entropy: 0.9183
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙍𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝙎𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TORSI', 'TORSK', 'TORSO']
+3 candidate words remaining.
+Top 10 guesses: [('TORSI', '0.918'), ('TORSK', '0.918'), ('TORSO', '0.918')]
+Top entropy choice: 𝙏𝙊𝙍𝙎𝙄 with entropy: 0.9183
+Guess count low, choosing the word with highest entropy: 𝙏𝙊𝙍𝙎𝙄 with entropy: 0.9183
+
+Guess: 𝙏𝙊𝙍𝙎𝙄, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TORSK', 'TORSO']
+2 candidate words remaining.
+Top 10 guesses: [('TORSK', '1.000'), ('TORSO', '1.000')]
+Top entropy choice: 𝙏𝙊𝙍𝙎𝙆 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙊𝙍𝙎𝙊 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙍𝙎𝙄, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙊𝙍𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

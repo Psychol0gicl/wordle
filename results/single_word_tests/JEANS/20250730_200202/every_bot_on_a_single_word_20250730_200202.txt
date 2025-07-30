@@ -1,0 +1,253 @@
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: ELANS 
+The top ten guesses and scores: [('ELANS', 319), ('LEANS', 319), ('NEALS', 319), ('LEAMS', 317), ('MEALS', 317), ('MELAS', 317), ('DEALS', 315), ('LEADS', 315), ('LEAPS', 310), ('PEALS', 310)]
+The bot finally chose: ELANS 
+Guess: 𝙀𝙇𝘼𝙉𝙎, Feedback: 🟨⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BEANS 
+The top ten guesses and scores: [('BEANS', 38), ('DEANS', 38), ('GEANS', 38), ('JEANS', 38), ('MEANS', 38), ('PEANS', 38), ('WEANS', 38), ('YEANS', 38), ('SEANS', 37)]
+The bot finally chose: JEANS 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙀𝙇𝘼𝙉𝙎, Feedback: 🟨⬜🟩🟩🟩
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEALS with entropy: 3.6121
+Bot chose: MEALS with entropy: 3.6121
+Top ten guesses: [('MEALS', 3.61213871789563), ('NEALS', 3.591871433417963), ('DEALS', 3.5606928587547024), ('LEANS', 3.5540903244776993), ('LEAMS', 3.55136910320824), ('LEADS', 3.4814216294186133), ('MELAS', 3.4272844268998615), ('PEALS', 3.418534474090883), ('MEANS', 3.391588097584313), ('LEAPS', 3.378192232661838)]
+
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.1210 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 2.1210154009613653, 'expected_info_gain': 3.61213871789563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEANS with entropy: 2.2261
+Bot chose: DEANS with entropy: 2.2261
+Top ten guesses: [('DEANS', 2.226120746842681), ('NEAPS', 2.039353872167201), ('PEANS', 2.039353872167201), ('BEANS', 1.9016094970590272), ('BEADS', 1.8437519544205019), ('HEADS', 1.833206219346495), ('YEANS', 1.8128876215181604), ('YEADS', 1.7332062193464952), ('HEAPS', 1.6788979029874789), ('GEANS', 1.6783898247235196)]
+
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.5145731728297585, 'expected_info_gain': 2.226120746842681}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEANS with entropy: 0.5917
+Bot chose: JEANS with entropy: 0.5917
+Top ten guesses: [('BEANS', 0.5916727785823275), ('GEANS', 0.5916727785823275), ('JEANS', 0.5916727785823275), ('PEANS', 0.5916727785823275), ('SEANS', 0.5916727785823275), ('WEANS', 0.5916727785823275), ('YEANS', 0.5916727785823275)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MEALS with entropy: 3.6121
+Bot chose: MEALS with entropy: 3.6121
+Top ten guesses: [('MEALS', 3.61213871789563), ('NEALS', 3.591871433417963), ('DEALS', 3.5606928587547024), ('LEANS', 3.5540903244776993), ('LEAMS', 3.55136910320824), ('LEADS', 3.4814216294186133), ('MELAS', 3.4272844268998615), ('PEALS', 3.418534474090883), ('MEANS', 3.391588097584313), ('LEAPS', 3.378192232661838)]
+
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.1210 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 2.1210154009613653, 'expected_info_gain': 3.61213871789563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEANS with entropy: 2.2261
+Bot chose: DEANS with entropy: 2.2261
+Top ten guesses: [('DEANS', 2.226120746842681), ('NEAPS', 2.039353872167201), ('PEANS', 2.039353872167201), ('BEANS', 1.9016094970590272), ('BEADS', 1.8437519544205019), ('HEADS', 1.833206219346495), ('YEANS', 1.8128876215181604), ('YEADS', 1.7332062193464952), ('HEAPS', 1.6788979029874789), ('GEANS', 1.6783898247235196)]
+
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.5145731728297585, 'expected_info_gain': 2.226120746842681}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEANS with entropy: 0.5917
+Bot chose: JEANS with entropy: 0.5917
+Top ten guesses: [('BEANS', 0.5916727785823275), ('GEANS', 0.5916727785823275), ('JEANS', 0.5916727785823275), ('PEANS', 0.5916727785823275), ('SEANS', 0.5916727785823275), ('WEANS', 0.5916727785823275), ('YEANS', 0.5916727785823275)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 187 potential guesses from 87 remaining candidates...
+Top 5 guesses: [('MEALS', '3.612'), ('NEALS', '3.592'), ('DEALS', '3.561'), ('LEANS', '3.554'), ('LEAMS', '3.551')]
+Top entropy choice: 𝙈𝙀𝘼𝙇𝙎 with entropy: 3.6121
+
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.1210 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 2.1210154009613653, 'expected_info_gain': 3.61213871789563}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('DEANS', '2.226'), ('NEAPS', '2.039'), ('PEANS', '2.039'), ('BEANS', '1.902'), ('BEADS', '1.844')]
+Top entropy choice: 𝘿𝙀𝘼𝙉𝙎 with entropy: 2.2261
+
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.5145731728297585, 'expected_info_gain': 2.226120746842681}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('BEANS', '0.592'), ('GEANS', '0.592'), ('JEANS', '0.592'), ('PEANS', '0.592'), ('SEANS', '0.592')]
+Top entropy choice: 𝘽𝙀𝘼𝙉𝙎 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙅𝙀𝘼𝙉𝙎 with entropy: 0.5917
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 7.4157 bits
+Posterior entropy: 6.442943495848728
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.442943495848728, 'actual_info_gain': 7.415717488874049, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEYS', 'AEGIS', 'AEONS', 'ALECS', 'ALEFS', 'ALEWS', 'AMENS', 'AVELS', 'AVENS', 'AXELS', 'BEADS', 'BEAKS', 'BEALS', 'BEAMS', 'BEANS', 'BEAUS', 'BEMAS', 'DEADS', 'DEALS', 'DEANS', 'DEAWS', 'DEGAS', 'DEVAS', 'ECADS', 'EGADS', 'EGMAS', 'EKKAS', 'ELANS', 'EMACS', 'EMMAS', 'EPHAS', 'EXAMS', 'EYASS', 'FEALS', 'FLEAS', 'GEALS', 'GEANS', 'GENAS', 'HEADS', 'HEALS', 'HEAPS', 'IDEAS', 'JEANS', 'LEADS', 'LEAFS', 'LEAKS', 'LEAMS', 'LEANS', 'LEAPS', 'LEVAS', 'MEADS', 'MEAKS', 'MEALS', 'MEANS', 'MELAS', 'MESAS', 'NEALS', 'NEAPS', 'NEMAS', 'OXEAS', 'PEAGS', 'PEAKS', 'PEALS', 'PEANS', 'PEBAS', 'PELAS', 'PLEAS', 'SEALS', 'SEAMS', 'SEANS', 'SEGAS', 'SEMAS', 'SENAS', 'SHEAS', 'UVEAS', 'VEALS', 'VEGAS', 'VENAS', 'WEALS', 'WEANS', 'WEKAS', 'YEADS', 'YEAHS', 'YEANS', 'ZEALS', 'ZEDAS', 'ZOEAS']
+87 candidate words remaining.
+Top 10 guesses: [('LEMAN', '4.177'), ('MEDAL', '3.986'), ('DEMAN', '3.902'), ('GLAND', '3.902'), ('BLAND', '3.892'), ('PENAL', '3.887'), ('MENAD', '3.847'), ('GLAMP', '3.840'), ('MEALY', '3.836'), ('DWALM', '3.825')]
+Top entropy choice: 𝙇𝙀𝙈𝘼𝙉 with entropy: 4.1771
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝙈𝘼𝙉 with entropy: 4.1771
+
+Guess: 𝙇𝙀𝙈𝘼𝙉, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 3.1210 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 6.442943495848728, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 3.1210154009613658, 'expected_info_gain': 4.177131900540593}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AEONS', 'BEANS', 'DEANS', 'GEANS', 'JEANS', 'NEAPS', 'PEANS', 'SEANS', 'WEANS', 'YEANS']
+10 candidate words remaining.
+Top 10 guesses: [('PODGY', '2.522'), ('SPAYD', '2.322'), ('BODGY', '2.161'), ('BOPPY', '2.161'), ('DOWNY', '2.161'), ('DOWPS', '2.161'), ('DRAPY', '2.161'), ('DWANG', '2.161'), ('GOOPY', '2.161'), ('GRAPY', '2.161')]
+Top entropy choice: 𝙋𝙊𝘿𝙂𝙔 with entropy: 2.5219
+Using common exploratory word: 𝘿𝙊𝙒𝙉𝙔 with entropy: 2.1610
+
+Guess: 𝘿𝙊𝙒𝙉𝙔, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.0, 'expected_info_gain': 4.177131900540593}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEANS', 'GEANS', 'JEANS', 'PEANS', 'SEANS']
+5 candidate words remaining.
+Top 10 guesses: [('GASPS', '1.922'), ('JASPS', '1.922'), ('SABJI', '1.922'), ('SPAGS', '1.922'), ('SPANG', '1.922'), ('SPEUG', '1.922'), ('SPLOG', '1.922'), ('SPRAG', '1.922'), ('SPRIG', '1.922'), ('SPROG', '1.922')]
+Top entropy choice: 𝙂𝘼𝙎𝙋𝙎 with entropy: 1.9219
+
+Guess: 𝙂𝘼𝙎𝙋𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEANS', 'JEANS']
+2 candidate words remaining.
+Top 10 guesses: [('BEANS', '1.000'), ('JEANS', '1.000')]
+Top entropy choice: 𝘽𝙀𝘼𝙉𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙅𝙀𝘼𝙉𝙎 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙇𝙀𝙈𝘼𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 6.443, Expected Info Gain: 4.177 bits, Actual Info Gain: 3.121 bits, Posterior Entropy: 3.322, 
+Guess: 𝘿𝙊𝙒𝙉𝙔, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 4.177 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝘼𝙎𝙋𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

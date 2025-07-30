@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙂𝙇𝙊𝘽𝙔, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝘽𝙇𝙊𝙊𝙈, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.474 bits, Posterior Entropy: 4.524, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.474 bits, Posterior Entropy: 4.524, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.474 bits, Posterior Entropy: 4.524, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝙊𝙊𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.474 bits, Posterior Entropy: 4.524, 
+Guess: 𝘽𝙇𝙊𝙊𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

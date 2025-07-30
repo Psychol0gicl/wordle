@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙄𝘼𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝘾𝙃𝙄𝙉𝘼, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝘿𝙄𝘼𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙄𝘼𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 6.344 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝙂𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙄𝘼𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙄𝘼𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 6.344 bits, Posterior Entropy: 3.170, 
+Guess: 𝙉𝙂𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙄𝘼𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙄𝘼𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 4.607 bits, Posterior Entropy: 4.907, 
+Guess: 𝙆𝙄𝙉𝘿𝘼, Feedback: ⬜🟩🟨🟨🟩, Prior Entropy: 4.907, Expected Info Gain: 3.578 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝘿𝙄𝘼𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙄𝘼𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.266 bits, Posterior Entropy: 5.248, 
+Guess: 𝙉𝙂𝘼𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.248, Expected Info Gain: 3.985 bits, Actual Info Gain: 5.248 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙄𝘼𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

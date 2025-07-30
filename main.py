@@ -31,6 +31,7 @@ def test_all_words_on_all_bots():
     print(f"Results will be saved into separate for each word, progress will be written into the console.")
     bot_classes = [WordleBot, EntropyWordleBot, FastEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot]
     words = game.common_words
+    words = words[1559:] # 1 - 1558 hotovo 2025-07-30
     i = 0
 
     for word in words:

@@ -1,0 +1,241 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙄𝙀𝙁 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TONED 
+The top ten guesses and scores: [('TONED', 157), ('TOWED', 157), ('TOPED', 156), ('TOLED', 154), ('TOYED', 154), ('TOKED', 153), ('TOGED', 149), ('TOZED', 149), ('TOTED', 148), ('TINED', 147)]
+The bot finally chose: TONED 
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TUPEK 
+The top ten guesses and scores: [('TUPEK', 45), ('TWEEP', 45), ('TEWEL', 44), ('TWEEL', 44), ('TYPEY', 43), ('THEEK', 42), ('THIEF', 42), ('TELEX', 41), ('TEPEE', 41), ('TWEET', 41)]
+The bot finally chose: THIEF 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙀𝙁 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOWED with entropy: 2.7729
+Bot chose: TOWED with entropy: 2.7729
+Top ten guesses: [('TOWED', 2.7729427123226094), ('TEWED', 2.7694797360179297), ('TONED', 2.7519922323837034), ('TWEED', 2.705412584804826), ('TWEEN', 2.6779376499410428), ('TOPED', 2.6680471050712193), ('TENET', 2.5963149754218118), ('TEMED', 2.5797652736672365), ('TOLED', 2.57549561939998), ('TOPEE', 2.555481576655848)]
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 2.7729427123226094}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TEHEE with entropy: 2.7255
+Bot chose: TEHEE with entropy: 2.7255
+Top ten guesses: [('TEHEE', 2.725480556997868), ('TEPEE', 2.725480556997868), ('TUTEE', 2.5032583347756456), ('THEEK', 2.2810361125534233), ('TENET', 2.113283334294875), ('TUPEK', 2.058813890331201), ('TELEX', 1.8910611120726526), ('THIEF', 1.4466166676282082), ('TYPEY', 1.224394445405986)]
+
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIEF with entropy: 0.0000
+Bot chose: THIEF with entropy: 0.0000
+Top ten guesses: [('THIEF', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙀𝙁 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOWED with entropy: 2.7729
+Bot chose: TOWED with entropy: 2.7729
+Top ten guesses: [('TOWED', 2.7729427123226094), ('TEWED', 2.7694797360179297), ('TONED', 2.7519922323837034), ('TWEED', 2.705412584804826), ('TWEEN', 2.6779376499410428), ('TOPED', 2.6680471050712193), ('TENET', 2.5963149754218118), ('TEMED', 2.5797652736672365), ('TOLED', 2.57549561939998), ('TOPEE', 2.555481576655848)]
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 2.7729427123226094}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TEHEE with entropy: 2.7255
+Bot chose: TEHEE with entropy: 2.7255
+Top ten guesses: [('TEHEE', 2.725480556997868), ('TEPEE', 2.725480556997868), ('TUTEE', 2.5032583347756456), ('THEEK', 2.2810361125534233), ('TENET', 2.113283334294875), ('TUPEK', 2.058813890331201), ('TELEX', 1.8910611120726526), ('THIEF', 1.4466166676282082), ('TYPEY', 1.224394445405986)]
+
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THIEF with entropy: 0.0000
+Bot chose: THIEF with entropy: 0.0000
+Top ten guesses: [('THIEF', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙀𝙁 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 43 potential guesses from 43 remaining candidates...
+Top 5 guesses: [('TOWED', '2.773'), ('TEWED', '2.769'), ('TONED', '2.752'), ('TWEED', '2.705'), ('TWEEN', '2.678')]
+Top entropy choice: 𝙏𝙊𝙒𝙀𝘿 with entropy: 2.7729
+Ended up choosing COMMON word: 𝙏𝙊𝙒𝙀𝘿 with entropy: 2.7729
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.2563 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.2563397532597858, 'expected_info_gain': 2.7729427123226094}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('TEHEE', '2.725'), ('TEPEE', '2.725'), ('TUTEE', '2.503'), ('THEEK', '2.281'), ('TENET', '2.113')]
+Top entropy choice: 𝙏𝙀𝙃𝙀𝙀 with entropy: 2.7255
+
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THIEF', '0.000')]
+Top entropy choice: 𝙏𝙃𝙄𝙀𝙁 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙄𝙀𝙁 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.256 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝙀𝙃𝙀𝙀, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙄𝙀𝙁 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEHEE', 'TELEX', 'TEMED', 'TENET', 'TEPEE', 'TEWED', 'TEWEL', 'THEED', 'THEEK', 'THIEF', 'TICED', 'TIDED', 'TILED', 'TIMED', 'TINED', 'TOGED', 'TOKED', 'TOKEN', 'TOLED', 'TOMEN', 'TONED', 'TONEY', 'TOPED', 'TOPEE', 'TOPEK', 'TOTED', 'TOTEM', 'TOWED', 'TOWEL', 'TOYED', 'TOZED', 'TUBED', 'TUNED', 'TUPEK', 'TUTEE', 'TWEED', 'TWEEL', 'TWEEN', 'TWEEP', 'TWEET', 'TYNED', 'TYPED', 'TYPEY']
+43 candidate words remaining.
+Top 10 guesses: [('POWND', '3.914'), ('DOWNY', '3.837'), ('PEDON', '3.821'), ('LOWND', '3.773'), ('INDOW', '3.715'), ('KNOWD', '3.664'), ('INDOL', '3.643'), ('DINLO', '3.626'), ('DOWLY', '3.623'), ('WOUND', '3.605')]
+Top entropy choice: 𝙋𝙊𝙒𝙉𝘿 with entropy: 3.9138
+Guess count low, choosing the word with highest entropy: 𝙋𝙊𝙒𝙉𝘿 with entropy: 3.9138
+
+Guess: 𝙋𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.1043 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.1043366598147357, 'expected_info_gain': 3.913809814244949}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEHEE', 'TELEX', 'THEEK', 'THIEF', 'TUTEE']
+5 candidate words remaining.
+Top 10 guesses: [('AERIE', '2.322'), ('BEARE', '2.322'), ('BECKE', '2.322'), ('BEDYE', '2.322'), ('BEECH', '2.322'), ('BEIGE', '2.322'), ('BEKAH', '2.322'), ('BELEE', '2.322'), ('BELIE', '2.322'), ('BELLE', '2.322')]
+Top entropy choice: 𝘼𝙀𝙍𝙄𝙀 with entropy: 2.3219
+Using common exploratory word: 𝘽𝙀𝙀𝘾𝙃 with entropy: 2.3219
+
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.913809814244949}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THIEF']
+1 candidate words remaining.
+Top 10 guesses: [('THIEF', '0.000')]
+Top entropy choice: 𝙏𝙃𝙄𝙀𝙁 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙄𝙀𝙁 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙋𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.426, Expected Info Gain: 3.914 bits, Actual Info Gain: 3.104 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 2.322, Expected Info Gain: 3.914 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙄𝙀𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

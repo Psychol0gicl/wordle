@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝙏𝙐𝙈𝙊𝙍, Feedback: 🟩🟨🟨⬜🟨
+Guess: 𝙏𝙍𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 3.438 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 3.438 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙏𝙍𝙊𝙊𝙋, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.209, Expected Info Gain: 3.438 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.649 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝙍𝙊𝙐𝙇, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 5.209, Expected Info Gain: 4.240 bits, Actual Info Gain: 5.209 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙄𝙉𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝙍𝙊𝙐𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝙍𝙄𝙉𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙄𝙉𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 2.268 bits, Posterior Entropy: 3.459, 
+Guess: 𝙍𝙀𝙐𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙉𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙉𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 2.268 bits, Posterior Entropy: 3.459, 
+Guess: 𝙍𝙀𝙐𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙉𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙉𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 2.268 bits, Posterior Entropy: 3.459, 
+Guess: 𝙍𝙀𝙐𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙉𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙄𝙉𝙎𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙋𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 5.728, Expected Info Gain: 4.122 bits, Actual Info Gain: 5.728 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙄𝙉𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

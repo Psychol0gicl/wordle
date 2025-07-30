@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.443 bits, Actual Info Gain: 2.129 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.443 bits, Actual Info Gain: 2.129 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 2.689 bits, Posterior Entropy: 6.883, 
+Guess: 𝙇𝙀𝙀𝘾𝙃, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 6.883, Expected Info Gain: 5.068 bits, Actual Info Gain: 3.883 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.714 bits, Posterior Entropy: 4.858, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.858, Expected Info Gain: 5.536 bits, Actual Info Gain: 2.273 bits, Posterior Entropy: 2.585, 
+Guess: 𝙅𝙀𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝙒𝙆𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙆𝙀𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

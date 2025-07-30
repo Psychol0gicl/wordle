@@ -1,0 +1,293 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙐𝙄𝙏𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: PISTE 
+The top ten guesses and scores: [('PISTE', 362), ('SPITE', 362), ('STIPE', 362), ('NEIST', 361), ('SENTI', 361), ('SIENT', 361), ('STEIN', 361), ('SEITY', 360), ('ISTLE', 359), ('STEIL', 359)]
+The bot finally chose: SPITE 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SHITE 
+The top ten guesses and scores: [('SHITE', 17), ('SKITE', 17), ('SMITE', 17), ('SUITE', 17)]
+The bot finally chose: SHITE 
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SKITE 
+The top ten guesses and scores: [('SKITE', 13), ('SMITE', 13), ('SUITE', 13)]
+The bot finally chose: SMITE 
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SKITE 
+The top ten guesses and scores: [('SKITE', 9), ('SUITE', 9)]
+The bot finally chose: SUITE 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙐𝙄𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 4.6582 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 2.0, 'actual_info_gain': 4.658211482751795, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHITE with entropy: 0.8113
+Bot chose: SHITE with entropy: 0.8113
+Top ten guesses: [('SHITE', 0.8112781244591328), ('SKITE', 0.8112781244591328), ('SMITE', 0.8112781244591328), ('SUITE', 0.8112781244591328)]
+
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKITE with entropy: 0.9183
+Bot chose: SMITE with entropy: 0.9183
+Top ten guesses: [('SKITE', 0.9182958340544896), ('SMITE', 0.9182958340544896), ('SUITE', 0.9182958340544896)]
+
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKITE with entropy: 1.0000
+Bot chose: SUITE with entropy: 1.0000
+Top ten guesses: [('SKITE', 1.0), ('SUITE', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 4.658 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙄𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 4.6582 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 2.0, 'actual_info_gain': 4.658211482751795, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHITE with entropy: 0.8113
+Bot chose: SHITE with entropy: 0.8113
+Top ten guesses: [('SHITE', 0.8112781244591328), ('SKITE', 0.8112781244591328), ('SMITE', 0.8112781244591328), ('SUITE', 0.8112781244591328)]
+
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKITE with entropy: 0.9183
+Bot chose: SMITE with entropy: 0.9183
+Top ten guesses: [('SKITE', 0.9182958340544896), ('SMITE', 0.9182958340544896), ('SUITE', 0.9182958340544896)]
+
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKITE with entropy: 1.0000
+Bot chose: SUITE with entropy: 1.0000
+Top ten guesses: [('SKITE', 1.0), ('SUITE', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 4.658 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙄𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 201 potential guesses from 101 remaining candidates...
+Top 5 guesses: [('SPITE', '4.201'), ('SUITE', '4.139'), ('POINT', '4.076'), ('STIPE', '4.044'), ('SHITE', '4.014')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 4.6582 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 2.0, 'actual_info_gain': 4.658211482751795, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('SHITE', '0.811'), ('SKITE', '0.811'), ('SMITE', '0.811'), ('SUITE', '0.811')]
+Top entropy choice: 𝙎𝙃𝙄𝙏𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙎𝙃𝙄𝙏𝙀 with entropy: 0.8113
+
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SKITE', '0.918'), ('SMITE', '0.918'), ('SUITE', '0.918')]
+Top entropy choice: 𝙎𝙆𝙄𝙏𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙈𝙄𝙏𝙀 with entropy: 0.9183
+
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SKITE', '1.000'), ('SUITE', '1.000')]
+Top entropy choice: 𝙎𝙆𝙄𝙏𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙐𝙄𝙏𝙀 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 4.658 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙈𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙄𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESIT', 'BESOT', 'BESTI', 'BLEST', 'CESTI', 'CHEST', 'COSTE', 'DEIST', 'DOEST', 'EGEST', 'ESCOT', 'ESTOC', 'ESTOP', 'EWEST', 'EXIST', 'FEIST', 'FESTY', 'FIEST', 'GEEST', 'GEIST', 'GESTE', 'GHEST', 'GOEST', 'GUEST', 'HEIST', 'ISTLE', 'JUSTE', 'MESTO', 'MOSTE', 'NEIST', 'NESTY', 'PESTO', 'PESTY', 'PISTE', 'POSTE', 'QUEST', 'SCENT', 'SCOTE', 'SCUTE', 'SEITY', 'SENTE', 'SENTI', 'SETON', 'SETUP', 'SEXTO', 'SHENT', 'SHITE', 'SHOTE', 'SHUTE', 'SIENT', 'SIETH', 'SITHE', 'SIXTE', 'SKITE', 'SKYTE', 'SLEPT', 'SMELT', 'SMITE', 'SMOTE', 'SOOTE', 'SPECT', 'SPELT', 'SPENT', 'SPITE', 'STEDD', 'STEDE', 'STEIK', 'STEIL', 'STEIN', 'STELE', 'STELL', 'STEME', 'STEND', 'STENO', 'STENT', 'STEPT', 'STEWY', 'STILE', 'STIME', 'STIPE', 'STIVE', 'STOKE', 'STOLE', 'STONE', 'STOPE', 'STOVE', 'STUDE', 'STUPE', 'STYLE', 'STYME', 'STYTE', 'SUENT', 'SUETE', 'SUETY', 'SUITE', 'SWELT', 'SWEPT', 'SYTHE', 'WEEST', 'YESTY', 'ZESTY']
+101 candidate words remaining.
+Top 10 guesses: [('SPITE', '4.201'), ('PEINE', '4.193'), ('SEINE', '4.162'), ('SUITE', '4.139'), ('POETE', '4.127'), ('PENIE', '4.086'), ('POINT', '4.076'), ('SPINE', '4.047'), ('STIPE', '4.044'), ('LOIPE', '4.043')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 4.6582 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 2.0, 'actual_info_gain': 4.658211482751795, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHITE', 'SKITE', 'SMITE', 'SUITE']
+4 candidate words remaining.
+Top 10 guesses: [('AMUCK', '2.000'), ('BUMPH', '2.000'), ('CHUCK', '2.000'), ('CHUMP', '2.000'), ('CHUMS', '2.000'), ('CHUNK', '2.000'), ('DUMKA', '2.000'), ('DUMKY', '2.000'), ('HAIKU', '2.000'), ('HAKAM', '2.000')]
+Top entropy choice: 𝘼𝙈𝙐𝘾𝙆 with entropy: 2.0000
+Using common exploratory word: 𝘾𝙃𝙐𝘾𝙆 with entropy: 2.0000
+
+Guess: 𝘾𝙃𝙐𝘾𝙆, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SUITE']
+1 candidate words remaining.
+Top 10 guesses: [('SUITE', '0.000')]
+Top entropy choice: 𝙎𝙐𝙄𝙏𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙐𝙄𝙏𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 4.658 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙃𝙐𝘾𝙆, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

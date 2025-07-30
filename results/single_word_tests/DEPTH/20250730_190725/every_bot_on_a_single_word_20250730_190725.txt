@@ -1,0 +1,242 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙀𝙋𝙏𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LITHE 
+The top ten guesses and scores: [('LITHE', 570), ('ELINT', 568), ('ENLIT', 568), ('LENTI', 568), ('UTILE', 554), ('FLITE', 551), ('HELOT', 550), ('LENTO', 548), ('OLENT', 548), ('BELIT', 546)]
+The bot finally chose: LITHE 
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: DOETH 
+The top ten guesses and scores: [('DOETH', 30), ('DEPTH', 29), ('GOETH', 29), ('HEFTY', 29), ('WHEFT', 29), ('UNETH', 28), ('CHETH', 27), ('KHETH', 27)]
+The bot finally chose: DEPTH 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝘿𝙀𝙋𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙀𝙋𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ELITE with entropy: 4.6939
+Bot chose: ELITE with entropy: 4.6939
+Top ten guesses: [('ELITE', 4.69389435581856), ('LITHE', 4.629464492419477), ('LENTI', 4.6184469560999695), ('LOTTE', 4.579715651542808), ('LETHE', 4.579553558729405), ('LETTY', 4.502113398694703), ('FLITE', 4.496600371924623), ('PETIT', 4.478167087966656), ('LEFTE', 4.444895468017779), ('PETTI', 4.430937283133588)]
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.1859 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.1858665453113337, 'expected_info_gain': 4.69389435581856}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BENTO with entropy: 3.2464
+Bot chose: BENTO with entropy: 3.2464
+Top ten guesses: [('BENTO', 3.246439344671016), ('CENTO', 3.203701696057348), ('NETTY', 3.1841837197791887), ('BENTY', 3.1659573209491754), ('GENTY', 3.0219280948873624), ('BETTY', 3.003701696057348), ('PETTO', 2.9709505944546684), ('MENTO', 2.9282129458410013), ('GOETH', 2.9086949695628417), ('PETTY', 2.8659573209491747)]
+
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.246439344671016}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEPTH with entropy: 2.0000
+Bot chose: DEPTH with entropy: 2.0000
+Top ten guesses: [('DEPTH', 2.0), ('JETTY', 2.0), ('PETTY', 2.0), ('HEFTY', 1.5)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.186 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.246 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙀𝙋𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙋𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ELITE with entropy: 4.6939
+Bot chose: ELITE with entropy: 4.6939
+Top ten guesses: [('ELITE', 4.69389435581856), ('LITHE', 4.629464492419477), ('LENTI', 4.6184469560999695), ('LOTTE', 4.579715651542808), ('LETHE', 4.579553558729405), ('LETTY', 4.502113398694703), ('FLITE', 4.496600371924623), ('PETIT', 4.478167087966656), ('LEFTE', 4.444895468017779), ('PETTI', 4.430937283133588)]
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.1859 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.1858665453113337, 'expected_info_gain': 4.69389435581856}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BENTO with entropy: 3.2464
+Bot chose: BENTO with entropy: 3.2464
+Top ten guesses: [('BENTO', 3.246439344671016), ('CENTO', 3.203701696057348), ('NETTY', 3.1841837197791887), ('BENTY', 3.1659573209491754), ('GENTY', 3.0219280948873624), ('BETTY', 3.003701696057348), ('PETTO', 2.9709505944546684), ('MENTO', 2.9282129458410013), ('GOETH', 2.9086949695628417), ('PETTY', 2.8659573209491747)]
+
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.246439344671016}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEPTH with entropy: 2.0000
+Bot chose: DEPTH with entropy: 2.0000
+Top ten guesses: [('DEPTH', 2.0), ('JETTY', 2.0), ('PETTY', 2.0), ('HEFTY', 1.5)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.186 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.246 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙀𝙋𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙋𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 280 potential guesses from 182 remaining candidates...
+Top 5 guesses: [('ELITE', '4.694'), ('LITHE', '4.629'), ('LENTI', '4.618'), ('LOTTE', '4.580'), ('LETHE', '4.580')]
+Top entropy choice: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+Ended up choosing COMMON word: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.1859 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.1858665453113337, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('BENTO', '3.246'), ('CENTO', '3.204'), ('NETTY', '3.184'), ('BENTY', '3.166'), ('GENTY', '3.022')]
+Top entropy choice: 𝘽𝙀𝙉𝙏𝙊 with entropy: 3.2464
+Ended up choosing COMMON word: 𝘽𝙀𝙉𝙏𝙊 with entropy: 3.2464
+
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.246439344671016}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('DEPTH', '2.000'), ('JETTY', '2.000'), ('PETTY', '2.000'), ('HEFTY', '1.500')]
+Top entropy choice: 𝘿𝙀𝙋𝙏𝙃 with entropy: 2.0000
+Ended up choosing COMMON word: 𝘿𝙀𝙋𝙏𝙃 with entropy: 2.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.186 bits, Posterior Entropy: 4.322, 
+Guess: 𝘽𝙀𝙉𝙏𝙊, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 3.246 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙀𝙋𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙋𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEFIT', 'BEGOT', 'BELIT', 'BENTO', 'BENTY', 'BETID', 'BETON', 'BETTY', 'BITTE', 'BLENT', 'BLITE', 'BOETI', 'BOITE', 'BOTTE', 'BUTLE', 'BUTTE', 'CENTO', 'CENTU', 'CETYL', 'CHETH', 'CHUTE', 'CLEFT', 'CLEPT', 'CLOTE', 'COMTE', 'CONTE', 'CTENE', 'CUTIE', 'DEBIT', 'DEBUT', 'DEITY', 'DELFT', 'DEMIT', 'DEMOT', 'DEMPT', 'DENTE', 'DEPOT', 'DEPTH', 'DETOX', 'DEVOT', 'DOETH', 'DUETT', 'DWELT', 'EDICT', 'EDUCT', 'EEJIT', 'EIGHT', 'EJECT', 'ELECT', 'ELINT', 'ELITE', 'ELUTE', 'EMOTE', 'EMPTY', 'ENLIT', 'EPOPT', 'ETHIC', 'ETHNE', 'ETHYL', 'ETTIN', 'ETTLE', 'ETUDE', 'EVENT', 'EVICT', 'EVITE', 'EXITE', 'EXTOL', 'EXULT', 'FECHT', 'FECIT', 'FEINT', 'FELTY', 'FETCH', 'FETID', 'FIENT', 'FITTE', 'FLITE', 'FLOTE', 'FLUTE', 'FLYTE', 'FYTTE', 'GEMOT', 'GENTY', 'GETUP', 'GLENT', 'GLUTE', 'GOETH', 'GOETY', 'HECHT', 'HEFTE', 'HEFTY', 'HELOT', 'HITHE', 'HOTTE', 'HYTHE', 'IDENT', 'INEPT', 'IXTLE', 'JETON', 'JETTY', 'KELTY', 'KEMPT', 'KENTE', 'KETCH', 'KETOL', 'KHETH', 'KITHE', 'KITKE', 'KLETT', 'KNELT', 'KYTHE', 'LEFTE', 'LEFTY', 'LEGIT', 'LENTI', 'LENTO', 'LETCH', 'LETHE', 'LETTY', 'LETUP', 'LITHE', 'LITIE', 'LOTTE', 'LYTHE', 'MEINT', 'MEITH', 'MELTY', 'MENTO', 'METHI', 'METHO', 'METHY', 'METIC', 'METIF', 'METOL', 'MEYNT', 'MITIE', 'MIXTE', 'MONTE', 'MOTTE', 'MTEPE', 'NEMPT', 'NEPIT', 'NETOP', 'NETTY', 'OCOTE', 'OLENT', 'OUTIE', 'PEENT', 'PETIT', 'PETTI', 'PETTO', 'PETTY', 'PEWIT', 'PIETY', 'PLUTE', 'POETE', 'PTYPE', 'QUETE', 'QUITE', 'QUOTE', 'QUYTE', 'UNETH', 'UNITE', 'UNTIE', 'UPTIE', 'UTILE', 'VELDT', 'VENTI', 'VETCH', 'VOLTE', 'WECHT', 'WEETE', 'WEFTE', 'WELKT', 'WETLY', 'WHEFT', 'WHITE', 'WITHE', 'WYTHE', 'YENTE', 'YITIE', 'ZLOTE']
+182 candidate words remaining.
+Top 10 guesses: [('ELITE', '4.694'), ('LEONE', '4.690'), ('HELIO', '4.644'), ('LOCIE', '4.643'), ('LITHE', '4.629'), ('LENTI', '4.618'), ('BELIE', '4.614'), ('LINTY', '4.598'), ('FLITT', '4.596'), ('LOIPE', '4.588')]
+Top entropy choice: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+Guess count low, choosing the word with highest entropy: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.1859 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 3.1858665453113337, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BENTO', 'BENTY', 'BETTY', 'CENTO', 'CENTU', 'CHETH', 'DEPTH', 'DOETH', 'DUETT', 'GENTY', 'GOETH', 'GOETY', 'HEFTY', 'JETTY', 'KHETH', 'MENTO', 'NETTY', 'PETTO', 'PETTY', 'UNETH']
+20 candidate words remaining.
+Top 10 guesses: [('GONCH', '3.722'), ('NOTCH', '3.684'), ('PONCY', '3.684'), ('BOTCH', '3.646'), ('HUNDO', '3.646'), ('PONDY', '3.646'), ('PONGY', '3.609'), ('PUNGY', '3.609'), ('CYTON', '3.546'), ('HONKY', '3.546')]
+Top entropy choice: 𝙂𝙊𝙉𝘾𝙃 with entropy: 3.7219
+Using common exploratory word: 𝙉𝙊𝙏𝘾𝙃 with entropy: 3.6842
+
+Guess: 𝙉𝙊𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 1.0, 'actual_info_gain': 3.3219280948873626, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DEPTH', 'KHETH']
+2 candidate words remaining.
+Top 10 guesses: [('DEPTH', '1.000'), ('KHETH', '1.000')]
+Top entropy choice: 𝘿𝙀𝙋𝙏𝙃 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝘿𝙀𝙋𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.186 bits, Posterior Entropy: 4.322, 
+Guess: 𝙉𝙊𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘿𝙀𝙋𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

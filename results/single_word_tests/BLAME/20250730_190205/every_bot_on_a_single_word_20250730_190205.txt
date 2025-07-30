@@ -1,0 +1,256 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝘼𝙈𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: ELAND 
+The top ten guesses and scores: [('ELAND', 972), ('LEMAN', 972), ('ANCLE', 960), ('CLEAN', 960), ('PENAL', 959), ('PLANE', 959), ('PLENA', 959), ('ANGLE', 952), ('GENAL', 952), ('GLEAN', 952)]
+The bot finally chose: CLEAN 
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: ALIKE 
+The top ten guesses and scores: [('ALIKE', 42), ('ALKIE', 42), ('BLADE', 41), ('BLAME', 41), ('BLAZE', 41), ('FLAKE', 41), ('GLADE', 41), ('GLAZE', 41), ('ALIVE', 40), ('FLAME', 40)]
+The bot finally chose: ALIKE 
+Guess: 𝘼𝙇𝙄𝙆𝙀, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BLADE 
+The top ten guesses and scores: [('BLADE', 26), ('BLAME', 26), ('BLAZE', 26), ('GLADE', 26), ('GLAZE', 26), ('PLAGE', 25), ('FLAME', 24)]
+The bot finally chose: BLADE 
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BLAME 
+The top ten guesses and scores: [('BLAME', 9), ('BLAZE', 9)]
+The bot finally chose: BLAME 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝘼𝙇𝙄𝙆𝙀, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙈𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLANE with entropy: 4.7946
+Bot chose: PLANE with entropy: 4.7946
+Top ten guesses: [('PLANE', 4.7945526391161755), ('ALANE', 4.644224158360227), ('LEMAN', 4.623354691713218), ('CLAME', 4.618005325715188), ('ANELE', 4.617286922772543), ('PENAL', 4.6048505788281915), ('BLAME', 4.576231230807822), ('ALINE', 4.553155408328627), ('CLADE', 4.547529651456017), ('CLEAN', 4.535092641653585)]
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.8260 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.825970600224951, 'expected_info_gain': 4.7945526391161755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLADE with entropy: 2.0404
+Bot chose: CLADE with entropy: 2.0404
+Top ten guesses: [('CLADE', 2.0403733936884962), ('CLAME', 2.0403733936884962), ('GLACE', 1.789929075309999), ('BLADE', 1.6858157091530304), ('BLAME', 1.6858157091530304), ('GLADE', 1.6858157091530304), ('BLAZE', 1.4911148500551858), ('CLAVE', 1.4911148500551858), ('FLAME', 1.4911148500551858), ('GLAZE', 1.4911148500551854)]
+
+Guess: 𝘾𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.0403733936884962}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLAME with entropy: 1.9219
+Bot chose: BLAME with entropy: 1.9219
+Top ten guesses: [('BLAME', 1.9219280948873623), ('BLAZE', 1.9219280948873623), ('FLAME', 1.9219280948873623), ('FLAKE', 1.3709505944546687), ('GLAZE', 1.3709505944546687)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 2.040 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙈𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLANE with entropy: 4.7946
+Bot chose: PLANE with entropy: 4.7946
+Top ten guesses: [('PLANE', 4.7945526391161755), ('ALANE', 4.644224158360227), ('LEMAN', 4.623354691713218), ('CLAME', 4.618005325715188), ('ANELE', 4.617286922772543), ('PENAL', 4.6048505788281915), ('BLAME', 4.576231230807822), ('ALINE', 4.553155408328627), ('CLADE', 4.547529651456017), ('CLEAN', 4.535092641653585)]
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.8260 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.825970600224951, 'expected_info_gain': 4.7945526391161755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CLADE with entropy: 2.0404
+Bot chose: CLADE with entropy: 2.0404
+Top ten guesses: [('CLADE', 2.0403733936884962), ('CLAME', 2.0403733936884962), ('GLACE', 1.789929075309999), ('BLADE', 1.6858157091530304), ('BLAME', 1.6858157091530304), ('GLADE', 1.6858157091530304), ('BLAZE', 1.4911148500551858), ('CLAVE', 1.4911148500551858), ('FLAME', 1.4911148500551858), ('GLAZE', 1.4911148500551854)]
+
+Guess: 𝘾𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.0403733936884962}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLAME with entropy: 1.9219
+Bot chose: BLAME with entropy: 1.9219
+Top ten guesses: [('BLAME', 1.9219280948873623), ('BLAZE', 1.9219280948873623), ('FLAME', 1.9219280948873623), ('FLAKE', 1.3709505944546687), ('GLAZE', 1.3709505944546687)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙇𝘼𝘿𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 2.040 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙈𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 489 potential guesses from 312 remaining candidates...
+Top 5 guesses: [('PLANE', '4.795'), ('ALANE', '4.644'), ('LEMAN', '4.623'), ('CLAME', '4.618'), ('ANELE', '4.617')]
+Top entropy choice: 𝙋𝙇𝘼𝙉𝙀 with entropy: 4.7946
+Ended up choosing COMMON word: 𝙋𝙇𝘼𝙉𝙀 with entropy: 4.7946
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 4.8260 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.825970600224951, 'expected_info_gain': 4.7945526391161755}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('CLADE', '2.040'), ('CLAME', '2.040'), ('GLACE', '1.790'), ('BLADE', '1.686'), ('BLAME', '1.686')]
+Top entropy choice: 𝘾𝙇𝘼𝘿𝙀 with entropy: 2.0404
+Ended up choosing COMMON word: 𝘽𝙇𝘼𝘿𝙀 with entropy: 1.6858
+
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 1.6858157091530304}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BLAME', '1.000'), ('BLAZE', '1.000')]
+Top entropy choice: 𝘽𝙇𝘼𝙈𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘽𝙇𝘼𝙈𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.686 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙈𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAM', 'ABELE', 'ABENG', 'ABIDE', 'ABODE', 'ABOVE', 'ABUNE', 'ACEDY', 'ACENE', 'ACONE', 'ADAGE', 'ADDLE', 'ADEAD', 'ADOBE', 'ADOZE', 'AECIA', 'AEVUM', 'AGAPE', 'AGAVE', 'AGAZE', 'AGENE', 'AGGIE', 'AGILE', 'AGOGE', 'AGONE', 'AHEAD', 'AHEAP', 'AHOLE', 'AIZLE', 'AKELA', 'AKENE', 'ALANE', 'ALEAK', 'ALECK', 'ALEPH', 'ALEYE', 'ALGAE', 'ALIKE', 'ALINE', 'ALIVE', 'ALKIE', 'ALONE', 'ALOWE', 'AMAZE', 'AMBLE', 'AMEBA', 'AMEND', 'AMENE', 'AMICE', 'AMIDE', 'AMINE', 'AMOLE', 'AMOVE', 'AMPLE', 'ANCLE', 'ANELE', 'ANGLE', 'ANILE', 'ANIME', 'ANKLE', 'ANODE', 'ANOLE', 'APACE', 'APAGE', 'APEAK', 'APODE', 'APPLE', 'AQUAE', 'AVALE', 'AVINE', 'AVIZE', 'AVYZE', 'AWAKE', 'AWAVE', 'AWOKE', 'AXILE', 'AXONE', 'AYELP', 'AZIDE', 'AZINE', 'AZOLE', 'AZYME', 'BEACH', 'BEADY', 'BEAKY', 'BEAMY', 'BEANO', 'BEANY', 'BEAUX', 'BECAP', 'BEDAD', 'BEGAD', 'BEGAN', 'BEKAH', 'BELAH', 'BELAY', 'BELGA', 'BEMAD', 'BENGA', 'BEVAN', 'BIGAE', 'BLADE', 'BLAME', 'BLAZE', 'BLEAH', 'BLEAK', 'BUAZE', 'BUENA', 'CEAZE', 'CECAL', 'CEIBA', 'CELLA', 'CHACE', 'CHAFE', 'CHAPE', 'CHAVE', 'CHEAP', 'CHEBA', 'CHEKA', 'CHELA', 'CLADE', 'CLAME', 'CLAVE', 'CLEAN', 'COMAE', 'COXAE', 'CUECA', 'CYMAE', 'DEAVE', 'DEAWY', 'DEBAG', 'DECAD', 'DECAF', 'DECAL', 'DECAN', 'DECAY', 'DEDAL', 'DELAY', 'DELLA', 'DEMAN', 'DENAY', 'DEWAN', 'DEWAX', 'DIANE', 'DWALE', 'EBANK', 'EBENA', 'EDEMA', 'EKDAM', 'ELAIN', 'ELAND', 'ELIAD', 'ELVAN', 'EMAIL', 'EMBAY', 'ENEMA', 'ENIAC', 'EPENA', 'EPHAH', 'EQUAL', 'EUPAD', 'EVADE', 'FEAZE', 'FECAL', 'FEDAI', 'FELLA', 'FEMAL', 'FLAKE', 'FLAME', 'FLANE', 'FLEAM', 'GEMMA', 'GENAE', 'GENAL', 'GENOA', 'GENUA', 'GEYAN', 'GLACE', 'GLADE', 'GLAZE', 'GLEAM', 'GLEAN', 'GLEBA', 'GOAVE', 'GYNAE', 'HEADY', 'HEALD', 'HEAME', 'HEAPY', 'HEAVE', 'HEAVY', 'HEIAU', 'HEJAB', 'HELLA', 'HEMAL', 'HENNA', 'HEXAD', 'HYENA', 'IDEAL', 'ILEAC', 'ILEAL', 'IMAGE', 'INANE', 'JEHAD', 'JELAB', 'KEAKI', 'KEBAB', 'KEEMA', 'KEHUA', 'KENAF', 'KHEDA', 'KNAVE', 'KNAWE', 'KNEAD', 'KWELA', 'LEACH', 'LEADY', 'LEAFY', 'LEAKY', 'LEANY', 'LEAVE', 'LEAVY', 'LEAZE', 'LEGAL', 'LEHUA', 'LEMAN', 'LEMMA', 'LEPAK', 'LEZZA', 'LIANE', 'LOAVE', 'MEAKE', 'MEALY', 'MEANE', 'MEANY', 'MECCA', 'MECHA', 'MEDAL', 'MEDIA', 'MEEJA', 'MEKKA', 'MELAM', 'MELBA', 'MENAD', 'MEZZA', 'MINAE', 'NEAFE', 'NELIA', 'NEOZA', 'NEXAL', 'NOEMA', 'NOVAE', 'NUGAE', 'OBEAH', 'OCEAN', 'OLPAE', 'OMEGA', 'OZENA', 'PEACE', 'PEACH', 'PEAGE', 'PEAKE', 'PEAKY', 'PEAVY', 'PEAZE', 'PECAN', 'PECIA', 'PEDAL', 'PEGMA', 'PEKAN', 'PEKAU', 'PELAU', 'PELMA', 'PENAL', 'PENNA', 'PEOLA', 'PEPLA', 'PHAGE', 'PILAE', 'PLACE', 'PLAGE', 'PLANE', 'PLEAD', 'PLENA', 'POAKE', 'POENA', 'PUPAE', 'QUAKE', 'QUALE', 'QUEAN', 'QUENA', 'ULEMA', 'ULNAE', 'UVEAL', 'VEALE', 'VEALY', 'VEENA', 'VEGAN', 'VENAE', 'VENAL', 'VOEMA', 'VOLAE', 'WEALD', 'WEAMB', 'WEAVE', 'WHALE', 'WHEAL', 'XENIA', 'YEALM', 'ZOEAE', 'ZOEAL', 'ZONAE']
+312 candidate words remaining.
+Top 10 guesses: [('NEELD', '4.914'), ('PLENE', '4.903'), ('MEDLE', '4.820'), ('ALAND', '4.805'), ('PLANE', '4.795'), ('LEONE', '4.714'), ('BLAND', '4.679'), ('CLINE', '4.662'), ('CLONE', '4.647'), ('ALANE', '4.644')]
+Top entropy choice: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.9138
+Guess count low, choosing the word with highest entropy: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.9138
+
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 3.8931 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 3.893084796083488, 'expected_info_gain': 4.913778257977301}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ALGAE', 'ALIKE', 'ALIVE', 'ALKIE', 'ALOWE', 'BLAME', 'BLAZE', 'CLAME', 'CLAVE', 'EMAIL', 'EQUAL', 'FLAKE', 'FLAME', 'GLACE', 'GLAZE', 'LOAVE', 'OLPAE', 'PILAE', 'PLACE', 'PLAGE', 'VOLAE']
+21 candidate words remaining.
+Top 10 guesses: [('GOPIK', '3.463'), ('CLAMP', '3.423'), ('CLAIM', '3.404'), ('COGIE', '3.404'), ('PLACK', '3.404'), ('GLAIK', '3.368'), ('GLAMP', '3.368'), ('PLAIG', '3.368'), ('OGMIC', '3.296'), ('GLACE', '3.268')]
+Top entropy choice: 𝙂𝙊𝙋𝙄𝙆 with entropy: 3.4633
+Using common exploratory word: 𝘾𝙇𝘼𝙈𝙋 with entropy: 3.4226
+
+Guess: 𝘾𝙇𝘼𝙈𝙋, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 3.3923 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 1.0, 'actual_info_gain': 3.3923174227787607, 'expected_info_gain': 4.913778257977301}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BLAME', 'FLAME']
+2 candidate words remaining.
+Top 10 guesses: [('BLAME', '1.000'), ('FLAME', '1.000')]
+Top entropy choice: 𝘽𝙇𝘼𝙈𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙇𝘼𝙈𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.285, Expected Info Gain: 4.914 bits, Actual Info Gain: 3.893 bits, Posterior Entropy: 4.392, 
+Guess: 𝘾𝙇𝘼𝙈𝙋, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.392, Expected Info Gain: 4.914 bits, Actual Info Gain: 3.392 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙇𝘼𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

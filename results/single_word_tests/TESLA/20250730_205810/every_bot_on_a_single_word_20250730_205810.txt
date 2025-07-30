@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙀𝙎𝙇𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: TESLA 
+The top ten guesses and scores: [('TESLA', 19), ('TSADE', 19), ('TEASE', 18), ('TESTA', 18)]
+The bot finally chose: TESLA 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+Guess: 𝙏𝙀𝙎𝙇𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙀𝙎𝙇𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TESLA with entropy: 2.0000
+Bot chose: TESLA with entropy: 2.0000
+Top ten guesses: [('TESLA', 2.0), ('TESTA', 2.0), ('TEASE', 1.5), ('TSADE', 1.5)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙀𝙎𝙇𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙎𝙇𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TESLA with entropy: 2.0000
+Bot chose: TESLA with entropy: 2.0000
+Top ten guesses: [('TESLA', 2.0), ('TESTA', 2.0), ('TEASE', 1.5), ('TSADE', 1.5)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙀𝙎𝙇𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙎𝙇𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('TESLA', '2.000'), ('TESTA', '2.000'), ('TEASE', '1.500'), ('TSADE', '1.500')]
+Top entropy choice: 𝙏𝙀𝙎𝙇𝘼 with entropy: 2.0000
+Ended up choosing COMMON word: 𝙏𝙀𝙎𝙇𝘼 with entropy: 2.0000
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙀𝙎𝙇𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙎𝙇𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 11.8587 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.0, 'actual_info_gain': 11.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEASE', 'TESLA', 'TESTA', 'TSADE']
+4 candidate words remaining.
+Top 10 guesses: [('ABELE', '2.000'), ('ADATS', '2.000'), ('ADDLE', '2.000'), ('ADYTA', '2.000'), ('AFALD', '2.000'), ('AGLEE', '2.000'), ('ALAND', '2.000'), ('ALBEE', '2.000'), ('ALDEA', '2.000'), ('ALEYE', '2.000')]
+Top entropy choice: 𝘼𝘽𝙀𝙇𝙀 with entropy: 2.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝘽𝙀𝙇𝙀 with entropy: 2.0000
+
+Guess: 𝘼𝘽𝙀𝙇𝙀, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TESLA']
+1 candidate words remaining.
+Top 10 guesses: [('TESLA', '0.000')]
+Top entropy choice: 𝙏𝙀𝙎𝙇𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙀𝙎𝙇𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.859 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙀𝙇𝙀, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝙎𝙇𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

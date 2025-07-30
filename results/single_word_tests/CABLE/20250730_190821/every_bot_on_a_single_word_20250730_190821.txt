@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝘽𝙇𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LANCE 
+The top ten guesses and scores: [('LANCE', 322), ('LANDE', 321), ('MAILE', 319), ('LAIDE', 317), ('MACLE', 316), ('MANIE', 313), ('LABNE', 312), ('NAICE', 312), ('DAINE', 311), ('MANGE', 309)]
+The bot finally chose: LANCE 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: CABLE 
+The top ten guesses and scores: [('CABLE', 22), ('CALVE', 22), ('CAPLE', 22), ('MACLE', 22), ('CALLE', 21)]
+The bot finally chose: CABLE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩
+Guess: 𝘾𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAILE with entropy: 3.3596
+Bot chose: LANCE with entropy: 3.2452
+Top ten guesses: [('MAILE', 3.35963225595188), ('LAIDE', 3.3111208949114537), ('DAINE', 3.2850514117040213), ('LANDE', 3.2605495117589123), ('MACLE', 3.253115880084754), ('LANCE', 3.24518496000314), ('BAILE', 3.2095221588909357), ('CADIE', 3.185667325663659), ('MANIE', 3.1838485884039596), ('NAICE', 3.173983963466687)]
+
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.459431618637298, 'expected_info_gain': 3.24518496000314}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CABLE with entropy: 1.9219
+Bot chose: CABLE with entropy: 1.9219
+Top ten guesses: [('CABLE', 1.9219280948873623), ('CALLE', 1.9219280948873623), ('CALVE', 1.9219280948873623), ('CAPLE', 1.9219280948873623), ('MACLE', 1.3709505944546687)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAILE with entropy: 3.3596
+Bot chose: LANCE with entropy: 3.2452
+Top ten guesses: [('MAILE', 3.35963225595188), ('LAIDE', 3.3111208949114537), ('DAINE', 3.2850514117040213), ('LANDE', 3.2605495117589123), ('MACLE', 3.253115880084754), ('LANCE', 3.24518496000314), ('BAILE', 3.2095221588909357), ('CADIE', 3.185667325663659), ('MANIE', 3.1838485884039596), ('NAICE', 3.173983963466687)]
+
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.459431618637298, 'expected_info_gain': 3.24518496000314}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CABLE with entropy: 1.9219
+Bot chose: CABLE with entropy: 1.9219
+Top ten guesses: [('CABLE', 1.9219280948873623), ('CALLE', 1.9219280948873623), ('CALVE', 1.9219280948873623), ('CAPLE', 1.9219280948873623), ('MACLE', 1.3709505944546687)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 209 potential guesses from 110 remaining candidates...
+Top 5 guesses: [('CHILD', '4.083'), ('DOING', '3.770'), ('COULD', '3.566'), ('MAILE', '3.360'), ('LAIDE', '3.311')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 4.0831
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 4.0831
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 5.1964 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.196397212803504, 'expected_info_gain': 4.083107222997348}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('CABLE', '0.918'), ('CALLE', '0.918'), ('CAPLE', '0.918')]
+Top entropy choice: 𝘾𝘼𝘽𝙇𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝘼𝘽𝙇𝙀 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 6.781, Expected Info Gain: 4.083 bits, Actual Info Gain: 5.196 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BACNE', 'BADGE', 'BAGIE', 'BAILE', 'BAIZE', 'BAYLE', 'CABLE', 'CACHE', 'CADGE', 'CADIE', 'CAECA', 'CAFFE', 'CALLE', 'CALVE', 'CANOE', 'CAPLE', 'CAVIE', 'DAINE', 'DALLE', 'DAMME', 'DANCE', 'DAUBE', 'EAGLE', 'EAGLY', 'FABLE', 'FACIE', 'FADGE', 'FAENA', 'FAINE', 'FAKIE', 'FAUVE', 'FAYNE', 'GABLE', 'GADGE', 'GADJE', 'GAFFE', 'GAMBE', 'GAMME', 'GAUGE', 'GAUJE', 'GAUZE', 'HABLE', 'HALVE', 'HANCE', 'HAOLE', 'HAYLE', 'HAZLE', 'JAKIE', 'JAMBE', 'JAUNE', 'JAXIE', 'KAMME', 'KANAE', 'KAYLE', 'LABNE', 'LADLE', 'LAEVO', 'LAIDE', 'LANCE', 'LANDE', 'LAPJE', 'LAUDE', 'MACHE', 'MACLE', 'MADGE', 'MAEDI', 'MAHOE', 'MAILE', 'MAIZE', 'MAJOE', 'MAKIE', 'MALAE', 'MAMIE', 'MANGE', 'MANIE', 'MAPLE', 'MAUVE', 'MAVIE', 'MAYBE', 'NACHE', 'NAEVE', 'NAEVI', 'NAICE', 'NAIVE', 'NANCE', 'NAPPE', 'PADLE', 'PAEAN', 'PAEDO', 'PAEON', 'PAGLE', 'PAGNE', 'PAIPE', 'PANCE', 'PANNE', 'PAVIE', 'VADGE', 'VAGUE', 'VALUE', 'VALVE', 'WACKE', 'WADGE', 'WAIDE', 'WAIVE', 'WALIE', 'WANLE', 'WANZE', 'ZAIDE', 'ZANZE', 'ZAYDE']
+110 candidate words remaining.
+Top 10 guesses: [('CLING', '4.230'), ('BLIND', '4.090'), ('CHILD', '4.083'), ('CLINE', '4.048'), ('DINLO', '4.036'), ('LUNGI', '4.014'), ('CLIMB', '4.012'), ('COLIN', '4.001'), ('DOLCI', '3.991'), ('LUCID', '3.987')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.2296
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.2296
+
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 4.7814 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 2.0, 'actual_info_gain': 4.78135971352466, 'expected_info_gain': 4.229577516458548}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CABLE', 'CALLE', 'CALVE', 'CAPLE']
+4 candidate words remaining.
+Top 10 guesses: [('BALLO', '2.000'), ('BALLS', '2.000'), ('BALLY', '2.000'), ('BBALL', '2.000'), ('BELLE', '2.000'), ('BELLI', '2.000'), ('BELLO', '2.000'), ('BELLS', '2.000'), ('BELLY', '2.000'), ('BELVE', '2.000')]
+Top entropy choice: 𝘽𝘼𝙇𝙇𝙊 with entropy: 2.0000
+Using common exploratory word: 𝘽𝘼𝙇𝙇𝙔 with entropy: 2.0000
+
+Guess: 𝘽𝘼𝙇𝙇𝙔, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.229577516458548}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CABLE']
+1 candidate words remaining.
+Top 10 guesses: [('CABLE', '0.000')]
+Top entropy choice: 𝘾𝘼𝘽𝙇𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝘼𝘽𝙇𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 6.781, Expected Info Gain: 4.230 bits, Actual Info Gain: 4.781 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝙇𝙇𝙔, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 4.230 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

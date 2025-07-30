@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙐𝘿𝙄𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙐𝘿𝙄𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.054 bits, Posterior Entropy: 5.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.459, Expected Info Gain: 4.190 bits, Actual Info Gain: 5.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙐𝘿𝙄𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 4.054 bits, Posterior Entropy: 5.459, 
+Guess: 𝘼𝙇𝙊𝙐𝘿, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.459, Expected Info Gain: 4.190 bits, Actual Info Gain: 5.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝘿𝙄𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 5.192 bits, Posterior Entropy: 4.322, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝘿𝙄𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 6.929 bits, Posterior Entropy: 2.585, 
+Guess: 𝘿𝙄𝙑𝙀𝘿, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 5.613 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙐𝘿𝙄𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,225 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝙉 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: RUBIO 
+The top ten guesses and scores: [('RUBIO', 904), ('GUIRO', 892), ('IRONY', 888), ('ORCIN', 880), ('HOURI', 879), ('NIDOR', 879), ('ROILY', 872), ('INORB', 871), ('ROBIN', 871), ('YOURN', 868)]
+The bot finally chose: RUBIO 
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: DRONY 
+The top ten guesses and scores: [('DRONY', 224), ('DROWN', 223), ('FROND', 221), ('CRONY', 219), ('CROWD', 219), ('DOWRY', 219), ('CROWN', 218), ('CROWL', 217), ('LOWRY', 217), ('PROYN', 216)]
+The bot finally chose: DROWN 
+Guess: 𝘿𝙍𝙊𝙒𝙉, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CROWN 
+The top ten guesses and scores: [('CROWN', 13), ('FROWN', 13), ('GROWN', 13)]
+The bot finally chose: CROWN 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙍𝙊𝙒𝙉, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝙉 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 5.5277 bits
+Posterior entropy: 8.330916878114618
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.330916878114618, 'actual_info_gain': 5.527744106608159, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PRION with entropy: 5.0994
+Bot chose: GROIN with entropy: 5.0163
+Top ten guesses: [('PRION', 5.099356534971468), ('COURD', 5.040816322572221), ('PROIN', 5.030194136681525), ('BOURN', 5.02306158384964), ('GROIN', 5.016312590500804), ('ROUND', 5.007492403067328), ('CRUDO', 5.006501210334191), ('CRONY', 5.004856940176658), ('IRONY', 4.996938117380632), ('CROON', 4.982399873520813)]
+
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 5.3309 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.330916878114618, 'posterior_entropy': 3.0, 'actual_info_gain': 5.330916878114618, 'expected_info_gain': 5.016312590500804}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROWN with entropy: 1.8113
+Bot chose: CROWN with entropy: 1.8113
+Top ten guesses: [('CROWN', 1.811278124459133), ('FROWN', 1.811278124459133), ('CROON', 1.5487949406953985), ('BROWN', 1.4056390622295665), ('DROWN', 1.4056390622295665), ('FRORN', 1.061278124459133), ('KROON', 1.061278124459133), ('PROYN', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 5.331 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝙉 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 5.5277 bits
+Posterior entropy: 8.330916878114618
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.330916878114618, 'actual_info_gain': 5.527744106608159, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PRION with entropy: 5.0994
+Bot chose: GROIN with entropy: 5.0163
+Top ten guesses: [('PRION', 5.099356534971468), ('COURD', 5.040816322572221), ('PROIN', 5.030194136681525), ('BOURN', 5.02306158384964), ('GROIN', 5.016312590500804), ('ROUND', 5.007492403067328), ('CRUDO', 5.006501210334191), ('CRONY', 5.004856940176658), ('IRONY', 4.996938117380632), ('CROON', 4.982399873520813)]
+
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 5.3309 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 8.330916878114618, 'posterior_entropy': 3.0, 'actual_info_gain': 5.330916878114618, 'expected_info_gain': 5.016312590500804}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROWN with entropy: 1.8113
+Bot chose: CROWN with entropy: 1.8113
+Top ten guesses: [('CROWN', 1.811278124459133), ('FROWN', 1.811278124459133), ('CROON', 1.5487949406953985), ('BROWN', 1.4056390622295665), ('DROWN', 1.4056390622295665), ('FRORN', 1.061278124459133), ('KROON', 1.061278124459133), ('PROYN', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 5.331 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝙉 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 5.5277 bits
+Posterior entropy: 8.330916878114618
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.330916878114618, 'actual_info_gain': 5.527744106608159, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 322 remaining candidates...
+Top 5 guesses: [('PRION', '5.099'), ('COULD', '5.079'), ('COURD', '5.041'), ('PROIN', '5.030'), ('BOURN', '5.023')]
+Top entropy choice: 𝙋𝙍𝙄𝙊𝙉 with entropy: 5.0994
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙇𝘿 with entropy: 5.0786
+
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 4.8715 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.330916878114618, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.87148525947732, 'expected_info_gain': 5.078623025618657}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('CRONK', '2.914'), ('CROON', '2.845'), ('CROCK', '2.550'), ('CRONY', '2.550'), ('CROOK', '2.550')]
+Top entropy choice: 𝘾𝙍𝙊𝙉𝙆 with entropy: 2.9140
+Ended up choosing COMMON word: 𝘾𝙍𝙊𝘾𝙆 with entropy: 2.5503
+
+Guess: 𝘾𝙍𝙊𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.5503407095463886}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('CROON', '2.000'), ('CROWN', '2.000'), ('CRONY', '1.500'), ('CROMB', '0.811')]
+Top entropy choice: 𝘾𝙍𝙊𝙊𝙉 with entropy: 2.0000
+Ended up choosing COMMON word: 𝘾𝙍𝙊𝙒𝙉 with entropy: 2.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.079 bits, Actual Info Gain: 4.871 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙍𝙊𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.550 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙒𝙉 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 5.5277 bits
+Posterior entropy: 8.330916878114618
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.330916878114618, 'actual_info_gain': 5.527744106608159, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIDRI', 'BLURB', 'BOMOR', 'BOORD', 'BOURD', 'BOURG', 'BOURN', 'BRICK', 'BRIKI', 'BRILL', 'BRING', 'BRINK', 'BRINY', 'BROCH', 'BROCK', 'BROGH', 'BROIL', 'BROMO', 'BRONC', 'BROND', 'BROOD', 'BROOK', 'BROOL', 'BROOM', 'BROWN', 'BRUCK', 'BRUGH', 'BRUIN', 'BRUJO', 'BRUNG', 'CHIRK', 'CHIRL', 'CHIRM', 'CHIRO', 'CHIRP', 'CHIRR', 'CHIRU', 'CHOIR', 'CHORD', 'CHURL', 'CHURN', 'CHURR', 'CLOUR', 'COLOR', 'COURB', 'COURD', 'COWRY', 'CRIBO', 'CRICK', 'CRIMP', 'CRINK', 'CROCI', 'CROCK', 'CROMB', 'CRONK', 'CRONY', 'CROOK', 'CROOL', 'CROON', 'CROUP', 'CROWD', 'CROWL', 'CROWN', 'CRUCK', 'CRUDO', 'CRUDY', 'CRUMB', 'CRUMP', 'CRUNK', 'CRUOR', 'CUPRO', 'DHIKR', 'DOBRO', 'DOLOR', 'DONOR', 'DOORN', 'DOWRY', 'DRILL', 'DRILY', 'DRINK', 'DROCK', 'DROID', 'DROIL', 'DROLL', 'DRONY', 'DROOB', 'DROOG', 'DROOK', 'DROOL', 'DROOP', 'DROUK', 'DROWN', 'DRUID', 'DRUNK', 'DRUXY', 'DRYLY', 'FIBRO', 'FIORD', 'FJORD', 'FLOOR', 'FLORY', 'FLOUR', 'FLUOR', 'FLURR', 'FRILL', 'FRIZZ', 'FROCK', 'FROMM', 'FROND', 'FROOM', 'FRORN', 'FRORY', 'FROWN', 'FROWY', 'FROYO', 'FRUMP', 'GLORY', 'GOORY', 'GOURD', 'GRIFF', 'GRILL', 'GRIMY', 'GRIND', 'GRIPY', 'GRODY', 'GROIN', 'GROOF', 'GROOM', 'GROUF', 'GROUP', 'GROVY', 'GROWL', 'GROWN', 'GRUFF', 'GRUMP', 'GRUND', 'GUIRO', 'HONOR', 'HOORD', 'HOURI', 'HUMOR', 'HYDRO', 'ICHOR', 'IMPRO', 'INCUR', 'INDRI', 'INORB', 'INURN', 'IRING', 'IROKO', 'IRONY', 'IVORY', 'KNURL', 'KNURR', 'KOORI', 'KRILL', 'KRIOL', 'KROON', 'KRUBI', 'KRUMP', 'KRUNK', 'KUKRI', 'KWIRL', 'LIBOR', 'LIBRI', 'LIVOR', 'LOORD', 'LOURY', 'LOWRY', 'MHORR', 'MICRO', 'MILOR', 'MINOR', 'MOHUR', 'MOORY', 'MOURN', 'MUCOR', 'MUCRO', 'MUDIR', 'MUIRY', 'NIDOR', 'NJIRL', 'OCCUR', 'OCHRY', 'ODOUR', 'OFURO', 'ORBIC', 'ORCIN', 'ORFUL', 'ORGIC', 'ORIBI', 'ORIGO', 'ORLON', 'ORLOP', 'ORPIN', 'PONOR', 'POORI', 'PRICK', 'PRICY', 'PRIDY', 'PRILL', 'PRIMI', 'PRIMO', 'PRIMP', 'PRIMY', 'PRING', 'PRINK', 'PRION', 'PRIOR', 'PRIVY', 'PROBY', 'PRODD', 'PROIN', 'PROLL', 'PROMO', 'PRONG', 'PRONK', 'PROOF', 'PROOK', 'PROUD', 'PROUL', 'PROWK', 'PROWL', 'PROXY', 'PROYN', 'PRUNO', 'PRUNY', 'PUDOR', 'QUIRK', 'QUIRL', 'QUORK', 'QUORL', 'RHINO', 'RHODY', 'RHOMB', 'RHUMB', 'RHYMY', 'RIBBY', 'RICIN', 'RIDGY', 'RIDIC', 'RIFFY', 'RIGID', 'RIGMO', 'RIGOL', 'RIGOR', 'RILLY', 'RIMON', 'RINDY', 'RINGY', 'ROBBO', 'ROBIN', 'ROBUG', 'ROBUR', 'ROCKY', 'RODNY', 'ROGUY', 'ROHUN', 'ROILY', 'ROLLY', 'ROMPU', 'ROMPY', 'RONDO', 'RONIN', 'RONUK', 'ROOFY', 'ROOKY', 'ROOMY', 'ROOPY', 'ROUGH', 'ROUGY', 'ROUKY', 'ROUND', 'ROUPY', 'ROWDY', 'ROWND', 'RUBBY', 'RUBIN', 'RUBIO', 'RUBLI', 'RUBOR', 'RUCHY', 'RUDDY', 'RUFFY', 'RUGBY', 'RUGGY', 'RUING', 'RULLY', 'RUMBO', 'RUMLY', 'RUMMY', 'RUMOR', 'RUMPO', 'RUMPY', 'RUNCH', 'RUNIC', 'RUNNY', 'RUNUP', 'RUVID', 'RYIJI', 'RYIJY', 'RYPIN', 'RYUGI', 'UHURU', 'UPDRY', 'URUBU', 'VIGOR', 'VIZIR', 'VIZOR', 'VROOM', 'VROUW', 'WHIRL', 'WHIRR', 'WHORL', 'WRICK', 'WRING', 'WRONG', 'WRUNG', 'WRYLY', 'YOURN', 'YRIVD', 'ZOKOR']
+322 candidate words remaining.
+Top 10 guesses: [('BOUND', '5.238'), ('POUND', '5.185'), ('LOUND', '5.137'), ('POIND', '5.117'), ('PIONY', '5.107'), ('PRION', '5.099'), ('MOUND', '5.083'), ('COULD', '5.079'), ('BIDON', '5.077'), ('COIGN', '5.062')]
+Top entropy choice: 𝘽𝙊𝙐𝙉𝘿 with entropy: 5.2375
+Guess count low, choosing the word with highest entropy: 𝘽𝙊𝙐𝙉𝘿 with entropy: 5.2375
+
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 4.4240 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 8.330916878114618, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 4.424026282506099, 'expected_info_gain': 5.237543649847127}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CROON', 'CROWN', 'FRORN', 'FROWN', 'GROIN', 'GROWN', 'KROON', 'MINOR', 'ORCIN', 'ORLON', 'ORPIN', 'PRION', 'PROIN', 'PROYN', 'RIMON']
+15 candidate words remaining.
+Top 10 guesses: [('PICON', '3.457'), ('PICOT', '3.323'), ('GIPON', '3.273'), ('OGMIC', '3.240'), ('PILOW', '3.190'), ('PIROG', '3.140'), ('POORI', '3.140'), ('PRIOR', '3.140'), ('CLOOP', '3.107'), ('POOCH', '3.107')]
+Top entropy choice: 𝙋𝙄𝘾𝙊𝙉 with entropy: 3.4566
+Using common exploratory word: 𝙋𝙍𝙄𝙊𝙍 with entropy: 3.1396
+
+Guess: 𝙋𝙍𝙄𝙊𝙍, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 5.237543649847127}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CROWN', 'FROWN', 'GROWN']
+3 candidate words remaining.
+Top 10 guesses: [('CROWN', '0.918'), ('FROWN', '0.918'), ('GROWN', '0.918')]
+Top entropy choice: 𝘾𝙍𝙊𝙒𝙉 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙍𝙊𝙒𝙉 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.331, Expected Info Gain: 5.238 bits, Actual Info Gain: 4.424 bits, Posterior Entropy: 3.907, 
+Guess: 𝙋𝙍𝙄𝙊𝙍, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 5.238 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

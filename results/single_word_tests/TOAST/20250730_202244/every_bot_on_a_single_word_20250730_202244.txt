@@ -1,0 +1,136 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝘼𝙎𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TSADI 
+The top ten guesses and scores: [('TSADI', 12), ('TSUBA', 12), ('TOAST', 11)]
+The bot finally chose: TOAST 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+Guess: 𝙏𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝘼𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOAST with entropy: 1.5850
+Bot chose: TOAST with entropy: 1.5850
+Top ten guesses: [('TOAST', 1.584962500721156), ('TSADI', 1.584962500721156), ('TSUBA', 1.584962500721156)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘼𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOAST with entropy: 1.5850
+Bot chose: TOAST with entropy: 1.5850
+Top ten guesses: [('TOAST', 1.584962500721156), ('TSADI', 1.584962500721156), ('TSUBA', 1.584962500721156)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘼𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TOAST', '1.585'), ('TSADI', '1.585'), ('TSUBA', '1.585')]
+Top entropy choice: 𝙏𝙊𝘼𝙎𝙏 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙏𝙊𝘼𝙎𝙏 with entropy: 1.5850
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝘼𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨
+Actual Info Gain: 12.2737 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 12.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TOAST', 'TSADI', 'TSUBA']
+3 candidate words remaining.
+Top 10 guesses: [('TOAST', '1.585'), ('TSADI', '1.585'), ('TSUBA', '1.585')]
+Top entropy choice: 𝙏𝙊𝘼𝙎𝙏 with entropy: 1.5850
+Guess count low, choosing the word with highest entropy: 𝙏𝙊𝘼𝙎𝙏 with entropy: 1.5850
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.274 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

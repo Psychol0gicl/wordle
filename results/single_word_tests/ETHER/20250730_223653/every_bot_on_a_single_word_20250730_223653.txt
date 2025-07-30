@@ -1,0 +1,206 @@
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: OUTER 
+The top ten guesses and scores: [('OUTER', 172), ('ROUET', 172), ('NOTER', 167), ('OPTER', 167), ('DOTER', 166), ('OTHER', 166), ('ROTED', 166), ('VOTER', 166), ('OFTER', 165), ('ROWET', 165)]
+The bot finally chose: OUTER 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: ITHER 
+The top ten guesses and scores: [('ITHER', 10), ('ETHER', 9)]
+The bot finally chose: ETHER 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OUTER with entropy: 3.3784
+Bot chose: OUTER with entropy: 3.3784
+Top ten guesses: [('OUTER', 3.378442463879634), ('ROUET', 3.1356888499270292), ('OPTER', 3.0369956771838718), ('NOTER', 3.0175694732685687), ('PETER', 2.909930129893539), ('METER', 2.8635134877337736), ('VOTER', 2.8515226815896657), ('OTTER', 2.8393358796567463), ('ORTET', 2.8287150093703395), ('DOTER', 2.819909675741443)]
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 4.459431618637297, 'expected_info_gain': 3.378442463879634}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ETHER with entropy: 1.0000
+Bot chose: ETHER with entropy: 1.0000
+Top ten guesses: [('ETHER', 1.0), ('ITHER', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OUTER with entropy: 3.3784
+Bot chose: OUTER with entropy: 3.3784
+Top ten guesses: [('OUTER', 3.378442463879634), ('ROUET', 3.1356888499270292), ('OPTER', 3.0369956771838718), ('NOTER', 3.0175694732685687), ('PETER', 2.909930129893539), ('METER', 2.8635134877337736), ('VOTER', 2.8515226815896657), ('OTTER', 2.8393358796567463), ('ORTET', 2.8287150093703395), ('DOTER', 2.819909675741443)]
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 4.459431618637297, 'expected_info_gain': 3.378442463879634}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ETHER with entropy: 1.0000
+Bot chose: ETHER with entropy: 1.0000
+Top ten guesses: [('ETHER', 1.0), ('ITHER', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 44 potential guesses from 44 remaining candidates...
+Top 5 guesses: [('OUTER', '3.378'), ('ROUET', '3.136'), ('OPTER', '3.037'), ('NOTER', '3.018'), ('PETER', '2.910')]
+Top entropy choice: 𝙊𝙐𝙏𝙀𝙍 with entropy: 3.3784
+Ended up choosing COMMON word: 𝙊𝙐𝙏𝙀𝙍 with entropy: 3.3784
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Actual Info Gain: 4.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 4.459431618637297, 'expected_info_gain': 3.378442463879634}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('ETHER', '1.000'), ('ITHER', '1.000')]
+Top entropy choice: 𝙀𝙏𝙃𝙀𝙍 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙀𝙏𝙃𝙀𝙍 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITER', 'CITER', 'CRUET', 'CUTER', 'DETER', 'DOTER', 'ENTER', 'ETHER', 'FREET', 'GREET', 'INTER', 'ITHER', 'KITER', 'LITER', 'LUTER', 'METER', 'MITER', 'MUTER', 'NITER', 'NOTER', 'OFTER', 'OPTER', 'ORTET', 'OTHER', 'OTTER', 'OUTER', 'OXTER', 'PETER', 'PUTER', 'REGET', 'RELET', 'REMET', 'RETEM', 'REVET', 'REWET', 'RIVET', 'ROTED', 'ROUET', 'ROWET', 'ROYET', 'ROZET', 'UPTER', 'UTTER', 'VOTER']
+44 candidate words remaining.
+Top 10 guesses: [('NOTUM', '3.624'), ('MOULT', '3.571'), ('MOUNT', '3.570'), ('MOHUR', '3.492'), ('POULT', '3.455'), ('PITOT', '3.441'), ('OUBIT', '3.433'), ('MUTON', '3.424'), ('POTIN', '3.410'), ('HUMOR', '3.410')]
+Top entropy choice: 𝙉𝙊𝙏𝙐𝙈 with entropy: 3.6238
+Guess count low, choosing the word with highest entropy: 𝙉𝙊𝙏𝙐𝙈 with entropy: 3.6238
+
+Guess: 𝙉𝙊𝙏𝙐𝙈, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.2895 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.289506617194985, 'expected_info_gain': 3.6237917102166546}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ETHER', 'FREET', 'GREET', 'ITHER', 'REGET', 'RELET', 'REVET', 'REWET', 'RIVET']
+9 candidate words remaining.
+Top 10 guesses: [('GLEET', '2.948'), ('GLIFT', '2.948'), ('LEGER', '2.948'), ('LEGIT', '2.948'), ('EVEGS', '2.948'), ('WEIGH', '2.948'), ('ELEGY', '2.725'), ('ERVIL', '2.725'), ('HELVE', '2.725'), ('HEVEL', '2.725')]
+Top entropy choice: 𝙂𝙇𝙀𝙀𝙏 with entropy: 2.9477
+Using common exploratory word: 𝙇𝙀𝙂𝙀𝙍 with entropy: 2.9477
+
+Guess: 𝙇𝙀𝙂𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.6237917102166546}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ETHER']
+1 candidate words remaining.
+Top 10 guesses: [('ETHER', '0.000')]
+Top entropy choice: 𝙀𝙏𝙃𝙀𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙀𝙏𝙃𝙀𝙍 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙉𝙊𝙏𝙐𝙈, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.459, Expected Info Gain: 3.624 bits, Actual Info Gain: 2.290 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝙀𝙂𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

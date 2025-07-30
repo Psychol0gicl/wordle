@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝙊𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙄𝙉𝙏𝙍𝙊, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝘽𝙍𝙊𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝙊𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙍𝙊𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙊𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙍𝙊𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙊𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.505 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙍𝙊𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙊𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙄𝙏𝙊𝙏, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 6.150, Expected Info Gain: 4.608 bits, Actual Info Gain: 3.565 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙍𝙊𝙒𝙉, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.608 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙊𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

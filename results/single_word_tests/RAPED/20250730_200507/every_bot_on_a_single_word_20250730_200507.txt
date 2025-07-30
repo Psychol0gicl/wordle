@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝙋𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: GAPER 
+The top ten guesses and scores: [('GAPER', 311), ('PAGER', 311), ('RAGED', 311), ('LAGER', 310), ('RAPED', 310), ('LADER', 309), ('PALER', 309), ('PAVER', 308), ('RAVED', 308), ('VAPER', 308)]
+The bot finally chose: PAGER 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: RAPED 
+The top ten guesses and scores: [('RAPED', 10), ('RAPEE', 9)]
+The bot finally chose: RAPED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨
+Guess: 𝙍𝘼𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝙋𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 2.3166
+Bot chose: PAGER with entropy: 2.3007
+Top ten guesses: [('GAPER', 2.3165608808580505), ('PAGER', 2.3007211410488058), ('LAGER', 2.2828863711069616), ('PALER', 2.245889999636617), ('RAGED', 2.238200369323572), ('RAPED', 2.2154160256120425), ('CAGER', 2.188957984146004), ('CAPER', 2.171436084504522), ('PACER', 2.168135015692553), ('LACER', 2.14745829403843)]
+
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨
+Actual Info Gain: 5.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 5.459431618637297, 'expected_info_gain': 2.3007211410488058}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAPED with entropy: 1.0000
+Bot chose: RAPED with entropy: 1.0000
+Top ten guesses: [('RAPED', 1.0), ('RAPEE', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 5.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙋𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAPER with entropy: 2.3166
+Bot chose: PAGER with entropy: 2.3007
+Top ten guesses: [('GAPER', 2.3165608808580505), ('PAGER', 2.3007211410488058), ('LAGER', 2.2828863711069616), ('PALER', 2.245889999636617), ('RAGED', 2.238200369323572), ('RAPED', 2.2154160256120425), ('CAGER', 2.188957984146004), ('CAPER', 2.171436084504522), ('PACER', 2.168135015692553), ('LACER', 2.14745829403843)]
+
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨
+Actual Info Gain: 5.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 5.459431618637297, 'expected_info_gain': 2.3007211410488058}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAPED with entropy: 1.0000
+Bot chose: RAPED with entropy: 1.0000
+Top ten guesses: [('RAPED', 1.0), ('RAPEE', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: 🟨🟩⬜🟩🟨, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 5.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙋𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 188 potential guesses from 88 remaining candidates...
+Top 5 guesses: [('CHILD', '2.340'), ('GAPER', '2.317'), ('PAGER', '2.301'), ('PLACE', '2.291'), ('LAGER', '2.283')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 2.3402
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 2.3402
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 3.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.340153484362001}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('RAGED', '0.544'), ('RAKED', '0.544'), ('RANED', '0.544'), ('RAPED', '0.544'), ('RAVED', '0.544')]
+Top entropy choice: 𝙍𝘼𝙂𝙀𝘿 with entropy: 0.5436
+Ended up choosing COMMON word: 𝙍𝘼𝙂𝙀𝘿 with entropy: 0.5436
+
+Guess: 𝙍𝘼𝙂𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('RAKED', '0.592'), ('RANED', '0.592'), ('RAPED', '0.592'), ('RAVED', '0.592'), ('RAXED', '0.592')]
+Top entropy choice: 𝙍𝘼𝙆𝙀𝘿 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙍𝘼𝙆𝙀𝘿 with entropy: 0.5917
+
+Guess: 𝙍𝘼𝙆𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('RANED', '0.650'), ('RAPED', '0.650'), ('RAVED', '0.650'), ('RAXED', '0.650'), ('RAYED', '0.650')]
+Top entropy choice: 𝙍𝘼𝙉𝙀𝘿 with entropy: 0.6500
+Ended up choosing COMMON word: 𝙍𝘼𝙋𝙀𝘿 with entropy: 0.6500
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 6.459, Expected Info Gain: 2.340 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝘼𝙂𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙍𝘼𝙆𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝘼𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙋𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 7.3992 bits
+Posterior entropy: 6.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.459431618637297, 'actual_info_gain': 7.399229366085479, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAKER', 'BALER', 'BAYER', 'CABER', 'CAGER', 'CANER', 'CAPER', 'CAVER', 'DAKER', 'DAZER', 'EAGER', 'EAVER', 'FACER', 'FADER', 'FAKER', 'FAVER', 'FAYER', 'GAGER', 'GAMER', 'GAPER', 'GAYER', 'GAZER', 'HALER', 'HAVER', 'HAYER', 'HAZER', 'JAGER', 'JAKER', 'JAPER', 'LACER', 'LADER', 'LAGER', 'LAKER', 'LAMER', 'LAVER', 'LAWER', 'LAXER', 'LAYER', 'MACER', 'MAKER', 'MAZER', 'NAKER', 'NAMER', 'OAKER', 'PACER', 'PAGER', 'PALER', 'PAPER', 'PAVER', 'PAWER', 'PAYER', 'RACED', 'RACER', 'RAFEE', 'RAGED', 'RAGEE', 'RAGER', 'RAHED', 'RAKED', 'RAKEE', 'RAKER', 'RAMEE', 'RAMEN', 'RANED', 'RANEE', 'RAPED', 'RAPEE', 'RAPER', 'RAVED', 'RAVEL', 'RAVEN', 'RAVER', 'RAVEY', 'RAWER', 'RAXED', 'RAYED', 'RAZED', 'RAZEE', 'RAZER', 'VAPER', 'WADER', 'WAFER', 'WAGER', 'WAKER', 'WALER', 'WAVER', 'WAXER', 'YAGER']
+88 candidate words remaining.
+Top 10 guesses: [('GLYPH', '2.823'), ('CLYPE', '2.771'), ('GOLDY', '2.755'), ('PODGY', '2.753'), ('GODLY', '2.726'), ('DOGLY', '2.713'), ('REPLY', '2.685'), ('REPEG', '2.679'), ('PUDGY', '2.675'), ('PYGAL', '2.658')]
+Top entropy choice: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.8229
+Guess count low, choosing the word with highest entropy: 𝙂𝙇𝙔𝙋𝙃 with entropy: 2.8229
+
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.1375 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 6.459431618637297, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 3.137503523749935, 'expected_info_gain': 2.822905015819318}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CAPER', 'JAPER', 'PACER', 'PAPER', 'PAVER', 'PAWER', 'RAPED', 'RAPEE', 'RAPER', 'VAPER']
+10 candidate words remaining.
+Top 10 guesses: [('CAVER', '2.322'), ('COVER', '2.322'), ('VICAR', '2.322'), ('PACER', '2.171'), ('PAVER', '2.171'), ('PUCER', '2.171'), ('RAPPE', '2.171'), ('CAVED', '2.161'), ('CAVIE', '2.161'), ('CIVIE', '2.161')]
+Top entropy choice: 𝘾𝘼𝙑𝙀𝙍 with entropy: 2.3219
+Using common exploratory word: 𝘾𝙊𝙑𝙀𝙍 with entropy: 2.3219
+
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.822905015819318}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RAPED', 'RAPEE']
+2 candidate words remaining.
+Top 10 guesses: [('RAPED', '1.000'), ('RAPEE', '1.000')]
+Top entropy choice: 𝙍𝘼𝙋𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝘼𝙋𝙀𝘿 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 6.459, Expected Info Gain: 2.823 bits, Actual Info Gain: 3.138 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 3.322, Expected Info Gain: 2.823 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝘼𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

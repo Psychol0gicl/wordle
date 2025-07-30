@@ -1,0 +1,243 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝘽𝙔𝙎𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ALIOS 
+The top ten guesses and scores: [('ALIOS', 1190), ('LOAMS', 1179), ('LOMAS', 1179), ('MOALS', 1179), ('MOLAS', 1179), ('LOANS', 1176), ('AULOS', 1171), ('APOLS', 1165), ('OPALS', 1165), ('ALODS', 1160)]
+The bot finally chose: ALIOS 
+Guess: 𝘼𝙇𝙄𝙊𝙎, Feedback: 🟩⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ANKHS 
+The top ten guesses and scores: [('ANKHS', 99), ('ANKUS', 99), ('ANGAS', 96), ('AZYMS', 96), ('ANNUS', 95), ('ABYSS', 93), ('AGMAS', 93), ('AZANS', 93), ('ADAYS', 92), ('AGBAS', 92)]
+The bot finally chose: ABYSS 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘼𝙇𝙄𝙊𝙎, Feedback: 🟩⬜⬜⬜🟩
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝘽𝙔𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOALS with entropy: 3.9384
+Bot chose: ALIAS with entropy: 3.8353
+Top ten guesses: [('MOALS', 3.9383829475505134), ('LOANS', 3.8368834987834353), ('ALIAS', 3.83528868775324), ('MOLAS', 3.834211234668073), ('ALMAS', 3.8299556852346246), ('LOAMS', 3.826656242004528), ('SOLAS', 3.812079738198706), ('GOALS', 3.791655328971376), ('LOMAS', 3.7915590178771694), ('ALANS', 3.7905524717709547)]
+
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 4.5661 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 4.0, 'actual_info_gain': 4.566054038171092, 'expected_info_gain': 3.83528868775324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASKOS with entropy: 2.8994
+Bot chose: ASKOS with entropy: 2.8994
+Top ten guesses: [('ASKOS', 2.899397470347699), ('AMOKS', 2.7272170014624826), ('AZONS', 2.6556390622295662), ('AMBOS', 2.649397470347699), ('APSOS', 2.524397470347699), ('AGONS', 2.4834585933443494), ('AXONS', 2.4834585933443494), ('ANKUS', 2.474601752714581), ('AMMOS', 2.4237949406953985), ('ANKHS', 2.202819531114783)]
+
+Guess: 𝘼𝙎𝙆𝙊𝙎, Feedback: 🟩🟨⬜⬜🟩
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 2.899397470347699}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABYSS with entropy: 0.0000
+Bot chose: ABYSS with entropy: 0.0000
+Top ten guesses: [('ABYSS', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 4.566 bits, Posterior Entropy: 4.000, 
+Guess: 𝘼𝙎𝙆𝙊𝙎, Feedback: 🟩🟨⬜⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 2.899 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙔𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOALS with entropy: 3.9384
+Bot chose: ALIAS with entropy: 3.8353
+Top ten guesses: [('MOALS', 3.9383829475505134), ('LOANS', 3.8368834987834353), ('ALIAS', 3.83528868775324), ('MOLAS', 3.834211234668073), ('ALMAS', 3.8299556852346246), ('LOAMS', 3.826656242004528), ('SOLAS', 3.812079738198706), ('GOALS', 3.791655328971376), ('LOMAS', 3.7915590178771694), ('ALANS', 3.7905524717709547)]
+
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 4.5661 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 4.0, 'actual_info_gain': 4.566054038171092, 'expected_info_gain': 3.83528868775324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASKOS with entropy: 2.8994
+Bot chose: ASKOS with entropy: 2.8994
+Top ten guesses: [('ASKOS', 2.899397470347699), ('AMOKS', 2.7272170014624826), ('AZONS', 2.6556390622295662), ('AMBOS', 2.649397470347699), ('APSOS', 2.524397470347699), ('AGONS', 2.4834585933443494), ('AXONS', 2.4834585933443494), ('ANKUS', 2.474601752714581), ('AMMOS', 2.4237949406953985), ('ANKHS', 2.202819531114783)]
+
+Guess: 𝘼𝙎𝙆𝙊𝙎, Feedback: 🟩🟨⬜⬜🟩
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 2.899397470347699}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ABYSS with entropy: 0.0000
+Bot chose: ABYSS with entropy: 0.0000
+Top ten guesses: [('ABYSS', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 4.566 bits, Posterior Entropy: 4.000, 
+Guess: 𝘼𝙎𝙆𝙊𝙎, Feedback: 🟩🟨⬜⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 2.899 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙔𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 499 potential guesses from 379 remaining candidates...
+Top 5 guesses: [('CLAIM', '4.203'), ('ALONG', '4.175'), ('COULD', '3.993'), ('DOING', '3.992'), ('MOALS', '3.938')]
+Top entropy choice: 𝘾𝙇𝘼𝙄𝙈 with entropy: 4.2031
+Ended up choosing COMMON word: 𝘾𝙇𝘼𝙄𝙈 with entropy: 4.2031
+
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.5888 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 2.5887741146711756, 'expected_info_gain': 4.2030590760776265}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 163 potential guesses from 63 remaining candidates...
+Top 5 guesses: [('YOUNG', '3.902'), ('FOUND', '3.621'), ('PHONE', '3.486'), ('AGONS', '3.471'), ('ANKUS', '3.465')]
+Top entropy choice: 𝙔𝙊𝙐𝙉𝙂 with entropy: 3.9018
+Ended up choosing COMMON word: 𝙔𝙊𝙐𝙉𝙂 with entropy: 3.9018
+
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.9773 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 0.0, 'actual_info_gain': 5.977279923499917, 'expected_info_gain': 3.9017724281150277}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('ABYSS', '0.000')]
+Top entropy choice: 𝘼𝘽𝙔𝙎𝙎 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘼𝘽𝙔𝙎𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.566, Expected Info Gain: 4.203 bits, Actual Info Gain: 2.589 bits, Posterior Entropy: 5.977, 
+Guess: 𝙔𝙊𝙐𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 3.902 bits, Actual Info Gain: 5.977 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝘽𝙔𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABACS', 'ABBAS', 'ABIUS', 'ABYSS', 'ACAIS', 'ACCAS', 'ACIDS', 'ACYLS', 'ADAWS', 'ADAYS', 'ADDAS', 'ADIOS', 'AGALS', 'AGBAS', 'AGHAS', 'AGIOS', 'AGLUS', 'AGMAS', 'AGONS', 'AIDAS', 'AIDOS', 'AIGAS', 'AKKAS', 'ALANS', 'ALAPS', 'ALAYS', 'ALBAS', 'ALCOS', 'ALFAS', 'ALGAS', 'ALGOS', 'ALIAS', 'ALIFS', 'ALIMS', 'ALIOS', 'ALKOS', 'ALLIS', 'ALLUS', 'ALMAS', 'ALODS', 'ALOOS', 'ALUMS', 'AMAHS', 'AMASS', 'AMBOS', 'AMIAS', 'AMIDS', 'AMINS', 'AMISS', 'AMLAS', 'AMMAS', 'AMMOS', 'AMOKS', 'AMYLS', 'ANGAS', 'ANILS', 'ANKHS', 'ANKUS', 'ANLAS', 'ANNAS', 'ANNUS', 'ANOAS', 'ANSAS', 'APAYS', 'APHIS', 'APODS', 'APOLS', 'APSIS', 'APSOS', 'AQUAS', 'ASCUS', 'ASKOS', 'ASPIS', 'AULAS', 'AULOS', 'AVGAS', 'AVOWS', 'AWAYS', 'AWDLS', 'AWOLS', 'AXILS', 'AXONS', 'AYAHS', 'AYINS', 'AZANS', 'AZONS', 'AZYMS', 'BDAYS', 'BHAIS', 'BIMAS', 'BLABS', 'BLADS', 'BLAGS', 'BLAHS', 'BLAMS', 'BLAWS', 'BLAYS', 'BOABS', 'BOAKS', 'BOBAS', 'BOLAS', 'BOMAS', 'BUBAS', 'BUDAS', 'BUNAS', 'CHADS', 'CHAIS', 'CHALS', 'CHAMS', 'CHAOS', 'CHAPS', 'CHAVS', 'CHAWS', 'CHAYS', 'CHIAS', 'CLADS', 'CLAGS', 'CLAMS', 'CLANS', 'CLAPS', 'CLASS', 'CLAWS', 'CLAYS', 'COALS', 'COCAS', 'CODAS', 'COLAS', 'COMAS', 'CYANS', 'CYCAS', 'CYMAS', 'DBAGS', 'DHAKS', 'DHALS', 'DIALS', 'DIKAS', 'DISAS', 'DIVAS', 'DIYAS', 'DOABS', 'DONAS', 'DOPAS', 'DOSAS', 'DUADS', 'DUALS', 'DUANS', 'DUKAS', 'DUMAS', 'DWAMS', 'DYADS', 'FLABS', 'FLAGS', 'FLAKS', 'FLAMS', 'FLANS', 'FLAPS', 'FLAWS', 'FLAYS', 'FOALS', 'FOAMS', 'GIGAS', 'GILAS', 'GLADS', 'GLAMS', 'GLANS', 'GLASS', 'GLIAS', 'GNAWS', 'GOADS', 'GOAFS', 'GOALS', 'GUANS', 'GUGAS', 'GULAS', 'GUNAS', 'GYALS', 'GYANS', 'HIBAS', 'HOKAS', 'HOMAS', 'HOYAS', 'HUIAS', 'HULAS', 'HUMAS', 'HYLAS', 'IKANS', 'IMAMS', 'INCAS', 'ISBAS', 'IXIAS', 'JIAOS', 'JUBAS', 'JUDAS', 'KCALS', 'KHADS', 'KHAFS', 'KHANS', 'KINAS', 'KIPAS', 'KIVAS', 'KLAPS', 'KNAGS', 'KNAPS', 'KOANS', 'KOAPS', 'KOHAS', 'KOKAS', 'KOLAS', 'KUIAS', 'KULAS', 'KUNAS', 'KUYAS', 'KVASS', 'KYAKS', 'LIMAS', 'LIPAS', 'LIWAS', 'LOADS', 'LOAFS', 'LOAMS', 'LOANS', 'LOLAS', 'LOMAS', 'LUAUS', 'LUMAS', 'LUNAS', 'LYAMS', 'MGALS', 'MIAIS', 'MICAS', 'MIHAS', 'MINAS', 'MIYAS', 'MOAIS', 'MOALS', 'MOANS', 'MOGAS', 'MOLAS', 'MONAS', 'MOWAS', 'MOXAS', 'MOYAS', 'MYALS', 'MYNAS', 'NILAS', 'NIPAS', 'NIVAS', 'NOAHS', 'NOIAS', 'NOMAS', 'NONAS', 'NOVAS', 'NOXAS', 'NYAMS', 'OBIAS', 'ODAHS', 'ODALS', 'OFAYS', 'OGAMS', 'OHIAS', 'OKAYS', 'OLLAS', 'OMDAS', 'OOAAS', 'OPAHS', 'OPALS', 'OUMAS', 'OUPAS', 'OVALS', 'PIAIS', 'PIANS', 'PICAS', 'PIKAS', 'PIMAS', 'PINAS', 'PIPAS', 'PLAAS', 'PLANS', 'PLAPS', 'PLAVS', 'PLAYS', 'POMAS', 'POYAS', 'PSIAS', 'PSOAS', 'PUHAS', 'PUJAS', 'PUKAS', 'PULAS', 'PUMAS', 'PUNAS', 'PUPAS', 'PUYAS', 'QILAS', 'QUABS', 'QUADS', 'QUAGS', 'QUAIS', 'QUASS', 'QUAWS', 'QUAYS', 'SCABS', 'SCADS', 'SCAGS', 'SCAMS', 'SCANS', 'SCAWS', 'SHADS', 'SHAGS', 'SHAHS', 'SHAMS', 'SHANS', 'SHAPS', 'SHAWS', 'SHAYS', 'SHWAS', 'SIALS', 'SIDAS', 'SIKAS', 'SIMAS', 'SKAGS', 'SKAWS', 'SKUAS', 'SLABS', 'SLAGS', 'SLAMS', 'SLAPS', 'SLAWS', 'SLAYS', 'SNABS', 'SNAGS', 'SNAPS', 'SNAWS', 'SOAKS', 'SOAPS', 'SOBAS', 'SOCAS', 'SODAS', 'SOFAS', 'SOJAS', 'SOLAS', 'SOMAS', 'SOYAS', 'SPADS', 'SPAGS', 'SPAMS', 'SPANS', 'SPAWS', 'SPAYS', 'SUBAS', 'SWABS', 'SWADS', 'SWAGS', 'SWANS', 'SWAPS', 'SWAYS', 'UBACS', 'UDALS', 'ULANS', 'ULNAS', 'ULVAS', 'UMMAS', 'UNAIS', 'UNAUS', 'VIALS', 'VIGAS', 'VINAS', 'VISAS', 'VIVAS', 'WHAMS', 'WHAPS', 'WOADS', 'WOMAS', 'YOGAS', 'YUANS', 'YUCAS', 'YUGAS', 'ZILAS', 'ZUPAS']
+379 candidate words remaining.
+Top 10 guesses: [('ALAMO', '4.479'), ('MONAL', '4.403'), ('GLOAM', '4.373'), ('ONLAP', '4.363'), ('PILON', '4.355'), ('CLOAM', '4.345'), ('DOMAL', '4.320'), ('ALAND', '4.310'), ('ALMAH', '4.308'), ('POILU', '4.304')]
+Top entropy choice: 𝘼𝙇𝘼𝙈𝙊 with entropy: 4.4787
+Guess count low, choosing the word with highest entropy: 𝘼𝙇𝘼𝙈𝙊 with entropy: 4.4787
+
+Guess: 𝘼𝙇𝘼𝙈𝙊, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 5.1066 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.106622419533795, 'expected_info_gain': 4.478740849599443}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABIUS', 'ABYSS', 'ACIDS', 'ANKHS', 'ANKUS', 'ANNUS', 'APHIS', 'APSIS', 'ASCUS', 'ASPIS', 'AYINS']
+11 candidate words remaining.
+Top 10 guesses: [('BUNCH', '3.278'), ('BUNDH', '3.278'), ('CHINK', '3.278'), ('PINCH', '3.278'), ('PUNCH', '3.278'), ('SUNIS', '3.278'), ('UNPIN', '3.278'), ('USNIC', '3.278'), ('DUNSH', '3.096'), ('HISSY', '3.096')]
+Top entropy choice: 𝘽𝙐𝙉𝘾𝙃 with entropy: 3.2776
+Using common exploratory word: 𝘽𝙐𝙉𝘾𝙃 with entropy: 3.2776
+
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 4.478740849599443}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABYSS']
+1 candidate words remaining.
+Top 10 guesses: [('ABYSS', '0.000')]
+Top entropy choice: 𝘼𝘽𝙔𝙎𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝘽𝙔𝙎𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝘼𝙈𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.566, Expected Info Gain: 4.479 bits, Actual Info Gain: 5.107 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.479 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

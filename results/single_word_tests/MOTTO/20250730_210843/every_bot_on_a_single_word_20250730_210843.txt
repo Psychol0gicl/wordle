@@ -1,0 +1,284 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙏𝙏𝙊 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: OTIUM 
+The top ten guesses and scores: [('OTIUM', 883), ('LITHO', 878), ('BITOU', 877), ('OUBIT', 877), ('ONTIC', 873), ('LOTIC', 868), ('OCTLI', 868), ('OPTIC', 860), ('PICOT', 860), ('PINOT', 860)]
+The bot finally chose: OPTIC 
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: 🟨⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MOTHY 
+The top ten guesses and scores: [('MOTHY', 68), ('BOTHY', 65), ('HOTLY', 64), ('GOTHY', 63), ('MUTON', 63), ('NOTUM', 63), ('HOTTY', 62), ('MOTTY', 62), ('BUTOH', 61), ('BOTTY', 59)]
+The bot finally chose: HOTLY 
+Guess: 𝙃𝙊𝙏𝙇𝙔, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOTUM 
+The top ten guesses and scores: [('NOTUM', 22), ('JOTUN', 20), ('MOTON', 20), ('MOTTO', 17), ('KOTOW', 16)]
+The bot finally chose: MOTTO 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: 🟨⬜🟩⬜⬜
+Guess: 𝙃𝙊𝙏𝙇𝙔, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙈𝙊𝙏𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙏𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 3.1933 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.193307928880264, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOOTH with entropy: 3.5251
+Bot chose: BOOTH with entropy: 3.5136
+Top ten guesses: [('MOOTH', 3.525127091874935), ('MOLTO', 3.5197284615795614), ('BOOTH', 3.5136459293583706), ('MOTHY', 3.4621356374609267), ('HOTLY', 3.436316797502762), ('MOTTO', 3.3955279166817967), ('HOWTO', 3.382340239749248), ('HOOTY', 3.3804304878001115), ('LOTTO', 3.3149727675300333), ('BOOTY', 3.2676304006348333)]
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.5136459293583706}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOLTO with entropy: 2.0000
+Bot chose: LOTTO with entropy: 1.5000
+Top ten guesses: [('MOLTO', 2.0), ('LOTTO', 1.5), ('MOTTO', 1.5), ('POTTO', 1.5)]
+
+Guess: 𝙇𝙊𝙏𝙏𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOTTO with entropy: 1.0000
+Bot chose: MOTTO with entropy: 1.0000
+Top ten guesses: [('MOTTO', 1.0), ('POTTO', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.193 bits, Posterior Entropy: 5.087, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 3.514 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝙊𝙏𝙏𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙏𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙏𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 3.1933 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.193307928880264, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOOTH with entropy: 3.5251
+Bot chose: BOOTH with entropy: 3.5136
+Top ten guesses: [('MOOTH', 3.525127091874935), ('MOLTO', 3.5197284615795614), ('BOOTH', 3.5136459293583706), ('MOTHY', 3.4621356374609267), ('HOTLY', 3.436316797502762), ('MOTTO', 3.3955279166817967), ('HOWTO', 3.382340239749248), ('HOOTY', 3.3804304878001115), ('LOTTO', 3.3149727675300333), ('BOOTY', 3.2676304006348333)]
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.5136459293583706}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOLTO with entropy: 2.0000
+Bot chose: LOTTO with entropy: 1.5000
+Top ten guesses: [('MOLTO', 2.0), ('LOTTO', 1.5), ('MOTTO', 1.5), ('POTTO', 1.5)]
+
+Guess: 𝙇𝙊𝙏𝙏𝙊, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOTTO with entropy: 1.0000
+Bot chose: MOTTO with entropy: 1.0000
+Top ten guesses: [('MOTTO', 1.0), ('POTTO', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.193 bits, Posterior Entropy: 5.087, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 3.514 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙇𝙊𝙏𝙏𝙊, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙏𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙏𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 311 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.247'), ('COUNT', '5.200'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.2465
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙉𝙏 with entropy: 5.1998
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 3.1933 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.193307928880264, 'expected_info_gain': 5.1998040428465835}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('MOOTH', '3.525'), ('MOLTO', '3.520'), ('BOOTH', '3.514'), ('MOTHY', '3.462'), ('HOTLY', '3.436')]
+Top entropy choice: 𝙈𝙊𝙊𝙏𝙃 with entropy: 3.5251
+Ended up choosing COMMON word: 𝘽𝙊𝙊𝙏𝙃 with entropy: 3.5136
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.5136459293583706}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('MOLTO', '2.000'), ('LOTTO', '1.500'), ('MOTTO', '1.500'), ('POTTO', '1.500')]
+Top entropy choice: 𝙈𝙊𝙇𝙏𝙊 with entropy: 2.0000
+
+Guess: 𝙈𝙊𝙇𝙏𝙊, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('MOTTO', '0.000')]
+Top entropy choice: 𝙈𝙊𝙏𝙏𝙊 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙈𝙊𝙏𝙏𝙊 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.193 bits, Posterior Entropy: 5.087, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 3.514 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙇𝙏𝙊, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙏𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙏𝙏𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BHOOT', 'BIGHT', 'BIGOT', 'BINIT', 'BIONT', 'BITCH', 'BITOU', 'BITTY', 'BLITZ', 'BLUNT', 'BOOTH', 'BOOTY', 'BOTCH', 'BOTHY', 'BOTTY', 'BOULT', 'BOUTU', 'BOXTY', 'BUFTY', 'BUILT', 'BUNDT', 'BUNTY', 'BUTCH', 'BUTOH', 'BUTTY', 'BUTUT', 'BUTYL', 'CHITI', 'CHOTT', 'CHOUT', 'CINCT', 'CLIFT', 'CLINT', 'CLIPT', 'CLOOT', 'CLOTH', 'CLOUT', 'COBOT', 'COMPT', 'CONTO', 'COOPT', 'COOTY', 'COTCH', 'COUNT', 'COUTH', 'CUBIT', 'CULTI', 'CULTY', 'CUNIT', 'CUTCH', 'CUTIN', 'CUTTO', 'CUTTY', 'CUTUP', 'CWTCH', 'CYTON', 'DHOTI', 'DHUTI', 'DICHT', 'DICOT', 'DICTO', 'DICTU', 'DICTY', 'DIGHT', 'DIGIT', 'DITCH', 'DITTO', 'DITTY', 'DITZY', 'DIVOT', 'DIXIT', 'DOCHT', 'DOILT', 'DONUT', 'DOTTY', 'DOUBT', 'DUCTI', 'DUTCH', 'FIFTH', 'FIFTY', 'FIGHT', 'FILTH', 'FITCH', 'FITLY', 'FIXIT', 'FLINT', 'FLITT', 'FLOUT', 'FLUTY', 'FLUYT', 'FOOTY', 'FOUNT', 'FOUTH', 'FOWTH', 'FULTH', 'FUTON', 'GIGOT', 'GITCH', 'GLIFT', 'GLINT', 'GLITZ', 'GLOUT', 'GOTCH', 'GOTHY', 'GOUTY', 'GUILT', 'GUTTY', 'GUYOT', 'HIGHT', 'HITCH', 'HOOTY', 'HOTCH', 'HOTLY', 'HOTTY', 'HOWTO', 'HUTCH', 'ICTIC', 'IDDUT', 'IDIOT', 'ILLTH', 'IMMIT', 'IMPOT', 'INCUT', 'INGOT', 'INNIT', 'INPUT', 'INTIL', 'INWIT', 'ITCHY', 'JIGOT', 'JITTY', 'JOINT', 'JOLTY', 'JONTY', 'JOTTY', 'JOTUN', 'JUNTO', 'JUTTY', 'KIGHT', 'KILTY', 'KITTY', 'KITUL', 'KLUTZ', 'KNOUT', 'KOTCH', 'KOTOW', 'KUTCH', 'LICHT', 'LICIT', 'LIGHT', 'LILTY', 'LIMIT', 'LINTY', 'LITHO', 'LOFTY', 'LOTIC', 'LOTTO', 'LOWTH', 'LYTIC', 'MICHT', 'MIFTY', 'MIGHT', 'MILTY', 'MILTZ', 'MINTY', 'MITCH', 'MOITY', 'MOLTO', 'MONTH', 'MONTY', 'MOOTH', 'MOTHY', 'MOTIF', 'MOTON', 'MOTTO', 'MOTTY', 'MOULT', 'MOUNT', 'MOUTH', 'MUFTI', 'MUKTI', 'MULCT', 'MUNTU', 'MUTCH', 'MUTIC', 'MUTON', 'MUTTI', 'MUTUM', 'MYTHI', 'MYTHY', 'NICHT', 'NIFTY', 'NIGHT', 'NINTH', 'NITID', 'NITON', 'NITTO', 'NITTY', 'NOINT', 'NOOIT', 'NOTCH', 'NOTUM', 'NOWTY', 'NUTTY', 'OBIIT', 'OCTIC', 'OCTLI', 'OCTYL', 'ONTIC', 'OOBIT', 'OOTID', 'OPTIC', 'OPZIT', 'OTHYL', 'OTIUM', 'OUBIT', 'OUCHT', 'OUGHT', 'OUTBY', 'OUTDO', 'OUTGO', 'PFFTT', 'PHOTO', 'PHOTY', 'PHPHT', 'PHUTU', 'PICOT', 'PIGHT', 'PILOT', 'PINOT', 'PINTO', 'PIPIT', 'PITCH', 'PITHY', 'PITON', 'PITOT', 'PITTU', 'PIVOT', 'PIYUT', 'PLOIT', 'PLOOT', 'PLOTZ', 'PLOUT', 'PLOWT', 'PLUOT', 'PLUTO', 'PLUTY', 'POINT', 'POKIT', 'PONTO', 'PONTY', 'POOTY', 'POTCH', 'POTIN', 'POTOO', 'POTTO', 'POTTY', 'POULT', 'POUPT', 'POUTY', 'POWLT', 'POYNT', 'PULUT', 'PUNTO', 'PUNTY', 'PUTID', 'PUTIN', 'PUTON', 'PUTTI', 'PUTTO', 'PUTTU', 'PUTTY', 'QUBIT', 'QUILT', 'QUINT', 'QUOIT', 'QUOTH', 'UBITY', 'UMPTY', 'UNCUT', 'UNFIT', 'UNGOT', 'UNITY', 'UNKUT', 'UNLIT', 'UNPOT', 'UNPUT', 'UNTIL', 'UNTIN', 'UNWIT', 'UPLIT', 'VOLTI', 'VOMIT', 'VUTTY', 'WHIFT', 'WHIPT', 'WHITY', 'WHOOT', 'WIDTH', 'WIFTY', 'WIGHT', 'WITCH', 'WITHY', 'WITTY', 'WOOTZ', 'YMOLT', 'YOUTH', 'ZITTY', 'ZIZIT', 'ZLOTY', 'ZOOTY']
+311 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.317'), ('CUNIT', '5.247'), ('PIONY', '5.209'), ('COUNT', '5.200'), ('NICOL', '5.186'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162'), ('PILOT', '5.155'), ('POTIN', '5.150')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.2808 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 5.0, 'actual_info_gain': 3.2807707701306033, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BOOTH', 'BOOTY', 'BOTHY', 'BOTTY', 'BOUTU', 'BOXTY', 'DOTTY', 'DOUBT', 'FOOTY', 'FOUTH', 'FOWTH', 'GOTHY', 'GOUTY', 'HOOTY', 'HOTTY', 'HOWTO', 'JOTTY', 'KOTOW', 'MOOTH', 'MOTHY', 'MOTTO', 'MOTTY', 'MOUTH', 'POOTY', 'POTOO', 'POTTO', 'POTTY', 'POUPT', 'POUTY', 'WOOTZ', 'YOUTH', 'ZOOTY']
+32 candidate words remaining.
+Top 10 guesses: [('HUMPY', '3.948'), ('BUTTY', '3.762'), ('POOHY', '3.757'), ('BUMPH', '3.742'), ('BOOTH', '3.679'), ('BOMOH', '3.668'), ('PHOTY', '3.656'), ('BUMPY', '3.636'), ('PUTTY', '3.614'), ('UMPTY', '3.608')]
+Top entropy choice: 𝙃𝙐𝙈𝙋𝙔 with entropy: 3.9484
+Using common exploratory word: 𝘽𝙊𝙊𝙏𝙃 with entropy: 3.6792
+
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 1.0, 'actual_info_gain': 4.0, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MOTTO', 'POTTO']
+2 candidate words remaining.
+Top 10 guesses: [('MOTTO', '1.000'), ('POTTO', '1.000')]
+Top entropy choice: 𝙈𝙊𝙏𝙏𝙊 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙊𝙏𝙏𝙊 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 3.281 bits, Posterior Entropy: 5.000, 
+Guess: 𝘽𝙊𝙊𝙏𝙃, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.000, Expected Info Gain: 5.317 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙏𝙏𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

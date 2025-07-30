@@ -1,0 +1,70 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙈𝙊𝙇𝘿𝙔, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.642 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 3.000, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙁𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙂𝙊𝙇𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙇𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.605 bits, Posterior Entropy: 4.392, 
+Guess: 𝘿𝙄𝙈𝙇𝙔, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 5.938 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.807, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 5.938 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙒𝙁𝙐𝙇, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 2.000, Expected Info Gain: 5.938 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙊𝙇𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

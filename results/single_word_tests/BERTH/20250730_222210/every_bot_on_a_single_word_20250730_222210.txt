@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙀𝙍𝙏𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: HERTZ 
+The top ten guesses and scores: [('HERTZ', 39), ('BERTH', 38), ('DERTH', 38), ('ETROG', 38), ('FORTE', 38), ('PORTE', 38), ('NERTZ', 37), ('VERTU', 37), ('CERTY', 36), ('MERIT', 36)]
+The bot finally chose: HERTZ 
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BERTH 
+The top ten guesses and scores: [('BERTH', 9), ('DERTH', 9)]
+The bot finally chose: BERTH 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜
+Guess: 𝘽𝙀𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙀𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HERTZ with entropy: 2.6635
+Bot chose: HERTZ with entropy: 2.6635
+Top ten guesses: [('HERTZ', 2.663532754804255), ('BERTH', 2.5503407095463886), ('DERTH', 2.5503407095463886), ('NERTZ', 2.2221915755066783), ('VERTE', 2.2221915755066783), ('VERTU', 2.2221915755066783), ('FORTE', 2.049452072789394), ('PORTE', 2.049452072789394), ('CERTY', 1.867633890971212), ('MERIT', 1.2406705316766884)]
+
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.663532754804255}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BERTH with entropy: 1.0000
+Bot chose: BERTH with entropy: 1.0000
+Top ten guesses: [('BERTH', 1.0), ('DERTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HERTZ with entropy: 2.6635
+Bot chose: HERTZ with entropy: 2.6635
+Top ten guesses: [('HERTZ', 2.663532754804255), ('BERTH', 2.5503407095463886), ('DERTH', 2.5503407095463886), ('NERTZ', 2.2221915755066783), ('VERTE', 2.2221915755066783), ('VERTU', 2.2221915755066783), ('FORTE', 2.049452072789394), ('PORTE', 2.049452072789394), ('CERTY', 1.867633890971212), ('MERIT', 1.2406705316766884)]
+
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.663532754804255}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BERTH with entropy: 1.0000
+Bot chose: BERTH with entropy: 1.0000
+Top ten guesses: [('BERTH', 1.0), ('DERTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙍𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('HERTZ', '2.664'), ('BERTH', '2.550'), ('DERTH', '2.550'), ('NERTZ', '2.222'), ('VERTE', '2.222')]
+Top entropy choice: 𝙃𝙀𝙍𝙏𝙕 with entropy: 2.6635
+Ended up choosing COMMON word: 𝙃𝙀𝙍𝙏𝙕 with entropy: 2.6635
+
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.663532754804255}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BERTH', '1.000'), ('DERTH', '1.000')]
+Top entropy choice: 𝘽𝙀𝙍𝙏𝙃 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘽𝙀𝙍𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝙀𝙍𝙏𝙕, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙍𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERTH', 'CERTY', 'DERTH', 'ETROG', 'FORTE', 'HERTZ', 'MERIT', 'NERTZ', 'PORTE', 'VERTE', 'VERTU']
+11 candidate words remaining.
+Top 10 guesses: [('COUTH', '2.914'), ('HENCE', '2.914'), ('MOUCH', '2.914'), ('VOUCH', '2.914'), ('VOZHD', '2.914'), ('YOUTH', '2.914'), ('FOUTH', '2.845'), ('HEFTE', '2.845'), ('HEFTY', '2.845'), ('POUCH', '2.845')]
+Top entropy choice: 𝘾𝙊𝙐𝙏𝙃 with entropy: 2.9140
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙐𝙏𝙃 with entropy: 2.9140
+
+Guess: 𝘾𝙊𝙐𝙏𝙃, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.9139770731827523}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERTH', 'DERTH']
+2 candidate words remaining.
+Top 10 guesses: [('BERTH', '1.000'), ('DERTH', '1.000')]
+Top entropy choice: 𝘽𝙀𝙍𝙏𝙃 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙀𝙍𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙊𝙐𝙏𝙃, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.914 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

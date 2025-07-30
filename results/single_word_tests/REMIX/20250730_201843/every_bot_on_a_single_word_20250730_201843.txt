@@ -1,0 +1,289 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙀𝙈𝙄𝙓 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: IRONE 
+The top ten guesses and scores: [('IRONE', 886), ('NOIRE', 886), ('RIONE', 886), ('ORDIE', 882), ('POIRE', 866), ('MOIRE', 856), ('REOIL', 856), ('INURE', 853), ('URINE', 853), ('DRONE', 852)]
+The bot finally chose: NOIRE 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: REDIF 
+The top ten guesses and scores: [('REDIF', 64), ('BREID', 62), ('REBID', 62), ('REDIG', 62), ('REDIP', 62), ('UREID', 62), ('RHEID', 61), ('REDID', 60), ('PREIF', 57), ('REFIX', 57)]
+The bot finally chose: REDIF 
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: REJIG 
+The top ten guesses and scores: [('REJIG', 11), ('RELIC', 11), ('REMIX', 11)]
+The bot finally chose: RELIC 
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: REJIG 
+The top ten guesses and scores: [('REJIG', 8), ('REMIX', 8)]
+The bot finally chose: REMIX 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜
+Guess: 𝙍𝙀𝙈𝙄𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙀𝙈𝙄𝙓 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REINE with entropy: 4.7300
+Bot chose: NOIRE with entropy: 4.5807
+Top ten guesses: [('REINE', 4.72999653631643), ('RIONE', 4.718892704947047), ('REGIE', 4.628206486401921), ('ORDIE', 4.603679756571343), ('NOIRE', 4.580738503030474), ('POIRE', 4.5421264135235315), ('IRONE', 4.540780304253613), ('RUICE', 4.5387842509009895), ('DRONE', 4.5248074527349305), ('RINCE', 4.524425502868277)]
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 4.0572 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.057195401581543, 'expected_info_gain': 4.580738503030474}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REDIF with entropy: 3.2928
+Bot chose: REDIF with entropy: 3.2928
+Top ten guesses: [('REDIF', 3.2927701939369904), ('REDIG', 3.0130709291038453), ('REDIP', 2.984234164652489), ('REBID', 2.939829017466402), ('REDID', 2.822181958642873), ('BREID', 2.7777768114567865), ('UREID', 2.7777768114567865), ('REFIX', 2.7045348998193437), ('RHEID', 2.7045348998193433), ('PREIF', 2.53414684380524)]
+
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.2927701939369904}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REJIG with entropy: 0.9183
+Bot chose: RELIC with entropy: 0.9183
+Top ten guesses: [('REJIG', 0.9182958340544896), ('RELIC', 0.9182958340544896), ('REMIX', 0.9182958340544896)]
+
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REJIG with entropy: 1.0000
+Bot chose: REMIX with entropy: 1.0000
+Top ten guesses: [('REJIG', 1.0), ('REMIX', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 4.057 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 3.293 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝙈𝙄𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙀𝙈𝙄𝙓 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REINE with entropy: 4.7300
+Bot chose: NOIRE with entropy: 4.5807
+Top ten guesses: [('REINE', 4.72999653631643), ('RIONE', 4.718892704947047), ('REGIE', 4.628206486401921), ('ORDIE', 4.603679756571343), ('NOIRE', 4.580738503030474), ('POIRE', 4.5421264135235315), ('IRONE', 4.540780304253613), ('RUICE', 4.5387842509009895), ('DRONE', 4.5248074527349305), ('RINCE', 4.524425502868277)]
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 4.0572 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.057195401581543, 'expected_info_gain': 4.580738503030474}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REDIF with entropy: 3.2928
+Bot chose: REDIF with entropy: 3.2928
+Top ten guesses: [('REDIF', 3.2927701939369904), ('REDIG', 3.0130709291038453), ('REDIP', 2.984234164652489), ('REBID', 2.939829017466402), ('REDID', 2.822181958642873), ('BREID', 2.7777768114567865), ('UREID', 2.7777768114567865), ('REFIX', 2.7045348998193437), ('RHEID', 2.7045348998193433), ('PREIF', 2.53414684380524)]
+
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.2927701939369904}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REJIG with entropy: 0.9183
+Bot chose: RELIC with entropy: 0.9183
+Top ten guesses: [('REJIG', 0.9182958340544896), ('RELIC', 0.9182958340544896), ('REMIX', 0.9182958340544896)]
+
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REJIG with entropy: 1.0000
+Bot chose: REMIX with entropy: 1.0000
+Top ten guesses: [('REJIG', 1.0), ('REMIX', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 4.057 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 3.293 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝙈𝙄𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙀𝙈𝙄𝙓 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 479 potential guesses from 283 remaining candidates...
+Top 5 guesses: [('REINE', '4.730'), ('RIONE', '4.719'), ('REGIE', '4.628'), ('ORDIE', '4.604'), ('NOIRE', '4.581')]
+Top entropy choice: 𝙍𝙀𝙄𝙉𝙀 with entropy: 4.7300
+Ended up choosing COMMON word: 𝙉𝙊𝙄𝙍𝙀 with entropy: 4.5807
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 4.0572 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 4.057195401581543, 'expected_info_gain': 4.580738503030474}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('REDIF', '3.293'), ('REDIG', '3.013'), ('REDIP', '2.984'), ('REBID', '2.940'), ('REDID', '2.822')]
+Top entropy choice: 𝙍𝙀𝘿𝙄𝙁 with entropy: 3.2928
+
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.2927701939369904}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('REJIG', '0.918'), ('RELIC', '0.918'), ('REMIX', '0.918')]
+Top entropy choice: 𝙍𝙀𝙅𝙄𝙂 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙍𝙀𝙇𝙄𝘾 with entropy: 0.9183
+
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('REJIG', '1.000'), ('REMIX', '1.000')]
+Top entropy choice: 𝙍𝙀𝙅𝙄𝙂 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙍𝙀𝙈𝙄𝙓 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 4.057 bits, Posterior Entropy: 4.087, 
+Guess: 𝙍𝙀𝘿𝙄𝙁, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 3.293 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙀𝙇𝙄𝘾, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝙈𝙄𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙀𝙈𝙄𝙓 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEERY', 'BEVOR', 'BLORE', 'BREDE', 'BREID', 'BREME', 'BRERE', 'BREVE', 'BRIBE', 'BRIDE', 'BRINE', 'BRIZE', 'BROKE', 'BROME', 'BRULE', 'BRUME', 'CEORL', 'CHERE', 'CHORE', 'CLERK', 'COURE', 'CREDO', 'CREIN', 'CREME', 'CREPE', 'CREPY', 'CREWE', 'CRIME', 'CRINE', 'CRIPE', 'CROME', 'CRONE', 'CRORE', 'CROZE', 'CRUDE', 'CRUVE', 'CRYNE', 'DEBUR', 'DECOR', 'DECRY', 'DEERE', 'DEMUR', 'DRECK', 'DRERE', 'DRICE', 'DRIVE', 'DROKE', 'DROLE', 'DROME', 'DRONE', 'DROVE', 'DRUPE', 'EMERG', 'EMERY', 'EMURE', 'ENORM', 'ENURE', 'ENURN', 'EPHOR', 'ERGON', 'ERICK', 'ERING', 'ERODE', 'ERUGO', 'ERVIL', 'EVERY', 'EXURB', 'FEMUR', 'FIBRE', 'FIERE', 'FIERI', 'FIERY', 'FLEUR', 'FLORE', 'FREMD', 'FREON', 'FRERE', 'FRIZE', 'FRORE', 'FROZE', 'FUERO', 'GEBUR', 'GENRE', 'GENRO', 'GREBE', 'GREBO', 'GRECE', 'GREGE', 'GREGO', 'GREIN', 'GREVE', 'GRICE', 'GRIDE', 'GRIKE', 'GRIME', 'GRIPE', 'GRIZE', 'GRONE', 'GROPE', 'GROVE', 'GRUFE', 'GRUME', 'GRYCE', 'GRYDE', 'GRYKE', 'GRYPE', 'HENRY', 'HOWRE', 'INERM', 'INURE', 'IRONE', 'KEFIR', 'KIORE', 'KRENG', 'KREWE', 'KRONE', 'LEERY', 'LEMUR', 'LIBRE', 'LIVRE', 'LOURE', 'LUCRE', 'MOIRE', 'NEGRI', 'NEGRO', 'NIGRE', 'NOIRE', 'OCHRE', 'OMBRE', 'ONERY', 'OPERY', 'ORDIE', 'ORGUE', 'PEDRO', 'PEERY', 'PLORE', 'POIRE', 'POWRE', 'PREDY', 'PREIF', 'PREKE', 'PREMY', 'PREON', 'PREOP', 'PREUX', 'PREVE', 'PREXY', 'PRICE', 'PRIDE', 'PRIME', 'PRIZE', 'PROBE', 'PROKE', 'PROLE', 'PRONE', 'PRORE', 'PROVE', 'PRUDE', 'PRUNE', 'QUERN', 'QUERY', 'QUIRE', 'REBBE', 'REBID', 'REBOP', 'REBUD', 'REBUY', 'RECCE', 'RECCO', 'RECCY', 'RECON', 'RECUE', 'RECUR', 'REDDY', 'REDID', 'REDIF', 'REDIG', 'REDIP', 'REDLY', 'REDON', 'REDOX', 'REDRY', 'REDUB', 'REDUG', 'REDUX', 'REDYE', 'REECH', 'REEDE', 'REEDY', 'REEFY', 'REEKY', 'REELY', 'REERD', 'REEVE', 'REEZE', 'REFFO', 'REFIX', 'REFLY', 'REFRY', 'REGGO', 'REGIE', 'REGLE', 'REGUR', 'REIFY', 'REIGN', 'REIKI', 'REINE', 'REING', 'REINK', 'REIRD', 'REIVE', 'REJIG', 'REJON', 'RELIC', 'RELIE', 'RELLO', 'REMIX', 'REMOU', 'RENDU', 'RENIG', 'RENIN', 'RENNE', 'REOIL', 'REORG', 'REPIN', 'REPLY', 'REPRO', 'REPUN', 'REUNE', 'REVIE', 'REVOW', 'REVUE', 'REWIN', 'REWON', 'RHEID', 'RHEME', 'RHEUM', 'RHIME', 'RHINE', 'RHONE', 'RHYME', 'RHYNE', 'RICHE', 'RIDGE', 'RIEVE', 'RIFLE', 'RILLE', 'RINCE', 'RINGE', 'RIONE', 'ROBLE', 'ROCHE', 'ROGUE', 'RONDE', 'RONNE', 'ROQUE', 'ROUGE', 'ROULE', 'ROWIE', 'ROWME', 'ROYNE', 'RUBLE', 'RUCHE', 'RUDIE', 'RUFFE', 'RUICE', 'RUNCE', 'RYMME', 'UMBRE', 'UREDO', 'UREIC', 'UREID', 'URINE', 'VEERY', 'VEZIR', 'VIVRE', 'WEIRD', 'WHERE', 'WHORE', 'WRECK', 'WROKE', 'YBORE', 'YFERE']
+283 candidate words remaining.
+Top 10 guesses: [('DEICE', '4.837'), ('PEINE', '4.750'), ('GEODE', '4.744'), ('REINE', '4.730'), ('GENIE', '4.727'), ('RIONE', '4.719'), ('DIENE', '4.706'), ('PENIE', '4.690'), ('NIECE', '4.628'), ('REGIE', '4.628')]
+Top entropy choice: 𝘿𝙀𝙄𝘾𝙀 with entropy: 4.8373
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙄𝘾𝙀 with entropy: 4.8373
+
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 4.6852 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 4.685226624194585, 'expected_info_gain': 4.8373180440628385}
+----------
+The bot is making a guess...
+THe possible candidates are: ['KEFIR', 'NEGRI', 'REFIX', 'REJIG', 'REMIX', 'RENIG', 'RENIN', 'REOIL', 'REPIN', 'REWIN', 'VEZIR']
+11 candidate words remaining.
+Top 10 guesses: [('FANGO', '2.914'), ('FUNGO', '2.914'), ('GANOF', '2.914'), ('GONEF', '2.914'), ('GONER', '2.914'), ('GONIF', '2.914'), ('GONOF', '2.914'), ('GENOM', '2.845'), ('GINZO', '2.845'), ('GONKS', '2.845')]
+Top entropy choice: 𝙁𝘼𝙉𝙂𝙊 with entropy: 2.9140
+
+Guess: 𝙁𝘼𝙉𝙂𝙊, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.9139770731827523}
+----------
+The bot is making a guess...
+THe possible candidates are: ['REMIX', 'VEZIR']
+2 candidate words remaining.
+Top 10 guesses: [('REMIX', '1.000'), ('VEZIR', '1.000')]
+Top entropy choice: 𝙍𝙀𝙈𝙄𝙓 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙍𝙀𝙈𝙄𝙓 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 8.145, Expected Info Gain: 4.837 bits, Actual Info Gain: 4.685 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝘼𝙉𝙂𝙊, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.914 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝙈𝙄𝙓, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

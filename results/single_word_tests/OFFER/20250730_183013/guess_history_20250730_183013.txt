@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙊𝙁𝙁𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝘾𝙊𝙈𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙊𝙁𝙁𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 3.985 bits, Posterior Entropy: 2.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙊𝙁𝙁𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 3.985 bits, Posterior Entropy: 2.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙊𝙁𝙁𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.029 bits, Actual Info Gain: 5.262 bits, Posterior Entropy: 3.000, 
+Guess: 𝙊𝘾𝙃𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙊𝙇𝙇𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙊𝙈𝘽𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙊𝙁𝙁𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.424 bits, Actual Info Gain: 5.262 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙇𝘼𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 4.424 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙊𝙄𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: 🟨⬜🟨🟨⬜
+Guess: 𝘽𝙄𝙂𝙊𝙏, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙅𝙊𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙊𝙄𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 6.281 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙊𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙄𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 6.281 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙊𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙄𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 6.281 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙊𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙊𝙄𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 6.696 bits, Posterior Entropy: 1.585, 
+Guess: 𝙅𝙊𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝙊𝙋𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙎𝙇𝙊𝙋𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝙊𝙋𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.994 bits, Posterior Entropy: 4.907, 
+Guess: 𝙎𝙇𝙊𝙋𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙊𝙋𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.994 bits, Posterior Entropy: 4.907, 
+Guess: 𝙎𝙇𝙊𝙋𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙊𝙋𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.994 bits, Posterior Entropy: 4.907, 
+Guess: 𝙎𝙇𝙊𝙋𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙊𝙋𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.994 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝙇𝙊𝙐𝘿, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 4.888 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙇𝙊𝙋𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

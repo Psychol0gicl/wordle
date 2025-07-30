@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙇𝙊𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙍𝙊𝙒𝙉, Feedback: ⬜🟨🟩⬜⬜
+Guess: 𝙂𝙇𝙊𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙇𝙊𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 7.331 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙇𝙊𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙇𝙊𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 7.331 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙇𝙊𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙇𝙊𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.331, Expected Info Gain: 5.079 bits, Actual Info Gain: 4.424 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝙍𝙊𝙒𝙇, Feedback: 🟩🟨🟩⬜🟨, Prior Entropy: 3.907, Expected Info Gain: 3.190 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙇𝙊𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙇𝙊𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.238 bits, Actual Info Gain: 2.716 bits, Posterior Entropy: 5.615, 
+Guess: 𝙂𝙇𝙊𝙊𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.615, Expected Info Gain: 5.238 bits, Actual Info Gain: 5.615 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙇𝙊𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

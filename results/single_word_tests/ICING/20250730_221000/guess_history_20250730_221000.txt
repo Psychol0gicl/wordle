@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙄𝘾𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙉𝙄𝘾𝙆𝙔, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙄𝘾𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙄𝘾𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.827 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙄𝙉𝘾𝙃, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝘾𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙄𝘾𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.827 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙄𝙉𝘾𝙃, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝘾𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙄𝘾𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.827 bits, Posterior Entropy: 3.170, 
+Guess: 𝙁𝙄𝙉𝘾𝙃, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.419 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝘾𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙄𝘾𝙄𝙉𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.827 bits, Posterior Entropy: 3.170, 
+Guess: 𝙂𝘼𝙒𝙆𝙔, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝘾𝙄𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================

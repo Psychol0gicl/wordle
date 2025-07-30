@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙕 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙄𝙉𝙏𝙍𝙊, Feedback: 🟨⬜🟨🟨⬜
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙁𝙍𝙄𝙏𝙕, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙕 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙕, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙕 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙕, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙕 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.505 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙕, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙕 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙄𝙏𝙊𝙏, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 4.608 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 4.608 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙕, Feedback: 🟩🟩🟩🟩🟩
+===================================

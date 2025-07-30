@@ -1,0 +1,237 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙍𝘼𝙏𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ARIOT 
+The top ten guesses and scores: [('ARIOT', 228), ('ORANT', 228), ('RIATO', 228), ('ROTAN', 228), ('ROTAL', 225), ('INTRA', 224), ('OTARY', 224), ('RIANT', 224), ('ABORT', 223), ('ACTOR', 223)]
+The bot finally chose: INTRA 
+Guess: 𝙄𝙉𝙏𝙍𝘼, Feedback: ⬜⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: CRAFT 
+The top ten guesses and scores: [('CRAFT', 61), ('FRACT', 61), ('GRAFT', 61), ('KRAFT', 60), ('PRATY', 60), ('YRAPT', 60), ('ARGOT', 59), ('BRACT', 59), ('DRAFT', 59), ('GROAT', 59)]
+The bot finally chose: CRAFT 
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: WRAPT 
+The top ten guesses and scores: [('WRAPT', 17), ('YRAPT', 17), ('PRATT', 16), ('KRAUT', 15)]
+The bot finally chose: PRATT 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙄𝙉𝙏𝙍𝘼, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝘾𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙋𝙍𝘼𝙏𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙏𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 7.9045 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 7.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ORANT with entropy: 4.0413
+Bot chose: BRANT with entropy: 3.7884
+Top ten guesses: [('ORANT', 4.041307838628899), ('ARIOT', 4.002590353525338), ('ARHAT', 3.8309879011322763), ('BRANT', 3.7884232301475973), ('PRATT', 3.7514797776402866), ('GRATA', 3.7413315440420494), ('APART', 3.739582184388938), ('ARNUT', 3.731769698422023), ('GRANT', 3.7239071011153397), ('LIART', 3.7035221189943934)]
+
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.6323 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.6322682154995127, 'expected_info_gain': 3.7884232301475973}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KRAFT with entropy: 2.1710
+Bot chose: KRAFT with entropy: 2.1710
+Top ten guesses: [('KRAFT', 2.1709505944546685), ('CRAFT', 1.6854752972273344), ('DRAFT', 1.6854752972273344), ('FRACT', 1.6854752972273344), ('GRAFT', 1.6854752972273344), ('WRAPT', 1.3567796494470397), ('YRAPT', 1.3567796494470397), ('KRAIT', 1.1567796494470395), ('KRAUT', 1.1567796494470395), ('PRATT', 1.1567796494470395)]
+
+Guess: 𝙆𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.1709505944546685}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WRAPT with entropy: 1.5850
+Bot chose: PRATT with entropy: 0.9183
+Top ten guesses: [('WRAPT', 1.584962500721156), ('YRAPT', 1.584962500721156), ('PRATT', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.954, Expected Info Gain: 3.788 bits, Actual Info Gain: 2.632 bits, Posterior Entropy: 3.322, 
+Guess: 𝙆𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 2.171 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝘼𝙏𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙏𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 7.9045 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 7.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ORANT with entropy: 4.0413
+Bot chose: BRANT with entropy: 3.7884
+Top ten guesses: [('ORANT', 4.041307838628899), ('ARIOT', 4.002590353525338), ('ARHAT', 3.8309879011322763), ('BRANT', 3.7884232301475973), ('PRATT', 3.7514797776402866), ('GRATA', 3.7413315440420494), ('APART', 3.739582184388938), ('ARNUT', 3.731769698422023), ('GRANT', 3.7239071011153397), ('LIART', 3.7035221189943934)]
+
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.6323 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.6322682154995127, 'expected_info_gain': 3.7884232301475973}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KRAFT with entropy: 2.1710
+Bot chose: KRAFT with entropy: 2.1710
+Top ten guesses: [('KRAFT', 2.1709505944546685), ('CRAFT', 1.6854752972273344), ('DRAFT', 1.6854752972273344), ('FRACT', 1.6854752972273344), ('GRAFT', 1.6854752972273344), ('WRAPT', 1.3567796494470397), ('YRAPT', 1.3567796494470397), ('KRAIT', 1.1567796494470395), ('KRAUT', 1.1567796494470395), ('PRATT', 1.1567796494470395)]
+
+Guess: 𝙆𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.1709505944546685}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WRAPT with entropy: 1.5850
+Bot chose: PRATT with entropy: 0.9183
+Top ten guesses: [('WRAPT', 1.584962500721156), ('YRAPT', 1.584962500721156), ('PRATT', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.954, Expected Info Gain: 3.788 bits, Actual Info Gain: 2.632 bits, Posterior Entropy: 3.322, 
+Guess: 𝙆𝙍𝘼𝙁𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 2.171 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝘼𝙏𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙏𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 7.9045 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 7.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 162 potential guesses from 62 remaining candidates...
+Top 5 guesses: [('ORANT', '4.041'), ('ARIOT', '4.003'), ('FRONT', '3.925'), ('POINT', '3.903'), ('ARHAT', '3.831')]
+Top entropy choice: 𝙊𝙍𝘼𝙉𝙏 with entropy: 4.0413
+Ended up choosing COMMON word: 𝙁𝙍𝙊𝙉𝙏 with entropy: 3.9253
+
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 3.1468 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.1468413883292707, 'expected_info_gain': 3.925318085518798}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('WRAPT', '2.128'), ('YRAPT', '2.128'), ('PRATT', '1.842'), ('KRAIT', '1.664'), ('KRAUT', '1.664')]
+Top entropy choice: 𝙒𝙍𝘼𝙋𝙏 with entropy: 2.1281
+Ended up choosing COMMON word: 𝙋𝙍𝘼𝙏𝙏 with entropy: 1.8424
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 5.954, Expected Info Gain: 3.925 bits, Actual Info Gain: 3.147 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙍𝘼𝙏𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙏𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Actual Info Gain: 7.9045 bits
+Posterior entropy: 5.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.954196310386875, 'actual_info_gain': 7.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABORT', 'ACTOR', 'ALTAR', 'AMORT', 'ANTAR', 'ANTRA', 'APART', 'APORT', 'ARGOT', 'ARHAT', 'ARIOT', 'ARITH', 'ARNUT', 'ARTAL', 'ARTIC', 'ARTLY', 'ATTAR', 'BLART', 'BOART', 'BRACT', 'BRANT', 'CHART', 'CLART', 'CRAFT', 'DRAFT', 'DRANT', 'FRACT', 'FRATI', 'FRITA', 'GRAFT', 'GRANT', 'GRATA', 'GROAT', 'IFTAR', 'INTRA', 'KRAFT', 'KRAIT', 'KRAUT', 'LIART', 'LYART', 'NRTTA', 'NRTYA', 'ORANT', 'ORBAT', 'OTARY', 'OTTAR', 'PRATT', 'PRATY', 'PRUTA', 'QUART', 'RHYTA', 'RIANT', 'RIATA', 'RIATO', 'ROTAL', 'ROTAN', 'ROTTA', 'RYBAT', 'ULTRA', 'WRAPT', 'WRATH', 'YRAPT']
+62 candidate words remaining.
+Top 10 guesses: [('ORANT', '4.041'), ('ARIOT', '4.003'), ('PRANA', '3.957'), ('BRAAI', '3.951'), ('IRONY', '3.942'), ('FRONT', '3.925'), ('POINT', '3.903'), ('LIANA', '3.901'), ('PINOT', '3.889'), ('AROBA', '3.880')]
+Top entropy choice: 𝙊𝙍𝘼𝙉𝙏 with entropy: 4.0413
+Guess count low, choosing the word with highest entropy: 𝙊𝙍𝘼𝙉𝙏 with entropy: 4.0413
+
+Guess: 𝙊𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.4948 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 5.954196310386875, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.4947646917495776, 'expected_info_gain': 4.041307838628899}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRACT', 'CRAFT', 'DRAFT', 'FRACT', 'GRAFT', 'KRAFT', 'KRAIT', 'KRAUT', 'PRATT', 'WRAPT', 'YRAPT']
+11 candidate words remaining.
+Top 10 guesses: [('FLICK', '2.845'), ('FUCKS', '2.845'), ('PLUCK', '2.732'), ('PRICK', '2.732'), ('CUPID', '2.664'), ('FYKED', '2.664'), ('PICKY', '2.664'), ('PUBIC', '2.664'), ('PUDIC', '2.664'), ('FECKS', '2.664')]
+Top entropy choice: 𝙁𝙇𝙄𝘾𝙆 with entropy: 2.8454
+Using common exploratory word: 𝙁𝙇𝙄𝘾𝙆 with entropy: 2.8454
+
+Guess: 𝙁𝙇𝙄𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.8744691179161412, 'expected_info_gain': 4.041307838628899}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PRATT', 'WRAPT', 'YRAPT']
+3 candidate words remaining.
+Top 10 guesses: [('WRAPT', '1.585'), ('YRAPT', '1.585'), ('PRATT', '0.918')]
+Top entropy choice: 𝙒𝙍𝘼𝙋𝙏 with entropy: 1.5850
+Guess count high, choosing a candidate with the highest entropy: 𝙋𝙍𝘼𝙏𝙏 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝙊𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.954, Expected Info Gain: 4.041 bits, Actual Info Gain: 2.495 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙇𝙄𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.041 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝘼𝙏𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

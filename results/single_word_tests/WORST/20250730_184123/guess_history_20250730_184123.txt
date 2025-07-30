@@ -1,0 +1,53 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙁𝙄𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙊𝙍𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 3.220 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

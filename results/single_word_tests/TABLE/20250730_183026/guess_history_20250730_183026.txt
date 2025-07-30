@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙇𝙄𝙏𝙕, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

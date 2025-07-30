@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙑𝙊𝘾 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙃𝘼𝙄𝙆𝙐, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙃𝘼𝙑𝙊𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙑𝙊𝘾 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 4.248, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 4.248, Expected Info Gain: 3.682 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙑𝙊𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙑𝙊𝘾 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 4.248, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 4.248, Expected Info Gain: 3.682 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙑𝙊𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙑𝙊𝘾 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 4.504 bits, Posterior Entropy: 4.524, 
+Guess: 𝙃𝘼𝘾𝙆𝙔, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.382 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙑𝙊𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙑𝙊𝘾 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.568 bits, Posterior Entropy: 4.459, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 4.459, Expected Info Gain: 4.781 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝙑𝙊𝘾, Feedback: 🟩🟩🟩🟩🟩
+===================================

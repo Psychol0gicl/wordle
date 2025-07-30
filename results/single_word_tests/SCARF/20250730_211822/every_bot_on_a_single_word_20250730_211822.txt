@@ -1,0 +1,292 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘾𝘼𝙍𝙁 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ASPRO 
+The top ten guesses and scores: [('ASPRO', 164), ('PSORA', 164), ('ROSHA', 164), ('SOPRA', 164), ('ARSON', 163), ('SONAR', 163), ('OSCAR', 161), ('SHARP', 159), ('SOFAR', 159), ('SOWAR', 159)]
+The bot finally chose: ARSON 
+Guess: 𝘼𝙍𝙎𝙊𝙉, Feedback: 🟨🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: SCARP 
+The top ten guesses and scores: [('SCARP', 66), ('SHARP', 66), ('SUPRA', 66), ('SCAUR', 65), ('SHURA', 65), ('SPARD', 65), ('SWARM', 65), ('SHARD', 64), ('SIMAR', 64), ('SPARK', 64)]
+The bot finally chose: SHARP 
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SWARM 
+The top ten guesses and scores: [('SWARM', 24), ('SWARF', 23), ('SCARF', 22), ('SWARD', 22), ('SCARY', 21), ('SMARM', 21)]
+The bot finally chose: SWARM 
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SCARF 
+The top ten guesses and scores: [('SCARF', 9), ('SCARY', 9)]
+The bot finally chose: SCARF 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Guess: 𝘼𝙍𝙎𝙊𝙉, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝘾𝘼𝙍𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘾𝘼𝙍𝙁 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 8.3351 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 8.335099028665763, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHARN with entropy: 3.5379
+Bot chose: SNARK with entropy: 3.3955
+Top ten guesses: [('SHARN', 3.5378648054893125), ('SKARN', 3.3955116210150407), ('SNARK', 3.3955116210150407), ('SHARK', 3.3667139720626555), ('SOPRA', 3.365363317799545), ('SNARF', 3.343606934864942), ('SPARK', 3.3369734165354674), ('SHARP', 3.3320698841619314), ('SHURA', 3.3209754051915787), ('SNARY', 3.2819880901663194)]
+
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.2016 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.201633861169651, 'expected_info_gain': 3.3955116210150407}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARP with entropy: 1.9610
+Bot chose: SHARP with entropy: 1.7710
+Top ten guesses: [('SCARP', 1.9609640474436814), ('SHARP', 1.7709505944546688), ('SPARD', 1.7609640474436812), ('SWARD', 1.7609640474436812), ('SCARF', 1.5709505944546687), ('SHARD', 1.5709505944546687), ('SWARF', 1.5709505944546687), ('SWARM', 1.5709505944546687), ('SCARY', 1.1567796494470395), ('SMARM', 0.9219280948873623)]
+
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.7709505944546688}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SWARF with entropy: 1.9183
+Bot chose: SWARM with entropy: 1.9183
+Top ten guesses: [('SWARF', 1.9182958340544893), ('SWARM', 1.9182958340544893), ('SCARF', 1.7924812503605778), ('SWARD', 1.4591479170272446), ('SCARY', 1.2516291673878228), ('SMARM', 1.2516291673878228)]
+
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544893}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARF with entropy: 1.0000
+Bot chose: SCARF with entropy: 1.0000
+Top ten guesses: [('SCARF', 1.0), ('SCARY', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 2.202 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 1.771 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝘼𝙍𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘾𝘼𝙍𝙁 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 8.3351 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 8.335099028665763, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHARN with entropy: 3.5379
+Bot chose: SNARK with entropy: 3.3955
+Top ten guesses: [('SHARN', 3.5378648054893125), ('SKARN', 3.3955116210150407), ('SNARK', 3.3955116210150407), ('SHARK', 3.3667139720626555), ('SOPRA', 3.365363317799545), ('SNARF', 3.343606934864942), ('SPARK', 3.3369734165354674), ('SHARP', 3.3320698841619314), ('SHURA', 3.3209754051915787), ('SNARY', 3.2819880901663194)]
+
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.2016 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.201633861169651, 'expected_info_gain': 3.3955116210150407}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARP with entropy: 1.9610
+Bot chose: SHARP with entropy: 1.7710
+Top ten guesses: [('SCARP', 1.9609640474436814), ('SHARP', 1.7709505944546688), ('SPARD', 1.7609640474436812), ('SWARD', 1.7609640474436812), ('SCARF', 1.5709505944546687), ('SHARD', 1.5709505944546687), ('SWARF', 1.5709505944546687), ('SWARM', 1.5709505944546687), ('SCARY', 1.1567796494470395), ('SMARM', 0.9219280948873623)]
+
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.7709505944546688}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SWARF with entropy: 1.9183
+Bot chose: SWARM with entropy: 1.9183
+Top ten guesses: [('SWARF', 1.9182958340544893), ('SWARM', 1.9182958340544893), ('SCARF', 1.7924812503605778), ('SWARD', 1.4591479170272446), ('SCARY', 1.2516291673878228), ('SMARM', 1.2516291673878228)]
+
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544893}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCARF with entropy: 1.0000
+Bot chose: SCARF with entropy: 1.0000
+Top ten guesses: [('SCARF', 1.0), ('SCARY', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 2.202 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 1.771 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝘼𝙍𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝘼𝙍𝙁 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 8.3351 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 8.335099028665763, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 46 potential guesses from 46 remaining candidates...
+Top 5 guesses: [('SHARN', '3.538'), ('SKARN', '3.396'), ('SNARK', '3.396'), ('SHARK', '3.367'), ('SOPRA', '3.365')]
+Top entropy choice: 𝙎𝙃𝘼𝙍𝙉 with entropy: 3.5379
+Ended up choosing COMMON word: 𝙎𝙉𝘼𝙍𝙆 with entropy: 3.3955
+
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 2.2016 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.201633861169651, 'expected_info_gain': 3.3955116210150407}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('SCARP', '1.961'), ('SHARP', '1.771'), ('SPARD', '1.761'), ('SWARD', '1.761'), ('SCARF', '1.571')]
+Top entropy choice: 𝙎𝘾𝘼𝙍𝙋 with entropy: 1.9610
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙍𝙋 with entropy: 1.7710
+
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.7709505944546688}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('SWARF', '1.918'), ('SWARM', '1.918'), ('SCARF', '1.792'), ('SWARD', '1.459'), ('SCARY', '1.252')]
+Top entropy choice: 𝙎𝙒𝘼𝙍𝙁 with entropy: 1.9183
+Ended up choosing COMMON word: 𝙎𝙒𝘼𝙍𝙈 with entropy: 1.9183
+
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544893}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SCARF', '1.000'), ('SCARY', '1.000')]
+Top entropy choice: 𝙎𝘾𝘼𝙍𝙁 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝘾𝘼𝙍𝙁 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 2.202 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝙃𝘼𝙍𝙋, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 1.771 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙒𝘼𝙍𝙈, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝘼𝙍𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝘼𝙍𝙁 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Actual Info Gain: 8.3351 bits
+Posterior entropy: 5.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.523561956057013, 'actual_info_gain': 8.335099028665763, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ARISH', 'ARSON', 'ASKAR', 'ASPRO', 'ASURA', 'BRASH', 'CRASH', 'GRASP', 'MUSAR', 'OSCAR', 'PSORA', 'ROOSA', 'ROSAL', 'ROSHA', 'ROSSA', 'RUSMA', 'SCARF', 'SCARP', 'SCARY', 'SCAUR', 'SHARD', 'SHARK', 'SHARN', 'SHARP', 'SHURA', 'SIMAR', 'SIZAR', 'SKARN', 'SMARM', 'SNARF', 'SNARK', 'SNARL', 'SNARY', 'SOFAR', 'SOLAR', 'SONAR', 'SOPRA', 'SOWAR', 'SPARD', 'SPARK', 'SUGAR', 'SUPRA', 'SWARD', 'SWARF', 'SWARM', 'SYMAR']
+46 candidate words remaining.
+Top 10 guesses: [('SHORN', '3.717'), ('SCORN', '3.658'), ('POUCH', '3.654'), ('POACH', '3.644'), ('SOMAN', '3.627'), ('MOURN', '3.602'), ('HOPAK', '3.600'), ('SCOUP', '3.565'), ('SOHUR', '3.560'), ('SOPHY', '3.559')]
+Top entropy choice: 𝙎𝙃𝙊𝙍𝙉 with entropy: 3.7172
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙍𝙉 with entropy: 3.7172
+
+Guess: 𝙎𝙃𝙊𝙍𝙉, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.2016 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.523561956057013, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.201633861169651, 'expected_info_gain': 3.717179696713516}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCARF', 'SCARP', 'SCARY', 'SMARM', 'SPARD', 'SPARK', 'SUPRA', 'SWARD', 'SWARF', 'SWARM']
+10 candidate words remaining.
+Top 10 guesses: [('DWAMY', '2.846'), ('SWAMP', '2.722'), ('WHUMP', '2.722'), ('DUMPY', '2.722'), ('AMPED', '2.646'), ('CAPED', '2.646'), ('COPED', '2.646'), ('CUPID', '2.646'), ('IMPED', '2.646'), ('PUDIC', '2.646')]
+Top entropy choice: 𝘿𝙒𝘼𝙈𝙔 with entropy: 2.8464
+Using common exploratory word: 𝙎𝙒𝘼𝙈𝙋 with entropy: 2.7219
+
+Guess: 𝙎𝙒𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.717179696713516}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCARF', 'SCARY']
+2 candidate words remaining.
+Top 10 guesses: [('SCARF', '1.000'), ('SCARY', '1.000')]
+Top entropy choice: 𝙎𝘾𝘼𝙍𝙁 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝘾𝘼𝙍𝙁 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙃𝙊𝙍𝙉, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.524, Expected Info Gain: 3.717 bits, Actual Info Gain: 2.202 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝙒𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 3.717 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝘼𝙍𝙁, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

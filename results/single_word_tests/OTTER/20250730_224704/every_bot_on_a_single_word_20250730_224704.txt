@@ -1,0 +1,206 @@
+Testing bot: WordleBot
+___ Testing word: 𝙊𝙏𝙏𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: OUTER 
+The top ten guesses and scores: [('OUTER', 172), ('ROUET', 172), ('NOTER', 167), ('OPTER', 167), ('DOTER', 166), ('OTHER', 166), ('ROTED', 166), ('VOTER', 166), ('OFTER', 165), ('ROWET', 165)]
+The bot finally chose: OUTER 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: OFTER 
+The top ten guesses and scores: [('OFTER', 18), ('OPTER', 18), ('OXTER', 18), ('OTTER', 17)]
+The bot finally chose: OTTER 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙊𝙏𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙊𝙏𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OUTER with entropy: 3.3784
+Bot chose: OUTER with entropy: 3.3784
+Top ten guesses: [('OUTER', 3.378442463879634), ('ROUET', 3.1356888499270292), ('OPTER', 3.0369956771838718), ('NOTER', 3.0175694732685687), ('PETER', 2.909930129893539), ('METER', 2.8635134877337736), ('VOTER', 2.8515226815896657), ('OTTER', 2.8393358796567463), ('ORTET', 2.8287150093703395), ('DOTER', 2.819909675741443)]
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.378442463879634}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OFTER with entropy: 0.8113
+Bot chose: OTTER with entropy: 0.8113
+Top ten guesses: [('OFTER', 0.8112781244591328), ('OPTER', 0.8112781244591328), ('OTTER', 0.8112781244591328), ('OXTER', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙊𝙏𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙊𝙏𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OUTER with entropy: 3.3784
+Bot chose: OUTER with entropy: 3.3784
+Top ten guesses: [('OUTER', 3.378442463879634), ('ROUET', 3.1356888499270292), ('OPTER', 3.0369956771838718), ('NOTER', 3.0175694732685687), ('PETER', 2.909930129893539), ('METER', 2.8635134877337736), ('VOTER', 2.8515226815896657), ('OTTER', 2.8393358796567463), ('ORTET', 2.8287150093703395), ('DOTER', 2.819909675741443)]
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.378442463879634}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OFTER with entropy: 0.8113
+Bot chose: OTTER with entropy: 0.8113
+Top ten guesses: [('OFTER', 0.8112781244591328), ('OPTER', 0.8112781244591328), ('OTTER', 0.8112781244591328), ('OXTER', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙊𝙏𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙊𝙏𝙏𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 44 potential guesses from 44 remaining candidates...
+Top 5 guesses: [('OUTER', '3.378'), ('ROUET', '3.136'), ('OPTER', '3.037'), ('NOTER', '3.018'), ('PETER', '2.910')]
+Top entropy choice: 𝙊𝙐𝙏𝙀𝙍 with entropy: 3.3784
+Ended up choosing COMMON word: 𝙊𝙐𝙏𝙀𝙍 with entropy: 3.3784
+
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.378442463879634}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('OFTER', '0.811'), ('OPTER', '0.811'), ('OTTER', '0.811'), ('OXTER', '0.811')]
+Top entropy choice: 𝙊𝙁𝙏𝙀𝙍 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙊𝙏𝙏𝙀𝙍 with entropy: 0.8113
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙊𝙏𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙊𝙏𝙏𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 8.3992 bits
+Posterior entropy: 5.459431618637297
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.459431618637297, 'actual_info_gain': 8.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITER', 'CITER', 'CRUET', 'CUTER', 'DETER', 'DOTER', 'ENTER', 'ETHER', 'FREET', 'GREET', 'INTER', 'ITHER', 'KITER', 'LITER', 'LUTER', 'METER', 'MITER', 'MUTER', 'NITER', 'NOTER', 'OFTER', 'OPTER', 'ORTET', 'OTHER', 'OTTER', 'OUTER', 'OXTER', 'PETER', 'PUTER', 'REGET', 'RELET', 'REMET', 'RETEM', 'REVET', 'REWET', 'RIVET', 'ROTED', 'ROUET', 'ROWET', 'ROYET', 'ROZET', 'UPTER', 'UTTER', 'VOTER']
+44 candidate words remaining.
+Top 10 guesses: [('NOTUM', '3.624'), ('MOULT', '3.571'), ('MOUNT', '3.570'), ('MOHUR', '3.492'), ('POULT', '3.455'), ('PITOT', '3.441'), ('OUBIT', '3.433'), ('MUTON', '3.424'), ('POTIN', '3.410'), ('HUMOR', '3.410')]
+Top entropy choice: 𝙉𝙊𝙏𝙐𝙈 with entropy: 3.6238
+Guess count low, choosing the word with highest entropy: 𝙉𝙊𝙏𝙐𝙈 with entropy: 3.6238
+
+Guess: 𝙉𝙊𝙏𝙐𝙈, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.459431618637297, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.137503523749935, 'expected_info_gain': 3.6237917102166546}
+----------
+The bot is making a guess...
+THe possible candidates are: ['OFTER', 'OPTER', 'ORTET', 'OTTER', 'OXTER']
+5 candidate words remaining.
+Top 10 guesses: [('PFFTT', '2.322'), ('ATTAP', '1.922'), ('EXPAT', '1.922'), ('FIXER', '1.922'), ('FIXIT', '1.922'), ('FLITT', '1.922'), ('FRAPE', '1.922'), ('FRAPS', '1.922'), ('FRITT', '1.922'), ('FRUMP', '1.922')]
+Top entropy choice: 𝙋𝙁𝙁𝙏𝙏 with entropy: 2.3219
+Using common exploratory word: 𝙀𝙓𝙋𝘼𝙏 with entropy: 1.9219
+
+Guess: 𝙀𝙓𝙋𝘼𝙏, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 3.6237917102166546}
+----------
+The bot is making a guess...
+THe possible candidates are: ['OFTER', 'OTTER']
+2 candidate words remaining.
+Top 10 guesses: [('OFTER', '1.000'), ('OTTER', '1.000')]
+Top entropy choice: 𝙊𝙁𝙏𝙀𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙊𝙏𝙏𝙀𝙍 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙉𝙊𝙏𝙐𝙈, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 5.459, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝙀𝙓𝙋𝘼𝙏, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 2.322, Expected Info Gain: 3.624 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙊𝙏𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

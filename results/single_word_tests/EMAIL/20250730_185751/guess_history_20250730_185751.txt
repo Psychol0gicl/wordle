@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙈𝘼𝙄𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘼𝙈𝙋𝙇𝙀, Feedback: 🟨🟩⬜🟨🟨
+Guess: 𝙀𝙈𝘼𝙄𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙈𝘼𝙄𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝙇𝙀𝘼𝙁𝙔, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝘼𝙄𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘼𝙄𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝙇𝙀𝘼𝙁𝙔, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝘼𝙄𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘼𝙄𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 4.826 bits, Posterior Entropy: 3.459, 
+Guess: 𝙇𝙀𝘼𝙁𝙔, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝘼𝙄𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘼𝙄𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.285, Expected Info Gain: 4.914 bits, Actual Info Gain: 3.893 bits, Posterior Entropy: 4.392, 
+Guess: 𝘾𝙇𝘼𝙈𝙋, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 4.392, Expected Info Gain: 4.914 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙈𝘼𝙄𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

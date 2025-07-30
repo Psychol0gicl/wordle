@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙉𝙄𝙁𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙃𝙄𝙉𝙂𝙀, Feedback: ⬜🟨🟨⬜🟩
+Guess: 𝙆𝙉𝙄𝙁𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙉𝙄𝙁𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.957 bits, Posterior Entropy: 5.615, 
+Guess: 𝙈𝙄𝙉𝘾𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 5.615, Expected Info Gain: 3.789 bits, Actual Info Gain: 2.293 bits, Posterior Entropy: 3.322, 
+Guess: 𝙒𝙃𝙄𝙉𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.046 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙉𝙄𝙁𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙄𝙁𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.957 bits, Posterior Entropy: 5.615, 
+Guess: 𝙈𝙄𝙉𝘾𝙀, Feedback: ⬜🟨🟨⬜🟩, Prior Entropy: 5.615, Expected Info Gain: 3.789 bits, Actual Info Gain: 2.293 bits, Posterior Entropy: 3.322, 
+Guess: 𝙒𝙃𝙄𝙉𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.046 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙉𝙄𝙁𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙄𝙁𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 7.987 bits, Posterior Entropy: 1.585, 
+Guess: 𝙆𝙉𝙄𝙁𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙉𝙄𝙁𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.714 bits, Posterior Entropy: 4.858, 
+Guess: 𝙒𝙀𝙄𝙂𝙃, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 4.858, Expected Info Gain: 5.536 bits, Actual Info Gain: 2.273 bits, Posterior Entropy: 2.585, 
+Guess: 𝙆𝙉𝙄𝙁𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙊 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TAKIN 
+The top ten guesses and scores: [('TAKIN', 212), ('TANKY', 212), ('TALON', 210), ('TANGI', 208), ('TANGY', 208), ('TALIK', 205), ('TALKY', 205), ('TAMIN', 205), ('TANGO', 204), ('TAUON', 203)]
+The bot finally chose: TAKIN 
+Guess: 𝙏𝘼𝙆𝙄𝙉, Feedback: 🟩🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TALCY 
+The top ten guesses and scores: [('TALCY', 95), ('TALLY', 92), ('TAULD', 90), ('TAXOL', 90), ('TABLA', 89), ('TALMA', 89), ('TAMAL', 89), ('TABBY', 87), ('TALPA', 87), ('TAMMY', 87)]
+The bot finally chose: TALLY 
+Guess: 𝙏𝘼𝙇𝙇𝙔, Feedback: 🟩🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TACHO 
+The top ten guesses and scores: [('TACHO', 45), ('TABOO', 42), ('TATOU', 42), ('TABAC', 40), ('TADAH', 40), ('TAGUA', 40), ('TAVAH', 40), ('TAGMA', 39), ('TAPPA', 38), ('TAWAF', 38)]
+The bot finally chose: TABOO 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙏𝘼𝙆𝙄𝙉, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙏𝘼𝙇𝙇𝙔, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙏𝘼𝘽𝙊𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 3.3726
+Bot chose: TANIA with entropy: 3.3726
+Top ten guesses: [('TANIA', 3.3726098843631056), ('TANKA', 3.1656064646147213), ('TAKIN', 2.957339200653236), ('TANTI', 2.9178370138962566), ('TALAK', 2.878361944862846), ('TANGA', 2.8704146939598796), ('TACAN', 2.8294950963268124), ('TANKY', 2.7691463175416366), ('TANTY', 2.726050803939787), ('TAIGA', 2.7238462699470287)]
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 1.8073549220576046, 'expected_info_gain': 3.3726098843631056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALKY with entropy: 2.7108
+Bot chose: TALKY with entropy: 2.7108
+Top ten guesses: [('TALKY', 2.7107770844150676), ('TALCY', 2.591793226077496), ('TALUK', 2.591793226077496), ('TACKY', 2.411509198419911), ('TATOU', 2.3627402784989338), ('TAUTY', 2.3208020839342964), ('TALLY', 2.2810361125534233), ('TAKKY', 2.080500530640267), ('TAULD', 2.0602489763846963), ('TAKHT', 2.0566416671474372)]
+
+Guess: 𝙏𝘼𝙇𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.7107770844150676}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABOO with entropy: 1.5850
+Bot chose: TABOO with entropy: 1.5850
+Top ten guesses: [('TABOO', 1.584962500721156), ('TACHO', 1.584962500721156), ('TATOU', 1.584962500721156)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 3.373 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 4.170, 
+Guess: 𝙏𝘼𝙇𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 4.170, Expected Info Gain: 2.711 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝘽𝙊𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 3.3726
+Bot chose: TANIA with entropy: 3.3726
+Top ten guesses: [('TANIA', 3.3726098843631056), ('TANKA', 3.1656064646147213), ('TAKIN', 2.957339200653236), ('TANTI', 2.9178370138962566), ('TALAK', 2.878361944862846), ('TANGA', 2.8704146939598796), ('TACAN', 2.8294950963268124), ('TANKY', 2.7691463175416366), ('TANTY', 2.726050803939787), ('TAIGA', 2.7238462699470287)]
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 1.8073549220576046, 'expected_info_gain': 3.3726098843631056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TALKY with entropy: 2.7108
+Bot chose: TALKY with entropy: 2.7108
+Top ten guesses: [('TALKY', 2.7107770844150676), ('TALCY', 2.591793226077496), ('TALUK', 2.591793226077496), ('TACKY', 2.411509198419911), ('TATOU', 2.3627402784989338), ('TAUTY', 2.3208020839342964), ('TALLY', 2.2810361125534233), ('TAKKY', 2.080500530640267), ('TAULD', 2.0602489763846963), ('TAKHT', 2.0566416671474372)]
+
+Guess: 𝙏𝘼𝙇𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.7107770844150676}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABOO with entropy: 1.5850
+Bot chose: TABOO with entropy: 1.5850
+Top ten guesses: [('TABOO', 1.584962500721156), ('TACHO', 1.584962500721156), ('TATOU', 1.584962500721156)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 3.373 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 4.170, 
+Guess: 𝙏𝘼𝙇𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 4.170, Expected Info Gain: 2.711 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝘽𝙊𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 163 potential guesses from 63 remaining candidates...
+Top 5 guesses: [('AGAIN', '3.571'), ('FINAL', '3.511'), ('YOUNG', '3.485'), ('TANIA', '3.373'), ('UNTIL', '3.308')]
+Top entropy choice: 𝘼𝙂𝘼𝙄𝙉 with entropy: 3.5705
+Ended up choosing COMMON word: 𝘼𝙂𝘼𝙄𝙉 with entropy: 3.5705
+
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 1.8898 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 1.8898170822495777, 'expected_info_gain': 3.5705206570130357}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('TALKY', '2.772'), ('TALCY', '2.660'), ('TALUK', '2.660'), ('TACKY', '2.469'), ('TATOU', '2.440')]
+Top entropy choice: 𝙏𝘼𝙇𝙆𝙔 with entropy: 2.7719
+Ended up choosing COMMON word: 𝙏𝘼𝘾𝙆𝙔 with entropy: 2.4692
+
+Guess: 𝙏𝘼𝘾𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 2.469240782172285}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('TAULD', '2.000'), ('TABOO', '1.500'), ('TATOU', '1.500'), ('TAXOL', '1.500')]
+Top entropy choice: 𝙏𝘼𝙐𝙇𝘿 with entropy: 2.0000
+
+Guess: 𝙏𝘼𝙐𝙇𝘿, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TABOO', '0.000')]
+Top entropy choice: 𝙏𝘼𝘽𝙊𝙊 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝘼𝘽𝙊𝙊 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 3.571 bits, Actual Info Gain: 1.890 bits, Posterior Entropy: 4.087, 
+Guess: 𝙏𝘼𝘾𝙆𝙔, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 2.469 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝘼𝙐𝙇𝘿, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙊𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAATA', 'TABAC', 'TABBY', 'TABID', 'TABLA', 'TABOO', 'TABUN', 'TACAN', 'TACHI', 'TACHO', 'TACIT', 'TACKY', 'TADAH', 'TAFFY', 'TAFIA', 'TAGGY', 'TAGMA', 'TAGUA', 'TAIGA', 'TAIKO', 'TAINT', 'TAKHI', 'TAKHT', 'TAKIN', 'TAKKY', 'TALAK', 'TALAQ', 'TALCY', 'TALIK', 'TALKY', 'TALLY', 'TALMA', 'TALON', 'TALPA', 'TALUK', 'TAMAL', 'TAMIN', 'TAMMY', 'TANGA', 'TANGI', 'TANGO', 'TANGY', 'TANIA', 'TANKA', 'TANKY', 'TANNA', 'TANTI', 'TANTO', 'TANTY', 'TAPPA', 'TATOU', 'TATTY', 'TAULD', 'TAUNT', 'TAUON', 'TAUTY', 'TAVAH', 'TAWAF', 'TAWAI', 'TAWNY', 'TAXOL', 'TAXON', 'TAZZA']
+63 candidate words remaining.
+Top 10 guesses: [('KYLIN', '4.106'), ('LINKY', '3.945'), ('LANAI', '3.896'), ('LIANA', '3.856'), ('COLIN', '3.852'), ('YONIC', '3.810'), ('CONIA', '3.793'), ('LYING', '3.787'), ('INULA', '3.776'), ('CLINK', '3.763')]
+Top entropy choice: 𝙆𝙔𝙇𝙄𝙉 with entropy: 4.1056
+Guess count low, choosing the word with highest entropy: 𝙆𝙔𝙇𝙄𝙉 with entropy: 4.1056
+
+Guess: 𝙆𝙔𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.3923 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.3923174227787607, 'expected_info_gain': 4.105638606067614}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAATA', 'TABAC', 'TABOO', 'TACHO', 'TADAH', 'TAGMA', 'TAGUA', 'TAPPA', 'TATOU', 'TAVAH', 'TAWAF', 'TAZZA']
+12 candidate words remaining.
+Top 10 guesses: [('BHAVA', '2.918'), ('DHABA', '2.918'), ('CHAAP', '2.855'), ('GUAVA', '2.855'), ('MAHUA', '2.855'), ('MOHUA', '2.855'), ('BAGUA', '2.792'), ('COUTA', '2.792'), ('BOUGH', '2.752'), ('CAUDA', '2.752')]
+Top entropy choice: 𝘽𝙃𝘼𝙑𝘼 with entropy: 2.9183
+Using common exploratory word: 𝙂𝙐𝘼𝙑𝘼 with entropy: 2.8554
+
+Guess: 𝙂𝙐𝘼𝙑𝘼, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.105638606067614}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABOO', 'TACHO']
+2 candidate words remaining.
+Top 10 guesses: [('TABOO', '1.000'), ('TACHO', '1.000')]
+Top entropy choice: 𝙏𝘼𝘽𝙊𝙊 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙏𝘼𝘽𝙊𝙊 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙆𝙔𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 4.106 bits, Actual Info Gain: 2.392 bits, Posterior Entropy: 3.585, 
+Guess: 𝙂𝙐𝘼𝙑𝘼, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 4.106 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝘼𝘽𝙊𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

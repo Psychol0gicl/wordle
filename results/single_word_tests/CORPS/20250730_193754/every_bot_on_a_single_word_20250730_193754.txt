@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: KORUS 
+The top ten guesses and scores: [('KORUS', 448), ('DUROS', 447), ('KORIS', 446), ('DORIS', 445), ('KURIS', 443), ('BIROS', 442), ('PORUS', 441), ('PUROS', 441), ('LORIS', 440), ('INROS', 439)]
+The bot finally chose: DORIS 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: NORKS 
+The top ten guesses and scores: [('NORKS', 108), ('PORKS', 107), ('BORKS', 106), ('CORKS', 105), ('MORNS', 105), ('NORMS', 105), ('FORKS', 104), ('KORUS', 104), ('PORNS', 104), ('BORMS', 103)]
+The bot finally chose: NORKS 
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: BORMS 
+The top ten guesses and scores: [('BORMS', 50), ('GORMS', 49), ('CORMS', 48), ('FORMS', 48), ('GORBS', 48), ('GORPS', 48), ('CORPS', 47), ('FORBS', 47), ('PORUS', 47), ('WORMS', 47)]
+The bot finally chose: CORPS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.2816 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.281570357271222, 'expected_info_gain': 3.1419490372418504}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NORKS with entropy: 2.0522
+Bot chose: NORKS with entropy: 2.0522
+Top ten guesses: [('NORKS', 2.05222784806984), ('PORKS', 2.0404175170112566), ('BORKS', 1.9266109644139695), ('PORNS', 1.8841273467338053), ('MORNS', 1.7856875890692074), ('NORMS', 1.7856875890692074), ('CORKS', 1.7405198931769965), ('BORMS', 1.7054576157288859), ('FORKS', 1.6463136587255378), ('CORNS', 1.566066848314069)]
+
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1575 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.1575412769864797, 'expected_info_gain': 2.05222784806984}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GORPS with entropy: 1.8811
+Bot chose: CORPS with entropy: 1.7004
+Top ten guesses: [('GORPS', 1.8810947601100747), ('GORBS', 1.8810947601100745), ('BORMS', 1.8262452584026092), ('GORMS', 1.7381493331928664), ('CORPS', 1.7004397181410922), ('FORBS', 1.7004397181410922), ('SORBS', 1.7004397181410922), ('CORMS', 1.573402452417767), ('FORMS', 1.573402452417767), ('PORUS', 1.4885252948977485)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 7.140, Expected Info Gain: 3.142 bits, Actual Info Gain: 2.282 bits, Posterior Entropy: 4.858, 
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 2.052 bits, Actual Info Gain: 1.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.2816 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.281570357271222, 'expected_info_gain': 3.1419490372418504}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NORKS with entropy: 2.0522
+Bot chose: NORKS with entropy: 2.0522
+Top ten guesses: [('NORKS', 2.05222784806984), ('PORKS', 2.0404175170112566), ('BORKS', 1.9266109644139695), ('PORNS', 1.8841273467338053), ('MORNS', 1.7856875890692074), ('NORMS', 1.7856875890692074), ('CORKS', 1.7405198931769965), ('BORMS', 1.7054576157288859), ('FORKS', 1.6463136587255378), ('CORNS', 1.566066848314069)]
+
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1575 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.1575412769864797, 'expected_info_gain': 2.05222784806984}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GORPS with entropy: 1.8811
+Bot chose: CORPS with entropy: 1.7004
+Top ten guesses: [('GORPS', 1.8810947601100747), ('GORBS', 1.8810947601100745), ('BORMS', 1.8262452584026092), ('GORMS', 1.7381493331928664), ('CORPS', 1.7004397181410922), ('FORBS', 1.7004397181410922), ('SORBS', 1.7004397181410922), ('CORMS', 1.573402452417767), ('FORMS', 1.573402452417767), ('PORUS', 1.4885252948977485)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 7.140, Expected Info Gain: 3.142 bits, Actual Info Gain: 2.282 bits, Posterior Entropy: 4.858, 
+Guess: 𝙉𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.858, Expected Info Gain: 2.052 bits, Actual Info Gain: 1.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 241 potential guesses from 141 remaining candidates...
+Top 5 guesses: [('DOING', '4.070'), ('FOUND', '3.806'), ('COULD', '3.683'), ('YOUNG', '3.584'), ('POINT', '3.442')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.8916 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.8916238389552085, 'expected_info_gain': 4.070357047139598}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('BORKS', '2.187'), ('PORKS', '2.187'), ('CORKS', '1.958'), ('FORKS', '1.958'), ('KORUS', '1.845')]
+Top entropy choice: 𝘽𝙊𝙍𝙆𝙎 with entropy: 2.1868
+
+Guess: 𝘽𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.4406 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.440572591385981, 'expected_info_gain': 2.1868085945630504}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('CORPS', '2.128'), ('PORUS', '1.842'), ('CORMS', '1.842'), ('YORPS', '1.664'), ('FORMS', '1.379')]
+Top entropy choice: 𝘾𝙊𝙍𝙋𝙎 with entropy: 2.1281
+Ended up choosing COMMON word: 𝘾𝙊𝙍𝙋𝙎 with entropy: 2.1281
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 7.140, Expected Info Gain: 4.070 bits, Actual Info Gain: 2.892 bits, Posterior Entropy: 4.248, 
+Guess: 𝘽𝙊𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.187 bits, Actual Info Gain: 1.441 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙊𝙍𝙋𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRDS', 'BIRIS', 'BIRKS', 'BIRLS', 'BIROS', 'BIRRS', 'BORDS', 'BORKS', 'BORMS', 'BURBS', 'BURDS', 'BURGS', 'BURKS', 'BURLS', 'BURNS', 'BURPS', 'BURRS', 'BYRLS', 'CIRCS', 'CIRLS', 'CORDS', 'CORKS', 'CORMS', 'CORNS', 'CORPS', 'CURBS', 'CURDS', 'CURFS', 'CURLS', 'CURNS', 'CURRS', 'DIRKS', 'DIRLS', 'DORBS', 'DORIS', 'DORKS', 'DORMS', 'DORPS', 'DORRS', 'DURNS', 'DUROS', 'DURRS', 'FIRKS', 'FIRMS', 'FIRNS', 'FORBS', 'FORDS', 'FORKS', 'FORMS', 'FURLS', 'FUROS', 'FURRS', 'FYRDS', 'GIRDS', 'GIRLS', 'GIRNS', 'GIROS', 'GIRRS', 'GORBS', 'GORIS', 'GORMS', 'GORPS', 'GRRLS', 'GURKS', 'GURLS', 'GURNS', 'GURUS', 'GYROS', 'GYRUS', 'HORIS', 'HORKS', 'HORNS', 'HURDS', 'HURLS', 'INROS', 'JIRDS', 'JURIS', 'KIRKS', 'KIRNS', 'KORIS', 'KOROS', 'KORUS', 'KURIS', 'KURUS', 'LIRKS', 'LORDS', 'LORIS', 'LURKS', 'MIRKS', 'MIRLS', 'MIROS', 'MIRRS', 'MIRVS', 'MORNS', 'MURKS', 'MURLS', 'MURRS', 'NIRLS', 'NORIS', 'NORKS', 'NORMS', 'NURDS', 'NURLS', 'NURRS', 'ORRIS', 'PIRKS', 'PIRLS', 'PIRNS', 'PIRRS', 'PORKS', 'PORNS', 'PORUS', 'PURIS', 'PURLS', 'PUROS', 'PURPS', 'PURRS', 'PYROS', 'PYRUS', 'RURPS', 'RURUS', 'SHRIS', 'SIRIS', 'SORBS', 'SORDS', 'SORNS', 'SORUS', 'SURDS', 'SURFS', 'VIRLS', 'VIRUS', 'WORDS', 'WORKS', 'WORMS', 'YIRDS', 'YIRKS', 'YIRRS', 'YORKS', 'YORPS', 'ZORIS', 'ZURFS']
+141 candidate words remaining.
+Top 10 guesses: [('BIPOD', '4.134'), ('BIDON', '4.125'), ('BOINK', '4.091'), ('DOING', '4.070'), ('PIKUL', '4.055'), ('KONBU', '4.049'), ('POIND', '4.048'), ('BOUND', '4.028'), ('DIMBO', '4.027'), ('KOMBI', '4.014')]
+Top entropy choice: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.5546 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.554588851677638, 'expected_info_gain': 4.134475955293675}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CORPS', 'GORPS', 'PORKS', 'PORNS', 'PORUS', 'YORPS']
+6 candidate words remaining.
+Top 10 guesses: [('GUCKY', '2.585'), ('GUNKY', '2.585'), ('PUNGY', '2.585'), ('GUCKS', '2.252'), ('PACKY', '2.252'), ('PECKY', '2.252'), ('PICKY', '2.252'), ('POCKY', '2.252'), ('BUNGY', '2.252'), ('CHUNK', '2.252')]
+Top entropy choice: 𝙂𝙐𝘾𝙆𝙔 with entropy: 2.5850
+Using common exploratory word: 𝙋𝙄𝘾𝙆𝙔 with entropy: 2.2516
+
+Guess: 𝙋𝙄𝘾𝙆𝙔, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.134475955293675}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CORPS']
+1 candidate words remaining.
+Top 10 guesses: [('CORPS', '0.000')]
+Top entropy choice: 𝘾𝙊𝙍𝙋𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙊𝙍𝙋𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.140, Expected Info Gain: 4.134 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙄𝘾𝙆𝙔, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.134 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙊𝙍𝙋𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

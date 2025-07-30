@@ -1,0 +1,256 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝘼𝙂𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: LEAST 
+The top ten guesses and scores: [('LEAST', 144), ('SETAL', 144), ('SLATE', 144), ('STALE', 144), ('STEAL', 144), ('STELA', 144), ('PESTA', 142), ('SEPTA', 142), ('SPATE', 142), ('SPEAT', 142)]
+The bot finally chose: LEAST 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: ⬜🟨🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SKATE 
+The top ten guesses and scores: [('SKATE', 35), ('STAKE', 35), ('SPATE', 34), ('STADE', 34), ('STAGE', 34), ('STANE', 34), ('STAVE', 34), ('STATE', 33)]
+The bot finally chose: SKATE 
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: STADE 
+The top ten guesses and scores: [('STADE', 17), ('STAGE', 17), ('STANE', 17), ('STAVE', 17)]
+The bot finally chose: STADE 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: STAGE 
+The top ten guesses and scores: [('STAGE', 13), ('STANE', 13), ('STAVE', 13)]
+The bot finally chose: STAGE 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: ⬜🟨🟩🟨🟨
+Guess: 𝙎𝙆𝘼𝙏𝙀, Feedback: 🟩⬜🟩🟨🟩
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STALE with entropy: 3.4104
+Bot chose: STALE with entropy: 3.4104
+Top ten guesses: [('STALE', 3.4104172527605194), ('STEAL', 3.410417252760519), ('STELA', 3.358906960863075), ('SLATE', 3.25274106455611), ('SPEAT', 3.2269222245979456), ('STEAK', 3.2183782817904953), ('STEAD', 3.1229337965600092), ('STEAN', 3.1229337965600092), ('STATE', 3.1170593571417813), ('STAKE', 3.0919195638396237)]
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.4104172527605194}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STADE with entropy: 0.6500
+Bot chose: STADE with entropy: 0.6500
+Top ten guesses: [('STADE', 0.6500224216483541), ('STAGE', 0.6500224216483541), ('STAKE', 0.6500224216483541), ('STANE', 0.6500224216483541), ('STATE', 0.6500224216483541), ('STAVE', 0.6500224216483541)]
+
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAGE with entropy: 0.7219
+Bot chose: STAGE with entropy: 0.7219
+Top ten guesses: [('STAGE', 0.7219280948873623), ('STAKE', 0.7219280948873623), ('STANE', 0.7219280948873623), ('STATE', 0.7219280948873623), ('STAVE', 0.7219280948873623)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STALE with entropy: 3.4104
+Bot chose: STALE with entropy: 3.4104
+Top ten guesses: [('STALE', 3.4104172527605194), ('STEAL', 3.410417252760519), ('STELA', 3.358906960863075), ('SLATE', 3.25274106455611), ('SPEAT', 3.2269222245979456), ('STEAK', 3.2183782817904953), ('STEAD', 3.1229337965600092), ('STEAN', 3.1229337965600092), ('STATE', 3.1170593571417813), ('STAKE', 3.0919195638396237)]
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.4104172527605194}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STADE with entropy: 0.6500
+Bot chose: STADE with entropy: 0.6500
+Top ten guesses: [('STADE', 0.6500224216483541), ('STAGE', 0.6500224216483541), ('STAKE', 0.6500224216483541), ('STANE', 0.6500224216483541), ('STATE', 0.6500224216483541), ('STAVE', 0.6500224216483541)]
+
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STAGE with entropy: 0.7219
+Bot chose: STAGE with entropy: 0.7219
+Top ten guesses: [('STAGE', 0.7219280948873623), ('STAKE', 0.7219280948873623), ('STANE', 0.7219280948873623), ('STATE', 0.7219280948873623), ('STAVE', 0.7219280948873623)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('STALE', '3.410'), ('STEAL', '3.410'), ('STELA', '3.359'), ('SLATE', '3.253'), ('SPEAT', '3.227')]
+Top entropy choice: 𝙎𝙏𝘼𝙇𝙀 with entropy: 3.4104
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙇𝙀 with entropy: 3.4104
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5025 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.502500340529183, 'expected_info_gain': 3.4104172527605194}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('STADE', '0.650'), ('STAGE', '0.650'), ('STAKE', '0.650'), ('STANE', '0.650'), ('STATE', '0.650')]
+Top entropy choice: 𝙎𝙏𝘼𝘿𝙀 with entropy: 0.6500
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝘿𝙀 with entropy: 0.6500
+
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('STAGE', '0.722'), ('STAKE', '0.722'), ('STANE', '0.722'), ('STATE', '0.722'), ('STAVE', '0.722')]
+Top entropy choice: 𝙎𝙏𝘼𝙂𝙀 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙂𝙀 with entropy: 0.7219
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEAST', 'BESAT', 'CESTA', 'FEAST', 'FESTA', 'HEAST', 'LEAST', 'PESTA', 'SCEAT', 'SEPTA', 'SETAE', 'SETAL', 'SKATE', 'SLATE', 'SPATE', 'SPEAT', 'STADE', 'STAGE', 'STAKE', 'STALE', 'STANE', 'STATE', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM', 'STEAN', 'STELA', 'STOAE', 'SWEAT', 'USETA', 'VESTA', 'YEAST']
+34 candidate words remaining.
+Top 10 guesses: [('PLATT', '3.540'), ('STALK', '3.478'), ('SPALT', '3.465'), ('PLEAT', '3.463'), ('PLATE', '3.440'), ('KLETT', '3.436'), ('SPALD', '3.418'), ('SPELT', '3.414'), ('STALE', '3.410'), ('STEAL', '3.410')]
+Top entropy choice: 𝙋𝙇𝘼𝙏𝙏 with entropy: 3.5395
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝘼𝙏𝙏 with entropy: 3.5395
+
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 2.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.765534746362977, 'expected_info_gain': 3.5395454741006125}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STADE', 'STAGE', 'STAKE', 'STANE', 'STAVE']
+5 candidate words remaining.
+Top 10 guesses: [('AKING', '1.922'), ('DANGS', '1.922'), ('DANKS', '1.922'), ('DAVEN', '1.922'), ('DEIGN', '1.922'), ('DEINK', '1.922'), ('DEVON', '1.922'), ('DINGE', '1.922'), ('DINGO', '1.922'), ('DINGS', '1.922')]
+Top entropy choice: 𝘼𝙆𝙄𝙉𝙂 with entropy: 1.9219
+Using common exploratory word: 𝘿𝙀𝙑𝙊𝙉 with entropy: 1.9219
+
+Guess: 𝘿𝙀𝙑𝙊𝙉, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 3.5395454741006125}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STAGE', 'STAKE']
+2 candidate words remaining.
+Top 10 guesses: [('STAGE', '1.000'), ('STAKE', '1.000')]
+Top entropy choice: 𝙎𝙏𝘼𝙂𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝘼𝙂𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 5.087, Expected Info Gain: 3.540 bits, Actual Info Gain: 2.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙀𝙑𝙊𝙉, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 3.540 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝘼𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

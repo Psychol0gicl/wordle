@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙊𝙎𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ROIDS 
+The top ten guesses and scores: [('ROIDS', 510), ('BRIOS', 509), ('COIRS', 506), ('CRIOS', 506), ('IRONS', 506), ('NOIRS', 506), ('ORNIS', 506), ('ROINS', 506), ('POURS', 505), ('ROUPS', 505)]
+The bot finally chose: ROIDS 
+Guess: 𝙍𝙊𝙄𝘿𝙎, Feedback: 🟨🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: PROGS 
+The top ten guesses and scores: [('PROGS', 111), ('CROGS', 109), ('CROPS', 108), ('GROWS', 108), ('FROGS', 107), ('PROWS', 107), ('BROGS', 106), ('PROFS', 106), ('CROWS', 105), ('PROBS', 105)]
+The bot finally chose: PROGS 
+Guess: 𝙋𝙍𝙊𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CROWS 
+The top ten guesses and scores: [('CROWS', 41), ('CRONS', 39), ('BROWS', 38), ('FROWS', 38), ('VROWS', 38), ('CROCS', 37), ('CROSS', 37), ('FRONS', 36), ('VROUS', 35), ('BROOS', 34)]
+The bot finally chose: CROSS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙍𝙊𝙄𝘿𝙎, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙋𝙍𝙊𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝙍𝙊𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POURS with entropy: 3.8954
+Bot chose: PRIUS with entropy: 3.7219
+Top ten guesses: [('POURS', 3.895425864708001), ('ROUPS', 3.8103435583601115), ('ROIDS', 3.796331479704104), ('COIRS', 3.7742589005707616), ('DROPS', 3.7626788285827186), ('PRODS', 3.7512131416570673), ('NOIRS', 3.739714495544401), ('COURS', 3.7291248028079593), ('PRIUS', 3.7219053611408506), ('FOURS', 3.695442065671275)]
+
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 2.8167 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 2.8166927866369402, 'expected_info_gain': 3.7219053611408506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GROWS with entropy: 2.3678
+Bot chose: GROSS with entropy: 2.1879
+Top ten guesses: [('GROWS', 2.3677946899553195), ('CROGS', 2.334209459448049), ('BROGS', 2.275836163305127), ('FROGS', 2.1878785072265203), ('GROSS', 2.1878785072265203), ('DROWS', 1.97628659667863), ('CROWS', 1.9672079175777322), ('BROWS', 1.8949645376549995), ('GROGS', 1.8333208226910545), ('GROKS', 1.8333208226910545)]
+
+Guess: 𝙂𝙍𝙊𝙎𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.1878785072265203}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROSS with entropy: 1.0000
+Bot chose: CROSS with entropy: 1.0000
+Top ten guesses: [('CROSS', 1.0), ('DROSS', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 3.722 bits, Actual Info Gain: 2.817 bits, Posterior Entropy: 4.459, 
+Guess: 𝙂𝙍𝙊𝙎𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.459, Expected Info Gain: 2.188 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POURS with entropy: 3.8954
+Bot chose: PRIUS with entropy: 3.7219
+Top ten guesses: [('POURS', 3.895425864708001), ('ROUPS', 3.8103435583601115), ('ROIDS', 3.796331479704104), ('COIRS', 3.7742589005707616), ('DROPS', 3.7626788285827186), ('PRODS', 3.7512131416570673), ('NOIRS', 3.739714495544401), ('COURS', 3.7291248028079593), ('PRIUS', 3.7219053611408506), ('FOURS', 3.695442065671275)]
+
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 2.8167 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 2.8166927866369402, 'expected_info_gain': 3.7219053611408506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GROWS with entropy: 2.3678
+Bot chose: GROSS with entropy: 2.1879
+Top ten guesses: [('GROWS', 2.3677946899553195), ('CROGS', 2.334209459448049), ('BROGS', 2.275836163305127), ('FROGS', 2.1878785072265203), ('GROSS', 2.1878785072265203), ('DROWS', 1.97628659667863), ('CROWS', 1.9672079175777322), ('BROWS', 1.8949645376549995), ('GROGS', 1.8333208226910545), ('GROKS', 1.8333208226910545)]
+
+Guess: 𝙂𝙍𝙊𝙎𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 1.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.1878785072265203}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CROSS with entropy: 1.0000
+Bot chose: CROSS with entropy: 1.0000
+Top ten guesses: [('CROSS', 1.0), ('DROSS', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 3.722 bits, Actual Info Gain: 2.817 bits, Posterior Entropy: 4.459, 
+Guess: 𝙂𝙍𝙊𝙎𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.459, Expected Info Gain: 2.188 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 255 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('GROUP', '4.369'), ('DOING', '4.266'), ('FOUND', '4.178'), ('COULD', '4.017'), ('POURS', '3.895')]
+Top entropy choice: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.3694
+Ended up choosing COMMON word: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.3694
+
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 3.5757 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.5756846871331454, 'expected_info_gain': 4.369401343471168}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('DROWS', '1.892'), ('CROWS', '1.826'), ('BROWS', '1.738'), ('CRONS', '1.669'), ('FROWS', '1.573')]
+Top entropy choice: 𝘿𝙍𝙊𝙒𝙎 with entropy: 1.8920
+
+Guess: 𝘿𝙍𝙊𝙒𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.115477217419936, 'expected_info_gain': 1.8919954870390203}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('CRONS', '1.918'), ('CROSS', '1.459'), ('FRONS', '1.459'), ('IRONS', '1.459'), ('CROCS', '1.459')]
+Top entropy choice: 𝘾𝙍𝙊𝙉𝙎 with entropy: 1.9183
+
+Guess: 𝘾𝙍𝙊𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('CROCS', '1.000'), ('CROSS', '1.000')]
+Top entropy choice: 𝘾𝙍𝙊𝘾𝙎 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘾𝙍𝙊𝙎𝙎 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 7.276, Expected Info Gain: 4.369 bits, Actual Info Gain: 3.576 bits, Posterior Entropy: 3.700, 
+Guess: 𝘿𝙍𝙊𝙒𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.700, Expected Info Gain: 1.892 bits, Actual Info Gain: 1.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙍𝙊𝙉𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙊𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙊𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BLURS', 'BOORS', 'BOWRS', 'BRIGS', 'BRIKS', 'BRIMS', 'BRINS', 'BRIOS', 'BRISS', 'BRODS', 'BROGS', 'BROOS', 'BROWS', 'BRUHS', 'BRUVS', 'BUHRS', 'COIRS', 'COURS', 'CRIBS', 'CRIMS', 'CRINS', 'CRIOS', 'CRIPS', 'CRISS', 'CROCS', 'CROGS', 'CRONS', 'CROPS', 'CROSS', 'CROWS', 'CRUDS', 'DOORS', 'DRIBS', 'DRIPS', 'DROPS', 'DROSS', 'DROWS', 'DRUBS', 'DRUGS', 'DRUMS', 'FLIRS', 'FLORS', 'FOURS', 'FRIBS', 'FRIGS', 'FROGS', 'FRONS', 'FROWS', 'FRUGS', 'GOORS', 'GRIDS', 'GRIGS', 'GRINS', 'GRIPS', 'GROGS', 'GROKS', 'GROMS', 'GROSS', 'GROWS', 'GRUBS', 'HOORS', 'HOURS', 'IRIDS', 'IRONS', 'JOURS', 'KHIRS', 'KHORS', 'KNURS', 'LOIRS', 'LOURS', 'MOHRS', 'MOORS', 'MUIRS', 'NOIRS', 'ODORS', 'ORDOS', 'ORNIS', 'ORZOS', 'POURS', 'PRIGS', 'PRIMS', 'PRISS', 'PRIUS', 'PROBS', 'PRODS', 'PROFS', 'PROGS', 'PROMS', 'PROPS', 'PROSS', 'PROWS', 'RICKS', 'RIFFS', 'RIGGS', 'RILLS', 'RIMUS', 'RINDS', 'RINGS', 'RINKS', 'RIPPS', 'RIQQS', 'RISKS', 'RISPS', 'RISUS', 'ROCKS', 'ROHUS', 'ROIDS', 'ROILS', 'ROINS', 'ROJIS', 'ROKOS', 'ROLFS', 'ROLLS', 'ROMPS', 'ROODS', 'ROOFS', 'ROOKS', 'ROOMS', 'ROONS', 'ROOPS', 'ROSPS', 'ROUFS', 'ROUKS', 'ROULS', 'ROUMS', 'ROUPS', 'ROWNS', 'RUBUS', 'RUCKS', 'RUDDS', 'RUDIS', 'RUFFS', 'RUFUS', 'RUINS', 'RUKHS', 'RUMPS', 'RUNDS', 'RUNGS', 'RUNOS', 'RUSKS', 'RYNDS', 'SCURS', 'SHIRS', 'SKYRS', 'SLURS', 'SMIRS', 'SMURS', 'SOURS', 'SPURS', 'VRILS', 'VROUS', 'VROWS', 'WHIRS', 'YOURS', 'ZIKRS']
+155 candidate words remaining.
+Top 10 guesses: [('PROUD', '4.406'), ('POUND', '4.387'), ('GROUP', '4.369'), ('POIND', '4.339'), ('GOURD', '4.318'), ('BOUND', '4.307'), ('BOURD', '4.297'), ('CROUP', '4.283'), ('BOURN', '4.277'), ('BOURG', '4.267')]
+Top entropy choice: 𝙋𝙍𝙊𝙐𝘿 with entropy: 4.4062
+Guess count low, choosing the word with highest entropy: 𝙋𝙍𝙊𝙐𝘿 with entropy: 4.4062
+
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 3.1062 bits
+Posterior entropy: 4.169925001442312
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.169925001442312, 'actual_info_gain': 3.1061994038319254, 'expected_info_gain': 4.406181415188354}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BROGS', 'BROOS', 'BROWS', 'CROCS', 'CROGS', 'CRONS', 'CROSS', 'CROWS', 'FROGS', 'FRONS', 'FROWS', 'GROGS', 'GROKS', 'GROMS', 'GROSS', 'GROWS', 'IRONS', 'VROWS']
+18 candidate words remaining.
+Top 10 guesses: [('GAWCY', '2.975'), ('GINCH', '2.858'), ('CONGO', '2.822'), ('COIGN', '2.753'), ('GANCH', '2.747'), ('GONCH', '2.747'), ('SWIGS', '2.725'), ('GENIC', '2.705'), ('GOWFS', '2.705'), ('GANOF', '2.658')]
+Top entropy choice: 𝙂𝘼𝙒𝘾𝙔 with entropy: 2.9749
+Using common exploratory word: 𝘾𝙊𝙉𝙂𝙊 with entropy: 2.8219
+
+Guess: 𝘾𝙊𝙉𝙂𝙊, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.406181415188354}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CROCS', 'CROSS', 'CROWS']
+3 candidate words remaining.
+Top 10 guesses: [('CROCS', '0.918'), ('CROSS', '0.918'), ('CROWS', '0.918')]
+Top entropy choice: 𝘾𝙍𝙊𝘾𝙎 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙍𝙊𝙎𝙎 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 7.276, Expected Info Gain: 4.406 bits, Actual Info Gain: 3.106 bits, Posterior Entropy: 4.170, 
+Guess: 𝘾𝙊𝙉𝙂𝙊, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 4.170, Expected Info Gain: 4.406 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙍𝙊𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

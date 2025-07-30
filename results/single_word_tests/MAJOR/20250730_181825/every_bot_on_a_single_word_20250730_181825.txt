@@ -1,0 +1,294 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NADIR 
+The top ten guesses and scores: [('NADIR', 394), ('RANID', 394), ('RAINY', 390), ('DAIRY', 387), ('YAIRD', 387), ('LAIRD', 386), ('RADIO', 384), ('LAIRY', 382), ('RAMIN', 382), ('RANGI', 382)]
+The bot finally chose: NADIR 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LABOR 
+The top ten guesses and scores: [('LABOR', 67), ('VALOR', 67), ('MAYOR', 64), ('VAPOR', 64), ('MAJOR', 63), ('PAYOR', 63), ('RAZOR', 62), ('FAVOR', 61), ('LAZAR', 61), ('MALAR', 61)]
+The bot finally chose: LABOR 
+Guess: 𝙇𝘼𝘽𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MAYOR 
+The top ten guesses and scores: [('MAYOR', 23), ('PAYOR', 23), ('VAPOR', 23), ('FAVOR', 22), ('MAJOR', 22), ('RAZOR', 20)]
+The bot finally chose: MAYOR 
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MAJOR 
+The top ten guesses and scores: [('MAJOR', 5)]
+The bot finally chose: MAJOR 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙇𝘼𝘽𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 2.6709 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.6709357238310094, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MALAR with entropy: 2.9259
+Bot chose: LAZAR with entropy: 2.8656
+Top ten guesses: [('MALAR', 2.9258530145612824), ('LAZAR', 2.8655768552072476), ('PALAR', 2.8603207778330435), ('LABOR', 2.6550505394177746), ('VALOR', 2.655050539417774), ('LAGAR', 2.5820599105802575), ('MAZAR', 2.5497873815230374), ('MAKAR', 2.4047933024618025), ('LAHAR', 2.39207883297832), ('BAZAR', 2.3523479118118216)]
+
+Guess: 𝙇𝘼𝙕𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.6630 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.6629650127224291, 'expected_info_gain': 2.8655768552072476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAYOR with entropy: 2.2516
+Bot chose: MAYOR with entropy: 2.2516
+Top ten guesses: [('MAYOR', 2.2516291673878226), ('PAYOR', 2.2516291673878226), ('VAPOR', 2.2516291673878226), ('FAVOR', 1.7924812503605778), ('KAPUR', 1.7924812503605778), ('MAJOR', 1.7924812503605778)]
+
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAJOR with entropy: 0.0000
+Bot chose: MAJOR with entropy: 0.0000
+Top ten guesses: [('MAJOR', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 2.671 bits, Posterior Entropy: 4.248, 
+Guess: 𝙇𝘼𝙕𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.866 bits, Actual Info Gain: 1.663 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 2.6709 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 2.6709357238310094, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MALAR with entropy: 2.9259
+Bot chose: LAZAR with entropy: 2.8656
+Top ten guesses: [('MALAR', 2.9258530145612824), ('LAZAR', 2.8655768552072476), ('PALAR', 2.8603207778330435), ('LABOR', 2.6550505394177746), ('VALOR', 2.655050539417774), ('LAGAR', 2.5820599105802575), ('MAZAR', 2.5497873815230374), ('MAKAR', 2.4047933024618025), ('LAHAR', 2.39207883297832), ('BAZAR', 2.3523479118118216)]
+
+Guess: 𝙇𝘼𝙕𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.6630 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.6629650127224291, 'expected_info_gain': 2.8655768552072476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAYOR with entropy: 2.2516
+Bot chose: MAYOR with entropy: 2.2516
+Top ten guesses: [('MAYOR', 2.2516291673878226), ('PAYOR', 2.2516291673878226), ('VAPOR', 2.2516291673878226), ('FAVOR', 1.7924812503605778), ('KAPUR', 1.7924812503605778), ('MAJOR', 1.7924812503605778)]
+
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAJOR with entropy: 0.0000
+Bot chose: MAJOR with entropy: 0.0000
+Top ten guesses: [('MAJOR', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 2.671 bits, Posterior Entropy: 4.248, 
+Guess: 𝙇𝘼𝙕𝘼𝙍, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.866 bits, Actual Info Gain: 1.663 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝘼𝙔𝙊𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 220 potential guesses from 121 remaining candidates...
+Top 5 guesses: [('RANID', '4.047'), ('DOING', '3.828'), ('NADIR', '3.827'), ('RADIO', '3.819'), ('RAPIN', '3.788')]
+Top entropy choice: 𝙍𝘼𝙉𝙄𝘿 with entropy: 4.0474
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 3.8276
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 3.8275974367802794}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('VAPOR', '2.732'), ('VALOR', '2.550'), ('MAYOR', '2.404'), ('PAYOR', '2.404'), ('RAUPO', '2.222')]
+Top entropy choice: 𝙑𝘼𝙋𝙊𝙍 with entropy: 2.7322
+Ended up choosing COMMON word: 𝙑𝘼𝙋𝙊𝙍 with entropy: 2.7322
+
+Guess: 𝙑𝘼𝙋𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 2.7321588913645707}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('MAJOR', '1.500'), ('MAYOR', '1.500'), ('LABOR', '0.811'), ('RAZOR', '0.811')]
+Top entropy choice: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙈𝘼𝙅𝙊𝙍 with entropy: 1.5000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 6.919, Expected Info Gain: 3.828 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 3.459, 
+Guess: 𝙑𝘼𝙋𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.732 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙅𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAIRN', 'BAJRA', 'BAJRI', 'BAKRA', 'BAZAR', 'CAIRD', 'CAIRN', 'CAPRI', 'CAURI', 'DAIRY', 'DAMAR', 'FAIRY', 'FAKIR', 'FAQIR', 'FAURD', 'FAVOR', 'GAZAR', 'HAIRY', 'JAGIR', 'JAGRA', 'KABAR', 'KAFIR', 'KAPUR', 'KAURI', 'KAURU', 'KAURY', 'LAARF', 'LAARI', 'LABOR', 'LABRA', 'LAGAR', 'LAHAR', 'LAIRD', 'LAIRY', 'LAURA', 'LAVRA', 'LAZAR', 'MACRO', 'MADAR', 'MAJOR', 'MAKAR', 'MALAR', 'MANOR', 'MAURI', 'MAYOR', 'MAZAR', 'NADIR', 'NAGAR', 'NAGOR', 'NAIRA', 'NAIRU', 'NAVAR', 'NAZAR', 'NAZIR', 'PADRI', 'PAGRI', 'PALAR', 'PANIR', 'PAPRI', 'PAYOR', 'RABBI', 'RABIC', 'RABID', 'RACON', 'RADAR', 'RADDI', 'RADDY', 'RADGY', 'RADIF', 'RADII', 'RADIO', 'RADIX', 'RADON', 'RAFFY', 'RAFIK', 'RAFIQ', 'RAGGA', 'RAGGY', 'RAHUI', 'RAIAH', 'RAINY', 'RAIRD', 'RAJAH', 'RAKHI', 'RAKIA', 'RAKKI', 'RALLI', 'RALLY', 'RALPH', 'RAMAL', 'RAMIN', 'RAMMY', 'RAMON', 'RANCH', 'RANDO', 'RANDY', 'RANGA', 'RANGI', 'RANGY', 'RANID', 'RANNY', 'RAPID', 'RAPIN', 'RAULI', 'RAUPO', 'RAVIN', 'RAWDY', 'RAWIN', 'RAWLY', 'RAYAH', 'RAYON', 'RAZAI', 'RAZOO', 'RAZOR', 'VAIRY', 'VAJRA', 'VALOR', 'VAPOR', 'WAZIR', 'YAIRD', 'ZABRA']
+121 candidate words remaining.
+Top 10 guesses: [('RINDY', '4.228'), ('RYPIN', '4.212'), ('KYLIN', '4.200'), ('ROBIN', '4.135'), ('MODIN', '4.120'), ('LINDY', '4.119'), ('RUBIN', '4.087'), ('RANID', '4.047'), ('UNLID', '4.029'), ('FLYIN', '4.013')]
+Top entropy choice: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+Guess count low, choosing the word with highest entropy: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.1640 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 2.1639757351111264, 'expected_info_gain': 4.2284561813662584}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAJRA', 'BAKRA', 'BAZAR', 'FAVOR', 'GAZAR', 'JAGRA', 'KABAR', 'KAPUR', 'KAURU', 'LAARF', 'LABOR', 'LABRA', 'LAGAR', 'LAHAR', 'LAURA', 'LAVRA', 'LAZAR', 'MACRO', 'MAJOR', 'MAKAR', 'MALAR', 'MAZAR', 'PALAR', 'VAJRA', 'VALOR', 'VAPOR', 'ZABRA']
+27 candidate words remaining.
+Top 10 guesses: [('LABRA', '3.736'), ('BOLAR', '3.726'), ('LOBAR', '3.726'), ('KALAM', '3.690'), ('LUBRA', '3.680'), ('KAVAL', '3.648'), ('KALPA', '3.634'), ('GULAB', '3.630'), ('MALVA', '3.616'), ('LABOR', '3.606')]
+Top entropy choice: 𝙇𝘼𝘽𝙍𝘼 with entropy: 3.7360
+Using common exploratory word: 𝙇𝘼𝘽𝙊𝙍 with entropy: 3.6060
+
+Guess: 𝙇𝘼𝘽𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 4.2284561813662584}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FAVOR', 'MAJOR', 'VAPOR']
+3 candidate words remaining.
+Top 10 guesses: [('FAVOR', '1.585'), ('VAPOR', '1.585'), ('MAJOR', '0.918')]
+Top entropy choice: 𝙁𝘼𝙑𝙊𝙍 with entropy: 1.5850
+Guess count high, choosing a candidate with the highest entropy: 𝙁𝘼𝙑𝙊𝙍 with entropy: 1.5850
+
+Guess: 𝙁𝘼𝙑𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MAJOR']
+1 candidate words remaining.
+Top 10 guesses: [('MAJOR', '0.000')]
+Top entropy choice: 𝙈𝘼𝙅𝙊𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙅𝙊𝙍 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.919, Expected Info Gain: 4.228 bits, Actual Info Gain: 2.164 bits, Posterior Entropy: 4.755, 
+Guess: 𝙇𝘼𝘽𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.755, Expected Info Gain: 4.228 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝘼𝙑𝙊𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙅𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

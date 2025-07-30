@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙃𝘼𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝘾𝙃𝙄𝘽𝘼, Feedback: 🟨🟩⬜⬜🟨
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙃𝘼𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 5.672, 
+Guess: 𝘽𝙇𝘼𝘾𝙆, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.672, Expected Info Gain: 3.941 bits, Actual Info Gain: 3.350 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙃𝘼𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.841 bits, Posterior Entropy: 5.672, 
+Guess: 𝘽𝙇𝘼𝘾𝙆, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.672, Expected Info Gain: 3.941 bits, Actual Info Gain: 3.350 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝘼𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 2.759 bits, Posterior Entropy: 6.755, 
+Guess: 𝙋𝙊𝘼𝘾𝙃, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 6.755, Expected Info Gain: 5.100 bits, Actual Info Gain: 5.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙃𝘼𝘾𝙆 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 6.344 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙇𝙆𝙔, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 5.613 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================

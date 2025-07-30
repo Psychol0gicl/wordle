@@ -1,0 +1,259 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝘽𝘽𝙄 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NADIR 
+The top ten guesses and scores: [('NADIR', 394), ('RANID', 394), ('RAINY', 390), ('DAIRY', 387), ('YAIRD', 387), ('LAIRD', 386), ('RADIO', 384), ('LAIRY', 382), ('RAMIN', 382), ('RANGI', 382)]
+The bot finally chose: NADIR 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: RAULI 
+The top ten guesses and scores: [('RAULI', 73), ('KAURI', 72), ('LAIRY', 72), ('RAHUI', 72), ('HAIRY', 71), ('RAKHI', 71), ('CAURI', 70), ('CAPRI', 69), ('MAURI', 69), ('FAIRY', 68)]
+The bot finally chose: HAIRY 
+Guess: 𝙃𝘼𝙄𝙍𝙔, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: RAULI 
+The top ten guesses and scores: [('RAULI', 20), ('RALLI', 19), ('RABBI', 18), ('RAKKI', 18), ('RAZAI', 17)]
+The bot finally chose: RABBI 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨
+Guess: 𝙃𝘼𝙄𝙍𝙔, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝙍𝘼𝘽𝘽𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘽𝙄 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 2.5969 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 2.596935142387232, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAULI with entropy: 3.0464
+Bot chose: RAULI with entropy: 3.0464
+Top ten guesses: [('RAULI', 3.046439344671015), ('KAURI', 2.903701696057348), ('RAHUI', 2.8659573209491747), ('CAURI', 2.841446071165522), ('RAKHI', 2.701609497059027), ('MAURI', 2.660964047443681), ('LAARI', 2.601609497059027), ('RAIAH', 2.601609497059027), ('CAPRI', 2.539353872167201), ('RALLI', 2.5211274733371867)]
+
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.046439344671015}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAKHI with entropy: 1.5000
+Bot chose: RABBI with entropy: 0.8113
+Top ten guesses: [('RAKHI', 1.5), ('RAKKI', 1.5), ('RABBI', 0.8112781244591328), ('RAZAI', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 2.597 bits, Posterior Entropy: 4.322, 
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.046 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝘼𝘽𝘽𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘽𝙄 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 2.5969 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 2.596935142387232, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAULI with entropy: 3.0464
+Bot chose: RAULI with entropy: 3.0464
+Top ten guesses: [('RAULI', 3.046439344671015), ('KAURI', 2.903701696057348), ('RAHUI', 2.8659573209491747), ('CAURI', 2.841446071165522), ('RAKHI', 2.701609497059027), ('MAURI', 2.660964047443681), ('LAARI', 2.601609497059027), ('RAIAH', 2.601609497059027), ('CAPRI', 2.539353872167201), ('RALLI', 2.5211274733371867)]
+
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 2.3219280948873626, 'expected_info_gain': 3.046439344671015}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAKHI with entropy: 1.5000
+Bot chose: RABBI with entropy: 0.8113
+Top ten guesses: [('RAKHI', 1.5), ('RAKKI', 1.5), ('RABBI', 0.8112781244591328), ('RAZAI', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 2.597 bits, Posterior Entropy: 4.322, 
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.046 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝘼𝘽𝘽𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘽𝙄 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 220 potential guesses from 121 remaining candidates...
+Top 5 guesses: [('RANID', '4.047'), ('DOING', '3.828'), ('NADIR', '3.827'), ('RADIO', '3.819'), ('RAPIN', '3.788')]
+Top entropy choice: 𝙍𝘼𝙉𝙄𝘿 with entropy: 4.0474
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 3.8276
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 4.459431618637297
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 4.459431618637297, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 3.8275974367802794}
+----------
+The bot is making a guess...
+Evaluating 22 potential guesses from 22 remaining candidates...
+Top 5 guesses: [('RAKIA', '3.295'), ('RAKHI', '3.209'), ('RAFIK', '3.136'), ('KAURI', '3.118'), ('RAKKI', '3.045')]
+Top entropy choice: 𝙍𝘼𝙆𝙄𝘼 with entropy: 3.2954
+
+Guess: 𝙍𝘼𝙆𝙄𝘼, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.459431618637297, 'posterior_entropy': 2.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 3.295357051617442}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('RAULI', '2.000'), ('RAHUI', '1.500'), ('RALLI', '1.500'), ('RABBI', '0.811')]
+Top entropy choice: 𝙍𝘼𝙐𝙇𝙄 with entropy: 2.0000
+
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('RABBI', '0.000')]
+Top entropy choice: 𝙍𝘼𝘽𝘽𝙄 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙍𝘼𝘽𝘽𝙄 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 6.919, Expected Info Gain: 3.828 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 4.459, 
+Guess: 𝙍𝘼𝙆𝙄𝘼, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 4.459, Expected Info Gain: 3.295 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝘼𝙐𝙇𝙄, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝘽𝘽𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘽𝙄 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAIRN', 'BAJRA', 'BAJRI', 'BAKRA', 'BAZAR', 'CAIRD', 'CAIRN', 'CAPRI', 'CAURI', 'DAIRY', 'DAMAR', 'FAIRY', 'FAKIR', 'FAQIR', 'FAURD', 'FAVOR', 'GAZAR', 'HAIRY', 'JAGIR', 'JAGRA', 'KABAR', 'KAFIR', 'KAPUR', 'KAURI', 'KAURU', 'KAURY', 'LAARF', 'LAARI', 'LABOR', 'LABRA', 'LAGAR', 'LAHAR', 'LAIRD', 'LAIRY', 'LAURA', 'LAVRA', 'LAZAR', 'MACRO', 'MADAR', 'MAJOR', 'MAKAR', 'MALAR', 'MANOR', 'MAURI', 'MAYOR', 'MAZAR', 'NADIR', 'NAGAR', 'NAGOR', 'NAIRA', 'NAIRU', 'NAVAR', 'NAZAR', 'NAZIR', 'PADRI', 'PAGRI', 'PALAR', 'PANIR', 'PAPRI', 'PAYOR', 'RABBI', 'RABIC', 'RABID', 'RACON', 'RADAR', 'RADDI', 'RADDY', 'RADGY', 'RADIF', 'RADII', 'RADIO', 'RADIX', 'RADON', 'RAFFY', 'RAFIK', 'RAFIQ', 'RAGGA', 'RAGGY', 'RAHUI', 'RAIAH', 'RAINY', 'RAIRD', 'RAJAH', 'RAKHI', 'RAKIA', 'RAKKI', 'RALLI', 'RALLY', 'RALPH', 'RAMAL', 'RAMIN', 'RAMMY', 'RAMON', 'RANCH', 'RANDO', 'RANDY', 'RANGA', 'RANGI', 'RANGY', 'RANID', 'RANNY', 'RAPID', 'RAPIN', 'RAULI', 'RAUPO', 'RAVIN', 'RAWDY', 'RAWIN', 'RAWLY', 'RAYAH', 'RAYON', 'RAZAI', 'RAZOO', 'RAZOR', 'VAIRY', 'VAJRA', 'VALOR', 'VAPOR', 'WAZIR', 'YAIRD', 'ZABRA']
+121 candidate words remaining.
+Top 10 guesses: [('RINDY', '4.228'), ('RYPIN', '4.212'), ('KYLIN', '4.200'), ('ROBIN', '4.135'), ('MODIN', '4.120'), ('LINDY', '4.119'), ('RUBIN', '4.087'), ('RANID', '4.047'), ('UNLID', '4.029'), ('FLYIN', '4.013')]
+Top entropy choice: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+Guess count low, choosing the word with highest entropy: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 3.3339 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.3339007365534385, 'expected_info_gain': 4.2284561813662584}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RABBI', 'RABIC', 'RAFIK', 'RAFIQ', 'RAHUI', 'RAIAH', 'RAKHI', 'RAKIA', 'RAKKI', 'RALLI', 'RAULI', 'RAZAI']
+12 candidate words remaining.
+Top 10 guesses: [('KULFI', '3.085'), ('KRUBI', '2.918'), ('AZUKI', '2.855'), ('BEKAH', '2.855'), ('HALFA', '2.855'), ('KAHAL', '2.855'), ('KHAZI', '2.855'), ('KULAK', '2.855'), ('PULIK', '2.855'), ('CHUCK', '2.752')]
+Top entropy choice: 𝙆𝙐𝙇𝙁𝙄 with entropy: 3.0850
+Using common exploratory word: 𝘾𝙃𝙐𝘾𝙆 with entropy: 2.7516
+
+Guess: 𝘾𝙃𝙐𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 4.2284561813662584}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RABBI', 'RAFIQ', 'RALLI', 'RAZAI']
+4 candidate words remaining.
+Top 10 guesses: [('AALII', '2.000'), ('ABACI', '2.000'), ('ABAFT', '2.000'), ('ABOIL', '2.000'), ('ADLIB', '2.000'), ('AFALD', '2.000'), ('AFLAJ', '2.000'), ('AFLAP', '2.000'), ('ALBAS', '2.000'), ('ALBID', '2.000')]
+Top entropy choice: 𝘼𝘼𝙇𝙄𝙄 with entropy: 2.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙍𝘼𝘽𝘽𝙄 with entropy: 1.5000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 6.919, Expected Info Gain: 4.228 bits, Actual Info Gain: 3.334 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙃𝙐𝘾𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 4.228 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝘼𝘽𝘽𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

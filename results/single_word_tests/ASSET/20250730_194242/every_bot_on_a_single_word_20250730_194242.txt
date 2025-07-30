@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙎𝙎𝙀𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: ASHET 
+The top ten guesses and scores: [('ASHET', 10), ('ASSET', 9)]
+The bot finally chose: ASSET 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+Guess: 𝘼𝙎𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝙀𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASHET with entropy: 1.0000
+Bot chose: ASSET with entropy: 1.0000
+Top ten guesses: [('ASHET', 1.0), ('ASSET', 1.0)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝙀𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ASHET with entropy: 1.0000
+Bot chose: ASSET with entropy: 1.0000
+Top ten guesses: [('ASHET', 1.0), ('ASSET', 1.0)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝙀𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('ASHET', '1.000'), ('ASSET', '1.000')]
+Top entropy choice: 𝘼𝙎𝙃𝙀𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘼𝙎𝙎𝙀𝙏 with entropy: 1.0000
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙎𝙎𝙀𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨
+Actual Info Gain: 12.8587 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 1.0, 'actual_info_gain': 12.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ASHET', 'ASSET']
+2 candidate words remaining.
+Top 10 guesses: [('ASHET', '1.000'), ('ASSET', '1.000')]
+Top entropy choice: 𝘼𝙎𝙃𝙀𝙏 with entropy: 1.0000
+Guess count low, choosing the word with highest entropy: 𝘼𝙎𝙃𝙀𝙏 with entropy: 1.0000
+
+Guess: 𝘼𝙎𝙃𝙀𝙏, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ASSET']
+1 candidate words remaining.
+Top 10 guesses: [('ASSET', '0.000')]
+Top entropy choice: 𝘼𝙎𝙎𝙀𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙎𝙎𝙀𝙏 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 12.859 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙎𝙃𝙀𝙏, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙎𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

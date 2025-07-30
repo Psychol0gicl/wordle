@@ -1,0 +1,65 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙍𝙄𝙈𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩
+Guess: 𝙂𝙍𝙄𝙋𝙀, Feedback: ⬜🟩🟩🟨🟩
+Guess: 𝙋𝙍𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙋𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙍𝙄𝙈𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.752 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙍𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 2.617 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙄𝙈𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.752 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙍𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 2.617 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙄𝙈𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.752 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙍𝙄𝘾𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 2.617 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙄𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝙄𝙈𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 8.145, Expected Info Gain: 4.837 bits, Actual Info Gain: 4.057 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝙍𝙊𝙉𝙂, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 4.837 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝙄𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

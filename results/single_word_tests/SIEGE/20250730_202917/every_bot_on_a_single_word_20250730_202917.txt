@@ -1,0 +1,200 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙀𝙂𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: EOSIN 
+The top ten guesses and scores: [('EOSIN', 770), ('NOISE', 770), ('SLOPE', 761), ('POISE', 760), ('ELSIN', 759), ('SLIPE', 749), ('SPEIL', 749), ('SPILE', 749), ('EUSOL', 748), ('LOUSE', 748)]
+The bot finally chose: NOISE 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜⬜🟨🟨🟩
+entropy_info: None
+----------
+The bot originally chose: DISME 
+The top ten guesses and scores: [('DISME', 41), ('SIDLE', 41), ('MYSIE', 39), ('SIDHE', 39), ('LISLE', 38), ('SEMIE', 38), ('SIEVE', 37), ('VISIE', 37), ('ISSUE', 36), ('SIEGE', 36)]
+The bot finally chose: LISLE 
+Guess: 𝙇𝙄𝙎𝙇𝙀, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SIDHE 
+The top ten guesses and scores: [('SIDHE', 13), ('SIEGE', 12), ('SIEVE', 12)]
+The bot finally chose: SIEGE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜⬜🟨🟨🟩
+Guess: 𝙇𝙄𝙎𝙇𝙀, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙎𝙄𝙀𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙀𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEINE with entropy: 4.8882
+Bot chose: SEINE with entropy: 4.8882
+Top ten guesses: [('SEINE', 4.888232515507248), ('SPILE', 4.766406743735873), ('SPINE', 4.728619203798729), ('SLIPE', 4.700539599093041), ('SLOPE', 4.697066826851005), ('SONSE', 4.668657929240071), ('PEISE', 4.653466273486163), ('SNIPE', 4.65081896706546), ('SEISE', 4.647315695908246), ('NOISE', 4.6358856594745355)]
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 6.9009 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 1.0, 'actual_info_gain': 6.900866807980749, 'expected_info_gain': 4.888232515507248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIEGE with entropy: 1.0000
+Bot chose: SIEGE with entropy: 1.0000
+Top ten guesses: [('SIEGE', 1.0), ('SIEVE', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 6.901 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙀𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙀𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEINE with entropy: 4.8882
+Bot chose: SEINE with entropy: 4.8882
+Top ten guesses: [('SEINE', 4.888232515507248), ('SPILE', 4.766406743735873), ('SPINE', 4.728619203798729), ('SLIPE', 4.700539599093041), ('SLOPE', 4.697066826851005), ('SONSE', 4.668657929240071), ('PEISE', 4.653466273486163), ('SNIPE', 4.65081896706546), ('SEISE', 4.647315695908246), ('NOISE', 4.6358856594745355)]
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 6.9009 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 1.0, 'actual_info_gain': 6.900866807980749, 'expected_info_gain': 4.888232515507248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIEGE with entropy: 1.0000
+Bot chose: SIEGE with entropy: 1.0000
+Top ten guesses: [('SIEGE', 1.0), ('SIEVE', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 6.901 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙀𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙀𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 431 potential guesses from 239 remaining candidates...
+Top 5 guesses: [('SEINE', '4.888'), ('SPILE', '4.766'), ('SPINE', '4.729'), ('SLIPE', '4.701'), ('SLOPE', '4.697')]
+Top entropy choice: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+Ended up choosing COMMON word: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 6.9009 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 1.0, 'actual_info_gain': 6.900866807980749, 'expected_info_gain': 4.888232515507248}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SIEGE', '1.000'), ('SIEVE', '1.000')]
+Top entropy choice: 𝙎𝙄𝙀𝙂𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙄𝙀𝙂𝙀 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 6.901 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙀𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙀𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESOM', 'BIOSE', 'BOOSE', 'BOSIE', 'BOUSE', 'BOWSE', 'BULSE', 'CENSE', 'CESSE', 'CHOSE', 'CHUSE', 'CLOSE', 'COPSE', 'COSIE', 'DEISM', 'DENSE', 'DESHI', 'DESSE', 'DISME', 'DOUSE', 'DOWSE', 'DULSE', 'EENSY', 'ELSIN', 'ENSKY', 'ENSUE', 'EOSIN', 'ESILE', 'EUSOL', 'FEESE', 'FESSE', 'FLESH', 'FOSSE', 'GEESE', 'GESSE', 'GESSO', 'GOOSE', 'GOSSE', 'GUISE', 'GUSLE', 'GUYSE', 'HOISE', 'HOUSE', 'ISSUE', 'JESSE', 'JESSY', 'LEESE', 'LEISH', 'LENSE', 'LESBO', 'LISLE', 'LOOSE', 'LOUSE', 'LOWSE', 'MEISM', 'MENSE', 'MENSH', 'MESHY', 'MESIC', 'MESNE', 'MESON', 'MESSY', 'MESYL', 'MEUSE', 'MINSE', 'MOOSE', 'MOUSE', 'MULSE', 'MUSSE', 'MYSIE', 'NEESE', 'NESKI', 'NEWSY', 'NISSE', 'NOISE', 'NOOSE', 'NYUSE', 'OBESE', 'OSONE', 'PEISE', 'PEISY', 'PELSH', 'PENSE', 'PENSY', 'PEPSI', 'PESCH', 'PESKY', 'PEYSE', 'PHESE', 'PLESH', 'POESY', 'POISE', 'POSSE', 'POYSE', 'PSEUD', 'PULSE', 'PUSLE', 'QUESO', 'SCEND', 'SCENE', 'SCOBE', 'SCONE', 'SCOPE', 'SCUSE', 'SDEIN', 'SEBUM', 'SECCO', 'SEDGE', 'SEDGY', 'SEDUM', 'SEEDY', 'SEELD', 'SEELY', 'SEEPY', 'SEGNI', 'SEGNO', 'SEGOL', 'SEGUE', 'SEINE', 'SEISE', 'SEISM', 'SEIZE', 'SELFY', 'SELKY', 'SELLE', 'SEMIE', 'SENGI', 'SENSE', 'SENSI', 'SENSU', 'SENVY', 'SEPIC', 'SEPOY', 'SEPPO', 'SEWIN', 'SHEIK', 'SHELF', 'SHELL', 'SHEND', 'SHENG', 'SHEOL', 'SHEWN', 'SHINE', 'SHIVE', 'SHMOE', 'SHONE', 'SHOPE', 'SHOVE', 'SHULE', 'SIDHE', 'SIDLE', 'SIEGE', 'SIELD', 'SIEVE', 'SINCE', 'SINGE', 'SKEGG', 'SKEIN', 'SKELF', 'SKELL', 'SKELM', 'SKELP', 'SKENE', 'SKIVE', 'SKOBE', 'SLICE', 'SLIDE', 'SLIME', 'SLIPE', 'SLIVE', 'SLOPE', 'SLOVE', 'SLUSE', 'SLYPE', 'SMEIK', 'SMEKE', 'SMELL', 'SMILE', 'SMIZE', 'SMOKE', 'SNECK', 'SNELL', 'SNIDE', 'SNIPE', 'SNIVE', 'SNOKE', 'SOCLE', 'SOLDE', 'SOLVE', 'SONCE', 'SONDE', 'SONNE', 'SONSE', 'SOOLE', 'SOUCE', 'SOUSE', 'SOWCE', 'SOWLE', 'SOWNE', 'SOWSE', 'SOYLE', 'SPECK', 'SPEIL', 'SPELD', 'SPELK', 'SPELL', 'SPEND', 'SPESH', 'SPEUG', 'SPEWY', 'SPICE', 'SPIDE', 'SPIKE', 'SPILE', 'SPINE', 'SPODE', 'SPOKE', 'SPULE', 'SPUME', 'SUEDE', 'SWEDE', 'SWELL', 'SWILE', 'SWINE', 'SWIPE', 'SWIVE', 'SWOLE', 'SYBBE', 'SYBOE', 'USQUE', 'VISIE', 'VISNE', 'WEISE', 'WELSH', 'WHOSE', 'WOOSE', 'WOWSE', 'YEESH', 'YOUSE']
+239 candidate words remaining.
+Top 10 guesses: [('SEINE', '4.888'), ('PEINE', '4.855'), ('SPOIL', '4.848'), ('LEONE', '4.808'), ('SPILE', '4.766'), ('PENIE', '4.754'), ('SOILY', '4.743'), ('POILU', '4.737'), ('MOILE', '4.736'), ('LOIPE', '4.734')]
+Top entropy choice: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+Guess count low, choosing the word with highest entropy: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 6.9009 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 1.0, 'actual_info_gain': 6.900866807980749, 'expected_info_gain': 4.888232515507248}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SIEGE', 'SIEVE']
+2 candidate words remaining.
+Top 10 guesses: [('SIEGE', '1.000'), ('SIEVE', '1.000')]
+Top entropy choice: 𝙎𝙄𝙀𝙂𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙄𝙀𝙂𝙀 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 6.901 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙀𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

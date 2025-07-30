@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Guess: 𝙄𝙉𝙎𝙀𝙏, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 4.585, Expected Info Gain: 2.792 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 4.585, Expected Info Gain: 2.792 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟨🟨⬜🟩🟨, Prior Entropy: 4.585, Expected Info Gain: 2.792 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙐𝙋𝙎𝙀𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙊𝙇𝙀𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.340 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙐𝙋𝙎𝙀𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

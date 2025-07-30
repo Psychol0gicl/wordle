@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BEARD 
+The top ten guesses and scores: [('BEARD', 610), ('BREAD', 610), ('DEBAR', 610), ('CEDAR', 606), ('ECARD', 606), ('DEARN', 603), ('DENAR', 603), ('DREAM', 603), ('GRADE', 603), ('REDAN', 603)]
+The bot finally chose: BEARD 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: WHARE 
+The top ten guesses and scores: [('WHARE', 42), ('CHARE', 41), ('OWARE', 40), ('PHARE', 40), ('AWARE', 39), ('FLARE', 39), ('GLARE', 39), ('QUARE', 39), ('CRARE', 38), ('ENARM', 38)]
+The bot finally chose: AWARE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+Guess: 𝘼𝙒𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 3.9414 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.941447817644887, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WHARE with entropy: 2.0404
+Bot chose: WHARE with entropy: 2.0404
+Top ten guesses: [('WHARE', 2.0403733936884962), ('CHARE', 1.867633890971212), ('AWARE', 1.6729330318733675), ('CRARE', 1.6729330318733675), ('OWARE', 1.6729330318733675), ('URARE', 1.6729330318733675), ('PHARE', 1.4911148500551858), ('FLARE', 1.2776134368191154), ('GLARE', 1.2776134368191154), ('QUARE', 1.2776134368191154)]
+
+Guess: 𝙒𝙃𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟩🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.0403733936884962}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWARE with entropy: 1.0000
+Bot chose: AWARE with entropy: 1.0000
+Top ten guesses: [('AWARE', 1.0), ('OWARE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.941 bits, Posterior Entropy: 3.459, 
+Guess: 𝙒𝙃𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.040 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 3.9414 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.941447817644887, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WHARE with entropy: 2.0404
+Bot chose: WHARE with entropy: 2.0404
+Top ten guesses: [('WHARE', 2.0403733936884962), ('CHARE', 1.867633890971212), ('AWARE', 1.6729330318733675), ('CRARE', 1.6729330318733675), ('OWARE', 1.6729330318733675), ('URARE', 1.6729330318733675), ('PHARE', 1.4911148500551858), ('FLARE', 1.2776134368191154), ('GLARE', 1.2776134368191154), ('QUARE', 1.2776134368191154)]
+
+Guess: 𝙒𝙃𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟩🟩
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.0403733936884962}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWARE with entropy: 1.0000
+Bot chose: AWARE with entropy: 1.0000
+Top ten guesses: [('AWARE', 1.0), ('OWARE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.941 bits, Posterior Entropy: 3.459, 
+Guess: 𝙒𝙃𝘼𝙍𝙀, Feedback: 🟨⬜🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.040 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 266 potential guesses from 169 remaining candidates...
+Top 5 guesses: [('BEARD', '4.178'), ('DEARE', '4.132'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BEARE', '4.027')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Ended up choosing COMMON word: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 3.9414 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.941447817644887, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('WHARE', '2.040'), ('CHARE', '1.868'), ('AWARE', '1.673'), ('CRARE', '1.673'), ('OWARE', '1.673')]
+Top entropy choice: 𝙒𝙃𝘼𝙍𝙀 with entropy: 2.0404
+Ended up choosing COMMON word: 𝘼𝙒𝘼𝙍𝙀 with entropy: 1.6729
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.941 bits, Posterior Entropy: 3.459, 
+Guess: 𝘼𝙒𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAR', 'ABORE', 'ACERB', 'ADORE', 'AFEAR', 'AFIRE', 'AFORE', 'AIERY', 'ALURE', 'AMORE', 'ANEAR', 'APERY', 'ARAME', 'AREAD', 'AREAE', 'AREAL', 'AREAR', 'ARECA', 'AREDD', 'AREDE', 'AREFY', 'AREIC', 'ARENA', 'ARENE', 'AREPA', 'ARERE', 'ARGLE', 'ARGUE', 'ARUHE', 'AWARE', 'AYGRE', 'AZURE', 'BEARD', 'BEARE', 'BEGAR', 'BEIRA', 'BELAR', 'BLARE', 'BLEAR', 'BRACE', 'BRAKE', 'BRAME', 'BRANE', 'BRAVE', 'BRAZE', 'BREAD', 'BREAK', 'BREAM', 'CEDAR', 'CHARE', 'CLEAR', 'CRAKE', 'CRAME', 'CRANE', 'CRAPE', 'CRARE', 'CRAVE', 'CRAZE', 'CREAK', 'CREAM', 'CREMA', 'CRENA', 'DEAIR', 'DEARE', 'DEARN', 'DEARY', 'DEBAR', 'DENAR', 'DEWAR', 'DRAKE', 'DRAPE', 'DRAVE', 'DREAD', 'DREAM', 'DREAR', 'ECARD', 'EGGAR', 'EMBAR', 'ENARM', 'ERBIA', 'ERICA', 'FEARD', 'FEARE', 'FEUAR', 'FLARE', 'FRAME', 'FRAPE', 'FREAK', 'FRENA', 'GEARE', 'GLARE', 'GRACE', 'GRADE', 'GRAME', 'GRAPE', 'GRAVE', 'GRAZE', 'HEARD', 'HEARE', 'HEJRA', 'HEPAR', 'IRADE', 'JEERA', 'KEBAR', 'LEARE', 'LEARN', 'LEARY', 'LEEAR', 'LEPRA', 'MEARE', 'OPERA', 'OREAD', 'OWARE', 'PEARE', 'PEARL', 'PHARE', 'PREAK', 'QUARE', 'REACH', 'READD', 'READY', 'REALM', 'REALO', 'REAME', 'REAMY', 'REARD', 'REARM', 'REAVE', 'REBAB', 'REBAR', 'RECAL', 'RECAP', 'REDAN', 'REDIA', 'REEAF', 'REFAN', 'REGAL', 'REGAR', 'REGIA', 'REGMA', 'REGNA', 'REHAB', 'RELAX', 'RELAY', 'REMAN', 'REMAP', 'RENAL', 'RENAY', 'RENGA', 'REPAY', 'REPLA', 'REWAN', 'REWAX', 'RIMAE', 'ROAKE', 'RUEDA', 'RUGAE', 'URARE', 'UREAL', 'URENA', 'VELAR', 'WEARY', 'WHARE', 'WHEAR', 'WREAK', 'YEARD', 'YEARN', 'ZEBRA', 'ZEERA']
+169 candidate words remaining.
+Top 10 guesses: [('BEARD', '4.178'), ('DRERE', '4.157'), ('DEARE', '4.132'), ('REERD', '4.123'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BRERE', '4.036'), ('DRAMA', '4.027'), ('BEARE', '4.027'), ('BREDE', '4.025')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Guess count low, choosing the word with highest entropy: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 3.9414 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.941447817644887, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AWARE', 'CHARE', 'CRARE', 'ENARM', 'FLARE', 'GLARE', 'OWARE', 'PHARE', 'QUARE', 'URARE', 'WHARE']
+11 candidate words remaining.
+Top 10 guesses: [('LUNCH', '2.914'), ('MULCH', '2.914'), ('WRUNG', '2.845'), ('GULCH', '2.845'), ('MUCHO', '2.845'), ('OUCHE', '2.845'), ('PUNCH', '2.732'), ('OWCHE', '2.732'), ('CHAWL', '2.664'), ('CROWL', '2.664')]
+Top entropy choice: 𝙇𝙐𝙉𝘾𝙃 with entropy: 2.9140
+Using common exploratory word: 𝙇𝙐𝙉𝘾𝙃 with entropy: 2.9140
+
+Guess: 𝙇𝙐𝙉𝘾𝙃, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AWARE', 'OWARE']
+2 candidate words remaining.
+Top 10 guesses: [('AWARE', '1.000'), ('OWARE', '1.000')]
+Top entropy choice: 𝘼𝙒𝘼𝙍𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙒𝘼𝙍𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.941 bits, Posterior Entropy: 3.459, 
+Guess: 𝙇𝙐𝙉𝘾𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙒𝘼𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

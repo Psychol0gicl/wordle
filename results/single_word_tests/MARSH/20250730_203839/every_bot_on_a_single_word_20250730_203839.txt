@@ -1,0 +1,222 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙍𝙎𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: KARSY 
+The top ten guesses and scores: [('KARSY', 36), ('MARSH', 36), ('SARGO', 36), ('SARIN', 36), ('SARKY', 36), ('SAROD', 36), ('SARVO', 36), ('HARSH', 35), ('SARAN', 34), ('SARIR', 34)]
+The bot finally chose: MARSH 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+Guess: 𝙈𝘼𝙍𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SARGO with entropy: 2.0464
+Bot chose: SARIN with entropy: 2.0464
+Top ten guesses: [('SARGO', 2.0464393446710156), ('SARIN', 2.0464393446710156), ('SARVO', 2.0464393446710156), ('SAROD', 1.8464393446710154), ('SARIR', 1.6854752972273346), ('SARAN', 1.6854752972273344), ('KARSY', 1.5709505944546687), ('SARKY', 1.5709505944546687), ('HARSH', 1.3567796494470394), ('MARSH', 1.3567796494470394)]
+
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.0464393446710156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HARSH with entropy: 1.5850
+Bot chose: HARSH with entropy: 1.5850
+Top ten guesses: [('HARSH', 1.584962500721156), ('MARSH', 1.584962500721156), ('KARSY', 0.9182958340544896)]
+
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARSH with entropy: 0.0000
+Bot chose: MARSH with entropy: 0.0000
+Top ten guesses: [('MARSH', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.046 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SARGO with entropy: 2.0464
+Bot chose: SARIN with entropy: 2.0464
+Top ten guesses: [('SARGO', 2.0464393446710156), ('SARIN', 2.0464393446710156), ('SARVO', 2.0464393446710156), ('SAROD', 1.8464393446710154), ('SARIR', 1.6854752972273346), ('SARAN', 1.6854752972273344), ('KARSY', 1.5709505944546687), ('SARKY', 1.5709505944546687), ('HARSH', 1.3567796494470394), ('MARSH', 1.3567796494470394)]
+
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.0464393446710156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HARSH with entropy: 1.5850
+Bot chose: HARSH with entropy: 1.5850
+Top ten guesses: [('HARSH', 1.584962500721156), ('MARSH', 1.584962500721156), ('KARSY', 0.9182958340544896)]
+
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARSH with entropy: 0.0000
+Bot chose: MARSH with entropy: 0.0000
+Top ten guesses: [('MARSH', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.046 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('SARGO', '2.046'), ('SARIN', '2.046'), ('SARVO', '2.046'), ('SAROD', '1.846'), ('SARIR', '1.685')]
+Top entropy choice: 𝙎𝘼𝙍𝙂𝙊 with entropy: 2.0464
+Ended up choosing COMMON word: 𝙎𝘼𝙍𝙄𝙉 with entropy: 2.0464
+
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.0464393446710156}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('HARSH', '1.585'), ('MARSH', '1.585'), ('KARSY', '0.918')]
+Top entropy choice: 𝙃𝘼𝙍𝙎𝙃 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙃𝘼𝙍𝙎𝙃 with entropy: 1.5850
+
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('MARSH', '0.000')]
+Top entropy choice: 𝙈𝘼𝙍𝙎𝙃 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘼𝙍𝙄𝙉, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.046 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝘼𝙍𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['HARSH', 'KARSY', 'MARSH', 'SARAN', 'SARGO', 'SARIN', 'SARIR', 'SARKY', 'SAROD', 'SARVO']
+10 candidate words remaining.
+Top 10 guesses: [('HOING', '2.922'), ('HONGI', '2.922'), ('HYING', '2.922'), ('KINOS', '2.922'), ('PINKO', '2.922'), ('SKIMO', '2.922'), ('VINHO', '2.922'), ('HINKY', '2.846'), ('HIKOI', '2.722'), ('HYOID', '2.722')]
+Top entropy choice: 𝙃𝙊𝙄𝙉𝙂 with entropy: 2.9219
+Guess count low, choosing the word with highest entropy: 𝙃𝙊𝙄𝙉𝙂 with entropy: 2.9219
+
+Guess: 𝙃𝙊𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.9219280948873623}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MARSH']
+1 candidate words remaining.
+Top 10 guesses: [('MARSH', '0.000')]
+Top entropy choice: 𝙈𝘼𝙍𝙎𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙍𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.922 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

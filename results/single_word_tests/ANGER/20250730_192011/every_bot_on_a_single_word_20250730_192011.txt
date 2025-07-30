@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: ALDER 
+The top ten guesses and scores: [('ALDER', 111), ('ARLED', 111), ('AIDER', 109), ('ARDEB', 109), ('ARKED', 109), ('ARMED', 109), ('ABLER', 107), ('ARCED', 107), ('ARIEL', 107), ('BLAER', 107)]
+The bot finally chose: ALDER 
+Guess: 𝘼𝙇𝘿𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: ANGER 
+The top ten guesses and scores: [('ANGER', 57), ('ANKER', 56), ('ACKER', 55), ('AIMER', 55), ('AMBER', 55), ('AUGER', 55), ('AEGER', 54), ('AGGER', 54), ('AKKER', 53), ('AMEER', 53)]
+The bot finally chose: ANGER 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝘼𝙇𝘿𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARMED with entropy: 2.7612
+Bot chose: ARMED with entropy: 2.7612
+Top ten guesses: [('ARMED', 2.7612113008643653), ('ARLED', 2.6797991318374055), ('ALDER', 2.6616157143988106), ('ABLER', 2.566457281989699), ('ARKED', 2.5612113008643655), ('AMEER', 2.546465798504072), ('AIDER', 2.486778631137593), ('AIMER', 2.4797991318374053), ('AMBER', 2.4797991318374053), ('ARCED', 2.4797991318374053)]
+
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.2065 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.2064508774674265, 'expected_info_gain': 2.7612113008643653}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ANGER with entropy: 1.8230
+Bot chose: ANGER with entropy: 1.8230
+Top ten guesses: [('ANGER', 1.8230264907128848), ('ANKER', 1.7004397181410922), ('AEGER', 1.4885252948977485), ('ACKER', 1.3520301017579528), ('ABEER', 1.1451104143815827), ('ABLER', 1.1451104143815827), ('AGGER', 1.1401156785146092), ('AUGER', 1.1401156785146092), ('AKKER', 0.9912642605354288), ('AWNER', 0.9912642605354288)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARMED with entropy: 2.7612
+Bot chose: ARMED with entropy: 2.7612
+Top ten guesses: [('ARMED', 2.7612113008643653), ('ARLED', 2.6797991318374055), ('ALDER', 2.6616157143988106), ('ABLER', 2.566457281989699), ('ARKED', 2.5612113008643655), ('AMEER', 2.546465798504072), ('AIDER', 2.486778631137593), ('AIMER', 2.4797991318374053), ('AMBER', 2.4797991318374053), ('ARCED', 2.4797991318374053)]
+
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.2065 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.2064508774674265, 'expected_info_gain': 2.7612113008643653}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ANGER with entropy: 1.8230
+Bot chose: ANGER with entropy: 1.8230
+Top ten guesses: [('ANGER', 1.8230264907128848), ('ANKER', 1.7004397181410922), ('AEGER', 1.4885252948977485), ('ACKER', 1.3520301017579528), ('ABEER', 1.1451104143815827), ('ABLER', 1.1451104143815827), ('AGGER', 1.1401156785146092), ('AUGER', 1.1401156785146092), ('AKKER', 0.9912642605354288), ('AWNER', 0.9912642605354288)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('ARMED', '2.761'), ('ARLED', '2.680'), ('ALDER', '2.662'), ('ABLER', '2.566'), ('ARKED', '2.561')]
+Top entropy choice: 𝘼𝙍𝙈𝙀𝘿 with entropy: 2.7612
+Ended up choosing COMMON word: 𝘼𝙍𝙈𝙀𝘿 with entropy: 2.7612
+
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.2065 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 1.2064508774674265, 'expected_info_gain': 2.7612113008643653}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('ANGER', '1.823'), ('ANKER', '1.700'), ('AEGER', '1.489'), ('ACKER', '1.352'), ('ABEER', '1.145')]
+Top entropy choice: 𝘼𝙉𝙂𝙀𝙍 with entropy: 1.8230
+Ended up choosing COMMON word: 𝘼𝙉𝙂𝙀𝙍 with entropy: 1.8230
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙈𝙀𝘿, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.761 bits, Actual Info Gain: 1.206 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙂𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEER', 'ABLER', 'ACHER', 'ACKER', 'ADDER', 'AEGER', 'AGGER', 'AIDER', 'AIMER', 'AIVER', 'AKKER', 'ALDER', 'ALLER', 'AMBER', 'AMEER', 'ANGER', 'ANKER', 'ARCED', 'ARDEB', 'ARIEL', 'ARKED', 'ARLED', 'ARMED', 'ARMER', 'ARPEN', 'ARVEE', 'AUGER', 'AWNER', 'BLAER', 'URAEI']
+30 candidate words remaining.
+Top 10 guesses: [('UNLID', '3.308'), ('BLIND', '3.306'), ('BRINK', '3.270'), ('GRIND', '3.264'), ('BIELD', '3.248'), ('DRINK', '3.200'), ('BRING', '3.193'), ('BRICK', '3.185'), ('BLUID', '3.181'), ('BUILD', '3.181')]
+Top entropy choice: 𝙐𝙉𝙇𝙄𝘿 with entropy: 3.3078
+Guess count low, choosing the word with highest entropy: 𝙐𝙉𝙇𝙄𝘿 with entropy: 3.3078
+
+Guess: 𝙐𝙉𝙇𝙄𝘿, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.9069 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 1.0, 'actual_info_gain': 3.9068905956085187, 'expected_info_gain': 3.307751647240616}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ANGER', 'ANKER']
+2 candidate words remaining.
+Top 10 guesses: [('ANGER', '1.000'), ('ANKER', '1.000')]
+Top entropy choice: 𝘼𝙉𝙂𝙀𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙉𝙂𝙀𝙍 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝙐𝙉𝙇𝙄𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 3.308 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙉𝙂𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

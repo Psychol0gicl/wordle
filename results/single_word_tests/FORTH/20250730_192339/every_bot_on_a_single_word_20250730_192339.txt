@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝙍𝙏𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: YIRTH 
+The top ten guesses and scores: [('YIRTH', 81), ('HURTY', 80), ('FORTH', 78), ('NORTH', 77), ('PORTH', 77), ('BIRTH', 76), ('FIRTH', 76), ('BORTY', 75), ('FORTY', 75), ('FURTH', 75)]
+The bot finally chose: FORTH 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRTH with entropy: 3.0578
+Bot chose: FIRTH with entropy: 3.0578
+Top ten guesses: [('FIRTH', 3.0577968115985947), ('YIRTH', 3.003074189428569), ('FORTH', 2.980503832755768), ('FURTH', 2.9672103113389787), ('FORTY', 2.9476013115120563), ('BIRTH', 2.9230741894285694), ('HURTY', 2.9034651896016466), ('PURTY', 2.8994705707972512), ('PORTH', 2.8832156925345833), ('BORTY', 2.8536606896881853)]
+
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 1.0, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.0577968115985947}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORTH with entropy: 1.0000
+Bot chose: FORTH with entropy: 1.0000
+Top ten guesses: [('FORTH', 1.0), ('FURTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRTH with entropy: 3.0578
+Bot chose: FIRTH with entropy: 3.0578
+Top ten guesses: [('FIRTH', 3.0577968115985947), ('YIRTH', 3.003074189428569), ('FORTH', 2.980503832755768), ('FURTH', 2.9672103113389787), ('FORTY', 2.9476013115120563), ('BIRTH', 2.9230741894285694), ('HURTY', 2.9034651896016466), ('PURTY', 2.8994705707972512), ('PORTH', 2.8832156925345833), ('BORTY', 2.8536606896881853)]
+
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 1.0, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.0577968115985947}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FORTH with entropy: 1.0000
+Bot chose: FORTH with entropy: 1.0000
+Top ten guesses: [('FORTH', 1.0), ('FURTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 25 potential guesses from 25 remaining candidates...
+Top 5 guesses: [('FIRTH', '3.058'), ('YIRTH', '3.003'), ('FORTH', '2.981'), ('FURTH', '2.967'), ('FORTY', '2.948')]
+Top entropy choice: 𝙁𝙄𝙍𝙏𝙃 with entropy: 3.0578
+Ended up choosing COMMON word: 𝙁𝙄𝙍𝙏𝙃 with entropy: 3.0578
+
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 1.0, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.0577968115985947}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('FORTH', '1.000'), ('FURTH', '1.000')]
+Top entropy choice: 𝙁𝙊𝙍𝙏𝙃 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙁𝙊𝙍𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙍𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRTH', 'BORTY', 'BORTZ', 'BURNT', 'DIRTY', 'DORTY', 'FIRTH', 'FORTH', 'FORTY', 'FURTH', 'GIRTH', 'HURTY', 'LIROT', 'MIRTH', 'MURTH', 'MURTI', 'NORTH', 'NURTZ', 'PORTH', 'PORTY', 'PURTY', 'RORTY', 'VIRTU', 'WORTH', 'YIRTH']
+25 candidate words remaining.
+Top 10 guesses: [('POUFY', '3.609'), ('PIONY', '3.589'), ('BUYIN', '3.574'), ('UNIFY', '3.574'), ('HIMBO', '3.574'), ('YUPON', '3.543'), ('BUMPH', '3.479'), ('BODHI', '3.463'), ('DHOBI', '3.463'), ('BIHON', '3.463')]
+Top entropy choice: 𝙋𝙊𝙐𝙁𝙔 with entropy: 3.6089
+Guess count low, choosing the word with highest entropy: 𝙋𝙊𝙐𝙁𝙔 with entropy: 3.6089
+
+Guess: 𝙋𝙊𝙐𝙁𝙔, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 4.6439 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 0.0, 'actual_info_gain': 4.643856189774724, 'expected_info_gain': 3.608884070537634}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FORTH']
+1 candidate words remaining.
+Top 10 guesses: [('FORTH', '0.000')]
+Top entropy choice: 𝙁𝙊𝙍𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙊𝙍𝙏𝙃 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙊𝙐𝙁𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 4.644, Expected Info Gain: 3.609 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

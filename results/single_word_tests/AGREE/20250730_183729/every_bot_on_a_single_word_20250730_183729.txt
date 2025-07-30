@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: AIRED 
+The top ten guesses and scores: [('AIRED', 34), ('ACRED', 33), ('ADRED', 31), ('AUREI', 31), ('AIRER', 30), ('OCREA', 30), ('AGREE', 28), ('PEREA', 28)]
+The bot finally chose: AIRED 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: AGREE 
+The top ten guesses and scores: [('AGREE', 5)]
+The bot finally chose: AGREE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AIRED with entropy: 2.5000
+Bot chose: AIRED with entropy: 2.5000
+Top ten guesses: [('AIRED', 2.5), ('ACRED', 2.1556390622295662), ('AIRER', 2.1556390622295662), ('ADRED', 1.9056390622295665), ('AUREI', 1.9056390622295665), ('AGREE', 1.5487949406953985), ('OCREA', 1.5487949406953985), ('PEREA', 1.5487949406953985)]
+
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AGREE with entropy: 0.0000
+Bot chose: AGREE with entropy: 0.0000
+Top ten guesses: [('AGREE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AIRED with entropy: 2.5000
+Bot chose: AIRED with entropy: 2.5000
+Top ten guesses: [('AIRED', 2.5), ('ACRED', 2.1556390622295662), ('AIRER', 2.1556390622295662), ('ADRED', 1.9056390622295665), ('AUREI', 1.9056390622295665), ('AGREE', 1.5487949406953985), ('OCREA', 1.5487949406953985), ('PEREA', 1.5487949406953985)]
+
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AGREE with entropy: 0.0000
+Bot chose: AGREE with entropy: 0.0000
+Top ten guesses: [('AGREE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('AIRED', '2.500'), ('ACRED', '2.156'), ('AIRER', '2.156'), ('ADRED', '1.906'), ('AUREI', '1.906')]
+Top entropy choice: 𝘼𝙄𝙍𝙀𝘿 with entropy: 2.5000
+Ended up choosing COMMON word: 𝘼𝙄𝙍𝙀𝘿 with entropy: 2.5000
+
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.5}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('AGREE', '0.000')]
+Top entropy choice: 𝘼𝙂𝙍𝙀𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘼𝙂𝙍𝙀𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙍𝙀𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ACRED', 'ADRED', 'AGREE', 'AIRED', 'AIRER', 'AUREI', 'OCREA', 'PEREA']
+8 candidate words remaining.
+Top 10 guesses: [('CUPID', '3.000'), ('DICTA', '3.000'), ('DIODE', '3.000'), ('EDUCE', '3.000'), ('PUDIC', '3.000'), ('ACIDS', '2.750'), ('ACIDY', '2.750'), ('ACRID', '2.750'), ('ADDIO', '2.750'), ('ADIEU', '2.750')]
+Top entropy choice: 𝘾𝙐𝙋𝙄𝘿 with entropy: 3.0000
+Guess count low, choosing the word with highest entropy: 𝘾𝙐𝙋𝙄𝘿 with entropy: 3.0000
+
+Guess: 𝘾𝙐𝙋𝙄𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.0}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AGREE']
+1 candidate words remaining.
+Top 10 guesses: [('AGREE', '0.000')]
+Top entropy choice: 𝘼𝙂𝙍𝙀𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙂𝙍𝙀𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙐𝙋𝙄𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 3.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

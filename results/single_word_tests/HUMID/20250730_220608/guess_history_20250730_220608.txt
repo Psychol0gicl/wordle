@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙐𝙈𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙃𝙐𝙈𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.538 bits, Posterior Entropy: 3.459, 
+Guess: 𝙈𝙐𝘿𝙄𝙁, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 3.096 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.538 bits, Posterior Entropy: 3.459, 
+Guess: 𝙈𝙐𝘿𝙄𝙁, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 3.096 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.538 bits, Posterior Entropy: 3.459, 
+Guess: 𝙑𝙄𝙑𝙄𝘿, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.664 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙈𝙄𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.538 bits, Posterior Entropy: 3.459, 
+Guess: 𝙈𝘼𝘿𝘼𝙈, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙐𝙈𝙄𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

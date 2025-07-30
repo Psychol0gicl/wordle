@@ -1,0 +1,185 @@
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙀𝙍𝙎𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SCRAE 
+The top ten guesses and scores: [('SCRAE', 31), ('SERAC', 31), ('SERAI', 31), ('SERIA', 31), ('SERAL', 30), ('VERSA', 30), ('SERRA', 29)]
+The bot finally chose: VERSA 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+Guess: 𝙑𝙀𝙍𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙀𝙍𝙎𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SERAI with entropy: 2.5216
+Bot chose: SERAI with entropy: 2.5216
+Top ten guesses: [('SERAI', 2.5216406363433186), ('SERIA', 2.5216406363433186), ('SCRAE', 2.2359263506290326), ('SERAC', 2.2359263506290326), ('SERAL', 2.2359263506290326), ('SERRA', 2.1280852788913944), ('VERSA', 1.8423709931771084)]
+
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.5216406363433186}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VERSA with entropy: 0.0000
+Bot chose: VERSA with entropy: 0.0000
+Top ten guesses: [('VERSA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙍𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙍𝙎𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SERAI with entropy: 2.5216
+Bot chose: SERAI with entropy: 2.5216
+Top ten guesses: [('SERAI', 2.5216406363433186), ('SERIA', 2.5216406363433186), ('SCRAE', 2.2359263506290326), ('SERAC', 2.2359263506290326), ('SERAL', 2.2359263506290326), ('SERRA', 2.1280852788913944), ('VERSA', 1.8423709931771084)]
+
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.5216406363433186}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: VERSA with entropy: 0.0000
+Bot chose: VERSA with entropy: 0.0000
+Top ten guesses: [('VERSA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙍𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙍𝙎𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SERAI', '2.522'), ('SERIA', '2.522'), ('SCRAE', '2.236'), ('SERAC', '2.236'), ('SERAL', '2.236')]
+Top entropy choice: 𝙎𝙀𝙍𝘼𝙄 with entropy: 2.5216
+
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.5216406363433186}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('VERSA', '0.000')]
+Top entropy choice: 𝙑𝙀𝙍𝙎𝘼 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙑𝙀𝙍𝙎𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙀𝙍𝘼𝙄, Feedback: 🟨🟩🟩🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙍𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙀𝙍𝙎𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCRAE', 'SERAC', 'SERAI', 'SERAL', 'SERIA', 'SERRA', 'VERSA']
+7 candidate words remaining.
+Top 10 guesses: [('SALIC', '2.807'), ('SCAIL', '2.807'), ('SCLIM', '2.807'), ('BEIRA', '2.522'), ('BEISA', '2.522'), ('CAVIL', '2.522'), ('CHIVA', '2.522'), ('CIVIL', '2.522'), ('CLAVI', '2.522'), ('DEVIL', '2.522')]
+Top entropy choice: 𝙎𝘼𝙇𝙄𝘾 with entropy: 2.8074
+Guess count low, choosing the word with highest entropy: 𝙎𝘼𝙇𝙄𝘾 with entropy: 2.8074
+
+Guess: 𝙎𝘼𝙇𝙄𝘾, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.807354922057604}
+----------
+The bot is making a guess...
+THe possible candidates are: ['VERSA']
+1 candidate words remaining.
+Top 10 guesses: [('VERSA', '0.000')]
+Top entropy choice: 𝙑𝙀𝙍𝙎𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙑𝙀𝙍𝙎𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘼𝙇𝙄𝘾, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.807 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙀𝙍𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

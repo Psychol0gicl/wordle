@@ -1,0 +1,206 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙐𝙍𝙎𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ESROG 
+The top ten guesses and scores: [('ESROG', 131), ('GORSE', 131), ('MORSE', 131), ('SERVO', 131), ('VERSO', 131), ('CORSE', 130), ('HORSE', 130), ('SERON', 130), ('SEROW', 130), ('WORSE', 130)]
+The bot finally chose: MORSE 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BURSE 
+The top ten guesses and scores: [('BURSE', 33), ('PURSE', 33), ('CURSE', 32), ('NURSE', 32), ('BIRSE', 30), ('PERSE', 29), ('HERSE', 28), ('VERSE', 28)]
+The bot finally chose: PURSE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙐𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORSE with entropy: 3.0513
+Bot chose: MORSE with entropy: 3.0513
+Top ten guesses: [('MORSE', 3.0513099897106644), ('SEROW', 3.039039717057208), ('SERON', 3.0349124766933526), ('VERSO', 2.9929715902830516), ('CORSE', 2.9725989182202794), ('GORSE', 2.963181944712821), ('HORSE', 2.9398775745709465), ('WORSE', 2.9031857884239667), ('MERSE', 2.89161415090209), ('SERVO', 2.8687282889802868)]
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 2.1293 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.0, 'actual_info_gain': 2.1292830169449664, 'expected_info_gain': 3.0513099897106644}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURSE with entropy: 1.8113
+Bot chose: PURSE with entropy: 1.8113
+Top ten guesses: [('BURSE', 1.811278124459133), ('PURSE', 1.811278124459133), ('PERSE', 1.75), ('CURSE', 1.4056390622295665), ('NURSE', 1.4056390622295665), ('HERSE', 1.2987949406953985), ('VERSE', 1.2987949406953985), ('BIRSE', 1.061278124459133)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.129 bits, Posterior Entropy: 3.000, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙍𝙎𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORSE with entropy: 3.0513
+Bot chose: MORSE with entropy: 3.0513
+Top ten guesses: [('MORSE', 3.0513099897106644), ('SEROW', 3.039039717057208), ('SERON', 3.0349124766933526), ('VERSO', 2.9929715902830516), ('CORSE', 2.9725989182202794), ('GORSE', 2.963181944712821), ('HORSE', 2.9398775745709465), ('WORSE', 2.9031857884239667), ('MERSE', 2.89161415090209), ('SERVO', 2.8687282889802868)]
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 2.1293 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.0, 'actual_info_gain': 2.1292830169449664, 'expected_info_gain': 3.0513099897106644}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURSE with entropy: 1.8113
+Bot chose: PURSE with entropy: 1.8113
+Top ten guesses: [('BURSE', 1.811278124459133), ('PURSE', 1.811278124459133), ('PERSE', 1.75), ('CURSE', 1.4056390622295665), ('NURSE', 1.4056390622295665), ('HERSE', 1.2987949406953985), ('VERSE', 1.2987949406953985), ('BIRSE', 1.061278124459133)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.129 bits, Posterior Entropy: 3.000, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙍𝙎𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('MORSE', '3.051'), ('SEROW', '3.039'), ('SERON', '3.035'), ('VERSO', '2.993'), ('CORSE', '2.973')]
+Top entropy choice: 𝙈𝙊𝙍𝙎𝙀 with entropy: 3.0513
+Ended up choosing COMMON word: 𝙈𝙊𝙍𝙎𝙀 with entropy: 3.0513
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 2.1293 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.0, 'actual_info_gain': 2.1292830169449664, 'expected_info_gain': 3.0513099897106644}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('BURSE', '1.811'), ('PURSE', '1.811'), ('PERSE', '1.750'), ('CURSE', '1.406'), ('NURSE', '1.406')]
+Top entropy choice: 𝘽𝙐𝙍𝙎𝙀 with entropy: 1.8113
+Ended up choosing COMMON word: 𝙋𝙐𝙍𝙎𝙀 with entropy: 1.8113
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.129 bits, Posterior Entropy: 3.000, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙍𝙎𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRSE', 'BURSE', 'CORSE', 'CURSE', 'DORSE', 'ESROG', 'GORSE', 'HERSE', 'HORSE', 'MERSE', 'MERSK', 'MORSE', 'NURSE', 'PERSE', 'PERSP', 'PURSE', 'SERGE', 'SERIC', 'SERIF', 'SERIN', 'SERIR', 'SERON', 'SEROW', 'SERRE', 'SERRY', 'SERUM', 'SERVE', 'SERVO', 'SPRUE', 'SURGE', 'VERSE', 'VERSO', 'WERSH', 'WORSE', 'ZORSE']
+35 candidate words remaining.
+Top 10 guesses: [('SHMOE', '3.516'), ('SOUCE', '3.468'), ('HOUSE', '3.419'), ('MOUSE', '3.419'), ('VOGUE', '3.383'), ('SCOPE', '3.375'), ('SOUGH', '3.371'), ('COPSE', '3.340'), ('SHOVE', '3.339'), ('MOGUE', '3.336')]
+Top entropy choice: 𝙎𝙃𝙈𝙊𝙀 with entropy: 3.5156
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙈𝙊𝙀 with entropy: 3.5156
+
+Guess: 𝙎𝙃𝙈𝙊𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.5155571347245758}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRSE', 'BURSE', 'CURSE', 'NURSE', 'PERSE', 'PURSE', 'VERSE']
+7 candidate words remaining.
+Top 10 guesses: [('PUBCO', '2.807'), ('PUBIC', '2.807'), ('BAPPU', '2.522'), ('BAPUS', '2.522'), ('BECAP', '2.522'), ('BUMPH', '2.522'), ('BUMPS', '2.522'), ('BUMPY', '2.522'), ('BUPPY', '2.522'), ('BURPS', '2.522')]
+Top entropy choice: 𝙋𝙐𝘽𝘾𝙊 with entropy: 2.8074
+Using common exploratory word: 𝙋𝙐𝘽𝙄𝘾 with entropy: 2.8074
+
+Guess: 𝙋𝙐𝘽𝙄𝘾, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.5155571347245758}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PURSE']
+1 candidate words remaining.
+Top 10 guesses: [('PURSE', '0.000')]
+Top entropy choice: 𝙋𝙐𝙍𝙎𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙐𝙍𝙎𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙎𝙃𝙈𝙊𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 5.129, Expected Info Gain: 3.516 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.807, 
+Guess: 𝙋𝙐𝘽𝙄𝘾, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 3.516 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙐𝙍𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

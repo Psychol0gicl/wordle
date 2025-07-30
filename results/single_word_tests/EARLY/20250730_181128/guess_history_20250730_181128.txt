@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟨
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟨, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝘼𝙍𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 4.755, Expected Info Gain: 2.918 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝘼𝙍𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

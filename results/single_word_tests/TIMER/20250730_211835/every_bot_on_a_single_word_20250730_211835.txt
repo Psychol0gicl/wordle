@@ -1,0 +1,261 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙄𝙈𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TOWER 
+The top ten guesses and scores: [('TOWER', 95), ('TOYER', 95), ('TWIER', 95), ('TWOER', 95), ('TONER', 93), ('TRIED', 93), ('TUYER', 93), ('TWYER', 93), ('TILER', 92), ('TIGER', 91)]
+The bot finally chose: TOWER 
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: TILER 
+The top ten guesses and scores: [('TILER', 44), ('TUYER', 44), ('TIGER', 43), ('TIMER', 43), ('TITER', 42), ('TRIER', 42), ('TUBER', 42), ('TUNER', 42), ('TYLER', 42), ('TRUER', 41)]
+The bot finally chose: TIGER 
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: TILER 
+The top ten guesses and scores: [('TILER', 14), ('TIMER', 14), ('TITER', 13)]
+The bot finally chose: TIMER 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙏𝙄𝙈𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙄𝙈𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWIER with entropy: 2.4213
+Bot chose: TWIER with entropy: 2.4213
+Top ten guesses: [('TWIER', 2.4213152774012365), ('TOYER', 2.340503832755768), ('TUYER', 2.259236536168279), ('TWYER', 2.2226831892554917), ('TOWER', 2.1471251585103026), ('TWOER', 2.1471251585103026), ('TRIED', 2.129432036254818), ('TRIER', 2.129432036254818), ('TONER', 2.0650464172773453), ('TILER', 2.051346433249389)]
+
+Guess: 𝙏𝙒𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 2.6439 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 2.0, 'actual_info_gain': 2.6438561897747244, 'expected_info_gain': 2.4213152774012365}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIGER with entropy: 0.8113
+Bot chose: TIGER with entropy: 0.8113
+Top ten guesses: [('TIGER', 0.8112781244591328), ('TILER', 0.8112781244591328), ('TIMER', 0.8112781244591328), ('TITER', 0.8112781244591328)]
+
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TILER with entropy: 0.9183
+Bot chose: TIMER with entropy: 0.9183
+Top ten guesses: [('TILER', 0.9182958340544896), ('TIMER', 0.9182958340544896), ('TITER', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙏𝙒𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.421 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙄𝙈𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙄𝙈𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWIER with entropy: 2.4213
+Bot chose: TWIER with entropy: 2.4213
+Top ten guesses: [('TWIER', 2.4213152774012365), ('TOYER', 2.340503832755768), ('TUYER', 2.259236536168279), ('TWYER', 2.2226831892554917), ('TOWER', 2.1471251585103026), ('TWOER', 2.1471251585103026), ('TRIED', 2.129432036254818), ('TRIER', 2.129432036254818), ('TONER', 2.0650464172773453), ('TILER', 2.051346433249389)]
+
+Guess: 𝙏𝙒𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 2.6439 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 2.0, 'actual_info_gain': 2.6438561897747244, 'expected_info_gain': 2.4213152774012365}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIGER with entropy: 0.8113
+Bot chose: TIGER with entropy: 0.8113
+Top ten guesses: [('TIGER', 0.8112781244591328), ('TILER', 0.8112781244591328), ('TIMER', 0.8112781244591328), ('TITER', 0.8112781244591328)]
+
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TILER with entropy: 0.9183
+Bot chose: TIMER with entropy: 0.9183
+Top ten guesses: [('TILER', 0.9182958340544896), ('TIMER', 0.9182958340544896), ('TITER', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙏𝙒𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.421 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙄𝙈𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙄𝙈𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 25 potential guesses from 25 remaining candidates...
+Top 5 guesses: [('TWIER', '2.421'), ('TOYER', '2.341'), ('TUYER', '2.259'), ('TWYER', '2.223'), ('TOWER', '2.147')]
+Top entropy choice: 𝙏𝙒𝙄𝙀𝙍 with entropy: 2.4213
+Ended up choosing COMMON word: 𝙏𝙊𝙒𝙀𝙍 with entropy: 2.1471
+
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 1.1844 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.184424571137427, 'expected_info_gain': 2.1471251585103026}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('TUYER', '2.222'), ('TILER', '1.972'), ('TRYER', '1.868'), ('TRIER', '1.823'), ('TRUER', '1.790')]
+Top entropy choice: 𝙏𝙐𝙔𝙀𝙍 with entropy: 2.2222
+Ended up choosing COMMON word: 𝙏𝙍𝙄𝙀𝙍 with entropy: 1.8231
+
+Guess: 𝙏𝙍𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 1.823067982273661}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('TIGER', '0.811'), ('TILER', '0.811'), ('TIMER', '0.811'), ('TITER', '0.811')]
+Top entropy choice: 𝙏𝙄𝙂𝙀𝙍 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙏𝙄𝙂𝙀𝙍 with entropy: 0.8113
+
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TILER', '0.918'), ('TIMER', '0.918'), ('TITER', '0.918')]
+Top entropy choice: 𝙏𝙄𝙇𝙀𝙍 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙏𝙄𝙈𝙀𝙍 with entropy: 0.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙏𝙊𝙒𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 2.147 bits, Actual Info Gain: 1.184 bits, Posterior Entropy: 3.459, 
+Guess: 𝙏𝙍𝙄𝙀𝙍, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.823 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙄𝙂𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙄𝙈𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙄𝙈𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜
+Actual Info Gain: 9.2148 bits
+Posterior entropy: 4.643856189774724
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.643856189774724, 'actual_info_gain': 9.214804794948051, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TIGER', 'TILER', 'TIMER', 'TITER', 'TOKER', 'TONER', 'TOPER', 'TOTER', 'TOWER', 'TOYER', 'TREED', 'TREEN', 'TRIED', 'TRIER', 'TRUED', 'TRUER', 'TRYER', 'TUBER', 'TUNER', 'TUYER', 'TWEER', 'TWIER', 'TWOER', 'TWYER', 'TYLER']
+25 candidate words remaining.
+Top 10 guesses: [('IRONY', '3.319'), ('NOILY', '3.209'), ('WINDY', '3.189'), ('WOUND', '3.188'), ('DOILY', '3.175'), ('DOWNY', '3.127'), ('OUNDY', '3.123'), ('OWING', '3.108'), ('YOUNG', '3.094'), ('PIONY', '3.079')]
+Top entropy choice: 𝙄𝙍𝙊𝙉𝙔 with entropy: 3.3191
+Guess count low, choosing the word with highest entropy: 𝙄𝙍𝙊𝙉𝙔 with entropy: 3.3191
+
+Guess: 𝙄𝙍𝙊𝙉𝙔, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.643856189774724, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.319079570624174}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TIGER', 'TILER', 'TIMER', 'TITER', 'TWIER']
+5 candidate words remaining.
+Top 10 guesses: [('GIMEL', '2.322'), ('GLIME', '2.322'), ('GLIMS', '2.322'), ('LITEM', '2.322'), ('AGILA', '1.922'), ('AGILE', '1.922'), ('AGISM', '1.922'), ('AGLOW', '1.922'), ('AIMAG', '1.922'), ('ALGUM', '1.922')]
+Top entropy choice: 𝙂𝙄𝙈𝙀𝙇 with entropy: 2.3219
+Using common exploratory word: 𝘼𝙂𝙄𝙇𝙀 with entropy: 1.9219
+
+Guess: 𝘼𝙂𝙄𝙇𝙀, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 3.319079570624174}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TIMER', 'TITER']
+2 candidate words remaining.
+Top 10 guesses: [('TIMER', '1.000'), ('TITER', '1.000')]
+Top entropy choice: 𝙏𝙄𝙈𝙀𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙄𝙈𝙀𝙍 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙄𝙍𝙊𝙉𝙔, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 4.644, Expected Info Gain: 3.319 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙂𝙄𝙇𝙀, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 2.322, Expected Info Gain: 3.319 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙄𝙈𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

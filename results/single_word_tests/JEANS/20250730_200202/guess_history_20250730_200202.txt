@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙀𝙇𝘼𝙉𝙎, Feedback: 🟨⬜🟩🟩🟩
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙈𝙀𝘼𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.443, Expected Info Gain: 3.612 bits, Actual Info Gain: 2.121 bits, Posterior Entropy: 4.322, 
+Guess: 𝘿𝙀𝘼𝙉𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 2.226 bits, Actual Info Gain: 1.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝙀𝘼𝙉𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.416 bits, Posterior Entropy: 6.443, 
+Guess: 𝙇𝙀𝙈𝘼𝙉, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 6.443, Expected Info Gain: 4.177 bits, Actual Info Gain: 3.121 bits, Posterior Entropy: 3.322, 
+Guess: 𝘿𝙊𝙒𝙉𝙔, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 4.177 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝘼𝙎𝙋𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝙀𝘼𝙉𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

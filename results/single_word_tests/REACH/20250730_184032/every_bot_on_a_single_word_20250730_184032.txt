@@ -1,0 +1,250 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙀𝘼𝘾𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BEARD 
+The top ten guesses and scores: [('BEARD', 610), ('BREAD', 610), ('DEBAR', 610), ('CEDAR', 606), ('ECARD', 606), ('DEARN', 603), ('DENAR', 603), ('DREAM', 603), ('GRADE', 603), ('REDAN', 603)]
+The bot finally chose: BEARD 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: REALM 
+The top ten guesses and scores: [('REALM', 25), ('REAMY', 24), ('REALO', 23), ('REAME', 23), ('REACH', 22), ('REAVE', 21)]
+The bot finally chose: REALM 
+Guess: 𝙍𝙀𝘼𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: REACH 
+The top ten guesses and scores: [('REACH', 9), ('REAVE', 8)]
+The bot finally chose: REACH 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝙍𝙀𝘼𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙍𝙀𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙀𝘼𝘾𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.8159 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.815916935561028, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REAME with entropy: 2.2516
+Bot chose: REAME with entropy: 2.2516
+Top ten guesses: [('REAME', 2.2516291673878226), ('REALM', 1.9182958340544896), ('REAMY', 1.7924812503605778), ('REALO', 1.2516291673878228), ('REAVE', 1.2516291673878228), ('REACH', 0.6500224216483541)]
+
+Guess: 𝙍𝙀𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REACH with entropy: 1.0000
+Bot chose: REACH with entropy: 1.0000
+Top ten guesses: [('REACH', 1.0), ('REALO', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 4.816 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙀𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙀𝘼𝘾𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.8159 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.815916935561028, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REAME with entropy: 2.2516
+Bot chose: REAME with entropy: 2.2516
+Top ten guesses: [('REAME', 2.2516291673878226), ('REALM', 1.9182958340544896), ('REAMY', 1.7924812503605778), ('REALO', 1.2516291673878228), ('REAVE', 1.2516291673878228), ('REACH', 0.6500224216483541)]
+
+Guess: 𝙍𝙀𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.2516291673878226}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REACH with entropy: 1.0000
+Bot chose: REACH with entropy: 1.0000
+Top ten guesses: [('REACH', 1.0), ('REALO', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 4.816 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙀𝘼𝙈𝙀, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.252 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙀𝘼𝘾𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 266 potential guesses from 169 remaining candidates...
+Top 5 guesses: [('BEARD', '4.178'), ('DEARE', '4.132'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BEARE', '4.027')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Ended up choosing COMMON word: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.8159 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.815916935561028, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('REAME', '2.252'), ('REALM', '1.918'), ('REAMY', '1.792'), ('REALO', '1.252'), ('REAVE', '1.252')]
+Top entropy choice: 𝙍𝙀𝘼𝙈𝙀 with entropy: 2.2516
+Ended up choosing COMMON word: 𝙍𝙀𝘼𝙇𝙈 with entropy: 1.9183
+
+Guess: 𝙍𝙀𝘼𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('REACH', '1.000'), ('REAVE', '1.000')]
+Top entropy choice: 𝙍𝙀𝘼𝘾𝙃 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙍𝙀𝘼𝘾𝙃 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 4.816 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙀𝘼𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙀𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙀𝘼𝘾𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAR', 'ABORE', 'ACERB', 'ADORE', 'AFEAR', 'AFIRE', 'AFORE', 'AIERY', 'ALURE', 'AMORE', 'ANEAR', 'APERY', 'ARAME', 'AREAD', 'AREAE', 'AREAL', 'AREAR', 'ARECA', 'AREDD', 'AREDE', 'AREFY', 'AREIC', 'ARENA', 'ARENE', 'AREPA', 'ARERE', 'ARGLE', 'ARGUE', 'ARUHE', 'AWARE', 'AYGRE', 'AZURE', 'BEARD', 'BEARE', 'BEGAR', 'BEIRA', 'BELAR', 'BLARE', 'BLEAR', 'BRACE', 'BRAKE', 'BRAME', 'BRANE', 'BRAVE', 'BRAZE', 'BREAD', 'BREAK', 'BREAM', 'CEDAR', 'CHARE', 'CLEAR', 'CRAKE', 'CRAME', 'CRANE', 'CRAPE', 'CRARE', 'CRAVE', 'CRAZE', 'CREAK', 'CREAM', 'CREMA', 'CRENA', 'DEAIR', 'DEARE', 'DEARN', 'DEARY', 'DEBAR', 'DENAR', 'DEWAR', 'DRAKE', 'DRAPE', 'DRAVE', 'DREAD', 'DREAM', 'DREAR', 'ECARD', 'EGGAR', 'EMBAR', 'ENARM', 'ERBIA', 'ERICA', 'FEARD', 'FEARE', 'FEUAR', 'FLARE', 'FRAME', 'FRAPE', 'FREAK', 'FRENA', 'GEARE', 'GLARE', 'GRACE', 'GRADE', 'GRAME', 'GRAPE', 'GRAVE', 'GRAZE', 'HEARD', 'HEARE', 'HEJRA', 'HEPAR', 'IRADE', 'JEERA', 'KEBAR', 'LEARE', 'LEARN', 'LEARY', 'LEEAR', 'LEPRA', 'MEARE', 'OPERA', 'OREAD', 'OWARE', 'PEARE', 'PEARL', 'PHARE', 'PREAK', 'QUARE', 'REACH', 'READD', 'READY', 'REALM', 'REALO', 'REAME', 'REAMY', 'REARD', 'REARM', 'REAVE', 'REBAB', 'REBAR', 'RECAL', 'RECAP', 'REDAN', 'REDIA', 'REEAF', 'REFAN', 'REGAL', 'REGAR', 'REGIA', 'REGMA', 'REGNA', 'REHAB', 'RELAX', 'RELAY', 'REMAN', 'REMAP', 'RENAL', 'RENAY', 'RENGA', 'REPAY', 'REPLA', 'REWAN', 'REWAX', 'RIMAE', 'ROAKE', 'RUEDA', 'RUGAE', 'URARE', 'UREAL', 'URENA', 'VELAR', 'WEARY', 'WHARE', 'WHEAR', 'WREAK', 'YEARD', 'YEARN', 'ZEBRA', 'ZEERA']
+169 candidate words remaining.
+Top 10 guesses: [('BEARD', '4.178'), ('DRERE', '4.157'), ('DEARE', '4.132'), ('REERD', '4.123'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BRERE', '4.036'), ('DRAMA', '4.027'), ('BEARE', '4.027'), ('BREDE', '4.025')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Guess count low, choosing the word with highest entropy: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 4.8159 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.815916935561028, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['REACH', 'REALM', 'REALO', 'REAME', 'REAMY', 'REAVE']
+6 candidate words remaining.
+Top 10 guesses: [('ALEEM', '2.585'), ('AMBLE', '2.585'), ('AMOLE', '2.585'), ('AMPLE', '2.585'), ('BIOME', '2.585'), ('BLAME', '2.585'), ('BLUME', '2.585'), ('BROME', '2.585'), ('CALMY', '2.585'), ('CHIME', '2.585')]
+Top entropy choice: 𝘼𝙇𝙀𝙀𝙈 with entropy: 2.5850
+Using common exploratory word: 𝘼𝙈𝙋𝙇𝙀 with entropy: 2.5850
+
+Guess: 𝘼𝙈𝙋𝙇𝙀, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['REACH']
+1 candidate words remaining.
+Top 10 guesses: [('REACH', '0.000')]
+Top entropy choice: 𝙍𝙀𝘼𝘾𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙀𝘼𝘾𝙃 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 4.816 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙈𝙋𝙇𝙀, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙀𝘼𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

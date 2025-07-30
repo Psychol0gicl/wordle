@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙒 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: THREW 
+The top ten guesses and scores: [('THREW', 20), ('TIRED', 20), ('TYRED', 20), ('THREE', 19), ('TEREK', 18)]
+The bot finally chose: THREW 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙏𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THREE with entropy: 1.9219
+Bot chose: THREE with entropy: 1.9219
+Top ten guesses: [('THREE', 1.9219280948873623), ('TEREK', 1.3709505944546687), ('THREW', 1.3709505944546687), ('TIRED', 1.3709505944546687), ('TYRED', 1.3709505944546687)]
+
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THREW with entropy: 0.0000
+Bot chose: THREW with entropy: 0.0000
+Top ten guesses: [('THREW', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THREE with entropy: 1.9219
+Bot chose: THREE with entropy: 1.9219
+Top ten guesses: [('THREE', 1.9219280948873623), ('TEREK', 1.3709505944546687), ('THREW', 1.3709505944546687), ('TIRED', 1.3709505944546687), ('TYRED', 1.3709505944546687)]
+
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THREW with entropy: 0.0000
+Bot chose: THREW with entropy: 0.0000
+Top ten guesses: [('THREW', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙒 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('THREE', '1.922'), ('TEREK', '1.371'), ('THREW', '1.371'), ('TIRED', '1.371'), ('TYRED', '1.371')]
+Top entropy choice: 𝙏𝙃𝙍𝙀𝙀 with entropy: 1.9219
+Ended up choosing COMMON word: 𝙏𝙃𝙍𝙀𝙀 with entropy: 1.9219
+
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THREW', '0.000')]
+Top entropy choice: 𝙏𝙃𝙍𝙀𝙒 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙍𝙀𝙒 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙃𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙍𝙀𝙒 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEREK', 'THREE', 'THREW', 'TIRED', 'TYRED']
+5 candidate words remaining.
+Top 10 guesses: [('AIYEE', '2.322'), ('BEDYE', '2.322'), ('BEEDI', '2.322'), ('BEWDY', '2.322'), ('CHIDE', '2.322'), ('DEAWY', '2.322'), ('DEBYE', '2.322'), ('DEEDY', '2.322'), ('DEELY', '2.322'), ('DEICE', '2.322')]
+Top entropy choice: 𝘼𝙄𝙔𝙀𝙀 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝘼𝙄𝙔𝙀𝙀 with entropy: 2.3219
+
+Guess: 𝘼𝙄𝙔𝙀𝙀, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THREW']
+1 candidate words remaining.
+Top 10 guesses: [('THREW', '0.000')]
+Top entropy choice: 𝙏𝙃𝙍𝙀𝙒 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙍𝙀𝙒 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙄𝙔𝙀𝙀, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

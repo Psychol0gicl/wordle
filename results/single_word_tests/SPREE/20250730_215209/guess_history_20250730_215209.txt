@@ -1,0 +1,53 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Guess: 𝙎𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙍𝙀𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙀𝙋𝙊𝘿𝙀, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 4.322, Expected Info Gain: 3.166 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜
+Guess: 𝙇𝙐𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 5.807, Expected Info Gain: 3.109 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙐𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 1.896 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘿𝙊𝙍𝙀𝙀, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 5.807, Expected Info Gain: 3.109 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙐𝙍𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 1.896 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.823 bits, Actual Info Gain: 2.485 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 1.722 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙄𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙄𝙍𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.051 bits, Posterior Entropy: 5.807, 
+Guess: 𝙈𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.807, Expected Info Gain: 3.981 bits, Actual Info Gain: 2.637 bits, Posterior Entropy: 3.170, 
+Guess: 𝙑𝙄𝘾𝙃𝙔, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 3.981 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙄𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

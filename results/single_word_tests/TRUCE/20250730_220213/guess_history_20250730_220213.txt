@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝙐𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟨⬜
+Guess: 𝙏𝙃𝙀𝙄𝙍, Feedback: 🟩⬜🟨⬜🟨
+Guess: 𝙏𝙍𝙊𝙋𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙏𝙍𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙏𝙍𝙄𝙋𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.173 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙍𝙊𝙆𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙏𝙍𝙄𝙋𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.173 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙍𝙊𝙆𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙏𝙍𝙄𝙋𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 3.173 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙍𝙊𝙑𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.459 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙍𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝙐𝘾𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.051 bits, Posterior Entropy: 4.807, 
+Guess: 𝙋𝙍𝙄𝙉𝙆, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.807, Expected Info Gain: 3.753 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙊𝘿𝙀, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 3.753 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝙐𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙊𝙐𝙏𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 3.378 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙏𝙃𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.399 bits, Posterior Entropy: 5.459, 
+Guess: 𝙉𝙊𝙏𝙐𝙈, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.459, Expected Info Gain: 3.624 bits, Actual Info Gain: 2.290 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝙀𝙂𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙏𝙃𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

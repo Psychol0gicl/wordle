@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝘾𝙃𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙁𝘼𝘾𝙄𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝘼𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝘾𝙃𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 3.781 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝘼𝘿𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘾𝙃𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 3.781 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝘼𝘿𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘾𝙃𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 6.781, Expected Info Gain: 4.083 bits, Actual Info Gain: 6.781 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘾𝙃𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.781, Expected Info Gain: 4.230 bits, Actual Info Gain: 5.196 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

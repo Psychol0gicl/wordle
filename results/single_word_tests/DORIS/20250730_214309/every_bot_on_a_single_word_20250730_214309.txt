@@ -1,0 +1,163 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙊𝙍𝙄𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: KORUS 
+The top ten guesses and scores: [('KORUS', 448), ('DUROS', 447), ('KORIS', 446), ('DORIS', 445), ('KURIS', 443), ('BIROS', 442), ('PORUS', 441), ('PUROS', 441), ('LORIS', 440), ('INROS', 439)]
+The bot finally chose: DORIS 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙊𝙍𝙄𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙍𝙄𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙍𝙄𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 241 potential guesses from 141 remaining candidates...
+Top 5 guesses: [('DOING', '4.070'), ('FOUND', '3.806'), ('COULD', '3.683'), ('YOUNG', '3.584'), ('POINT', '3.442')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 7.1396 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 0.0, 'actual_info_gain': 7.139551352398794, 'expected_info_gain': 4.070357047139598}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('DORIS', '0.000')]
+Top entropy choice: 𝘿𝙊𝙍𝙄𝙎 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘿𝙊𝙍𝙄𝙎 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 7.140, Expected Info Gain: 4.070 bits, Actual Info Gain: 7.140 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙍𝙄𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRDS', 'BIRIS', 'BIRKS', 'BIRLS', 'BIROS', 'BIRRS', 'BORDS', 'BORKS', 'BORMS', 'BURBS', 'BURDS', 'BURGS', 'BURKS', 'BURLS', 'BURNS', 'BURPS', 'BURRS', 'BYRLS', 'CIRCS', 'CIRLS', 'CORDS', 'CORKS', 'CORMS', 'CORNS', 'CORPS', 'CURBS', 'CURDS', 'CURFS', 'CURLS', 'CURNS', 'CURRS', 'DIRKS', 'DIRLS', 'DORBS', 'DORIS', 'DORKS', 'DORMS', 'DORPS', 'DORRS', 'DURNS', 'DUROS', 'DURRS', 'FIRKS', 'FIRMS', 'FIRNS', 'FORBS', 'FORDS', 'FORKS', 'FORMS', 'FURLS', 'FUROS', 'FURRS', 'FYRDS', 'GIRDS', 'GIRLS', 'GIRNS', 'GIROS', 'GIRRS', 'GORBS', 'GORIS', 'GORMS', 'GORPS', 'GRRLS', 'GURKS', 'GURLS', 'GURNS', 'GURUS', 'GYROS', 'GYRUS', 'HORIS', 'HORKS', 'HORNS', 'HURDS', 'HURLS', 'INROS', 'JIRDS', 'JURIS', 'KIRKS', 'KIRNS', 'KORIS', 'KOROS', 'KORUS', 'KURIS', 'KURUS', 'LIRKS', 'LORDS', 'LORIS', 'LURKS', 'MIRKS', 'MIRLS', 'MIROS', 'MIRRS', 'MIRVS', 'MORNS', 'MURKS', 'MURLS', 'MURRS', 'NIRLS', 'NORIS', 'NORKS', 'NORMS', 'NURDS', 'NURLS', 'NURRS', 'ORRIS', 'PIRKS', 'PIRLS', 'PIRNS', 'PIRRS', 'PORKS', 'PORNS', 'PORUS', 'PURIS', 'PURLS', 'PUROS', 'PURPS', 'PURRS', 'PYROS', 'PYRUS', 'RURPS', 'RURUS', 'SHRIS', 'SIRIS', 'SORBS', 'SORDS', 'SORNS', 'SORUS', 'SURDS', 'SURFS', 'VIRLS', 'VIRUS', 'WORDS', 'WORKS', 'WORMS', 'YIRDS', 'YIRKS', 'YIRRS', 'YORKS', 'YORPS', 'ZORIS', 'ZURFS']
+141 candidate words remaining.
+Top 10 guesses: [('BIPOD', '4.134'), ('BIDON', '4.125'), ('BOINK', '4.091'), ('DOING', '4.070'), ('PIKUL', '4.055'), ('KONBU', '4.049'), ('POIND', '4.048'), ('BOUND', '4.028'), ('DIMBO', '4.027'), ('KOMBI', '4.014')]
+Top entropy choice: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.1396 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 0.0, 'actual_info_gain': 7.139551352398794, 'expected_info_gain': 4.134475955293675}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DORIS']
+1 candidate words remaining.
+Top 10 guesses: [('DORIS', '0.000')]
+Top entropy choice: 𝘿𝙊𝙍𝙄𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙊𝙍𝙄𝙎 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 7.140, Expected Info Gain: 4.134 bits, Actual Info Gain: 7.140 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

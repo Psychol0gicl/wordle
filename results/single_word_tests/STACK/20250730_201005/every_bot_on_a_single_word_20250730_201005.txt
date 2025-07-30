@@ -1,0 +1,261 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝘼𝘾𝙆 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: LOAST 
+The top ten guesses and scores: [('LOAST', 264), ('LOTSA', 264), ('ALIST', 262), ('OSTIA', 262), ('STOAI', 262), ('HOAST', 260), ('HOSTA', 260), ('SHALT', 260), ('SHOAT', 260), ('OPSAT', 259)]
+The bot finally chose: SHALT 
+Guess: 𝙎𝙃𝘼𝙇𝙏, Feedback: 🟩⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: STAIN 
+The top ten guesses and scores: [('STAIN', 45), ('STANG', 45), ('STAND', 44), ('STANK', 44), ('STAUN', 44), ('STAIG', 43), ('STAID', 42), ('STAGY', 41), ('STACK', 40), ('STAFF', 39)]
+The bot finally chose: STAIN 
+Guess: 𝙎𝙏𝘼𝙄𝙉, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: STACK 
+The top ten guesses and scores: [('STACK', 18), ('STAFF', 18), ('STAGY', 18), ('STAMP', 18), ('STATU', 17)]
+The bot finally chose: STACK 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙎𝙃𝘼𝙇𝙏, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙎𝙏𝘼𝙄𝙉, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙎𝙏𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝘾𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLANT with entropy: 3.9328
+Bot chose: SLANT with entropy: 3.9328
+Top ten guesses: [('SLANT', 3.9327859571164923), ('SPALT', 3.90988246851049), ('SHALT', 3.902436651639204), ('SPAIT', 3.888658948819556), ('SCATT', 3.872051719256591), ('CLAST', 3.8270656984870923), ('PLAST', 3.82026173275712), ('SCANT', 3.766896142687428), ('LOAST', 3.7120209338657775), ('STAIN', 3.7083413035090063)]
+
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 2.7500 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.750021746991653, 'expected_info_gain': 3.9327859571164923}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCATH with entropy: 2.2222
+Bot chose: SCATH with entropy: 2.2222
+Top ten guesses: [('SCATH', 2.2221915755066783), ('STAIG', 1.8676338909712125), ('STAPH', 1.8676338909712125), ('SWATH', 1.8676338909712125), ('STAGY', 1.4911148500551858), ('STAID', 1.4911148500551858), ('STAMP', 1.4911148500551858), ('STASH', 1.4911148500551858), ('STACK', 1.2776134368191154), ('STAFF', 1.0957952550009336)]
+
+Guess: 𝙎𝘾𝘼𝙏𝙃, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.2221915755066783}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STACK with entropy: 0.0000
+Bot chose: STACK with entropy: 0.0000
+Top ten guesses: [('STACK', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 2.750 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝘾𝘼𝙏𝙃, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝘾𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLANT with entropy: 3.9328
+Bot chose: SLANT with entropy: 3.9328
+Top ten guesses: [('SLANT', 3.9327859571164923), ('SPALT', 3.90988246851049), ('SHALT', 3.902436651639204), ('SPAIT', 3.888658948819556), ('SCATT', 3.872051719256591), ('CLAST', 3.8270656984870923), ('PLAST', 3.82026173275712), ('SCANT', 3.766896142687428), ('LOAST', 3.7120209338657775), ('STAIN', 3.7083413035090063)]
+
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 2.7500 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.750021746991653, 'expected_info_gain': 3.9327859571164923}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCATH with entropy: 2.2222
+Bot chose: SCATH with entropy: 2.2222
+Top ten guesses: [('SCATH', 2.2221915755066783), ('STAIG', 1.8676338909712125), ('STAPH', 1.8676338909712125), ('SWATH', 1.8676338909712125), ('STAGY', 1.4911148500551858), ('STAID', 1.4911148500551858), ('STAMP', 1.4911148500551858), ('STASH', 1.4911148500551858), ('STACK', 1.2776134368191154), ('STAFF', 1.0957952550009336)]
+
+Guess: 𝙎𝘾𝘼𝙏𝙃, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.2221915755066783}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STACK with entropy: 0.0000
+Bot chose: STACK with entropy: 0.0000
+Top ten guesses: [('STACK', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 2.750 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝘾𝘼𝙏𝙃, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝘾𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 174 potential guesses from 74 remaining candidates...
+Top 5 guesses: [('SLANT', '3.933'), ('SPALT', '3.910'), ('SHALT', '3.902'), ('SPAIT', '3.889'), ('SCATT', '3.872')]
+Top entropy choice: 𝙎𝙇𝘼𝙉𝙏 with entropy: 3.9328
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝙉𝙏 with entropy: 3.9328
+
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 2.7500 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.750021746991653, 'expected_info_gain': 3.9327859571164923}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('SCATH', '2.222'), ('STAIG', '1.868'), ('STAPH', '1.868'), ('SWATH', '1.868'), ('STAGY', '1.491')]
+Top entropy choice: 𝙎𝘾𝘼𝙏𝙃 with entropy: 2.2222
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙋𝙃 with entropy: 1.8676
+
+Guess: 𝙎𝙏𝘼𝙋𝙃, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.8676338909712125}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('STAIG', '1.792'), ('STAGY', '1.252'), ('STAID', '1.252'), ('STACK', '0.650'), ('STAFF', '0.650')]
+Top entropy choice: 𝙎𝙏𝘼𝙄𝙂 with entropy: 1.7925
+
+Guess: 𝙎𝙏𝘼𝙄𝙂, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('STACK', '0.918'), ('STAFF', '0.918'), ('STATU', '0.918')]
+Top entropy choice: 𝙎𝙏𝘼𝘾𝙆 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝘾𝙆 with entropy: 0.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 2.750 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙏𝘼𝙋𝙃, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 1.868 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙏𝘼𝙄𝙂, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝘼𝘾𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 7.6492 bits
+Posterior entropy: 6.20945336562895
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.20945336562895, 'actual_info_gain': 7.6492076190938265, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABSIT', 'ADUST', 'AGAST', 'AGIST', 'ALIST', 'ANGST', 'ANTSY', 'ASCOT', 'ASITY', 'ASSOT', 'ASTUN', 'AVAST', 'BLAST', 'BOAST', 'CLAST', 'COAST', 'COSTA', 'GHAST', 'HOAST', 'HOSTA', 'LOAST', 'LOTSA', 'MUSTA', 'OPSAT', 'OSTIA', 'PLAST', 'SCANT', 'SCATH', 'SCATT', 'SCUTA', 'SHAFT', 'SHAKT', 'SHALT', 'SHOAT', 'SISTA', 'SITKA', 'SKATT', 'SLANT', 'SLATY', 'SMALT', 'SNATH', 'SOFTA', 'SPAIT', 'SPALT', 'SPLAT', 'SPUTA', 'SQUAT', 'STACK', 'STAFF', 'STAGY', 'STAID', 'STAIG', 'STAIN', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANG', 'STANK', 'STAPH', 'STASH', 'STATU', 'STAUN', 'STIPA', 'STOAI', 'STOAT', 'STOMA', 'STUPA', 'SUTTA', 'SWAPT', 'SWATH', 'USTAD', 'VISTA', 'VLAST']
+74 candidate words remaining.
+Top 10 guesses: [('PLATT', '4.024'), ('STILT', '4.021'), ('SLUIT', '4.016'), ('PLOIT', '3.963'), ('CLAPT', '3.954'), ('SLANT', '3.933'), ('STINT', '3.926'), ('SLIPT', '3.926'), ('PLAIT', '3.925'), ('SPALT', '3.910')]
+Top entropy choice: 𝙋𝙇𝘼𝙏𝙏 with entropy: 4.0237
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝘼𝙏𝙏 with entropy: 4.0237
+
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜⬜🟩🟨⬜
+Actual Info Gain: 2.7500 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 6.20945336562895, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 2.750021746991653, 'expected_info_gain': 4.023719145673256}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STACK', 'STAFF', 'STAGY', 'STAID', 'STAIG', 'STAIN', 'STAND', 'STANG', 'STANK', 'STASH', 'STAUN']
+11 candidate words remaining.
+Top 10 guesses: [('AKING', '3.278'), ('EKING', '3.278'), ('KAING', '3.278'), ('KIANG', '3.278'), ('OKING', '3.278'), ('CHING', '3.278'), ('ACING', '3.096'), ('AHING', '3.096'), ('CLING', '3.096'), ('COIGN', '3.096')]
+Top entropy choice: 𝘼𝙆𝙄𝙉𝙂 with entropy: 3.2776
+Using common exploratory word: 𝘾𝙃𝙄𝙉𝙂 with entropy: 3.2776
+
+Guess: 𝘾𝙃𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 4.023719145673256}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STACK']
+1 candidate words remaining.
+Top 10 guesses: [('STACK', '0.000')]
+Top entropy choice: 𝙎𝙏𝘼𝘾𝙆 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝘼𝘾𝙆 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 6.209, Expected Info Gain: 4.024 bits, Actual Info Gain: 2.750 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙃𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.024 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝘼𝘾𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 5.402 bits, Posterior Entropy: 4.170, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 5.402 bits, Posterior Entropy: 4.170, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 5.764 bits, Posterior Entropy: 3.807, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙂𝙄𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.714 bits, Posterior Entropy: 4.858, 
+Guess: 𝙒𝙀𝙄𝙂𝙃, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 4.858, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.858 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙀𝙂𝙄𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

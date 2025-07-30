@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙀𝘼𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟨🟩🟨🟨
+Guess: 𝙃𝙀𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙀𝘼𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.954, Expected Info Gain: 3.212 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙀𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘼𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.954, Expected Info Gain: 3.212 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙀𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘼𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙀𝘼𝙍𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 3.483 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘼𝙍𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙀𝙏𝙍𝙀, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 4.954, Expected Info Gain: 3.575 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝘼𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

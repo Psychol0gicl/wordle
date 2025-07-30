@@ -1,0 +1,250 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙆𝙄𝙍𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ROIST 
+The top ten guesses and scores: [('ROIST', 136), ('ROSIT', 136), ('ROSTI', 136), ('ROUST', 133), ('STOUR', 133), ('SUTOR', 133), ('PROST', 129), ('SPORT', 129), ('SKORT', 128), ('STORK', 128)]
+The bot finally chose: PROST 
+Guess: 𝙋𝙍𝙊𝙎𝙏, Feedback: ⬜🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SHIRT 
+The top ten guesses and scores: [('SHIRT', 17), ('SKIRT', 17), ('SNIRT', 17), ('STURT', 14)]
+The bot finally chose: SHIRT 
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SKIRT 
+The top ten guesses and scores: [('SKIRT', 9), ('SNIRT', 9)]
+The bot finally chose: SKIRT 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Guess: 𝙋𝙍𝙊𝙎𝙏, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙍𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROUST with entropy: 3.6457
+Bot chose: SPORT with entropy: 3.6235
+Top ten guesses: [('ROUST', 3.6457113704075788), ('SPORT', 3.6235087968145354), ('STOUR', 3.5724694587701356), ('SKORT', 3.5617480476936563), ('PROST', 3.5395454741006134), ('ROIST', 3.4836591643979626), ('SPIRT', 3.4326198263535628), ('SHORT', 3.4218984152770844), ('SNORT', 3.421898415277084), ('STORK', 3.381109534456119)]
+
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.6235087968145354}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHIRT with entropy: 1.5000
+Bot chose: SHIRT with entropy: 1.5000
+Top ten guesses: [('SHIRT', 1.5), ('SKIRT', 1.5), ('SNIRT', 1.5), ('STURT', 0.8112781244591328)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKIRT with entropy: 1.0000
+Bot chose: SKIRT with entropy: 1.0000
+Top ten guesses: [('SKIRT', 1.0), ('SNIRT', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙍𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROUST with entropy: 3.6457
+Bot chose: SPORT with entropy: 3.6235
+Top ten guesses: [('ROUST', 3.6457113704075788), ('SPORT', 3.6235087968145354), ('STOUR', 3.5724694587701356), ('SKORT', 3.5617480476936563), ('PROST', 3.5395454741006134), ('ROIST', 3.4836591643979626), ('SPIRT', 3.4326198263535628), ('SHORT', 3.4218984152770844), ('SNORT', 3.421898415277084), ('STORK', 3.381109534456119)]
+
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.6235087968145354}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHIRT with entropy: 1.5000
+Bot chose: SHIRT with entropy: 1.5000
+Top ten guesses: [('SHIRT', 1.5), ('SKIRT', 1.5), ('SNIRT', 1.5), ('STURT', 0.8112781244591328)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SKIRT with entropy: 1.0000
+Bot chose: SKIRT with entropy: 1.0000
+Top ten guesses: [('SKIRT', 1.0), ('SNIRT', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙍𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('ROUST', '3.646'), ('SPORT', '3.624'), ('STOUR', '3.572'), ('SKORT', '3.562'), ('PROST', '3.540')]
+Top entropy choice: 𝙍𝙊𝙐𝙎𝙏 with entropy: 3.6457
+Ended up choosing COMMON word: 𝙎𝙋𝙊𝙍𝙏 with entropy: 3.6235
+
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 3.6235087968145354}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('SHIRT', '1.500'), ('SKIRT', '1.500'), ('SNIRT', '1.500'), ('STURT', '0.811')]
+Top entropy choice: 𝙎𝙃𝙄𝙍𝙏 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙎𝙃𝙄𝙍𝙏 with entropy: 1.5000
+
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SKIRT', '1.000'), ('SNIRT', '1.000')]
+Top entropy choice: 𝙎𝙆𝙄𝙍𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙆𝙄𝙍𝙏 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙆𝙄𝙍𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRUST', 'CROST', 'CRUST', 'FRIST', 'FROST', 'FRUST', 'GRIST', 'PROST', 'ROIST', 'ROOST', 'ROSIT', 'ROSTI', 'ROUST', 'ROYST', 'RUSTY', 'SHIRT', 'SHORT', 'SKIRT', 'SKORT', 'SNIRT', 'SNORT', 'SPIRT', 'SPORT', 'SPURT', 'STIRK', 'STIRP', 'STOOR', 'STORK', 'STORM', 'STORY', 'STOUR', 'STURT', 'SUTOR', 'WRIST']
+34 candidate words remaining.
+Top 10 guesses: [('SPOUT', '4.013'), ('NOUST', '3.837'), ('YOURT', '3.822'), ('POUSY', '3.822'), ('STOUP', '3.822'), ('COURT', '3.808'), ('SHOUT', '3.800'), ('SNOUT', '3.800'), ('POKIT', '3.794'), ('SCOUT', '3.786')]
+Top entropy choice: 𝙎𝙋𝙊𝙐𝙏 with entropy: 4.0131
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝙊𝙐𝙏 with entropy: 4.0131
+
+Guess: 𝙎𝙋𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.5025 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.502500340529183, 'expected_info_gain': 4.013070929103844}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHIRT', 'SKIRT', 'SNIRT']
+3 candidate words remaining.
+Top 10 guesses: [('SHIRT', '0.918'), ('SKIRT', '0.918'), ('SNIRT', '0.918')]
+Top entropy choice: 𝙎𝙃𝙄𝙍𝙏 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙃𝙄𝙍𝙏 with entropy: 0.9183
+
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 4.013070929103844}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SKIRT', 'SNIRT']
+2 candidate words remaining.
+Top 10 guesses: [('SKIRT', '1.000'), ('SNIRT', '1.000')]
+Top entropy choice: 𝙎𝙆𝙄𝙍𝙏 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙆𝙄𝙍𝙏 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙐𝙏, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 4.013 bits, Actual Info Gain: 3.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙄𝙍𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 4.013 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙆𝙄𝙍𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

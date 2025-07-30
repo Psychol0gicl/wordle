@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙍𝙐𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨
+Guess: 𝙋𝙍𝙊𝙎𝙏, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙍𝙐𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙍𝙄𝙎𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙐𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙍𝙄𝙎𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙐𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙍𝙏, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.624 bits, Actual Info Gain: 2.503 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙍𝙄𝙎𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙍𝙐𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙋𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 4.013 bits, Actual Info Gain: 3.503 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙍𝙐𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

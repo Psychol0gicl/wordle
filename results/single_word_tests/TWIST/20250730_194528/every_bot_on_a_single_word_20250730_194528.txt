@@ -1,0 +1,229 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙒𝙄𝙎𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TOUSY 
+The top ten guesses and scores: [('TOUSY', 46), ('TOSHY', 42), ('TOSYL', 42), ('TOWSY', 42), ('TUSHY', 42), ('TUSKY', 41), ('TOSSY', 40), ('TIPSY', 39), ('TSUBO', 39), ('TULSI', 38)]
+The bot finally chose: TOUSY 
+Guess: 𝙏𝙊𝙐𝙎𝙔, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TWIST 
+The top ten guesses and scores: [('TWIST', 5)]
+The bot finally chose: TWIST 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+Guess: 𝙏𝙊𝙐𝙎𝙔, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙏𝙒𝙄𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙒𝙄𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TUSHY with entropy: 3.2516
+Bot chose: TULSI with entropy: 3.0850
+Top ten guesses: [('TUSHY', 3.2516291673878226), ('TOUSY', 3.084962500721156), ('TOWSY', 3.084962500721156), ('TUISM', 3.084962500721156), ('TULSI', 3.084962500721156), ('TUSKY', 3.084962500721156), ('TOSHY', 3.0220552088742005), ('TOSYL', 2.9182958340544896), ('TOSSY', 2.855388542207534), ('TIPSY', 2.396240625180289)]
+
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 3.084962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIPSY with entropy: 1.0000
+Bot chose: TIPSY with entropy: 1.0000
+Top ten guesses: [('TIPSY', 1.0), ('TWIST', 1.0)]
+
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWIST with entropy: 0.0000
+Bot chose: TWIST with entropy: 0.0000
+Top ten guesses: [('TWIST', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 3.585, Expected Info Gain: 3.085 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙄𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙄𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TUSHY with entropy: 3.2516
+Bot chose: TULSI with entropy: 3.0850
+Top ten guesses: [('TUSHY', 3.2516291673878226), ('TOUSY', 3.084962500721156), ('TOWSY', 3.084962500721156), ('TUISM', 3.084962500721156), ('TULSI', 3.084962500721156), ('TUSKY', 3.084962500721156), ('TOSHY', 3.0220552088742005), ('TOSYL', 2.9182958340544896), ('TOSSY', 2.855388542207534), ('TIPSY', 2.396240625180289)]
+
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 3.084962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TIPSY with entropy: 1.0000
+Bot chose: TIPSY with entropy: 1.0000
+Top ten guesses: [('TIPSY', 1.0), ('TWIST', 1.0)]
+
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWIST with entropy: 0.0000
+Bot chose: TWIST with entropy: 0.0000
+Top ten guesses: [('TWIST', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 3.585, Expected Info Gain: 3.085 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙄𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙄𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('TUSHY', '3.252'), ('TOUSY', '3.085'), ('TOWSY', '3.085'), ('TUISM', '3.085'), ('TULSI', '3.085')]
+Top entropy choice: 𝙏𝙐𝙎𝙃𝙔 with entropy: 3.2516
+Ended up choosing COMMON word: 𝙏𝙐𝙇𝙎𝙄 with entropy: 3.0850
+
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 3.084962500721156}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('TIPSY', '1.000'), ('TWIST', '1.000')]
+Top entropy choice: 𝙏𝙄𝙋𝙎𝙔 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙏𝙄𝙋𝙎𝙔 with entropy: 1.0000
+
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TWIST', '0.000')]
+Top entropy choice: 𝙏𝙒𝙄𝙎𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙒𝙄𝙎𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙐𝙇𝙎𝙄, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 3.585, Expected Info Gain: 3.085 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙄𝙋𝙎𝙔, Feedback: 🟩🟨⬜🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙄𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙄𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 10.2737 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 10.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TIPSY', 'TOSHY', 'TOSSY', 'TOSYL', 'TOUSY', 'TOWSY', 'TSUBO', 'TUISM', 'TULSI', 'TUSHY', 'TUSKY', 'TWIST']
+12 candidate words remaining.
+Top 10 guesses: [('PUSHY', '3.418'), ('CUISH', '3.418'), ('HUMPY', '3.418'), ('LUSHY', '3.418'), ('MUSHY', '3.418'), ('PUSSY', '3.252'), ('WUSSY', '3.252'), ('BUSHY', '3.252'), ('CUSHY', '3.252'), ('GUSHY', '3.252')]
+Top entropy choice: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.4183
+Guess count low, choosing the word with highest entropy: 𝙋𝙐𝙎𝙃𝙔 with entropy: 3.4183
+
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 3.4182958340544896}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TWIST']
+1 candidate words remaining.
+Top 10 guesses: [('TWIST', '0.000')]
+Top entropy choice: 𝙏𝙒𝙄𝙎𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙒𝙄𝙎𝙏 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.274 bits, Posterior Entropy: 3.585, 
+Guess: 𝙋𝙐𝙎𝙃𝙔, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 3.418 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙄𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,225 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝙄𝙉𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NADIR 
+The top ten guesses and scores: [('NADIR', 394), ('RANID', 394), ('RAINY', 390), ('DAIRY', 387), ('YAIRD', 387), ('LAIRD', 386), ('RADIO', 384), ('LAIRY', 382), ('RAMIN', 382), ('RANGI', 382)]
+The bot finally chose: NADIR 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: BAIRN 
+The top ten guesses and scores: [('BAIRN', 17), ('CAIRN', 17), ('RAINY', 17), ('RANGI', 17)]
+The bot finally chose: CAIRN 
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: RAINY 
+The top ten guesses and scores: [('RAINY', 5)]
+The bot finally chose: RAINY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨
+Guess: 𝙍𝘼𝙄𝙉𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝙄𝙉𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨
+Actual Info Gain: 4.9189 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 2.0, 'actual_info_gain': 4.918863237274595, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BAIRN with entropy: 2.0000
+Bot chose: CAIRN with entropy: 2.0000
+Top ten guesses: [('BAIRN', 2.0), ('CAIRN', 2.0), ('RAINY', 1.5), ('RANGI', 1.5)]
+
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAINY with entropy: 0.0000
+Bot chose: RAINY with entropy: 0.0000
+Top ten guesses: [('RAINY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 4.919 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙄𝙉𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙄𝙉𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANID with entropy: 4.0474
+Bot chose: NADIR with entropy: 3.8275
+Top ten guesses: [('RANID', 4.047364066270401), ('NADIR', 3.827466129226991), ('RADIO', 3.8191597118537457), ('RAPIN', 3.788094034416081), ('RAMIN', 3.760401352845664), ('RAKIA', 3.7397236016145934), ('NAIRA', 3.705373934014078), ('RAPID', 3.6995957633245165), ('RANGI', 3.673065715896101), ('RABID', 3.6515820636821643)]
+
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨
+Actual Info Gain: 4.9189 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 2.0, 'actual_info_gain': 4.918863237274595, 'expected_info_gain': 3.827466129226991}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BAIRN with entropy: 2.0000
+Bot chose: CAIRN with entropy: 2.0000
+Top ten guesses: [('BAIRN', 2.0), ('CAIRN', 2.0), ('RAINY', 1.5), ('RANGI', 1.5)]
+
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAINY with entropy: 0.0000
+Bot chose: RAINY with entropy: 0.0000
+Top ten guesses: [('RAINY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙉𝘼𝘿𝙄𝙍, Feedback: 🟨🟩⬜🟨🟨, Prior Entropy: 6.919, Expected Info Gain: 3.827 bits, Actual Info Gain: 4.919 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝘼𝙄𝙍𝙉, Feedback: ⬜🟩🟩🟨🟨, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙄𝙉𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙄𝙉𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 220 potential guesses from 121 remaining candidates...
+Top 5 guesses: [('RANID', '4.047'), ('DOING', '3.828'), ('NADIR', '3.827'), ('RADIO', '3.819'), ('RAPIN', '3.788')]
+Top entropy choice: 𝙍𝘼𝙉𝙄𝘿 with entropy: 4.0474
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 3.8276
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 6.9189 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 0.0, 'actual_info_gain': 6.918863237274595, 'expected_info_gain': 3.8275974367802794}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('RAINY', '0.000')]
+Top entropy choice: 𝙍𝘼𝙄𝙉𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙍𝘼𝙄𝙉𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 6.919, Expected Info Gain: 3.828 bits, Actual Info Gain: 6.919 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙄𝙉𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙄𝙉𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 6.9398 bits
+Posterior entropy: 6.918863237274595
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.918863237274595, 'actual_info_gain': 6.939797747448182, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAIRN', 'BAJRA', 'BAJRI', 'BAKRA', 'BAZAR', 'CAIRD', 'CAIRN', 'CAPRI', 'CAURI', 'DAIRY', 'DAMAR', 'FAIRY', 'FAKIR', 'FAQIR', 'FAURD', 'FAVOR', 'GAZAR', 'HAIRY', 'JAGIR', 'JAGRA', 'KABAR', 'KAFIR', 'KAPUR', 'KAURI', 'KAURU', 'KAURY', 'LAARF', 'LAARI', 'LABOR', 'LABRA', 'LAGAR', 'LAHAR', 'LAIRD', 'LAIRY', 'LAURA', 'LAVRA', 'LAZAR', 'MACRO', 'MADAR', 'MAJOR', 'MAKAR', 'MALAR', 'MANOR', 'MAURI', 'MAYOR', 'MAZAR', 'NADIR', 'NAGAR', 'NAGOR', 'NAIRA', 'NAIRU', 'NAVAR', 'NAZAR', 'NAZIR', 'PADRI', 'PAGRI', 'PALAR', 'PANIR', 'PAPRI', 'PAYOR', 'RABBI', 'RABIC', 'RABID', 'RACON', 'RADAR', 'RADDI', 'RADDY', 'RADGY', 'RADIF', 'RADII', 'RADIO', 'RADIX', 'RADON', 'RAFFY', 'RAFIK', 'RAFIQ', 'RAGGA', 'RAGGY', 'RAHUI', 'RAIAH', 'RAINY', 'RAIRD', 'RAJAH', 'RAKHI', 'RAKIA', 'RAKKI', 'RALLI', 'RALLY', 'RALPH', 'RAMAL', 'RAMIN', 'RAMMY', 'RAMON', 'RANCH', 'RANDO', 'RANDY', 'RANGA', 'RANGI', 'RANGY', 'RANID', 'RANNY', 'RAPID', 'RAPIN', 'RAULI', 'RAUPO', 'RAVIN', 'RAWDY', 'RAWIN', 'RAWLY', 'RAYAH', 'RAYON', 'RAZAI', 'RAZOO', 'RAZOR', 'VAIRY', 'VAJRA', 'VALOR', 'VAPOR', 'WAZIR', 'YAIRD', 'ZABRA']
+121 candidate words remaining.
+Top 10 guesses: [('RINDY', '4.228'), ('RYPIN', '4.212'), ('KYLIN', '4.200'), ('ROBIN', '4.135'), ('MODIN', '4.120'), ('LINDY', '4.119'), ('RUBIN', '4.087'), ('RANID', '4.047'), ('UNLID', '4.029'), ('FLYIN', '4.013')]
+Top entropy choice: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+Guess count low, choosing the word with highest entropy: 𝙍𝙄𝙉𝘿𝙔 with entropy: 4.2285
+
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩🟨🟨⬜🟩
+Actual Info Gain: 6.9189 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.918863237274595, 'posterior_entropy': 0.0, 'actual_info_gain': 6.918863237274595, 'expected_info_gain': 4.2284561813662584}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RAINY']
+1 candidate words remaining.
+Top 10 guesses: [('RAINY', '0.000')]
+Top entropy choice: 𝙍𝘼𝙄𝙉𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝘼𝙄𝙉𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.940 bits, Posterior Entropy: 6.919, 
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩🟨🟨⬜🟩, Prior Entropy: 6.919, Expected Info Gain: 4.228 bits, Actual Info Gain: 6.919 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝙄𝙉𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

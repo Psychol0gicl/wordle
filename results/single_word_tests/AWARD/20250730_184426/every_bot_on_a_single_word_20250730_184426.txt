@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ORGIA 
+The top ten guesses and scores: [('ORGIA', 848), ('AROID', 841), ('MOIRA', 840), ('ALGOR', 836), ('ARGOL', 836), ('ROLAG', 836), ('ARGON', 834), ('BOLAR', 834), ('CLARO', 834), ('GRANO', 834)]
+The bot finally chose: MOIRA 
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: UNARY 
+The top ten guesses and scores: [('UNARY', 91), ('ANGRY', 88), ('GLARY', 88), ('GNARL', 87), ('CLARY', 86), ('LYARD', 86), ('ALURK', 85), ('FLARY', 85), ('AZURY', 84), ('GUARD', 84)]
+The bot finally chose: ANGRY 
+Guess: 𝘼𝙉𝙂𝙍𝙔, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: ALURK 
+The top ten guesses and scores: [('ALURK', 12), ('AHURU', 11), ('AWARD', 9)]
+The bot finally chose: AWARD 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝘼𝙉𝙂𝙍𝙔, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAAI with entropy: 4.6343
+Bot chose: GRAIL with entropy: 4.4854
+Top ten guesses: [('BRAAI', 4.634280696834034), ('GRAAL', 4.570490610047333), ('CRAAL', 4.563848317615071), ('GRANA', 4.516396630356266), ('GRAIL', 4.485384917761767), ('BRAIN', 4.475251103478846), ('BRAIL', 4.4588239976494926), ('GRAIN', 4.45756218850841), ('GROAN', 4.4563453521225265), ('DRAIN', 4.451492260225018)]
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.0774 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.0774440854253484, 'expected_info_gain': 4.485384917761767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOARD with entropy: 3.5095
+Bot chose: HOARD with entropy: 3.5095
+Top ten guesses: [('HOARD', 3.5094780043561267), ('CHARA', 3.370859077232684), ('CHARD', 3.357200446447091), ('HOARY', 3.2730338862000163), ('CHARY', 3.2539717698492403), ('CHARR', 3.215010244796013), ('CHARK', 3.1928076712029703), ('ROACH', 3.161464504327868), ('RUACH', 3.1229337965600092), ('CHARM', 3.108844348489048)]
+
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.5094780043561267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWARD with entropy: 0.0000
+Bot chose: AWARD with entropy: 0.0000
+Top ten guesses: [('AWARD', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 3.077 bits, Posterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.509 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAAI with entropy: 4.6343
+Bot chose: GRAIL with entropy: 4.4854
+Top ten guesses: [('BRAAI', 4.634280696834034), ('GRAAL', 4.570490610047333), ('CRAAL', 4.563848317615071), ('GRANA', 4.516396630356266), ('GRAIL', 4.485384917761767), ('BRAIN', 4.475251103478846), ('BRAIL', 4.4588239976494926), ('GRAIN', 4.45756218850841), ('GROAN', 4.4563453521225265), ('DRAIN', 4.451492260225018)]
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.0774 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.0774440854253484, 'expected_info_gain': 4.485384917761767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HOARD with entropy: 3.5095
+Bot chose: HOARD with entropy: 3.5095
+Top ten guesses: [('HOARD', 3.5094780043561267), ('CHARA', 3.370859077232684), ('CHARD', 3.357200446447091), ('HOARY', 3.2730338862000163), ('CHARY', 3.2539717698492403), ('CHARR', 3.215010244796013), ('CHARK', 3.1928076712029703), ('ROACH', 3.161464504327868), ('RUACH', 3.1229337965600092), ('CHARM', 3.108844348489048)]
+
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.5094780043561267}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AWARD with entropy: 0.0000
+Bot chose: AWARD with entropy: 0.0000
+Top ten guesses: [('AWARD', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 3.077 bits, Posterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.509 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 485 potential guesses from 287 remaining candidates...
+Top 5 guesses: [('BRAAI', '4.634'), ('GRAAL', '4.570'), ('CRAAL', '4.564'), ('GRANA', '4.516'), ('GRAIL', '4.485')]
+Top entropy choice: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙄𝙇 with entropy: 4.4854
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.0774 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 3.0774440854253484, 'expected_info_gain': 4.485384917761767}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('HOARD', '3.509'), ('CHARA', '3.371'), ('CHARD', '3.357'), ('HOARY', '3.273'), ('CHARY', '3.254')]
+Top entropy choice: 𝙃𝙊𝘼𝙍𝘿 with entropy: 3.5095
+Ended up choosing COMMON word: 𝙃𝙊𝘼𝙍𝘿 with entropy: 3.5095
+
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.5094780043561267}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('AWARD', '0.000')]
+Top entropy choice: 𝘼𝙒𝘼𝙍𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘼𝙒𝘼𝙍𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 3.077 bits, Posterior Entropy: 5.087, 
+Guess: 𝙃𝙊𝘼𝙍𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.087, Expected Info Gain: 3.509 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙍𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABHOR', 'ABORD', 'ABORN', 'ABURA', 'ABURN', 'ACARA', 'ACARI', 'ACCRA', 'ACHAR', 'ACORN', 'ADDRA', 'ADORB', 'ADORN', 'AFARA', 'AGGRI', 'AGGRO', 'AGGRY', 'AGORA', 'AHURU', 'AKARA', 'ALARM', 'ALARY', 'ALGOR', 'ALURK', 'ALVAR', 'AMARI', 'AMARO', 'AMBRY', 'AMOUR', 'ANDRO', 'ANGRY', 'ANURA', 'APGAR', 'APPRO', 'ARABA', 'ARBAH', 'ARBOR', 'ARCHI', 'ARDOR', 'ARDRI', 'ARGAL', 'ARGAN', 'ARGIL', 'ARGOL', 'ARGON', 'ARIKI', 'ARMIL', 'ARMOR', 'AROBA', 'AROHA', 'AROID', 'AROMA', 'ARVAL', 'AUGUR', 'AWARD', 'AWARI', 'AWARN', 'AWMRY', 'AWORK', 'AZURN', 'AZURY', 'BOARD', 'BOLAR', 'BOYAR', 'BRAAI', 'BRACH', 'BRACK', 'BRAID', 'BRAIL', 'BRAIN', 'BRAKY', 'BRAND', 'BRANK', 'BRAVA', 'BRAVI', 'BRAVO', 'BRAWL', 'BRAWN', 'BRAXY', 'BRAZA', 'BRIAR', 'BROAD', 'BRUJA', 'CHAIR', 'CHARA', 'CHARD', 'CHARK', 'CHARM', 'CHARR', 'CHARY', 'CIGAR', 'CIMAR', 'CLAIR', 'CLARO', 'CLARY', 'COARB', 'COBRA', 'COPRA', 'CRAAL', 'CRACK', 'CRAIC', 'CRAIG', 'CRAMP', 'CRANK', 'CRAPY', 'CRAWL', 'CRAZY', 'CROAK', 'CRURA', 'CYMAR', 'DIARY', 'DINAR', 'DOBRA', 'DOUAR', 'DOURA', 'DOWAR', 'DRACK', 'DRACO', 'DRAFF', 'DRAIL', 'DRAIN', 'DRAMA', 'DRANK', 'DRAPY', 'DRAWL', 'DRAWN', 'DRYAD', 'DWARF', 'FILAR', 'FLAIR', 'FLARY', 'FLORA', 'FNARR', 'FRACK', 'FRAIL', 'FRAIM', 'FRANC', 'FRANK', 'FRAUD', 'FRIAR', 'FUBAR', 'GLAIR', 'GLARY', 'GLAUR', 'GNARL', 'GNARR', 'GOARY', 'GOBAR', 'GOURA', 'GRAAL', 'GRAFF', 'GRAIL', 'GRAIN', 'GRAIP', 'GRAMA', 'GRAMP', 'GRANA', 'GRAND', 'GRANO', 'GRAPH', 'GRAPY', 'GRAVY', 'GROAN', 'GROMA', 'GUARD', 'GULAR', 'HIJRA', 'HILAR', 'HOARD', 'HOARY', 'HYDRA', 'IMARI', 'IMBAR', 'INARM', 'INFRA', 'INVAR', 'IXORA', 'IZARD', 'JOWAR', 'JUMAR', 'KNARL', 'KNAUR', 'KOKRA', 'KOURA', 'KRAAL', 'KRANG', 'KRANZ', 'KRONA', 'LIARD', 'LIBRA', 'LIDAR', 'LOBAR', 'LUBRA', 'LUNAR', 'LYARD', 'LYCRA', 'MBARI', 'MBIRA', 'MICRA', 'MIKRA', 'MINAR', 'MOGAR', 'MOGRA', 'MOHAR', 'MOIRA', 'MOLAR', 'MOWRA', 'MUDAR', 'MUDRA', 'MYLAR', 'ORACH', 'ORACY', 'ORANG', 'ORGAN', 'ORGIA', 'ORIXA', 'ORVAL', 'OVARY', 'OWARI', 'PHARM', 'PICRA', 'PILAR', 'PLAUR', 'POLAR', 'PRAAM', 'PRAHU', 'PRANA', 'PRANG', 'PRANK', 'PRAWN', 'PRIAL', 'PRIAN', 'PRIMA', 'PROAL', 'PRORA', 'PRYAN', 'QUAIR', 'QUARK', 'QUARL', 'RHABD', 'RIKKA', 'RIKWA', 'RIOJA', 'RIVAL', 'RIYAL', 'ROACH', 'ROADY', 'ROAKY', 'ROANY', 'ROARY', 'ROGAN', 'ROHAN', 'ROJAK', 'ROLAG', 'ROMAL', 'ROMAN', 'ROWAN', 'ROYAL', 'RUACH', 'RUANA', 'RUBAI', 'RUBAN', 'RUGAL', 'RUMAL', 'RUMBA', 'RUPIA', 'ULNAR', 'UMBRA', 'UNARM', 'UNARY', 'UNBAR', 'URALI', 'URARI', 'URBAN', 'URBIA', 'URIAL', 'URMAN', 'URNAL', 'URUPA', 'VICAR', 'VOLAR', 'VRAIC', 'WHARF', 'WHAUR', 'WRACK', 'WRANG', 'WRAWL']
+287 candidate words remaining.
+Top 10 guesses: [('BRAAI', '4.634'), ('BROIL', '4.601'), ('MOANA', '4.596'), ('LOGIN', '4.596'), ('COLIN', '4.581'), ('GROIN', '4.579'), ('GRAAL', '4.570'), ('CRAAL', '4.564'), ('LIANA', '4.563'), ('COALA', '4.560')]
+Top entropy choice: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+Guess count low, choosing the word with highest entropy: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 4.8430 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 4.842978831788326, 'expected_info_gain': 4.634280696834034}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ACARA', 'AFARA', 'AKARA', 'ALARM', 'ALARY', 'AMARO', 'AWARD', 'AWARN', 'CHARA', 'RUANA']
+10 candidate words remaining.
+Top 10 guesses: [('CLONK', '2.922'), ('CLOWN', '2.922'), ('YCOND', '2.846'), ('CONKY', '2.646'), ('ACOLD', '2.646'), ('AMNIA', '2.646'), ('CLANK', '2.646'), ('CLINK', '2.646'), ('CLONE', '2.646'), ('CLONS', '2.646')]
+Top entropy choice: 𝘾𝙇𝙊𝙉𝙆 with entropy: 2.9219
+Using common exploratory word: 𝘾𝙇𝙊𝙒𝙉 with entropy: 2.9219
+
+Guess: 𝘾𝙇𝙊𝙒𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 4.634280696834034}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AWARD']
+1 candidate words remaining.
+Top 10 guesses: [('AWARD', '0.000')]
+Top entropy choice: 𝘼𝙒𝘼𝙍𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙒𝘼𝙍𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 8.165, Expected Info Gain: 4.634 bits, Actual Info Gain: 4.843 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙇𝙊𝙒𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 3.322, Expected Info Gain: 4.634 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

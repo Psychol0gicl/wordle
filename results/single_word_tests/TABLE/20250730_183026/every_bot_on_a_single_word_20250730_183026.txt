@@ -1,0 +1,220 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TAUBE 
+The top ten guesses and scores: [('TAUBE', 30), ('TABLE', 29), ('TAUPE', 29), ('TAWIE', 29), ('TACHE', 28), ('TATIE', 28), ('TAZZE', 28), ('TANTE', 27)]
+The bot finally chose: TABLE 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TATIE with entropy: 1.5488
+Bot chose: TATIE with entropy: 1.5488
+Top ten guesses: [('TATIE', 1.5487949406953985), ('TAUBE', 1.5487949406953985), ('TABLE', 1.061278124459133), ('TANTE', 1.061278124459133), ('TAUPE', 1.061278124459133), ('TAWIE', 1.061278124459133), ('TACHE', 0.5435644431995964), ('TAZZE', 0.5435644431995964)]
+
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.6780719051126378, 'expected_info_gain': 1.5487949406953985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAUBE with entropy: 1.9219
+Bot chose: TAUBE with entropy: 1.9219
+Top ten guesses: [('TAUBE', 1.9219280948873623), ('TABLE', 1.3709505944546687), ('TAUPE', 1.3709505944546687), ('TACHE', 0.7219280948873623), ('TAZZE', 0.7219280948873623)]
+
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABLE with entropy: 0.0000
+Bot chose: TABLE with entropy: 0.0000
+Top ten guesses: [('TABLE', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TATIE with entropy: 1.5488
+Bot chose: TATIE with entropy: 1.5488
+Top ten guesses: [('TATIE', 1.5487949406953985), ('TAUBE', 1.5487949406953985), ('TABLE', 1.061278124459133), ('TANTE', 1.061278124459133), ('TAUPE', 1.061278124459133), ('TAWIE', 1.061278124459133), ('TACHE', 0.5435644431995964), ('TAZZE', 0.5435644431995964)]
+
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.6780719051126378, 'expected_info_gain': 1.5487949406953985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAUBE with entropy: 1.9219
+Bot chose: TAUBE with entropy: 1.9219
+Top ten guesses: [('TAUBE', 1.9219280948873623), ('TABLE', 1.3709505944546687), ('TAUPE', 1.3709505944546687), ('TACHE', 0.7219280948873623), ('TAZZE', 0.7219280948873623)]
+
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABLE with entropy: 0.0000
+Bot chose: TABLE with entropy: 0.0000
+Top ten guesses: [('TABLE', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('TATIE', '1.549'), ('TAUBE', '1.549'), ('TABLE', '1.061'), ('TANTE', '1.061'), ('TAUPE', '1.061')]
+Top entropy choice: 𝙏𝘼𝙏𝙄𝙀 with entropy: 1.5488
+
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.6780719051126378, 'expected_info_gain': 1.5487949406953985}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('TAUBE', '1.922'), ('TABLE', '1.371'), ('TAUPE', '1.371'), ('TACHE', '0.722'), ('TAZZE', '0.722')]
+Top entropy choice: 𝙏𝘼𝙐𝘽𝙀 with entropy: 1.9219
+
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TABLE', '0.000')]
+Top entropy choice: 𝙏𝘼𝘽𝙇𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝘼𝘽𝙇𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝘼𝙏𝙄𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 1.549 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝘼𝙐𝘽𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABLE', 'TACHE', 'TANTE', 'TATIE', 'TAUBE', 'TAUPE', 'TAWIE', 'TAZZE']
+8 candidate words remaining.
+Top 10 guesses: [('BLITZ', '2.500'), ('BRUIN', '2.500'), ('BUNIA', '2.500'), ('BURIN', '2.500'), ('BUSTI', '2.500'), ('BUYIN', '2.500'), ('CABIN', '2.500'), ('CUBIC', '2.500'), ('CUBIT', '2.500'), ('CULTI', '2.500')]
+Top entropy choice: 𝘽𝙇𝙄𝙏𝙕 with entropy: 2.5000
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝙄𝙏𝙕 with entropy: 2.5000
+
+Guess: 𝘽𝙇𝙄𝙏𝙕, Feedback: 🟨🟨⬜🟨⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.5}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABLE']
+1 candidate words remaining.
+Top 10 guesses: [('TABLE', '0.000')]
+Top entropy choice: 𝙏𝘼𝘽𝙇𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝘽𝙇𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙇𝙄𝙏𝙕, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 3.000, Expected Info Gain: 2.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

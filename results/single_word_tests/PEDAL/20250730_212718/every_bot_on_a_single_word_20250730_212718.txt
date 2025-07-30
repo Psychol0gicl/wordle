@@ -1,0 +1,248 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙀𝘿𝘼𝙇 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: ELAND 
+The top ten guesses and scores: [('ELAND', 972), ('LEMAN', 972), ('ANCLE', 960), ('CLEAN', 960), ('PENAL', 959), ('PLANE', 959), ('PLENA', 959), ('ANGLE', 952), ('GENAL', 952), ('GLEAN', 952)]
+The bot finally chose: CLEAN 
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜🟨🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: MEDAL 
+The top ten guesses and scores: [('MEDAL', 59), ('PEDAL', 58), ('DELAY', 56), ('HEMAL', 56), ('FEMAL', 55), ('PELAU', 55), ('BELAH', 54), ('BELAY', 54), ('DEDAL', 54), ('LEPAK', 54)]
+The bot finally chose: MEDAL 
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PEDAL 
+The top ten guesses and scores: [('PEDAL', 10), ('DEDAL', 9)]
+The bot finally chose: PEDAL 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜🟨🟨🟩⬜
+Guess: 𝙈𝙀𝘿𝘼𝙇, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝙀𝘿𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙀𝘿𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLANE with entropy: 4.7946
+Bot chose: PLANE with entropy: 4.7946
+Top ten guesses: [('PLANE', 4.7945526391161755), ('ALANE', 4.644224158360227), ('LEMAN', 4.623354691713218), ('CLAME', 4.618005325715188), ('ANELE', 4.617286922772543), ('PENAL', 4.6048505788281915), ('BLAME', 4.576231230807822), ('ALINE', 4.553155408328627), ('CLADE', 4.547529651456017), ('CLEAN', 4.535092641653585)]
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 5.9635 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.963474123974887, 'expected_info_gain': 4.7945526391161755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PELAU with entropy: 1.9219
+Bot chose: PELAU with entropy: 1.9219
+Top ten guesses: [('PELAU', 1.9219280948873623), ('PELMA', 1.9219280948873623), ('PEOLA', 1.9219280948873623), ('PEPLA', 1.9219280948873623), ('PEDAL', 1.3709505944546687)]
+
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEDAL with entropy: 0.0000
+Bot chose: PEDAL with entropy: 0.0000
+Top ten guesses: [('PEDAL', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.963 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙀𝘿𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙀𝘿𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PLANE with entropy: 4.7946
+Bot chose: PLANE with entropy: 4.7946
+Top ten guesses: [('PLANE', 4.7945526391161755), ('ALANE', 4.644224158360227), ('LEMAN', 4.623354691713218), ('CLAME', 4.618005325715188), ('ANELE', 4.617286922772543), ('PENAL', 4.6048505788281915), ('BLAME', 4.576231230807822), ('ALINE', 4.553155408328627), ('CLADE', 4.547529651456017), ('CLEAN', 4.535092641653585)]
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 5.9635 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.963474123974887, 'expected_info_gain': 4.7945526391161755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PELAU with entropy: 1.9219
+Bot chose: PELAU with entropy: 1.9219
+Top ten guesses: [('PELAU', 1.9219280948873623), ('PELMA', 1.9219280948873623), ('PEOLA', 1.9219280948873623), ('PEPLA', 1.9219280948873623), ('PEDAL', 1.3709505944546687)]
+
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEDAL with entropy: 0.0000
+Bot chose: PEDAL with entropy: 0.0000
+Top ten guesses: [('PEDAL', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.963 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙀𝘿𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙀𝘿𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 489 potential guesses from 312 remaining candidates...
+Top 5 guesses: [('PLANE', '4.795'), ('ALANE', '4.644'), ('LEMAN', '4.623'), ('CLAME', '4.618'), ('ANELE', '4.617')]
+Top entropy choice: 𝙋𝙇𝘼𝙉𝙀 with entropy: 4.7946
+Ended up choosing COMMON word: 𝙋𝙇𝘼𝙉𝙀 with entropy: 4.7946
+
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 5.9635 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 5.963474123974887, 'expected_info_gain': 4.7945526391161755}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('PELAU', '1.922'), ('PELMA', '1.922'), ('PEOLA', '1.922'), ('PEPLA', '1.922'), ('PEDAL', '1.371')]
+Top entropy choice: 𝙋𝙀𝙇𝘼𝙐 with entropy: 1.9219
+
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('PEDAL', '0.000')]
+Top entropy choice: 𝙋𝙀𝘿𝘼𝙇 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙋𝙀𝘿𝘼𝙇 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.963 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙀𝙇𝘼𝙐, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙀𝘿𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙀𝘿𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 5.5733 bits
+Posterior entropy: 8.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.285402218862249, 'actual_info_gain': 5.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAM', 'ABELE', 'ABENG', 'ABIDE', 'ABODE', 'ABOVE', 'ABUNE', 'ACEDY', 'ACENE', 'ACONE', 'ADAGE', 'ADDLE', 'ADEAD', 'ADOBE', 'ADOZE', 'AECIA', 'AEVUM', 'AGAPE', 'AGAVE', 'AGAZE', 'AGENE', 'AGGIE', 'AGILE', 'AGOGE', 'AGONE', 'AHEAD', 'AHEAP', 'AHOLE', 'AIZLE', 'AKELA', 'AKENE', 'ALANE', 'ALEAK', 'ALECK', 'ALEPH', 'ALEYE', 'ALGAE', 'ALIKE', 'ALINE', 'ALIVE', 'ALKIE', 'ALONE', 'ALOWE', 'AMAZE', 'AMBLE', 'AMEBA', 'AMEND', 'AMENE', 'AMICE', 'AMIDE', 'AMINE', 'AMOLE', 'AMOVE', 'AMPLE', 'ANCLE', 'ANELE', 'ANGLE', 'ANILE', 'ANIME', 'ANKLE', 'ANODE', 'ANOLE', 'APACE', 'APAGE', 'APEAK', 'APODE', 'APPLE', 'AQUAE', 'AVALE', 'AVINE', 'AVIZE', 'AVYZE', 'AWAKE', 'AWAVE', 'AWOKE', 'AXILE', 'AXONE', 'AYELP', 'AZIDE', 'AZINE', 'AZOLE', 'AZYME', 'BEACH', 'BEADY', 'BEAKY', 'BEAMY', 'BEANO', 'BEANY', 'BEAUX', 'BECAP', 'BEDAD', 'BEGAD', 'BEGAN', 'BEKAH', 'BELAH', 'BELAY', 'BELGA', 'BEMAD', 'BENGA', 'BEVAN', 'BIGAE', 'BLADE', 'BLAME', 'BLAZE', 'BLEAH', 'BLEAK', 'BUAZE', 'BUENA', 'CEAZE', 'CECAL', 'CEIBA', 'CELLA', 'CHACE', 'CHAFE', 'CHAPE', 'CHAVE', 'CHEAP', 'CHEBA', 'CHEKA', 'CHELA', 'CLADE', 'CLAME', 'CLAVE', 'CLEAN', 'COMAE', 'COXAE', 'CUECA', 'CYMAE', 'DEAVE', 'DEAWY', 'DEBAG', 'DECAD', 'DECAF', 'DECAL', 'DECAN', 'DECAY', 'DEDAL', 'DELAY', 'DELLA', 'DEMAN', 'DENAY', 'DEWAN', 'DEWAX', 'DIANE', 'DWALE', 'EBANK', 'EBENA', 'EDEMA', 'EKDAM', 'ELAIN', 'ELAND', 'ELIAD', 'ELVAN', 'EMAIL', 'EMBAY', 'ENEMA', 'ENIAC', 'EPENA', 'EPHAH', 'EQUAL', 'EUPAD', 'EVADE', 'FEAZE', 'FECAL', 'FEDAI', 'FELLA', 'FEMAL', 'FLAKE', 'FLAME', 'FLANE', 'FLEAM', 'GEMMA', 'GENAE', 'GENAL', 'GENOA', 'GENUA', 'GEYAN', 'GLACE', 'GLADE', 'GLAZE', 'GLEAM', 'GLEAN', 'GLEBA', 'GOAVE', 'GYNAE', 'HEADY', 'HEALD', 'HEAME', 'HEAPY', 'HEAVE', 'HEAVY', 'HEIAU', 'HEJAB', 'HELLA', 'HEMAL', 'HENNA', 'HEXAD', 'HYENA', 'IDEAL', 'ILEAC', 'ILEAL', 'IMAGE', 'INANE', 'JEHAD', 'JELAB', 'KEAKI', 'KEBAB', 'KEEMA', 'KEHUA', 'KENAF', 'KHEDA', 'KNAVE', 'KNAWE', 'KNEAD', 'KWELA', 'LEACH', 'LEADY', 'LEAFY', 'LEAKY', 'LEANY', 'LEAVE', 'LEAVY', 'LEAZE', 'LEGAL', 'LEHUA', 'LEMAN', 'LEMMA', 'LEPAK', 'LEZZA', 'LIANE', 'LOAVE', 'MEAKE', 'MEALY', 'MEANE', 'MEANY', 'MECCA', 'MECHA', 'MEDAL', 'MEDIA', 'MEEJA', 'MEKKA', 'MELAM', 'MELBA', 'MENAD', 'MEZZA', 'MINAE', 'NEAFE', 'NELIA', 'NEOZA', 'NEXAL', 'NOEMA', 'NOVAE', 'NUGAE', 'OBEAH', 'OCEAN', 'OLPAE', 'OMEGA', 'OZENA', 'PEACE', 'PEACH', 'PEAGE', 'PEAKE', 'PEAKY', 'PEAVY', 'PEAZE', 'PECAN', 'PECIA', 'PEDAL', 'PEGMA', 'PEKAN', 'PEKAU', 'PELAU', 'PELMA', 'PENAL', 'PENNA', 'PEOLA', 'PEPLA', 'PHAGE', 'PILAE', 'PLACE', 'PLAGE', 'PLANE', 'PLEAD', 'PLENA', 'POAKE', 'POENA', 'PUPAE', 'QUAKE', 'QUALE', 'QUEAN', 'QUENA', 'ULEMA', 'ULNAE', 'UVEAL', 'VEALE', 'VEALY', 'VEENA', 'VEGAN', 'VENAE', 'VENAL', 'VOEMA', 'VOLAE', 'WEALD', 'WEAMB', 'WEAVE', 'WHALE', 'WHEAL', 'XENIA', 'YEALM', 'ZOEAE', 'ZOEAL', 'ZONAE']
+312 candidate words remaining.
+Top 10 guesses: [('NEELD', '4.914'), ('PLENE', '4.903'), ('MEDLE', '4.820'), ('ALAND', '4.805'), ('PLANE', '4.795'), ('LEONE', '4.714'), ('BLAND', '4.679'), ('CLINE', '4.662'), ('CLONE', '4.647'), ('ALANE', '4.644')]
+Top entropy choice: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.9138
+Guess count low, choosing the word with highest entropy: 𝙉𝙀𝙀𝙇𝘿 with entropy: 4.9138
+
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 5.7004 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 8.285402218862249, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 5.700439718141093, 'expected_info_gain': 4.913778257977301}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DECAL', 'DEDAL', 'DELAY', 'LEADY', 'MEDAL', 'PEDAL']
+6 candidate words remaining.
+Top 10 guesses: [('MADDY', '2.585'), ('MIDDY', '2.585'), ('MUDDY', '2.585'), ('PADDY', '2.585'), ('PODDY', '2.585'), ('PUDDY', '2.585'), ('BADDY', '2.252'), ('BIDDY', '2.252'), ('BUDDY', '2.252'), ('CADDY', '2.252')]
+Top entropy choice: 𝙈𝘼𝘿𝘿𝙔 with entropy: 2.5850
+Using common exploratory word: 𝙈𝘼𝘿𝘿𝙔 with entropy: 2.5850
+
+Guess: 𝙈𝘼𝘿𝘿𝙔, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.913778257977301}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PEDAL']
+1 candidate words remaining.
+Top 10 guesses: [('PEDAL', '0.000')]
+Top entropy choice: 𝙋𝙀𝘿𝘼𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙀𝘿𝘼𝙇 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 8.285, Expected Info Gain: 4.914 bits, Actual Info Gain: 5.700 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝘼𝘿𝘿𝙔, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.914 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙀𝘿𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

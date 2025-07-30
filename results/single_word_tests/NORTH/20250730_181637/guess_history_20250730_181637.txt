@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙉𝙊𝙍𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜
+Guess: 𝙁𝙊𝙍𝙏𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙉𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝙊𝙍𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝙉𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙍𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝙉𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙍𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙁𝙄𝙍𝙏𝙃, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.644, Expected Info Gain: 3.058 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝙉𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙍𝙏𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.215 bits, Posterior Entropy: 4.644, 
+Guess: 𝙋𝙊𝙐𝙁𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.644, Expected Info Gain: 3.609 bits, Actual Info Gain: 3.059 bits, Posterior Entropy: 1.585, 
+Guess: 𝙉𝙊𝙍𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

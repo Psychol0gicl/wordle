@@ -1,0 +1,300 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: NOSED 
+The top ten guesses and scores: [('NOSED', 380), ('LOSED', 377), ('SOLED', 377), ('SINED', 376), ('SNIED', 376), ('ISLED', 373), ('SILED', 373), ('NUSED', 370), ('SYNED', 368), ('POSED', 367)]
+The bot finally chose: NOSED 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SIPED 
+The top ten guesses and scores: [('SIPED', 74), ('SPIED', 74), ('ISLED', 71), ('SILED', 71), ('SKIED', 71), ('SHIED', 69), ('SIZED', 69), ('SPUED', 69), ('SUPED', 69), ('SIDED', 68)]
+The bot finally chose: SPIED 
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SILED 
+The top ten guesses and scores: [('SILED', 14), ('SIZED', 14), ('SIDED', 13)]
+The bot finally chose: SIZED 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNEED with entropy: 3.9932
+Bot chose: SPEED with entropy: 3.7557
+Top ten guesses: [('SNEED', 3.9932494992704726), ('SNIED', 3.8476480319125232), ('SINED', 3.80217130344731), ('SEYEN', 3.789674242977272), ('SOLED', 3.7837935814981623), ('SPEED', 3.7557028453372197), ('NOSED', 3.7497774727162207), ('SILEN', 3.732939546253003), ('SILED', 3.728706939699338), ('INSEE', 3.7135418735835017)]
+
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 3.0255 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.025535092107137, 'expected_info_gain': 3.7557028453372197}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILED with entropy: 2.2988
+Bot chose: SILED with entropy: 2.2988
+Top ten guesses: [('SILED', 2.2988252450030506), ('SINED', 2.217021885879718), ('SNIED', 2.217021885879718), ('SHIED', 1.9852281360342514), ('SKIED', 1.9852281360342514), ('SOLED', 1.7695459925589747), ('SIDED', 1.7244078178625923), ('SIZED', 1.7244078178625923), ('SYNED', 1.4345491399952024), ('SLUED', 1.2916919971380596)]
+
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.222392421336448, 'expected_info_gain': 2.2988252450030506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIDED with entropy: 0.9183
+Bot chose: SIDED with entropy: 0.9183
+Top ten guesses: [('SIDED', 0.9182958340544896), ('SINED', 0.9182958340544896), ('SIZED', 0.9182958340544896)]
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINED with entropy: 1.0000
+Bot chose: SIZED with entropy: 1.0000
+Top ten guesses: [('SINED', 1.0), ('SIZED', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 2.299 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNEED with entropy: 3.9932
+Bot chose: SPEED with entropy: 3.7557
+Top ten guesses: [('SNEED', 3.9932494992704726), ('SNIED', 3.8476480319125232), ('SINED', 3.80217130344731), ('SEYEN', 3.789674242977272), ('SOLED', 3.7837935814981623), ('SPEED', 3.7557028453372197), ('NOSED', 3.7497774727162207), ('SILEN', 3.732939546253003), ('SILED', 3.728706939699338), ('INSEE', 3.7135418735835017)]
+
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 3.0255 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.025535092107137, 'expected_info_gain': 3.7557028453372197}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SILED with entropy: 2.2988
+Bot chose: SILED with entropy: 2.2988
+Top ten guesses: [('SILED', 2.2988252450030506), ('SINED', 2.217021885879718), ('SNIED', 2.217021885879718), ('SHIED', 1.9852281360342514), ('SKIED', 1.9852281360342514), ('SOLED', 1.7695459925589747), ('SIDED', 1.7244078178625923), ('SIZED', 1.7244078178625923), ('SYNED', 1.4345491399952024), ('SLUED', 1.2916919971380596)]
+
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.222392421336448, 'expected_info_gain': 2.2988252450030506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SIDED with entropy: 0.9183
+Bot chose: SIDED with entropy: 0.9183
+Top ten guesses: [('SIDED', 0.9182958340544896), ('SINED', 0.9182958340544896), ('SIZED', 0.9182958340544896)]
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SINED with entropy: 1.0000
+Bot chose: SIZED with entropy: 1.0000
+Top ten guesses: [('SINED', 1.0), ('SIZED', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙎𝙄𝙇𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 2.299 bits, Actual Info Gain: 2.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 214 potential guesses from 114 remaining candidates...
+Top 5 guesses: [('SNEED', '3.993'), ('WOULD', '3.948'), ('SNIED', '3.848'), ('SINED', '3.802'), ('SEYEN', '3.790')]
+Top entropy choice: 𝙎𝙉𝙀𝙀𝘿 with entropy: 3.9932
+Ended up choosing COMMON word: 𝙒𝙊𝙐𝙇𝘿 with entropy: 3.9480
+
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.8329 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 4.0, 'actual_info_gain': 2.8328900141647413, 'expected_info_gain': 3.948015877493437}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('SINED', '2.680'), ('SIPED', '2.680'), ('SNIED', '2.680'), ('SPIED', '2.680'), ('SKIED', '2.352')]
+Top entropy choice: 𝙎𝙄𝙉𝙀𝘿 with entropy: 2.6800
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙀𝘿 with entropy: 2.6800
+
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.6800365325772657}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SIDED', '0.918'), ('SINED', '0.918'), ('SIZED', '0.918')]
+Top entropy choice: 𝙎𝙄𝘿𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙄𝘿𝙀𝘿 with entropy: 0.9183
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SINED', '1.000'), ('SIZED', '1.000')]
+Top entropy choice: 𝙎𝙄𝙉𝙀𝘿 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙄𝙕𝙀𝘿 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 6.833, Expected Info Gain: 3.948 bits, Actual Info Gain: 2.833 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙋𝙄𝙀𝘿, Feedback: 🟩⬜🟨🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 2.680 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙕𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESEE', 'BOSEY', 'BUSED', 'COSEC', 'COSED', 'COSEY', 'CUSEC', 'DESEX', 'DOSED', 'DOSEH', 'EISEL', 'ENSEW', 'FUSED', 'FUSEE', 'FUSEL', 'HOSED', 'HOSEL', 'HOSEN', 'HOSEY', 'INSEE', 'ISLED', 'ISSEI', 'LOSED', 'LOSEL', 'LOSEN', 'LYSED', 'MESEL', 'MESEM', 'MOSED', 'MOSEY', 'MUSED', 'MUSEE', 'NISEI', 'NOSED', 'NOSEY', 'NUSED', 'ONSEN', 'OUSEL', 'OWSEN', 'POSED', 'POSEY', 'SEMEE', 'SEMEN', 'SENEX', 'SESEY', 'SEVEN', 'SEWED', 'SEWEL', 'SEWEN', 'SEXED', 'SEYEN', 'SHEEL', 'SHEEN', 'SHEEP', 'SHIED', 'SHIEL', 'SHLEP', 'SHMEK', 'SHOED', 'SIDED', 'SIDEY', 'SILED', 'SILEN', 'SILEX', 'SINED', 'SINEW', 'SIPED', 'SIZED', 'SIZEL', 'SKEED', 'SKEEF', 'SKEEN', 'SKEEV', 'SKEEZ', 'SKIED', 'SKIEY', 'SKYED', 'SKYEY', 'SLEEK', 'SLEEP', 'SLUED', 'SMEEK', 'SNEED', 'SNIED', 'SNOEK', 'SNOEP', 'SOKEN', 'SOLED', 'SOLEI', 'SOOEY', 'SOWED', 'SPEED', 'SPEEL', 'SPIED', 'SPIEL', 'SPUED', 'SQUEE', 'SQUEG', 'SUJEE', 'SUPED', 'SUSED', 'SWEED', 'SWEEL', 'SWEEP', 'SYCEE', 'SYNED', 'SYPED', 'UNSEE', 'UNSEW', 'UNSEX', 'UPSEE', 'UPSEY', 'VISED', 'WISED']
+114 candidate words remaining.
+Top 10 guesses: [('SOLID', '4.301'), ('UNOLD', '4.270'), ('INDOL', '4.269'), ('SOLDI', '4.218'), ('DINLO', '4.213'), ('NOULD', '4.209'), ('LOUND', '4.209'), ('UNSOD', '4.201'), ('UNLID', '4.200'), ('SOUND', '4.188')]
+Top entropy choice: 𝙎𝙊𝙇𝙄𝘿 with entropy: 4.3013
+Guess count low, choosing the word with highest entropy: 𝙎𝙊𝙇𝙄𝘿 with entropy: 4.3013
+
+Guess: 𝙎𝙊𝙇𝙄𝘿, Feedback: 🟩⬜⬜🟨🟩
+Actual Info Gain: 3.8329 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 3.0, 'actual_info_gain': 3.8328900141647413, 'expected_info_gain': 4.301344608838756}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHIED', 'SIDED', 'SINED', 'SIPED', 'SIZED', 'SKIED', 'SNIED', 'SPIED']
+8 candidate words remaining.
+Top 10 guesses: [('PINCH', '2.750'), ('PINKO', '2.750'), ('PINKS', '2.750'), ('PINKY', '2.750'), ('PLINK', '2.750'), ('PRINK', '2.750'), ('SPINK', '2.750'), ('APIAN', '2.500'), ('APING', '2.500'), ('GIPON', '2.500')]
+Top entropy choice: 𝙋𝙄𝙉𝘾𝙃 with entropy: 2.7500
+Using common exploratory word: 𝙋𝙄𝙉𝘾𝙃 with entropy: 2.7500
+
+Guess: 𝙋𝙄𝙉𝘾𝙃, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.301344608838756}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SIDED', 'SIZED']
+2 candidate words remaining.
+Top 10 guesses: [('SIDED', '1.000'), ('SIZED', '1.000')]
+Top entropy choice: 𝙎𝙄𝘿𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙄𝘿𝙀𝘿 with entropy: 1.0000
+
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 4.301344608838756}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SIZED']
+1 candidate words remaining.
+Top 10 guesses: [('SIZED', '0.000')]
+Top entropy choice: 𝙎𝙄𝙕𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙄𝙕𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙊𝙇𝙄𝘿, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 6.833, Expected Info Gain: 4.301 bits, Actual Info Gain: 3.833 bits, Posterior Entropy: 3.000, 
+Guess: 𝙋𝙄𝙉𝘾𝙃, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 4.301 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝘿𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 4.301 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙕𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

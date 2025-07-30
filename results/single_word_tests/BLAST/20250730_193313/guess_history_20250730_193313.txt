@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙇𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨
+Guess: 𝙎𝙃𝘼𝙇𝙏, Feedback: 🟨⬜🟩🟨🟩
+Guess: 𝘽𝙇𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝙇𝘼𝙉𝙏, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 3.933 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙇𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙇𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.649 bits, Posterior Entropy: 6.209, 
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.209, Expected Info Gain: 4.024 bits, Actual Info Gain: 4.209 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝘾𝙊𝙉, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 4.024 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙇𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

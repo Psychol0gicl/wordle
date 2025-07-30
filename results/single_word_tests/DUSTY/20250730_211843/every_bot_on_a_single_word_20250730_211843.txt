@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙐𝙎𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HOIST 
+The top ten guesses and scores: [('HOIST', 512), ('MISTO', 505), ('MOIST', 505), ('OPSIT', 504), ('PITSO', 504), ('POSIT', 504), ('SHOUT', 495), ('SOUTH', 495), ('FOIST', 494), ('STOIC', 494)]
+The bot finally chose: HOIST 
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: MUSTY 
+The top ten guesses and scores: [('MUSTY', 62), ('LUSTY', 60), ('FUSTY', 59), ('DUSTY', 58), ('GUSTY', 58), ('STUDY', 58), ('BUSTY', 57), ('STULM', 57), ('STUMP', 54), ('STUMM', 53)]
+The bot finally chose: MUSTY 
+Guess: 𝙈𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BUSTY 
+The top ten guesses and scores: [('BUSTY', 21), ('DUSTY', 21), ('FUSTY', 21), ('GUSTY', 21), ('LUSTY', 21)]
+The bot finally chose: BUSTY 
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DUSTY 
+The top ten guesses and scores: [('DUSTY', 17), ('FUSTY', 17), ('GUSTY', 17), ('LUSTY', 17)]
+The bot finally chose: DUSTY 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙈𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙐𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙐𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUSTI with entropy: 2.2222
+Bot chose: BUSTY with entropy: 2.2222
+Top ten guesses: [('BUSTI', 2.2221915755066783), ('BUSTY', 2.2221915755066783), ('GUSTY', 2.2221915755066783), ('GUTSY', 2.2221915755066783), ('DUSTY', 2.0403733936884962), ('FUSTY', 2.0403733936884962), ('LUSTY', 2.0403733936884962), ('MUSTY', 2.0403733936884962), ('KUSTI', 1.8676338909712125), ('NUTSY', 1.8676338909712125)]
+
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.2221915755066783}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DUSTY with entropy: 0.7219
+Bot chose: DUSTY with entropy: 0.7219
+Top ten guesses: [('DUSTY', 0.7219280948873623), ('FUSTY', 0.7219280948873623), ('GUSTY', 0.7219280948873623), ('LUSTY', 0.7219280948873623), ('MUSTY', 0.7219280948873623)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙐𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUSTI with entropy: 2.2222
+Bot chose: BUSTY with entropy: 2.2222
+Top ten guesses: [('BUSTI', 2.2221915755066783), ('BUSTY', 2.2221915755066783), ('GUSTY', 2.2221915755066783), ('GUTSY', 2.2221915755066783), ('DUSTY', 2.0403733936884962), ('FUSTY', 2.0403733936884962), ('LUSTY', 2.0403733936884962), ('MUSTY', 2.0403733936884962), ('KUSTI', 1.8676338909712125), ('NUTSY', 1.8676338909712125)]
+
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.2221915755066783}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DUSTY with entropy: 0.7219
+Bot chose: DUSTY with entropy: 0.7219
+Top ten guesses: [('DUSTY', 0.7219280948873623), ('FUSTY', 0.7219280948873623), ('GUSTY', 0.7219280948873623), ('LUSTY', 0.7219280948873623), ('MUSTY', 0.7219280948873623)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙐𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 252 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Ended up choosing COMMON word: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('BUSTI', '2.222'), ('BUSTY', '2.222'), ('GUSTY', '2.222'), ('GUTSY', '2.222'), ('DUSTY', '2.040')]
+Top entropy choice: 𝘽𝙐𝙎𝙏𝙄 with entropy: 2.2222
+Ended up choosing COMMON word: 𝘽𝙐𝙎𝙏𝙔 with entropy: 2.2222
+
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 2.2221915755066783}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('DUSTY', '0.722'), ('FUSTY', '0.722'), ('GUSTY', '0.722'), ('LUSTY', '0.722'), ('MUSTY', '0.722')]
+Top entropy choice: 𝘿𝙐𝙎𝙏𝙔 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘿𝙐𝙎𝙏𝙔 with entropy: 0.7219
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙐𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.222 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙐𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITSY', 'BLIST', 'BOOST', 'BUIST', 'BUSTI', 'BUSTY', 'COOST', 'DIDST', 'DITSY', 'DUSTY', 'FISTY', 'FOIST', 'FUSTY', 'GHOST', 'GIUST', 'GLOST', 'GOSHT', 'GUSTO', 'GUSTY', 'GUTSY', 'HOIST', 'INUST', 'JOIST', 'JOUST', 'KUSTI', 'KYDST', 'LUSTY', 'MIDST', 'MISTO', 'MISTY', 'MOIST', 'MOSTO', 'MOUST', 'MUIST', 'MUSIT', 'MUSTH', 'MUSTY', 'NOUST', 'NUTSO', 'NUTSY', 'ODIST', 'OPSIT', 'OVIST', 'PITSO', 'PITSU', 'POSIT', 'POTSY', 'PSHUT', 'PTISH', 'QUIST', 'SCOOT', 'SCOUT', 'SCUFT', 'SHIFT', 'SHIST', 'SHOOT', 'SHOTT', 'SHOUT', 'SHTIK', 'SHTUM', 'SHTUP', 'SHUNT', 'SICHT', 'SIGHT', 'SILTY', 'SITCH', 'SITUP', 'SIXTH', 'SIXTY', 'SKINT', 'SLIPT', 'SLOOT', 'SLOTH', 'SLUIT', 'SMITH', 'SMOLT', 'SMOOT', 'SMOUT', 'SMOWT', 'SNIFT', 'SNOOT', 'SNOUT', 'SOFTY', 'SOOTH', 'SOOTY', 'SOTOL', 'SOTTO', 'SOUCT', 'SOUTH', 'SOWTH', 'SPILT', 'SPITZ', 'SPLIT', 'SPOOT', 'SPOUT', 'SQUIT', 'STICH', 'STICK', 'STIFF', 'STILB', 'STILL', 'STILT', 'STIMY', 'STING', 'STINK', 'STINT', 'STIVY', 'STOCK', 'STOGY', 'STOIC', 'STOIT', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOPT', 'STOTT', 'STOUN', 'STOUP', 'STOUT', 'STOWN', 'STOWP', 'STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK', 'STUNT', 'STUSH', 'STYLI', 'STYLO', 'STYMY', 'SUINT', 'SWIFT', 'SWITH', 'SWOPT', 'SYNTH', 'VISIT', 'VISTO', 'WHIST', 'WISHT', 'XYSTI', 'YTOST', 'ZOIST']
+155 candidate words remaining.
+Top 10 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUNT', '4.690'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665'), ('MOULT', '4.655'), ('MOIST', '4.647'), ('POULT', '4.637'), ('SLUIT', '4.617')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BUSTI', 'BUSTY', 'DUSTY', 'FUSTY', 'GUSTY', 'GUTSY', 'KUSTI', 'LUSTY', 'MUSTY', 'NUTSY', 'PITSU']
+11 candidate words remaining.
+Top 10 guesses: [('BAGSY', '2.732'), ('GLISK', '2.732'), ('BLING', '2.664'), ('ABYSM', '2.550'), ('AGISM', '2.550'), ('BALTI', '2.550'), ('BASIL', '2.550'), ('BETID', '2.550'), ('BIGLY', '2.550'), ('BILGE', '2.550')]
+Top entropy choice: 𝘽𝘼𝙂𝙎𝙔 with entropy: 2.7322
+Using common exploratory word: 𝘽𝙇𝙄𝙉𝙂 with entropy: 2.6635
+
+Guess: 𝘽𝙇𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.8745 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.8744691179161412, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DUSTY', 'FUSTY', 'MUSTY']
+3 candidate words remaining.
+Top 10 guesses: [('DUSTY', '0.918'), ('FUSTY', '0.918'), ('MUSTY', '0.918')]
+Top entropy choice: 𝘿𝙐𝙎𝙏𝙔 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙐𝙎𝙏𝙔 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙇𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.721 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙐𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

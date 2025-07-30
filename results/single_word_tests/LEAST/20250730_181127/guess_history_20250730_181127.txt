@@ -1,0 +1,54 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙀𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟨🟨🟩🟨🟨, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟨🟨🟩🟨🟨, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟨🟨🟩🟨🟨, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝘼𝙎𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 5.087, Expected Info Gain: 3.540 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

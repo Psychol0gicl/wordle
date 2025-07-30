@@ -1,0 +1,294 @@
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙄𝙍𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: KORUS 
+The top ten guesses and scores: [('KORUS', 448), ('DUROS', 447), ('KORIS', 446), ('DORIS', 445), ('KURIS', 443), ('BIROS', 442), ('PORUS', 441), ('PUROS', 441), ('LORIS', 440), ('INROS', 439)]
+The bot finally chose: DORIS 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: LIRKS 
+The top ten guesses and scores: [('LIRKS', 103), ('KIRNS', 100), ('MIRKS', 100), ('MIRLS', 99), ('NIRLS', 99), ('PIRKS', 99), ('BIRKS', 98), ('FIRKS', 98), ('PIRLS', 98), ('BIRLS', 97)]
+The bot finally chose: LIRKS 
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: FIRMS 
+The top ten guesses and scores: [('FIRMS', 46), ('FIRNS', 46), ('GIRNS', 46), ('MIRVS', 46), ('PIRNS', 46), ('MIRRS', 44), ('VIRUS', 44), ('CIRCS', 43), ('GIRRS', 43), ('PIRRS', 43)]
+The bot finally chose: VIRUS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙄𝙍𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 2.3847 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 2.3846638502353255, 'expected_info_gain': 3.1419490372418504}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIRKS with entropy: 1.8593
+Bot chose: LIRKS with entropy: 1.8593
+Top ten guesses: [('LIRKS', 1.85930196633443), ('KIRNS', 1.8338496710294616), ('MIRKS', 1.8338496710294616), ('MIRLS', 1.8338496710294616), ('NIRLS', 1.7136603192577384), ('PIRKS', 1.6339740759971573), ('PIRLS', 1.6339740759971573), ('VIRLS', 1.6068636760307755), ('BIRKS', 1.5327896019567016), ('BIRLS', 1.5327896019567016)]
+
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 1.85930196633443}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIRRS with entropy: 1.9508
+Bot chose: MIRRS with entropy: 1.9508
+Top ten guesses: [('MIRRS', 1.9508257945180885), ('GIRRS', 1.6258145836939115), ('PIRRS', 1.6258145836939115), ('MIRVS', 1.584962500721156), ('FIRMS', 1.4182958340544896), ('FIRNS', 1.4182958340544896), ('GIRNS', 1.4182958340544896), ('PIRNS', 1.4182958340544896), ('YIRRS', 1.2806721295208872), ('BIRRS', 1.280672129520887)]
+
+Guess: 𝙈𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 1.9508257945180885}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRNS with entropy: 1.5219
+Bot chose: VIRUS with entropy: 0.7219
+Top ten guesses: [('FIRNS', 1.5219280948873621), ('GIRNS', 1.5219280948873621), ('PIRNS', 1.5219280948873621), ('CIRCS', 0.7219280948873623), ('VIRUS', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 7.140, Expected Info Gain: 3.142 bits, Actual Info Gain: 2.385 bits, Posterior Entropy: 4.755, 
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 1.859 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 1.951 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙍𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DORIS with entropy: 3.1419
+Bot chose: DORIS with entropy: 3.1419
+Top ten guesses: [('DORIS', 3.1419490372418504), ('KORIS', 3.0919801602563366), ('NORIS', 3.010184010348066), ('KORUS', 2.990131619852765), ('DUROS', 2.9615550680713176), ('BIROS', 2.961287157680798), ('KURIS', 2.9608045546290946), ('LORIS', 2.9055655751831106), ('DORKS', 2.881130023287783), ('DIRKS', 2.8747987166660605)]
+
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 2.3847 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 2.3846638502353255, 'expected_info_gain': 3.1419490372418504}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIRKS with entropy: 1.8593
+Bot chose: LIRKS with entropy: 1.8593
+Top ten guesses: [('LIRKS', 1.85930196633443), ('KIRNS', 1.8338496710294616), ('MIRKS', 1.8338496710294616), ('MIRLS', 1.8338496710294616), ('NIRLS', 1.7136603192577384), ('PIRKS', 1.6339740759971573), ('PIRLS', 1.6339740759971573), ('VIRLS', 1.6068636760307755), ('BIRKS', 1.5327896019567016), ('BIRLS', 1.5327896019567016)]
+
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 1.85930196633443}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MIRRS with entropy: 1.9508
+Bot chose: MIRRS with entropy: 1.9508
+Top ten guesses: [('MIRRS', 1.9508257945180885), ('GIRRS', 1.6258145836939115), ('PIRRS', 1.6258145836939115), ('MIRVS', 1.584962500721156), ('FIRMS', 1.4182958340544896), ('FIRNS', 1.4182958340544896), ('GIRNS', 1.4182958340544896), ('PIRNS', 1.4182958340544896), ('YIRRS', 1.2806721295208872), ('BIRRS', 1.280672129520887)]
+
+Guess: 𝙈𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 1.9508257945180885}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FIRNS with entropy: 1.5219
+Bot chose: VIRUS with entropy: 0.7219
+Top ten guesses: [('FIRNS', 1.5219280948873621), ('GIRNS', 1.5219280948873621), ('PIRNS', 1.5219280948873621), ('CIRCS', 0.7219280948873623), ('VIRUS', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙍𝙄𝙎, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 7.140, Expected Info Gain: 3.142 bits, Actual Info Gain: 2.385 bits, Posterior Entropy: 4.755, 
+Guess: 𝙇𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 1.859 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 1.951 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙍𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 241 potential guesses from 141 remaining candidates...
+Top 5 guesses: [('DOING', '4.070'), ('FOUND', '3.806'), ('COULD', '3.683'), ('YOUNG', '3.584'), ('POINT', '3.442')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0704
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.4391 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 2.439111634257702, 'expected_info_gain': 4.070357047139598}
+----------
+The bot is making a guess...
+Evaluating 26 potential guesses from 26 remaining candidates...
+Top 5 guesses: [('MIRKS', '2.275'), ('MIRLS', '2.248'), ('LIRKS', '2.197'), ('KURIS', '2.190'), ('PIRKS', '2.100')]
+Top entropy choice: 𝙈𝙄𝙍𝙆𝙎 with entropy: 2.2745
+
+Guess: 𝙈𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2410 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.2410080995037944, 'expected_info_gain': 2.2745436483847787}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('BIRLS', '1.790'), ('BIRRS', '1.686'), ('CIRLS', '1.617'), ('PIRLS', '1.617'), ('VIRLS', '1.617')]
+Top entropy choice: 𝘽𝙄𝙍𝙇𝙎 with entropy: 1.7899
+
+Guess: 𝘽𝙄𝙍𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.1375 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.1375035237499351, 'expected_info_gain': 1.789929075309999}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('PIRRS', '1.371'), ('YIRRS', '1.371'), ('CIRCS', '0.722'), ('SIRIS', '0.722'), ('VIRUS', '0.722')]
+Top entropy choice: 𝙋𝙄𝙍𝙍𝙎 with entropy: 1.3710
+
+Guess: 𝙋𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('CIRCS', '0.918'), ('SIRIS', '0.918'), ('VIRUS', '0.918')]
+Top entropy choice: 𝘾𝙄𝙍𝘾𝙎 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙑𝙄𝙍𝙐𝙎 with entropy: 0.9183
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.140, Expected Info Gain: 4.070 bits, Actual Info Gain: 2.439 bits, Posterior Entropy: 4.700, 
+Guess: 𝙈𝙄𝙍𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.700, Expected Info Gain: 2.275 bits, Actual Info Gain: 1.241 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙄𝙍𝙇𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.790 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝙄𝙍𝙍𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙄𝙍𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 6.7191 bits
+Posterior entropy: 7.139551352398794
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.139551352398794, 'actual_info_gain': 6.719109632323983, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRDS', 'BIRIS', 'BIRKS', 'BIRLS', 'BIROS', 'BIRRS', 'BORDS', 'BORKS', 'BORMS', 'BURBS', 'BURDS', 'BURGS', 'BURKS', 'BURLS', 'BURNS', 'BURPS', 'BURRS', 'BYRLS', 'CIRCS', 'CIRLS', 'CORDS', 'CORKS', 'CORMS', 'CORNS', 'CORPS', 'CURBS', 'CURDS', 'CURFS', 'CURLS', 'CURNS', 'CURRS', 'DIRKS', 'DIRLS', 'DORBS', 'DORIS', 'DORKS', 'DORMS', 'DORPS', 'DORRS', 'DURNS', 'DUROS', 'DURRS', 'FIRKS', 'FIRMS', 'FIRNS', 'FORBS', 'FORDS', 'FORKS', 'FORMS', 'FURLS', 'FUROS', 'FURRS', 'FYRDS', 'GIRDS', 'GIRLS', 'GIRNS', 'GIROS', 'GIRRS', 'GORBS', 'GORIS', 'GORMS', 'GORPS', 'GRRLS', 'GURKS', 'GURLS', 'GURNS', 'GURUS', 'GYROS', 'GYRUS', 'HORIS', 'HORKS', 'HORNS', 'HURDS', 'HURLS', 'INROS', 'JIRDS', 'JURIS', 'KIRKS', 'KIRNS', 'KORIS', 'KOROS', 'KORUS', 'KURIS', 'KURUS', 'LIRKS', 'LORDS', 'LORIS', 'LURKS', 'MIRKS', 'MIRLS', 'MIROS', 'MIRRS', 'MIRVS', 'MORNS', 'MURKS', 'MURLS', 'MURRS', 'NIRLS', 'NORIS', 'NORKS', 'NORMS', 'NURDS', 'NURLS', 'NURRS', 'ORRIS', 'PIRKS', 'PIRLS', 'PIRNS', 'PIRRS', 'PORKS', 'PORNS', 'PORUS', 'PURIS', 'PURLS', 'PUROS', 'PURPS', 'PURRS', 'PYROS', 'PYRUS', 'RURPS', 'RURUS', 'SHRIS', 'SIRIS', 'SORBS', 'SORDS', 'SORNS', 'SORUS', 'SURDS', 'SURFS', 'VIRLS', 'VIRUS', 'WORDS', 'WORKS', 'WORMS', 'YIRDS', 'YIRKS', 'YIRRS', 'YORKS', 'YORPS', 'ZORIS', 'ZURFS']
+141 candidate words remaining.
+Top 10 guesses: [('BIPOD', '4.134'), ('BIDON', '4.125'), ('BOINK', '4.091'), ('DOING', '4.070'), ('PIKUL', '4.055'), ('KONBU', '4.049'), ('POIND', '4.048'), ('BOUND', '4.028'), ('DIMBO', '4.027'), ('KOMBI', '4.014')]
+Top entropy choice: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+Guess count low, choosing the word with highest entropy: 𝘽𝙄𝙋𝙊𝘿 with entropy: 4.1345
+
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.7472 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 7.139551352398794, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 2.747233929620033, 'expected_info_gain': 4.134475955293675}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CIRCS', 'CIRLS', 'FIRKS', 'FIRMS', 'FIRNS', 'GIRLS', 'GIRNS', 'GIRRS', 'KIRKS', 'KIRNS', 'LIRKS', 'MIRKS', 'MIRLS', 'MIRRS', 'MIRVS', 'NIRLS', 'SIRIS', 'VIRLS', 'VIRUS', 'YIRKS', 'YIRRS']
+21 candidate words remaining.
+Top 10 guesses: [('MALKY', '3.082'), ('MILKY', '3.082'), ('KNURL', '3.082'), ('KYLIN', '3.082'), ('FLUNK', '3.046'), ('KLANG', '3.004'), ('KLONG', '3.004'), ('CLUNK', '2.951'), ('FLUKY', '2.910'), ('KNARL', '2.910')]
+Top entropy choice: 𝙈𝘼𝙇𝙆𝙔 with entropy: 3.0823
+Using common exploratory word: 𝙈𝙄𝙇𝙆𝙔 with entropy: 3.0823
+
+Guess: 𝙈𝙄𝙇𝙆𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.8073549220576046, 'expected_info_gain': 4.134475955293675}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CIRCS', 'FIRNS', 'GIRNS', 'GIRRS', 'SIRIS', 'VIRUS']
+6 candidate words remaining.
+Top 10 guesses: [('CLUNG', '2.585'), ('CUING', '2.585'), ('FUNIC', '2.585'), ('GENIC', '2.585'), ('GUQIN', '2.585'), ('ICING', '2.585'), ('SCURF', '2.585'), ('SLUNG', '2.585'), ('SNUGS', '2.585'), ('STUNG', '2.585')]
+Top entropy choice: 𝘾𝙇𝙐𝙉𝙂 with entropy: 2.5850
+Guess count high, choosing a candidate with the highest entropy: 𝙑𝙄𝙍𝙐𝙎 with entropy: 0.6500
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.719 bits, Posterior Entropy: 7.140, 
+Guess: 𝘽𝙄𝙋𝙊𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 7.140, Expected Info Gain: 4.134 bits, Actual Info Gain: 2.747 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝙄𝙇𝙆𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.392, Expected Info Gain: 4.134 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.585, 
+Guess: 𝙑𝙄𝙍𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,365 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙍𝘼𝙉𝙆 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ORGIA 
+The top ten guesses and scores: [('ORGIA', 848), ('AROID', 841), ('MOIRA', 840), ('ALGOR', 836), ('ARGOL', 836), ('ROLAG', 836), ('ARGON', 834), ('BOLAR', 834), ('CLARO', 834), ('GRANO', 834)]
+The bot finally chose: MOIRA 
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: LUNAR 
+The top ten guesses and scores: [('LUNAR', 199), ('ULNAR', 199), ('URNAL', 199), ('KNAUR', 197), ('RUBAN', 196), ('UNBAR', 196), ('URBAN', 196), ('KRANG', 195), ('CRANK', 194), ('BRANK', 193)]
+The bot finally chose: LUNAR 
+Guess: 𝙇𝙐𝙉𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: DRANK 
+The top ten guesses and scores: [('DRANK', 56), ('KRANG', 56), ('BRANK', 55), ('PRANK', 55), ('CRANK', 54), ('FRANK', 54), ('DRAWN', 53), ('GRAND', 53), ('KRANZ', 53), ('WRANG', 53)]
+The bot finally chose: DRANK 
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BRANK 
+The top ten guesses and scores: [('BRANK', 17), ('CRANK', 17), ('FRANK', 17), ('PRANK', 17)]
+The bot finally chose: CRANK 
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BRANK 
+The top ten guesses and scores: [('BRANK', 13), ('FRANK', 13), ('PRANK', 13)]
+The bot finally chose: FRANK 
+Game Over! You ran out of guesses.
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙇𝙐𝙉𝘼𝙍, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙉𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAAI with entropy: 4.6343
+Bot chose: GRAIL with entropy: 4.4854
+Top ten guesses: [('BRAAI', 4.634280696834034), ('GRAAL', 4.570490610047333), ('CRAAL', 4.563848317615071), ('GRANA', 4.516396630356266), ('GRAIL', 4.485384917761767), ('BRAIN', 4.475251103478846), ('BRAIL', 4.4588239976494926), ('GRAIN', 4.45756218850841), ('GROAN', 4.4563453521225265), ('DRAIN', 4.451492260225018)]
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.9950 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.9949819252333754, 'expected_info_gain': 4.485384917761767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRACK with entropy: 3.2380
+Bot chose: CRANK with entropy: 3.1265
+Top ten guesses: [('BRACK', 3.2380118063969037), ('DRACK', 3.2052290027422963), ('CRANK', 3.126493812294056), ('BRANK', 3.0968919324675706), ('DRANK', 3.055877325446917), ('PRANK', 2.990195992763576), ('BRAND', 2.9479755324967396), ('FRACK', 2.9251265594108284), ('FRANK', 2.760067015271104), ('WRACK', 2.7571304503868213)]
+
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.126493812294056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 0.8113
+Bot chose: DRANK with entropy: 0.8113
+Top ten guesses: [('BRANK', 0.8112781244591328), ('DRANK', 0.8112781244591328), ('FRANK', 0.8112781244591328), ('PRANK', 0.8112781244591328)]
+
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 0.9183
+Bot chose: FRANK with entropy: 0.9183
+Top ten guesses: [('BRANK', 0.9182958340544896), ('FRANK', 0.9182958340544896), ('PRANK', 0.9182958340544896)]
+
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 1.0000
+Bot chose: PRANK with entropy: 1.0000
+Top ten guesses: [('BRANK', 1.0), ('PRANK', 1.0)]
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.995 bits, Posterior Entropy: 5.170, 
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.170, Expected Info Gain: 3.126 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙉𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRAAI with entropy: 4.6343
+Bot chose: GRAIL with entropy: 4.4854
+Top ten guesses: [('BRAAI', 4.634280696834034), ('GRAAL', 4.570490610047333), ('CRAAL', 4.563848317615071), ('GRANA', 4.516396630356266), ('GRAIL', 4.485384917761767), ('BRAIN', 4.475251103478846), ('BRAIL', 4.4588239976494926), ('GRAIN', 4.45756218850841), ('GROAN', 4.4563453521225265), ('DRAIN', 4.451492260225018)]
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.9950 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.9949819252333754, 'expected_info_gain': 4.485384917761767}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRACK with entropy: 3.2380
+Bot chose: CRANK with entropy: 3.1265
+Top ten guesses: [('BRACK', 3.2380118063969037), ('DRACK', 3.2052290027422963), ('CRANK', 3.126493812294056), ('BRANK', 3.0968919324675706), ('DRANK', 3.055877325446917), ('PRANK', 2.990195992763576), ('BRAND', 2.9479755324967396), ('FRACK', 2.9251265594108284), ('FRANK', 2.760067015271104), ('WRACK', 2.7571304503868213)]
+
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.126493812294056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 0.8113
+Bot chose: DRANK with entropy: 0.8113
+Top ten guesses: [('BRANK', 0.8112781244591328), ('DRANK', 0.8112781244591328), ('FRANK', 0.8112781244591328), ('PRANK', 0.8112781244591328)]
+
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 0.9183
+Bot chose: FRANK with entropy: 0.9183
+Top ten guesses: [('BRANK', 0.9182958340544896), ('FRANK', 0.9182958340544896), ('PRANK', 0.9182958340544896)]
+
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BRANK with entropy: 1.0000
+Bot chose: PRANK with entropy: 1.0000
+Top ten guesses: [('BRANK', 1.0), ('PRANK', 1.0)]
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.995 bits, Posterior Entropy: 5.170, 
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.170, Expected Info Gain: 3.126 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙉𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 485 potential guesses from 287 remaining candidates...
+Top 5 guesses: [('BRAAI', '4.634'), ('GRAAL', '4.570'), ('CRAAL', '4.564'), ('GRANA', '4.516'), ('GRAIL', '4.485')]
+Top entropy choice: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙄𝙇 with entropy: 4.4854
+
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.9950 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.9949819252333754, 'expected_info_gain': 4.485384917761767}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('BRACK', '3.238'), ('DRACK', '3.205'), ('CRANK', '3.126'), ('BRANK', '3.097'), ('DRANK', '3.056')]
+Top entropy choice: 𝘽𝙍𝘼𝘾𝙆 with entropy: 3.2380
+Ended up choosing COMMON word: 𝘾𝙍𝘼𝙉𝙆 with entropy: 3.1265
+
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 3.126493812294056}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('BRANK', '0.811'), ('DRANK', '0.811'), ('FRANK', '0.811'), ('PRANK', '0.811')]
+Top entropy choice: 𝘽𝙍𝘼𝙉𝙆 with entropy: 0.8113
+Ended up choosing COMMON word: 𝘿𝙍𝘼𝙉𝙆 with entropy: 0.8113
+
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BRANK', '0.918'), ('FRANK', '0.918'), ('PRANK', '0.918')]
+Top entropy choice: 𝘽𝙍𝘼𝙉𝙆 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙁𝙍𝘼𝙉𝙆 with entropy: 0.9183
+
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BRANK', '1.000'), ('PRANK', '1.000')]
+Top entropy choice: 𝘽𝙍𝘼𝙉𝙆 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙋𝙍𝘼𝙉𝙆 with entropy: 1.0000
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.995 bits, Posterior Entropy: 5.170, 
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.170, Expected Info Gain: 3.126 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙍𝘼𝙉𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 5.6938 bits
+Posterior entropy: 8.164906926675688
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.164906926675688, 'actual_info_gain': 5.693754058047089, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABHOR', 'ABORD', 'ABORN', 'ABURA', 'ABURN', 'ACARA', 'ACARI', 'ACCRA', 'ACHAR', 'ACORN', 'ADDRA', 'ADORB', 'ADORN', 'AFARA', 'AGGRI', 'AGGRO', 'AGGRY', 'AGORA', 'AHURU', 'AKARA', 'ALARM', 'ALARY', 'ALGOR', 'ALURK', 'ALVAR', 'AMARI', 'AMARO', 'AMBRY', 'AMOUR', 'ANDRO', 'ANGRY', 'ANURA', 'APGAR', 'APPRO', 'ARABA', 'ARBAH', 'ARBOR', 'ARCHI', 'ARDOR', 'ARDRI', 'ARGAL', 'ARGAN', 'ARGIL', 'ARGOL', 'ARGON', 'ARIKI', 'ARMIL', 'ARMOR', 'AROBA', 'AROHA', 'AROID', 'AROMA', 'ARVAL', 'AUGUR', 'AWARD', 'AWARI', 'AWARN', 'AWMRY', 'AWORK', 'AZURN', 'AZURY', 'BOARD', 'BOLAR', 'BOYAR', 'BRAAI', 'BRACH', 'BRACK', 'BRAID', 'BRAIL', 'BRAIN', 'BRAKY', 'BRAND', 'BRANK', 'BRAVA', 'BRAVI', 'BRAVO', 'BRAWL', 'BRAWN', 'BRAXY', 'BRAZA', 'BRIAR', 'BROAD', 'BRUJA', 'CHAIR', 'CHARA', 'CHARD', 'CHARK', 'CHARM', 'CHARR', 'CHARY', 'CIGAR', 'CIMAR', 'CLAIR', 'CLARO', 'CLARY', 'COARB', 'COBRA', 'COPRA', 'CRAAL', 'CRACK', 'CRAIC', 'CRAIG', 'CRAMP', 'CRANK', 'CRAPY', 'CRAWL', 'CRAZY', 'CROAK', 'CRURA', 'CYMAR', 'DIARY', 'DINAR', 'DOBRA', 'DOUAR', 'DOURA', 'DOWAR', 'DRACK', 'DRACO', 'DRAFF', 'DRAIL', 'DRAIN', 'DRAMA', 'DRANK', 'DRAPY', 'DRAWL', 'DRAWN', 'DRYAD', 'DWARF', 'FILAR', 'FLAIR', 'FLARY', 'FLORA', 'FNARR', 'FRACK', 'FRAIL', 'FRAIM', 'FRANC', 'FRANK', 'FRAUD', 'FRIAR', 'FUBAR', 'GLAIR', 'GLARY', 'GLAUR', 'GNARL', 'GNARR', 'GOARY', 'GOBAR', 'GOURA', 'GRAAL', 'GRAFF', 'GRAIL', 'GRAIN', 'GRAIP', 'GRAMA', 'GRAMP', 'GRANA', 'GRAND', 'GRANO', 'GRAPH', 'GRAPY', 'GRAVY', 'GROAN', 'GROMA', 'GUARD', 'GULAR', 'HIJRA', 'HILAR', 'HOARD', 'HOARY', 'HYDRA', 'IMARI', 'IMBAR', 'INARM', 'INFRA', 'INVAR', 'IXORA', 'IZARD', 'JOWAR', 'JUMAR', 'KNARL', 'KNAUR', 'KOKRA', 'KOURA', 'KRAAL', 'KRANG', 'KRANZ', 'KRONA', 'LIARD', 'LIBRA', 'LIDAR', 'LOBAR', 'LUBRA', 'LUNAR', 'LYARD', 'LYCRA', 'MBARI', 'MBIRA', 'MICRA', 'MIKRA', 'MINAR', 'MOGAR', 'MOGRA', 'MOHAR', 'MOIRA', 'MOLAR', 'MOWRA', 'MUDAR', 'MUDRA', 'MYLAR', 'ORACH', 'ORACY', 'ORANG', 'ORGAN', 'ORGIA', 'ORIXA', 'ORVAL', 'OVARY', 'OWARI', 'PHARM', 'PICRA', 'PILAR', 'PLAUR', 'POLAR', 'PRAAM', 'PRAHU', 'PRANA', 'PRANG', 'PRANK', 'PRAWN', 'PRIAL', 'PRIAN', 'PRIMA', 'PROAL', 'PRORA', 'PRYAN', 'QUAIR', 'QUARK', 'QUARL', 'RHABD', 'RIKKA', 'RIKWA', 'RIOJA', 'RIVAL', 'RIYAL', 'ROACH', 'ROADY', 'ROAKY', 'ROANY', 'ROARY', 'ROGAN', 'ROHAN', 'ROJAK', 'ROLAG', 'ROMAL', 'ROMAN', 'ROWAN', 'ROYAL', 'RUACH', 'RUANA', 'RUBAI', 'RUBAN', 'RUGAL', 'RUMAL', 'RUMBA', 'RUPIA', 'ULNAR', 'UMBRA', 'UNARM', 'UNARY', 'UNBAR', 'URALI', 'URARI', 'URBAN', 'URBIA', 'URIAL', 'URMAN', 'URNAL', 'URUPA', 'VICAR', 'VOLAR', 'VRAIC', 'WHARF', 'WHAUR', 'WRACK', 'WRANG', 'WRAWL']
+287 candidate words remaining.
+Top 10 guesses: [('BRAAI', '4.634'), ('BROIL', '4.601'), ('MOANA', '4.596'), ('LOGIN', '4.596'), ('COLIN', '4.581'), ('GROIN', '4.579'), ('GRAAL', '4.570'), ('CRAAL', '4.564'), ('LIANA', '4.563'), ('COALA', '4.560')]
+Top entropy choice: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+Guess count low, choosing the word with highest entropy: 𝘽𝙍𝘼𝘼𝙄 with entropy: 4.6343
+
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 2.9950 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 8.164906926675688, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 2.9949819252333754, 'expected_info_gain': 4.634280696834034}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CRACK', 'CRAMP', 'CRANK', 'CRAPY', 'CRAWL', 'CRAZY', 'DRACK', 'DRACO', 'DRAFF', 'DRANK', 'DRAPY', 'DRAWL', 'DRAWN', 'FRACK', 'FRANC', 'FRANK', 'FRAUD', 'GRAFF', 'GRAMP', 'GRAND', 'GRANO', 'GRAPH', 'GRAPY', 'GRAVY', 'KRANG', 'KRANZ', 'ORACH', 'ORACY', 'ORANG', 'PRAHU', 'PRANG', 'PRANK', 'PRAWN', 'WRACK', 'WRANG', 'WRAWL']
+36 candidate words remaining.
+Top 10 guesses: [('CHYND', '3.906'), ('KNOWD', '3.856'), ('POWND', '3.848'), ('YCOND', '3.816'), ('DYKON', '3.704'), ('PONCY', '3.669'), ('PLONG', '3.662'), ('DOWNY', '3.613'), ('PLUCK', '3.593'), ('PLOCK', '3.582')]
+Top entropy choice: 𝘾𝙃𝙔𝙉𝘿 with entropy: 3.9058
+Using common exploratory word: 𝘿𝙊𝙒𝙉𝙔 with entropy: 3.6128
+
+Guess: 𝘿𝙊𝙒𝙉𝙔, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 2.3626 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.362570079384708, 'expected_info_gain': 4.634280696834034}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CRANK', 'FRANC', 'FRANK', 'KRANG', 'KRANZ', 'PRANG', 'PRANK']
+7 candidate words remaining.
+Top 10 guesses: [('GOPAK', '2.522'), ('GOPIK', '2.522'), ('FLACK', '2.522'), ('FLECK', '2.522'), ('FLICK', '2.522'), ('FLOCK', '2.522'), ('FRACK', '2.522'), ('FROCK', '2.522'), ('PLACK', '2.522'), ('PLECK', '2.522')]
+Top entropy choice: 𝙂𝙊𝙋𝘼𝙆 with entropy: 2.5216
+Guess count high, choosing a candidate with the highest entropy: 𝘾𝙍𝘼𝙉𝙆 with entropy: 2.2359
+
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FRANK', 'PRANK']
+2 candidate words remaining.
+Top 10 guesses: [('FRANK', '1.000'), ('PRANK', '1.000')]
+Top entropy choice: 𝙁𝙍𝘼𝙉𝙆 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙍𝘼𝙉𝙆 with entropy: 1.0000
+
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 2.2359263506290326}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PRANK']
+1 candidate words remaining.
+Top 10 guesses: [('PRANK', '0.000')]
+Top entropy choice: 𝙋𝙍𝘼𝙉𝙆 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙍𝘼𝙉𝙆 with entropy: 0.0000
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.634 bits, Actual Info Gain: 2.995 bits, Posterior Entropy: 5.170, 
+Guess: 𝘿𝙊𝙒𝙉𝙔, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 5.170, Expected Info Gain: 4.634 bits, Actual Info Gain: 2.363 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝘼𝙉𝙆, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

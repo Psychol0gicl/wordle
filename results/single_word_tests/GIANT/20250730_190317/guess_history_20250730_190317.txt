@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙄𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘼𝘾𝙏𝙊𝙉, Feedback: 🟨⬜🟨⬜🟨
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙄𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 6.229 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙄𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 6.229 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙄𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 7.229, Expected Info Gain: 4.636 bits, Actual Info Gain: 5.644 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙄𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙄𝘼𝙉𝘼, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 4.828 bits, Actual Info Gain: 6.229 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

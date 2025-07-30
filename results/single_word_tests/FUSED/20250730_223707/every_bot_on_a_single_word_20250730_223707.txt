@@ -1,0 +1,230 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: NOSED 
+The top ten guesses and scores: [('NOSED', 380), ('LOSED', 377), ('SOLED', 377), ('SINED', 376), ('SNIED', 376), ('ISLED', 373), ('SILED', 373), ('NUSED', 370), ('SYNED', 368), ('POSED', 367)]
+The bot finally chose: NOSED 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BUSED 
+The top ten guesses and scores: [('BUSED', 27), ('FUSED', 27), ('MUSED', 27), ('SUSED', 26), ('VISED', 25), ('WISED', 25), ('LYSED', 24)]
+The bot finally chose: FUSED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNEED with entropy: 3.9932
+Bot chose: SPEED with entropy: 3.7557
+Top ten guesses: [('SNEED', 3.9932494992704726), ('SNIED', 3.8476480319125232), ('SINED', 3.80217130344731), ('SEYEN', 3.789674242977272), ('SOLED', 3.7837935814981623), ('SPEED', 3.7557028453372197), ('NOSED', 3.7497774727162207), ('SILEN', 3.732939546253003), ('SILED', 3.728706939699338), ('INSEE', 3.7135418735835017)]
+
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 3.0255 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.025535092107137, 'expected_info_gain': 3.7557028453372197}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOSED with entropy: 1.8703
+Bot chose: NOSED with entropy: 1.8703
+Top ten guesses: [('LOSED', 1.870253816431622), ('MOSED', 1.870253816431622), ('NOSED', 1.870253816431622), ('MUSED', 1.7534343861887849), ('NUSED', 1.7534343861887849), ('DOSED', 1.5744174271404585), ('HOSED', 1.5744174271404585), ('COSED', 1.5744174271404583), ('ISLED', 1.483831706844689), ('BUSED', 1.4299111709758698)]
+
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.870253816431622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUSED with entropy: 1.4591
+Bot chose: FUSED with entropy: 1.4591
+Top ten guesses: [('BUSED', 1.4591479170272448), ('FUSED', 1.4591479170272448), ('MUSED', 1.4591479170272448), ('VISED', 1.2516291673878228), ('WISED', 1.2516291673878228), ('LYSED', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.870 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNEED with entropy: 3.9932
+Bot chose: SPEED with entropy: 3.7557
+Top ten guesses: [('SNEED', 3.9932494992704726), ('SNIED', 3.8476480319125232), ('SINED', 3.80217130344731), ('SEYEN', 3.789674242977272), ('SOLED', 3.7837935814981623), ('SPEED', 3.7557028453372197), ('NOSED', 3.7497774727162207), ('SILEN', 3.732939546253003), ('SILED', 3.728706939699338), ('INSEE', 3.7135418735835017)]
+
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩
+Actual Info Gain: 3.0255 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.025535092107137, 'expected_info_gain': 3.7557028453372197}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOSED with entropy: 1.8703
+Bot chose: NOSED with entropy: 1.8703
+Top ten guesses: [('LOSED', 1.870253816431622), ('MOSED', 1.870253816431622), ('NOSED', 1.870253816431622), ('MUSED', 1.7534343861887849), ('NUSED', 1.7534343861887849), ('DOSED', 1.5744174271404585), ('HOSED', 1.5744174271404585), ('COSED', 1.5744174271404583), ('ISLED', 1.483831706844689), ('BUSED', 1.4299111709758698)]
+
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.870253816431622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUSED with entropy: 1.4591
+Bot chose: FUSED with entropy: 1.4591
+Top ten guesses: [('BUSED', 1.4591479170272448), ('FUSED', 1.4591479170272448), ('MUSED', 1.4591479170272448), ('VISED', 1.2516291673878228), ('WISED', 1.2516291673878228), ('LYSED', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.870 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 214 potential guesses from 114 remaining candidates...
+Top 5 guesses: [('SNEED', '3.993'), ('WOULD', '3.948'), ('SNIED', '3.848'), ('SINED', '3.802'), ('SEYEN', '3.790')]
+Top entropy choice: 𝙎𝙉𝙀𝙀𝘿 with entropy: 3.9932
+Ended up choosing COMMON word: 𝙒𝙊𝙐𝙇𝘿 with entropy: 3.9480
+
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 4.2479 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.247927513443585, 'expected_info_gain': 3.948015877493437}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BUSED', '1.252'), ('FUSED', '1.252'), ('MUSED', '1.252'), ('NUSED', '1.252'), ('SUPED', '1.252')]
+Top entropy choice: 𝘽𝙐𝙎𝙀𝘿 with entropy: 1.2516
+Ended up choosing COMMON word: 𝙁𝙐𝙎𝙀𝘿 with entropy: 1.2516
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 6.833, Expected Info Gain: 3.948 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 7.0258 bits
+Posterior entropy: 6.832890014164741
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.832890014164741, 'actual_info_gain': 7.025770970558035, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESEE', 'BOSEY', 'BUSED', 'COSEC', 'COSED', 'COSEY', 'CUSEC', 'DESEX', 'DOSED', 'DOSEH', 'EISEL', 'ENSEW', 'FUSED', 'FUSEE', 'FUSEL', 'HOSED', 'HOSEL', 'HOSEN', 'HOSEY', 'INSEE', 'ISLED', 'ISSEI', 'LOSED', 'LOSEL', 'LOSEN', 'LYSED', 'MESEL', 'MESEM', 'MOSED', 'MOSEY', 'MUSED', 'MUSEE', 'NISEI', 'NOSED', 'NOSEY', 'NUSED', 'ONSEN', 'OUSEL', 'OWSEN', 'POSED', 'POSEY', 'SEMEE', 'SEMEN', 'SENEX', 'SESEY', 'SEVEN', 'SEWED', 'SEWEL', 'SEWEN', 'SEXED', 'SEYEN', 'SHEEL', 'SHEEN', 'SHEEP', 'SHIED', 'SHIEL', 'SHLEP', 'SHMEK', 'SHOED', 'SIDED', 'SIDEY', 'SILED', 'SILEN', 'SILEX', 'SINED', 'SINEW', 'SIPED', 'SIZED', 'SIZEL', 'SKEED', 'SKEEF', 'SKEEN', 'SKEEV', 'SKEEZ', 'SKIED', 'SKIEY', 'SKYED', 'SKYEY', 'SLEEK', 'SLEEP', 'SLUED', 'SMEEK', 'SNEED', 'SNIED', 'SNOEK', 'SNOEP', 'SOKEN', 'SOLED', 'SOLEI', 'SOOEY', 'SOWED', 'SPEED', 'SPEEL', 'SPIED', 'SPIEL', 'SPUED', 'SQUEE', 'SQUEG', 'SUJEE', 'SUPED', 'SUSED', 'SWEED', 'SWEEL', 'SWEEP', 'SYCEE', 'SYNED', 'SYPED', 'UNSEE', 'UNSEW', 'UNSEX', 'UPSEE', 'UPSEY', 'VISED', 'WISED']
+114 candidate words remaining.
+Top 10 guesses: [('SOLID', '4.301'), ('UNOLD', '4.270'), ('INDOL', '4.269'), ('SOLDI', '4.218'), ('DINLO', '4.213'), ('NOULD', '4.209'), ('LOUND', '4.209'), ('UNSOD', '4.201'), ('UNLID', '4.200'), ('SOUND', '4.188')]
+Top entropy choice: 𝙎𝙊𝙇𝙄𝘿 with entropy: 4.3013
+Guess count low, choosing the word with highest entropy: 𝙎𝙊𝙇𝙄𝘿 with entropy: 4.3013
+
+Guess: 𝙎𝙊𝙇𝙄𝘿, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 4.8329 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.832890014164741, 'posterior_entropy': 2.0, 'actual_info_gain': 4.832890014164741, 'expected_info_gain': 4.301344608838756}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BUSED', 'FUSED', 'MUSED', 'NUSED']
+4 candidate words remaining.
+Top 10 guesses: [('AMBAN', '2.000'), ('BONUM', '2.000'), ('BUMFS', '2.000'), ('FANUM', '2.000'), ('MABAN', '2.000'), ('MANEB', '2.000'), ('NABAM', '2.000'), ('NEEMB', '2.000'), ('NIMBI', '2.000'), ('NIMBS', '2.000')]
+Top entropy choice: 𝘼𝙈𝘽𝘼𝙉 with entropy: 2.0000
+
+Guess: 𝘼𝙈𝘽𝘼𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.0}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FUSED']
+1 candidate words remaining.
+Top 10 guesses: [('FUSED', '0.000')]
+Top entropy choice: 𝙁𝙐𝙎𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙐𝙎𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙊𝙇𝙄𝘿, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 6.833, Expected Info Gain: 4.301 bits, Actual Info Gain: 4.833 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙈𝘽𝘼𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

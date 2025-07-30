@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙊𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙍𝙊𝙒𝙉, Feedback: 🟩🟨🟨⬜🟨
+Guess: 𝘿𝙊𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙊𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 5.331 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝙊𝙐𝙉𝘿, Feedback: 🟨🟩⬜🟨🟨, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 5.331 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝙊𝙐𝙉𝘿, Feedback: 🟨🟩⬜🟨🟨, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 8.331, Expected Info Gain: 5.079 bits, Actual Info Gain: 5.524 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝙊𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 8.331, Expected Info Gain: 5.238 bits, Actual Info Gain: 6.746 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙊𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

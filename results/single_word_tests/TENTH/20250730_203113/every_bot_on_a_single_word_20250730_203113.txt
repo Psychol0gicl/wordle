@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙀𝙉𝙏𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THEIN 
+The top ten guesses and scores: [('THEIN', 233), ('THINE', 233), ('TEIND', 222), ('TENCH', 219), ('TWINE', 219), ('TELOI', 218), ('THOLE', 218), ('TOILE', 218), ('THEGN', 216), ('TINGE', 216)]
+The bot finally chose: THINE 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: TENCH 
+The top ten guesses and scores: [('TENCH', 10), ('TENTH', 9)]
+The bot finally chose: TENTH 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨
+Guess: 𝙏𝙀𝙉𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙀𝙉𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THINE with entropy: 4.1409
+Bot chose: THINE with entropy: 4.1409
+Top ten guesses: [('THINE', 4.140866221019572), ('TENUE', 3.704957392235639), ('TWINE', 3.61182908665667), ('THOLE', 3.5809451982211167), ('TEENY', 3.575454575640183), ('TEEND', 3.536943049902796), ('TENTH', 3.5369255600517038), ('TITHE', 3.530249584443105), ('TOILE', 3.5176849371454857), ('TEIND', 3.511834936145564)]
+
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 1.0, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 4.140866221019572}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TENCH with entropy: 1.0000
+Bot chose: TENTH with entropy: 1.0000
+Top ten guesses: [('TENCH', 1.0), ('TENTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 5.129 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙉𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙉𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THINE with entropy: 4.1409
+Bot chose: THINE with entropy: 4.1409
+Top ten guesses: [('THINE', 4.140866221019572), ('TENUE', 3.704957392235639), ('TWINE', 3.61182908665667), ('THOLE', 3.5809451982211167), ('TEENY', 3.575454575640183), ('TEEND', 3.536943049902796), ('TENTH', 3.5369255600517038), ('TITHE', 3.530249584443105), ('TOILE', 3.5176849371454857), ('TEIND', 3.511834936145564)]
+
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 1.0, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 4.140866221019572}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TENCH with entropy: 1.0000
+Bot chose: TENTH with entropy: 1.0000
+Top ten guesses: [('TENCH', 1.0), ('TENTH', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟨⬜🟨🟨, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 5.129 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙉𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙉𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 170 potential guesses from 70 remaining candidates...
+Top 5 guesses: [('PHONE', '4.214'), ('THINE', '4.141'), ('WHILE', '4.064'), ('DOING', '3.984'), ('WHOLE', '3.943')]
+Top entropy choice: 𝙋𝙃𝙊𝙉𝙀 with entropy: 4.2139
+Ended up choosing COMMON word: 𝙋𝙃𝙊𝙉𝙀 with entropy: 4.2139
+
+Guess: 𝙋𝙃𝙊𝙉𝙀, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 5.1293 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 1.0, 'actual_info_gain': 5.129283016944966, 'expected_info_gain': 4.213880159307601}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('TENCH', '1.000'), ('TENTH', '1.000')]
+Top entropy choice: 𝙏𝙀𝙉𝘾𝙃 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙏𝙀𝙉𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙋𝙃𝙊𝙉𝙀, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 6.129, Expected Info Gain: 4.214 bits, Actual Info Gain: 5.129 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙉𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙉𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TECHY', 'TECUM', 'TEDDY', 'TEEND', 'TEENE', 'TEENY', 'TEETH', 'TEIID', 'TEIND', 'TEKKE', 'TELCO', 'TELIC', 'TELLY', 'TELOI', 'TEMPI', 'TEMPO', 'TEMPT', 'TENCH', 'TENDU', 'TENGE', 'TENNE', 'TENNO', 'TENNY', 'TENON', 'TENTH', 'TENTY', 'TENUE', 'TEPID', 'TEPOY', 'TEUCH', 'TEUGH', 'TEWIT', 'THEBE', 'THEFT', 'THEGN', 'THEIC', 'THEIN', 'THELF', 'THEME', 'THEOW', 'THETE', 'THEWY', 'THINE', 'THOLE', 'THYME', 'TILDE', 'TINGE', 'TITHE', 'TITLE', 'TODDE', 'TOGUE', 'TOILE', 'TOMME', 'TONNE', 'TOPHE', 'TOQUE', 'TOUZE', 'TOWIE', 'TOWZE', 'TOZIE', 'TUFFE', 'TUILE', 'TULLE', 'TUPLE', 'TUQUE', 'TWICE', 'TWINE', 'TWITE', 'TYNDE', 'TYTHE']
+70 candidate words remaining.
+Top 10 guesses: [('CHINO', '4.438'), ('WHINE', '4.422'), ('CHINE', '4.411'), ('DHONI', '4.372'), ('OPINE', '4.290'), ('PEINE', '4.270'), ('LEONE', '4.265'), ('DIENE', '4.259'), ('WHINY', '4.221'), ('PHONE', '4.214')]
+Top entropy choice: 𝘾𝙃𝙄𝙉𝙊 with entropy: 4.4379
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙄𝙉𝙊 with entropy: 4.4379
+
+Guess: 𝘾𝙃𝙄𝙉𝙊, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.1293 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 0.0, 'actual_info_gain': 6.129283016944966, 'expected_info_gain': 4.437903690679148}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TENTH']
+1 candidate words remaining.
+Top 10 guesses: [('TENTH', '0.000')]
+Top entropy choice: 𝙏𝙀𝙉𝙏𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙀𝙉𝙏𝙃 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝘾𝙃𝙄𝙉𝙊, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 6.129, Expected Info Gain: 4.438 bits, Actual Info Gain: 6.129 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝙉𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

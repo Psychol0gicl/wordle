@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝘼𝙑𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SEPAL 
+The top ten guesses and scores: [('SEPAL', 335), ('SLANE', 335), ('SPALE', 335), ('SPEAL', 335), ('SNEAP', 332), ('SPANE', 332), ('SPEAN', 332), ('LEASH', 330), ('SELAH', 330), ('SHALE', 330)]
+The bot finally chose: LEASH 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SCALE 
+The top ten guesses and scores: [('SCALE', 29), ('SLADE', 29), ('SLAKE', 29), ('SLANE', 29), ('SLAVE', 29), ('SPALE', 29), ('SWALE', 29)]
+The bot finally chose: SCALE 
+Guess: 𝙎𝘾𝘼𝙇𝙀, Feedback: 🟩⬜🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SLADE 
+The top ten guesses and scores: [('SLADE', 17), ('SLAKE', 17), ('SLANE', 17), ('SLAVE', 17)]
+The bot finally chose: SLADE 
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SLAKE 
+The top ten guesses and scores: [('SLAKE', 13), ('SLANE', 13), ('SLAVE', 13)]
+The bot finally chose: SLAVE 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜
+Guess: 𝙎𝘾𝘼𝙇𝙀, Feedback: 🟩⬜🟩🟨🟩
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙇𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.3351 bits
+Posterior entropy: 6.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.523561956057013, 'actual_info_gain': 7.335099028665764, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPALE with entropy: 4.1867
+Bot chose: LEASH with entropy: 3.9881
+Top ten guesses: [('SPALE', 4.18667550626878), ('SEPAL', 4.175334662152025), ('SELAH', 4.021573975899748), ('SPANE', 3.990057434615709), ('LEASH', 3.9880944827708262), ('SLANE', 3.957571468238374), ('SHALE', 3.873880976254673), ('SEPAD', 3.8410125810126523), ('LEASE', 3.819646711621821), ('SEDAN', 3.7943751412455864)]
+
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜
+Actual Info Gain: 3.7162 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.523561956057013, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.716207033999409, 'expected_info_gain': 3.9880944827708262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLADE with entropy: 1.4488
+Bot chose: SLADE with entropy: 1.4488
+Top ten guesses: [('SLADE', 1.4488156357251847), ('SLAKE', 1.4488156357251847), ('SLANE', 1.4488156357251847), ('SLAVE', 1.4488156357251847), ('SCALE', 1.3787834934861753), ('SPALE', 1.3787834934861753), ('SWALE', 1.3787834934861753)]
+
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.4488156357251847}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLAKE with entropy: 0.9183
+Bot chose: SLAVE with entropy: 0.9183
+Top ten guesses: [('SLAKE', 0.9182958340544896), ('SLANE', 0.9182958340544896), ('SLAVE', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 3.716 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.449 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙑𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.3351 bits
+Posterior entropy: 6.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.523561956057013, 'actual_info_gain': 7.335099028665764, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPALE with entropy: 4.1867
+Bot chose: LEASH with entropy: 3.9881
+Top ten guesses: [('SPALE', 4.18667550626878), ('SEPAL', 4.175334662152025), ('SELAH', 4.021573975899748), ('SPANE', 3.990057434615709), ('LEASH', 3.9880944827708262), ('SLANE', 3.957571468238374), ('SHALE', 3.873880976254673), ('SEPAD', 3.8410125810126523), ('LEASE', 3.819646711621821), ('SEDAN', 3.7943751412455864)]
+
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜
+Actual Info Gain: 3.7162 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.523561956057013, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.716207033999409, 'expected_info_gain': 3.9880944827708262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLADE with entropy: 1.4488
+Bot chose: SLADE with entropy: 1.4488
+Top ten guesses: [('SLADE', 1.4488156357251847), ('SLAKE', 1.4488156357251847), ('SLANE', 1.4488156357251847), ('SLAVE', 1.4488156357251847), ('SCALE', 1.3787834934861753), ('SPALE', 1.3787834934861753), ('SWALE', 1.3787834934861753)]
+
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.4488156357251847}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLAKE with entropy: 0.9183
+Bot chose: SLAVE with entropy: 0.9183
+Top ten guesses: [('SLAKE', 0.9182958340544896), ('SLANE', 0.9182958340544896), ('SLAVE', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 3.716 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.449 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙑𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.3351 bits
+Posterior entropy: 6.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.523561956057013, 'actual_info_gain': 7.335099028665764, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 192 potential guesses from 92 remaining candidates...
+Top 5 guesses: [('SPALE', '4.187'), ('SEPAL', '4.175'), ('SELAH', '4.022'), ('SPANE', '3.990'), ('LEASH', '3.988')]
+Top entropy choice: 𝙎𝙋𝘼𝙇𝙀 with entropy: 4.1867
+Ended up choosing COMMON word: 𝙇𝙀𝘼𝙎𝙃 with entropy: 3.9881
+
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜
+Actual Info Gain: 3.7162 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.523561956057013, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.716207033999409, 'expected_info_gain': 3.9880944827708262}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SLADE', '1.449'), ('SLAKE', '1.449'), ('SLANE', '1.449'), ('SLAVE', '1.449'), ('SCALE', '1.379')]
+Top entropy choice: 𝙎𝙇𝘼𝘿𝙀 with entropy: 1.4488
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝘿𝙀 with entropy: 1.4488
+
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.4488156357251847}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SLAKE', '0.918'), ('SLANE', '0.918'), ('SLAVE', '0.918')]
+Top entropy choice: 𝙎𝙇𝘼𝙆𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝙑𝙀 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: 🟨🟨🟩🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 3.716 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙇𝘼𝘿𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.449 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙇𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙑𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Actual Info Gain: 7.3351 bits
+Posterior entropy: 6.523561956057013
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.523561956057013, 'actual_info_gain': 7.335099028665764, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABASE', 'ABUSE', 'AISLE', 'ALOSE', 'AMUSE', 'ANISE', 'ANSAE', 'ASIDE', 'ASPIE', 'AVISE', 'BEISA', 'BESAW', 'BLASE', 'CEASE', 'CHASE', 'DEASH', 'ECASH', 'ESSAY', 'FEASE', 'GEASA', 'ISNAE', 'LEASE', 'LEASH', 'LYASE', 'MEASE', 'MENSA', 'MESAD', 'MESAL', 'MESCA', 'MESIA', 'NEOSA', 'PEASE', 'PEASY', 'PHASE', 'PSOAE', 'SCALE', 'SCAPE', 'SCENA', 'SEAME', 'SEAMY', 'SEASE', 'SEAZE', 'SEDAN', 'SEIZA', 'SELAH', 'SELLA', 'SELVA', 'SENNA', 'SENSA', 'SENZA', 'SEPAD', 'SEPAL', 'SEPIA', 'SESSA', 'SEVAK', 'SEWAN', 'SHADE', 'SHAKE', 'SHALE', 'SHAME', 'SHAPE', 'SHAVE', 'SHEAF', 'SHEAL', 'SHEVA', 'SKEAN', 'SLADE', 'SLAKE', 'SLANE', 'SLAVE', 'SMAZE', 'SNAKE', 'SNEAD', 'SNEAK', 'SNEAP', 'SOAVE', 'SPACE', 'SPADE', 'SPAKE', 'SPALE', 'SPANE', 'SPEAK', 'SPEAL', 'SPEAN', 'SUAVE', 'SWAGE', 'SWALE', 'SWEAL', 'UKASE', 'USAGE', 'VESPA', 'YSAME']
+92 candidate words remaining.
+Top 10 guesses: [('SPALE', '4.187'), ('SPALD', '4.185'), ('SEPAL', '4.175'), ('SPILE', '4.141'), ('SLIPE', '4.102'), ('PLENE', '4.084'), ('PLANH', '4.068'), ('PLASH', '4.053'), ('PENAL', '4.043'), ('PENSE', '4.036')]
+Top entropy choice: 𝙎𝙋𝘼𝙇𝙀 with entropy: 4.1867
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙇𝙀 with entropy: 4.1867
+
+Guess: 𝙎𝙋𝘼𝙇𝙀, Feedback: 🟩⬜🟩🟨🟩
+Actual Info Gain: 4.5236 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.523561956057013, 'posterior_entropy': 2.0, 'actual_info_gain': 4.523561956057013, 'expected_info_gain': 4.18667550626878}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SLADE', 'SLAKE', 'SLANE', 'SLAVE']
+4 candidate words remaining.
+Top 10 guesses: [('DANKS', '2.000'), ('DAVEN', '2.000'), ('DEINK', '2.000'), ('DEVON', '2.000'), ('DINKS', '2.000'), ('DINKY', '2.000'), ('DIVAN', '2.000'), ('DIVNA', '2.000'), ('DONKO', '2.000'), ('DOVEN', '2.000')]
+Top entropy choice: 𝘿𝘼𝙉𝙆𝙎 with entropy: 2.0000
+Using common exploratory word: 𝘿𝙀𝙑𝙊𝙉 with entropy: 2.0000
+
+Guess: 𝘿𝙀𝙑𝙊𝙉, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.18667550626878}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SLAVE']
+1 candidate words remaining.
+Top 10 guesses: [('SLAVE', '0.000')]
+Top entropy choice: 𝙎𝙇𝘼𝙑𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙇𝘼𝙑𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙎𝙋𝘼𝙇𝙀, Feedback: 🟩⬜🟩🟨🟩, Prior Entropy: 6.524, Expected Info Gain: 4.187 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙀𝙑𝙊𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 4.187 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝘼𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

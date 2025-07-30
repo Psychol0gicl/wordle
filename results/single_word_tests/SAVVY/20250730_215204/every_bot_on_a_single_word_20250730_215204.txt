@@ -1,0 +1,312 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙑𝙑𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: PALSY 
+The top ten guesses and scores: [('PALSY', 415), ('BASIL', 413), ('SADLY', 411), ('SALON', 411), ('SAYON', 411), ('NASHI', 410), ('PANSY', 409), ('BASIN', 407), ('DAISY', 407), ('SABIN', 407)]
+The bot finally chose: PALSY 
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: DASHY 
+The top ten guesses and scores: [('DASHY', 49), ('GASHY', 48), ('MASHY', 48), ('WASHY', 46), ('HASHY', 45), ('SANDY', 44), ('SADDY', 43), ('SAVOY', 43), ('CASKY', 42), ('SAGGY', 42)]
+The bot finally chose: WASHY 
+Guess: 𝙒𝘼𝙎𝙃𝙔, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SANDY 
+The top ten guesses and scores: [('SANDY', 25), ('SAVOY', 25), ('SADDY', 24), ('SAVVY', 24), ('SAGGY', 23), ('SAMMY', 23), ('SAUCY', 23)]
+The bot finally chose: SANDY 
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SAVOY 
+The top ten guesses and scores: [('SAVOY', 19), ('SAVVY', 18), ('SAGGY', 17), ('SAMMY', 17), ('SAUCY', 17)]
+The bot finally chose: SAVOY 
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SAVVY 
+The top ten guesses and scores: [('SAVVY', 5)]
+The bot finally chose: SAVVY 
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙒𝘼𝙎𝙃𝙔, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝘼𝙑𝙑𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙑𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.0553 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 5.0, 'actual_info_gain': 2.05528243550119, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAYID with entropy: 2.8408
+Bot chose: SANDY with entropy: 2.7252
+Top ten guesses: [('SAYID', 2.8408255021937237), ('SAYON', 2.7620158956199643), ('SANDY', 2.7251878900165245), ('SABIN', 2.611800487888431), ('SAUCY', 2.5075874753050806), ('SADIC', 2.49646456442329), ('SANGO', 2.492445131143149), ('SAVIN', 2.4585938348528806), ('SADHU', 2.3667292966721747), ('SAPID', 2.3514097655573916)]
+
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.7251878900165245}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAVOY with entropy: 1.2516
+Bot chose: SAVOY with entropy: 1.2516
+Top ten guesses: [('SAVOY', 1.2516291673878228), ('SAVVY', 1.2516291673878228), ('SAGGY', 0.6500224216483541), ('SAMMY', 0.6500224216483541), ('SAPPY', 0.6500224216483541), ('SAUCY', 0.6500224216483541)]
+
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAVVY with entropy: 0.0000
+Bot chose: SAVVY with entropy: 0.0000
+Top ten guesses: [('SAVVY', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 2.055 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙑𝙑𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙑𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.0553 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 5.0, 'actual_info_gain': 2.05528243550119, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAYID with entropy: 2.8408
+Bot chose: SANDY with entropy: 2.7252
+Top ten guesses: [('SAYID', 2.8408255021937237), ('SAYON', 2.7620158956199643), ('SANDY', 2.7251878900165245), ('SABIN', 2.611800487888431), ('SAUCY', 2.5075874753050806), ('SADIC', 2.49646456442329), ('SANGO', 2.492445131143149), ('SAVIN', 2.4585938348528806), ('SADHU', 2.3667292966721747), ('SAPID', 2.3514097655573916)]
+
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.7251878900165245}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAVOY with entropy: 1.2516
+Bot chose: SAVOY with entropy: 1.2516
+Top ten guesses: [('SAVOY', 1.2516291673878228), ('SAVVY', 1.2516291673878228), ('SAGGY', 0.6500224216483541), ('SAMMY', 0.6500224216483541), ('SAPPY', 0.6500224216483541), ('SAUCY', 0.6500224216483541)]
+
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAVVY with entropy: 0.0000
+Bot chose: SAVVY with entropy: 0.0000
+Top ten guesses: [('SAVVY', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 2.055 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙑𝙑𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙑𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 233 potential guesses from 133 remaining candidates...
+Top 5 guesses: [('SALSA', '3.788'), ('SANSA', '3.763'), ('SALPA', '3.706'), ('SABAL', '3.680'), ('BASAN', '3.665')]
+Top entropy choice: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 2.0553 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 5.0, 'actual_info_gain': 2.05528243550119, 'expected_info_gain': 3.7880709110231163}
+----------
+The bot is making a guess...
+Evaluating 32 potential guesses from 32 remaining candidates...
+Top 5 guesses: [('SAYID', '2.841'), ('SAYON', '2.762'), ('SANDY', '2.725'), ('SABIN', '2.612'), ('SAUCY', '2.508')]
+Top entropy choice: 𝙎𝘼𝙔𝙄𝘿 with entropy: 2.8408
+Ended up choosing COMMON word: 𝙎𝘼𝙉𝘿𝙔 with entropy: 2.7252
+
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 2.7251878900165245}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('SAVOY', '1.252'), ('SAVVY', '1.252'), ('SAGGY', '0.650'), ('SAMMY', '0.650'), ('SAPPY', '0.650')]
+Top entropy choice: 𝙎𝘼𝙑𝙊𝙔 with entropy: 1.2516
+Ended up choosing COMMON word: 𝙎𝘼𝙑𝙊𝙔 with entropy: 1.2516
+
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 1.2516291673878228}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SAVVY', '0.000')]
+Top entropy choice: 𝙎𝘼𝙑𝙑𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝘼𝙑𝙑𝙔 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 2.055 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘼𝙑𝙊𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙑𝙑𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙑𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAGSY', 'BAISA', 'BALSA', 'BASAL', 'BASAN', 'BASHA', 'BASHO', 'BASIC', 'BASIJ', 'BASIL', 'BASIN', 'BASON', 'BASSI', 'BASSO', 'BASSY', 'CANSO', 'CASCO', 'CASKY', 'CAUSA', 'DAISY', 'DASHI', 'DASHY', 'FALSY', 'FASCI', 'GADSO', 'GASHY', 'GASPY', 'GASSY', 'GAWSY', 'HALSH', 'HANSA', 'HASHY', 'KASHA', 'LAKSA', 'LASSI', 'LASSO', 'LASSU', 'LASSY', 'LAWSY', 'MANSO', 'MASHA', 'MASHY', 'MASON', 'MASSA', 'MASSY', 'MAUSY', 'NASAL', 'NASHI', 'NASHO', 'NASON', 'OASAL', 'PAISA', 'PALSA', 'PALSY', 'PANSY', 'PASAG', 'PASCH', 'PASHA', 'PASHM', 'PASKA', 'PASMO', 'PASPY', 'PASSU', 'PAYSD', 'SABAL', 'SABHA', 'SABIN', 'SABJI', 'SABZI', 'SADDO', 'SADDY', 'SADHU', 'SADIC', 'SADLY', 'SADZA', 'SAGGY', 'SAGUM', 'SAHAB', 'SAHIB', 'SAICK', 'SAIGA', 'SAJOU', 'SAKAI', 'SAKIA', 'SALAD', 'SALAL', 'SALIC', 'SALIX', 'SALLY', 'SALMI', 'SALOL', 'SALON', 'SALOP', 'SALPA', 'SALSA', 'SALUD', 'SALVO', 'SAMAN', 'SAMBA', 'SAMBO', 'SAMFI', 'SAMFU', 'SAMMY', 'SAMPI', 'SANAD', 'SANDY', 'SANGA', 'SANGH', 'SANGO', 'SANKO', 'SANSA', 'SAOLA', 'SAPAN', 'SAPID', 'SAPPY', 'SASIN', 'SASSY', 'SAUBA', 'SAUCH', 'SAUCY', 'SAUGH', 'SAUNA', 'SAUNF', 'SAVIN', 'SAVOY', 'SAVVY', 'SAWAH', 'SAYID', 'SAYON', 'VASAL', 'WASHI', 'WASHY', 'WASPY']
+133 candidate words remaining.
+Top 10 guesses: [('LYSIN', '4.282'), ('SYBIL', '4.252'), ('LOSSY', '4.134'), ('SHILY', '4.113'), ('SYLIS', '4.112'), ('SONSY', '4.104'), ('SIBYL', '4.099'), ('SPOIL', '4.098'), ('SHINY', '4.092'), ('BYSSI', '4.090')]
+Top entropy choice: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+Guess count low, choosing the word with highest entropy: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 3.5959 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.5958508168638925, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAGSY', 'GAWSY', 'MAUSY', 'PAYSD', 'SADDY', 'SAGGY', 'SAMMY', 'SAPPY', 'SAUCY', 'SAVOY', 'SAVVY']
+11 candidate words remaining.
+Top 10 guesses: [('GOMPA', '2.845'), ('GUMPS', '2.845'), ('MIGOD', '2.845'), ('MODGE', '2.845'), ('MUDGE', '2.845'), ('GUMBO', '2.732'), ('GADSO', '2.732'), ('GODSO', '2.732'), ('MOGGY', '2.732'), ('MUGGY', '2.732')]
+Top entropy choice: 𝙂𝙊𝙈𝙋𝘼 with entropy: 2.8454
+Using common exploratory word: 𝙂𝙐𝙈𝘽𝙊 with entropy: 2.7322
+
+Guess: 𝙂𝙐𝙈𝘽𝙊, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 1.4594 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.0, 'actual_info_gain': 1.4594316186372973, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PAYSD', 'SADDY', 'SAPPY', 'SAVVY']
+4 candidate words remaining.
+Top 10 guesses: [('ADAPT', '2.000'), ('ADEPT', '2.000'), ('ADOPT', '2.000'), ('ADRIP', '2.000'), ('AMPED', '2.000'), ('APAID', '2.000'), ('APAYD', '2.000'), ('APHID', '2.000'), ('APODE', '2.000'), ('APODS', '2.000')]
+Top entropy choice: 𝘼𝘿𝘼𝙋𝙏 with entropy: 2.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙎𝘼𝙋𝙋𝙔 with entropy: 1.5000
+
+Guess: 𝙎𝘼𝙋𝙋𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SADDY', 'SAVVY']
+2 candidate words remaining.
+Top 10 guesses: [('SADDY', '1.000'), ('SAVVY', '1.000')]
+Top entropy choice: 𝙎𝘼𝘿𝘿𝙔 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙎𝘼𝙑𝙑𝙔 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.596 bits, Posterior Entropy: 3.459, 
+Guess: 𝙂𝙐𝙈𝘽𝙊, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.459, Expected Info Gain: 4.282 bits, Actual Info Gain: 1.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝘼𝙋𝙋𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝙑𝙑𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

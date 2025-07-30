@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.870 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙋𝙀𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 6.833, Expected Info Gain: 3.756 bits, Actual Info Gain: 3.026 bits, Posterior Entropy: 3.807, 
+Guess: 𝙉𝙊𝙎𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.870 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 6.833, Expected Info Gain: 3.948 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝙎𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.026 bits, Posterior Entropy: 6.833, 
+Guess: 𝙎𝙊𝙇𝙄𝘿, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 6.833, Expected Info Gain: 4.301 bits, Actual Info Gain: 4.833 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙈𝘽𝘼𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙐𝙎𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

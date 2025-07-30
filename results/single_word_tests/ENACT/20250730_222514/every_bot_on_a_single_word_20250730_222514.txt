@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙉𝘼𝘾𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LEANT 
+The top ten guesses and scores: [('LEANT', 301), ('LEAPT', 294), ('LEPTA', 294), ('PELTA', 294), ('PETAL', 294), ('PLATE', 294), ('PLEAT', 294), ('AHENT', 291), ('ETHAL', 291), ('NEATH', 291)]
+The bot finally chose: LEAPT 
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ENACT 
+The top ten guesses and scores: [('ENACT', 9), ('EXACT', 9)]
+The bot finally chose: ENACT 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙉𝘼𝘾𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+Actual Info Gain: 7.5188 bits
+Posterior entropy: 6.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.339850002884624, 'actual_info_gain': 7.518810981838152, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEANT with entropy: 4.2173
+Bot chose: LEAPT with entropy: 4.1593
+Top ten guesses: [('LEANT', 4.217349936796832), ('LEAPT', 4.159329350596985), ('ALATE', 4.080323648369338), ('PLATE', 4.060315510634477), ('MEANT', 3.9681695548517504), ('BLATE', 3.964101202194316), ('NEATO', 3.951677973301612), ('ELATE', 3.9330857284711755), ('NEATH', 3.913145161714841), ('PELTA', 3.8959323277576394)]
+
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩
+Actual Info Gain: 5.3399 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.339850002884624, 'posterior_entropy': 1.0, 'actual_info_gain': 5.339850002884624, 'expected_info_gain': 4.159329350596985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ENACT with entropy: 1.0000
+Bot chose: ENACT with entropy: 1.0000
+Top ten guesses: [('ENACT', 1.0), ('EXACT', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.519 bits, Posterior Entropy: 6.340, 
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 6.340, Expected Info Gain: 4.159 bits, Actual Info Gain: 5.340 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙉𝘼𝘾𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+Actual Info Gain: 7.5188 bits
+Posterior entropy: 6.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.339850002884624, 'actual_info_gain': 7.518810981838152, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEANT with entropy: 4.2173
+Bot chose: LEAPT with entropy: 4.1593
+Top ten guesses: [('LEANT', 4.217349936796832), ('LEAPT', 4.159329350596985), ('ALATE', 4.080323648369338), ('PLATE', 4.060315510634477), ('MEANT', 3.9681695548517504), ('BLATE', 3.964101202194316), ('NEATO', 3.951677973301612), ('ELATE', 3.9330857284711755), ('NEATH', 3.913145161714841), ('PELTA', 3.8959323277576394)]
+
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩
+Actual Info Gain: 5.3399 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.339850002884624, 'posterior_entropy': 1.0, 'actual_info_gain': 5.339850002884624, 'expected_info_gain': 4.159329350596985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ENACT with entropy: 1.0000
+Bot chose: ENACT with entropy: 1.0000
+Top ten guesses: [('ENACT', 1.0), ('EXACT', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.519 bits, Posterior Entropy: 6.340, 
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 6.340, Expected Info Gain: 4.159 bits, Actual Info Gain: 5.340 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙉𝘼𝘾𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+Actual Info Gain: 7.5188 bits
+Posterior entropy: 6.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.339850002884624, 'actual_info_gain': 7.518810981838152, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 180 potential guesses from 81 remaining candidates...
+Top 5 guesses: [('LEANT', '4.217'), ('LEAPT', '4.159'), ('ALATE', '4.080'), ('PLATE', '4.060'), ('MEANT', '3.968')]
+Top entropy choice: 𝙇𝙀𝘼𝙉𝙏 with entropy: 4.2173
+Ended up choosing COMMON word: 𝙇𝙀𝘼𝙋𝙏 with entropy: 4.1593
+
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩
+Actual Info Gain: 5.3399 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.339850002884624, 'posterior_entropy': 1.0, 'actual_info_gain': 5.339850002884624, 'expected_info_gain': 4.159329350596985}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('ENACT', '1.000'), ('EXACT', '1.000')]
+Top entropy choice: 𝙀𝙉𝘼𝘾𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙀𝙉𝘼𝘾𝙏 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.519 bits, Posterior Entropy: 6.340, 
+Guess: 𝙇𝙀𝘼𝙋𝙏, Feedback: ⬜🟨🟩⬜🟩, Prior Entropy: 6.340, Expected Info Gain: 4.159 bits, Actual Info Gain: 5.340 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙉𝘼𝘾𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜
+Actual Info Gain: 7.5188 bits
+Posterior entropy: 6.339850002884624
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.339850002884624, 'actual_info_gain': 7.518810981838152, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABATE', 'ABEAT', 'ACETA', 'ACUTE', 'ADEPT', 'AGATE', 'AGENT', 'AHENT', 'ALATE', 'ALEFT', 'AMATE', 'AMENT', 'ANENT', 'ANTAE', 'ATOKE', 'ATONE', 'AWETO', 'AXITE', 'AZOTE', 'BEATH', 'BEATY', 'BEAUT', 'BEGAT', 'BEPAT', 'BETTA', 'BLATE', 'BLEAT', 'CHEAT', 'CLEAT', 'COATE', 'DEALT', 'DEATH', 'DEFAT', 'DELTA', 'DETAG', 'ECLAT', 'ELATE', 'ENACT', 'ENATE', 'ENTIA', 'EPACT', 'ETAGE', 'ETAPE', 'ETHAL', 'ETYMA', 'EXACT', 'EXALT', 'EXEAT', 'EXPAT', 'FETAL', 'FETTA', 'FETWA', 'HEATH', 'HEATY', 'LEANT', 'LEAPT', 'LEPTA', 'MEANT', 'MEATH', 'MEATY', 'MENTA', 'METAL', 'METTA', 'NEANT', 'NEATH', 'NEATO', 'NENTA', 'NETTA', 'OLATE', 'OVATE', 'PEATY', 'PELTA', 'PETAL', 'PIETA', 'PLATE', 'PLEAT', 'POTAE', 'QUATE', 'VITAE', 'WHEAT', 'YENTA']
+81 candidate words remaining.
+Top 10 guesses: [('LEANT', '4.217'), ('PLANE', '4.209'), ('LEAPT', '4.159'), ('PLANT', '4.109'), ('ALANT', '4.106'), ('PLANH', '4.101'), ('ALATE', '4.080'), ('PLATE', '4.060'), ('PLANC', '4.035'), ('PENAL', '4.002')]
+Top entropy choice: 𝙇𝙀𝘼𝙉𝙏 with entropy: 4.2173
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝘼𝙉𝙏 with entropy: 4.2173
+
+Guess: 𝙇𝙀𝘼𝙉𝙏, Feedback: ⬜🟨🟩🟨🟩
+Actual Info Gain: 6.3399 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.339850002884624, 'posterior_entropy': 0.0, 'actual_info_gain': 6.339850002884624, 'expected_info_gain': 4.217349936796832}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ENACT']
+1 candidate words remaining.
+Top 10 guesses: [('ENACT', '0.000')]
+Top entropy choice: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙀𝙉𝘼𝘾𝙏 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.519 bits, Posterior Entropy: 6.340, 
+Guess: 𝙇𝙀𝘼𝙉𝙏, Feedback: ⬜🟨🟩🟨🟩, Prior Entropy: 6.340, Expected Info Gain: 4.217 bits, Actual Info Gain: 6.340 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙉𝘼𝘾𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

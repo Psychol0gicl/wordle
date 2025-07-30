@@ -1,0 +1,69 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙑𝙄𝙋𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙄𝙉𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙄𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙄𝙓𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 2.905 bits, Posterior Entropy: 5.358, 
+Guess: 𝙇𝙄𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.358, Expected Info Gain: 2.059 bits, Actual Info Gain: 0.898 bits, Posterior Entropy: 4.459, 
+Guess: 𝙁𝙄𝙉𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.459, Expected Info Gain: 1.934 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙄𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.686 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙄𝙋𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 2.905 bits, Posterior Entropy: 5.358, 
+Guess: 𝙇𝙄𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.358, Expected Info Gain: 2.059 bits, Actual Info Gain: 0.898 bits, Posterior Entropy: 4.459, 
+Guess: 𝙁𝙄𝙉𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.459, Expected Info Gain: 1.934 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.459, 
+Guess: 𝘽𝙄𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.686 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙄𝙋𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.029 bits, Actual Info Gain: 3.053 bits, Posterior Entropy: 5.209, 
+Guess: 𝙇𝙄𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.209, Expected Info Gain: 2.655 bits, Actual Info Gain: 1.122 bits, Posterior Entropy: 4.087, 
+Guess: 𝙁𝙄𝘽𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 1.731 bits, Actual Info Gain: 0.628 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙄𝙋𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 1.790 bits, Actual Info Gain: 1.138 bits, Posterior Entropy: 2.322, 
+Guess: 𝙈𝙄𝙓𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙄𝙓𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.424 bits, Actual Info Gain: 3.262 bits, Posterior Entropy: 5.000, 
+Guess: 𝙍𝙄𝙑𝘼𝙇, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 4.424 bits, Actual Info Gain: 1.830 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝘼𝙁𝙏𝘼, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 4.424 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙄𝙓𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

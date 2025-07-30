@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙄𝙏𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: OILET 
+The top ten guesses and scores: [('OILET', 289), ('NOTED', 286), ('OUTED', 286), ('BOLET', 284), ('BOTEL', 284), ('MOTED', 283), ('MOTEL', 283), ('LITED', 282), ('OUTEN', 280), ('LUTED', 279)]
+The bot finally chose: NOTED 
+Guess: 𝙉𝙊𝙏𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: LITED 
+The top ten guesses and scores: [('LITED', 48), ('WITED', 47), ('CITED', 46), ('KITED', 46), ('DITED', 45), ('LUTED', 45), ('LYTED', 45), ('MUTED', 44), ('WYTED', 44), ('METED', 42)]
+The bot finally chose: CITED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝙉𝙊𝙏𝙀𝘿, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙄𝙏𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OILET with entropy: 3.9013
+Bot chose: MOTEL with entropy: 3.6878
+Top ten guesses: [('OILET', 3.9013353391501253), ('BOLET', 3.9004138771819257), ('BOTEL', 3.812386432365513), ('MOTEL', 3.6877504011474533), ('OUTED', 3.676068005627605), ('OUTEN', 3.660920876492079), ('NOTED', 3.6022843213430993), ('LUNET', 3.571808829096409), ('INLET', 3.571710790946484), ('MOTEN', 3.5617821422831097)]
+
+Guess: 𝙈𝙊𝙏𝙀𝙇, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 3.6877504011474533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CITED with entropy: 2.6258
+Bot chose: CITED with entropy: 2.6258
+Top ten guesses: [('CITED', 2.6258145836939115), ('WITED', 2.4591479170272446), ('BETED', 2.4508257945180882), ('CITEE', 2.4508257945180882), ('DITED', 2.2295739585136225), ('KITED', 2.2295739585136225), ('FETED', 2.221251836004466), ('BITEY', 2.125814583693911), ('WYTED', 2.054585169337799), ('CUTEY', 1.780672129520887)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙈𝙊𝙏𝙀𝙇, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 6.508, Expected Info Gain: 3.688 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙄𝙏𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: OILET with entropy: 3.9013
+Bot chose: MOTEL with entropy: 3.6878
+Top ten guesses: [('OILET', 3.9013353391501253), ('BOLET', 3.9004138771819257), ('BOTEL', 3.812386432365513), ('MOTEL', 3.6877504011474533), ('OUTED', 3.676068005627605), ('OUTEN', 3.660920876492079), ('NOTED', 3.6022843213430993), ('LUNET', 3.571808829096409), ('INLET', 3.571710790946484), ('MOTEN', 3.5617821422831097)]
+
+Guess: 𝙈𝙊𝙏𝙀𝙇, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 3.6877504011474533}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CITED with entropy: 2.6258
+Bot chose: CITED with entropy: 2.6258
+Top ten guesses: [('CITED', 2.6258145836939115), ('WITED', 2.4591479170272446), ('BETED', 2.4508257945180882), ('CITEE', 2.4508257945180882), ('DITED', 2.2295739585136225), ('KITED', 2.2295739585136225), ('FETED', 2.221251836004466), ('BITEY', 2.125814583693911), ('WYTED', 2.054585169337799), ('CUTEY', 1.780672129520887)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙈𝙊𝙏𝙀𝙇, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 6.508, Expected Info Gain: 3.688 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙄𝙏𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 190 potential guesses from 91 remaining candidates...
+Top 5 guesses: [('COULD', '4.230'), ('UNTIL', '4.071'), ('WOULD', '4.070'), ('DOING', '3.974'), ('OILET', '3.901')]
+Top entropy choice: 𝘾𝙊𝙐𝙇𝘿 with entropy: 4.2303
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙇𝘿 with entropy: 4.2303
+
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 6.5078 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 0.0, 'actual_info_gain': 6.507794640198696, 'expected_info_gain': 4.230307763156051}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CITED', '0.000')]
+Top entropy choice: 𝘾𝙄𝙏𝙀𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝙄𝙏𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 6.508, Expected Info Gain: 4.230 bits, Actual Info Gain: 6.508 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙄𝙏𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEGET', 'BENET', 'BETED', 'BETEL', 'BEWET', 'BIDET', 'BITEY', 'BLUET', 'BOLET', 'BOTEH', 'BOTEL', 'BOTEW', 'BOWET', 'BUTEO', 'CHEET', 'CITED', 'CITEE', 'CIVET', 'COMET', 'COTED', 'COVET', 'CULET', 'CUTEY', 'DENET', 'DITED', 'DOTED', 'DUVET', 'EBBET', 'ELEET', 'EMMET', 'ETWEE', 'FETED', 'FILET', 'FLEET', 'FOUET', 'FUMET', 'GENET', 'GILET', 'GLEET', 'GODET', 'GULET', 'HOTEL', 'HOTEN', 'INLET', 'INTEL', 'JETEE', 'KIMET', 'KITED', 'LICET', 'LITED', 'LITEM', 'LUNET', 'LUTED', 'LYTED', 'METED', 'METEG', 'METEL', 'MITEY', 'MOTED', 'MOTEL', 'MOTEN', 'MOTET', 'MOTEY', 'MUTED', 'NIPET', 'NONET', 'NOTED', 'OBJET', 'OCTET', 'OFTEN', 'OILET', 'ONCET', 'OPTED', 'OUTED', 'OUTEN', 'OWLET', 'PIPET', 'POTED', 'QUIET', 'UNGET', 'UNKET', 'UNLET', 'UNMET', 'UNWET', 'UPJET', 'VITEX', 'VOLET', 'VOTED', 'WITED', 'WYTED', 'ZIBET']
+91 candidate words remaining.
+Top 10 guesses: [('DOILT', '4.430'), ('LOUND', '4.420'), ('MOULD', '4.396'), ('NOULD', '4.383'), ('DOLCI', '4.351'), ('MOULT', '4.308'), ('BOULT', '4.293'), ('MOUND', '4.284'), ('DONUT', '4.283'), ('LOTIC', '4.267')]
+Top entropy choice: 𝘿𝙊𝙄𝙇𝙏 with entropy: 4.4301
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙄𝙇𝙏 with entropy: 4.4301
+
+Guess: 𝘿𝙊𝙄𝙇𝙏, Feedback: 🟨⬜🟨⬜🟨
+Actual Info Gain: 4.9228 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.92283213947754, 'expected_info_gain': 4.430062736390321}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CITED', 'KITED', 'WITED']
+3 candidate words remaining.
+Top 10 guesses: [('CITED', '0.918'), ('KITED', '0.918'), ('WITED', '0.918')]
+Top entropy choice: 𝘾𝙄𝙏𝙀𝘿 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙄𝙏𝙀𝘿 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝘿𝙊𝙄𝙇𝙏, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 6.508, Expected Info Gain: 4.430 bits, Actual Info Gain: 4.923 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙄𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,261 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: PISTE 
+The top ten guesses and scores: [('PISTE', 362), ('SPITE', 362), ('STIPE', 362), ('NEIST', 361), ('SENTI', 361), ('SIENT', 361), ('STEIN', 361), ('SEITY', 360), ('ISTLE', 359), ('STEIL', 359)]
+The bot finally chose: SPITE 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: GOEST 
+The top ten guesses and scores: [('GOEST', 56), ('ESCOT', 54), ('ESTOC', 54), ('BESOT', 53), ('GHEST', 53), ('GUEST', 53), ('DOEST', 52), ('CHEST', 51), ('EGEST', 51), ('GEEST', 51)]
+The bot finally chose: GUEST 
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BLEST 
+The top ten guesses and scores: [('BLEST', 19), ('CHEST', 19), ('DOEST', 19), ('EWEST', 19), ('WEEST', 19)]
+The bot finally chose: CHEST 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘾𝙃𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 2.8509 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 2.8508565606941905, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EGEST with entropy: 2.8963
+Bot chose: EGEST with entropy: 2.8963
+Top ten guesses: [('EGEST', 2.8962915290459277), ('GEEST', 2.8962915290459277), ('GHEST', 2.495602923729013), ('GOEST', 2.495602923729013), ('GUEST', 2.495602923729013), ('ESCOT', 2.4137995646056805), ('ESTOC', 2.4137995646056805), ('BESOT', 2.41379956460568), ('EWEST', 2.403677461028802), ('WEEST', 2.403677461028802)]
+
+Guess: 𝙀𝙂𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.8962915290459277}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLEST with entropy: 0.8113
+Bot chose: CHEST with entropy: 0.8113
+Top ten guesses: [('BLEST', 0.8112781244591328), ('CHEST', 0.8112781244591328), ('DOEST', 0.8112781244591328), ('QUEST', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.851 bits, Posterior Entropy: 3.807, 
+Guess: 𝙀𝙂𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 2.896 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 2.8509 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 2.8508565606941905, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EGEST with entropy: 2.8963
+Bot chose: EGEST with entropy: 2.8963
+Top ten guesses: [('EGEST', 2.8962915290459277), ('GEEST', 2.8962915290459277), ('GHEST', 2.495602923729013), ('GOEST', 2.495602923729013), ('GUEST', 2.495602923729013), ('ESCOT', 2.4137995646056805), ('ESTOC', 2.4137995646056805), ('BESOT', 2.41379956460568), ('EWEST', 2.403677461028802), ('WEEST', 2.403677461028802)]
+
+Guess: 𝙀𝙂𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.8962915290459277}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BLEST with entropy: 0.8113
+Bot chose: CHEST with entropy: 0.8113
+Top ten guesses: [('BLEST', 0.8112781244591328), ('CHEST', 0.8112781244591328), ('DOEST', 0.8112781244591328), ('QUEST', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.851 bits, Posterior Entropy: 3.807, 
+Guess: 𝙀𝙂𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 2.896 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 201 potential guesses from 101 remaining candidates...
+Top 5 guesses: [('SPITE', '4.201'), ('SUITE', '4.139'), ('POINT', '4.076'), ('STIPE', '4.044'), ('SHITE', '4.014')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 2.8509 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 2.8508565606941905, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+Evaluating 14 potential guesses from 14 remaining candidates...
+Top 5 guesses: [('EGEST', '2.896'), ('GEEST', '2.896'), ('GHEST', '2.496'), ('GOEST', '2.496'), ('GUEST', '2.496')]
+Top entropy choice: 𝙀𝙂𝙀𝙎𝙏 with entropy: 2.8963
+Ended up choosing COMMON word: 𝙂𝙐𝙀𝙎𝙏 with entropy: 2.4956
+
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.485426827170242, 'expected_info_gain': 2.495602923729013}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('EWEST', '1.371'), ('WEEST', '1.371'), ('BLEST', '0.722'), ('CHEST', '0.722'), ('DOEST', '0.722')]
+Top entropy choice: 𝙀𝙒𝙀𝙎𝙏 with entropy: 1.3710
+
+Guess: 𝙀𝙒𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BLEST', '0.918'), ('CHEST', '0.918'), ('DOEST', '0.918')]
+Top entropy choice: 𝘽𝙇𝙀𝙎𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝙃𝙀𝙎𝙏 with entropy: 0.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.851 bits, Posterior Entropy: 3.807, 
+Guess: 𝙂𝙐𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 2.496 bits, Actual Info Gain: 1.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙀𝙒𝙀𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙃𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESIT', 'BESOT', 'BESTI', 'BLEST', 'CESTI', 'CHEST', 'COSTE', 'DEIST', 'DOEST', 'EGEST', 'ESCOT', 'ESTOC', 'ESTOP', 'EWEST', 'EXIST', 'FEIST', 'FESTY', 'FIEST', 'GEEST', 'GEIST', 'GESTE', 'GHEST', 'GOEST', 'GUEST', 'HEIST', 'ISTLE', 'JUSTE', 'MESTO', 'MOSTE', 'NEIST', 'NESTY', 'PESTO', 'PESTY', 'PISTE', 'POSTE', 'QUEST', 'SCENT', 'SCOTE', 'SCUTE', 'SEITY', 'SENTE', 'SENTI', 'SETON', 'SETUP', 'SEXTO', 'SHENT', 'SHITE', 'SHOTE', 'SHUTE', 'SIENT', 'SIETH', 'SITHE', 'SIXTE', 'SKITE', 'SKYTE', 'SLEPT', 'SMELT', 'SMITE', 'SMOTE', 'SOOTE', 'SPECT', 'SPELT', 'SPENT', 'SPITE', 'STEDD', 'STEDE', 'STEIK', 'STEIL', 'STEIN', 'STELE', 'STELL', 'STEME', 'STEND', 'STENO', 'STENT', 'STEPT', 'STEWY', 'STILE', 'STIME', 'STIPE', 'STIVE', 'STOKE', 'STOLE', 'STONE', 'STOPE', 'STOVE', 'STUDE', 'STUPE', 'STYLE', 'STYME', 'STYTE', 'SUENT', 'SUETE', 'SUETY', 'SUITE', 'SWELT', 'SWEPT', 'SYTHE', 'WEEST', 'YESTY', 'ZESTY']
+101 candidate words remaining.
+Top 10 guesses: [('SPITE', '4.201'), ('PEINE', '4.193'), ('SEINE', '4.162'), ('SUITE', '4.139'), ('POETE', '4.127'), ('PENIE', '4.086'), ('POINT', '4.076'), ('SPINE', '4.047'), ('STIPE', '4.044'), ('LOIPE', '4.043')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 2.8509 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 2.8508565606941905, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESOT', 'BLEST', 'CHEST', 'DOEST', 'EGEST', 'ESCOT', 'ESTOC', 'EWEST', 'GEEST', 'GHEST', 'GOEST', 'GUEST', 'QUEST', 'WEEST']
+14 candidate words remaining.
+Top 10 guesses: [('BOUGH', '3.379'), ('GECKO', '3.325'), ('GOUCH', '3.325'), ('ELOGE', '3.236'), ('COUGH', '3.182'), ('GEODE', '3.182'), ('LOUGH', '3.182'), ('BEGOT', '3.128'), ('GEMOT', '3.093'), ('GHOUL', '3.093')]
+Top entropy choice: 𝘽𝙊𝙐𝙂𝙃 with entropy: 3.3788
+Using common exploratory word: 𝘽𝙊𝙐𝙂𝙃 with entropy: 3.3788
+
+Guess: 𝘽𝙊𝙐𝙂𝙃, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CHEST']
+1 candidate words remaining.
+Top 10 guesses: [('CHEST', '0.000')]
+Top entropy choice: 𝘾𝙃𝙀𝙎𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙃𝙀𝙎𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.851 bits, Posterior Entropy: 3.807, 
+Guess: 𝘽𝙊𝙐𝙂𝙃, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 3.807, Expected Info Gain: 4.201 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

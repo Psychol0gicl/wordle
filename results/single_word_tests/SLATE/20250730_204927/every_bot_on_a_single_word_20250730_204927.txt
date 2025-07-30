@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝘼𝙏𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: LEAST 
+The top ten guesses and scores: [('LEAST', 144), ('SETAL', 144), ('SLATE', 144), ('STALE', 144), ('STEAL', 144), ('STELA', 144), ('PESTA', 142), ('SEPTA', 142), ('SPATE', 142), ('SPEAT', 142)]
+The bot finally chose: LEAST 
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟨🟨🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SLATE 
+The top ten guesses and scores: [('SLATE', 10), ('STALE', 10)]
+The bot finally chose: SLATE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Guess: 𝙇𝙀𝘼𝙎𝙏, Feedback: 🟨🟨🟩🟨🟨
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STALE with entropy: 3.4104
+Bot chose: STALE with entropy: 3.4104
+Top ten guesses: [('STALE', 3.4104172527605194), ('STEAL', 3.410417252760519), ('STELA', 3.358906960863075), ('SLATE', 3.25274106455611), ('SPEAT', 3.2269222245979456), ('STEAK', 3.2183782817904953), ('STEAD', 3.1229337965600092), ('STEAN', 3.1229337965600092), ('STATE', 3.1170593571417813), ('STAKE', 3.0919195638396237)]
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.4104172527605194}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLATE with entropy: 0.0000
+Bot chose: SLATE with entropy: 0.0000
+Top ten guesses: [('SLATE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STALE with entropy: 3.4104
+Bot chose: STALE with entropy: 3.4104
+Top ten guesses: [('STALE', 3.4104172527605194), ('STEAL', 3.410417252760519), ('STELA', 3.358906960863075), ('SLATE', 3.25274106455611), ('SPEAT', 3.2269222245979456), ('STEAK', 3.2183782817904953), ('STEAD', 3.1229337965600092), ('STEAN', 3.1229337965600092), ('STATE', 3.1170593571417813), ('STAKE', 3.0919195638396237)]
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.4104172527605194}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLATE with entropy: 0.0000
+Bot chose: SLATE with entropy: 0.0000
+Top ten guesses: [('SLATE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 34 potential guesses from 34 remaining candidates...
+Top 5 guesses: [('STALE', '3.410'), ('STEAL', '3.410'), ('STELA', '3.359'), ('SLATE', '3.253'), ('SPEAT', '3.227')]
+Top entropy choice: 𝙎𝙏𝘼𝙇𝙀 with entropy: 3.4104
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙇𝙀 with entropy: 3.4104
+
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.4104172527605194}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SLATE', '0.000')]
+Top entropy choice: 𝙎𝙇𝘼𝙏𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙇𝘼𝙏𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙎𝙏𝘼𝙇𝙀, Feedback: 🟩🟨🟩🟨🟩, Prior Entropy: 5.087, Expected Info Gain: 3.410 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝘼𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨
+Actual Info Gain: 8.7712 bits
+Posterior entropy: 5.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.087462841250339, 'actual_info_gain': 8.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEAST', 'BESAT', 'CESTA', 'FEAST', 'FESTA', 'HEAST', 'LEAST', 'PESTA', 'SCEAT', 'SEPTA', 'SETAE', 'SETAL', 'SKATE', 'SLATE', 'SPATE', 'SPEAT', 'STADE', 'STAGE', 'STAKE', 'STALE', 'STANE', 'STATE', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM', 'STEAN', 'STELA', 'STOAE', 'SWEAT', 'USETA', 'VESTA', 'YEAST']
+34 candidate words remaining.
+Top 10 guesses: [('PLATT', '3.540'), ('STALK', '3.478'), ('SPALT', '3.465'), ('PLEAT', '3.463'), ('PLATE', '3.440'), ('KLETT', '3.436'), ('SPALD', '3.418'), ('SPELT', '3.414'), ('STALE', '3.410'), ('STEAL', '3.410')]
+Top entropy choice: 𝙋𝙇𝘼𝙏𝙏 with entropy: 3.5395
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝘼𝙏𝙏 with entropy: 3.5395
+
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 5.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 5.087462841250339, 'expected_info_gain': 3.5395454741006125}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SLATE']
+1 candidate words remaining.
+Top 10 guesses: [('SLATE', '0.000')]
+Top entropy choice: 𝙎𝙇𝘼𝙏𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙇𝘼𝙏𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.771 bits, Posterior Entropy: 5.087, 
+Guess: 𝙋𝙇𝘼𝙏𝙏, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 5.087, Expected Info Gain: 3.540 bits, Actual Info Gain: 5.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

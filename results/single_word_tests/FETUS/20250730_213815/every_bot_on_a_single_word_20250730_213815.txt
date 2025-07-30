@@ -1,0 +1,248 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: PENTS 
+The top ten guesses and scores: [('PENTS', 369), ('HENTS', 368), ('PELTS', 366), ('PLETS', 366), ('FENTS', 365), ('MENTS', 365), ('BENTS', 364), ('DENTS', 364), ('NEWTS', 364), ('WENTS', 364)]
+The bot finally chose: PENTS 
+Guess: 𝙋𝙀𝙉𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: METHS 
+The top ten guesses and scores: [('METHS', 29), ('BETHS', 28), ('HETHS', 27), ('SETHS', 27), ('METIS', 26), ('YETIS', 25), ('FETUS', 24)]
+The bot finally chose: METHS 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: FETUS 
+The top ten guesses and scores: [('FETUS', 8), ('YETIS', 8)]
+The bot finally chose: FETUS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙋𝙀𝙉𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 7.2440 bits
+Posterior entropy: 6.614709844115208
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.614709844115208, 'actual_info_gain': 7.243951140607568, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NESTS with entropy: 3.2695
+Bot chose: NESTS with entropy: 3.2695
+Top ten guesses: [('NESTS', 3.269459236848833), ('SENTS', 3.269459236848833), ('LESTS', 3.1969145586534284), ('PESTS', 3.1794283181949794), ('SEPTS', 3.1794283181949794), ('SPETS', 3.1264689368820036), ('FESTS', 3.081261568861787), ('HESTS', 3.0559367930605266), ('BESTS', 3.03205536442836), ('WESTS', 3.0282329376914996)]
+
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.269459236848833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: METHS with entropy: 1.8424
+Bot chose: METHS with entropy: 1.8424
+Top ten guesses: [('METHS', 1.8423709931771088), ('METIS', 1.6644977792004614), ('BETHS', 1.3787834934861753), ('HETHS', 1.3787834934861753), ('YETIS', 1.1488348542809166), ('FETUS', 0.5916727785823275), ('PETOS', 0.5916727785823275)]
+
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771088}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FETUS with entropy: 0.9183
+Bot chose: FETUS with entropy: 0.9183
+Top ten guesses: [('FETUS', 0.9182958340544896), ('PETOS', 0.9182958340544896), ('YETIS', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 7.2440 bits
+Posterior entropy: 6.614709844115208
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.614709844115208, 'actual_info_gain': 7.243951140607568, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NESTS with entropy: 3.2695
+Bot chose: NESTS with entropy: 3.2695
+Top ten guesses: [('NESTS', 3.269459236848833), ('SENTS', 3.269459236848833), ('LESTS', 3.1969145586534284), ('PESTS', 3.1794283181949794), ('SEPTS', 3.1794283181949794), ('SPETS', 3.1264689368820036), ('FESTS', 3.081261568861787), ('HESTS', 3.0559367930605266), ('BESTS', 3.03205536442836), ('WESTS', 3.0282329376914996)]
+
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.269459236848833}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: METHS with entropy: 1.8424
+Bot chose: METHS with entropy: 1.8424
+Top ten guesses: [('METHS', 1.8423709931771088), ('METIS', 1.6644977792004614), ('BETHS', 1.3787834934861753), ('HETHS', 1.3787834934861753), ('YETIS', 1.1488348542809166), ('FETUS', 0.5916727785823275), ('PETOS', 0.5916727785823275)]
+
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771088}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FETUS with entropy: 0.9183
+Bot chose: FETUS with entropy: 0.9183
+Top ten guesses: [('FETUS', 0.9182958340544896), ('PETOS', 0.9182958340544896), ('YETIS', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 7.2440 bits
+Posterior entropy: 6.614709844115208
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.614709844115208, 'actual_info_gain': 7.243951140607568, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 198 potential guesses from 98 remaining candidates...
+Top 5 guesses: [('NESTS', '3.269'), ('SENTS', '3.269'), ('LESTS', '3.197'), ('PESTS', '3.179'), ('SEPTS', '3.179')]
+Top entropy choice: 𝙉𝙀𝙎𝙏𝙎 with entropy: 3.2695
+
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.269459236848833}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('METHS', '1.842'), ('METIS', '1.664'), ('BETHS', '1.379'), ('HETHS', '1.379'), ('YETIS', '1.149')]
+Top entropy choice: 𝙈𝙀𝙏𝙃𝙎 with entropy: 1.8424
+
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771088}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('FETUS', '0.918'), ('PETOS', '0.918'), ('YETIS', '0.918')]
+Top entropy choice: 𝙁𝙀𝙏𝙐𝙎 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙁𝙀𝙏𝙐𝙎 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 7.2440 bits
+Posterior entropy: 6.614709844115208
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.614709844115208, 'actual_info_gain': 7.243951140607568, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEETS', 'BELTS', 'BENTS', 'BESTS', 'BETHS', 'BLETS', 'BOETS', 'CELTS', 'CENTS', 'DEBTS', 'DEETS', 'DELTS', 'DENTS', 'DIETS', 'DUETS', 'EDITS', 'EFITS', 'EMITS', 'EMPTS', 'ETENS', 'ETHOS', 'ETICS', 'ETUIS', 'EVETS', 'EXITS', 'EYOTS', 'FELTS', 'FENTS', 'FESTS', 'FETTS', 'FETUS', 'GEITS', 'GELTS', 'GENTS', 'GESTS', 'HEFTS', 'HENTS', 'HESTS', 'HETHS', 'ITEMS', 'JESTS', 'KEETS', 'KELTS', 'KENTS', 'KESTS', 'KHETS', 'LEETS', 'LEFTS', 'LESTS', 'MEETS', 'MELTS', 'MENTS', 'METHS', 'METIS', 'NESTS', 'NETTS', 'NEWTS', 'NEXTS', 'PECTS', 'PELTS', 'PENTS', 'PESTS', 'PETOS', 'PIETS', 'PLETS', 'POETS', 'PYETS', 'SECTS', 'SEKTS', 'SENTS', 'SEPTS', 'SETHS', 'SETTS', 'SEXTS', 'SHETS', 'SKETS', 'SPETS', 'STEDS', 'STEMS', 'STENS', 'STEPS', 'STETS', 'STEWS', 'STEYS', 'SUETS', 'VENTS', 'VESTS', 'WEETS', 'WEFTS', 'WELTS', 'WENTS', 'WESTS', 'WHETS', 'YELTS', 'YESTS', 'YETIS', 'YETTS', 'ZESTS']
+98 candidate words remaining.
+Top 10 guesses: [('NESTS', '3.269'), ('SENTS', '3.269'), ('LENTI', '3.268'), ('PLEIN', '3.258'), ('SENTI', '3.224'), ('NEELD', '3.206'), ('LESTS', '3.197'), ('SENTE', '3.194'), ('PESTS', '3.179'), ('SEPTS', '3.179')]
+Top entropy choice: 𝙉𝙀𝙎𝙏𝙎 with entropy: 3.2695
+Guess count low, choosing the word with highest entropy: 𝙉𝙀𝙎𝙏𝙎 with entropy: 3.2695
+
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.614709844115208, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 3.269459236848833}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BETHS', 'FETUS', 'HETHS', 'METHS', 'METIS', 'PETOS', 'YETIS']
+7 candidate words remaining.
+Top 10 guesses: [('BUMPH', '2.807'), ('HEMPY', '2.807'), ('HILUM', '2.807'), ('HIMBO', '2.807'), ('HOKUM', '2.807'), ('HOMEY', '2.807'), ('HOMIE', '2.807'), ('HUMIC', '2.807'), ('HUMID', '2.807'), ('HUMOR', '2.807')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 2.8074
+Using common exploratory word: 𝙃𝙊𝙈𝙀𝙔 with entropy: 2.8074
+
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.269459236848833}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FETUS']
+1 candidate words remaining.
+Top 10 guesses: [('FETUS', '0.000')]
+Top entropy choice: 𝙁𝙀𝙏𝙐𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙀𝙏𝙐𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 3.269 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

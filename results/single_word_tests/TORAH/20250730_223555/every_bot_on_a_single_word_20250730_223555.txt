@@ -1,0 +1,150 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝙍𝘼𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TORAH 
+The top ten guesses and scores: [('TORAH', 21), ('TORAN', 21), ('THRAW', 19), ('TORTA', 19), ('TYRAN', 19)]
+The bot finally chose: TORAH 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+Guess: 𝙏𝙊𝙍𝘼𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝘼𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORAH with entropy: 2.3219
+Bot chose: TORAH with entropy: 2.3219
+Top ten guesses: [('TORAH', 2.321928094887362), ('TORAN', 2.321928094887362), ('THRAW', 1.9219280948873623), ('TYRAN', 1.9219280948873623), ('TORTA', 1.5219280948873621)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙊𝙍𝘼𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝘼𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TORAH with entropy: 2.3219
+Bot chose: TORAH with entropy: 2.3219
+Top ten guesses: [('TORAH', 2.321928094887362), ('TORAN', 2.321928094887362), ('THRAW', 1.9219280948873623), ('TYRAN', 1.9219280948873623), ('TORTA', 1.5219280948873621)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙊𝙍𝘼𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝘼𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('TORAH', '2.322'), ('TORAN', '2.322'), ('THRAW', '1.922'), ('TYRAN', '1.922'), ('TORTA', '1.522')]
+Top entropy choice: 𝙏𝙊𝙍𝘼𝙃 with entropy: 2.3219
+Ended up choosing COMMON word: 𝙏𝙊𝙍𝘼𝙃 with entropy: 2.3219
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙊𝙍𝘼𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙍𝘼𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜
+Actual Info Gain: 11.5367 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 11.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THRAW', 'TORAH', 'TORAN', 'TORTA', 'TYRAN']
+5 candidate words remaining.
+Top 10 guesses: [('AIYAH', '2.322'), ('ALOHA', '2.322'), ('ANCHO', '2.322'), ('ANOAS', '2.322'), ('AROHA', '2.322'), ('AZOTH', '2.322'), ('BENTO', '2.322'), ('BIHON', '2.322'), ('BOGAN', '2.322'), ('BOHEA', '2.322')]
+Top entropy choice: 𝘼𝙄𝙔𝘼𝙃 with entropy: 2.3219
+Guess count low, choosing the word with highest entropy: 𝘼𝙄𝙔𝘼𝙃 with entropy: 2.3219
+
+Guess: 𝘼𝙄𝙔𝘼𝙃, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TORAH']
+1 candidate words remaining.
+Top 10 guesses: [('TORAH', '0.000')]
+Top entropy choice: 𝙏𝙊𝙍𝘼𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙊𝙍𝘼𝙃 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.537 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙄𝙔𝘼𝙃, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙊𝙍𝘼𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

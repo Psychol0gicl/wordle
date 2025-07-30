@@ -1,0 +1,348 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LATED 
+The top ten guesses and scores: [('LATED', 91), ('PATED', 89), ('CADET', 88), ('MATED', 88), ('FATED', 86), ('LATEN', 86), ('PALET', 86), ('PATEL', 86), ('BATED', 85), ('GATED', 85)]
+The bot finally chose: CADET 
+Guess: 𝘾𝘼𝘿𝙀𝙏, Feedback: ⬜🟩🟨🟩🟨
+entropy_info: None
+----------
+The bot originally chose: BATED 
+The top ten guesses and scores: [('BATED', 34), ('FATED', 34), ('GATED', 34), ('HATED', 34), ('LATED', 34), ('MATED', 34), ('PATED', 34), ('DATED', 33)]
+The bot finally chose: FATED 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BATED 
+The top ten guesses and scores: [('BATED', 30), ('GATED', 30), ('HATED', 30), ('LATED', 30), ('MATED', 30), ('PATED', 30), ('DATED', 29)]
+The bot finally chose: GATED 
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BATED 
+The top ten guesses and scores: [('BATED', 26), ('HATED', 26), ('LATED', 26), ('MATED', 26), ('PATED', 26), ('DATED', 25)]
+The bot finally chose: HATED 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝘾𝘼𝘿𝙀𝙏, Feedback: ⬜🟩🟨🟩🟨
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝘼𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LATED with entropy: 2.7824
+Bot chose: LATED with entropy: 2.7824
+Top ten guesses: [('LATED', 2.7824156286861546), ('LATEN', 2.6981203125901447), ('PALET', 2.5162649802318), ('PATED', 2.438054690915721), ('PATEL', 2.4329316468984663), ('MATED', 2.3802704430860198), ('PATEN', 2.353759374819711), ('LACET', 2.3443609377704333), ('LATEX', 2.142079563925711), ('MANET', 2.1379185026711327)]
+
+Guess: 𝙇𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7776 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.777607578663552, 'expected_info_gain': 2.7824156286861546}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.5917
+Bot chose: DATED with entropy: 0.5917
+Top ten guesses: [('BATED', 0.5916727785823275), ('DATED', 0.5916727785823275), ('FATED', 0.5916727785823275), ('GATED', 0.5916727785823275), ('HATED', 0.5916727785823275), ('MATED', 0.5916727785823275), ('PATED', 0.5916727785823275)]
+
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.6500
+Bot chose: FATED with entropy: 0.6500
+Top ten guesses: [('BATED', 0.6500224216483541), ('FATED', 0.6500224216483541), ('GATED', 0.6500224216483541), ('HATED', 0.6500224216483541), ('MATED', 0.6500224216483541), ('PATED', 0.6500224216483541)]
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.7219
+Bot chose: GATED with entropy: 0.7219
+Top ten guesses: [('BATED', 0.7219280948873623), ('GATED', 0.7219280948873623), ('HATED', 0.7219280948873623), ('MATED', 0.7219280948873623), ('PATED', 0.7219280948873623)]
+
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.8113
+Bot chose: HATED with entropy: 0.8113
+Top ten guesses: [('BATED', 0.8112781244591328), ('HATED', 0.8112781244591328), ('MATED', 0.8112781244591328), ('PATED', 0.8112781244591328)]
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 2.782 bits, Actual Info Gain: 1.778 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝘼𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LATED with entropy: 2.7824
+Bot chose: LATED with entropy: 2.7824
+Top ten guesses: [('LATED', 2.7824156286861546), ('LATEN', 2.6981203125901447), ('PALET', 2.5162649802318), ('PATED', 2.438054690915721), ('PATEL', 2.4329316468984663), ('MATED', 2.3802704430860198), ('PATEN', 2.353759374819711), ('LACET', 2.3443609377704333), ('LATEX', 2.142079563925711), ('MANET', 2.1379185026711327)]
+
+Guess: 𝙇𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.7776 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.777607578663552, 'expected_info_gain': 2.7824156286861546}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.5917
+Bot chose: DATED with entropy: 0.5917
+Top ten guesses: [('BATED', 0.5916727785823275), ('DATED', 0.5916727785823275), ('FATED', 0.5916727785823275), ('GATED', 0.5916727785823275), ('HATED', 0.5916727785823275), ('MATED', 0.5916727785823275), ('PATED', 0.5916727785823275)]
+
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.6500
+Bot chose: FATED with entropy: 0.6500
+Top ten guesses: [('BATED', 0.6500224216483541), ('FATED', 0.6500224216483541), ('GATED', 0.6500224216483541), ('HATED', 0.6500224216483541), ('MATED', 0.6500224216483541), ('PATED', 0.6500224216483541)]
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.7219
+Bot chose: GATED with entropy: 0.7219
+Top ten guesses: [('BATED', 0.7219280948873623), ('GATED', 0.7219280948873623), ('HATED', 0.7219280948873623), ('MATED', 0.7219280948873623), ('PATED', 0.7219280948873623)]
+
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATED with entropy: 0.8113
+Bot chose: HATED with entropy: 0.8113
+Top ten guesses: [('BATED', 0.8112781244591328), ('HATED', 0.8112781244591328), ('MATED', 0.8112781244591328), ('PATED', 0.8112781244591328)]
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙇𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 2.782 bits, Actual Info Gain: 1.778 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝘼𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('LATED', '2.782'), ('LATEN', '2.698'), ('PALET', '2.516'), ('PATED', '2.438'), ('PATEL', '2.433')]
+Top entropy choice: 𝙇𝘼𝙏𝙀𝘿 with entropy: 2.7824
+Ended up choosing COMMON word: 𝙋𝘼𝙏𝙀𝙇 with entropy: 2.4329
+
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 2.4329316468984663}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('MATED', '1.658'), ('BATED', '1.352'), ('DATED', '1.352'), ('FATED', '1.352'), ('GATED', '1.352')]
+Top entropy choice: 𝙈𝘼𝙏𝙀𝘿 with entropy: 1.6577
+Ended up choosing COMMON word: 𝙈𝘼𝙏𝙀𝘿 with entropy: 1.6577
+
+Guess: 𝙈𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.84799690655495, 'expected_info_gain': 1.6577427265048887}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BATED', '0.722'), ('DATED', '0.722'), ('FATED', '0.722'), ('GATED', '0.722'), ('HATED', '0.722')]
+Top entropy choice: 𝘽𝘼𝙏𝙀𝘿 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘿𝘼𝙏𝙀𝘿 with entropy: 0.7219
+
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('BATED', '0.811'), ('FATED', '0.811'), ('GATED', '0.811'), ('HATED', '0.811')]
+Top entropy choice: 𝘽𝘼𝙏𝙀𝘿 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙁𝘼𝙏𝙀𝘿 with entropy: 0.8113
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BATED', '0.918'), ('GATED', '0.918'), ('HATED', '0.918')]
+Top entropy choice: 𝘽𝘼𝙏𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙂𝘼𝙏𝙀𝘿 with entropy: 0.9183
+Game Over! You ran out of guesses.
+
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙋𝘼𝙏𝙀𝙇, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.585, Expected Info Gain: 2.433 bits, Actual Info Gain: 1.415 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BATED', 'CADET', 'DATED', 'EATEN', 'FACET', 'FATED', 'GATED', 'HATED', 'JACET', 'LACET', 'LATED', 'LATEN', 'LATEX', 'MANET', 'MATED', 'MATEY', 'MAZET', 'OATEN', 'PALET', 'PATED', 'PATEE', 'PATEL', 'PATEN', 'VALET']
+24 candidate words remaining.
+Top 10 guesses: [('DEMPT', '3.153'), ('DELFT', '3.138'), ('PLANT', '3.099'), ('DOLCE', '3.090'), ('POLED', '3.011'), ('DELPH', '3.001'), ('DOTAL', '2.991'), ('LYTED', '2.933'), ('LEMED', '2.928'), ('LOPED', '2.928')]
+Top entropy choice: 𝘿𝙀𝙈𝙋𝙏 with entropy: 3.1531
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙈𝙋𝙏 with entropy: 3.1531
+
+Guess: 𝘿𝙀𝙈𝙋𝙏, Feedback: 🟨🟨⬜⬜🟨
+Actual Info Gain: 2.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.263034405833794, 'expected_info_gain': 3.153107168362811}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BATED', 'FATED', 'GATED', 'HATED', 'LATED']
+5 candidate words remaining.
+Top 10 guesses: [('BAGEL', '1.922'), ('BAGHS', '1.922'), ('BEFOG', '1.922'), ('BELAH', '1.922'), ('BELCH', '1.922'), ('BELGA', '1.922'), ('BHANG', '1.922'), ('BHELS', '1.922'), ('BIGHA', '1.922'), ('BIGHT', '1.922')]
+Top entropy choice: 𝘽𝘼𝙂𝙀𝙇 with entropy: 1.9219
+Using common exploratory word: 𝘽𝘼𝙂𝙀𝙇 with entropy: 1.9219
+
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 3.153107168362811}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FATED', 'HATED']
+2 candidate words remaining.
+Top 10 guesses: [('FATED', '1.000'), ('HATED', '1.000')]
+Top entropy choice: 𝙁𝘼𝙏𝙀𝘿 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝘼𝙏𝙀𝘿 with entropy: 1.0000
+
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 3.153107168362811}
+----------
+The bot is making a guess...
+THe possible candidates are: ['HATED']
+1 candidate words remaining.
+Top 10 guesses: [('HATED', '0.000')]
+Top entropy choice: 𝙃𝘼𝙏𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝘼𝙏𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙈𝙋𝙏, Feedback: 🟨🟨⬜⬜🟨, Prior Entropy: 4.585, Expected Info Gain: 3.153 bits, Actual Info Gain: 2.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 3.153 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝘼𝙏𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 3.153 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙏𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

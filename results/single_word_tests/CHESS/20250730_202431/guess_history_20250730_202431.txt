@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙇𝙀𝙉𝘿𝙎, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝙀𝘾𝙃𝙊𝙎, Feedback: 🟨🟨🟨⬜🟩
+Guess: 𝘾𝙃𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 8.304, Expected Info Gain: 3.897 bits, Actual Info Gain: 2.660 bits, Posterior Entropy: 5.644, 
+Guess: 𝙎𝙔𝙀𝙉𝙎, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 5.644, Expected Info Gain: 3.468 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝘿𝙀𝙄𝙇𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 8.304, Expected Info Gain: 3.897 bits, Actual Info Gain: 2.660 bits, Posterior Entropy: 5.644, 
+Guess: 𝙎𝙔𝙀𝙉𝙎, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 5.644, Expected Info Gain: 3.468 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝙁𝙄𝙀𝙇𝘿, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 8.304, Expected Info Gain: 4.202 bits, Actual Info Gain: 2.327 bits, Posterior Entropy: 5.977, 
+Guess: 𝙆𝙉𝙊𝙒𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 3.457 bits, Actual Info Gain: 1.977 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙀𝙀𝙈𝙎, Feedback: 🟨⬜🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 3.024 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙃𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙀𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.555 bits, Posterior Entropy: 8.304, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 8.304, Expected Info Gain: 4.541 bits, Actual Info Gain: 3.350 bits, Posterior Entropy: 4.954, 
+Guess: 𝙎𝙃𝙊𝙒𝙔, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 4.541 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙃𝙀𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

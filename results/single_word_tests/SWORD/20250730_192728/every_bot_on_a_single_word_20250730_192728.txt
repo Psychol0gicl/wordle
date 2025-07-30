@@ -1,0 +1,250 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙒𝙊𝙍𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ROSHI 
+The top ten guesses and scores: [('ROSHI', 198), ('SOHUR', 198), ('SCOUR', 192), ('NOSIR', 191), ('ROSIN', 191), ('URSON', 191), ('SHIUR', 189), ('SUDOR', 188), ('VISOR', 185), ('PROSY', 183)]
+The bot finally chose: SCOUR 
+Guess: 𝙎𝘾𝙊𝙐𝙍, Feedback: 🟩⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SHORL 
+The top ten guesses and scores: [('SHORL', 25), ('SHORN', 25), ('SLORM', 25), ('SWORN', 25), ('SMORG', 24), ('SWORD', 24), ('SPORK', 23)]
+The bot finally chose: SWORN 
+Guess: 𝙎𝙒𝙊𝙍𝙉, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SWORD 
+The top ten guesses and scores: [('SWORD', 5)]
+The bot finally chose: SWORD 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Guess: 𝙎𝘾𝙊𝙐𝙍, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙎𝙒𝙊𝙍𝙉, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙒𝙊𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙍𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOHUR with entropy: 4.2082
+Bot chose: SHIRK with entropy: 3.9901
+Top ten guesses: [('SOHUR', 4.208156904454299), ('SHIUR', 4.102445740262387), ('SPORK', 4.068331904241499), ('URSON', 4.018565879342632), ('SHIRK', 3.990117723711327), ('SCOUR', 3.9763705849884365), ('SCORP', 3.9622422550282064), ('SHORN', 3.9307031620369113), ('SHORL', 3.9128797925683343), ('SPIRY', 3.9071440517667324)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.6088 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.6088092426755245, 'expected_info_gain': 3.990117723711327}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCORN with entropy: 2.6464
+Bot chose: SCORN with entropy: 2.6464
+Top ten guesses: [('SCORN', 2.6464393446710153), ('SCORP', 2.5219280948873624), ('SLURP', 2.5219280948873624), ('SPURN', 2.446439344671015), ('SWORN', 2.3709505944546687), ('SLORM', 2.121928094887362), ('SLURB', 1.9609640474436814), ('SCURF', 1.8464393446710154), ('SMORG', 1.7219280948873623), ('SWORD', 1.7219280948873623)]
+
+Guess: 𝙎𝘾𝙊𝙍𝙉, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.6464393446710153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLORM with entropy: 1.5850
+Bot chose: SWORD with entropy: 0.9183
+Top ten guesses: [('SLORM', 1.584962500721156), ('SMORG', 1.584962500721156), ('SWORD', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.931, Expected Info Gain: 3.990 bits, Actual Info Gain: 2.609 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘾𝙊𝙍𝙉, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.646 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙒𝙊𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙍𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOHUR with entropy: 4.2082
+Bot chose: SHIRK with entropy: 3.9901
+Top ten guesses: [('SOHUR', 4.208156904454299), ('SHIUR', 4.102445740262387), ('SPORK', 4.068331904241499), ('URSON', 4.018565879342632), ('SHIRK', 3.990117723711327), ('SCOUR', 3.9763705849884365), ('SCORP', 3.9622422550282064), ('SHORN', 3.9307031620369113), ('SHORL', 3.9128797925683343), ('SPIRY', 3.9071440517667324)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 2.6088 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 2.6088092426755245, 'expected_info_gain': 3.990117723711327}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCORN with entropy: 2.6464
+Bot chose: SCORN with entropy: 2.6464
+Top ten guesses: [('SCORN', 2.6464393446710153), ('SCORP', 2.5219280948873624), ('SLURP', 2.5219280948873624), ('SPURN', 2.446439344671015), ('SWORN', 2.3709505944546687), ('SLORM', 2.121928094887362), ('SLURB', 1.9609640474436814), ('SCURF', 1.8464393446710154), ('SMORG', 1.7219280948873623), ('SWORD', 1.7219280948873623)]
+
+Guess: 𝙎𝘾𝙊𝙍𝙉, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.736965594166206, 'expected_info_gain': 2.6464393446710153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLORM with entropy: 1.5850
+Bot chose: SWORD with entropy: 0.9183
+Top ten guesses: [('SLORM', 1.584962500721156), ('SMORG', 1.584962500721156), ('SWORD', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 5.931, Expected Info Gain: 3.990 bits, Actual Info Gain: 2.609 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘾𝙊𝙍𝙉, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.322, Expected Info Gain: 2.646 bits, Actual Info Gain: 1.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙒𝙊𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙍𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 161 potential guesses from 61 remaining candidates...
+Top 5 guesses: [('SOHUR', '4.208'), ('GROUP', '4.132'), ('SHIUR', '4.102'), ('SPORK', '4.068'), ('URSON', '4.019')]
+Top entropy choice: 𝙎𝙊𝙃𝙐𝙍 with entropy: 4.2082
+Ended up choosing COMMON word: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.1323
+
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 3.1234 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.1233824155052825, 'expected_info_gain': 4.132268535879042}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SHORN', '2.236'), ('SWORN', '2.236'), ('SHORL', '2.128'), ('SCORN', '1.842'), ('SLORM', '1.664')]
+Top entropy choice: 𝙎𝙃𝙊𝙍𝙉 with entropy: 2.2359
+Ended up choosing COMMON word: 𝙎𝙒𝙊𝙍𝙉 with entropy: 2.2359
+
+Guess: 𝙎𝙒𝙊𝙍𝙉, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.2359263506290326}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SWORD', '0.000')]
+Top entropy choice: 𝙎𝙒𝙊𝙍𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙒𝙊𝙍𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 5.931, Expected Info Gain: 4.132 bits, Actual Info Gain: 3.123 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙒𝙊𝙍𝙉, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙊𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙍𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRISK', 'BROSY', 'BRUSH', 'BRUSK', 'CRISP', 'CRUSH', 'CRUSY', 'DRUSY', 'FRISK', 'FROSH', 'FRUSH', 'GRISY', 'GROSZ', 'NOSIR', 'PRISM', 'PROSO', 'PROSY', 'RISHI', 'RISKY', 'ROSCO', 'ROSHI', 'ROSIN', 'ROSSO', 'RUSHY', 'RUSKY', 'SCORN', 'SCORP', 'SCOUR', 'SCURF', 'SHIRK', 'SHIRR', 'SHIUR', 'SHORL', 'SHORN', 'SIGRI', 'SKIRL', 'SKIRR', 'SLORM', 'SLURB', 'SLURP', 'SMIRK', 'SMIRR', 'SMOOR', 'SMORG', 'SOHUR', 'SOPOR', 'SPIRY', 'SPOOR', 'SPORK', 'SPURN', 'SRSLY', 'SUDOR', 'SUHUR', 'SWIRL', 'SWORD', 'SWORN', 'URSID', 'URSON', 'USURP', 'USURY', 'VISOR']
+61 candidate words remaining.
+Top 10 guesses: [('SHIOK', '4.451'), ('SOUPY', '4.281'), ('SHOYU', '4.272'), ('POUCH', '4.241'), ('CHIRO', '4.234'), ('PRIOR', '4.233'), ('POUSY', '4.225'), ('SHOCK', '4.224'), ('PROUL', '4.210'), ('SOHUR', '4.208')]
+Top entropy choice: 𝙎𝙃𝙄𝙊𝙆 with entropy: 4.4507
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙄𝙊𝙆 with entropy: 4.4507
+
+Guess: 𝙎𝙃𝙄𝙊𝙆, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 3.1234 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.1233824155052825, 'expected_info_gain': 4.450726273013804}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCORN', 'SCORP', 'SCOUR', 'SLORM', 'SMORG', 'SWORD', 'SWORN']
+7 candidate words remaining.
+Top 10 guesses: [('CLUNG', '2.807'), ('AMNIC', '2.522'), ('CLANG', '2.522'), ('CLING', '2.522'), ('CLOWN', '2.522'), ('DUNAM', '2.522'), ('DWAUM', '2.522'), ('NODUM', '2.522'), ('PLUNG', '2.522'), ('PUNIM', '2.522')]
+Top entropy choice: 𝘾𝙇𝙐𝙉𝙂 with entropy: 2.8074
+Using common exploratory word: 𝘾𝙇𝙐𝙉𝙂 with entropy: 2.8074
+
+Guess: 𝘾𝙇𝙐𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 4.450726273013804}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SWORD']
+1 candidate words remaining.
+Top 10 guesses: [('SWORD', '0.000')]
+Top entropy choice: 𝙎𝙒𝙊𝙍𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙒𝙊𝙍𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙊𝙆, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 5.931, Expected Info Gain: 4.451 bits, Actual Info Gain: 3.123 bits, Posterior Entropy: 2.807, 
+Guess: 𝘾𝙇𝙐𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 4.451 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙊𝙍𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

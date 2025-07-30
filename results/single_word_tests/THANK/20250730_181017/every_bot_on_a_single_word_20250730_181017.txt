@@ -1,0 +1,236 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝘼𝙉𝙆 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: THALI 
+The top ten guesses and scores: [('THALI', 125), ('TUINA', 122), ('TWAIN', 122), ('THANK', 121), ('TILAK', 121), ('TOLAN', 121), ('TONAL', 121), ('TONKA', 120), ('TOWAI', 120), ('THAGI', 119)]
+The bot finally chose: TWAIN 
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: THANG 
+The top ten guesses and scores: [('THANG', 18), ('THANK', 18), ('THANX', 18), ('THANA', 17)]
+The bot finally chose: THANG 
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: THANK 
+The top ten guesses and scores: [('THANK', 14), ('THANX', 14), ('THANA', 13)]
+The bot finally chose: THANK 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙏𝙃𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝘼𝙉𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWAIN with entropy: 3.5618
+Bot chose: TWAIN with entropy: 3.5618
+Top ten guesses: [('TWAIN', 3.5618373950396607), ('TILAK', 3.492599012793011), ('TITAN', 3.4250705203641814), ('TONKA', 3.42072303558276), ('THANK', 3.378212945841001), ('THALI', 3.2761207468426803), ('TOLAN', 3.255152233310934), ('TWANK', 3.251058787661493), ('THANA', 3.2470851333950876), ('TUINA', 3.2180536469268337)]
+
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 3.3219280948873626, 'expected_info_gain': 3.5618373950396607}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THANA with entropy: 0.8113
+Bot chose: THANG with entropy: 0.8113
+Top ten guesses: [('THANA', 0.8112781244591328), ('THANG', 0.8112781244591328), ('THANK', 0.8112781244591328), ('THANX', 0.8112781244591328)]
+
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THANA with entropy: 0.9183
+Bot chose: THANK with entropy: 0.9183
+Top ten guesses: [('THANA', 0.9182958340544896), ('THANK', 0.9182958340544896), ('THANX', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 5.322, Expected Info Gain: 3.562 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝘼𝙉𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWAIN with entropy: 3.5618
+Bot chose: TWAIN with entropy: 3.5618
+Top ten guesses: [('TWAIN', 3.5618373950396607), ('TILAK', 3.492599012793011), ('TITAN', 3.4250705203641814), ('TONKA', 3.42072303558276), ('THANK', 3.378212945841001), ('THALI', 3.2761207468426803), ('TOLAN', 3.255152233310934), ('TWANK', 3.251058787661493), ('THANA', 3.2470851333950876), ('TUINA', 3.2180536469268337)]
+
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 3.3219280948873626, 'expected_info_gain': 3.5618373950396607}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THANA with entropy: 0.8113
+Bot chose: THANG with entropy: 0.8113
+Top ten guesses: [('THANA', 0.8112781244591328), ('THANG', 0.8112781244591328), ('THANK', 0.8112781244591328), ('THANX', 0.8112781244591328)]
+
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THANA with entropy: 0.9183
+Bot chose: THANK with entropy: 0.9183
+Top ten guesses: [('THANA', 0.9182958340544896), ('THANK', 0.9182958340544896), ('THANX', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 5.322, Expected Info Gain: 3.562 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝘼𝙉𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 40 potential guesses from 40 remaining candidates...
+Top 5 guesses: [('TWAIN', '3.562'), ('TILAK', '3.493'), ('TITAN', '3.425'), ('TONKA', '3.421'), ('THANK', '3.378')]
+Top entropy choice: 𝙏𝙒𝘼𝙄𝙉 with entropy: 3.5618
+Ended up choosing COMMON word: 𝙏𝙒𝘼𝙄𝙉 with entropy: 3.5618
+
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 2.0, 'actual_info_gain': 3.3219280948873626, 'expected_info_gain': 3.5618373950396607}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('THANA', '0.811'), ('THANG', '0.811'), ('THANK', '0.811'), ('THANX', '0.811')]
+Top entropy choice: 𝙏𝙃𝘼𝙉𝘼 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙏𝙃𝘼𝙉𝙂 with entropy: 0.8113
+
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('THANA', '0.918'), ('THANK', '0.918'), ('THANX', '0.918')]
+Top entropy choice: 𝙏𝙃𝘼𝙉𝘼 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙏𝙃𝘼𝙉𝙆 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙏𝙒𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 5.322, Expected Info Gain: 3.562 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙃𝘼𝙉𝙂, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙃𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝘼𝙉𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 8.5367 bits
+Posterior entropy: 5.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.321928094887363, 'actual_info_gain': 8.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THACK', 'THAGI', 'THAIM', 'THALI', 'THANA', 'THANG', 'THANK', 'THANX', 'THAWT', 'THAWY', 'THUJA', 'THUYA', 'TIBIA', 'TICAL', 'TICCA', 'TIDAL', 'TIKIA', 'TIKKA', 'TILAK', 'TITAN', 'TOADY', 'TODAY', 'TOKAY', 'TOLAN', 'TOMAN', 'TOMIA', 'TONAL', 'TONGA', 'TONKA', 'TOPAZ', 'TOTAL', 'TOWAI', 'TUATH', 'TUBAL', 'TUINA', 'TULPA', 'TWAIN', 'TWANG', 'TWANK', 'TYPAL']
+40 candidate words remaining.
+Top 10 guesses: [('HINKY', '4.196'), ('LINKY', '4.194'), ('COLIN', '4.125'), ('NIKAH', '4.125'), ('KYLIN', '4.106'), ('WINKY', '4.044'), ('LINCH', '4.034'), ('PILON', '4.028'), ('KINDA', '4.022'), ('GONIA', '4.006')]
+Top entropy choice: 𝙃𝙄𝙉𝙆𝙔 with entropy: 4.1964
+Guess count low, choosing the word with highest entropy: 𝙃𝙄𝙉𝙆𝙔 with entropy: 4.1964
+
+Guess: 𝙃𝙄𝙉𝙆𝙔, Feedback: 🟨⬜🟨🟨⬜
+Actual Info Gain: 5.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.321928094887363, 'posterior_entropy': 0.0, 'actual_info_gain': 5.321928094887363, 'expected_info_gain': 4.196439344671015}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THANK']
+1 candidate words remaining.
+Top 10 guesses: [('THANK', '0.000')]
+Top entropy choice: 𝙏𝙃𝘼𝙉𝙆 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝘼𝙉𝙆 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.537 bits, Posterior Entropy: 5.322, 
+Guess: 𝙃𝙄𝙉𝙆𝙔, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 5.322, Expected Info Gain: 4.196 bits, Actual Info Gain: 5.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝘼𝙉𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

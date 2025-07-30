@@ -1,0 +1,137 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙄𝙏𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: PISTE 
+The top ten guesses and scores: [('PISTE', 362), ('SPITE', 362), ('STIPE', 362), ('NEIST', 361), ('SENTI', 361), ('SIENT', 361), ('STEIN', 361), ('SEITY', 360), ('ISTLE', 359), ('STEIL', 359)]
+The bot finally chose: SPITE 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 201 potential guesses from 101 remaining candidates...
+Top 5 guesses: [('SPITE', '4.201'), ('SUITE', '4.139'), ('POINT', '4.076'), ('STIPE', '4.044'), ('SHITE', '4.014')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙄𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESIT', 'BESOT', 'BESTI', 'BLEST', 'CESTI', 'CHEST', 'COSTE', 'DEIST', 'DOEST', 'EGEST', 'ESCOT', 'ESTOC', 'ESTOP', 'EWEST', 'EXIST', 'FEIST', 'FESTY', 'FIEST', 'GEEST', 'GEIST', 'GESTE', 'GHEST', 'GOEST', 'GUEST', 'HEIST', 'ISTLE', 'JUSTE', 'MESTO', 'MOSTE', 'NEIST', 'NESTY', 'PESTO', 'PESTY', 'PISTE', 'POSTE', 'QUEST', 'SCENT', 'SCOTE', 'SCUTE', 'SEITY', 'SENTE', 'SENTI', 'SETON', 'SETUP', 'SEXTO', 'SHENT', 'SHITE', 'SHOTE', 'SHUTE', 'SIENT', 'SIETH', 'SITHE', 'SIXTE', 'SKITE', 'SKYTE', 'SLEPT', 'SMELT', 'SMITE', 'SMOTE', 'SOOTE', 'SPECT', 'SPELT', 'SPENT', 'SPITE', 'STEDD', 'STEDE', 'STEIK', 'STEIL', 'STEIN', 'STELE', 'STELL', 'STEME', 'STEND', 'STENO', 'STENT', 'STEPT', 'STEWY', 'STILE', 'STIME', 'STIPE', 'STIVE', 'STOKE', 'STOLE', 'STONE', 'STOPE', 'STOVE', 'STUDE', 'STUPE', 'STYLE', 'STYME', 'STYTE', 'SUENT', 'SUETE', 'SUETY', 'SUITE', 'SWELT', 'SWEPT', 'SYTHE', 'WEEST', 'YESTY', 'ZESTY']
+101 candidate words remaining.
+Top 10 guesses: [('SPITE', '4.201'), ('PEINE', '4.193'), ('SEINE', '4.162'), ('SUITE', '4.139'), ('POETE', '4.127'), ('PENIE', '4.086'), ('POINT', '4.076'), ('SPINE', '4.047'), ('STIPE', '4.044'), ('LOIPE', '4.043')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

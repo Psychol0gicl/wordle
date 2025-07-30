@@ -1,0 +1,214 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙍𝙀𝙉𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BEARD 
+The top ten guesses and scores: [('BEARD', 610), ('BREAD', 610), ('DEBAR', 610), ('CEDAR', 606), ('ECARD', 606), ('DEARN', 603), ('DENAR', 603), ('DREAM', 603), ('GRADE', 603), ('REDAN', 603)]
+The bot finally chose: BEARD 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CRENA 
+The top ten guesses and scores: [('CRENA', 115), ('CLEAR', 113), ('CREAK', 113), ('AREIC', 112), ('CREAM', 112), ('CREMA', 112), ('ERICA', 112), ('URENA', 112), ('ARGUE', 111), ('FRENA', 111)]
+The bot finally chose: CLEAR 
+Guess: 𝘾𝙇𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: FRENA 
+The top ten guesses and scores: [('FRENA', 27), ('URENA', 26), ('ARENA', 25), ('ARENE', 25), ('AREFY', 24), ('AREPA', 22)]
+The bot finally chose: ARENA 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙍, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙍𝙀𝙉𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 2.4940 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 2.4939888406736657, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARECA with entropy: 3.7647
+Bot chose: ARENA with entropy: 3.5559
+Top ten guesses: [('ARECA', 3.764735178725505), ('AFEAR', 3.711080496244278), ('ANEAR', 3.672905595320056), ('AREAL', 3.577747162910945), ('ARENA', 3.555913095175825), ('CRENA', 3.4980685120588384), ('AREAE', 3.4729055953200563), ('CLEAR', 3.4565647621309536), ('AREPA', 3.4192509128388293), ('AREAR', 3.3810760119146077)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙍𝙀𝙉𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 2.4940 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 2.4939888406736657, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ARECA with entropy: 3.7647
+Bot chose: ARENA with entropy: 3.5559
+Top ten guesses: [('ARECA', 3.764735178725505), ('AFEAR', 3.711080496244278), ('ANEAR', 3.672905595320056), ('AREAL', 3.577747162910945), ('ARENA', 3.555913095175825), ('CRENA', 3.4980685120588384), ('AREAE', 3.4729055953200563), ('CLEAR', 3.4565647621309536), ('AREPA', 3.4192509128388293), ('AREAR', 3.3810760119146077)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙍𝙀𝙉𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 266 potential guesses from 169 remaining candidates...
+Top 5 guesses: [('BEARD', '4.178'), ('DEARE', '4.132'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BEARE', '4.027')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Ended up choosing COMMON word: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 2.4940 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 2.4939888406736657, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('ARECA', '3.765'), ('AFEAR', '3.711'), ('ANEAR', '3.673'), ('AREAL', '3.578'), ('ARENA', '3.556')]
+Top entropy choice: 𝘼𝙍𝙀𝘾𝘼 with entropy: 3.7647
+Ended up choosing COMMON word: 𝘼𝙍𝙀𝙉𝘼 with entropy: 3.5559
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙍𝙀𝙉𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAR', 'ABORE', 'ACERB', 'ADORE', 'AFEAR', 'AFIRE', 'AFORE', 'AIERY', 'ALURE', 'AMORE', 'ANEAR', 'APERY', 'ARAME', 'AREAD', 'AREAE', 'AREAL', 'AREAR', 'ARECA', 'AREDD', 'AREDE', 'AREFY', 'AREIC', 'ARENA', 'ARENE', 'AREPA', 'ARERE', 'ARGLE', 'ARGUE', 'ARUHE', 'AWARE', 'AYGRE', 'AZURE', 'BEARD', 'BEARE', 'BEGAR', 'BEIRA', 'BELAR', 'BLARE', 'BLEAR', 'BRACE', 'BRAKE', 'BRAME', 'BRANE', 'BRAVE', 'BRAZE', 'BREAD', 'BREAK', 'BREAM', 'CEDAR', 'CHARE', 'CLEAR', 'CRAKE', 'CRAME', 'CRANE', 'CRAPE', 'CRARE', 'CRAVE', 'CRAZE', 'CREAK', 'CREAM', 'CREMA', 'CRENA', 'DEAIR', 'DEARE', 'DEARN', 'DEARY', 'DEBAR', 'DENAR', 'DEWAR', 'DRAKE', 'DRAPE', 'DRAVE', 'DREAD', 'DREAM', 'DREAR', 'ECARD', 'EGGAR', 'EMBAR', 'ENARM', 'ERBIA', 'ERICA', 'FEARD', 'FEARE', 'FEUAR', 'FLARE', 'FRAME', 'FRAPE', 'FREAK', 'FRENA', 'GEARE', 'GLARE', 'GRACE', 'GRADE', 'GRAME', 'GRAPE', 'GRAVE', 'GRAZE', 'HEARD', 'HEARE', 'HEJRA', 'HEPAR', 'IRADE', 'JEERA', 'KEBAR', 'LEARE', 'LEARN', 'LEARY', 'LEEAR', 'LEPRA', 'MEARE', 'OPERA', 'OREAD', 'OWARE', 'PEARE', 'PEARL', 'PHARE', 'PREAK', 'QUARE', 'REACH', 'READD', 'READY', 'REALM', 'REALO', 'REAME', 'REAMY', 'REARD', 'REARM', 'REAVE', 'REBAB', 'REBAR', 'RECAL', 'RECAP', 'REDAN', 'REDIA', 'REEAF', 'REFAN', 'REGAL', 'REGAR', 'REGIA', 'REGMA', 'REGNA', 'REHAB', 'RELAX', 'RELAY', 'REMAN', 'REMAP', 'RENAL', 'RENAY', 'RENGA', 'REPAY', 'REPLA', 'REWAN', 'REWAX', 'RIMAE', 'ROAKE', 'RUEDA', 'RUGAE', 'URARE', 'UREAL', 'URENA', 'VELAR', 'WEARY', 'WHARE', 'WHEAR', 'WREAK', 'YEARD', 'YEARN', 'ZEBRA', 'ZEERA']
+169 candidate words remaining.
+Top 10 guesses: [('BEARD', '4.178'), ('DRERE', '4.157'), ('DEARE', '4.132'), ('REERD', '4.123'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BRERE', '4.036'), ('DRAMA', '4.027'), ('BEARE', '4.027'), ('BREDE', '4.025')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Guess count low, choosing the word with highest entropy: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 2.4940 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 2.4939888406736657, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AFEAR', 'ANEAR', 'AREAE', 'AREAL', 'AREAR', 'ARECA', 'AREFY', 'AREIC', 'ARENA', 'ARENE', 'AREPA', 'ARGLE', 'ARGUE', 'ARUHE', 'CLEAR', 'CREAK', 'CREAM', 'CREMA', 'CRENA', 'EGGAR', 'ERICA', 'FREAK', 'FRENA', 'PREAK', 'RIMAE', 'RUGAE', 'UREAL', 'URENA', 'WHEAR', 'WREAK']
+30 candidate words remaining.
+Top 10 guesses: [('ARECA', '3.765'), ('AFEAR', '3.711'), ('ANEAR', '3.673'), ('CANAL', '3.643'), ('ANCLE', '3.628'), ('AREAL', '3.578'), ('AGUNA', '3.574'), ('CRAAL', '3.565'), ('ARENA', '3.556'), ('ALGAE', '3.553')]
+Top entropy choice: 𝘼𝙍𝙀𝘾𝘼 with entropy: 3.7647
+Using common exploratory word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 3.6430
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 4.9069 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 0.0, 'actual_info_gain': 4.906890595608519, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ARENA']
+1 candidate words remaining.
+Top 10 guesses: [('ARENA', '0.000')]
+Top entropy choice: 𝘼𝙍𝙀𝙉𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙍𝙀𝙉𝘼 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 4.907, Expected Info Gain: 4.178 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

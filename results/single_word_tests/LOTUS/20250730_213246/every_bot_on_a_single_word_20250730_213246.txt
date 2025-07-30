@@ -1,0 +1,200 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙊𝙏𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: OINTS 
+The top ten guesses and scores: [('OINTS', 647), ('HOTIS', 644), ('MOITS', 640), ('MOTIS', 640), ('OMITS', 640), ('COITS', 639), ('LOTUS', 638), ('LOUTS', 638), ('BITOS', 634), ('OBITS', 634)]
+The bot finally chose: LOTUS 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙊𝙏𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 6.3273 bits
+Posterior entropy: 7.531381460516312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.531381460516312, 'actual_info_gain': 6.327279524206465, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUITS with entropy: 4.0956
+Bot chose: SUITS with entropy: 4.0956
+Top ten guesses: [('SUITS', 4.095590928694564), ('SOUTS', 4.094109382205468), ('SILTS', 4.0286778041028795), ('LISTS', 4.009118883119132), ('OUSTS', 3.9651390006153733), ('LOUTS', 3.953781554436019), ('SITUS', 3.9495206011816766), ('SLOTS', 3.948959277822444), ('SLITS', 3.8928823476627583), ('LUSTS', 3.8243480497652445)]
+
+Guess: 𝙎𝙐𝙄𝙏𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 6.5314 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.531381460516312, 'posterior_entropy': 1.0, 'actual_info_gain': 6.531381460516312, 'expected_info_gain': 4.095590928694564}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOTUS with entropy: 1.0000
+Bot chose: LOTUS with entropy: 1.0000
+Top ten guesses: [('LOTUS', 1.0), ('MOTUS', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.327 bits, Posterior Entropy: 7.531, 
+Guess: 𝙎𝙐𝙄𝙏𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.531, Expected Info Gain: 4.096 bits, Actual Info Gain: 6.531 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙏𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 6.3273 bits
+Posterior entropy: 7.531381460516312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.531381460516312, 'actual_info_gain': 6.327279524206465, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUITS with entropy: 4.0956
+Bot chose: SUITS with entropy: 4.0956
+Top ten guesses: [('SUITS', 4.095590928694564), ('SOUTS', 4.094109382205468), ('SILTS', 4.0286778041028795), ('LISTS', 4.009118883119132), ('OUSTS', 3.9651390006153733), ('LOUTS', 3.953781554436019), ('SITUS', 3.9495206011816766), ('SLOTS', 3.948959277822444), ('SLITS', 3.8928823476627583), ('LUSTS', 3.8243480497652445)]
+
+Guess: 𝙎𝙐𝙄𝙏𝙎, Feedback: ⬜🟨⬜🟨🟩
+Actual Info Gain: 6.5314 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.531381460516312, 'posterior_entropy': 1.0, 'actual_info_gain': 6.531381460516312, 'expected_info_gain': 4.095590928694564}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOTUS with entropy: 1.0000
+Bot chose: LOTUS with entropy: 1.0000
+Top ten guesses: [('LOTUS', 1.0), ('MOTUS', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.327 bits, Posterior Entropy: 7.531, 
+Guess: 𝙎𝙐𝙄𝙏𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 7.531, Expected Info Gain: 4.096 bits, Actual Info Gain: 6.531 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙏𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 6.3273 bits
+Posterior entropy: 7.531381460516312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.531381460516312, 'actual_info_gain': 6.327279524206465, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 285 potential guesses from 185 remaining candidates...
+Top 5 guesses: [('SOUTH', '4.166'), ('SUITS', '4.096'), ('SOUTS', '4.094'), ('SILTS', '4.029'), ('LISTS', '4.009')]
+Top entropy choice: 𝙎𝙊𝙐𝙏𝙃 with entropy: 4.1662
+Ended up choosing COMMON word: 𝙎𝙊𝙐𝙏𝙃 with entropy: 4.1662
+
+Guess: 𝙎𝙊𝙐𝙏𝙃, Feedback: 🟨🟩🟨🟨⬜
+Actual Info Gain: 6.5314 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.531381460516312, 'posterior_entropy': 1.0, 'actual_info_gain': 6.531381460516312, 'expected_info_gain': 4.166221851801547}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('LOTUS', '1.000'), ('MOTUS', '1.000')]
+Top entropy choice: 𝙇𝙊𝙏𝙐𝙎 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙇𝙊𝙏𝙐𝙎 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.327 bits, Posterior Entropy: 7.531, 
+Guess: 𝙎𝙊𝙐𝙏𝙃, Feedback: 🟨🟩🟨🟨⬜, Prior Entropy: 7.531, Expected Info Gain: 4.166 bits, Actual Info Gain: 6.531 bits, Posterior Entropy: 1.000, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙊𝙏𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 6.3273 bits
+Posterior entropy: 7.531381460516312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.531381460516312, 'actual_info_gain': 6.327279524206465, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BHUTS', 'BINTS', 'BITOS', 'BITTS', 'BLITS', 'BLOTS', 'BOLTS', 'BOOTS', 'BOTOS', 'BOTTS', 'BOUTS', 'BUNTS', 'BUSTS', 'BUTTS', 'CHITS', 'CHUTS', 'CISTS', 'CLITS', 'CLOTS', 'COITS', 'COLTS', 'COOTS', 'COSTS', 'COTHS', 'COTTS', 'CUITS', 'CULTS', 'CUNTS', 'CUTIS', 'CYSTS', 'DICTS', 'DINTS', 'DITTS', 'DOITS', 'DOLTS', 'DOUTS', 'DOWTS', 'DUCTS', 'DUITS', 'DUNTS', 'DUSTS', 'FISTS', 'FITTS', 'FLITS', 'FONTS', 'FOOTS', 'FUNTS', 'FUSTS', 'GIFTS', 'GILTS', 'GISTS', 'GLITS', 'GLUTS', 'GOTHS', 'GOUTS', 'GUSTS', 'HILTS', 'HINTS', 'HISTS', 'HOLTS', 'HOOTS', 'HOSTS', 'HOTIS', 'HOUTS', 'HUNTS', 'ICTUS', 'INTIS', 'JILTS', 'JITIS', 'JOLTS', 'JUSTS', 'KILTS', 'KISTS', 'KITHS', 'KNITS', 'KNOTS', 'KNUTS', 'KOTOS', 'KUTIS', 'KUTUS', 'LIFTS', 'LILTS', 'LINTS', 'LISTS', 'LITHS', 'LOFTS', 'LOOTS', 'LOTOS', 'LOTUS', 'LOUTS', 'LOWTS', 'LUNTS', 'LUSTS', 'MILTS', 'MINTS', 'MISTS', 'MITIS', 'MITTS', 'MOITS', 'MOLTS', 'MOOTS', 'MOSTS', 'MOTHS', 'MOTIS', 'MOTTS', 'MOTUS', 'MUNTS', 'MUSTS', 'MUTIS', 'MUTTS', 'MYTHS', 'NOWTS', 'OBITS', 'OINTS', 'OMITS', 'OONTS', 'OTTOS', 'OUSTS', 'PHOTS', 'PHUTS', 'PINTS', 'PITHS', 'PLOTS', 'POLTS', 'PONTS', 'POOTS', 'POSTS', 'POTTS', 'POUTS', 'PUNTS', 'PUTOS', 'PUTTS', 'PYOTS', 'QUITS', 'SCOTS', 'SCUTS', 'SHITS', 'SHOTS', 'SHUTS', 'SIFTS', 'SILTS', 'SISTS', 'SITUS', 'SKITS', 'SLITS', 'SLOTS', 'SLUTS', 'SMITS', 'SMUTS', 'SNITS', 'SNOTS', 'SOFTS', 'SOOTS', 'SOTHS', 'SOUTS', 'SPITS', 'SPOTS', 'STIMS', 'STOBS', 'STOGS', 'STOPS', 'STOSS', 'STOTS', 'STOWS', 'STUBS', 'STUCS', 'STUDS', 'STUMS', 'STUNS', 'SUITS', 'SUNTS', 'SWITS', 'SWOTS', 'UNITS', 'VINTS', 'VOLTS', 'WHITS', 'WIFTS', 'WILTS', 'WISTS', 'WITHS', 'WONTS', 'XYSTS', 'YUFTS', 'ZITIS']
+185 candidate words remaining.
+Top 10 guesses: [('COLIN', '4.302'), ('SOLUM', '4.298'), ('LINUM', '4.273'), ('HILUM', '4.266'), ('LOTIC', '4.263'), ('SOLUS', '4.242'), ('CHOIL', '4.221'), ('LITHO', '4.221'), ('CULTI', '4.213'), ('SOILS', '4.210')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 4.3021
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 4.3021
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 4.9464 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.531381460516312, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.946418959795156, 'expected_info_gain': 4.302062467572414}
+----------
+The bot is making a guess...
+THe possible candidates are: ['LOFTS', 'LOOTS', 'LOTOS', 'LOTUS', 'LOUTS', 'LOWTS']
+6 candidate words remaining.
+Top 10 guesses: [('FOGOU', '2.252'), ('WHOOF', '2.252'), ('WOOFS', '2.252'), ('WOOFY', '2.252'), ('AFOUL', '2.252'), ('AWFUL', '2.252'), ('BUFTY', '2.252'), ('FAUTE', '2.252'), ('FAUTS', '2.252'), ('FETUS', '2.252')]
+Top entropy choice: 𝙁𝙊𝙂𝙊𝙐 with entropy: 2.2516
+Using common exploratory word: 𝘼𝙁𝙊𝙐𝙇 with entropy: 2.2516
+
+Guess: 𝘼𝙁𝙊𝙐𝙇, Feedback: ⬜⬜🟨🟩🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.302062467572414}
+----------
+The bot is making a guess...
+THe possible candidates are: ['LOTUS']
+1 candidate words remaining.
+Top 10 guesses: [('LOTUS', '0.000')]
+Top entropy choice: 𝙇𝙊𝙏𝙐𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝙊𝙏𝙐𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.327 bits, Posterior Entropy: 7.531, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 7.531, Expected Info Gain: 4.302 bits, Actual Info Gain: 4.946 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙁𝙊𝙐𝙇, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 2.585, Expected Info Gain: 4.302 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙊𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

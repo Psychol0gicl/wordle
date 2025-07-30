@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩
+Guess: 𝙋𝙀𝙉𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙏𝙃𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙏𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.244 bits, Posterior Entropy: 6.615, 
+Guess: 𝙉𝙀𝙎𝙏𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 6.615, Expected Info Gain: 3.269 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 3.269 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙀𝙏𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

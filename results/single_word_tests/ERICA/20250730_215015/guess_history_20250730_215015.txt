@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙍𝙄𝘾𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙍, Feedback: 🟨⬜🟨🟨🟨
+Guess: 𝙀𝙍𝙄𝘾𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙍𝙄𝘾𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: ⬜🟩🟨⬜🟩, Prior Entropy: 4.907, Expected Info Gain: 3.556 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙄𝘾𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙄𝘾𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: ⬜🟩🟨⬜🟩, Prior Entropy: 4.907, Expected Info Gain: 3.556 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙄𝘾𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙄𝘾𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘼𝙍𝙀𝙉𝘼, Feedback: ⬜🟩🟨⬜🟩, Prior Entropy: 4.907, Expected Info Gain: 3.556 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙄𝘾𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙄𝘾𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.494 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 4.907, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙍𝙄𝘾𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

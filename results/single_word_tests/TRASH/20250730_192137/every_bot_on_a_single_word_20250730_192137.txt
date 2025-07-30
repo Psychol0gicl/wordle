@@ -1,0 +1,136 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TRASH 
+The top ten guesses and scores: [('TRASH', 5)]
+The bot finally chose: TRASH 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRASH with entropy: 0.0000
+Bot chose: TRASH with entropy: 0.0000
+Top ten guesses: [('TRASH', 0.0)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRASH with entropy: 0.0000
+Bot chose: TRASH with entropy: 0.0000
+Top ten guesses: [('TRASH', 0.0)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TRASH', '0.000')]
+Top entropy choice: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨
+Actual Info Gain: 13.8587 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 0.0, 'actual_info_gain': 13.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TRASH']
+1 candidate words remaining.
+Top 10 guesses: [('TRASH', '0.000')]
+Top entropy choice: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+Guess count low, choosing the word with highest entropy: 𝙏𝙍𝘼𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 13.859 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙐𝘿𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙈𝙐𝙎𝙏𝙔, Feedback: ⬜🟨🟨🟨🟩
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝘿𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝘿𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝘿𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝘿𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

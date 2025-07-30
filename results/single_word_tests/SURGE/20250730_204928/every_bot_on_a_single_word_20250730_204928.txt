@@ -1,0 +1,242 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙐𝙍𝙂𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ESROG 
+The top ten guesses and scores: [('ESROG', 131), ('GORSE', 131), ('MORSE', 131), ('SERVO', 131), ('VERSO', 131), ('CORSE', 130), ('HORSE', 130), ('SERON', 130), ('SEROW', 130), ('WORSE', 130)]
+The bot finally chose: MORSE 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SURGE 
+The top ten guesses and scores: [('SURGE', 23), ('SPRUE', 22), ('SERGE', 21), ('SERVE', 20), ('SERRE', 19)]
+The bot finally chose: SURGE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+Guess: 𝙎𝙐𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙐𝙍𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORSE with entropy: 3.0513
+Bot chose: MORSE with entropy: 3.0513
+Top ten guesses: [('MORSE', 3.0513099897106644), ('SEROW', 3.039039717057208), ('SERON', 3.0349124766933526), ('VERSO', 2.9929715902830516), ('CORSE', 2.9725989182202794), ('GORSE', 2.963181944712821), ('HORSE', 2.9398775745709465), ('WORSE', 2.9031857884239667), ('MERSE', 2.89161415090209), ('SERVO', 2.8687282889802868)]
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.0513099897106644}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SERGE with entropy: 1.9219
+Bot chose: SERGE with entropy: 1.9219
+Top ten guesses: [('SERGE', 1.9219280948873623), ('SURGE', 1.9219280948873623), ('SERRE', 1.5219280948873621), ('SERVE', 1.5219280948873621), ('SPRUE', 1.3709505944546687)]
+
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SURGE with entropy: 0.0000
+Bot chose: SURGE with entropy: 0.0000
+Top ten guesses: [('SURGE', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙍𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORSE with entropy: 3.0513
+Bot chose: MORSE with entropy: 3.0513
+Top ten guesses: [('MORSE', 3.0513099897106644), ('SEROW', 3.039039717057208), ('SERON', 3.0349124766933526), ('VERSO', 2.9929715902830516), ('CORSE', 2.9725989182202794), ('GORSE', 2.963181944712821), ('HORSE', 2.9398775745709465), ('WORSE', 2.9031857884239667), ('MERSE', 2.89161415090209), ('SERVO', 2.8687282889802868)]
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.0513099897106644}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SERGE with entropy: 1.9219
+Bot chose: SERGE with entropy: 1.9219
+Top ten guesses: [('SERGE', 1.9219280948873623), ('SURGE', 1.9219280948873623), ('SERRE', 1.5219280948873621), ('SERVE', 1.5219280948873621), ('SPRUE', 1.3709505944546687)]
+
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SURGE with entropy: 0.0000
+Bot chose: SURGE with entropy: 0.0000
+Top ten guesses: [('SURGE', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙍𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('MORSE', '3.051'), ('SEROW', '3.039'), ('SERON', '3.035'), ('VERSO', '2.993'), ('CORSE', '2.973')]
+Top entropy choice: 𝙈𝙊𝙍𝙎𝙀 with entropy: 3.0513
+Ended up choosing COMMON word: 𝙈𝙊𝙍𝙎𝙀 with entropy: 3.0513
+
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.0513099897106644}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('SERGE', '1.922'), ('SURGE', '1.922'), ('SERRE', '1.522'), ('SERVE', '1.522'), ('SPRUE', '1.371')]
+Top entropy choice: 𝙎𝙀𝙍𝙂𝙀 with entropy: 1.9219
+Ended up choosing COMMON word: 𝙎𝙀𝙍𝙂𝙀 with entropy: 1.9219
+
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SURGE', '0.000')]
+Top entropy choice: 𝙎𝙐𝙍𝙂𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙐𝙍𝙂𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙈𝙊𝙍𝙎𝙀, Feedback: ⬜⬜🟩🟨🟩, Prior Entropy: 5.129, Expected Info Gain: 3.051 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙀𝙍𝙂𝙀, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙍𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRSE', 'BURSE', 'CORSE', 'CURSE', 'DORSE', 'ESROG', 'GORSE', 'HERSE', 'HORSE', 'MERSE', 'MERSK', 'MORSE', 'NURSE', 'PERSE', 'PERSP', 'PURSE', 'SERGE', 'SERIC', 'SERIF', 'SERIN', 'SERIR', 'SERON', 'SEROW', 'SERRE', 'SERRY', 'SERUM', 'SERVE', 'SERVO', 'SPRUE', 'SURGE', 'VERSE', 'VERSO', 'WERSH', 'WORSE', 'ZORSE']
+35 candidate words remaining.
+Top 10 guesses: [('SHMOE', '3.516'), ('SOUCE', '3.468'), ('HOUSE', '3.419'), ('MOUSE', '3.419'), ('VOGUE', '3.383'), ('SCOPE', '3.375'), ('SOUGH', '3.371'), ('COPSE', '3.340'), ('SHOVE', '3.339'), ('MOGUE', '3.336')]
+Top entropy choice: 𝙎𝙃𝙈𝙊𝙀 with entropy: 3.5156
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙈𝙊𝙀 with entropy: 3.5156
+
+Guess: 𝙎𝙃𝙈𝙊𝙀, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.5155571347245758}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SERGE', 'SERRE', 'SERVE', 'SPRUE', 'SURGE']
+5 candidate words remaining.
+Top 10 guesses: [('BOURG', '2.322'), ('EAGRE', '2.322'), ('EGERS', '2.322'), ('EMERG', '2.322'), ('EVEGS', '2.322'), ('GAURS', '2.322'), ('GEARE', '2.322'), ('GEARS', '2.322'), ('GENRE', '2.322'), ('GENRO', '2.322')]
+Top entropy choice: 𝘽𝙊𝙐𝙍𝙂 with entropy: 2.3219
+Using common exploratory word: 𝙂𝙀𝙉𝙍𝙀 with entropy: 2.3219
+
+Guess: 𝙂𝙀𝙉𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.5155571347245758}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SURGE']
+1 candidate words remaining.
+Top 10 guesses: [('SURGE', '0.000')]
+Top entropy choice: 𝙎𝙐𝙍𝙂𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙐𝙍𝙂𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙎𝙃𝙈𝙊𝙀, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.129, Expected Info Gain: 3.516 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙀𝙉𝙍𝙀, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 3.516 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

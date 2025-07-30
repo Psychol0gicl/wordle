@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙍𝙄𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 4.087, Expected Info Gain: 3.220 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙍𝙄𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================

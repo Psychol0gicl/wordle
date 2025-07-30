@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙒𝙀𝘼𝙍𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BEARD 
+The top ten guesses and scores: [('BEARD', 610), ('BREAD', 610), ('DEBAR', 610), ('CEDAR', 606), ('ECARD', 606), ('DEARN', 603), ('DENAR', 603), ('DREAM', 603), ('GRADE', 603), ('REDAN', 603)]
+The bot finally chose: BEARD 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LEARY 
+The top ten guesses and scores: [('LEARY', 50), ('LEARN', 49), ('PEARL', 49), ('YEARN', 48), ('LEARE', 47), ('WEARY', 47), ('MEARE', 45), ('PEARE', 45), ('REARM', 45), ('FEARE', 44)]
+The bot finally chose: LEARY 
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: WEARY 
+The top ten guesses and scores: [('WEARY', 5)]
+The bot finally chose: WEARY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙒𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝙀𝘼𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 3.8159 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.8159169355610283, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEARY with entropy: 2.1258
+Bot chose: LEARY with entropy: 2.1258
+Top ten guesses: [('LEARY', 2.125814583693911), ('LEARE', 2.054585169337799), ('LEARN', 1.780672129520887), ('MEARE', 1.650022421648354), ('PEARE', 1.650022421648354), ('PEARL', 1.5510981710072647), ('YEARN', 1.4182958340544896), ('FEARE', 1.3250112108241772), ('GEARE', 1.3250112108241772), ('HEARE', 1.3250112108241772)]
+
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WEARY with entropy: 0.0000
+Bot chose: WEARY with entropy: 0.0000
+Top ten guesses: [('WEARY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.816 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝙀𝘼𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BEARD with entropy: 4.1781
+Bot chose: BEARD with entropy: 4.1781
+Top ten guesses: [('BEARD', 4.178126483345813), ('DEARE', 4.1319976865497905), ('DEARN', 4.081354500010559), ('REARD', 4.0631278659179095), ('BEARE', 4.026830648679552), ('BREAD', 3.9355579291943235), ('FEARD', 3.934082646102317), ('DEARY', 3.925629033949298), ('LEARE', 3.902155033200686), ('CRARE', 3.8865826751505033)]
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 3.8159 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.8159169355610283, 'expected_info_gain': 4.178126483345813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LEARY with entropy: 2.1258
+Bot chose: LEARY with entropy: 2.1258
+Top ten guesses: [('LEARY', 2.125814583693911), ('LEARE', 2.054585169337799), ('LEARN', 1.780672129520887), ('MEARE', 1.650022421648354), ('PEARE', 1.650022421648354), ('PEARL', 1.5510981710072647), ('YEARN', 1.4182958340544896), ('FEARE', 1.3250112108241772), ('GEARE', 1.3250112108241772), ('HEARE', 1.3250112108241772)]
+
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WEARY with entropy: 0.0000
+Bot chose: WEARY with entropy: 0.0000
+Top ten guesses: [('WEARY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.816 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝙀𝘼𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 266 potential guesses from 169 remaining candidates...
+Top 5 guesses: [('BEARD', '4.178'), ('DEARE', '4.132'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BEARE', '4.027')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Ended up choosing COMMON word: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 3.8159 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.8159169355610283, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('LEARY', '2.126'), ('LEARE', '2.055'), ('LEARN', '1.781'), ('MEARE', '1.650'), ('PEARE', '1.650')]
+Top entropy choice: 𝙇𝙀𝘼𝙍𝙔 with entropy: 2.1258
+Ended up choosing COMMON word: 𝙇𝙀𝘼𝙍𝙔 with entropy: 2.1258
+
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.125814583693911}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('WEARY', '0.000')]
+Top entropy choice: 𝙒𝙀𝘼𝙍𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙒𝙀𝘼𝙍𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.816 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝙀𝘼𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙒𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝙀𝘼𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 6.4578 bits
+Posterior entropy: 7.400879436282184
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.400879436282184, 'actual_info_gain': 6.457781548440592, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABEAR', 'ABORE', 'ACERB', 'ADORE', 'AFEAR', 'AFIRE', 'AFORE', 'AIERY', 'ALURE', 'AMORE', 'ANEAR', 'APERY', 'ARAME', 'AREAD', 'AREAE', 'AREAL', 'AREAR', 'ARECA', 'AREDD', 'AREDE', 'AREFY', 'AREIC', 'ARENA', 'ARENE', 'AREPA', 'ARERE', 'ARGLE', 'ARGUE', 'ARUHE', 'AWARE', 'AYGRE', 'AZURE', 'BEARD', 'BEARE', 'BEGAR', 'BEIRA', 'BELAR', 'BLARE', 'BLEAR', 'BRACE', 'BRAKE', 'BRAME', 'BRANE', 'BRAVE', 'BRAZE', 'BREAD', 'BREAK', 'BREAM', 'CEDAR', 'CHARE', 'CLEAR', 'CRAKE', 'CRAME', 'CRANE', 'CRAPE', 'CRARE', 'CRAVE', 'CRAZE', 'CREAK', 'CREAM', 'CREMA', 'CRENA', 'DEAIR', 'DEARE', 'DEARN', 'DEARY', 'DEBAR', 'DENAR', 'DEWAR', 'DRAKE', 'DRAPE', 'DRAVE', 'DREAD', 'DREAM', 'DREAR', 'ECARD', 'EGGAR', 'EMBAR', 'ENARM', 'ERBIA', 'ERICA', 'FEARD', 'FEARE', 'FEUAR', 'FLARE', 'FRAME', 'FRAPE', 'FREAK', 'FRENA', 'GEARE', 'GLARE', 'GRACE', 'GRADE', 'GRAME', 'GRAPE', 'GRAVE', 'GRAZE', 'HEARD', 'HEARE', 'HEJRA', 'HEPAR', 'IRADE', 'JEERA', 'KEBAR', 'LEARE', 'LEARN', 'LEARY', 'LEEAR', 'LEPRA', 'MEARE', 'OPERA', 'OREAD', 'OWARE', 'PEARE', 'PEARL', 'PHARE', 'PREAK', 'QUARE', 'REACH', 'READD', 'READY', 'REALM', 'REALO', 'REAME', 'REAMY', 'REARD', 'REARM', 'REAVE', 'REBAB', 'REBAR', 'RECAL', 'RECAP', 'REDAN', 'REDIA', 'REEAF', 'REFAN', 'REGAL', 'REGAR', 'REGIA', 'REGMA', 'REGNA', 'REHAB', 'RELAX', 'RELAY', 'REMAN', 'REMAP', 'RENAL', 'RENAY', 'RENGA', 'REPAY', 'REPLA', 'REWAN', 'REWAX', 'RIMAE', 'ROAKE', 'RUEDA', 'RUGAE', 'URARE', 'UREAL', 'URENA', 'VELAR', 'WEARY', 'WHARE', 'WHEAR', 'WREAK', 'YEARD', 'YEARN', 'ZEBRA', 'ZEERA']
+169 candidate words remaining.
+Top 10 guesses: [('BEARD', '4.178'), ('DRERE', '4.157'), ('DEARE', '4.132'), ('REERD', '4.123'), ('DEARN', '4.081'), ('REARD', '4.063'), ('BRERE', '4.036'), ('DRAMA', '4.027'), ('BEARE', '4.027'), ('BREDE', '4.025')]
+Top entropy choice: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+Guess count low, choosing the word with highest entropy: 𝘽𝙀𝘼𝙍𝘿 with entropy: 4.1781
+
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 3.8159 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.400879436282184, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.8159169355610283, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FEARE', 'GEARE', 'HEARE', 'LEARE', 'LEARN', 'LEARY', 'MEARE', 'PEARE', 'PEARL', 'REARM', 'WEARY', 'YEARN']
+12 candidate words remaining.
+Top 10 guesses: [('FLYPE', '3.022'), ('PHYLE', '3.022'), ('PEELY', '2.918'), ('LYMPH', '2.918'), ('AMPLE', '2.855'), ('AMPLY', '2.855'), ('GEMEL', '2.855'), ('GLYPH', '2.855'), ('IMPLY', '2.855'), ('LUMPY', '2.855')]
+Top entropy choice: 𝙁𝙇𝙔𝙋𝙀 with entropy: 3.0221
+Using common exploratory word: 𝙇𝙔𝙈𝙋𝙃 with entropy: 2.9183
+
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.178126483345813}
+----------
+The bot is making a guess...
+THe possible candidates are: ['WEARY', 'YEARN']
+2 candidate words remaining.
+Top 10 guesses: [('WEARY', '1.000'), ('YEARN', '1.000')]
+Top entropy choice: 𝙒𝙀𝘼𝙍𝙔 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙒𝙀𝘼𝙍𝙔 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 3.816 bits, Posterior Entropy: 3.585, 
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 4.178 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙒𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

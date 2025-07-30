@@ -1,0 +1,298 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙐𝙋𝙋𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: NOILY 
+The top ten guesses and scores: [('NOILY', 2508), ('YONIC', 2400), ('PIONY', 2375), ('YOGIN', 2364), ('COLIN', 2340), ('NICOL', 2340), ('DOILY', 2338), ('PILON', 2315), ('PINOL', 2315), ('NMOLI', 2308)]
+The bot finally chose: COLIN 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: DUMPY 
+The top ten guesses and scores: [('DUMPY', 198), ('BUMPY', 193), ('PUDGY', 192), ('HUMPY', 190), ('FUDGY', 179), ('JUMPY', 178), ('PUMPY', 174), ('DUMKY', 171), ('DUPPY', 171), ('PUDDY', 171)]
+The bot finally chose: BUMPY 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DUPPY 
+The top ten guesses and scores: [('DUPPY', 19), ('GUPPY', 19), ('PUPPY', 18), ('YUPPY', 18)]
+The bot finally chose: PUPPY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙐𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙐𝙋𝙋𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.8615 bits
+Posterior entropy: 9.997179480937621
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.997179480937621, 'actual_info_gain': 3.8614815037851553, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9379
+Bot chose: COLIN with entropy: 5.9379
+Top ten guesses: [('COLIN', 5.937896650379372), ('NOILY', 5.864227774520918), ('DINLO', 5.841447704214591), ('PIONY', 5.791166495529959), ('LINGO', 5.749460212371824), ('PILON', 5.742430106812767), ('PINOL', 5.704434326615297), ('LOGIN', 5.699337963786133), ('DOILY', 5.681104740276626), ('NICOL', 5.680174261748179)]
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.1145 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 9.997179480937621, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 4.11453643157578, 'expected_info_gain': 5.937896650379372}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PYGMY with entropy: 4.0516
+Bot chose: PYGMY with entropy: 4.0516
+Top ten guesses: [('PYGMY', 4.051591780514262), ('BUMPH', 4.030995639108941), ('DUMPY', 3.908445389784636), ('BUMPY', 3.8948949585170336), ('PUDGY', 3.866676009331921), ('HUMPY', 3.6077968755574954), ('FUDGY', 3.6016184352761345), ('MUMPH', 3.5344634988308963), ('HUMPH', 3.390999203123945), ('GYPPY', 3.3867410851752666)]
+
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.8826 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8826430493618416, 'expected_info_gain': 4.051591780514262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBBY with entropy: 0.8113
+Bot chose: PUFFY with entropy: 0.8113
+Top ten guesses: [('PUBBY', 0.8112781244591328), ('PUDDY', 0.8112781244591328), ('PUFFY', 0.8112781244591328), ('PUPPY', 0.8112781244591328)]
+
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBBY with entropy: 0.9183
+Bot chose: PUPPY with entropy: 0.9183
+Top ten guesses: [('PUBBY', 0.9182958340544896), ('PUDDY', 0.9182958340544896), ('PUPPY', 0.9182958340544896)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.115 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.883, Expected Info Gain: 4.052 bits, Actual Info Gain: 3.883 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙐𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙋𝙋𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.8615 bits
+Posterior entropy: 9.997179480937621
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.997179480937621, 'actual_info_gain': 3.8614815037851553, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: COLIN with entropy: 5.9379
+Bot chose: COLIN with entropy: 5.9379
+Top ten guesses: [('COLIN', 5.937896650379372), ('NOILY', 5.864227774520918), ('DINLO', 5.841447704214591), ('PIONY', 5.791166495529959), ('LINGO', 5.749460212371824), ('PILON', 5.742430106812767), ('PINOL', 5.704434326615297), ('LOGIN', 5.699337963786133), ('DOILY', 5.681104740276626), ('NICOL', 5.680174261748179)]
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.1145 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 9.997179480937621, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 4.11453643157578, 'expected_info_gain': 5.937896650379372}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PYGMY with entropy: 4.0516
+Bot chose: PYGMY with entropy: 4.0516
+Top ten guesses: [('PYGMY', 4.051591780514262), ('BUMPH', 4.030995639108941), ('DUMPY', 3.908445389784636), ('BUMPY', 3.8948949585170336), ('PUDGY', 3.866676009331921), ('HUMPY', 3.6077968755574954), ('FUDGY', 3.6016184352761345), ('MUMPH', 3.5344634988308963), ('HUMPH', 3.390999203123945), ('GYPPY', 3.3867410851752666)]
+
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.8826 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8826430493618416, 'expected_info_gain': 4.051591780514262}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBBY with entropy: 0.8113
+Bot chose: PUFFY with entropy: 0.8113
+Top ten guesses: [('PUBBY', 0.8112781244591328), ('PUDDY', 0.8112781244591328), ('PUFFY', 0.8112781244591328), ('PUPPY', 0.8112781244591328)]
+
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUBBY with entropy: 0.9183
+Bot chose: PUPPY with entropy: 0.9183
+Top ten guesses: [('PUBBY', 0.9182958340544896), ('PUDDY', 0.9182958340544896), ('PUPPY', 0.9182958340544896)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.115 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.883, Expected Info Gain: 4.052 bits, Actual Info Gain: 3.883 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙐𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙋𝙋𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.8615 bits
+Posterior entropy: 9.997179480937621
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.997179480937621, 'actual_info_gain': 3.8614815037851553, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 1022 remaining candidates...
+Top 5 guesses: [('COLIN', '5.938'), ('DINLO', '5.841'), ('DOILY', '5.681'), ('COIGN', '5.663'), ('DOLCI', '5.657')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.9379
+Ended up choosing COMMON word: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.9379
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.1145 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 9.997179480937621, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 4.11453643157578, 'expected_info_gain': 5.937896650379372}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 159 potential guesses from 59 remaining candidates...
+Top 5 guesses: [('PYGMY', '4.052'), ('BUMPH', '4.031'), ('DUMPY', '3.908'), ('BUMPY', '3.895'), ('PUDGY', '3.867')]
+Top entropy choice: 𝙋𝙔𝙂𝙈𝙔 with entropy: 4.0516
+Ended up choosing COMMON word: 𝙋𝙔𝙂𝙈𝙔 with entropy: 4.0516
+
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.8826 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8826430493618416, 'expected_info_gain': 4.051591780514262}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('PUBBY', '0.811'), ('PUDDY', '0.811'), ('PUFFY', '0.811'), ('PUPPY', '0.811')]
+Top entropy choice: 𝙋𝙐𝘽𝘽𝙔 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙋𝙐𝙁𝙁𝙔 with entropy: 0.8113
+
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('PUBBY', '0.918'), ('PUDDY', '0.918'), ('PUPPY', '0.918')]
+Top entropy choice: 𝙋𝙐𝘽𝘽𝙔 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙋𝙐𝙋𝙋𝙔 with entropy: 0.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.115 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.883, Expected Info Gain: 4.052 bits, Actual Info Gain: 3.883 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙐𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙐𝙋𝙋𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.8615 bits
+Posterior entropy: 9.997179480937621
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.997179480937621, 'actual_info_gain': 3.8614815037851553, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BICCY', 'BICKY', 'BIDDY', 'BIDON', 'BIFFO', 'BIFFY', 'BIFID', 'BIGGY', 'BIGLY', 'BIHON', 'BIJOU', 'BIKKY', 'BILBO', 'BILBY', 'BILGY', 'BILLY', 'BIMBO', 'BINDI', 'BINGO', 'BINGY', 'BINKY', 'BIPOD', 'BIPPY', 'BIVVY', 'BIZZO', 'BIZZY', 'BLIMP', 'BLIMY', 'BLIND', 'BLING', 'BLINI', 'BLINK', 'BLINY', 'BLOCK', 'BLOND', 'BLONX', 'BLOOD', 'BLOOK', 'BLOOM', 'BLOOP', 'BLOWN', 'BLOWY', 'BLUDY', 'BLUFF', 'BLUID', 'BLUNK', 'BOBBY', 'BOBOL', 'BOCCI', 'BODGY', 'BODHI', 'BODOH', 'BOFFO', 'BOGGY', 'BOING', 'BOINK', 'BOLDO', 'BOLIX', 'BOMBO', 'BOMOH', 'BONGO', 'BONNY', 'BONUM', 'BOOBY', 'BOODY', 'BOOFY', 'BOOGY', 'BOOKY', 'BOOMY', 'BOONG', 'BOOZY', 'BOPPY', 'BOUGH', 'BOUND', 'BOVID', 'BOYLY', 'BUBBY', 'BUCHU', 'BUCKO', 'BUCKU', 'BUDDY', 'BUFFI', 'BUFFO', 'BUFFY', 'BUGGY', 'BUILD', 'BULGY', 'BULKY', 'BULLY', 'BUMBO', 'BUMPH', 'BUMPY', 'BUNCH', 'BUNCO', 'BUNDH', 'BUNDU', 'BUNDY', 'BUNGY', 'BUNJY', 'BUNKO', 'BUNNY', 'BUPPY', 'BUXOM', 'BUYIN', 'BUZZY', 'CHICH', 'CHICK', 'CHICO', 'CHIKO', 'CHILD', 'CHILI', 'CHILL', 'CHIMB', 'CHIMO', 'CHIMP', 'CHING', 'CHINK', 'CHINO', 'CHIVY', 'CHIZZ', 'CHOCK', 'CHOCO', 'CHOIL', 'CHOKO', 'CHOKY', 'CHOLI', 'CHOLO', 'CHOMP', 'CHOOF', 'CHOOK', 'CHOOM', 'CHOON', 'CHOUX', 'CHOWK', 'CHUCK', 'CHUFF', 'CHUMP', 'CHUNK', 'CHYND', 'CIBOL', 'CIGGY', 'CINCH', 'CIPPI', 'CIVIC', 'CIVIL', 'CIVVY', 'CLICK', 'CLIFF', 'CLIMB', 'CLING', 'CLINK', 'CLOCK', 'CLOFF', 'CLOMB', 'CLOMP', 'CLONK', 'CLOOP', 'CLOUD', 'CLOWN', 'CLUCK', 'CLUMP', 'CLUNG', 'CLUNK', 'COBBY', 'COCCI', 'COCCO', 'COCKY', 'CODON', 'COGON', 'COHOG', 'COIGN', 'COLBY', 'COLIC', 'COLIN', 'COLLY', 'COLOG', 'COLON', 'COMBI', 'COMBO', 'COMBY', 'COMFY', 'COMIC', 'COMIX', 'COMMO', 'COMMY', 'COMPO', 'CONCH', 'CONDO', 'CONGO', 'CONIC', 'CONIN', 'CONKY', 'CONVO', 'COOCH', 'COOKY', 'COOLY', 'COOMB', 'COOMY', 'COPPY', 'COQUI', 'COUCH', 'COUGH', 'COULD', 'COVIN', 'COXIB', 'COYLY', 'COYPU', 'CUBBY', 'CUBIC', 'CUDDY', 'CUFFO', 'CUING', 'CULCH', 'CULLY', 'CUMIN', 'CUNDY', 'CUNNY', 'CUPID', 'CUPPY', 'CYCLO', 'CYLIX', 'CYMOL', 'CYNIC', 'DHOBI', 'DHOLL', 'DHONI', 'DICKY', 'DIDDY', 'DILDO', 'DILLI', 'DILLY', 'DIMBO', 'DIMLY', 'DINGO', 'DINGY', 'DINIC', 'DINKY', 'DINLO', 'DIOCH', 'DIPPY', 'DIVVY', 'DIZZY', 'DJINN', 'DOBBY', 'DODDY', 'DODGY', 'DOGGO', 'DOGGY', 'DOGLY', 'DOHYO', 'DOILY', 'DOING', 'DOLCI', 'DOLLY', 'DOMIC', 'DONKO', 'DONNY', 'DOODY', 'DOOKY', 'DOOLY', 'DOOMY', 'DOOZY', 'DOUGH', 'DOWDY', 'DOWLY', 'DOWNY', 'DOYLY', 'DUBBO', 'DUBBY', 'DUCHY', 'DUCKY', 'DUDDY', 'DUING', 'DUKUN', 'DULLY', 'DUMBO', 'DUMKY', 'DUMMY', 'DUMPY', 'DUNCH', 'DUNGY', 'DUNNO', 'DUNNY', 'DUOMI', 'DUOMO', 'DUPLY', 'DUPPY', 'DYING', 'DYKON', 'FICHU', 'FICIN', 'FIGGY', 'FILCH', 'FILII', 'FILLO', 'FILLY', 'FILMI', 'FILMY', 'FILON', 'FILUM', 'FINCH', 'FINNY', 'FIZZY', 'FLICK', 'FLIMP', 'FLING', 'FLOCK', 'FLONG', 'FLOOD', 'FLOWN', 'FLOWY', 'FLUFF', 'FLUID', 'FLUKY', 'FLUMP', 'FLUNG', 'FLUNK', 'FLYBY', 'FLYIN', 'FOGGY', 'FOGOU', 'FOLIC', 'FOLIO', 'FOLKY', 'FOLLY', 'FONDU', 'FONIO', 'FONLY', 'FOODY', 'FOUND', 'FUBBY', 'FUDDY', 'FUDGY', 'FUFFY', 'FUGGY', 'FUGIO', 'FUGLY', 'FULLY', 'FUNDI', 'FUNDO', 'FUNDY', 'FUNGI', 'FUNGO', 'FUNIC', 'FUNKY', 'FUNNY', 'FUZIL', 'FUZZY', 'GHOUL', 'GHYLL', 'GIBLI', 'GIDDY', 'GILLY', 'GILPY', 'GIMPY', 'GINCH', 'GINNY', 'GINZO', 'GIPON', 'GIPPO', 'GIPPY', 'GIZMO', 'GLIFF', 'GLOBI', 'GLOBY', 'GLOGG', 'GLOOM', 'GLOOP', 'GLOWY', 'GLUGG', 'GLUON', 'GLYPH', 'GOBBI', 'GOBBO', 'GOBBY', 'GODLY', 'GOING', 'GOLDY', 'GOLLY', 'GOMBO', 'GONCH', 'GONIF', 'GONOF', 'GONZO', 'GOOBY', 'GOODO', 'GOODY', 'GOOFY', 'GOOKY', 'GOOLD', 'GOOLY', 'GOOMY', 'GOONY', 'GOOPY', 'GOPIK', 'GOUCH', 'GOYIM', 'GUCKY', 'GUGGL', 'GUIDO', 'GUILD', 'GUIMP', 'GULCH', 'GULFY', 'GULLY', 'GULPH', 'GULPY', 'GUMBO', 'GUMMI', 'GUMMY', 'GUNDI', 'GUNDY', 'GUNGY', 'GUNKY', 'GUNNY', 'GUPPY', 'GUQIN', 'GYNNY', 'GYPPO', 'GYPPY', 'HIKOI', 'HILCH', 'HILLO', 'HILLY', 'HILUM', 'HIMBO', 'HINKY', 'HINNY', 'HIPLY', 'HIPPO', 'HIPPY', 'HOBBY', 'HOGOH', 'HOICK', 'HOING', 'HOKKU', 'HOKUM', 'HOLLO', 'HOLLY', 'HOLON', 'HONGI', 'HONKY', 'HOOCH', 'HOODY', 'HOOGO', 'HOOKY', 'HOOLY', 'HOPPY', 'HOUFF', 'HOUGH', 'HOUND', 'HOWDY', 'HOWFF', 'HUBBY', 'HUDUD', 'HUFFY', 'HUGGY', 'HUKOU', 'HULKY', 'HULLO', 'HULLY', 'HUMIC', 'HUMID', 'HUMPH', 'HUMPY', 'HUNCH', 'HUNDO', 'HUNKY', 'HUZZY', 'HYING', 'HYLIC', 'HYOID', 'HYPHY', 'ICILY', 'ICING', 'IDIOM', 'IDYLL', 'IGLOO', 'ILIUM', 'IMIDO', 'IMINO', 'IMMIX', 'IMPLY', 'INBOX', 'INCOG', 'INDOL', 'INDOW', 'INFIX', 'INION', 'IODIC', 'IODID', 'IODIN', 'IONIC', 'IPPON', 'JIFFY', 'JIGGY', 'JIMMY', 'JIMPY', 'JINGO', 'JINNI', 'JOCKO', 'JOCKY', 'JOKOL', 'JOLLO', 'JOLLY', 'JOMON', 'JOWLY', 'JUDGY', 'JUGUM', 'JUICY', 'JUMBO', 'JUMBY', 'JUMPY', 'JUNCO', 'JUNKY', 'JUPON', 'KHOUM', 'KIBBI', 'KICKY', 'KIDDO', 'KIDDY', 'KIKOI', 'KILIG', 'KILIM', 'KIMBO', 'KINDY', 'KINGY', 'KININ', 'KINKY', 'KLICK', 'KLONG', 'KLOOF', 'KNICK', 'KNOCK', 'KNOLL', 'KNOOP', 'KNOUD', 'KNOWD', 'KNOWN', 'KOIWI', 'KOKUM', 'KOMBI', 'KOMBU', 'KONBU', 'KONDO', 'KOOKY', 'KUDZU', 'KULFI', 'KWINK', 'KYLIN', 'KYLIX', 'KYUDO', 'LICHI', 'LIKIN', 'LIMBI', 'LIMBO', 'LIMBY', 'LINCH', 'LINDY', 'LINGO', 'LINGY', 'LININ', 'LINKY', 'LINNY', 'LINUM', 'LINUX', 'LIPID', 'LIPIN', 'LIPPY', 'LIVID', 'LOBBY', 'LOCHY', 'LOCKY', 'LOCUM', 'LOGGY', 'LOGIC', 'LOGIN', 'LOGOI', 'LOGON', 'LOKUM', 'LOLLO', 'LOLLY', 'LOLOG', 'LOOBY', 'LOOKY', 'LOONY', 'LOOPY', 'LOPPY', 'LOUGH', 'LOUND', 'LOWLY', 'LOWND', 'LUCID', 'LUCKY', 'LUDIC', 'LUMBI', 'LUMMY', 'LUMPY', 'LUNCH', 'LUNGI', 'LUPIN', 'LUVVY', 'LYING', 'LYMPH', 'LYNCH', 'MICHI', 'MICKY', 'MIDDY', 'MIDGY', 'MIFFY', 'MIGOD', 'MILCH', 'MILKO', 'MILKY', 'MILLY', 'MIMIC', 'MINCY', 'MINDI', 'MINGI', 'MINGY', 'MINIM', 'MINNY', 'MINXY', 'MIVVY', 'MIXUP', 'MIZZY', 'MOBBY', 'MOCHI', 'MOCHY', 'MOCKY', 'MODII', 'MODIN', 'MODOC', 'MODOM', 'MOGGY', 'MOGUL', 'MOKKY', 'MOLDY', 'MOLLO', 'MOLLY', 'MOLOI', 'MOLVI', 'MOMMY', 'MONDO', 'MONGO', 'MONIC', 'MOOCH', 'MOODY', 'MOOLI', 'MOOLY', 'MOONG', 'MOONI', 'MOONY', 'MOPPY', 'MOUCH', 'MOULD', 'MOULY', 'MOUND', 'MUCHO', 'MUCIC', 'MUCID', 'MUCIN', 'MUCKO', 'MUCKY', 'MUDDY', 'MUDIF', 'MUDIM', 'MUFFY', 'MUGGY', 'MUGHO', 'MUGIL', 'MUHLY', 'MUJIK', 'MUKIM', 'MULCH', 'MUMBO', 'MUMMY', 'MUMPH', 'MUNCH', 'MUNDU', 'MUNGI', 'MUNGO', 'MUNGY', 'MUZZY', 'MVULI', 'MYOID', 'MYOPY', 'NGONI', 'NIBBY', 'NICKY', 'NICOL', 'NIFFY', 'NIHIL', 'NIMBI', 'NIMBY', 'NINNY', 'NINON', 'NIOPO', 'NIPPY', 'NMOLI', 'NOBBY', 'NOBLY', 'NODDY', 'NODUM', 'NOGGY', 'NOHOW', 'NOILY', 'NOMIC', 'NOMOI', 'NONCY', 'NONDO', 'NONIC', 'NONNO', 'NONNY', 'NONYL', 'NOOKY', 'NOULD', 'NOUNY', 'NOVIO', 'NOVUM', 'NUBBY', 'NUCIN', 'NUDDY', 'NUDGY', 'NUDZH', 'NUJOL', 'NULLO', 'NULLY', 'NUMMY', 'NUNKY', 'NUNNY', 'NYING', 'NYLON', 'NYMPH', 'NYONG', 'NYUNG', 'OBOLI', 'OCULI', 'ODDLY', 'ODIUM', 'ODOOM', 'OGGIN', 'OGMIC', 'OHING', 'OHMIC', 'OKING', 'OLDLY', 'OLIGO', 'OLOGY', 'OMMIN', 'ONDOL', 'ONGON', 'ONION', 'ONIUM', 'ONMUN', 'OOMPH', 'OPIHI', 'OPING', 'OPIUM', 'OUNDY', 'OVOID', 'OVOLI', 'OVOLO', 'OWING', 'OWNIO', 'OXBOW', 'OXLIP', 'PHIZZ', 'PHLOX', 'PHONO', 'PHONY', 'PHOOH', 'PHOOO', 'PHYNX', 'PICCY', 'PICHI', 'PICKY', 'PICON', 'PICUL', 'PIGGY', 'PIGLY', 'PIGMY', 'PIING', 'PIKUL', 'PILCH', 'PILIN', 'PILON', 'PILOW', 'PILUM', 'PINCH', 'PINGO', 'PINKO', 'PINKY', 'PINNY', 'PINOL', 'PINON', 'PINUP', 'PIONY', 'PIPID', 'PIPPY', 'PIPUL', 'PIQUI', 'PLING', 'PLINK', 'PLOCK', 'PLOMB', 'PLONG', 'PLONK', 'PLOOK', 'PLOUK', 'PLUCK', 'PLUFF', 'PLUMB', 'PLUMP', 'PLUMY', 'PLUNG', 'PLUNK', 'POBBY', 'POBOY', 'POCHO', 'POCKY', 'PODDY', 'PODGY', 'POGGY', 'POILU', 'POIND', 'POLIO', 'POLLO', 'POLLY', 'POLYP', 'POMMY', 'PONCY', 'PONDY', 'PONGO', 'PONGY', 'PONZU', 'POOCH', 'POOFY', 'POOHY', 'POOLY', 'POOPY', 'POOVY', 'POPPY', 'POPUP', 'POUCH', 'POUFF', 'POUFY', 'POULP', 'POUND', 'POWIN', 'POWND', 'POWNY', 'POYOU', 'POZZY', 'PUBBY', 'PUBCO', 'PUBIC', 'PUDDY', 'PUDGY', 'PUDIC', 'PUFFY', 'PUGGY', 'PUGIL', 'PULIK', 'PULLI', 'PULLY', 'PULMO', 'PULPY', 'PUMPY', 'PUNCH', 'PUNGI', 'PUNGO', 'PUNGY', 'PUNIM', 'PUNJI', 'PUNKY', 'PUNNY', 'PUPIL', 'PUPPY', 'PUUKO', 'PYGMY', 'PYLON', 'PYOID', 'PYUFF', 'QUICH', 'QUICK', 'QUIFF', 'QUILL', 'QUINK', 'QUINO', 'QUIPO', 'QUIPU', 'QUOIF', 'QUOIN', 'QUOLL', 'QUONK', 'QUOUK', 'UDYOG', 'ULMIN', 'UNBID', 'UNBOX', 'UNCOY', 'UNDID', 'UNDUG', 'UNFIX', 'UNGOD', 'UNGUM', 'UNHIP', 'UNIFY', 'UNION', 'UNKID', 'UNLID', 'UNMIX', 'UNOLD', 'UNOWN', 'UNPIN', 'UNPLY', 'UNWON', 'UNZIP', 'UPBOW', 'UPFUL', 'VICHY', 'VIGIL', 'VILLI', 'VINHO', 'VINIC', 'VINNY', 'VINYL', 'VIOLD', 'VIVID', 'VODDY', 'VODOU', 'VODUN', 'VOICI', 'VOUCH', 'VOULU', 'VOZHD', 'VUGGY', 'VUGHY', 'VULGO', 'VYING', 'WHICH', 'WHIFF', 'WHILK', 'WHINY', 'WHIZZ', 'WHOMP', 'WHOOF', 'WHOOP', 'WHUMP', 'WICKY', 'WIDDY', 'WIDOW', 'WIGGY', 'WILCO', 'WILLY', 'WIMPY', 'WINCH', 'WINDY', 'WINGY', 'WINKY', 'WIZZO', 'WODGY', 'WOFUL', 'WOLLY', 'WOMBY', 'WOMYN', 'WONGI', 'WONKY', 'WOODY', 'WOOFY', 'WOOLD', 'WOOLY', 'WOOPY', 'WOOZY', 'WOULD', 'WOUND', 'WUDDY', 'XVIII', 'XYLIC', 'XYLOL', 'XYLYL', 'YCOND', 'YIPPY', 'YOBBO', 'YOBBY', 'YOGIC', 'YOGIN', 'YOICK', 'YOKUL', 'YOLKY', 'YOMIM', 'YONIC', 'YONNY', 'YOPPO', 'YOUNG', 'YUCCH', 'YUCKO', 'YUCKY', 'YUKKY', 'YUMMO', 'YUMMY', 'YUPON', 'YUPPY', 'ZHOMO', 'ZHUZH', 'ZILCH', 'ZIMBI', 'ZINCO', 'ZINCY', 'ZINGY', 'ZINKY', 'ZIPPO', 'ZIPPY', 'ZOCCO', 'ZOMBI', 'ZOOID', 'ZOOMY', 'ZOPPO', 'ZUZIM', 'ZYGON', 'ZYMIC']
+1022 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.938'), ('NOILY', '5.864'), ('DINLO', '5.841'), ('PIONY', '5.791'), ('LINGO', '5.749'), ('PILON', '5.742'), ('PINOL', '5.704'), ('LOGIN', '5.699'), ('DOILY', '5.681'), ('NICOL', '5.680')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.9379
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.9379
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 4.1145 bits
+Posterior entropy: 5.882643049361842
+entropy_info: {'prior_entropy': 9.997179480937621, 'posterior_entropy': 5.882643049361842, 'actual_info_gain': 4.11453643157578, 'expected_info_gain': 5.937896650379372}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BUBBY', 'BUDDY', 'BUFFY', 'BUGGY', 'BUMPH', 'BUMPY', 'BUPPY', 'BUZZY', 'DUBBY', 'DUDDY', 'DUMKY', 'DUMMY', 'DUMPY', 'DUPPY', 'FUBBY', 'FUDDY', 'FUDGY', 'FUFFY', 'FUGGY', 'FUZZY', 'GUMMY', 'GUPPY', 'GYPPY', 'HUBBY', 'HUDUD', 'HUFFY', 'HUGGY', 'HUMPH', 'HUMPY', 'HUZZY', 'HYPHY', 'JUDGY', 'JUGUM', 'JUMBY', 'JUMPY', 'KUDZU', 'MUDDY', 'MUFFY', 'MUGGY', 'MUMMY', 'MUMPH', 'MUZZY', 'PUBBY', 'PUDDY', 'PUDGY', 'PUFFY', 'PUGGY', 'PUMPY', 'PUPPY', 'PYGMY', 'PYUFF', 'VUGGY', 'VUGHY', 'WHUMP', 'WUDDY', 'YUKKY', 'YUMMY', 'YUPPY', 'ZHUZH']
+59 candidate words remaining.
+Top 10 guesses: [('PYGMY', '4.052'), ('BUMPH', '4.031'), ('DUMPY', '3.908'), ('BUMPY', '3.895'), ('PUDGY', '3.867'), ('DAMPY', '3.792'), ('PAMBY', '3.787'), ('PIGMY', '3.779'), ('PODGY', '3.712'), ('GYMPS', '3.637')]
+Top entropy choice: 𝙋𝙔𝙂𝙈𝙔 with entropy: 4.0516
+Using common exploratory word: 𝙋𝙔𝙂𝙈𝙔 with entropy: 4.0516
+
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.8826 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 5.882643049361842, 'posterior_entropy': 2.0, 'actual_info_gain': 3.8826430493618416, 'expected_info_gain': 5.937896650379372}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PUBBY', 'PUDDY', 'PUFFY', 'PUPPY']
+4 candidate words remaining.
+Top 10 guesses: [('BIFID', '2.000'), ('BIPED', '2.000'), ('BIPOD', '2.000'), ('ABAFT', '1.500'), ('ABAND', '1.500'), ('ABBED', '1.500'), ('ABIDE', '1.500'), ('ABJAD', '1.500'), ('ABJUD', '1.500'), ('ABLED', '1.500')]
+Top entropy choice: 𝘽𝙄𝙁𝙄𝘿 with entropy: 2.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙋𝙐𝙁𝙁𝙔 with entropy: 0.8113
+
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 0.8112781244591328}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PUBBY', 'PUDDY', 'PUPPY']
+3 candidate words remaining.
+Top 10 guesses: [('PUBBY', '0.918'), ('PUDDY', '0.918'), ('PUPPY', '0.918')]
+Top entropy choice: 𝙋𝙐𝘽𝘽𝙔 with entropy: 0.9183
+Guess count high, choosing a candidate with the highest entropy: 𝙋𝙐𝙋𝙋𝙔 with entropy: 0.9183
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.115 bits, Posterior Entropy: 5.883, 
+Guess: 𝙋𝙔𝙂𝙈𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 5.883, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.883 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙐𝙁𝙁𝙔, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙐𝙋𝙋𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

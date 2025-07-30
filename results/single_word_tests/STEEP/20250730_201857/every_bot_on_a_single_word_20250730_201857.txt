@@ -1,0 +1,184 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙀𝙀𝙋 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: INSET 
+The top ten guesses and scores: [('INSET', 92), ('ONSET', 92), ('POSET', 92), ('SITED', 92), ('STIED', 92), ('STOEP', 92), ('ISLET', 91), ('UNSET', 91), ('UPSET', 91), ('COSET', 89)]
+The bot finally chose: INSET 
+Guess: 𝙄𝙉𝙎𝙀𝙏, Feedback: ⬜⬜🟨🟩🟨
+entropy_info: None
+----------
+The bot originally chose: STOEP 
+The top ten guesses and scores: [('STOEP', 33), ('STYED', 33), ('STEED', 32), ('STEEP', 32), ('STEEK', 31), ('STEEL', 31), ('STEEM', 31), ('STEEZ', 31)]
+The bot finally chose: STEED 
+Guess: 𝙎𝙏𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: STEEK 
+The top ten guesses and scores: [('STEEK', 21), ('STEEL', 21), ('STEEM', 21), ('STEEP', 21), ('STEEZ', 21)]
+The bot finally chose: STEEL 
+Guess: 𝙎𝙏𝙀𝙀𝙇, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: STEEK 
+The top ten guesses and scores: [('STEEK', 17), ('STEEM', 17), ('STEEP', 17), ('STEEZ', 17)]
+The bot finally chose: STEEP 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Guess: 𝙄𝙉𝙎𝙀𝙏, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙎𝙏𝙀𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙏𝙀𝙀𝙇, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙀𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STEEP with entropy: 2.7925
+Bot chose: STEEP with entropy: 2.7925
+Top ten guesses: [('STEEP', 2.7924812503605785), ('STEEN', 2.7254128972590443), ('STEEL', 2.723669398093777), ('INSET', 2.6012274809529554), ('SLEET', 2.588456377350588), ('STEEM', 2.588456377350588), ('POSET', 2.5791722720787553), ('ONSET', 2.5477186261552776), ('STEEK', 2.542481250360578), ('STOEP', 2.534159127851422)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙀𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STEEP with entropy: 2.7925
+Bot chose: STEEP with entropy: 2.7925
+Top ten guesses: [('STEEP', 2.7924812503605785), ('STEEN', 2.7254128972590443), ('STEEL', 2.723669398093777), ('INSET', 2.6012274809529554), ('SLEET', 2.588456377350588), ('STEEM', 2.588456377350588), ('POSET', 2.5791722720787553), ('ONSET', 2.5477186261552776), ('STEEK', 2.542481250360578), ('STOEP', 2.534159127851422)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙀𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('STEEP', '2.792'), ('STEEN', '2.725'), ('STEEL', '2.724'), ('INSET', '2.601'), ('SLEET', '2.588')]
+Top entropy choice: 𝙎𝙏𝙀𝙀𝙋 with entropy: 2.7925
+Ended up choosing COMMON word: 𝙎𝙏𝙀𝙀𝙋 with entropy: 2.7925
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙀𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESET', 'COSET', 'INSET', 'ISLET', 'MUSET', 'ONSET', 'POSET', 'SHEET', 'SITED', 'SKEET', 'SLEET', 'STEED', 'STEEK', 'STEEL', 'STEEM', 'STEEN', 'STEEP', 'STEEZ', 'STIED', 'STOEP', 'STYED', 'SWEET', 'UNSET', 'UPSET']
+24 candidate words remaining.
+Top 10 guesses: [('OLENT', '3.340'), ('INEPT', '3.320'), ('PINOT', '3.292'), ('POINT', '3.292'), ('PIEND', '3.220'), ('SPINK', '3.220'), ('PILOT', '3.209'), ('PLENO', '3.199'), ('PLEON', '3.199'), ('PLEIN', '3.183')]
+Top entropy choice: 𝙊𝙇𝙀𝙉𝙏 with entropy: 3.3402
+Guess count low, choosing the word with highest entropy: 𝙊𝙇𝙀𝙉𝙏 with entropy: 3.3402
+
+Guess: 𝙊𝙇𝙀𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 2.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.263034405833794, 'expected_info_gain': 3.340199876515856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STEED', 'STEEK', 'STEEM', 'STEEP', 'STEEZ']
+5 candidate words remaining.
+Top 10 guesses: [('AMPED', '1.922'), ('DAMPS', '1.922'), ('DAMPY', '1.922'), ('DEMPT', '1.922'), ('DIMPS', '1.922'), ('DUMKA', '1.922'), ('DUMKY', '1.922'), ('DUMPS', '1.922'), ('DUMPY', '1.922'), ('EKDAM', '1.922')]
+Top entropy choice: 𝘼𝙈𝙋𝙀𝘿 with entropy: 1.9219
+Using common exploratory word: 𝘼𝙈𝙋𝙀𝘿 with entropy: 1.9219
+
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.340199876515856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STEEP']
+1 candidate words remaining.
+Top 10 guesses: [('STEEP', '0.000')]
+Top entropy choice: 𝙎𝙏𝙀𝙀𝙋 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙀𝙀𝙋 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙊𝙇𝙀𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 4.585, Expected Info Gain: 3.340 bits, Actual Info Gain: 2.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙈𝙋𝙀𝘿, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 3.340 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙀𝙀𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

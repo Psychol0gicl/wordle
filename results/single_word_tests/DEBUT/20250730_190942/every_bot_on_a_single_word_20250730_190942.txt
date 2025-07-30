@@ -1,0 +1,250 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙀𝘽𝙐𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LITHE 
+The top ten guesses and scores: [('LITHE', 570), ('ELINT', 568), ('ENLIT', 568), ('LENTI', 568), ('UTILE', 554), ('FLITE', 551), ('HELOT', 550), ('LENTO', 548), ('OLENT', 548), ('BELIT', 546)]
+The bot finally chose: LITHE 
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: MENTO 
+The top ten guesses and scores: [('MENTO', 80), ('NEMPT', 78), ('DEMOT', 77), ('DEPOT', 77), ('BENTO', 76), ('CENTO', 76), ('DEMPT', 75), ('MEYNT', 75), ('GEMOT', 74), ('EMPTY', 73)]
+The bot finally chose: DEPOT 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: DEBUT 
+The top ten guesses and scores: [('DEBUT', 5)]
+The bot finally chose: DEBUT 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨⬜🟨
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝘿𝙀𝘽𝙐𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙀𝘽𝙐𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ELITE with entropy: 4.6939
+Bot chose: ELITE with entropy: 4.6939
+Top ten guesses: [('ELITE', 4.69389435581856), ('LITHE', 4.629464492419477), ('LENTI', 4.6184469560999695), ('LOTTE', 4.579715651542808), ('LETHE', 4.579553558729405), ('LETTY', 4.502113398694703), ('FLITE', 4.496600371924623), ('PETIT', 4.478167087966656), ('LEFTE', 4.444895468017779), ('PETTI', 4.430937283133588)]
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 4.69389435581856}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEMOT with entropy: 3.6887
+Bot chose: DEPOT with entropy: 3.5850
+Top ten guesses: [('DEMOT', 3.6887218755408675), ('DEPOT', 3.584962500721157), ('GEMOT', 3.4387218755408675), ('DEMPT', 3.4345608142862893), ('NETOP', 3.41829583405449), ('METHO', 3.3758145836939115), ('NEMPT', 3.272055208874201), ('BETON', 3.2008257945180887), ('DEVOT', 3.1572682296173897), ('KEMPT', 3.1216535224393334)]
+
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 3.584962500721157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEBUT with entropy: 0.0000
+Bot chose: DEBUT with entropy: 0.0000
+Top ten guesses: [('DEBUT', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘽𝙐𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘽𝙐𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ELITE with entropy: 4.6939
+Bot chose: ELITE with entropy: 4.6939
+Top ten guesses: [('ELITE', 4.69389435581856), ('LITHE', 4.629464492419477), ('LENTI', 4.6184469560999695), ('LOTTE', 4.579715651542808), ('LETHE', 4.579553558729405), ('LETTY', 4.502113398694703), ('FLITE', 4.496600371924623), ('PETIT', 4.478167087966656), ('LEFTE', 4.444895468017779), ('PETTI', 4.430937283133588)]
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 4.69389435581856}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEMOT with entropy: 3.6887
+Bot chose: DEPOT with entropy: 3.5850
+Top ten guesses: [('DEMOT', 3.6887218755408675), ('DEPOT', 3.584962500721157), ('GEMOT', 3.4387218755408675), ('DEMPT', 3.4345608142862893), ('NETOP', 3.41829583405449), ('METHO', 3.3758145836939115), ('NEMPT', 3.272055208874201), ('BETON', 3.2008257945180887), ('DEVOT', 3.1572682296173897), ('KEMPT', 3.1216535224393334)]
+
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 3.584962500721157}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DEBUT with entropy: 0.0000
+Bot chose: DEBUT with entropy: 0.0000
+Top ten guesses: [('DEBUT', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘽𝙐𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘽𝙐𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 280 potential guesses from 182 remaining candidates...
+Top 5 guesses: [('ELITE', '4.694'), ('LITHE', '4.629'), ('LENTI', '4.618'), ('LOTTE', '4.580'), ('LETHE', '4.580')]
+Top entropy choice: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+Ended up choosing COMMON word: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('DEMOT', '3.689'), ('DEPOT', '3.585'), ('GEMOT', '3.439'), ('DEMPT', '3.435'), ('NETOP', '3.418')]
+Top entropy choice: 𝘿𝙀𝙈𝙊𝙏 with entropy: 3.6887
+Ended up choosing COMMON word: 𝘿𝙀𝙋𝙊𝙏 with entropy: 3.5850
+
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 3.584962500721157}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('DEBUT', '0.000')]
+Top entropy choice: 𝘿𝙀𝘽𝙐𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘿𝙀𝘽𝙐𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘽𝙐𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝘽𝙐𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 6.3509 bits
+Posterior entropy: 7.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.507794640198696, 'actual_info_gain': 6.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEFIT', 'BEGOT', 'BELIT', 'BENTO', 'BENTY', 'BETID', 'BETON', 'BETTY', 'BITTE', 'BLENT', 'BLITE', 'BOETI', 'BOITE', 'BOTTE', 'BUTLE', 'BUTTE', 'CENTO', 'CENTU', 'CETYL', 'CHETH', 'CHUTE', 'CLEFT', 'CLEPT', 'CLOTE', 'COMTE', 'CONTE', 'CTENE', 'CUTIE', 'DEBIT', 'DEBUT', 'DEITY', 'DELFT', 'DEMIT', 'DEMOT', 'DEMPT', 'DENTE', 'DEPOT', 'DEPTH', 'DETOX', 'DEVOT', 'DOETH', 'DUETT', 'DWELT', 'EDICT', 'EDUCT', 'EEJIT', 'EIGHT', 'EJECT', 'ELECT', 'ELINT', 'ELITE', 'ELUTE', 'EMOTE', 'EMPTY', 'ENLIT', 'EPOPT', 'ETHIC', 'ETHNE', 'ETHYL', 'ETTIN', 'ETTLE', 'ETUDE', 'EVENT', 'EVICT', 'EVITE', 'EXITE', 'EXTOL', 'EXULT', 'FECHT', 'FECIT', 'FEINT', 'FELTY', 'FETCH', 'FETID', 'FIENT', 'FITTE', 'FLITE', 'FLOTE', 'FLUTE', 'FLYTE', 'FYTTE', 'GEMOT', 'GENTY', 'GETUP', 'GLENT', 'GLUTE', 'GOETH', 'GOETY', 'HECHT', 'HEFTE', 'HEFTY', 'HELOT', 'HITHE', 'HOTTE', 'HYTHE', 'IDENT', 'INEPT', 'IXTLE', 'JETON', 'JETTY', 'KELTY', 'KEMPT', 'KENTE', 'KETCH', 'KETOL', 'KHETH', 'KITHE', 'KITKE', 'KLETT', 'KNELT', 'KYTHE', 'LEFTE', 'LEFTY', 'LEGIT', 'LENTI', 'LENTO', 'LETCH', 'LETHE', 'LETTY', 'LETUP', 'LITHE', 'LITIE', 'LOTTE', 'LYTHE', 'MEINT', 'MEITH', 'MELTY', 'MENTO', 'METHI', 'METHO', 'METHY', 'METIC', 'METIF', 'METOL', 'MEYNT', 'MITIE', 'MIXTE', 'MONTE', 'MOTTE', 'MTEPE', 'NEMPT', 'NEPIT', 'NETOP', 'NETTY', 'OCOTE', 'OLENT', 'OUTIE', 'PEENT', 'PETIT', 'PETTI', 'PETTO', 'PETTY', 'PEWIT', 'PIETY', 'PLUTE', 'POETE', 'PTYPE', 'QUETE', 'QUITE', 'QUOTE', 'QUYTE', 'UNETH', 'UNITE', 'UNTIE', 'UPTIE', 'UTILE', 'VELDT', 'VENTI', 'VETCH', 'VOLTE', 'WECHT', 'WEETE', 'WEFTE', 'WELKT', 'WETLY', 'WHEFT', 'WHITE', 'WITHE', 'WYTHE', 'YENTE', 'YITIE', 'ZLOTE']
+182 candidate words remaining.
+Top 10 guesses: [('ELITE', '4.694'), ('LEONE', '4.690'), ('HELIO', '4.644'), ('LOCIE', '4.643'), ('LITHE', '4.629'), ('LENTI', '4.618'), ('BELIE', '4.614'), ('LINTY', '4.598'), ('FLITT', '4.596'), ('LOIPE', '4.588')]
+Top entropy choice: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+Guess count low, choosing the word with highest entropy: 𝙀𝙇𝙄𝙏𝙀 with entropy: 4.6939
+
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.9228 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.507794640198696, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.9228321394775403, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEGOT', 'BETON', 'DEBUT', 'DEMOT', 'DEMPT', 'DEPOT', 'DETOX', 'DEVOT', 'FECHT', 'FETCH', 'GEMOT', 'GETUP', 'HECHT', 'JETON', 'KEMPT', 'KETCH', 'METHO', 'METHY', 'MEYNT', 'NEMPT', 'NETOP', 'VETCH', 'WECHT', 'WHEFT']
+24 candidate words remaining.
+Top 10 guesses: [('DEMOT', '3.689'), ('MUTON', '3.605'), ('NOTUM', '3.605'), ('DEPOT', '3.585'), ('MOTED', '3.554'), ('COMPT', '3.542'), ('MOUNT', '3.491'), ('DEMON', '3.485'), ('BOTHY', '3.459'), ('GEMOT', '3.439')]
+Top entropy choice: 𝘿𝙀𝙈𝙊𝙏 with entropy: 3.6887
+Using common exploratory word: 𝘿𝙀𝙋𝙊𝙏 with entropy: 3.5850
+
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 4.69389435581856}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DEBUT']
+1 candidate words remaining.
+Top 10 guesses: [('DEBUT', '0.000')]
+Top entropy choice: 𝘿𝙀𝘽𝙐𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙀𝘽𝙐𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 4.694 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝘽𝙐𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

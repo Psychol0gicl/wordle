@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝙍𝙑𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘾𝘼𝙍𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘾𝘼𝙍𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘾𝘼𝙍𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝙑𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝘼𝙍𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 1.963 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙍𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙍𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝙑𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝘼𝙍𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 1.963 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙍𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙍𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝙑𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 3.907, 
+Guess: 𝘾𝘼𝙍𝙋𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.907, Expected Info Gain: 1.963 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙍𝙉𝙀, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙍𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝙑𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 4.755, Expected Info Gain: 2.918 bits, Actual Info Gain: 1.433 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝘼𝙉𝘿𝙔, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 2.918 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝙍𝙑𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝙊𝙒𝙉𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: OILER 
+The top ten guesses and scores: [('OILER', 981), ('ORIEL', 981), ('IDLER', 968), ('RILED', 968), ('OLDER', 967), ('DINER', 964), ('PRIED', 964), ('RIPED', 964), ('DONER', 963), ('DOPER', 963)]
+The bot finally chose: RILED 
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: MOPER 
+The top ten guesses and scores: [('MOPER', 321), ('PROEM', 321), ('COMER', 319), ('MOKER', 319), ('MONER', 319), ('COPER', 317), ('OMBER', 317), ('POKER', 317), ('HOMER', 316), ('MOWER', 316)]
+The bot finally chose: COMER 
+Guess: 𝘾𝙊𝙈𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: OFFER 
+The top ten guesses and scores: [('OFFER', 8), ('OWNER', 8)]
+The bot finally chose: OFFER 
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: OWNER 
+The top ten guesses and scores: [('OWNER', 5)]
+The bot finally chose: OWNER 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝘾𝙊𝙈𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙊𝙁𝙁𝙀𝙍, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙊𝙒𝙉𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.5966 bits
+Posterior entropy: 8.262094845370179
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.262094845370179, 'actual_info_gain': 5.596566139352598, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EIDER with entropy: 3.7195
+Bot chose: RIDER with entropy: 3.6842
+Top ten guesses: [('EIDER', 3.7194570898567316), ('OILER', 3.6963883598987572), ('RIDER', 3.6842077284925563), ('RILED', 3.64805739516758), ('DINER', 3.639633374372143), ('ORDER', 3.637958153147741), ('RIPED', 3.6213037896496885), ('DRIER', 3.6106432971644993), ('DOPER', 3.610632969455819), ('OLDER', 3.602627941002616)]
+
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 1.6922 bits
+Posterior entropy: 6.569855608330948
+entropy_info: {'prior_entropy': 8.262094845370179, 'posterior_entropy': 6.569855608330948, 'actual_info_gain': 1.6922392370392307, 'expected_info_gain': 3.6842077284925563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOPER with entropy: 3.0330
+Bot chose: LOVER with entropy: 2.9673
+Top ten guesses: [('LOPER', 3.0329517856499257), ('LOVER', 2.967250997016387), ('POLER', 2.951799091496803), ('LOWER', 2.951362482356618), ('MOLER', 2.8906565787505776), ('MOPER', 2.83463847827013), ('LEPER', 2.825229113844498), ('POWER', 2.7941104056749477), ('LONER', 2.783855956804947), ('OWLER', 2.775605998019565)]
+
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 3.9849 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.569855608330948, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.9848931076097918, 'expected_info_gain': 2.967250997016387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ONCER with entropy: 1.9183
+Bot chose: OWNER with entropy: 1.2516
+Top ten guesses: [('ONCER', 1.9182958340544893), ('OCHER', 1.7924812503605778), ('OCKER', 1.7924812503605778), ('OWNER', 1.2516291673878228), ('OFFER', 0.6500224216483541), ('OMBER', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 3.985 bits, Posterior Entropy: 2.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙊𝙒𝙉𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.5966 bits
+Posterior entropy: 8.262094845370179
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.262094845370179, 'actual_info_gain': 5.596566139352598, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EIDER with entropy: 3.7195
+Bot chose: RIDER with entropy: 3.6842
+Top ten guesses: [('EIDER', 3.7194570898567316), ('OILER', 3.6963883598987572), ('RIDER', 3.6842077284925563), ('RILED', 3.64805739516758), ('DINER', 3.639633374372143), ('ORDER', 3.637958153147741), ('RIPED', 3.6213037896496885), ('DRIER', 3.6106432971644993), ('DOPER', 3.610632969455819), ('OLDER', 3.602627941002616)]
+
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 1.6922 bits
+Posterior entropy: 6.569855608330948
+entropy_info: {'prior_entropy': 8.262094845370179, 'posterior_entropy': 6.569855608330948, 'actual_info_gain': 1.6922392370392307, 'expected_info_gain': 3.6842077284925563}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LOPER with entropy: 3.0330
+Bot chose: LOVER with entropy: 2.9673
+Top ten guesses: [('LOPER', 3.0329517856499257), ('LOVER', 2.967250997016387), ('POLER', 2.951799091496803), ('LOWER', 2.951362482356618), ('MOLER', 2.8906565787505776), ('MOPER', 2.83463847827013), ('LEPER', 2.825229113844498), ('POWER', 2.7941104056749477), ('LONER', 2.783855956804947), ('OWLER', 2.775605998019565)]
+
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 3.9849 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.569855608330948, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.9848931076097918, 'expected_info_gain': 2.967250997016387}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ONCER with entropy: 1.9183
+Bot chose: OWNER with entropy: 1.2516
+Top ten guesses: [('ONCER', 1.9182958340544893), ('OCHER', 1.7924812503605778), ('OCKER', 1.7924812503605778), ('OWNER', 1.2516291673878228), ('OFFER', 0.6500224216483541), ('OMBER', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 3.985 bits, Posterior Entropy: 2.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙊𝙒𝙉𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.5966 bits
+Posterior entropy: 8.262094845370179
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.262094845370179, 'actual_info_gain': 5.596566139352598, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 307 remaining candidates...
+Top 5 guesses: [('DOING', '4.029'), ('ROUND', '3.951'), ('BUILD', '3.873'), ('COULD', '3.834'), ('FOUND', '3.832')]
+Top entropy choice: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0286
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 4.0286
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.6771 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.262094845370179, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.6771323446490225, 'expected_info_gain': 4.028582181614217}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('ONCER', '1.585'), ('ORNEE', '1.585'), ('OWNER', '1.585')]
+Top entropy choice: 𝙊𝙉𝘾𝙀𝙍 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙊𝙒𝙉𝙀𝙍 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.262, Expected Info Gain: 4.029 bits, Actual Info Gain: 6.677 bits, Posterior Entropy: 1.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙊𝙒𝙉𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Actual Info Gain: 5.5966 bits
+Posterior entropy: 8.262094845370179
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.262094845370179, 'actual_info_gain': 5.596566139352598, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEVER', 'BIDER', 'BIKER', 'BINER', 'BLUER', 'BONER', 'BOWER', 'BOXER', 'BREED', 'BREEM', 'BREER', 'BRIEF', 'BRIER', 'BUYER', 'CEDER', 'CHEER', 'CIDER', 'CODER', 'COMER', 'COOER', 'COPER', 'COVER', 'COWER', 'COYER', 'CREED', 'CREEK', 'CREEL', 'CREEP', 'CRIED', 'CRIER', 'CRUEL', 'CRYER', 'CUBER', 'CYBER', 'CYDER', 'DEFER', 'DICER', 'DIKER', 'DIMER', 'DINER', 'DIVER', 'DONER', 'DOPER', 'DOVER', 'DOWER', 'DOZER', 'DREED', 'DREER', 'DRIED', 'DRIER', 'DRYER', 'DUPER', 'EDGER', 'EEVER', 'EFFER', 'EGGER', 'EIDER', 'ELDER', 'ELVER', 'EMBER', 'EMEER', 'EMMER', 'ENDER', 'ERNED', 'ERVEN', 'EXIER', 'FEVER', 'FEWER', 'FEYER', 'FIBER', 'FIFER', 'FILER', 'FINER', 'FIVER', 'FIXER', 'FLEER', 'FLIER', 'FLYER', 'FOUER', 'FOYER', 'FREED', 'FREER', 'FRIED', 'FRIER', 'FRYER', 'FUMER', 'GEYER', 'GIBER', 'GIVER', 'GLUER', 'GOFER', 'GOIER', 'GOMER', 'GONER', 'GREED', 'GREEK', 'GREEN', 'GRIEF', 'GRUED', 'GRUEL', 'GYVER', 'HEDER', 'HEWER', 'HEXER', 'HIDER', 'HIKER', 'HIPER', 'HIVER', 'HOMER', 'HONER', 'HOPER', 'HOVER', 'HUGER', 'HYPER', 'ICIER', 'ICKER', 'IDLER', 'ILLER', 'INFER', 'INKER', 'INNER', 'INVER', 'IRKED', 'JIBER', 'JIVER', 'JOKER', 'KEYER', 'KHEER', 'KOKER', 'KREEF', 'KREEN', 'KREEP', 'LEGER', 'LEPER', 'LEVER', 'LIBER', 'LIFER', 'LIGER', 'LIKER', 'LINER', 'LIVER', 'LONER', 'LOPER', 'LOVER', 'LOWER', 'LUGER', 'LUXER', 'MILER', 'MIMER', 'MINER', 'MIXER', 'MODER', 'MOKER', 'MOLER', 'MONER', 'MOPER', 'MOVER', 'MOWER', 'NEPER', 'NEVER', 'NEWER', 'NICER', 'NIGER', 'NINER', 'NIXER', 'NUDER', 'OCHER', 'OCKER', 'ODDER', 'OFFER', 'OGLER', 'OILER', 'OLDER', 'OLLER', 'OMBER', 'ONCER', 'ORBED', 'ORDER', 'ORIEL', 'ORMER', 'ORNEE', 'ORPED', 'OWLER', 'OWNER', 'PHEER', 'PIKER', 'PILER', 'PINER', 'PIPER', 'PIZER', 'PLIER', 'PLYER', 'POKER', 'POLER', 'POWER', 'PREED', 'PREEM', 'PREEN', 'PRIED', 'PRIEF', 'PRIER', 'PROEM', 'PRYER', 'PUCER', 'PUKER', 'PULER', 'QUEER', 'REBEC', 'REBEL', 'RECEP', 'REDED', 'REFED', 'REFEL', 'REFER', 'REGEX', 'REHEM', 'REKED', 'REKEY', 'REMEN', 'REMEX', 'RENEW', 'RENEY', 'REPEG', 'REPEL', 'REPEN', 'REVEL', 'REWED', 'RICED', 'RICER', 'RICEY', 'RIDER', 'RIFER', 'RILED', 'RILEY', 'RIMED', 'RIMER', 'RIPED', 'RIPEN', 'RIPER', 'RIVED', 'RIVEL', 'RIVEN', 'RIVER', 'ROBED', 'ROBER', 'RODED', 'RODEO', 'ROGER', 'ROKED', 'ROKER', 'ROKEY', 'ROLEO', 'ROMEO', 'ROMER', 'RONEO', 'ROPED', 'ROPER', 'ROPEY', 'ROUEN', 'ROVED', 'ROVEN', 'ROVER', 'ROWED', 'ROWEL', 'ROWEN', 'ROWER', 'RUBEL', 'RUDER', 'RULED', 'RULER', 'RUMEN', 'RUNED', 'RUNER', 'RUPEE', 'RYKED', 'RYMER', 'RYPER', 'UDDER', 'ULCER', 'UMBER', 'UNDER', 'UPPER', 'URBEX', 'URDEE', 'URGED', 'URGER', 'URNED', 'URPED', 'VEXER', 'VILER', 'VINER', 'VIPER', 'VIVER', 'VOMER', 'VOWER', 'WEBER', 'WIDER', 'WIPER', 'WIVER', 'WOKER', 'WOOER', 'WRIED', 'WRIER', 'WRYER', 'YOKER', 'YRNEH', 'ZONER']
+307 candidate words remaining.
+Top 10 guesses: [('POIND', '4.424'), ('DINLO', '4.295'), ('NIDOR', '4.259'), ('BIPOD', '4.172'), ('PINOL', '4.170'), ('PILON', '4.152'), ('PRIOR', '4.152'), ('VIOLD', '4.149'), ('INDOL', '4.122'), ('BIDON', '4.115')]
+Top entropy choice: 𝙋𝙊𝙄𝙉𝘿 with entropy: 4.4242
+Guess count low, choosing the word with highest entropy: 𝙋𝙊𝙄𝙉𝘿 with entropy: 4.4242
+
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 6.6771 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 8.262094845370179, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 6.6771323446490225, 'expected_info_gain': 4.424196059405291}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ONCER', 'ORNEE', 'OWNER']
+3 candidate words remaining.
+Top 10 guesses: [('ONCER', '1.585'), ('ORNEE', '1.585'), ('OWNER', '1.585')]
+Top entropy choice: 𝙊𝙉𝘾𝙀𝙍 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙊𝙒𝙉𝙀𝙍 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 8.262, Expected Info Gain: 4.424 bits, Actual Info Gain: 6.677 bits, Posterior Entropy: 1.585, 
+Guess: 𝙊𝙒𝙉𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

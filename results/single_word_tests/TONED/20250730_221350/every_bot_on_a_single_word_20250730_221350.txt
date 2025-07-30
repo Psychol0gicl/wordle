@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝙉𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TONED 
+The top ten guesses and scores: [('TONED', 157), ('TOWED', 157), ('TOPED', 156), ('TOLED', 154), ('TOYED', 154), ('TOKED', 153), ('TOGED', 149), ('TOZED', 149), ('TOTED', 148), ('TINED', 147)]
+The bot finally chose: TONED 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOWED with entropy: 2.7729
+Bot chose: TOWED with entropy: 2.7729
+Top ten guesses: [('TOWED', 2.7729427123226094), ('TEWED', 2.7694797360179297), ('TONED', 2.7519922323837034), ('TWEED', 2.705412584804826), ('TWEEN', 2.6779376499410428), ('TOPED', 2.6680471050712193), ('TENET', 2.5963149754218118), ('TEMED', 2.5797652736672365), ('TOLED', 2.57549561939998), ('TOPEE', 2.555481576655848)]
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.4263 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.0, 'actual_info_gain': 2.426264754702098, 'expected_info_gain': 2.7729427123226094}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOGED with entropy: 0.5436
+Bot chose: TONED with entropy: 0.5436
+Top ten guesses: [('TOGED', 0.5435644431995964), ('TOKED', 0.5435644431995964), ('TOLED', 0.5435644431995964), ('TONED', 0.5435644431995964), ('TOPED', 0.5435644431995964), ('TOTED', 0.5435644431995964), ('TOYED', 0.5435644431995964), ('TOZED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.426 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOWED with entropy: 2.7729
+Bot chose: TOWED with entropy: 2.7729
+Top ten guesses: [('TOWED', 2.7729427123226094), ('TEWED', 2.7694797360179297), ('TONED', 2.7519922323837034), ('TWEED', 2.705412584804826), ('TWEEN', 2.6779376499410428), ('TOPED', 2.6680471050712193), ('TENET', 2.5963149754218118), ('TEMED', 2.5797652736672365), ('TOLED', 2.57549561939998), ('TOPEE', 2.555481576655848)]
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.4263 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.0, 'actual_info_gain': 2.426264754702098, 'expected_info_gain': 2.7729427123226094}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOGED with entropy: 0.5436
+Bot chose: TONED with entropy: 0.5436
+Top ten guesses: [('TOGED', 0.5435644431995964), ('TOKED', 0.5435644431995964), ('TOLED', 0.5435644431995964), ('TONED', 0.5435644431995964), ('TOPED', 0.5435644431995964), ('TOTED', 0.5435644431995964), ('TOYED', 0.5435644431995964), ('TOZED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.426 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 43 potential guesses from 43 remaining candidates...
+Top 5 guesses: [('TOWED', '2.773'), ('TEWED', '2.769'), ('TONED', '2.752'), ('TWEED', '2.705'), ('TWEEN', '2.678')]
+Top entropy choice: 𝙏𝙊𝙒𝙀𝘿 with entropy: 2.7729
+Ended up choosing COMMON word: 𝙏𝙊𝙒𝙀𝘿 with entropy: 2.7729
+
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.4263 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 3.0, 'actual_info_gain': 2.426264754702098, 'expected_info_gain': 2.7729427123226094}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('TOGED', '0.544'), ('TOKED', '0.544'), ('TOLED', '0.544'), ('TONED', '0.544'), ('TOPED', '0.544')]
+Top entropy choice: 𝙏𝙊𝙂𝙀𝘿 with entropy: 0.5436
+Ended up choosing COMMON word: 𝙏𝙊𝙉𝙀𝘿 with entropy: 0.5436
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 2.426 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Actual Info Gain: 8.4324 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 8.432396230020679, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEHEE', 'TELEX', 'TEMED', 'TENET', 'TEPEE', 'TEWED', 'TEWEL', 'THEED', 'THEEK', 'THIEF', 'TICED', 'TIDED', 'TILED', 'TIMED', 'TINED', 'TOGED', 'TOKED', 'TOKEN', 'TOLED', 'TOMEN', 'TONED', 'TONEY', 'TOPED', 'TOPEE', 'TOPEK', 'TOTED', 'TOTEM', 'TOWED', 'TOWEL', 'TOYED', 'TOZED', 'TUBED', 'TUNED', 'TUPEK', 'TUTEE', 'TWEED', 'TWEEL', 'TWEEN', 'TWEEP', 'TWEET', 'TYNED', 'TYPED', 'TYPEY']
+43 candidate words remaining.
+Top 10 guesses: [('POWND', '3.914'), ('DOWNY', '3.837'), ('PEDON', '3.821'), ('LOWND', '3.773'), ('INDOW', '3.715'), ('KNOWD', '3.664'), ('INDOL', '3.643'), ('DINLO', '3.626'), ('DOWLY', '3.623'), ('WOUND', '3.605')]
+Top entropy choice: 𝙋𝙊𝙒𝙉𝘿 with entropy: 3.9138
+Guess count low, choosing the word with highest entropy: 𝙋𝙊𝙒𝙉𝘿 with entropy: 3.9138
+
+Guess: 𝙋𝙊𝙒𝙉𝘿, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 5.4263 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 0.0, 'actual_info_gain': 5.426264754702098, 'expected_info_gain': 3.913809814244949}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TONED']
+1 candidate words remaining.
+Top 10 guesses: [('TONED', '0.000')]
+Top entropy choice: 𝙏𝙊𝙉𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙊𝙉𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙋𝙊𝙒𝙉𝘿, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 5.426, Expected Info Gain: 3.914 bits, Actual Info Gain: 5.426 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

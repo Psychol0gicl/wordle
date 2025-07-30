@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙍𝘼𝙇 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MORIA 
+The top ten guesses and scores: [('MORIA', 334), ('MORAL', 328), ('MORAN', 325), ('MORNA', 325), ('NORMA', 325), ('NORIA', 321), ('OIRAN', 321), ('CORAM', 320), ('MORAY', 319), ('MORAH', 318)]
+The bot finally chose: MORIA 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: MORAH 
+The top ten guesses and scores: [('MORAH', 17), ('MORAL', 17), ('MORAN', 17), ('MORAY', 17)]
+The bot finally chose: MORAL 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 7.1582 bits
+Posterior entropy: 6.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.700439718141092, 'actual_info_gain': 7.158221266581685, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORIA with entropy: 4.0217
+Bot chose: MORIA with entropy: 4.0217
+Top ten guesses: [('MORIA', 4.021654902511158), ('MORAN', 3.93432817367644), ('MORAL', 3.876635865984131), ('MORAY', 3.816746564685339), ('MORNA', 3.7804067830778085), ('MORAH', 3.750515470666937), ('MIRAA', 3.7469694716405733), ('CORAM', 3.7357397831425403), ('NORMA', 3.653298312415562), ('MORRA', 3.645394939041277)]
+
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 4.021654902511158}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORAH with entropy: 0.8113
+Bot chose: MORAL with entropy: 0.8113
+Top ten guesses: [('MORAH', 0.8112781244591328), ('MORAL', 0.8112781244591328), ('MORAN', 0.8112781244591328), ('MORAY', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 7.1582 bits
+Posterior entropy: 6.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.700439718141092, 'actual_info_gain': 7.158221266581685, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORIA with entropy: 4.0217
+Bot chose: MORIA with entropy: 4.0217
+Top ten guesses: [('MORIA', 4.021654902511158), ('MORAN', 3.93432817367644), ('MORAL', 3.876635865984131), ('MORAY', 3.816746564685339), ('MORNA', 3.7804067830778085), ('MORAH', 3.750515470666937), ('MIRAA', 3.7469694716405733), ('CORAM', 3.7357397831425403), ('NORMA', 3.653298312415562), ('MORRA', 3.645394939041277)]
+
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 4.021654902511158}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MORAH with entropy: 0.8113
+Bot chose: MORAL with entropy: 0.8113
+Top ten guesses: [('MORAH', 0.8112781244591328), ('MORAL', 0.8112781244591328), ('MORAN', 0.8112781244591328), ('MORAY', 0.8112781244591328)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙍𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 7.1582 bits
+Posterior entropy: 6.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.700439718141092, 'actual_info_gain': 7.158221266581685, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 204 potential guesses from 104 remaining candidates...
+Top 5 guesses: [('MORIA', '4.022'), ('MORAN', '3.934'), ('MORAL', '3.877'), ('MORAY', '3.817'), ('WOMAN', '3.798')]
+Top entropy choice: 𝙈𝙊𝙍𝙄𝘼 with entropy: 4.0217
+Ended up choosing COMMON word: 𝙈𝙊𝙍𝙄𝘼 with entropy: 4.0217
+
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨
+Actual Info Gain: 4.7004 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.700439718141092, 'posterior_entropy': 2.0, 'actual_info_gain': 4.700439718141092, 'expected_info_gain': 4.021654902511158}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('MORAH', '0.811'), ('MORAL', '0.811'), ('MORAN', '0.811'), ('MORAY', '0.811')]
+Top entropy choice: 𝙈𝙊𝙍𝘼𝙃 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙈𝙊𝙍𝘼𝙇 with entropy: 0.8113
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: 🟩🟩🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 4.700 bits, Posterior Entropy: 2.000, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙍𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 7.1582 bits
+Posterior entropy: 6.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.700439718141092, 'actual_info_gain': 7.158221266581685, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABRAM', 'ABRAY', 'ABRIM', 'ABRIN', 'ACRAL', 'ACRID', 'ACRON', 'ACRYL', 'ADRAD', 'ADRAW', 'ADRIP', 'AGRIA', 'AGRIN', 'AGRUM', 'APRON', 'ARRAH', 'ARRAY', 'ARROW', 'ARROZ', 'AURAL', 'AURAR', 'AURIC', 'AURUM', 'BORAK', 'BORAL', 'BORAX', 'BORNA', 'BURAN', 'BURKA', 'BURQA', 'BURRA', 'CIRCA', 'CORAL', 'CORAM', 'CORDA', 'CORIA', 'CURIA', 'DIRAM', 'DORAD', 'DORBA', 'DURAL', 'DURRA', 'FIRMA', 'FORAM', 'FORAY', 'FORMA', 'FORZA', 'FURAL', 'FURAN', 'FURCA', 'GORAL', 'GORAY', 'GYRAL', 'HORAH', 'HORAL', 'HURRA', 'HYRAX', 'IHRAM', 'JIRGA', 'JORAM', 'JURAL', 'KORAI', 'KORAN', 'KORMA', 'LORAL', 'LORAN', 'MIRAA', 'MIRAH', 'MIRZA', 'MORAH', 'MORAL', 'MORAN', 'MORAY', 'MORIA', 'MORNA', 'MORRA', 'MURAL', 'MURRA', 'MURVA', 'NGRAM', 'NORIA', 'NORMA', 'OIRAN', 'OMRAH', 'PIRAI', 'PORAL', 'PURAO', 'PURAU', 'PURDA', 'PURGA', 'PYRAL', 'PYRAN', 'QORMA', 'QURAN', 'RORAL', 'RURAL', 'UMRAH', 'UPRAN', 'VIRAL', 'VIRGA', 'WIRRA', 'YDRAD', 'YORGA', 'ZIRAM']
+104 candidate words remaining.
+Top 10 guesses: [('MONAD', '4.403'), ('MONAL', '4.377'), ('MUNIA', '4.343'), ('MODAL', '4.297'), ('MODIN', '4.293'), ('MONIC', '4.246'), ('LOUMA', '4.195'), ('MULAI', '4.187'), ('NOMAD', '4.185'), ('LINUM', '4.159')]
+Top entropy choice: 𝙈𝙊𝙉𝘼𝘿 with entropy: 4.4033
+Guess count low, choosing the word with highest entropy: 𝙈𝙊𝙉𝘼𝘿 with entropy: 4.4033
+
+Guess: 𝙈𝙊𝙉𝘼𝘿, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 5.1155 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 6.700439718141092, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.115477217419936, 'expected_info_gain': 4.403267629983887}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MORAH', 'MORAL', 'MORAY']
+3 candidate words remaining.
+Top 10 guesses: [('MORAH', '0.918'), ('MORAL', '0.918'), ('MORAY', '0.918')]
+Top entropy choice: 𝙈𝙊𝙍𝘼𝙃 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝙊𝙍𝘼𝙇 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙉𝘼𝘿, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 6.700, Expected Info Gain: 4.403 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝙊𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
