@@ -173,7 +173,7 @@ class WordleGame:
             if isinstance(guess, tuple):
                 expected_info_gain = guess[-1]
                 guess = guess[0]
-            print(f"GUESS: {guess}")
+            # print(f"GUESS: {guess}")
 
             guess = guess.upper()
             bot.guess_history.append(guess)
