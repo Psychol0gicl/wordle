@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙊𝙊𝙋 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HOIST 
+The top ten guesses and scores: [('HOIST', 512), ('MISTO', 505), ('MOIST', 505), ('OPSIT', 504), ('PITSO', 504), ('POSIT', 504), ('SHOUT', 495), ('SOUTH', 495), ('FOIST', 494), ('STOIC', 494)]
+The bot finally chose: HOIST 
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜🟨⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: STOLN 
+The top ten guesses and scores: [('STOLN', 73), ('STONG', 73), ('STONK', 73), ('STONY', 73), ('STOUN', 73), ('STOND', 72), ('STOWN', 72), ('STONN', 70), ('STOUP', 68), ('GUSTO', 67)]
+The bot finally chose: STONY 
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: STOMP 
+The top ten guesses and scores: [('STOMP', 33), ('STOUP', 33), ('STOWP', 33), ('STOOP', 32), ('STOCK', 31), ('STOOK', 30), ('STOOD', 29), ('STOOL', 29)]
+The bot finally chose: STOMP 
+Guess: 𝙎𝙏𝙊𝙈𝙋, Feedback: 🟩🟩🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: STOUP 
+The top ten guesses and scores: [('STOUP', 14), ('STOWP', 14), ('STOOP', 13)]
+The bot finally chose: STOOP 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙎𝙏𝙊𝙈𝙋, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙊𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.1887 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.1886615640238984, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STONK with entropy: 2.2256
+Bot chose: STONY with entropy: 2.0875
+Top ten guesses: [('STONK', 2.2256108145207376), ('STOLN', 2.0874628412503395), ('STOND', 2.0874628412503395), ('STONG', 2.0874628412503395), ('STONY', 2.0874628412503395), ('STOWN', 2.0874628412503395), ('STONN', 1.8210319581338212), ('STOOK', 1.7360411676599221), ('STOOP', 1.7360411676599221), ('STOOD', 1.5693078231812958)]
+
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0875 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.0, 'actual_info_gain': 1.087462841250339, 'expected_info_gain': 2.0874628412503395}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STOOP with entropy: 1.9056
+Bot chose: STOOP with entropy: 1.9056
+Top ten guesses: [('STOOP', 1.9056390622295665), ('STOOK', 1.811278124459133), ('STOCK', 1.5487949406953985), ('STOOD', 1.4056390622295665), ('STOOL', 1.4056390622295665), ('STOMP', 1.2987949406953985), ('STOWP', 1.2987949406953985), ('STOIC', 1.061278124459133)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.189 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 2.087 bits, Actual Info Gain: 1.087 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙊𝙋 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.1887 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.1886615640238984, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STONK with entropy: 2.2256
+Bot chose: STONY with entropy: 2.0875
+Top ten guesses: [('STONK', 2.2256108145207376), ('STOLN', 2.0874628412503395), ('STOND', 2.0874628412503395), ('STONG', 2.0874628412503395), ('STONY', 2.0874628412503395), ('STOWN', 2.0874628412503395), ('STONN', 1.8210319581338212), ('STOOK', 1.7360411676599221), ('STOOP', 1.7360411676599221), ('STOOD', 1.5693078231812958)]
+
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0875 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.0, 'actual_info_gain': 1.087462841250339, 'expected_info_gain': 2.0874628412503395}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STOOP with entropy: 1.9056
+Bot chose: STOOP with entropy: 1.9056
+Top ten guesses: [('STOOP', 1.9056390622295665), ('STOOK', 1.811278124459133), ('STOCK', 1.5487949406953985), ('STOOD', 1.4056390622295665), ('STOOL', 1.4056390622295665), ('STOMP', 1.2987949406953985), ('STOWP', 1.2987949406953985), ('STOIC', 1.061278124459133)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.189 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 2.087 bits, Actual Info Gain: 1.087 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙊𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 252 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Ended up choosing COMMON word: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.1887 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.1886615640238984, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('STONK', '2.226'), ('STOLN', '2.087'), ('STOND', '2.087'), ('STONG', '2.087'), ('STONY', '2.087')]
+Top entropy choice: 𝙎𝙏𝙊𝙉𝙆 with entropy: 2.2256
+Ended up choosing COMMON word: 𝙎𝙏𝙊𝙉𝙔 with entropy: 2.0875
+
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0875 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 3.0, 'actual_info_gain': 1.087462841250339, 'expected_info_gain': 2.0874628412503395}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('STOOP', '1.906'), ('STOOK', '1.811'), ('STOCK', '1.549'), ('STOOD', '1.406'), ('STOOL', '1.406')]
+Top entropy choice: 𝙎𝙏𝙊𝙊𝙋 with entropy: 1.9056
+Ended up choosing COMMON word: 𝙎𝙏𝙊𝙊𝙋 with entropy: 1.9056
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.189 bits, Posterior Entropy: 4.087, 
+Guess: 𝙎𝙏𝙊𝙉𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 2.087 bits, Actual Info Gain: 1.087 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙊𝙊𝙋 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITSY', 'BLIST', 'BOOST', 'BUIST', 'BUSTI', 'BUSTY', 'COOST', 'DIDST', 'DITSY', 'DUSTY', 'FISTY', 'FOIST', 'FUSTY', 'GHOST', 'GIUST', 'GLOST', 'GOSHT', 'GUSTO', 'GUSTY', 'GUTSY', 'HOIST', 'INUST', 'JOIST', 'JOUST', 'KUSTI', 'KYDST', 'LUSTY', 'MIDST', 'MISTO', 'MISTY', 'MOIST', 'MOSTO', 'MOUST', 'MUIST', 'MUSIT', 'MUSTH', 'MUSTY', 'NOUST', 'NUTSO', 'NUTSY', 'ODIST', 'OPSIT', 'OVIST', 'PITSO', 'PITSU', 'POSIT', 'POTSY', 'PSHUT', 'PTISH', 'QUIST', 'SCOOT', 'SCOUT', 'SCUFT', 'SHIFT', 'SHIST', 'SHOOT', 'SHOTT', 'SHOUT', 'SHTIK', 'SHTUM', 'SHTUP', 'SHUNT', 'SICHT', 'SIGHT', 'SILTY', 'SITCH', 'SITUP', 'SIXTH', 'SIXTY', 'SKINT', 'SLIPT', 'SLOOT', 'SLOTH', 'SLUIT', 'SMITH', 'SMOLT', 'SMOOT', 'SMOUT', 'SMOWT', 'SNIFT', 'SNOOT', 'SNOUT', 'SOFTY', 'SOOTH', 'SOOTY', 'SOTOL', 'SOTTO', 'SOUCT', 'SOUTH', 'SOWTH', 'SPILT', 'SPITZ', 'SPLIT', 'SPOOT', 'SPOUT', 'SQUIT', 'STICH', 'STICK', 'STIFF', 'STILB', 'STILL', 'STILT', 'STIMY', 'STING', 'STINK', 'STINT', 'STIVY', 'STOCK', 'STOGY', 'STOIC', 'STOIT', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOPT', 'STOTT', 'STOUN', 'STOUP', 'STOUT', 'STOWN', 'STOWP', 'STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK', 'STUNT', 'STUSH', 'STYLI', 'STYLO', 'STYMY', 'SUINT', 'SWIFT', 'SWITH', 'SWOPT', 'SYNTH', 'VISIT', 'VISTO', 'WHIST', 'WISHT', 'XYSTI', 'YTOST', 'ZOIST']
+155 candidate words remaining.
+Top 10 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUNT', '4.690'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665'), ('MOULT', '4.655'), ('MOIST', '4.647'), ('POULT', '4.637'), ('SLUIT', '4.617')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨
+Actual Info Gain: 3.1887 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.1886615640238984, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SOOTY', 'STOCK', 'STOGY', 'STOIC', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOWN', 'STOWP']
+17 candidate words remaining.
+Top 10 guesses: [('DYKON', '3.293'), ('PYLON', '3.220'), ('KYLIN', '3.146'), ('GIPON', '3.013'), ('PILON', '2.984'), ('DYING', '2.940'), ('LOGON', '2.940'), ('NYLON', '2.940'), ('PLINK', '2.940'), ('DINKY', '2.911')]
+Top entropy choice: 𝘿𝙔𝙆𝙊𝙉 with entropy: 3.2928
+Using common exploratory word: 𝙋𝙔𝙇𝙊𝙉 with entropy: 3.2195
+
+Guess: 𝙋𝙔𝙇𝙊𝙉, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 0.0, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STOOP']
+1 candidate words remaining.
+Top 10 guesses: [('STOOP', '0.000')]
+Top entropy choice: 𝙎𝙏𝙊𝙊𝙋 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙊𝙊𝙋 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.189 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝙔𝙇𝙊𝙉, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙊𝙊𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

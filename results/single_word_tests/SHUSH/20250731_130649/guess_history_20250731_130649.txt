@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙐𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝘽𝙇𝙐𝙎𝙃, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝙎𝙃𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙐𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙐𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙐𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙐𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.323 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 3.807, 
+Guess: 𝘾𝙃𝙐𝙉𝙆, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 3.807, Expected Info Gain: 5.323 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

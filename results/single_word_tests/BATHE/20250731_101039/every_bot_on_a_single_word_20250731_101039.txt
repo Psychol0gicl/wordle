@@ -1,0 +1,229 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝘼𝙏𝙃𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: MANTE 
+The top ten guesses and scores: [('MANTE', 70), ('MATHE', 70), ('HAUTE', 69), ('LATHE', 69), ('EATIN', 68), ('BATHE', 67), ('VAUTE', 67), ('ZANTE', 67), ('EATHE', 66), ('MACTE', 66)]
+The bot finally chose: HAUTE 
+Guess: 𝙃𝘼𝙐𝙏𝙀, Feedback: 🟨🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: BATHE 
+The top ten guesses and scores: [('BATHE', 18), ('LATHE', 18), ('MATHE', 18), ('EATHE', 17)]
+The bot finally chose: BATHE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+Guess: 𝙃𝘼𝙐𝙏𝙀, Feedback: 🟨🟩⬜🟨🟩
+Guess: 𝘽𝘼𝙏𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝘼𝙏𝙃𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MATHE with entropy: 2.6551
+Bot chose: MATTE with entropy: 2.3921
+Top ten guesses: [('MATHE', 2.655050539417774), ('MANTE', 2.3920788329783202), ('MATTE', 2.39207883297832), ('LATHE', 2.3789919869000626), ('VAUTE', 2.2684727516311214), ('VAWTE', 2.1353503825268683), ('BATHE', 2.1234786725698864), ('EATHE', 2.1234786725698864), ('EATIN', 2.1234786725698864), ('HAUTE', 2.114805144339332)]
+
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 2.39207883297832}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LATHE with entropy: 1.9219
+Bot chose: LATHE with entropy: 1.9219
+Top ten guesses: [('LATHE', 1.9219280948873623), ('BATHE', 1.5219280948873621), ('EATHE', 1.5219280948873621), ('LATKE', 1.3709505944546687), ('VATJE', 0.7219280948873623)]
+
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATHE with entropy: 1.0000
+Bot chose: BATHE with entropy: 1.0000
+Top ten guesses: [('BATHE', 1.0), ('EATHE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.392 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝘼𝙏𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙏𝙃𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MATHE with entropy: 2.6551
+Bot chose: MATTE with entropy: 2.3921
+Top ten guesses: [('MATHE', 2.655050539417774), ('MANTE', 2.3920788329783202), ('MATTE', 2.39207883297832), ('LATHE', 2.3789919869000626), ('VAUTE', 2.2684727516311214), ('VAWTE', 2.1353503825268683), ('BATHE', 2.1234786725698864), ('EATHE', 2.1234786725698864), ('EATIN', 2.1234786725698864), ('HAUTE', 2.114805144339332)]
+
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 2.39207883297832}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LATHE with entropy: 1.9219
+Bot chose: LATHE with entropy: 1.9219
+Top ten guesses: [('LATHE', 1.9219280948873623), ('BATHE', 1.5219280948873621), ('EATHE', 1.5219280948873621), ('LATKE', 1.3709505944546687), ('VATJE', 0.7219280948873623)]
+
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BATHE with entropy: 1.0000
+Bot chose: BATHE with entropy: 1.0000
+Top ten guesses: [('BATHE', 1.0), ('EATHE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.392 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝘼𝙏𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙏𝙃𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('MATHE', '2.655'), ('MANTE', '2.392'), ('MATTE', '2.392'), ('LATHE', '2.379'), ('VAUTE', '2.268')]
+Top entropy choice: 𝙈𝘼𝙏𝙃𝙀 with entropy: 2.6551
+Ended up choosing COMMON word: 𝙈𝘼𝙏𝙏𝙀 with entropy: 2.3921
+
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.9260 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.925999418556223, 'expected_info_gain': 2.39207883297832}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('LATHE', '1.922'), ('BATHE', '1.522'), ('EATHE', '1.522'), ('LATKE', '1.371'), ('VATJE', '0.722')]
+Top entropy choice: 𝙇𝘼𝙏𝙃𝙀 with entropy: 1.9219
+Ended up choosing COMMON word: 𝙇𝘼𝙏𝙃𝙀 with entropy: 1.9219
+
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BATHE', '1.000'), ('EATHE', '1.000')]
+Top entropy choice: 𝘽𝘼𝙏𝙃𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝘽𝘼𝙏𝙃𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝘼𝙏𝙏𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.248, Expected Info Gain: 2.392 bits, Actual Info Gain: 1.926 bits, Posterior Entropy: 2.322, 
+Guess: 𝙇𝘼𝙏𝙃𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝘼𝙏𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙏𝙃𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BATHE', 'EATHE', 'EATIN', 'FAUTE', 'HAUTE', 'LATHE', 'LATKE', 'LATTE', 'MACTE', 'MANTE', 'MATHE', 'MATTE', 'NANTE', 'PATTE', 'VATJE', 'VAUTE', 'VAWTE', 'WAITE', 'ZANTE']
+19 candidate words remaining.
+Top 10 guesses: [('MUNCH', '2.971'), ('HILUM', '2.966'), ('MITCH', '2.966'), ('LUNCH', '2.926'), ('MUTTI', '2.926'), ('HUMAN', '2.866'), ('MONTH', '2.866'), ('MUTCH', '2.860'), ('METHI', '2.860'), ('MYTHI', '2.860')]
+Top entropy choice: 𝙈𝙐𝙉𝘾𝙃 with entropy: 2.9708
+Guess count low, choosing the word with highest entropy: 𝙈𝙐𝙉𝘾𝙃 with entropy: 2.9708
+
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.9708400131019848}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BATHE', 'EATHE', 'LATHE']
+3 candidate words remaining.
+Top 10 guesses: [('BATHE', '0.918'), ('EATHE', '0.918'), ('LATHE', '0.918')]
+Top entropy choice: 𝘽𝘼𝙏𝙃𝙀 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝘼𝙏𝙃𝙀 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 4.248, Expected Info Gain: 2.971 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝘼𝙏𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

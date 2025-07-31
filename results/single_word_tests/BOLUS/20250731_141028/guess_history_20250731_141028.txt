@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙊𝙇𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙇𝙊𝘾𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙇𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙊𝙇𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 4.029 bits, Posterior Entropy: 5.781, 
+Guess: 𝘿𝙊𝙒𝙇𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 5.781, Expected Info Gain: 2.670 bits, Actual Info Gain: 1.389 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙊𝙇𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 2.067 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙊𝙇𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙇𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: 🟨⬜🟨⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 4.029 bits, Posterior Entropy: 5.781, 
+Guess: 𝘿𝙊𝙒𝙇𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 5.781, Expected Info Gain: 2.670 bits, Actual Info Gain: 1.389 bits, Posterior Entropy: 4.392, 
+Guess: 𝙋𝙊𝙇𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 2.067 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙊𝙇𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙇𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 9.811, Expected Info Gain: 4.941 bits, Actual Info Gain: 8.226 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙊𝙇𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙊𝙇𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙋𝙄𝙇𝙊𝙉, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 9.811, Expected Info Gain: 5.176 bits, Actual Info Gain: 5.110 bits, Posterior Entropy: 4.700, 
+Guess: 𝘿𝙐𝘾𝙆𝙔, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 4.700, Expected Info Gain: 5.176 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙊𝙇𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

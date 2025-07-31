@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙀𝙀𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙀𝙀𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.443 bits, Actual Info Gain: 2.544 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙀𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙀𝙇𝘾𝙃, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.443 bits, Actual Info Gain: 2.544 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙀𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 2.689 bits, Posterior Entropy: 6.883, 
+Guess: 𝙇𝙀𝙀𝘾𝙃, Feedback: 🟨🟩🟩⬜⬜, Prior Entropy: 6.883, Expected Info Gain: 5.068 bits, Actual Info Gain: 5.298 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙀𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.714 bits, Posterior Entropy: 4.858, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.858, Expected Info Gain: 5.536 bits, Actual Info Gain: 3.273 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙀𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

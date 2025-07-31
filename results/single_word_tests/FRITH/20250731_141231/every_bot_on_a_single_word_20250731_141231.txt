@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: RIOTY 
+The top ten guesses and scores: [('RIOTY', 244), ('RYOTI', 244), ('INTRO', 242), ('NITRO', 242), ('GRIOT', 239), ('ORBIT', 239), ('DROIT', 235), ('ROZIT', 234), ('VITRO', 232), ('ROUTH', 231)]
+The bot finally chose: INTRO 
+Guess: 𝙄𝙉𝙏𝙍𝙊, Feedback: 🟨⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: FRITH 
+The top ten guesses and scores: [('FRITH', 63), ('GRIFT', 61), ('GRITH', 60), ('RIGHT', 60), ('BRITH', 59), ('DRIFT', 59), ('FRUIT', 59), ('CRITH', 58), ('FRITZ', 58), ('RICHT', 58)]
+The bot finally chose: FRITH 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙄𝙉𝙏𝙍𝙊, Feedback: 🟨⬜🟨🟨⬜
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 7.7089 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 7.708913865218094, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRUIT with entropy: 4.4049
+Bot chose: FRUIT with entropy: 4.4049
+Top ten guesses: [('FRUIT', 4.404851746979723), ('GRIOT', 4.403995895531806), ('CROUT', 4.347657867362791), ('COURT', 4.317170093317623), ('CROFT', 4.294988802475776), ('YOURT', 4.2705474293277526), ('ORBIT', 4.262925297912039), ('DROIT', 4.254288987319262), ('FRITH', 4.22984761417124), ('FRONT', 4.228933085068835)]
+
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 5.1497 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 1.0, 'actual_info_gain': 5.149747119504682, 'expected_info_gain': 4.404851746979723}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRITH with entropy: 1.0000
+Bot chose: FRITH with entropy: 1.0000
+Top ten guesses: [('FRITH', 1.0), ('FRITZ', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 7.7089 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 7.708913865218094, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRUIT with entropy: 4.4049
+Bot chose: FRUIT with entropy: 4.4049
+Top ten guesses: [('FRUIT', 4.404851746979723), ('GRIOT', 4.403995895531806), ('CROUT', 4.347657867362791), ('COURT', 4.317170093317623), ('CROFT', 4.294988802475776), ('YOURT', 4.2705474293277526), ('ORBIT', 4.262925297912039), ('DROIT', 4.254288987319262), ('FRITH', 4.22984761417124), ('FRONT', 4.228933085068835)]
+
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨
+Actual Info Gain: 5.1497 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 1.0, 'actual_info_gain': 5.149747119504682, 'expected_info_gain': 4.404851746979723}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRITH with entropy: 1.0000
+Bot chose: FRITH with entropy: 1.0000
+Top ten guesses: [('FRITH', 1.0), ('FRITZ', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙁𝙍𝙐𝙄𝙏, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 6.150, Expected Info Gain: 4.405 bits, Actual Info Gain: 5.150 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 7.7089 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 7.708913865218094, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 168 potential guesses from 71 remaining candidates...
+Top 5 guesses: [('POINT', '4.505'), ('FRUIT', '4.405'), ('GRIOT', '4.404'), ('CROUT', '4.348'), ('COURT', '4.317')]
+Top entropy choice: 𝙋𝙊𝙄𝙉𝙏 with entropy: 4.5055
+Ended up choosing COMMON word: 𝙋𝙊𝙄𝙉𝙏 with entropy: 4.5055
+
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 3.8278 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.82781902461732, 'expected_info_gain': 4.50545038169899}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BRITH', '1.371'), ('CRITH', '1.371'), ('FRITH', '1.371'), ('FRITZ', '1.371'), ('GRITH', '1.371')]
+Top entropy choice: 𝘽𝙍𝙄𝙏𝙃 with entropy: 1.3710
+Ended up choosing COMMON word: 𝙁𝙍𝙄𝙏𝙃 with entropy: 1.3710
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.150, Expected Info Gain: 4.505 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙍𝙄𝙏𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 7.7089 bits
+Posterior entropy: 6.149747119504682
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.149747119504682, 'actual_info_gain': 7.708913865218094, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BLURT', 'BRITH', 'BRITT', 'BROTH', 'BRUIT', 'BRUNT', 'CHIRT', 'COURT', 'CRITH', 'CROFT', 'CROUT', 'CRUFT', 'CRWTH', 'CRYPT', 'DRIFT', 'DRIPT', 'DROIT', 'DROPT', 'FLIRT', 'FRITH', 'FRITT', 'FRITZ', 'FRONT', 'FROTH', 'FRUIT', 'GRIFT', 'GRIOT', 'GRIPT', 'GRITH', 'GROUT', 'GRUNT', 'GRYPT', 'INTRO', 'MITRY', 'MOTOR', 'NITRO', 'NITRY', 'ORBIT', 'ORTHO', 'OUTRO', 'POORT', 'POTRO', 'PRINT', 'PROOT', 'PROTO', 'PRUNT', 'QUIRT', 'RICHT', 'RIFTY', 'RIGHT', 'RIOTY', 'RITZY', 'ROBOT', 'ROOTY', 'ROTCH', 'ROTON', 'ROTOR', 'ROTTO', 'ROTTY', 'ROUTH', 'ROWTH', 'ROZIT', 'RUNTY', 'RUTIN', 'RUTTY', 'RYOTI', 'VITRO', 'WHORT', 'WROOT', 'WROTH', 'YOURT']
+71 candidate words remaining.
+Top 10 guesses: [('PITOT', '4.608'), ('POINT', '4.505'), ('PICOT', '4.479'), ('NOOIT', '4.471'), ('RHINO', '4.428'), ('PINOT', '4.414'), ('BIONT', '4.414'), ('FRUIT', '4.405'), ('GRIOT', '4.404'), ('FOUTH', '4.392')]
+Top entropy choice: 𝙋𝙄𝙏𝙊𝙏 with entropy: 4.6083
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙏𝙊𝙏 with entropy: 4.6083
+
+Guess: 𝙋𝙄𝙏𝙊𝙏, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 3.8278 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.149747119504682, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.82781902461732, 'expected_info_gain': 4.608311423783217}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRITH', 'CRITH', 'FRITH', 'FRITZ', 'GRITH']
+5 candidate words remaining.
+Top 10 guesses: [('BACHA', '1.922'), ('BACHS', '1.922'), ('BAGHS', '1.922'), ('BATCH', '1.922'), ('BEACH', '1.922'), ('BEECH', '1.922'), ('BEFOG', '1.922'), ('BELCH', '1.922'), ('BENCH', '1.922'), ('BHANG', '1.922')]
+Top entropy choice: 𝘽𝘼𝘾𝙃𝘼 with entropy: 1.9219
+Using common exploratory word: 𝘽𝘼𝙏𝘾𝙃 with entropy: 1.9219
+
+Guess: 𝘽𝘼𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 4.608311423783217}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FRITH', 'GRITH']
+2 candidate words remaining.
+Top 10 guesses: [('FRITH', '1.000'), ('GRITH', '1.000')]
+Top entropy choice: 𝙁𝙍𝙄𝙏𝙃 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙍𝙄𝙏𝙃 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.709 bits, Posterior Entropy: 6.150, 
+Guess: 𝙋𝙄𝙏𝙊𝙏, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 4.608 bits, Actual Info Gain: 3.828 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝙏𝘾𝙃, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 4.608 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙍𝙄𝙏𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙎𝙃𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: PALSY 
+The top ten guesses and scores: [('PALSY', 415), ('BASIL', 413), ('SADLY', 411), ('SALON', 411), ('SAYON', 411), ('NASHI', 410), ('PANSY', 409), ('BASIN', 407), ('DAISY', 407), ('SABIN', 407)]
+The bot finally chose: PALSY 
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BASIN 
+The top ten guesses and scores: [('BASIN', 174), ('NASHI', 174), ('SABIN', 174), ('SAHIB', 171), ('BASON', 166), ('NASHO', 166), ('BASHO', 163), ('BASIC', 162), ('DASHI', 162), ('SANGH', 161)]
+The bot finally chose: BASIN 
+Guess: 𝘽𝘼𝙎𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: CASCO 
+The top ten guesses and scores: [('CASCO', 11), ('KASHA', 11), ('MASHA', 11)]
+The bot finally chose: MASHA 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝘽𝘼𝙎𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙎𝙃𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.7334 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.733354340613827, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PASKA with entropy: 1.9219
+Bot chose: PASKA with entropy: 1.9219
+Top ten guesses: [('PASKA', 1.9219280948873623), ('BASHA', 1.3709505944546687), ('KASHA', 1.3709505944546687), ('MASHA', 1.3709505944546687), ('PASHA', 1.3709505944546687)]
+
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BASHA with entropy: 1.0000
+Bot chose: MASHA with entropy: 1.0000
+Top ten guesses: [('BASHA', 1.0), ('MASHA', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.733 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙎𝙃𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.7334 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.733354340613827, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PASKA with entropy: 1.9219
+Bot chose: PASKA with entropy: 1.9219
+Top ten guesses: [('PASKA', 1.9219280948873623), ('BASHA', 1.3709505944546687), ('KASHA', 1.3709505944546687), ('MASHA', 1.3709505944546687), ('PASHA', 1.3709505944546687)]
+
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BASHA with entropy: 1.0000
+Bot chose: MASHA with entropy: 1.0000
+Top ten guesses: [('BASHA', 1.0), ('MASHA', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.733 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙎𝙃𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 233 potential guesses from 133 remaining candidates...
+Top 5 guesses: [('SALSA', '3.788'), ('SANSA', '3.763'), ('SALPA', '3.706'), ('SABAL', '3.680'), ('BASAN', '3.665')]
+Top entropy choice: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.7334 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.733354340613827, 'expected_info_gain': 3.7880709110231163}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('PASKA', '1.922'), ('BASHA', '1.371'), ('KASHA', '1.371'), ('MASHA', '1.371'), ('PASHA', '1.371')]
+Top entropy choice: 𝙋𝘼𝙎𝙆𝘼 with entropy: 1.9219
+
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('BASHA', '1.000'), ('MASHA', '1.000')]
+Top entropy choice: 𝘽𝘼𝙎𝙃𝘼 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙈𝘼𝙎𝙃𝘼 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.733 bits, Posterior Entropy: 2.322, 
+Guess: 𝙋𝘼𝙎𝙆𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙎𝙃𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAGSY', 'BAISA', 'BALSA', 'BASAL', 'BASAN', 'BASHA', 'BASHO', 'BASIC', 'BASIJ', 'BASIL', 'BASIN', 'BASON', 'BASSI', 'BASSO', 'BASSY', 'CANSO', 'CASCO', 'CASKY', 'CAUSA', 'DAISY', 'DASHI', 'DASHY', 'FALSY', 'FASCI', 'GADSO', 'GASHY', 'GASPY', 'GASSY', 'GAWSY', 'HALSH', 'HANSA', 'HASHY', 'KASHA', 'LAKSA', 'LASSI', 'LASSO', 'LASSU', 'LASSY', 'LAWSY', 'MANSO', 'MASHA', 'MASHY', 'MASON', 'MASSA', 'MASSY', 'MAUSY', 'NASAL', 'NASHI', 'NASHO', 'NASON', 'OASAL', 'PAISA', 'PALSA', 'PALSY', 'PANSY', 'PASAG', 'PASCH', 'PASHA', 'PASHM', 'PASKA', 'PASMO', 'PASPY', 'PASSU', 'PAYSD', 'SABAL', 'SABHA', 'SABIN', 'SABJI', 'SABZI', 'SADDO', 'SADDY', 'SADHU', 'SADIC', 'SADLY', 'SADZA', 'SAGGY', 'SAGUM', 'SAHAB', 'SAHIB', 'SAICK', 'SAIGA', 'SAJOU', 'SAKAI', 'SAKIA', 'SALAD', 'SALAL', 'SALIC', 'SALIX', 'SALLY', 'SALMI', 'SALOL', 'SALON', 'SALOP', 'SALPA', 'SALSA', 'SALUD', 'SALVO', 'SAMAN', 'SAMBA', 'SAMBO', 'SAMFI', 'SAMFU', 'SAMMY', 'SAMPI', 'SANAD', 'SANDY', 'SANGA', 'SANGH', 'SANGO', 'SANKO', 'SANSA', 'SAOLA', 'SAPAN', 'SAPID', 'SAPPY', 'SASIN', 'SASSY', 'SAUBA', 'SAUCH', 'SAUCY', 'SAUGH', 'SAUNA', 'SAUNF', 'SAVIN', 'SAVOY', 'SAVVY', 'SAWAH', 'SAYID', 'SAYON', 'VASAL', 'WASHI', 'WASHY', 'WASPY']
+133 candidate words remaining.
+Top 10 guesses: [('LYSIN', '4.282'), ('SYBIL', '4.252'), ('LOSSY', '4.134'), ('SHILY', '4.113'), ('SYLIS', '4.112'), ('SONSY', '4.104'), ('SIBYL', '4.099'), ('SPOIL', '4.098'), ('SHINY', '4.092'), ('BYSSI', '4.090')]
+Top entropy choice: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+Guess count low, choosing the word with highest entropy: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 3.2479 bits
+Posterior entropy: 3.807354922057604
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.807354922057604, 'actual_info_gain': 3.2479275134435857, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BASHA', 'BASHO', 'BASSO', 'CASCO', 'KASHA', 'MASHA', 'MASSA', 'PASAG', 'PASCH', 'PASHA', 'PASHM', 'PASKA', 'PASMO', 'PASSU']
+14 candidate words remaining.
+Top 10 guesses: [('BUMPH', '3.522'), ('HAMBA', '3.522'), ('PHYMA', '3.379'), ('KAPHA', '3.379'), ('ABOHM', '3.325'), ('CHAAP', '3.325'), ('CHOMP', '3.325'), ('CHUMP', '3.325'), ('COPHA', '3.325'), ('HAOMA', '3.325')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 3.5216
+Using common exploratory word: 𝘾𝙃𝙐𝙈𝙋 with entropy: 3.3249
+
+Guess: 𝘾𝙃𝙐𝙈𝙋, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MASHA']
+1 candidate words remaining.
+Top 10 guesses: [('MASHA', '0.000')]
+Top entropy choice: 𝙈𝘼𝙎𝙃𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙎𝙃𝘼 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.248 bits, Posterior Entropy: 3.807, 
+Guess: 𝘾𝙃𝙐𝙈𝙋, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 3.807, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙎𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙒𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜
+Guess: 𝙏𝙊𝙉𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜
+Guess: 𝙏𝙒𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 3.426 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 3.426 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙏𝙊𝙒𝙀𝘿, Feedback: 🟩⬜🟨🟩⬜, Prior Entropy: 5.426, Expected Info Gain: 2.773 bits, Actual Info Gain: 3.426 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.432 bits, Posterior Entropy: 5.426, 
+Guess: 𝙋𝙊𝙒𝙉𝘿, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 5.426, Expected Info Gain: 3.914 bits, Actual Info Gain: 5.426 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙀𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

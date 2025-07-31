@@ -1,0 +1,66 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝙔𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝘾𝙊𝙈𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙊𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝙊𝙉𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙊𝙔𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝙔𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 1.763 bits, Posterior Entropy: 4.807, 
+Guess: 𝙈𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.807, Expected Info Gain: 1.941 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 4.000, 
+Guess: 𝙁𝙊𝙔𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙔𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 1.763 bits, Posterior Entropy: 4.807, 
+Guess: 𝙈𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.807, Expected Info Gain: 1.941 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 4.000, 
+Guess: 𝙁𝙊𝙔𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙔𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.029 bits, Actual Info Gain: 2.870 bits, Posterior Entropy: 5.392, 
+Guess: 𝙈𝙊𝙒𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.392, Expected Info Gain: 2.423 bits, Actual Info Gain: 1.070 bits, Posterior Entropy: 4.322, 
+Guess: 𝙋𝙊𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.322, Expected Info Gain: 1.861 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝙊𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 1.846 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙊𝙓𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙔𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.424 bits, Actual Info Gain: 3.092 bits, Posterior Entropy: 5.170, 
+Guess: 𝙈𝙄𝙇𝙆𝙔, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 5.170, Expected Info Gain: 4.424 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙔𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

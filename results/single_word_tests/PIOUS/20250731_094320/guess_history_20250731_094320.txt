@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙊𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙊𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 7.811 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙊𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 7.811 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙊𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 9.811, Expected Info Gain: 4.941 bits, Actual Info Gain: 5.489 bits, Posterior Entropy: 4.322, 
+Guess: 𝙈𝙐𝙎𝙊𝙎, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 4.322, Expected Info Gain: 3.241 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙊𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙋𝙄𝙇𝙊𝙉, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 9.811, Expected Info Gain: 5.176 bits, Actual Info Gain: 8.811 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

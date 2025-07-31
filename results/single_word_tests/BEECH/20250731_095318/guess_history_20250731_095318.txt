@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙀𝙀𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝘾𝙃𝙀𝙒𝙔, Feedback: 🟨🟨🟩⬜⬜
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙀𝙀𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.764 bits, Posterior Entropy: 5.807, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 5.807, Expected Info Gain: 3.999 bits, Actual Info Gain: 5.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙀𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.764 bits, Posterior Entropy: 5.807, 
+Guess: 𝘽𝙀𝙉𝘾𝙃, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 5.807, Expected Info Gain: 3.999 bits, Actual Info Gain: 5.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙀𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 2.689 bits, Posterior Entropy: 6.883, 
+Guess: 𝙇𝙀𝙀𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 6.883, Expected Info Gain: 5.068 bits, Actual Info Gain: 5.298 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙀𝙀𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 3.527 bits, Posterior Entropy: 6.044, 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.044, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: AMRIT 
+The top ten guesses and scores: [('AMRIT', 48), ('ATRIP', 48), ('AFRIT', 47), ('AIRTH', 47), ('KORAT', 47), ('KURTA', 47), ('MORAT', 47), ('PORTA', 47), ('ATRIA', 46), ('CURAT', 46)]
+The bot finally chose: PORTA 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 10.1582 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 10.158221266581684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AORTA with entropy: 2.8731
+Bot chose: AORTA with entropy: 2.8731
+Top ten guesses: [('AORTA', 2.8731406795131336), ('AMRIT', 2.8150724101159437), ('PORTA', 2.7773627950641697), ('KURTA', 2.7773627950641693), ('KORAT', 2.623516641218015), ('AFRIT', 2.5654483718208256), ('ATRIA', 2.5654483718208256), ('MORAT', 2.4996981431844145), ('YURTA', 2.4996981431844145), ('ATRIP', 2.353533948577482)]
+
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.8731406795131336}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PORTA with entropy: 0.0000
+Bot chose: PORTA with entropy: 0.0000
+Top ten guesses: [('PORTA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 10.1582 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 10.158221266581684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AORTA with entropy: 2.8731
+Bot chose: AORTA with entropy: 2.8731
+Top ten guesses: [('AORTA', 2.8731406795131336), ('AMRIT', 2.8150724101159437), ('PORTA', 2.7773627950641697), ('KURTA', 2.7773627950641693), ('KORAT', 2.623516641218015), ('AFRIT', 2.5654483718208256), ('ATRIA', 2.5654483718208256), ('MORAT', 2.4996981431844145), ('YURTA', 2.4996981431844145), ('ATRIP', 2.353533948577482)]
+
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.8731406795131336}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PORTA with entropy: 0.0000
+Bot chose: PORTA with entropy: 0.0000
+Top ten guesses: [('PORTA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 10.1582 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 10.158221266581684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('AORTA', '2.873'), ('AMRIT', '2.815'), ('PORTA', '2.777'), ('KURTA', '2.777'), ('KORAT', '2.624')]
+Top entropy choice: 𝘼𝙊𝙍𝙏𝘼 with entropy: 2.8731
+Ended up choosing COMMON word: 𝘼𝙊𝙍𝙏𝘼 with entropy: 2.8731
+
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 2.8731406795131336}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('PORTA', '0.000')]
+Top entropy choice: 𝙋𝙊𝙍𝙏𝘼 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙋𝙊𝙍𝙏𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 10.1582 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 10.158221266581684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AFRIT', 'AIRTH', 'AMRIT', 'AORTA', 'ATRIA', 'ATRIP', 'CURAT', 'JURAT', 'KORAT', 'KURTA', 'MORAT', 'PORTA', 'YURTA']
+13 candidate words remaining.
+Top 10 guesses: [('PIUMA', '3.393'), ('POKIT', '3.393'), ('AFOAM', '3.239'), ('AIMAK', '3.239'), ('IMPOT', '3.239'), ('PICOT', '3.239'), ('PIYUT', '3.239'), ('AKOIA', '3.181'), ('PIKAU', '3.181'), ('AKOJA', '3.085')]
+Top entropy choice: 𝙋𝙄𝙐𝙈𝘼 with entropy: 3.3927
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙐𝙈𝘼 with entropy: 3.3927
+
+Guess: 𝙋𝙄𝙐𝙈𝘼, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.392747410448785}
+----------
+The bot is making a guess...
+THe possible candidates are: ['PORTA']
+1 candidate words remaining.
+Top 10 guesses: [('PORTA', '0.000')]
+Top entropy choice: 𝙋𝙊𝙍𝙏𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙊𝙍𝙏𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝙋𝙄𝙐𝙈𝘼, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 3.700, Expected Info Gain: 3.393 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙈𝘽𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙍𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝘾𝙊𝙈𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙀𝙈𝘽𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙈𝘽𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 1.763 bits, Posterior Entropy: 4.807, 
+Guess: 𝘾𝙃𝙀𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 4.807, Expected Info Gain: 2.677 bits, Actual Info Gain: 1.348 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙀𝙒𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.595 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙈𝘽𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘽𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙍𝙄𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.262, Expected Info Gain: 3.684 bits, Actual Info Gain: 1.692 bits, Posterior Entropy: 6.570, 
+Guess: 𝙇𝙊𝙑𝙀𝙍, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 6.570, Expected Info Gain: 2.967 bits, Actual Info Gain: 1.763 bits, Posterior Entropy: 4.807, 
+Guess: 𝘾𝙃𝙀𝙀𝙍, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 4.807, Expected Info Gain: 2.677 bits, Actual Info Gain: 1.348 bits, Posterior Entropy: 3.459, 
+Guess: 𝙁𝙀𝙒𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 3.459, Expected Info Gain: 2.595 bits, Actual Info Gain: 1.874 bits, Posterior Entropy: 1.585, 
+Guess: 𝙀𝙈𝘽𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘽𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.029 bits, Actual Info Gain: 2.196 bits, Posterior Entropy: 6.066, 
+Guess: 𝙇𝙀𝙋𝙀𝙍, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 6.066, Expected Info Gain: 3.963 bits, Actual Info Gain: 2.896 bits, Posterior Entropy: 3.170, 
+Guess: 𝙀𝙈𝘽𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙈𝘽𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.597 bits, Posterior Entropy: 8.262, 
+Guess: 𝙋𝙊𝙄𝙉𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.262, Expected Info Gain: 4.424 bits, Actual Info Gain: 2.308 bits, Posterior Entropy: 5.954, 
+Guess: 𝙀𝙇𝙀𝙂𝙔, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 5.954, Expected Info Gain: 4.424 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 2.000, 
+Guess: 𝙀𝙈𝘽𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

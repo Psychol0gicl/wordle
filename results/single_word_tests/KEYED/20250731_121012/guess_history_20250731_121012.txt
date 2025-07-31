@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙆𝙀𝙔𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: ⬜⬜🟨🟩⬜
+Guess: 𝙃𝙄𝙆𝙀𝘿, Feedback: ⬜⬜🟨🟩🟩
+Guess: 𝙆𝙀𝙔𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙆𝙀𝙔𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 2.960 bits, Posterior Entropy: 5.907, 
+Guess: 𝙆𝙀𝙔𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙔𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 2.960 bits, Posterior Entropy: 5.907, 
+Guess: 𝙆𝙀𝙔𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙔𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 6.150, 
+Guess: 𝘽𝙀𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.150, Expected Info Gain: 3.216 bits, Actual Info Gain: 2.980 bits, Posterior Entropy: 3.170, 
+Guess: 𝙆𝙀𝙔𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙆𝙀𝙔𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 3.344 bits, Posterior Entropy: 5.524, 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 5.524, Expected Info Gain: 4.933 bits, Actual Info Gain: 2.716 bits, Posterior Entropy: 2.807, 
+Guess: 𝙆𝙀𝙔𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙂𝘼𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝙆𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙎𝘼𝙂𝘼𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙂𝘼𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 7.516, Expected Info Gain: 2.978 bits, Actual Info Gain: 1.306 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝘼𝙂𝘼𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙂𝘼𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 7.516, Expected Info Gain: 2.978 bits, Actual Info Gain: 1.306 bits, Posterior Entropy: 6.209, 
+Guess: 𝙎𝘼𝙂𝘼𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙂𝘼𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝘽𝙐𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.626, Expected Info Gain: 3.683 bits, Actual Info Gain: 1.476 bits, Posterior Entropy: 7.150, 
+Guess: 𝙒𝙊𝙈𝘼𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 7.150, Expected Info Gain: 3.882 bits, Actual Info Gain: 2.626 bits, Posterior Entropy: 4.524, 
+Guess: 𝙋𝘼𝙑𝘼𝙎, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.524, Expected Info Gain: 2.210 bits, Actual Info Gain: 1.202 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝘼𝙂𝘼𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙂𝘼𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙋𝙇𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.626, Expected Info Gain: 4.113 bits, Actual Info Gain: 2.026 bits, Posterior Entropy: 6.600, 
+Guess: 𝙂𝙐𝙈𝘽𝙊, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.600, Expected Info Gain: 4.113 bits, Actual Info Gain: 4.015 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘼𝙂𝘼𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -31,8 +31,10 @@ def test_all_words_on_all_bots():
     print(f"Results will be saved into separate for each word, progress will be written into the console.")
     bot_classes = [WordleBot, EntropyWordleBot, FastEntropyWordleBot, CachedEntropyWordleBot, NonGreedyCachedEntropyWordleBot]
     words = game.common_words
-    words = words[1559:] # 1 - 1558 hotovo 2025-07-30
-    i = 0
+    i = 1558 
+    words = words[i:] # 1 - 1558 hotovo 2025-07-30, 1559 - 3000 hotovo 2025-07-31
+    words = ["FRILL"]
+
 
     for word in words:
         if i % 300 == 1:
@@ -43,8 +45,8 @@ def test_all_words_on_all_bots():
             
 
         i += 1
-        game.test_every_bot_on_a_single_word(word, bot_classes, file_name="every_bot_on_a_single_word.txt")
-        # game.test_every_bot_on_a_single_word(word, bot_classes)
+        # game.test_every_bot_on_a_single_word(word, bot_classes, file_name="every_bot_on_a_single_word.txt")
+        game.test_every_bot_on_a_single_word(word, bot_classes)
 
 test_all_words_on_all_bots()
 

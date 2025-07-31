@@ -1,0 +1,257 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙀𝙉𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: PISTE 
+The top ten guesses and scores: [('PISTE', 362), ('SPITE', 362), ('STIPE', 362), ('NEIST', 361), ('SENTI', 361), ('SIENT', 361), ('STEIN', 361), ('SEITY', 360), ('ISTLE', 359), ('STEIL', 359)]
+The bot finally chose: SPITE 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: STEND 
+The top ten guesses and scores: [('STEND', 47), ('SETON', 46), ('STENO', 46), ('SCENT', 45), ('SHENT', 45), ('SUENT', 45), ('STENT', 44), ('SWELT', 43), ('SMELT', 42), ('STELL', 41)]
+The bot finally chose: SETON 
+Guess: 𝙎𝙀𝙏𝙊𝙉, Feedback: 🟩🟨🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SCENT 
+The top ten guesses and scores: [('SCENT', 22), ('SHENT', 22), ('STEND', 22), ('SUENT', 22), ('STENT', 21)]
+The bot finally chose: SCENT 
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SHENT 
+The top ten guesses and scores: [('SHENT', 14), ('SUENT', 14), ('STENT', 13)]
+The bot finally chose: STENT 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+Guess: 𝙎𝙀𝙏𝙊𝙉, Feedback: 🟩🟨🟨⬜🟨
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙏𝙀𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙉𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 3.0732 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.0732489820306386, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STEND with entropy: 2.6887
+Bot chose: SCENT with entropy: 2.4591
+Top ten guesses: [('STEND', 2.688721875540867), ('SWELT', 2.5220552088742005), ('SCENT', 2.4591479170272446), ('SHENT', 2.4591479170272446), ('STENO', 2.4591479170272446), ('STENT', 2.4591479170272446), ('SUENT', 2.4591479170272446), ('SMELT', 2.251629167387823), ('STELL', 2.054585169337799), ('STEDD', 1.9508257945180887)]
+
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.4591479170272446}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHENT with entropy: 0.9183
+Bot chose: STENT with entropy: 0.9183
+Top ten guesses: [('SHENT', 0.9182958340544896), ('STENT', 0.9182958340544896), ('SUENT', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 3.073 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.459 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙀𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙉𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPITE with entropy: 4.2005
+Bot chose: SPITE with entropy: 4.2005
+Top ten guesses: [('SPITE', 4.200540807955409), ('SUITE', 4.1388146871554214), ('STIPE', 4.044124833973381), ('SHITE', 4.014105722615889), ('SMITE', 3.9847508957330047), ('SEITY', 3.949442259593744), ('STILE', 3.9141036640274756), ('STEIN', 3.9122569315583298), ('SIETH', 3.903465021930342), ('SENTE', 3.83594746464458)]
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 3.0732 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.0732489820306386, 'expected_info_gain': 4.200540807955409}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STEND with entropy: 2.6887
+Bot chose: SCENT with entropy: 2.4591
+Top ten guesses: [('STEND', 2.688721875540867), ('SWELT', 2.5220552088742005), ('SCENT', 2.4591479170272446), ('SHENT', 2.4591479170272446), ('STENO', 2.4591479170272446), ('STENT', 2.4591479170272446), ('SUENT', 2.4591479170272446), ('SMELT', 2.251629167387823), ('STELL', 2.054585169337799), ('STEDD', 1.9508257945180887)]
+
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.4591479170272446}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHENT with entropy: 0.9183
+Bot chose: STENT with entropy: 0.9183
+Top ten guesses: [('SHENT', 0.9182958340544896), ('STENT', 0.9182958340544896), ('SUENT', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 3.073 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.459 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙀𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙉𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 201 potential guesses from 101 remaining candidates...
+Top 5 guesses: [('SPITE', '4.201'), ('SUITE', '4.139'), ('POINT', '4.076'), ('STIPE', '4.044'), ('SHITE', '4.014')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Ended up choosing COMMON word: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 3.0732 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.0732489820306386, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('STEND', '2.689'), ('SWELT', '2.522'), ('SCENT', '2.459'), ('SHENT', '2.459'), ('STENO', '2.459')]
+Top entropy choice: 𝙎𝙏𝙀𝙉𝘿 with entropy: 2.6887
+Ended up choosing COMMON word: 𝙎𝘾𝙀𝙉𝙏 with entropy: 2.4591
+
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.4591479170272446}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SHENT', '0.918'), ('STENT', '0.918'), ('SUENT', '0.918')]
+Top entropy choice: 𝙎𝙃𝙀𝙉𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙎𝙏𝙀𝙉𝙏 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 3.073 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝘾𝙀𝙉𝙏, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.459 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙀𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙀𝙉𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 7.2004 bits
+Posterior entropy: 6.658211482751795
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.658211482751795, 'actual_info_gain': 7.200449501970982, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESIT', 'BESOT', 'BESTI', 'BLEST', 'CESTI', 'CHEST', 'COSTE', 'DEIST', 'DOEST', 'EGEST', 'ESCOT', 'ESTOC', 'ESTOP', 'EWEST', 'EXIST', 'FEIST', 'FESTY', 'FIEST', 'GEEST', 'GEIST', 'GESTE', 'GHEST', 'GOEST', 'GUEST', 'HEIST', 'ISTLE', 'JUSTE', 'MESTO', 'MOSTE', 'NEIST', 'NESTY', 'PESTO', 'PESTY', 'PISTE', 'POSTE', 'QUEST', 'SCENT', 'SCOTE', 'SCUTE', 'SEITY', 'SENTE', 'SENTI', 'SETON', 'SETUP', 'SEXTO', 'SHENT', 'SHITE', 'SHOTE', 'SHUTE', 'SIENT', 'SIETH', 'SITHE', 'SIXTE', 'SKITE', 'SKYTE', 'SLEPT', 'SMELT', 'SMITE', 'SMOTE', 'SOOTE', 'SPECT', 'SPELT', 'SPENT', 'SPITE', 'STEDD', 'STEDE', 'STEIK', 'STEIL', 'STEIN', 'STELE', 'STELL', 'STEME', 'STEND', 'STENO', 'STENT', 'STEPT', 'STEWY', 'STILE', 'STIME', 'STIPE', 'STIVE', 'STOKE', 'STOLE', 'STONE', 'STOPE', 'STOVE', 'STUDE', 'STUPE', 'STYLE', 'STYME', 'STYTE', 'SUENT', 'SUETE', 'SUETY', 'SUITE', 'SWELT', 'SWEPT', 'SYTHE', 'WEEST', 'YESTY', 'ZESTY']
+101 candidate words remaining.
+Top 10 guesses: [('SPITE', '4.201'), ('PEINE', '4.193'), ('SEINE', '4.162'), ('SUITE', '4.139'), ('POETE', '4.127'), ('PENIE', '4.086'), ('POINT', '4.076'), ('SPINE', '4.047'), ('STIPE', '4.044'), ('LOIPE', '4.043')]
+Top entropy choice: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝙄𝙏𝙀 with entropy: 4.2005
+
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 3.0732 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.658211482751795, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.0732489820306386, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCENT', 'SETON', 'SHENT', 'SMELT', 'STEDD', 'STELL', 'STEND', 'STENO', 'STENT', 'STEWY', 'SUENT', 'SWELT']
+12 candidate words remaining.
+Top 10 guesses: [('COUNT', '2.855'), ('DAUNT', '2.855'), ('OTHYL', '2.855'), ('STOND', '2.855'), ('STOWN', '2.855'), ('WOUND', '2.855'), ('CHYND', '2.792'), ('LOUND', '2.792'), ('MOUND', '2.792'), ('MOUNT', '2.792')]
+Top entropy choice: 𝘾𝙊𝙐𝙉𝙏 with entropy: 2.8554
+Using common exploratory word: 𝘾𝙊𝙐𝙉𝙏 with entropy: 2.8554
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜🟩🟩
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.200540807955409}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHENT', 'STENT']
+2 candidate words remaining.
+Top 10 guesses: [('SHENT', '1.000'), ('STENT', '1.000')]
+Top entropy choice: 𝙎𝙃𝙀𝙉𝙏 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙀𝙉𝙏 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.200 bits, Posterior Entropy: 6.658, 
+Guess: 𝙎𝙋𝙄𝙏𝙀, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 6.658, Expected Info Gain: 4.201 bits, Actual Info Gain: 3.073 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 4.201 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙀𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

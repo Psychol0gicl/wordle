@@ -1,0 +1,243 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙔𝙈𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THEIN 
+The top ten guesses and scores: [('THEIN', 233), ('THINE', 233), ('TEIND', 222), ('TENCH', 219), ('TWINE', 219), ('TELOI', 218), ('THOLE', 218), ('TOILE', 218), ('THEGN', 216), ('TINGE', 216)]
+The bot finally chose: THINE 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: THYME 
+The top ten guesses and scores: [('THYME', 22), ('THEME', 21), ('THOLE', 21), ('THEBE', 20), ('THETE', 19)]
+The bot finally chose: THYME 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙔𝙈𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THINE with entropy: 4.1409
+Bot chose: THINE with entropy: 4.1409
+Top ten guesses: [('THINE', 4.140866221019572), ('TENUE', 3.704957392235639), ('TWINE', 3.61182908665667), ('THOLE', 3.5809451982211167), ('TEENY', 3.575454575640183), ('TEEND', 3.536943049902796), ('TENTH', 3.5369255600517038), ('TITHE', 3.530249584443105), ('TOILE', 3.5176849371454857), ('TEIND', 3.511834936145564)]
+
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 4.140866221019572}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEME with entropy: 1.9219
+Bot chose: THEME with entropy: 1.9219
+Top ten guesses: [('THEME', 1.9219280948873623), ('THEBE', 1.5219280948873621), ('THETE', 1.5219280948873621), ('THYME', 1.3709505944546687), ('THOLE', 0.7219280948873623)]
+
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THYME with entropy: 0.0000
+Bot chose: THYME with entropy: 0.0000
+Top ten guesses: [('THYME', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙔𝙈𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THINE with entropy: 4.1409
+Bot chose: THINE with entropy: 4.1409
+Top ten guesses: [('THINE', 4.140866221019572), ('TENUE', 3.704957392235639), ('TWINE', 3.61182908665667), ('THOLE', 3.5809451982211167), ('TEENY', 3.575454575640183), ('TEEND', 3.536943049902796), ('TENTH', 3.5369255600517038), ('TITHE', 3.530249584443105), ('TOILE', 3.5176849371454857), ('TEIND', 3.511834936145564)]
+
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 3.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 3.807354922057604, 'expected_info_gain': 4.140866221019572}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THEME with entropy: 1.9219
+Bot chose: THEME with entropy: 1.9219
+Top ten guesses: [('THEME', 1.9219280948873623), ('THEBE', 1.5219280948873621), ('THETE', 1.5219280948873621), ('THYME', 1.3709505944546687), ('THOLE', 0.7219280948873623)]
+
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THYME with entropy: 0.0000
+Bot chose: THYME with entropy: 0.0000
+Top ten guesses: [('THYME', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 3.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙔𝙈𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 170 potential guesses from 70 remaining candidates...
+Top 5 guesses: [('PHONE', '4.214'), ('THINE', '4.141'), ('WHILE', '4.064'), ('DOING', '3.984'), ('WHOLE', '3.943')]
+Top entropy choice: 𝙋𝙃𝙊𝙉𝙀 with entropy: 4.2139
+Ended up choosing COMMON word: 𝙋𝙃𝙊𝙉𝙀 with entropy: 4.2139
+
+Guess: 𝙋𝙃𝙊𝙉𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 4.1293 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 2.0, 'actual_info_gain': 4.129283016944966, 'expected_info_gain': 4.213880159307601}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('THEBE', '1.500'), ('THEME', '1.500'), ('THETE', '1.500'), ('THYME', '1.500')]
+Top entropy choice: 𝙏𝙃𝙀𝘽𝙀 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙏𝙃𝙀𝙈𝙀 with entropy: 1.5000
+
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 1.5}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('THYME', '0.000')]
+Top entropy choice: 𝙏𝙃𝙔𝙈𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙃𝙔𝙈𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙋𝙃𝙊𝙉𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.129, Expected Info Gain: 4.214 bits, Actual Info Gain: 4.129 bits, Posterior Entropy: 2.000, 
+Guess: 𝙏𝙃𝙀𝙈𝙀, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙔𝙈𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 7.7294 bits
+Posterior entropy: 6.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.129283016944966, 'actual_info_gain': 7.72937796777781, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TECHY', 'TECUM', 'TEDDY', 'TEEND', 'TEENE', 'TEENY', 'TEETH', 'TEIID', 'TEIND', 'TEKKE', 'TELCO', 'TELIC', 'TELLY', 'TELOI', 'TEMPI', 'TEMPO', 'TEMPT', 'TENCH', 'TENDU', 'TENGE', 'TENNE', 'TENNO', 'TENNY', 'TENON', 'TENTH', 'TENTY', 'TENUE', 'TEPID', 'TEPOY', 'TEUCH', 'TEUGH', 'TEWIT', 'THEBE', 'THEFT', 'THEGN', 'THEIC', 'THEIN', 'THELF', 'THEME', 'THEOW', 'THETE', 'THEWY', 'THINE', 'THOLE', 'THYME', 'TILDE', 'TINGE', 'TITHE', 'TITLE', 'TODDE', 'TOGUE', 'TOILE', 'TOMME', 'TONNE', 'TOPHE', 'TOQUE', 'TOUZE', 'TOWIE', 'TOWZE', 'TOZIE', 'TUFFE', 'TUILE', 'TULLE', 'TUPLE', 'TUQUE', 'TWICE', 'TWINE', 'TWITE', 'TYNDE', 'TYTHE']
+70 candidate words remaining.
+Top 10 guesses: [('CHINO', '4.438'), ('WHINE', '4.422'), ('CHINE', '4.411'), ('DHONI', '4.372'), ('OPINE', '4.290'), ('PEINE', '4.270'), ('LEONE', '4.265'), ('DIENE', '4.259'), ('WHINY', '4.221'), ('PHONE', '4.214')]
+Top entropy choice: 𝘾𝙃𝙄𝙉𝙊 with entropy: 4.4379
+Guess count low, choosing the word with highest entropy: 𝘾𝙃𝙄𝙉𝙊 with entropy: 4.4379
+
+Guess: 𝘾𝙃𝙄𝙉𝙊, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 6.129283016944966, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 4.437903690679148}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THEBE', 'THEFT', 'THELF', 'THEME', 'THETE', 'THEWY', 'THYME']
+7 candidate words remaining.
+Top 10 guesses: [('BALMY', '2.522'), ('BATTY', '2.522'), ('BETTY', '2.522'), ('BITTY', '2.522'), ('BLIMY', '2.522'), ('BOTTY', '2.522'), ('BUFTY', '2.522'), ('BUTTY', '2.522'), ('COMFY', '2.522'), ('ETTLE', '2.522')]
+Top entropy choice: 𝘽𝘼𝙇𝙈𝙔 with entropy: 2.5216
+Using common exploratory word: 𝘽𝘼𝙇𝙈𝙔 with entropy: 2.5216
+
+Guess: 𝘽𝘼𝙇𝙈𝙔, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 4.437903690679148}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THYME']
+1 candidate words remaining.
+Top 10 guesses: [('THYME', '0.000')]
+Top entropy choice: 𝙏𝙃𝙔𝙈𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙃𝙔𝙈𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝘾𝙃𝙄𝙉𝙊, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.129, Expected Info Gain: 4.438 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝘼𝙇𝙈𝙔, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 2.807, Expected Info Gain: 4.438 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙔𝙈𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

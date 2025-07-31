@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙊𝙎𝙎𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: EOSIN 
+The top ten guesses and scores: [('EOSIN', 770), ('NOISE', 770), ('SLOPE', 761), ('POISE', 760), ('ELSIN', 759), ('SLIPE', 749), ('SPEIL', 749), ('SPILE', 749), ('EUSOL', 748), ('LOUSE', 748)]
+The bot finally chose: NOISE 
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BOUSE 
+The top ten guesses and scores: [('BOUSE', 86), ('BOWSE', 86), ('LOUSE', 86), ('LOWSE', 86), ('DOUSE', 85), ('DOWSE', 85), ('MOUSE', 85), ('YOUSE', 85), ('HOUSE', 84), ('SOUSE', 83)]
+The bot finally chose: LOUSE 
+Guess: 𝙇𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BOWSE 
+The top ten guesses and scores: [('BOWSE', 55), ('DOWSE', 54), ('SOWSE', 53), ('WOOSE', 53), ('WOWSE', 53), ('COPSE', 51), ('POYSE', 51), ('POSSE', 50), ('BOOSE', 49), ('GOOSE', 49)]
+The bot finally chose: POSSE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙉𝙊𝙄𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝙊𝙐𝙎𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙋𝙊𝙎𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙊𝙎𝙎𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEINE with entropy: 4.8882
+Bot chose: SEINE with entropy: 4.8882
+Top ten guesses: [('SEINE', 4.888232515507248), ('SPILE', 4.766406743735873), ('SPINE', 4.728619203798729), ('SLIPE', 4.700539599093041), ('SLOPE', 4.697066826851005), ('SONSE', 4.668657929240071), ('PEISE', 4.653466273486163), ('SNIPE', 4.65081896706546), ('SEISE', 4.647315695908246), ('NOISE', 4.6358856594745355)]
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.888232515507248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUSLE with entropy: 3.2356
+Bot chose: PULSE with entropy: 3.0119
+Top ten guesses: [('PUSLE', 3.2355885293066056), ('PULSE', 3.011869943186813), ('GUSLE', 2.995131910102686), ('CLOSE', 2.9647216804769174), ('LOWSE', 2.9348337757172067), ('WHOSE', 2.9277737729352924), ('BULSE', 2.9189709227700407), ('LOUSE', 2.904115619870857), ('MULSE', 2.886056791643364), ('DULSE', 2.8254507310373036)]
+
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 4.0444 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 1.0, 'actual_info_gain': 4.044394119358453, 'expected_info_gain': 3.011869943186813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POSSE with entropy: 1.0000
+Bot chose: POSSE with entropy: 1.0000
+Top ten guesses: [('POSSE', 1.0), ('POYSE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 4.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙎𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙎𝙎𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SEINE with entropy: 4.8882
+Bot chose: SEINE with entropy: 4.8882
+Top ten guesses: [('SEINE', 4.888232515507248), ('SPILE', 4.766406743735873), ('SPINE', 4.728619203798729), ('SLIPE', 4.700539599093041), ('SLOPE', 4.697066826851005), ('SONSE', 4.668657929240071), ('PEISE', 4.653466273486163), ('SNIPE', 4.65081896706546), ('SEISE', 4.647315695908246), ('NOISE', 4.6358856594745355)]
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.888232515507248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PUSLE with entropy: 3.2356
+Bot chose: PULSE with entropy: 3.0119
+Top ten guesses: [('PUSLE', 3.2355885293066056), ('PULSE', 3.011869943186813), ('GUSLE', 2.995131910102686), ('CLOSE', 2.9647216804769174), ('LOWSE', 2.9348337757172067), ('WHOSE', 2.9277737729352924), ('BULSE', 2.9189709227700407), ('LOUSE', 2.904115619870857), ('MULSE', 2.886056791643364), ('DULSE', 2.8254507310373036)]
+
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 4.0444 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 1.0, 'actual_info_gain': 4.044394119358453, 'expected_info_gain': 3.011869943186813}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POSSE with entropy: 1.0000
+Bot chose: POSSE with entropy: 1.0000
+Top ten guesses: [('POSSE', 1.0), ('POYSE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 4.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙎𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙎𝙎𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 431 potential guesses from 239 remaining candidates...
+Top 5 guesses: [('SEINE', '4.888'), ('SPILE', '4.766'), ('SPINE', '4.729'), ('SLIPE', '4.701'), ('SLOPE', '4.697')]
+Top entropy choice: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+Ended up choosing COMMON word: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.888232515507248}
+----------
+The bot is making a guess...
+Evaluating 33 potential guesses from 33 remaining candidates...
+Top 5 guesses: [('PUSLE', '3.236'), ('PULSE', '3.012'), ('GUSLE', '2.995'), ('CLOSE', '2.965'), ('LOWSE', '2.935')]
+Top entropy choice: 𝙋𝙐𝙎𝙇𝙀 with entropy: 3.2356
+Ended up choosing COMMON word: 𝙋𝙐𝙇𝙎𝙀 with entropy: 3.0119
+
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩
+Actual Info Gain: 4.0444 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 1.0, 'actual_info_gain': 4.044394119358453, 'expected_info_gain': 3.011869943186813}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('POSSE', '1.000'), ('POYSE', '1.000')]
+Top entropy choice: 𝙋𝙊𝙎𝙎𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙋𝙊𝙎𝙎𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙐𝙇𝙎𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 5.044, Expected Info Gain: 3.012 bits, Actual Info Gain: 4.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙎𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙎𝙎𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 5.9578 bits
+Posterior entropy: 7.900866807980749
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.900866807980749, 'actual_info_gain': 5.957794176742028, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BESOM', 'BIOSE', 'BOOSE', 'BOSIE', 'BOUSE', 'BOWSE', 'BULSE', 'CENSE', 'CESSE', 'CHOSE', 'CHUSE', 'CLOSE', 'COPSE', 'COSIE', 'DEISM', 'DENSE', 'DESHI', 'DESSE', 'DISME', 'DOUSE', 'DOWSE', 'DULSE', 'EENSY', 'ELSIN', 'ENSKY', 'ENSUE', 'EOSIN', 'ESILE', 'EUSOL', 'FEESE', 'FESSE', 'FLESH', 'FOSSE', 'GEESE', 'GESSE', 'GESSO', 'GOOSE', 'GOSSE', 'GUISE', 'GUSLE', 'GUYSE', 'HOISE', 'HOUSE', 'ISSUE', 'JESSE', 'JESSY', 'LEESE', 'LEISH', 'LENSE', 'LESBO', 'LISLE', 'LOOSE', 'LOUSE', 'LOWSE', 'MEISM', 'MENSE', 'MENSH', 'MESHY', 'MESIC', 'MESNE', 'MESON', 'MESSY', 'MESYL', 'MEUSE', 'MINSE', 'MOOSE', 'MOUSE', 'MULSE', 'MUSSE', 'MYSIE', 'NEESE', 'NESKI', 'NEWSY', 'NISSE', 'NOISE', 'NOOSE', 'NYUSE', 'OBESE', 'OSONE', 'PEISE', 'PEISY', 'PELSH', 'PENSE', 'PENSY', 'PEPSI', 'PESCH', 'PESKY', 'PEYSE', 'PHESE', 'PLESH', 'POESY', 'POISE', 'POSSE', 'POYSE', 'PSEUD', 'PULSE', 'PUSLE', 'QUESO', 'SCEND', 'SCENE', 'SCOBE', 'SCONE', 'SCOPE', 'SCUSE', 'SDEIN', 'SEBUM', 'SECCO', 'SEDGE', 'SEDGY', 'SEDUM', 'SEEDY', 'SEELD', 'SEELY', 'SEEPY', 'SEGNI', 'SEGNO', 'SEGOL', 'SEGUE', 'SEINE', 'SEISE', 'SEISM', 'SEIZE', 'SELFY', 'SELKY', 'SELLE', 'SEMIE', 'SENGI', 'SENSE', 'SENSI', 'SENSU', 'SENVY', 'SEPIC', 'SEPOY', 'SEPPO', 'SEWIN', 'SHEIK', 'SHELF', 'SHELL', 'SHEND', 'SHENG', 'SHEOL', 'SHEWN', 'SHINE', 'SHIVE', 'SHMOE', 'SHONE', 'SHOPE', 'SHOVE', 'SHULE', 'SIDHE', 'SIDLE', 'SIEGE', 'SIELD', 'SIEVE', 'SINCE', 'SINGE', 'SKEGG', 'SKEIN', 'SKELF', 'SKELL', 'SKELM', 'SKELP', 'SKENE', 'SKIVE', 'SKOBE', 'SLICE', 'SLIDE', 'SLIME', 'SLIPE', 'SLIVE', 'SLOPE', 'SLOVE', 'SLUSE', 'SLYPE', 'SMEIK', 'SMEKE', 'SMELL', 'SMILE', 'SMIZE', 'SMOKE', 'SNECK', 'SNELL', 'SNIDE', 'SNIPE', 'SNIVE', 'SNOKE', 'SOCLE', 'SOLDE', 'SOLVE', 'SONCE', 'SONDE', 'SONNE', 'SONSE', 'SOOLE', 'SOUCE', 'SOUSE', 'SOWCE', 'SOWLE', 'SOWNE', 'SOWSE', 'SOYLE', 'SPECK', 'SPEIL', 'SPELD', 'SPELK', 'SPELL', 'SPEND', 'SPESH', 'SPEUG', 'SPEWY', 'SPICE', 'SPIDE', 'SPIKE', 'SPILE', 'SPINE', 'SPODE', 'SPOKE', 'SPULE', 'SPUME', 'SUEDE', 'SWEDE', 'SWELL', 'SWILE', 'SWINE', 'SWIPE', 'SWIVE', 'SWOLE', 'SYBBE', 'SYBOE', 'USQUE', 'VISIE', 'VISNE', 'WEISE', 'WELSH', 'WHOSE', 'WOOSE', 'WOWSE', 'YEESH', 'YOUSE']
+239 candidate words remaining.
+Top 10 guesses: [('SEINE', '4.888'), ('PEINE', '4.855'), ('SPOIL', '4.848'), ('LEONE', '4.808'), ('SPILE', '4.766'), ('PENIE', '4.754'), ('SOILY', '4.743'), ('POILU', '4.737'), ('MOILE', '4.736'), ('LOIPE', '4.734')]
+Top entropy choice: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+Guess count low, choosing the word with highest entropy: 𝙎𝙀𝙄𝙉𝙀 with entropy: 4.8882
+
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩
+Actual Info Gain: 2.8565 bits
+Posterior entropy: 5.044394119358453
+entropy_info: {'prior_entropy': 7.900866807980749, 'posterior_entropy': 5.044394119358453, 'actual_info_gain': 2.8564726886222953, 'expected_info_gain': 4.888232515507248}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BOOSE', 'BOUSE', 'BOWSE', 'BULSE', 'CHOSE', 'CHUSE', 'CLOSE', 'COPSE', 'DOUSE', 'DOWSE', 'DULSE', 'FOSSE', 'GOOSE', 'GOSSE', 'GUSLE', 'GUYSE', 'HOUSE', 'LOOSE', 'LOUSE', 'LOWSE', 'MOOSE', 'MOUSE', 'MULSE', 'MUSSE', 'POSSE', 'POYSE', 'PULSE', 'PUSLE', 'USQUE', 'WHOSE', 'WOOSE', 'WOWSE', 'YOUSE']
+33 candidate words remaining.
+Top 10 guesses: [('PLOMB', '3.759'), ('PLUMB', '3.711'), ('WOULD', '3.665'), ('BLOWY', '3.627'), ('CLOMB', '3.612'), ('POSOL', '3.605'), ('WOOLY', '3.605'), ('MOULD', '3.591'), ('GHOUL', '3.589'), ('WOOLD', '3.589')]
+Top entropy choice: 𝙋𝙇𝙊𝙈𝘽 with entropy: 3.7594
+Using common exploratory word: 𝙋𝙇𝙐𝙈𝘽 with entropy: 3.7111
+
+Guess: 𝙋𝙇𝙐𝙈𝘽, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 4.0444 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.044394119358453, 'posterior_entropy': 1.0, 'actual_info_gain': 4.044394119358453, 'expected_info_gain': 4.888232515507248}
+----------
+The bot is making a guess...
+THe possible candidates are: ['POSSE', 'POYSE']
+2 candidate words remaining.
+Top 10 guesses: [('POSSE', '1.000'), ('POYSE', '1.000')]
+Top entropy choice: 𝙋𝙊𝙎𝙎𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙋𝙊𝙎𝙎𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.958 bits, Posterior Entropy: 7.901, 
+Guess: 𝙎𝙀𝙄𝙉𝙀, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 7.901, Expected Info Gain: 4.888 bits, Actual Info Gain: 2.856 bits, Posterior Entropy: 5.044, 
+Guess: 𝙋𝙇𝙐𝙈𝘽, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 5.044, Expected Info Gain: 4.888 bits, Actual Info Gain: 4.044 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙊𝙎𝙎𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

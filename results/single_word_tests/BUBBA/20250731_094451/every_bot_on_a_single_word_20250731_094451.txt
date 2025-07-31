@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙐𝘽𝘽𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ALOIN 
+The top ten guesses and scores: [('ALOIN', 2038), ('AULOI', 1919), ('MONAL', 1919), ('INULA', 1912), ('ALONG', 1906), ('ANGLO', 1906), ('LOGAN', 1906), ('LONGA', 1906), ('NOGAL', 1906), ('LIMAN', 1903)]
+The bot finally chose: ALONG 
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: KIPAH 
+The top ten guesses and scores: [('KIPAH', 218), ('PIKAU', 216), ('UMIAK', 213), ('KHADI', 210), ('PUCKA', 208), ('UMIAC', 207), ('BIACH', 206), ('CHIBA', 206), ('KHAZI', 205), ('PIUMA', 203)]
+The bot finally chose: CHIBA 
+Guess: 𝘾𝙃𝙄𝘽𝘼, Feedback: ⬜⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BUBBA 
+The top ten guesses and scores: [('BUBBA', 5)]
+The bot finally chose: BUBBA 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝘾𝙃𝙄𝘽𝘼, Feedback: ⬜⬜⬜🟩🟩
+Guess: 𝘽𝙐𝘽𝘽𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙐𝘽𝘽𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIANA with entropy: 5.5032
+Bot chose: MOANA with entropy: 5.2581
+Top ten guesses: [('LIANA', 5.503176618187261), ('ALOIN', 5.495708231763041), ('COALA', 5.261320197367893), ('MOANA', 5.258112459730507), ('DOLIA', 5.249229487253117), ('CONIA', 5.239992340620957), ('DIANA', 5.219601625118638), ('MONAL', 5.213193603438098), ('GONIA', 5.209978795437957), ('ALIGN', 5.20954985368254)]
+
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.7858 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 3.7858071413892382, 'expected_info_gain': 5.258112459730507}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CULPA with entropy: 4.0765
+Bot chose: CILIA with entropy: 3.6941
+Top ten guesses: [('CULPA', 4.076490502953191), ('KIBLA', 3.982571521279841), ('PLICA', 3.754577408828279), ('CILIA', 3.6941383801892207), ('DULIA', 3.693702765353291), ('PULKA', 3.689446869330977), ('KHULA', 3.641064625617391), ('WILGA', 3.6291931070685104), ('BULLA', 3.584198367500039), ('QIBLA', 3.5839298173714127)]
+
+Guess: 𝘾𝙄𝙇𝙄𝘼, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.1430 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 5.727920454563199, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.1429579538420427, 'expected_info_gain': 3.6941383801892207}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HUBBA with entropy: 2.4508
+Bot chose: BUBBA with entropy: 1.9591
+Top ten guesses: [('HUBBA', 2.4508257945180882), ('PUFFA', 2.4508257945180882), ('PUKKA', 2.4508257945180882), ('ZUPPA', 2.4508257945180882), ('HYPHA', 2.4182958340544896), ('BUFFA', 2.2841591278514217), ('PUPPA', 2.125814583693911), ('BUBBA', 1.9591479170272446), ('GUBBA', 1.9591479170272446), ('HUZZA', 1.9473387961875537)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.786 bits, Posterior Entropy: 5.728, 
+Guess: 𝘾𝙄𝙇𝙄𝘼, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.728, Expected Info Gain: 3.694 bits, Actual Info Gain: 2.143 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝙐𝘽𝘽𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙐𝘽𝘽𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIANA with entropy: 5.5032
+Bot chose: MOANA with entropy: 5.2581
+Top ten guesses: [('LIANA', 5.503176618187261), ('ALOIN', 5.495708231763041), ('COALA', 5.261320197367893), ('MOANA', 5.258112459730507), ('DOLIA', 5.249229487253117), ('CONIA', 5.239992340620957), ('DIANA', 5.219601625118638), ('MONAL', 5.213193603438098), ('GONIA', 5.209978795437957), ('ALIGN', 5.20954985368254)]
+
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.7858 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 3.7858071413892382, 'expected_info_gain': 5.258112459730507}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CULPA with entropy: 4.0765
+Bot chose: CILIA with entropy: 3.6941
+Top ten guesses: [('CULPA', 4.076490502953191), ('KIBLA', 3.982571521279841), ('PLICA', 3.754577408828279), ('CILIA', 3.6941383801892207), ('DULIA', 3.693702765353291), ('PULKA', 3.689446869330977), ('KHULA', 3.641064625617391), ('WILGA', 3.6291931070685104), ('BULLA', 3.584198367500039), ('QIBLA', 3.5839298173714127)]
+
+Guess: 𝘾𝙄𝙇𝙄𝘼, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 2.1430 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 5.727920454563199, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 2.1429579538420427, 'expected_info_gain': 3.6941383801892207}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HUBBA with entropy: 2.4508
+Bot chose: BUBBA with entropy: 1.9591
+Top ten guesses: [('HUBBA', 2.4508257945180882), ('PUFFA', 2.4508257945180882), ('PUKKA', 2.4508257945180882), ('ZUPPA', 2.4508257945180882), ('HYPHA', 2.4182958340544896), ('BUFFA', 2.2841591278514217), ('PUPPA', 2.125814583693911), ('BUBBA', 1.9591479170272446), ('GUBBA', 1.9591479170272446), ('HUZZA', 1.9473387961875537)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.786 bits, Posterior Entropy: 5.728, 
+Guess: 𝘾𝙄𝙇𝙄𝘼, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 5.728, Expected Info Gain: 3.694 bits, Actual Info Gain: 2.143 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝙐𝘽𝘽𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙐𝘽𝘽𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 731 remaining candidates...
+Top 5 guesses: [('ALOIN', '5.496'), ('COALA', '5.261'), ('CONIA', '5.240'), ('ALIGN', '5.210'), ('ALGIN', '5.210')]
+Top entropy choice: 𝘼𝙇𝙊𝙄𝙉 with entropy: 5.4957
+Ended up choosing COMMON word: 𝘼𝙇𝙄𝙂𝙉 with entropy: 5.2095
+
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.7588 bits
+Posterior entropy: 6.754887502163468
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 6.754887502163468, 'actual_info_gain': 2.7588400937889688, 'expected_info_gain': 5.20954985368254}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 208 potential guesses from 108 remaining candidates...
+Top 5 guesses: [('PHOCA', '5.213'), ('COPHA', '5.184'), ('POACH', '5.100'), ('HOPAK', '5.098'), ('COPAY', '5.082')]
+Top entropy choice: 𝙋𝙃𝙊𝘾𝘼 with entropy: 5.2134
+Ended up choosing COMMON word: 𝙋𝙊𝘼𝘾𝙃 with entropy: 5.1004
+
+Guess: 𝙋𝙊𝘼𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.7549 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 6.754887502163468, 'posterior_entropy': 3.0, 'actual_info_gain': 3.7548875021634682, 'expected_info_gain': 5.100403215761595}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('DUMKA', '2.750'), ('MMKAY', '2.750'), ('MUZAK', '2.750'), ('BUBBA', '2.406'), ('BUFFA', '2.406')]
+Top entropy choice: 𝘿𝙐𝙈𝙆𝘼 with entropy: 2.7500
+Ended up choosing COMMON word: 𝘽𝙐𝘽𝘽𝘼 with entropy: 2.4056
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 2.759 bits, Posterior Entropy: 6.755, 
+Guess: 𝙋𝙊𝘼𝘾𝙃, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 6.755, Expected Info Gain: 5.100 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙐𝘽𝘽𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙐𝘽𝘽𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABACA', 'ABACI', 'ABACK', 'ABAKA', 'ABAMP', 'ABAND', 'ABAYA', 'ABJAD', 'ABJUD', 'ABLOW', 'ABMHO', 'ABOHM', 'ABOIL', 'ABOMA', 'ABOON', 'ABUNA', 'ABUZZ', 'ACCHA', 'ACCOY', 'ACHOO', 'ACIDY', 'ACING', 'ACINI', 'ACMIC', 'ACOCK', 'ACOLD', 'ADAWN', 'ADDAX', 'ADDIN', 'ADDIO', 'ADHAN', 'ADHOC', 'ADLIB', 'ADMAN', 'ADMIN', 'ADMIX', 'ADOBO', 'ADOON', 'ADOWN', 'ADUKI', 'ADUNC', 'AFALD', 'AFANC', 'AFFIX', 'AFFLY', 'AFION', 'AFIZZ', 'AFLAJ', 'AFLAP', 'AFLOW', 'AFOAM', 'AFOUL', 'AGAIN', 'AGAMA', 'AGAMI', 'AGAMY', 'AGGAG', 'AGIDI', 'AGILA', 'AGING', 'AGLOO', 'AGLOW', 'AGOGO', 'AGONY', 'AGOOD', 'AGUNA', 'AHIGH', 'AHIND', 'AHING', 'AHOLD', 'AHULL', 'AIDOI', 'AIMAG', 'AIMAK', 'AINGA', 'AIOLI', 'AIYAH', 'AIYOH', 'AIYOO', 'AJIVA', 'AJUGA', 'AJUPA', 'AJWAN', 'AKING', 'AKOIA', 'AKOJA', 'AKOYA', 'ALAAP', 'ALACK', 'ALALA', 'ALAMO', 'ALAND', 'ALANG', 'ALAPA', 'ALBID', 'ALBUM', 'ALCID', 'ALDOL', 'ALGAL', 'ALGID', 'ALGIN', 'ALGUM', 'ALIBI', 'ALICK', 'ALIGN', 'ALIYA', 'ALKIN', 'ALKYD', 'ALKYL', 'ALLAN', 'ALLAY', 'ALLIN', 'ALLOD', 'ALLOW', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMUD', 'ALMUG', 'ALOHA', 'ALOIN', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALULA', 'ALUMY', 'ALWAY', 'AMAIN', 'AMBAN', 'AMICI', 'AMIDO', 'AMIGA', 'AMIGO', 'AMINO', 'AMMAN', 'AMMON', 'AMNIA', 'AMNIC', 'AMNIO', 'AMONG', 'AMPLY', 'AMPUL', 'AMUCK', 'ANANA', 'ANCHO', 'ANCON', 'ANDIC', 'ANGLO', 'ANIGH', 'ANIMA', 'ANIMI', 'ANION', 'ANNAL', 'ANNAN', 'ANNOY', 'ANNUL', 'ANNUM', 'ANOMY', 'ANVIL', 'ANYON', 'APAID', 'APAYD', 'APHID', 'APIAN', 'APING', 'APIOL', 'APOOP', 'APPAL', 'APPAM', 'APPAY', 'APPLY', 'APPUI', 'APPUY', 'AUDAD', 'AUDAX', 'AUDIO', 'AULIC', 'AULOI', 'AUMIL', 'AUXIN', 'AVAIL', 'AVIAN', 'AVION', 'AVOID', 'AWFUL', 'AWING', 'AWKIN', 'AXIAL', 'AXING', 'AXIOM', 'AXION', 'AXMAN', 'AXOID', 'AYAYA', 'AYMAG', 'AZIDO', 'AZLON', 'AZOIC', 'AZUKI', 'AZYGY', 'BBALL', 'BHAJI', 'BHANG', 'BHAVA', 'BHUNA', 'BIACH', 'BIALI', 'BIALY', 'BIGHA', 'BILAL', 'BIMAH', 'BINAL', 'BIVIA', 'BLACK', 'BLADY', 'BLAFF', 'BLAIN', 'BLANC', 'BLAND', 'BLANK', 'BLAUD', 'BLAWN', 'BOBAC', 'BOBAK', 'BOCCA', 'BOGAN', 'BONZA', 'BOOAI', 'BOOAY', 'BOXLA', 'BOYAU', 'BOYLA', 'BUBAL', 'BUBBA', 'BUFFA', 'BUGAN', 'BULLA', 'BUNIA', 'BUNYA', 'BWANA', 'BWAZI', 'BYLAW', 'BYWAY', 'CHAAP', 'CHACK', 'CHACO', 'CHADO', 'CHAFF', 'CHAIN', 'CHALK', 'CHAMP', 'CHANA', 'CHANG', 'CHANK', 'CHAVA', 'CHAWK', 'CHAWL', 'CHAYA', 'CHIAO', 'CHIBA', 'CHICA', 'CHINA', 'CHIVA', 'CHOLA', 'CHUFA', 'CILIA', 'CLACH', 'CLACK', 'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLAVI', 'CLOAK', 'CLOAM', 'CNIDA', 'COACH', 'COADY', 'COALA', 'COALY', 'COBIA', 'COBZA', 'COCOA', 'COHAB', 'COLZA', 'COMAL', 'COMMA', 'CONGA', 'CONIA', 'COPAL', 'COPAY', 'COPHA', 'COWAL', 'COWAN', 'COXAL', 'COYAU', 'CUDDA', 'CULPA', 'CUPPA', 'CYANO', 'CYCAD', 'DHABA', 'DIANA', 'DIAZO', 'DINNA', 'DIVAN', 'DIVNA', 'DIWAN', 'DOBLA', 'DOGAL', 'DOGAN', 'DOGMA', 'DOLIA', 'DOLMA', 'DOMAL', 'DONAH', 'DONGA', 'DONNA', 'DOONA', 'DOULA', 'DOUMA', 'DOWAK', 'DOWNA', 'DUCAL', 'DUKKA', 'DULIA', 'DUMKA', 'DUNAM', 'DWAAL', 'DWALM', 'DWAMY', 'DWANG', 'DWAUM', 'FINAL', 'FINCA', 'FLACK', 'FLAFF', 'FLAIL', 'FLAKY', 'FLAMM', 'FLAMY', 'FLANK', 'FLAVA', 'FLAWN', 'FLAWY', 'FLAXY', 'FOAMY', 'FOCAL', 'FOLIA', 'FONDA', 'FUGAL', 'FULLA', 'FULWA', 'FUNDA', 'GHAZI', 'GILIA', 'GINGA', 'GLADY', 'GLAIK', 'GLAMP', 'GLAND', 'GLAUM', 'GLAZY', 'GLIAL', 'GLOAM', 'GNAPI', 'GNAWN', 'GOBAN', 'GOGGA', 'GOMPA', 'GONAD', 'GONIA', 'GONNA', 'GOPAK', 'GOWAN', 'GUACO', 'GUANA', 'GUANO', 'GUAVA', 'GUBBA', 'GULAB', 'GULAG', 'GUMMA', 'GYOZA', 'HIJAB', 'HINAU', 'HOACH', 'HOAGY', 'HODAD', 'HODJA', 'HOGAN', 'HOLLA', 'HONAN', 'HONDA', 'HOOHA', 'HOOKA', 'HOPAK', 'HOWAY', 'HUBBA', 'HUDNA', 'HUMAN', 'HUZZA', 'HYPHA', 'IDDAH', 'IDOLA', 'IGAPO', 'ILIAC', 'ILIAD', 'ILIAL', 'IMAGO', 'IMAGY', 'IMAUM', 'INDIA', 'INGAN', 'INLAY', 'INULA', 'IXNAY', 'JHALA', 'JIBBA', 'JIHAD', 'JNANA', 'JOUAL', 'JUGAL', 'JULIA', 'KHADI', 'KHAKI', 'KHANA', 'KHAPH', 'KHAYA', 'KHAZI', 'KHOJA', 'KHULA', 'KHYAL', 'KIACK', 'KIAKI', 'KIANG', 'KIBLA', 'KIKAY', 'KINDA', 'KIPAH', 'KIPPA', 'KLANG', 'KNACK', 'KOALA', 'KOBAN', 'KOGAL', 'KOKAM', 'KOPPA', 'KULAK', 'KULAN', 'KWAAI', 'KYACK', 'KYANG', 'LIANA', 'LIANG', 'LIGAN', 'LILAC', 'LIMAN', 'LIMAX', 'LIMBA', 'LIMMA', 'LIMPA', 'LINAC', 'LINGA', 'LIWAA', 'LLAMA', 'LLANO', 'LOACH', 'LOAMY', 'LOCAL', 'LOGAN', 'LOGIA', 'LOHAN', 'LONGA', 'LOOFA', 'LOUMA', 'LOWAN', 'LOYAL', 'LUACH', 'LUFFA', 'MBILA', 'MBUGA', 'MIAOU', 'MIAOW', 'MIAUL', 'MIGMA', 'MIKAN', 'MIKVA', 'MILIA', 'MILPA', 'MMKAY', 'MOAKY', 'MOANA', 'MOANY', 'MOCAP', 'MOCHA', 'MODAL', 'MOHUA', 'MOLAL', 'MOLLA', 'MOMMA', 'MONAD', 'MONAL', 'MOOLA', 'MUGGA', 'MULAI', 'MULGA', 'MULLA', 'MUNGA', 'MUNIA', 'MUNJA', 'MUVVA', 'MUZAK', 'MVULA', 'MYALL', 'MYNAH', 'MYOMA', 'NDUJA', 'NGAIO', 'NGAKA', 'NGANA', 'NGAPI', 'NGOMA', 'NICAD', 'NIDAL', 'NIGGA', 'NIGUA', 'NIKAB', 'NIKAH', 'NIKAU', 'NINJA', 'NIOZA', 'NIQAB', 'NIVAL', 'NIZAM', 'NODAL', 'NOGAL', 'NOMAD', 'NONAN', 'NONDA', 'NONNA', 'NOPAL', 'NOUJA', 'NOVIA', 'NOWAY', 'NOXAL', 'NOYAU', 'NUBIA', 'NUCHA', 'NULLA', 'NYAFF', 'NYALA', 'OBANG', 'OCCAM', 'OFFAL', 'OFLAG', 'OGHAM', 'OIDIA', 'OKAPI', 'OLIVA', 'OLLAV', 'OLONA', 'OMDAH', 'OMDDA', 'OMIAI', 'OMLAH', 'ONLAP', 'ONLAY', 'OOJAH', 'OOPAK', 'OOYAH', 'OPGAF', 'OUIJA', 'OXMAN', 'OYAMA', 'PHANG', 'PHIAL', 'PHOCA', 'PHYLA', 'PHYMA', 'PIANI', 'PIANO', 'PIBAL', 'PICAL', 'PIKAU', 'PILAF', 'PILAO', 'PILAU', 'PILAW', 'PINAX', 'PINDA', 'PINGA', 'PINNA', 'PIPAL', 'PIUMA', 'PIZZA', 'PLACK', 'PLAGA', 'PLAID', 'PLAIG', 'PLAIN', 'PLANC', 'PLANH', 'PLANK', 'PLAUD', 'PLAYA', 'PLAZA', 'PLICA', 'POACH', 'POAKA', 'POALO', 'POCAN', 'PODAL', 'PODIA', 'POKAL', 'POLKA', 'POMPA', 'PONGA', 'POOAY', 'POOJA', 'POOKA', 'POOPA', 'POPIA', 'POPPA', 'POWAN', 'PUCAN', 'PUCKA', 'PUFFA', 'PUJAH', 'PUKKA', 'PULAO', 'PULKA', 'PUNGA', 'PUNKA', 'PUPAL', 'PUPPA', 'PYGAL', 'PZAZZ', 'QIBLA', 'QIPAO', 'QUACK', 'QUAFF', 'QUAIL', 'QUAKY', 'QUALM', 'QUALY', 'QUANK', 'QUAWK', 'QUAYD', 'QUILA', 'QUINA', 'QUOAD', 'UGALI', 'UHLAN', 'ULAMA', 'ULNAD', 'ULPAN', 'UMAMI', 'UMIAC', 'UMIAK', 'UMIAQ', 'UMMAH', 'UNAGI', 'UNBAG', 'UNBAN', 'UNCAP', 'UNCIA', 'UNDAM', 'UNGAG', 'UNICA', 'UNJAM', 'UNLAP', 'UNLAW', 'UNLAY', 'UNMAD', 'UNMAN', 'UNPAY', 'UPLAY', 'UVULA', 'VIAND', 'VIFDA', 'VIGIA', 'VILLA', 'VINAL', 'VINCA', 'VIOLA', 'VIVDA', 'VOBLA', 'VOCAB', 'VOCAL', 'VODKA', 'VOILA', 'VOLVA', 'VULVA', 'WHACK', 'WHAMO', 'WHANG', 'WHAUP', 'WHYDA', 'WICCA', 'WIGAN', 'WIGGA', 'WILGA', 'WILJA', 'WINNA', 'WOADY', 'WOALD', 'WOKKA', 'WOMAN', 'WONGA', 'WUNGA', 'WUXIA', 'XOANA', 'XYLAN', 'YCLAD', 'YOHAH', 'YOHAY', 'YOJAN', 'YOKAN', 'YOWZA', 'YUCCA', 'YULAN', 'ZIGAN', 'ZILLA', 'ZONAL', 'ZONDA', 'ZOPPA', 'ZUPAN', 'ZUPPA', 'ZYGAL']
+731 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.613'), ('LIANA', '5.503'), ('ALOIN', '5.496'), ('PILON', '5.458'), ('PINOL', '5.439'), ('DINLO', '5.430'), ('LOGIN', '5.388'), ('NICOL', '5.363'), ('NMOLI', '5.336'), ('ULMIN', '5.322')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.6132
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.6132
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 3.6808 bits
+Posterior entropy: 5.832890014164741
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 5.832890014164741, 'actual_info_gain': 3.6808375817876957, 'expected_info_gain': 5.613155296118865}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABAKA', 'ABAMP', 'ABAYA', 'ABJAD', 'ABJUD', 'ABUZZ', 'ADDAX', 'AGAMA', 'AGAMY', 'AGGAG', 'AJUGA', 'AJUPA', 'APAYD', 'APPAM', 'APPAY', 'APPUY', 'AUDAD', 'AUDAX', 'AYAYA', 'AYMAG', 'AZYGY', 'BHAVA', 'BUBBA', 'BUFFA', 'BYWAY', 'DHABA', 'DUKKA', 'DUMKA', 'DWAMY', 'DWAUM', 'GUAVA', 'GUBBA', 'GUMMA', 'HUBBA', 'HUZZA', 'HYPHA', 'KHAPH', 'KHAYA', 'MBUGA', 'MMKAY', 'MUGGA', 'MUVVA', 'MUZAK', 'PHYMA', 'PUFFA', 'PUJAH', 'PUKKA', 'PUPPA', 'PZAZZ', 'QUAFF', 'QUAKY', 'QUAWK', 'QUAYD', 'UMMAH', 'WHAUP', 'WHYDA', 'ZUPPA']
+57 candidate words remaining.
+Top 10 guesses: [('DUMPY', '4.833'), ('BUMPY', '4.825'), ('BUMPH', '4.670'), ('PUDGY', '4.670'), ('HUMPY', '4.591'), ('DUMKY', '4.551'), ('DHABA', '4.549'), ('APAYD', '4.527'), ('DUMKA', '4.514'), ('AGAMY', '4.479')]
+Top entropy choice: 𝘿𝙐𝙈𝙋𝙔 with entropy: 4.8325
+Using common exploratory word: 𝘽𝙐𝙈𝙋𝙔 with entropy: 4.8254
+
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 4.8329 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.832890014164741, 'posterior_entropy': 1.0, 'actual_info_gain': 4.832890014164741, 'expected_info_gain': 5.613155296118865}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BUBBA', 'BUFFA']
+2 candidate words remaining.
+Top 10 guesses: [('BUBBA', '1.000'), ('BUFFA', '1.000')]
+Top entropy choice: 𝘽𝙐𝘽𝘽𝘼 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝘽𝙐𝘽𝘽𝘼 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 3.681 bits, Posterior Entropy: 5.833, 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 5.833, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.833 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝙐𝘽𝘽𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

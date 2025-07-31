@@ -1,0 +1,307 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙍𝘼𝙒𝙇 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRAIN 
+The top ten guesses and scores: [('TRAIN', 132), ('TRAGI', 131), ('TRAIK', 131), ('TRAIL', 131), ('TRIAL', 131), ('TRIAC', 130), ('TRIAD', 130), ('TRIFA', 129), ('TIARA', 127), ('TITAR', 127)]
+The bot finally chose: TRAIN 
+Guess: 𝙏𝙍𝘼𝙄𝙉, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRAMP 
+The top ten guesses and scores: [('TRAMP', 42), ('TRAPO', 42), ('TRACK', 41), ('TRADY', 41), ('TRAGU', 41), ('TRAPT', 41), ('TRAYF', 41), ('TRACT', 40), ('TRAGA', 40), ('TRAWL', 40)]
+The bot finally chose: TRAMP 
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRACK 
+The top ten guesses and scores: [('TRACK', 31), ('TRADY', 31), ('TRAGU', 31), ('TRAYF', 31), ('TRACT', 30), ('TRAGA', 30), ('TRAWL', 30), ('TRATT', 28)]
+The bot finally chose: TRACK 
+Guess: 𝙏𝙍𝘼𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TRADY 
+The top ten guesses and scores: [('TRADY', 24), ('TRAGU', 24), ('TRAYF', 24), ('TRAGA', 23), ('TRAWL', 23), ('TRATT', 21)]
+The bot finally chose: TRAWL 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+Guess: 𝙏𝙍𝘼𝙄𝙉, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙏𝙍𝘼𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙏𝙍𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙒𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRAIT with entropy: 3.2227
+Bot chose: TRAIT with entropy: 3.2227
+Top ten guesses: [('TRAIT', 3.222738561139236), ('TRAIN', 3.120185579473519), ('TRAIK', 3.057016588002657), ('TRAIL', 3.0371363936707394), ('TRANT', 3.0018510237570526), ('TRAGI', 2.9398775745709465), ('TRIAL', 2.8974791901319743), ('TIARA', 2.8412863087486433), ('TRIAC', 2.8315006058715317), ('TRIAD', 2.8159148194955925)]
+
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 3.222738561139236}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRANK with entropy: 1.3568
+Bot chose: TRANK with entropy: 1.3568
+Top ten guesses: [('TRANK', 1.3567796494470397), ('TRACK', 0.9219280948873623), ('TRADY', 0.9219280948873623), ('TRAGA', 0.9219280948873623), ('TRAGU', 0.9219280948873623), ('TRAMP', 0.9219280948873623), ('TRANQ', 0.9219280948873623), ('TRAPO', 0.9219280948873623), ('TRAYF', 0.9219280948873623), ('TRAWL', 0.4689955935892812)]
+
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.514573172829758, 'expected_info_gain': 1.3567796494470397}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADY with entropy: 1.1488
+Bot chose: TRAMP with entropy: 1.1488
+Top ten guesses: [('TRADY', 1.1488348542809166), ('TRAGA', 1.1488348542809166), ('TRAGU', 1.1488348542809166), ('TRAMP', 1.1488348542809166), ('TRAPO', 1.1488348542809166), ('TRAYF', 1.1488348542809166), ('TRAWL', 0.5916727785823275)]
+
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADY with entropy: 1.3710
+Bot chose: TRAWL with entropy: 0.7219
+Top ten guesses: [('TRADY', 1.3709505944546687), ('TRAGA', 1.3709505944546687), ('TRAGU', 1.3709505944546687), ('TRAYF', 1.3709505944546687), ('TRAWL', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.223 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 1.357 bits, Actual Info Gain: 0.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙍𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙒𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRAIT with entropy: 3.2227
+Bot chose: TRAIT with entropy: 3.2227
+Top ten guesses: [('TRAIT', 3.222738561139236), ('TRAIN', 3.120185579473519), ('TRAIK', 3.057016588002657), ('TRAIL', 3.0371363936707394), ('TRANT', 3.0018510237570526), ('TRAGI', 2.9398775745709465), ('TRIAL', 2.8974791901319743), ('TIARA', 2.8412863087486433), ('TRIAC', 2.8315006058715317), ('TRIAD', 2.8159148194955925)]
+
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 3.222738561139236}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRANK with entropy: 1.3568
+Bot chose: TRANK with entropy: 1.3568
+Top ten guesses: [('TRANK', 1.3567796494470397), ('TRACK', 0.9219280948873623), ('TRADY', 0.9219280948873623), ('TRAGA', 0.9219280948873623), ('TRAGU', 0.9219280948873623), ('TRAMP', 0.9219280948873623), ('TRANQ', 0.9219280948873623), ('TRAPO', 0.9219280948873623), ('TRAYF', 0.9219280948873623), ('TRAWL', 0.4689955935892812)]
+
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.514573172829758, 'expected_info_gain': 1.3567796494470397}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADY with entropy: 1.1488
+Bot chose: TRAMP with entropy: 1.1488
+Top ten guesses: [('TRADY', 1.1488348542809166), ('TRAGA', 1.1488348542809166), ('TRAGU', 1.1488348542809166), ('TRAMP', 1.1488348542809166), ('TRAPO', 1.1488348542809166), ('TRAYF', 1.1488348542809166), ('TRAWL', 0.5916727785823275)]
+
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADY with entropy: 1.3710
+Bot chose: TRAWL with entropy: 0.7219
+Top ten guesses: [('TRADY', 1.3709505944546687), ('TRAGA', 1.3709505944546687), ('TRAGU', 1.3709505944546687), ('TRAYF', 1.3709505944546687), ('TRAWL', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.223 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 1.357 bits, Actual Info Gain: 0.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙍𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙒𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 35 potential guesses from 35 remaining candidates...
+Top 5 guesses: [('TRAIT', '3.223'), ('TRAIN', '3.120'), ('TRAIK', '3.057'), ('TRAIL', '3.037'), ('TRANT', '3.002')]
+Top entropy choice: 𝙏𝙍𝘼𝙄𝙏 with entropy: 3.2227
+Ended up choosing COMMON word: 𝙏𝙍𝘼𝙄𝙏 with entropy: 3.2227
+
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 3.222738561139236}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('TRANK', '1.357'), ('TRACK', '0.922'), ('TRADY', '0.922'), ('TRAGA', '0.922'), ('TRAGU', '0.922')]
+Top entropy choice: 𝙏𝙍𝘼𝙉𝙆 with entropy: 1.3568
+
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5146 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.514573172829758, 'expected_info_gain': 1.3567796494470397}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('TRADY', '1.149'), ('TRAGA', '1.149'), ('TRAGU', '1.149'), ('TRAMP', '1.149'), ('TRAPO', '1.149')]
+Top entropy choice: 𝙏𝙍𝘼𝘿𝙔 with entropy: 1.1488
+Ended up choosing COMMON word: 𝙏𝙍𝘼𝙈𝙋 with entropy: 1.1488
+
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.4854 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.485426827170242, 'expected_info_gain': 1.1488348542809166}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('TRADY', '1.371'), ('TRAGA', '1.371'), ('TRAGU', '1.371'), ('TRAYF', '1.371'), ('TRAWL', '0.722')]
+Top entropy choice: 𝙏𝙍𝘼𝘿𝙔 with entropy: 1.3710
+
+Guess: 𝙏𝙍𝘼𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TRAGA', '1.585'), ('TRAGU', '1.585'), ('TRAWL', '0.918')]
+Top entropy choice: 𝙏𝙍𝘼𝙂𝘼 with entropy: 1.5850
+Game Over! You ran out of guesses.
+
+Guess: 𝙏𝙍𝘼𝙂𝘼, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙏𝙍𝘼𝙄𝙏, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.129, Expected Info Gain: 3.223 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝙍𝘼𝙉𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 1.357 bits, Actual Info Gain: 0.515 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝙍𝘼𝙈𝙋, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 1.149 bits, Actual Info Gain: 0.485 bits, Posterior Entropy: 2.322, 
+Guess: 𝙏𝙍𝘼𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙍𝘼𝙂𝘼, Feedback: 🟩🟩🟩⬜⬜
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙍𝘼𝙒𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 8.7294 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 8.729377967777811, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THARM', 'TIARA', 'TITAR', 'TOLAR', 'TRACK', 'TRACT', 'TRADY', 'TRAGA', 'TRAGI', 'TRAGU', 'TRAIK', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRANK', 'TRANQ', 'TRANT', 'TRAPO', 'TRAPT', 'TRATT', 'TRAWL', 'TRAYF', 'TRIAC', 'TRIAD', 'TRIAL', 'TRIFA', 'TROAD', 'TROAK', 'TROAT', 'TRONA', 'TRYMA', 'TUART', 'TUBAR', 'TUGRA']
+35 candidate words remaining.
+Top 10 guesses: [('GIANT', '3.608'), ('KRAIT', '3.600'), ('KIAAT', '3.511'), ('LIART', '3.482'), ('DROIT', '3.471'), ('LIANG', '3.462'), ('GRIOT', '3.451'), ('KIANG', '3.448'), ('DRAIN', '3.444'), ('GROIN', '3.428')]
+Top entropy choice: 𝙂𝙄𝘼𝙉𝙏 with entropy: 3.6075
+Guess count low, choosing the word with highest entropy: 𝙂𝙄𝘼𝙉𝙏 with entropy: 3.6075
+
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.607536590406678}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THARM', 'TRACK', 'TRADY', 'TRAMP', 'TRAPO', 'TRAWL', 'TRAYF']
+7 candidate words remaining.
+Top 10 guesses: [('AMPLY', '2.807'), ('CALMY', '2.807'), ('CAMPY', '2.807'), ('COMMY', '2.807'), ('COOMY', '2.807'), ('COWRY', '2.807'), ('CRAPY', '2.807'), ('CREPY', '2.807'), ('IMPLY', '2.807'), ('KELPY', '2.807')]
+Top entropy choice: 𝘼𝙈𝙋𝙇𝙔 with entropy: 2.8074
+Using common exploratory word: 𝘼𝙈𝙋𝙇𝙔 with entropy: 2.8074
+
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 3.607536590406678}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TRAWL']
+1 candidate words remaining.
+Top 10 guesses: [('TRAWL', '0.000')]
+Top entropy choice: 𝙏𝙍𝘼𝙒𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙍𝘼𝙒𝙇 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.729 bits, Posterior Entropy: 5.129, 
+Guess: 𝙂𝙄𝘼𝙉𝙏, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 5.129, Expected Info Gain: 3.608 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 3.608 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙍𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

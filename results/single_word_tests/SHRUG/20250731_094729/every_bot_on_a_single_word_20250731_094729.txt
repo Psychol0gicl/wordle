@@ -1,0 +1,182 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙍𝙐𝙂 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SIROC 
+The top ten guesses and scores: [('SIROC', 127), ('SCROG', 125), ('GORSY', 122), ('SCROB', 121), ('SORBI', 121), ('SPROG', 121), ('HORSY', 120), ('SCROD', 118), ('CURSI', 117), ('SCROW', 117)]
+The bot finally chose: SIROC 
+Guess: 𝙎𝙄𝙍𝙊𝘾, Feedback: 🟩⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: SURGY 
+The top ten guesses and scores: [('SURGY', 28), ('SYRUP', 27), ('SHRUG', 26), ('SPRUG', 26), ('SURFY', 26), ('SURLY', 26), ('SHRUB', 24)]
+The bot finally chose: SYRUP 
+Guess: 𝙎𝙔𝙍𝙐𝙋, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SHRUB 
+The top ten guesses and scores: [('SHRUB', 9), ('SHRUG', 9)]
+The bot finally chose: SHRUB 
+Guess: 𝙎𝙃𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SHRUG 
+The top ten guesses and scores: [('SHRUG', 5)]
+The bot finally chose: SHRUG 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Guess: 𝙎𝙄𝙍𝙊𝘾, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝙎𝙔𝙍𝙐𝙋, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝙃𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙐𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.5733 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 8.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCROG with entropy: 3.7491
+Bot chose: SHRUG with entropy: 3.4378
+Top ten guesses: [('SCROG', 3.749090758326514), ('SIROC', 3.6439660026826712), ('SPROG', 3.563318642997372), ('GORSY', 3.5543823469564293), ('SIRUP', 3.533648108310949), ('CURSI', 3.525679385962487), ('SCROB', 3.4718366816006956), ('SHRUG', 3.437764874991224), ('SPRUG', 3.4184087851921614), ('SCRUB', 3.4137684122035057)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙐𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.5733 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 8.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCROG with entropy: 3.7491
+Bot chose: SHRUG with entropy: 3.4378
+Top ten guesses: [('SCROG', 3.749090758326514), ('SIROC', 3.6439660026826712), ('SPROG', 3.563318642997372), ('GORSY', 3.5543823469564293), ('SIRUP', 3.533648108310949), ('CURSI', 3.525679385962487), ('SCROB', 3.4718366816006956), ('SHRUG', 3.437764874991224), ('SPRUG', 3.4184087851921614), ('SCRUB', 3.4137684122035057)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙐𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.5733 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 8.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 39 potential guesses from 39 remaining candidates...
+Top 5 guesses: [('SCROG', '3.749'), ('SIROC', '3.644'), ('SPROG', '3.563'), ('GORSY', '3.554'), ('SIRUP', '3.534')]
+Top entropy choice: 𝙎𝘾𝙍𝙊𝙂 with entropy: 3.7491
+
+Guess: 𝙎𝘾𝙍𝙊𝙂, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.285402218862249, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.7004397181410926, 'expected_info_gain': 3.749090758326514}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('SHRUG', '1.585'), ('SPRIG', '1.585'), ('SPRUG', '1.585')]
+Top entropy choice: 𝙎𝙃𝙍𝙐𝙂 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙎𝙃𝙍𝙐𝙂 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝘾𝙍𝙊𝙂, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 5.285, Expected Info Gain: 3.749 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙐𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 8.5733 bits
+Posterior entropy: 5.285402218862249
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.285402218862249, 'actual_info_gain': 8.573258765860528, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIRSY', 'CORSO', 'CURSI', 'GIRSH', 'GORSY', 'GURSH', 'HORSY', 'PURSY', 'QURSH', 'SCRIM', 'SCRIP', 'SCROB', 'SCROD', 'SCROG', 'SCROO', 'SCROW', 'SCRUB', 'SCRUM', 'SHROW', 'SHRUB', 'SHRUG', 'SIRIH', 'SIROC', 'SIRUP', 'SKRIK', 'SKROO', 'SORBI', 'SORBO', 'SORDO', 'SORGO', 'SORRY', 'SPRIG', 'SPROD', 'SPROG', 'SPRUG', 'SURFY', 'SURGY', 'SURLY', 'SYRUP']
+39 candidate words remaining.
+Top 10 guesses: [('YOGIC', '4.324'), ('COUGH', '4.280'), ('GOUCH', '4.158'), ('SCOUG', '4.147'), ('PUBCO', '4.109'), ('GOPIK', '4.087'), ('COHOG', '4.044'), ('BOUGH', '4.037'), ('GUACO', '4.007'), ('GOYIM', '4.006')]
+Top entropy choice: 𝙔𝙊𝙂𝙄𝘾 with entropy: 4.3236
+Guess count low, choosing the word with highest entropy: 𝙔𝙊𝙂𝙄𝘾 with entropy: 4.3236
+
+Guess: 𝙔𝙊𝙂𝙄𝘾, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.285402218862249, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.7004397181410926, 'expected_info_gain': 4.3236131161871985}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GURSH', 'SHRUG', 'SPRUG']
+3 candidate words remaining.
+Top 10 guesses: [('GURSH', '1.585'), ('SHRUG', '1.585'), ('SPRUG', '1.585')]
+Top entropy choice: 𝙂𝙐𝙍𝙎𝙃 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙃𝙍𝙐𝙂 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙔𝙊𝙂𝙄𝘾, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.285, Expected Info Gain: 4.324 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

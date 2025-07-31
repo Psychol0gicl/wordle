@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝙈𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LANKS 
+The top ten guesses and scores: [('LANKS', 1199), ('NAILS', 1199), ('KAILS', 1192), ('KALIS', 1192), ('LAIKS', 1192), ('KAINS', 1187), ('NAIKS', 1187), ('MAILS', 1186), ('MALIS', 1186), ('MAINS', 1181)]
+The bot finally chose: LANKS 
+Guess: 𝙇𝘼𝙉𝙆𝙎, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: DAMPS 
+The top ten guesses and scores: [('DAMPS', 533), ('MAUDS', 523), ('GAMPS', 522), ('MAIDS', 521), ('CAMPS', 518), ('PADIS', 516), ('GAUMS', 512), ('MAGUS', 512), ('MAWPS', 511), ('MADOS', 509)]
+The bot finally chose: MAGUS 
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CAMUS 
+The top ten guesses and scores: [('CAMUS', 9), ('WAMUS', 9)]
+The bot finally chose: CAMUS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝙆𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+Guess: 𝘾𝘼𝙈𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝙈𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 5.2330 bits
+Posterior entropy: 8.625708843064466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.625708843064466, 'actual_info_gain': 5.232952141658311, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KALIS with entropy: 2.8644
+Bot chose: KALIS with entropy: 2.8644
+Top ten guesses: [('KALIS', 2.8643899019526136), ('MALIS', 2.859861320204794), ('LAIKS', 2.8585125919394243), ('MAILS', 2.8443848754495398), ('KAILS', 2.842648723509201), ('NAIKS', 2.8377549427677455), ('MAINS', 2.8374304539204633), ('KAINS', 2.8339049810027546), ('NAILS', 2.8271059944685977), ('LANKS', 2.825740707010878)]
+
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.1100 bits
+Posterior entropy: 7.515699838284043
+entropy_info: {'prior_entropy': 8.625708843064466, 'posterior_entropy': 7.515699838284043, 'actual_info_gain': 1.110009004780423, 'expected_info_gain': 2.8643899019526136}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANAS with entropy: 3.0957
+Bot chose: MANUS with entropy: 2.9779
+Top ten guesses: [('MANAS', 3.095727515716457), ('MANUS', 2.977941546654853), ('GAMAS', 2.9764210890278586), ('PAANS', 2.9615749150753583), ('MAGAS', 2.947778930305029), ('MANDS', 2.9226141805554056), ('MANGS', 2.903009524072349), ('NAPAS', 2.8941525131095465), ('NAMUS', 2.8932467836782467), ('DAMNS', 2.885834888129477)]
+
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 6.5157 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.515699838284043, 'posterior_entropy': 1.0, 'actual_info_gain': 6.515699838284043, 'expected_info_gain': 2.977941546654853}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAMUS with entropy: 1.0000
+Bot chose: CAMUS with entropy: 1.0000
+Top ten guesses: [('CAMUS', 1.0), ('WAMUS', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 7.516, Expected Info Gain: 2.978 bits, Actual Info Gain: 6.516 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙈𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙈𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 5.2330 bits
+Posterior entropy: 8.625708843064466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.625708843064466, 'actual_info_gain': 5.232952141658311, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KALIS with entropy: 2.8644
+Bot chose: KALIS with entropy: 2.8644
+Top ten guesses: [('KALIS', 2.8643899019526136), ('MALIS', 2.859861320204794), ('LAIKS', 2.8585125919394243), ('MAILS', 2.8443848754495398), ('KAILS', 2.842648723509201), ('NAIKS', 2.8377549427677455), ('MAINS', 2.8374304539204633), ('KAINS', 2.8339049810027546), ('NAILS', 2.8271059944685977), ('LANKS', 2.825740707010878)]
+
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.1100 bits
+Posterior entropy: 7.515699838284043
+entropy_info: {'prior_entropy': 8.625708843064466, 'posterior_entropy': 7.515699838284043, 'actual_info_gain': 1.110009004780423, 'expected_info_gain': 2.8643899019526136}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANAS with entropy: 3.0957
+Bot chose: MANUS with entropy: 2.9779
+Top ten guesses: [('MANAS', 3.095727515716457), ('MANUS', 2.977941546654853), ('GAMAS', 2.9764210890278586), ('PAANS', 2.9615749150753583), ('MAGAS', 2.947778930305029), ('MANDS', 2.9226141805554056), ('MANGS', 2.903009524072349), ('NAPAS', 2.8941525131095465), ('NAMUS', 2.8932467836782467), ('DAMNS', 2.885834888129477)]
+
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 6.5157 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 7.515699838284043, 'posterior_entropy': 1.0, 'actual_info_gain': 6.515699838284043, 'expected_info_gain': 2.977941546654853}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CAMUS with entropy: 1.0000
+Bot chose: CAMUS with entropy: 1.0000
+Top ten guesses: [('CAMUS', 1.0), ('WAMUS', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 7.516, Expected Info Gain: 2.978 bits, Actual Info Gain: 6.516 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙈𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙈𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 5.2330 bits
+Posterior entropy: 8.625708843064466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.625708843064466, 'actual_info_gain': 5.232952141658311, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 500 potential guesses from 395 remaining candidates...
+Top 5 guesses: [('BUILD', '3.683'), ('CHILD', '3.676'), ('DOING', '3.499'), ('FINAL', '3.490'), ('HUMAN', '3.359')]
+Top entropy choice: 𝘽𝙐𝙄𝙇𝘿 with entropy: 3.6835
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝘿 with entropy: 3.6835
+
+Guess: 𝘽𝙐𝙄𝙇𝘿, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 3.6715 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 8.625708843064466, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 3.671512532677591, 'expected_info_gain': 3.6834660680675033}
+----------
+The bot is making a guess...
+Evaluating 31 potential guesses from 31 remaining candidates...
+Top 5 guesses: [('MAGUS', '2.761'), ('MANUS', '2.704'), ('CAMUS', '2.697'), ('NAMUS', '2.615'), ('MASUS', '2.606')]
+Top entropy choice: 𝙈𝘼𝙂𝙐𝙎 with entropy: 2.7615
+Ended up choosing COMMON word: 𝙈𝘼𝙂𝙐𝙎 with entropy: 2.7615
+
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 2.761481199063098}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('CAMUS', '0.918'), ('NAMUS', '0.918'), ('WAMUS', '0.918')]
+Top entropy choice: 𝘾𝘼𝙈𝙐𝙎 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘾𝘼𝙈𝙐𝙎 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝘽𝙐𝙄𝙇𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.626, Expected Info Gain: 3.683 bits, Actual Info Gain: 3.672 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 2.761 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝘼𝙈𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙈𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 5.2330 bits
+Posterior entropy: 8.625708843064466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.625708843064466, 'actual_info_gain': 5.232952141658311, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AAPAS', 'BAALS', 'BAAPS', 'BABAS', 'BABUS', 'BACHS', 'BACKS', 'BAFFS', 'BAGHS', 'BAHUS', 'BAIKS', 'BAILS', 'BAJUS', 'BALAS', 'BALDS', 'BALKS', 'BALLS', 'BALMS', 'BALUS', 'BAMAS', 'BANCS', 'BANDS', 'BANGS', 'BANKS', 'BANNS', 'BAONS', 'BAPUS', 'BASAS', 'BASIS', 'BASKS', 'BAUDS', 'BAUKS', 'BAWDS', 'BAWKS', 'BAWLS', 'BAWNS', 'BAYAS', 'BAZAS', 'CABAS', 'CACAS', 'CACKS', 'CADIS', 'CAFFS', 'CAIDS', 'CAINS', 'CALFS', 'CALKS', 'CALLS', 'CALMS', 'CALOS', 'CALPS', 'CAMAS', 'CAMIS', 'CAMOS', 'CAMPS', 'CAMUS', 'CANGS', 'CANNS', 'CAPAS', 'CAPHS', 'CAPOS', 'CASAS', 'CASKS', 'CASUS', 'CAUKS', 'CAULS', 'CAUMS', 'CAUPS', 'CAVAS', 'CAVUS', 'CAWKS', 'DAALS', 'DACKS', 'DADAS', 'DADIS', 'DADOS', 'DAFFS', 'DAGOS', 'DAHIS', 'DAHLS', 'DALIS', 'DAMNS', 'DAMPS', 'DANGS', 'DANKS', 'DAUBS', 'DAUDS', 'DAWDS', 'DAWGS', 'DAWKS', 'DAWNS', 'FADOS', 'FAFFS', 'FAIKS', 'FAILS', 'FAINS', 'FALLS', 'FANDS', 'FANGS', 'FANKS', 'FANOS', 'FAUNS', 'FAVAS', 'FAVUS', 'FAWNS', 'GADIS', 'GAFFS', 'GAIDS', 'GAINS', 'GAJOS', 'GALAS', 'GALIS', 'GALLS', 'GAMAS', 'GAMBS', 'GAMPS', 'GANGS', 'GANKS', 'GAOLS', 'GAPOS', 'GASPS', 'GAUDS', 'GAUMS', 'GAUPS', 'GAUSS', 'GAWDS', 'GAWKS', 'GAWPS', 'HAAFS', 'HABUS', 'HACKS', 'HAFFS', 'HAGGS', 'HAHAS', 'HAIKS', 'HAILS', 'HAINS', 'HAJIS', 'HAKAS', 'HAKUS', 'HALFS', 'HALLS', 'HALMS', 'HALOS', 'HANDS', 'HANGS', 'HANKS', 'HAPAS', 'HAPUS', 'HASKS', 'HASPS', 'HAUDS', 'HAUFS', 'HAULS', 'HAUNS', 'HAWKS', 'HAWMS', 'IAMBS', 'JAAPS', 'JACKS', 'JAFAS', 'JAGAS', 'JAGGS', 'JAILS', 'JAMBS', 'JANNS', 'JASPS', 'JAUKS', 'JAUPS', 'JAVAS', 'JAWNS', 'KACKS', 'KADIS', 'KAGOS', 'KAGUS', 'KAIDS', 'KAIFS', 'KAIKS', 'KAILS', 'KAIMS', 'KAINS', 'KAKAS', 'KAKIS', 'KALAS', 'KALIS', 'KAMAS', 'KAMIS', 'KANAS', 'KANGS', 'KAONS', 'KAPAS', 'KAPHS', 'KAPUS', 'KAVAS', 'KAWAS', 'KAYOS', 'KAZIS', 'LABIS', 'LACIS', 'LACKS', 'LAICS', 'LAIDS', 'LAIKS', 'LAKHS', 'LALLS', 'LAMAS', 'LAMBS', 'LAMPS', 'LANAS', 'LANDS', 'LANKS', 'LAPAS', 'LAPIS', 'LAUDS', 'LAUFS', 'LAVAS', 'LAWKS', 'LAWNS', 'LAZOS', 'MACAS', 'MACHS', 'MACKS', 'MADOS', 'MAGAS', 'MAGGS', 'MAGUS', 'MAHIS', 'MAIDS', 'MAIKS', 'MAILS', 'MAIMS', 'MAINS', 'MAJAS', 'MAJOS', 'MAKIS', 'MAKOS', 'MALAS', 'MALIS', 'MALLS', 'MALMS', 'MALUS', 'MAMAS', 'MANAS', 'MANDS', 'MANGS', 'MANIS', 'MANKS', 'MANOS', 'MANUS', 'MASAS', 'MASKS', 'MASUS', 'MAUDS', 'MAULS', 'MAUMS', 'MAVIS', 'MAWKS', 'MAWNS', 'MAWPS', 'MAXIS', 'MAYAS', 'MAYOS', 'MAZAS', 'NAAMS', 'NAANS', 'NABIS', 'NABKS', 'NADAS', 'NAFFS', 'NAGAS', 'NAIBS', 'NAIDS', 'NAIFS', 'NAIKS', 'NAILS', 'NAINS', 'NAIOS', 'NAKAS', 'NALAS', 'NAMUS', 'NANAS', 'NANOS', 'NAPAS', 'NASIS', 'NASUS', 'NAZIS', 'OAFOS', 'OASIS', 'PAALS', 'PAANS', 'PACAS', 'PACKS', 'PACOS', 'PADAS', 'PADIS', 'PAHOS', 'PAHUS', 'PAIKS', 'PAILS', 'PAINS', 'PAIPS', 'PALAS', 'PALIS', 'PALLS', 'PALMS', 'PALPS', 'PALUS', 'PANDS', 'PANGS', 'PANKS', 'PAPAS', 'PAUAS', 'PAULS', 'PAVAS', 'PAVIS', 'PAWAS', 'PAWKS', 'PAWLS', 'PAWNS', 'QADIS', 'QAIDS', 'SAAGS', 'SABOS', 'SACKS', 'SADIS', 'SADOS', 'SAGAS', 'SAGOS', 'SAICS', 'SAIDS', 'SAILS', 'SAIMS', 'SAINS', 'SAKIS', 'SALAS', 'SALIS', 'SALPS', 'SAMAS', 'SAMPS', 'SANDS', 'SANGS', 'SAULS', 'SAYAS', 'VACAS', 'VADAS', 'VAGUS', 'VAIDS', 'VAILS', 'VAKAS', 'VALIS', 'VAMPS', 'VANGS', 'WAACS', 'WACKS', 'WADAS', 'WADDS', 'WADIS', 'WAFFS', 'WAIFS', 'WAILS', 'WAINS', 'WAKAS', 'WAKFS', 'WALDS', 'WALIS', 'WALKS', 'WALLS', 'WAMUS', 'WANDS', 'WANGS', 'WANKS', 'WAQFS', 'WASMS', 'WASPS', 'WAUKS', 'WAULS', 'WAWAS', 'WAWLS', 'YAASS', 'YABAS', 'YACKS', 'YAFFS', 'YAGIS', 'YANGS', 'YANKS', 'YAPPS', 'YAUDS', 'YAUPS', 'YAWLS', 'YAWNS', 'YAWPS', 'YAYAS', 'ZACKS', 'ZAMIS', 'ZAWNS']
+395 candidate words remaining.
+Top 10 guesses: [('PLINK', '4.113'), ('CLINK', '4.009'), ('BLINK', '3.974'), ('PULIK', '3.956'), ('LINUM', '3.931'), ('MILKO', '3.914'), ('PLING', '3.909'), ('LUPIN', '3.893'), ('PUNIM', '3.870'), ('PLUNK', '3.867')]
+Top entropy choice: 𝙋𝙇𝙄𝙉𝙆 with entropy: 4.1132
+Guess count low, choosing the word with highest entropy: 𝙋𝙇𝙄𝙉𝙆 with entropy: 4.1132
+
+Guess: 𝙋𝙇𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0258 bits
+Posterior entropy: 6.599912842187128
+entropy_info: {'prior_entropy': 8.625708843064466, 'posterior_entropy': 6.599912842187128, 'actual_info_gain': 2.025796000877338, 'expected_info_gain': 4.113234154446218}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BABAS', 'BABUS', 'BACHS', 'BAFFS', 'BAGHS', 'BAHUS', 'BAJUS', 'BAMAS', 'BASAS', 'BAUDS', 'BAWDS', 'BAYAS', 'BAZAS', 'CABAS', 'CACAS', 'CAFFS', 'CAMAS', 'CAMOS', 'CAMUS', 'CASAS', 'CASUS', 'CAUMS', 'CAVAS', 'CAVUS', 'DADAS', 'DADOS', 'DAFFS', 'DAGOS', 'DAUBS', 'DAUDS', 'DAWDS', 'DAWGS', 'FADOS', 'FAFFS', 'FAVAS', 'FAVUS', 'GAFFS', 'GAJOS', 'GAMAS', 'GAMBS', 'GAUDS', 'GAUMS', 'GAUSS', 'GAWDS', 'HAAFS', 'HABUS', 'HAFFS', 'HAGGS', 'HAHAS', 'HAUDS', 'HAUFS', 'HAWMS', 'JAFAS', 'JAGAS', 'JAGGS', 'JAMBS', 'JAVAS', 'MACAS', 'MACHS', 'MADOS', 'MAGAS', 'MAGGS', 'MAGUS', 'MAJAS', 'MAJOS', 'MAMAS', 'MASAS', 'MASUS', 'MAUDS', 'MAUMS', 'MAYAS', 'MAYOS', 'MAZAS', 'OAFOS', 'SAAGS', 'SABOS', 'SADOS', 'SAGAS', 'SAGOS', 'SAMAS', 'SAYAS', 'VACAS', 'VADAS', 'VAGUS', 'WAACS', 'WADAS', 'WADDS', 'WAFFS', 'WAMUS', 'WAQFS', 'WASMS', 'WAWAS', 'YAASS', 'YABAS', 'YAFFS', 'YAUDS', 'YAYAS']
+97 candidate words remaining.
+Top 10 guesses: [('GUMBO', '3.950'), ('DUMBO', '3.893'), ('MUGHO', '3.831'), ('MOUCH', '3.733'), ('MBUGA', '3.676'), ('DOUGH', '3.660'), ('BOUGH', '3.650'), ('GAMBA', '3.629'), ('BEGUM', '3.627'), ('MUDGE', '3.626')]
+Top entropy choice: 𝙂𝙐𝙈𝘽𝙊 with entropy: 3.9502
+Using common exploratory word: 𝙂𝙐𝙈𝘽𝙊 with entropy: 3.9502
+
+Guess: 𝙂𝙐𝙈𝘽𝙊, Feedback: ⬜🟨🟩⬜⬜
+Actual Info Gain: 5.5999 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 6.599912842187128, 'posterior_entropy': 1.0, 'actual_info_gain': 5.599912842187128, 'expected_info_gain': 4.113234154446218}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CAMUS', 'WAMUS']
+2 candidate words remaining.
+Top 10 guesses: [('CAMUS', '1.000'), ('WAMUS', '1.000')]
+Top entropy choice: 𝘾𝘼𝙈𝙐𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝘼𝙈𝙐𝙎 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙋𝙇𝙄𝙉𝙆, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 8.626, Expected Info Gain: 4.113 bits, Actual Info Gain: 2.026 bits, Posterior Entropy: 6.600, 
+Guess: 𝙂𝙐𝙈𝘽𝙊, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 6.600, Expected Info Gain: 4.113 bits, Actual Info Gain: 5.600 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝙈𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

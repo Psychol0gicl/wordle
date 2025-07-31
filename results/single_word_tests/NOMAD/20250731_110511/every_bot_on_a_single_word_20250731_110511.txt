@@ -1,0 +1,218 @@
+Testing bot: WordleBot
+___ Testing word: 𝙉𝙊𝙈𝘼𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ALOIN 
+The top ten guesses and scores: [('ALOIN', 2038), ('AULOI', 1919), ('MONAL', 1919), ('INULA', 1912), ('ALONG', 1906), ('ANGLO', 1906), ('LOGAN', 1906), ('LONGA', 1906), ('NOGAL', 1906), ('LIMAN', 1903)]
+The bot finally chose: ALONG 
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: MONAD 
+The top ten guesses and scores: [('MONAD', 84), ('NOMAD', 84), ('DONAH', 83), ('HONDA', 83), ('ZONDA', 82), ('FONDA', 81), ('NOWAY', 81), ('WOMAN', 81), ('COWAN', 80), ('NONDA', 80)]
+The bot finally chose: NOMAD 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙉𝙊𝙈𝘼𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIANA with entropy: 5.5032
+Bot chose: MOANA with entropy: 5.2581
+Top ten guesses: [('LIANA', 5.503176618187261), ('ALOIN', 5.495708231763041), ('COALA', 5.261320197367893), ('MOANA', 5.258112459730507), ('DOLIA', 5.249229487253117), ('CONIA', 5.239992340620957), ('DIANA', 5.219601625118638), ('MONAL', 5.213193603438098), ('GONIA', 5.209978795437957), ('ALIGN', 5.20954985368254)]
+
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨🟩🟨🟨⬜
+Actual Info Gain: 8.5137 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 1.0, 'actual_info_gain': 8.513727595952437, 'expected_info_gain': 5.258112459730507}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NOMAD with entropy: 1.0000
+Bot chose: NOMAD with entropy: 1.0000
+Top ten guesses: [('NOMAD', 1.0), ('WOMAN', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨🟩🟨🟨⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 8.514 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙈𝘼𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIANA with entropy: 5.5032
+Bot chose: MOANA with entropy: 5.2581
+Top ten guesses: [('LIANA', 5.503176618187261), ('ALOIN', 5.495708231763041), ('COALA', 5.261320197367893), ('MOANA', 5.258112459730507), ('DOLIA', 5.249229487253117), ('CONIA', 5.239992340620957), ('DIANA', 5.219601625118638), ('MONAL', 5.213193603438098), ('GONIA', 5.209978795437957), ('ALIGN', 5.20954985368254)]
+
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨🟩🟨🟨⬜
+Actual Info Gain: 8.5137 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 1.0, 'actual_info_gain': 8.513727595952437, 'expected_info_gain': 5.258112459730507}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NOMAD with entropy: 1.0000
+Bot chose: NOMAD with entropy: 1.0000
+Top ten guesses: [('NOMAD', 1.0), ('WOMAN', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨🟩🟨🟨⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 8.514 bits, Posterior Entropy: 1.000, 
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙈𝘼𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 731 remaining candidates...
+Top 5 guesses: [('ALOIN', '5.496'), ('COALA', '5.261'), ('CONIA', '5.240'), ('ALIGN', '5.210'), ('ALGIN', '5.210')]
+Top entropy choice: 𝘼𝙇𝙊𝙄𝙉 with entropy: 5.4957
+Ended up choosing COMMON word: 𝘼𝙇𝙄𝙂𝙉 with entropy: 5.2095
+
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 4.1214 bits
+Posterior entropy: 5.392317422778761
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 5.392317422778761, 'actual_info_gain': 4.121410173173676, 'expected_info_gain': 5.20954985368254}
+----------
+The bot is making a guess...
+Evaluating 42 potential guesses from 42 remaining candidates...
+Top 5 guesses: [('DONNA', '4.461'), ('NONDA', '4.368'), ('HUDNA', '4.330'), ('HONDA', '4.189'), ('DUNAM', '4.124')]
+Top entropy choice: 𝘿𝙊𝙉𝙉𝘼 with entropy: 4.4609
+Ended up choosing COMMON word: 𝘿𝙊𝙉𝙉𝘼 with entropy: 4.4609
+
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: 🟨🟩🟨⬜🟨
+Actual Info Gain: 5.3923 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.392317422778761, 'posterior_entropy': 0.0, 'actual_info_gain': 5.392317422778761, 'expected_info_gain': 4.460902768522482}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('NOMAD', '0.000')]
+Top entropy choice: 𝙉𝙊𝙈𝘼𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙉𝙊𝙈𝘼𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 4.121 bits, Posterior Entropy: 5.392, 
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: 🟨🟩🟨⬜🟨, Prior Entropy: 5.392, Expected Info Gain: 4.461 bits, Actual Info Gain: 5.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙉𝙊𝙈𝘼𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3449 bits
+Posterior entropy: 9.513727595952437
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.513727595952437, 'actual_info_gain': 4.34493338877034, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABACA', 'ABACI', 'ABACK', 'ABAKA', 'ABAMP', 'ABAND', 'ABAYA', 'ABJAD', 'ABJUD', 'ABLOW', 'ABMHO', 'ABOHM', 'ABOIL', 'ABOMA', 'ABOON', 'ABUNA', 'ABUZZ', 'ACCHA', 'ACCOY', 'ACHOO', 'ACIDY', 'ACING', 'ACINI', 'ACMIC', 'ACOCK', 'ACOLD', 'ADAWN', 'ADDAX', 'ADDIN', 'ADDIO', 'ADHAN', 'ADHOC', 'ADLIB', 'ADMAN', 'ADMIN', 'ADMIX', 'ADOBO', 'ADOON', 'ADOWN', 'ADUKI', 'ADUNC', 'AFALD', 'AFANC', 'AFFIX', 'AFFLY', 'AFION', 'AFIZZ', 'AFLAJ', 'AFLAP', 'AFLOW', 'AFOAM', 'AFOUL', 'AGAIN', 'AGAMA', 'AGAMI', 'AGAMY', 'AGGAG', 'AGIDI', 'AGILA', 'AGING', 'AGLOO', 'AGLOW', 'AGOGO', 'AGONY', 'AGOOD', 'AGUNA', 'AHIGH', 'AHIND', 'AHING', 'AHOLD', 'AHULL', 'AIDOI', 'AIMAG', 'AIMAK', 'AINGA', 'AIOLI', 'AIYAH', 'AIYOH', 'AIYOO', 'AJIVA', 'AJUGA', 'AJUPA', 'AJWAN', 'AKING', 'AKOIA', 'AKOJA', 'AKOYA', 'ALAAP', 'ALACK', 'ALALA', 'ALAMO', 'ALAND', 'ALANG', 'ALAPA', 'ALBID', 'ALBUM', 'ALCID', 'ALDOL', 'ALGAL', 'ALGID', 'ALGIN', 'ALGUM', 'ALIBI', 'ALICK', 'ALIGN', 'ALIYA', 'ALKIN', 'ALKYD', 'ALKYL', 'ALLAN', 'ALLAY', 'ALLIN', 'ALLOD', 'ALLOW', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMUD', 'ALMUG', 'ALOHA', 'ALOIN', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALULA', 'ALUMY', 'ALWAY', 'AMAIN', 'AMBAN', 'AMICI', 'AMIDO', 'AMIGA', 'AMIGO', 'AMINO', 'AMMAN', 'AMMON', 'AMNIA', 'AMNIC', 'AMNIO', 'AMONG', 'AMPLY', 'AMPUL', 'AMUCK', 'ANANA', 'ANCHO', 'ANCON', 'ANDIC', 'ANGLO', 'ANIGH', 'ANIMA', 'ANIMI', 'ANION', 'ANNAL', 'ANNAN', 'ANNOY', 'ANNUL', 'ANNUM', 'ANOMY', 'ANVIL', 'ANYON', 'APAID', 'APAYD', 'APHID', 'APIAN', 'APING', 'APIOL', 'APOOP', 'APPAL', 'APPAM', 'APPAY', 'APPLY', 'APPUI', 'APPUY', 'AUDAD', 'AUDAX', 'AUDIO', 'AULIC', 'AULOI', 'AUMIL', 'AUXIN', 'AVAIL', 'AVIAN', 'AVION', 'AVOID', 'AWFUL', 'AWING', 'AWKIN', 'AXIAL', 'AXING', 'AXIOM', 'AXION', 'AXMAN', 'AXOID', 'AYAYA', 'AYMAG', 'AZIDO', 'AZLON', 'AZOIC', 'AZUKI', 'AZYGY', 'BBALL', 'BHAJI', 'BHANG', 'BHAVA', 'BHUNA', 'BIACH', 'BIALI', 'BIALY', 'BIGHA', 'BILAL', 'BIMAH', 'BINAL', 'BIVIA', 'BLACK', 'BLADY', 'BLAFF', 'BLAIN', 'BLANC', 'BLAND', 'BLANK', 'BLAUD', 'BLAWN', 'BOBAC', 'BOBAK', 'BOCCA', 'BOGAN', 'BONZA', 'BOOAI', 'BOOAY', 'BOXLA', 'BOYAU', 'BOYLA', 'BUBAL', 'BUBBA', 'BUFFA', 'BUGAN', 'BULLA', 'BUNIA', 'BUNYA', 'BWANA', 'BWAZI', 'BYLAW', 'BYWAY', 'CHAAP', 'CHACK', 'CHACO', 'CHADO', 'CHAFF', 'CHAIN', 'CHALK', 'CHAMP', 'CHANA', 'CHANG', 'CHANK', 'CHAVA', 'CHAWK', 'CHAWL', 'CHAYA', 'CHIAO', 'CHIBA', 'CHICA', 'CHINA', 'CHIVA', 'CHOLA', 'CHUFA', 'CILIA', 'CLACH', 'CLACK', 'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLAVI', 'CLOAK', 'CLOAM', 'CNIDA', 'COACH', 'COADY', 'COALA', 'COALY', 'COBIA', 'COBZA', 'COCOA', 'COHAB', 'COLZA', 'COMAL', 'COMMA', 'CONGA', 'CONIA', 'COPAL', 'COPAY', 'COPHA', 'COWAL', 'COWAN', 'COXAL', 'COYAU', 'CUDDA', 'CULPA', 'CUPPA', 'CYANO', 'CYCAD', 'DHABA', 'DIANA', 'DIAZO', 'DINNA', 'DIVAN', 'DIVNA', 'DIWAN', 'DOBLA', 'DOGAL', 'DOGAN', 'DOGMA', 'DOLIA', 'DOLMA', 'DOMAL', 'DONAH', 'DONGA', 'DONNA', 'DOONA', 'DOULA', 'DOUMA', 'DOWAK', 'DOWNA', 'DUCAL', 'DUKKA', 'DULIA', 'DUMKA', 'DUNAM', 'DWAAL', 'DWALM', 'DWAMY', 'DWANG', 'DWAUM', 'FINAL', 'FINCA', 'FLACK', 'FLAFF', 'FLAIL', 'FLAKY', 'FLAMM', 'FLAMY', 'FLANK', 'FLAVA', 'FLAWN', 'FLAWY', 'FLAXY', 'FOAMY', 'FOCAL', 'FOLIA', 'FONDA', 'FUGAL', 'FULLA', 'FULWA', 'FUNDA', 'GHAZI', 'GILIA', 'GINGA', 'GLADY', 'GLAIK', 'GLAMP', 'GLAND', 'GLAUM', 'GLAZY', 'GLIAL', 'GLOAM', 'GNAPI', 'GNAWN', 'GOBAN', 'GOGGA', 'GOMPA', 'GONAD', 'GONIA', 'GONNA', 'GOPAK', 'GOWAN', 'GUACO', 'GUANA', 'GUANO', 'GUAVA', 'GUBBA', 'GULAB', 'GULAG', 'GUMMA', 'GYOZA', 'HIJAB', 'HINAU', 'HOACH', 'HOAGY', 'HODAD', 'HODJA', 'HOGAN', 'HOLLA', 'HONAN', 'HONDA', 'HOOHA', 'HOOKA', 'HOPAK', 'HOWAY', 'HUBBA', 'HUDNA', 'HUMAN', 'HUZZA', 'HYPHA', 'IDDAH', 'IDOLA', 'IGAPO', 'ILIAC', 'ILIAD', 'ILIAL', 'IMAGO', 'IMAGY', 'IMAUM', 'INDIA', 'INGAN', 'INLAY', 'INULA', 'IXNAY', 'JHALA', 'JIBBA', 'JIHAD', 'JNANA', 'JOUAL', 'JUGAL', 'JULIA', 'KHADI', 'KHAKI', 'KHANA', 'KHAPH', 'KHAYA', 'KHAZI', 'KHOJA', 'KHULA', 'KHYAL', 'KIACK', 'KIAKI', 'KIANG', 'KIBLA', 'KIKAY', 'KINDA', 'KIPAH', 'KIPPA', 'KLANG', 'KNACK', 'KOALA', 'KOBAN', 'KOGAL', 'KOKAM', 'KOPPA', 'KULAK', 'KULAN', 'KWAAI', 'KYACK', 'KYANG', 'LIANA', 'LIANG', 'LIGAN', 'LILAC', 'LIMAN', 'LIMAX', 'LIMBA', 'LIMMA', 'LIMPA', 'LINAC', 'LINGA', 'LIWAA', 'LLAMA', 'LLANO', 'LOACH', 'LOAMY', 'LOCAL', 'LOGAN', 'LOGIA', 'LOHAN', 'LONGA', 'LOOFA', 'LOUMA', 'LOWAN', 'LOYAL', 'LUACH', 'LUFFA', 'MBILA', 'MBUGA', 'MIAOU', 'MIAOW', 'MIAUL', 'MIGMA', 'MIKAN', 'MIKVA', 'MILIA', 'MILPA', 'MMKAY', 'MOAKY', 'MOANA', 'MOANY', 'MOCAP', 'MOCHA', 'MODAL', 'MOHUA', 'MOLAL', 'MOLLA', 'MOMMA', 'MONAD', 'MONAL', 'MOOLA', 'MUGGA', 'MULAI', 'MULGA', 'MULLA', 'MUNGA', 'MUNIA', 'MUNJA', 'MUVVA', 'MUZAK', 'MVULA', 'MYALL', 'MYNAH', 'MYOMA', 'NDUJA', 'NGAIO', 'NGAKA', 'NGANA', 'NGAPI', 'NGOMA', 'NICAD', 'NIDAL', 'NIGGA', 'NIGUA', 'NIKAB', 'NIKAH', 'NIKAU', 'NINJA', 'NIOZA', 'NIQAB', 'NIVAL', 'NIZAM', 'NODAL', 'NOGAL', 'NOMAD', 'NONAN', 'NONDA', 'NONNA', 'NOPAL', 'NOUJA', 'NOVIA', 'NOWAY', 'NOXAL', 'NOYAU', 'NUBIA', 'NUCHA', 'NULLA', 'NYAFF', 'NYALA', 'OBANG', 'OCCAM', 'OFFAL', 'OFLAG', 'OGHAM', 'OIDIA', 'OKAPI', 'OLIVA', 'OLLAV', 'OLONA', 'OMDAH', 'OMDDA', 'OMIAI', 'OMLAH', 'ONLAP', 'ONLAY', 'OOJAH', 'OOPAK', 'OOYAH', 'OPGAF', 'OUIJA', 'OXMAN', 'OYAMA', 'PHANG', 'PHIAL', 'PHOCA', 'PHYLA', 'PHYMA', 'PIANI', 'PIANO', 'PIBAL', 'PICAL', 'PIKAU', 'PILAF', 'PILAO', 'PILAU', 'PILAW', 'PINAX', 'PINDA', 'PINGA', 'PINNA', 'PIPAL', 'PIUMA', 'PIZZA', 'PLACK', 'PLAGA', 'PLAID', 'PLAIG', 'PLAIN', 'PLANC', 'PLANH', 'PLANK', 'PLAUD', 'PLAYA', 'PLAZA', 'PLICA', 'POACH', 'POAKA', 'POALO', 'POCAN', 'PODAL', 'PODIA', 'POKAL', 'POLKA', 'POMPA', 'PONGA', 'POOAY', 'POOJA', 'POOKA', 'POOPA', 'POPIA', 'POPPA', 'POWAN', 'PUCAN', 'PUCKA', 'PUFFA', 'PUJAH', 'PUKKA', 'PULAO', 'PULKA', 'PUNGA', 'PUNKA', 'PUPAL', 'PUPPA', 'PYGAL', 'PZAZZ', 'QIBLA', 'QIPAO', 'QUACK', 'QUAFF', 'QUAIL', 'QUAKY', 'QUALM', 'QUALY', 'QUANK', 'QUAWK', 'QUAYD', 'QUILA', 'QUINA', 'QUOAD', 'UGALI', 'UHLAN', 'ULAMA', 'ULNAD', 'ULPAN', 'UMAMI', 'UMIAC', 'UMIAK', 'UMIAQ', 'UMMAH', 'UNAGI', 'UNBAG', 'UNBAN', 'UNCAP', 'UNCIA', 'UNDAM', 'UNGAG', 'UNICA', 'UNJAM', 'UNLAP', 'UNLAW', 'UNLAY', 'UNMAD', 'UNMAN', 'UNPAY', 'UPLAY', 'UVULA', 'VIAND', 'VIFDA', 'VIGIA', 'VILLA', 'VINAL', 'VINCA', 'VIOLA', 'VIVDA', 'VOBLA', 'VOCAB', 'VOCAL', 'VODKA', 'VOILA', 'VOLVA', 'VULVA', 'WHACK', 'WHAMO', 'WHANG', 'WHAUP', 'WHYDA', 'WICCA', 'WIGAN', 'WIGGA', 'WILGA', 'WILJA', 'WINNA', 'WOADY', 'WOALD', 'WOKKA', 'WOMAN', 'WONGA', 'WUNGA', 'WUXIA', 'XOANA', 'XYLAN', 'YCLAD', 'YOHAH', 'YOHAY', 'YOJAN', 'YOKAN', 'YOWZA', 'YUCCA', 'YULAN', 'ZIGAN', 'ZILLA', 'ZONAL', 'ZONDA', 'ZOPPA', 'ZUPAN', 'ZUPPA', 'ZYGAL']
+731 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.613'), ('LIANA', '5.503'), ('ALOIN', '5.496'), ('PILON', '5.458'), ('PINOL', '5.439'), ('DINLO', '5.430'), ('LOGIN', '5.388'), ('NICOL', '5.363'), ('NMOLI', '5.336'), ('ULMIN', '5.322')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.6132
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.6132
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 4.9902 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 9.513727595952437, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 4.990165639895424, 'expected_info_gain': 5.613155296118865}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BONZA', 'DONAH', 'DONGA', 'DONNA', 'DOONA', 'DOWNA', 'FONDA', 'GONAD', 'GONNA', 'HONDA', 'MOANA', 'MOANY', 'MONAD', 'NOMAD', 'NONDA', 'NONNA', 'NOUJA', 'NOWAY', 'NOYAU', 'PONGA', 'WONGA', 'XOANA', 'ZONDA']
+23 candidate words remaining.
+Top 10 guesses: [('DINNA', '3.675'), ('DONNA', '3.675'), ('NONDA', '3.642'), ('DONGA', '3.501'), ('NGANA', '3.501'), ('DUNGY', '3.497'), ('NANDU', '3.469'), ('DANNY', '3.464'), ('DONNY', '3.464'), ('DUNNY', '3.464')]
+Top entropy choice: 𝘿𝙄𝙉𝙉𝘼 with entropy: 3.6753
+Using common exploratory word: 𝘿𝙊𝙉𝙉𝘼 with entropy: 3.6753
+
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: 🟨🟩🟨⬜🟨
+Actual Info Gain: 4.5236 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 0.0, 'actual_info_gain': 4.523561956057013, 'expected_info_gain': 5.613155296118865}
+----------
+The bot is making a guess...
+THe possible candidates are: ['NOMAD']
+1 candidate words remaining.
+Top 10 guesses: [('NOMAD', '0.000')]
+Top entropy choice: 𝙉𝙊𝙈𝘼𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙉𝙊𝙈𝘼𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.990 bits, Posterior Entropy: 4.524, 
+Guess: 𝘿𝙊𝙉𝙉𝘼, Feedback: 🟨🟩🟨⬜🟨, Prior Entropy: 4.524, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.059 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.059 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 4.585, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

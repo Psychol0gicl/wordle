@@ -1,0 +1,273 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙄𝙕𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: LANCE 
+The top ten guesses and scores: [('LANCE', 322), ('LANDE', 321), ('MAILE', 319), ('LAIDE', 317), ('MACLE', 316), ('MANIE', 313), ('LABNE', 312), ('NAICE', 312), ('DAINE', 311), ('MANGE', 309)]
+The bot finally chose: LANCE 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MADGE 
+The top ten guesses and scores: [('MADGE', 123), ('GAMBE', 118), ('MAVIE', 115), ('BAGIE', 114), ('MAIZE', 113), ('BADGE', 112), ('MAKIE', 112), ('VADGE', 112), ('GADJE', 111), ('GAMME', 111)]
+The bot finally chose: MADGE 
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: MAVIE 
+The top ten guesses and scores: [('MAVIE', 31), ('MAIZE', 30), ('MAKIE', 30), ('MAMIE', 29), ('MAHOE', 28), ('MAJOE', 28), ('MAUVE', 28), ('MAYBE', 27)]
+The bot finally chose: MAIZE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙄𝙕𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAILE with entropy: 3.3596
+Bot chose: LANCE with entropy: 3.2452
+Top ten guesses: [('MAILE', 3.35963225595188), ('LAIDE', 3.3111208949114537), ('DAINE', 3.2850514117040213), ('LANDE', 3.2605495117589123), ('MACLE', 3.253115880084754), ('LANCE', 3.24518496000314), ('BAILE', 3.2095221588909357), ('CADIE', 3.185667325663659), ('MANIE', 3.1838485884039596), ('NAICE', 3.173983963466687)]
+
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.5334 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 1.5334322000810747, 'expected_info_gain': 3.24518496000314}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAMBE with entropy: 3.1691
+Bot chose: MADGE with entropy: 3.0579
+Top ten guesses: [('GAMBE', 3.169145448714876), ('MAVIE', 3.1316570981380445), ('MADGE', 3.0579464358416475), ('MAIZE', 2.949026291435921), ('BADGE', 2.8315422533646006), ('MAKIE', 2.793266003974018), ('BAGIE', 2.7815789689589274), ('GAMME', 2.729754237872244), ('JAMBE', 2.7146469211675224), ('MAMIE', 2.6982754651730496)]
+
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.0579464358416475}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVIE with entropy: 2.1556
+Bot chose: MAMIE with entropy: 1.7500
+Top ten guesses: [('MAVIE', 2.1556390622295662), ('MAKIE', 1.75), ('MAMIE', 1.75), ('MAIZE', 1.4056390622295665), ('MAHOE', 1.061278124459133), ('MAJOE', 1.061278124459133), ('MAUVE', 1.061278124459133), ('MAYBE', 0.5435644431995964)]
+
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAIZE with entropy: 0.0000
+Bot chose: MAIZE with entropy: 0.0000
+Top ten guesses: [('MAIZE', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 1.533 bits, Posterior Entropy: 5.248, 
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.058 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙄𝙕𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAILE with entropy: 3.3596
+Bot chose: LANCE with entropy: 3.2452
+Top ten guesses: [('MAILE', 3.35963225595188), ('LAIDE', 3.3111208949114537), ('DAINE', 3.2850514117040213), ('LANDE', 3.2605495117589123), ('MACLE', 3.253115880084754), ('LANCE', 3.24518496000314), ('BAILE', 3.2095221588909357), ('CADIE', 3.185667325663659), ('MANIE', 3.1838485884039596), ('NAICE', 3.173983963466687)]
+
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 1.5334 bits
+Posterior entropy: 5.247927513443585
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 5.247927513443585, 'actual_info_gain': 1.5334322000810747, 'expected_info_gain': 3.24518496000314}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GAMBE with entropy: 3.1691
+Bot chose: MADGE with entropy: 3.0579
+Top ten guesses: [('GAMBE', 3.169145448714876), ('MAVIE', 3.1316570981380445), ('MADGE', 3.0579464358416475), ('MAIZE', 2.949026291435921), ('BADGE', 2.8315422533646006), ('MAKIE', 2.793266003974018), ('BAGIE', 2.7815789689589274), ('GAMME', 2.729754237872244), ('JAMBE', 2.7146469211675224), ('MAMIE', 2.6982754651730496)]
+
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 5.247927513443585, 'posterior_entropy': 3.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 3.0579464358416475}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVIE with entropy: 2.1556
+Bot chose: MAMIE with entropy: 1.7500
+Top ten guesses: [('MAVIE', 2.1556390622295662), ('MAKIE', 1.75), ('MAMIE', 1.75), ('MAIZE', 1.4056390622295665), ('MAHOE', 1.061278124459133), ('MAJOE', 1.061278124459133), ('MAUVE', 1.061278124459133), ('MAYBE', 0.5435644431995964)]
+
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 1.75}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAIZE with entropy: 0.0000
+Bot chose: MAIZE with entropy: 0.0000
+Top ten guesses: [('MAIZE', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝙇𝘼𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.781, Expected Info Gain: 3.245 bits, Actual Info Gain: 1.533 bits, Posterior Entropy: 5.248, 
+Guess: 𝙈𝘼𝘿𝙂𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 5.248, Expected Info Gain: 3.058 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 3.000, 
+Guess: 𝙈𝘼𝙈𝙄𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 1.750 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙄𝙕𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 209 potential guesses from 110 remaining candidates...
+Top 5 guesses: [('CHILD', '4.083'), ('DOING', '3.770'), ('COULD', '3.566'), ('MAILE', '3.360'), ('LAIDE', '3.311')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 4.0831
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 4.0831
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 4.083107222997348}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('NAIVE', '1.792'), ('BAIZE', '1.252'), ('FAINE', '1.252'), ('MAIZE', '1.252'), ('WAIVE', '1.252')]
+Top entropy choice: 𝙉𝘼𝙄𝙑𝙀 with entropy: 1.7925
+Ended up choosing COMMON word: 𝙉𝘼𝙄𝙑𝙀 with entropy: 1.7925
+
+Guess: 𝙉𝘼𝙄𝙑𝙀, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7924812503605778}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BAIZE', '1.585'), ('MAIZE', '1.585'), ('PAIPE', '0.918')]
+Top entropy choice: 𝘽𝘼𝙄𝙕𝙀 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙈𝘼𝙄𝙕𝙀 with entropy: 1.5850
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 6.781, Expected Info Gain: 4.083 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 2.585, 
+Guess: 𝙉𝘼𝙄𝙑𝙀, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙄𝙕𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜
+Actual Info Gain: 7.0773 bits
+Posterior entropy: 6.78135971352466
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.78135971352466, 'actual_info_gain': 7.077301271198117, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BACNE', 'BADGE', 'BAGIE', 'BAILE', 'BAIZE', 'BAYLE', 'CABLE', 'CACHE', 'CADGE', 'CADIE', 'CAECA', 'CAFFE', 'CALLE', 'CALVE', 'CANOE', 'CAPLE', 'CAVIE', 'DAINE', 'DALLE', 'DAMME', 'DANCE', 'DAUBE', 'EAGLE', 'EAGLY', 'FABLE', 'FACIE', 'FADGE', 'FAENA', 'FAINE', 'FAKIE', 'FAUVE', 'FAYNE', 'GABLE', 'GADGE', 'GADJE', 'GAFFE', 'GAMBE', 'GAMME', 'GAUGE', 'GAUJE', 'GAUZE', 'HABLE', 'HALVE', 'HANCE', 'HAOLE', 'HAYLE', 'HAZLE', 'JAKIE', 'JAMBE', 'JAUNE', 'JAXIE', 'KAMME', 'KANAE', 'KAYLE', 'LABNE', 'LADLE', 'LAEVO', 'LAIDE', 'LANCE', 'LANDE', 'LAPJE', 'LAUDE', 'MACHE', 'MACLE', 'MADGE', 'MAEDI', 'MAHOE', 'MAILE', 'MAIZE', 'MAJOE', 'MAKIE', 'MALAE', 'MAMIE', 'MANGE', 'MANIE', 'MAPLE', 'MAUVE', 'MAVIE', 'MAYBE', 'NACHE', 'NAEVE', 'NAEVI', 'NAICE', 'NAIVE', 'NANCE', 'NAPPE', 'PADLE', 'PAEAN', 'PAEDO', 'PAEON', 'PAGLE', 'PAGNE', 'PAIPE', 'PANCE', 'PANNE', 'PAVIE', 'VADGE', 'VAGUE', 'VALUE', 'VALVE', 'WACKE', 'WADGE', 'WAIDE', 'WAIVE', 'WALIE', 'WANLE', 'WANZE', 'ZAIDE', 'ZANZE', 'ZAYDE']
+110 candidate words remaining.
+Top 10 guesses: [('CLING', '4.230'), ('BLIND', '4.090'), ('CHILD', '4.083'), ('CLINE', '4.048'), ('DINLO', '4.036'), ('LUNGI', '4.014'), ('CLIMB', '4.012'), ('COLIN', '4.001'), ('DOLCI', '3.991'), ('LUCID', '3.987')]
+Top entropy choice: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.2296
+Guess count low, choosing the word with highest entropy: 𝘾𝙇𝙄𝙉𝙂 with entropy: 4.2296
+
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 4.1964 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.78135971352466, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.196397212803504, 'expected_info_gain': 4.229577516458548}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAIZE', 'MAIZE', 'PAIPE', 'WAIDE', 'WAIVE', 'ZAIDE']
+6 candidate words remaining.
+Top 10 guesses: [('BWAZI', '2.252'), ('BAWDS', '2.252'), ('BAWDY', '2.252'), ('BEDEW', '2.252'), ('BEWDY', '2.252'), ('BOWED', '2.252'), ('DOWPS', '2.252'), ('DWALM', '2.252'), ('DWAMS', '2.252'), ('DWAMY', '2.252')]
+Top entropy choice: 𝘽𝙒𝘼𝙕𝙄 with entropy: 2.2516
+Using common exploratory word: 𝘽𝘼𝙒𝘿𝙔 with entropy: 2.2516
+
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 4.229577516458548}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MAIZE', 'PAIPE']
+2 candidate words remaining.
+Top 10 guesses: [('MAIZE', '1.000'), ('PAIPE', '1.000')]
+Top entropy choice: 𝙈𝘼𝙄𝙕𝙀 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙈𝘼𝙄𝙕𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.077 bits, Posterior Entropy: 6.781, 
+Guess: 𝘾𝙇𝙄𝙉𝙂, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 6.781, Expected Info Gain: 4.230 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.230 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙄𝙕𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

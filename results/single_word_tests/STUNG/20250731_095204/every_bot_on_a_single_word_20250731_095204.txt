@@ -1,0 +1,334 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙏𝙐𝙉𝙂 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HOIST 
+The top ten guesses and scores: [('HOIST', 512), ('MISTO', 505), ('MOIST', 505), ('OPSIT', 504), ('PITSO', 504), ('POSIT', 504), ('SHOUT', 495), ('SOUTH', 495), ('FOIST', 494), ('STOIC', 494)]
+The bot finally chose: HOIST 
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: MUSTY 
+The top ten guesses and scores: [('MUSTY', 62), ('LUSTY', 60), ('FUSTY', 59), ('DUSTY', 58), ('GUSTY', 58), ('STUDY', 58), ('BUSTY', 57), ('STULM', 57), ('STUMP', 54), ('STUMM', 53)]
+The bot finally chose: MUSTY 
+Guess: 𝙈𝙐𝙎𝙏𝙔, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: STUNK 
+The top ten guesses and scores: [('STUNK', 19), ('STUCK', 18), ('STUNG', 18), ('STUFF', 17), ('STULL', 17)]
+The bot finally chose: STUCK 
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: STUFF 
+The top ten guesses and scores: [('STUFF', 11), ('STULL', 11), ('STUNG', 11)]
+The bot finally chose: STUFF 
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: STULL 
+The top ten guesses and scores: [('STULL', 8), ('STUNG', 8)]
+The bot finally chose: STUNG 
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙈𝙐𝙎𝙏𝙔, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙎𝙏𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝙉𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.1062 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.106199403831925, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STULM with entropy: 1.8800
+Bot chose: STULM with entropy: 1.8800
+Top ten guesses: [('STULM', 1.8799649487271108), ('STUMM', 1.4466166676282082), ('STUMP', 1.4466166676282082), ('STUNK', 1.4466166676282082), ('STUCK', 0.9864267287308424), ('STULL', 0.9864267287308424), ('STUNG', 0.9864267287308424), ('STUDY', 0.5032583347756457), ('STUFF', 0.5032583347756457)]
+
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.84799690655495, 'expected_info_gain': 1.8799649487271108}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUNK with entropy: 1.9219
+Bot chose: STUCK with entropy: 1.3710
+Top ten guesses: [('STUNK', 1.9219280948873623), ('STUCK', 1.3709505944546687), ('STUNG', 1.3709505944546687), ('STUDY', 0.7219280948873623), ('STUFF', 0.7219280948873623)]
+
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUDY with entropy: 0.9183
+Bot chose: STUDY with entropy: 0.9183
+Top ten guesses: [('STUDY', 0.9182958340544896), ('STUFF', 0.9182958340544896), ('STUNG', 0.9182958340544896)]
+
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUFF with entropy: 1.0000
+Bot chose: STUFF with entropy: 1.0000
+Top ten guesses: [('STUFF', 1.0), ('STUNG', 1.0)]
+Game Over! You ran out of guesses.
+
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝙉𝙂 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.1062 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.106199403831925, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STULM with entropy: 1.8800
+Bot chose: STULM with entropy: 1.8800
+Top ten guesses: [('STULM', 1.8799649487271108), ('STUMM', 1.4466166676282082), ('STUMP', 1.4466166676282082), ('STUNK', 1.4466166676282082), ('STUCK', 0.9864267287308424), ('STULL', 0.9864267287308424), ('STUNG', 0.9864267287308424), ('STUDY', 0.5032583347756457), ('STUFF', 0.5032583347756457)]
+
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.84799690655495, 'expected_info_gain': 1.8799649487271108}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUNK with entropy: 1.9219
+Bot chose: STUCK with entropy: 1.3710
+Top ten guesses: [('STUNK', 1.9219280948873623), ('STUCK', 1.3709505944546687), ('STUNG', 1.3709505944546687), ('STUDY', 0.7219280948873623), ('STUFF', 0.7219280948873623)]
+
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUDY with entropy: 0.9183
+Bot chose: STUDY with entropy: 0.9183
+Top ten guesses: [('STUDY', 0.9182958340544896), ('STUFF', 0.9182958340544896), ('STUNG', 0.9182958340544896)]
+
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STUFF with entropy: 1.0000
+Bot chose: STUFF with entropy: 1.0000
+Top ten guesses: [('STUFF', 1.0), ('STUNG', 1.0)]
+Game Over! You ran out of guesses.
+
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝘾𝙆, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙏𝙐𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙐𝙁𝙁, Feedback: 🟩🟩🟩⬜⬜
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝙉𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 252 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Ended up choosing COMMON word: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.1062 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.106199403831925, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('STULM', '1.880'), ('STUMM', '1.447'), ('STUMP', '1.447'), ('STUNK', '1.447'), ('STUCK', '0.986')]
+Top entropy choice: 𝙎𝙏𝙐𝙇𝙈 with entropy: 1.8800
+
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 0.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.84799690655495, 'expected_info_gain': 1.8799649487271108}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('STUNK', '1.922'), ('STUCK', '1.371'), ('STUNG', '1.371'), ('STUDY', '0.722'), ('STUFF', '0.722')]
+Top entropy choice: 𝙎𝙏𝙐𝙉𝙆 with entropy: 1.9219
+
+Guess: 𝙎𝙏𝙐𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('STUNG', '0.000')]
+Top entropy choice: 𝙎𝙏𝙐𝙉𝙂 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙏𝙐𝙉𝙂 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙏𝙐𝙇𝙈, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙏𝙐𝙉𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙏𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙏𝙐𝙉𝙂 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITSY', 'BLIST', 'BOOST', 'BUIST', 'BUSTI', 'BUSTY', 'COOST', 'DIDST', 'DITSY', 'DUSTY', 'FISTY', 'FOIST', 'FUSTY', 'GHOST', 'GIUST', 'GLOST', 'GOSHT', 'GUSTO', 'GUSTY', 'GUTSY', 'HOIST', 'INUST', 'JOIST', 'JOUST', 'KUSTI', 'KYDST', 'LUSTY', 'MIDST', 'MISTO', 'MISTY', 'MOIST', 'MOSTO', 'MOUST', 'MUIST', 'MUSIT', 'MUSTH', 'MUSTY', 'NOUST', 'NUTSO', 'NUTSY', 'ODIST', 'OPSIT', 'OVIST', 'PITSO', 'PITSU', 'POSIT', 'POTSY', 'PSHUT', 'PTISH', 'QUIST', 'SCOOT', 'SCOUT', 'SCUFT', 'SHIFT', 'SHIST', 'SHOOT', 'SHOTT', 'SHOUT', 'SHTIK', 'SHTUM', 'SHTUP', 'SHUNT', 'SICHT', 'SIGHT', 'SILTY', 'SITCH', 'SITUP', 'SIXTH', 'SIXTY', 'SKINT', 'SLIPT', 'SLOOT', 'SLOTH', 'SLUIT', 'SMITH', 'SMOLT', 'SMOOT', 'SMOUT', 'SMOWT', 'SNIFT', 'SNOOT', 'SNOUT', 'SOFTY', 'SOOTH', 'SOOTY', 'SOTOL', 'SOTTO', 'SOUCT', 'SOUTH', 'SOWTH', 'SPILT', 'SPITZ', 'SPLIT', 'SPOOT', 'SPOUT', 'SQUIT', 'STICH', 'STICK', 'STIFF', 'STILB', 'STILL', 'STILT', 'STIMY', 'STING', 'STINK', 'STINT', 'STIVY', 'STOCK', 'STOGY', 'STOIC', 'STOIT', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOPT', 'STOTT', 'STOUN', 'STOUP', 'STOUT', 'STOWN', 'STOWP', 'STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK', 'STUNT', 'STUSH', 'STYLI', 'STYLO', 'STYMY', 'SUINT', 'SWIFT', 'SWITH', 'SWOPT', 'SYNTH', 'VISIT', 'VISTO', 'WHIST', 'WISHT', 'XYSTI', 'YTOST', 'ZOIST']
+155 candidate words remaining.
+Top 10 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUNT', '4.690'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665'), ('MOULT', '4.655'), ('MOIST', '4.647'), ('POULT', '4.637'), ('SLUIT', '4.617')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.1062 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.106199403831925, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK']
+9 candidate words remaining.
+Top 10 guesses: [('MALKY', '2.503'), ('MANLY', '2.503'), ('MILKY', '2.503'), ('CALMY', '2.419'), ('CYMOL', '2.419'), ('FILMY', '2.419'), ('FLAMY', '2.419'), ('FLANK', '2.419'), ('FLUNK', '2.419'), ('KALAM', '2.419')]
+Top entropy choice: 𝙈𝘼𝙇𝙆𝙔 with entropy: 2.5033
+Using common exploratory word: 𝙈𝘼𝙉𝙇𝙔 with entropy: 2.5033
+
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['STUNG', 'STUNK']
+2 candidate words remaining.
+Top 10 guesses: [('STUNG', '1.000'), ('STUNK', '1.000')]
+Top entropy choice: 𝙎𝙏𝙐𝙉𝙂 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙏𝙐𝙉𝙂 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 4.106 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 4.721 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙏𝙐𝙉𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

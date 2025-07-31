@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙉𝙎𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝘾𝘼𝙉𝙎𝙊, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙎𝘼𝙉𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙉𝙎𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 7.055 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙉𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙉𝙎𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 7.055 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙉𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙉𝙎𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 7.055 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙉𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙉𝙎𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 7.055, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.596 bits, Posterior Entropy: 3.459, 
+Guess: 𝘾𝙊𝙉𝙂𝘼, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 4.282 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝙉𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

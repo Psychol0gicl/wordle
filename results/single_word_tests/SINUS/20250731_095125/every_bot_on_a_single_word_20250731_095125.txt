@@ -1,0 +1,272 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙄𝙉𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: LOUIS 
+The top ten guesses and scores: [('LOUIS', 2644), ('UNIOS', 2565), ('LINOS', 2563), ('LIONS', 2563), ('LOINS', 2563), ('NOILS', 2563), ('LOUNS', 2532), ('NOULS', 2532), ('KILOS', 2515), ('PIOUS', 2514)]
+The bot finally chose: PIOUS 
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: NIDUS 
+The top ten guesses and scores: [('NIDUS', 35), ('MINUS', 34), ('FICUS', 33), ('FIDUS', 33), ('NISUS', 33), ('SINUS', 33), ('VICUS', 32), ('GIBUS', 31), ('HILUS', 31)]
+The bot finally chose: MINUS 
+Guess: 𝙈𝙄𝙉𝙐𝙎, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SINUS 
+The top ten guesses and scores: [('SINUS', 5)]
+The bot finally chose: SINUS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Guess: 𝙋𝙄𝙊𝙐𝙎, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝙄𝙉𝙐𝙎, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙎𝙄𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.0481 bits
+Posterior entropy: 9.810571634741146
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.810571634741146, 'actual_info_gain': 4.04808934998163, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIONS with entropy: 4.5741
+Bot chose: LIONS with entropy: 4.5741
+Top ten guesses: [('LIONS', 4.5741192022525174), ('NOILS', 4.528869650524515), ('LOUNS', 4.509534914655456), ('MOILS', 4.508222439385745), ('LOINS', 4.5029103506697), ('NOULS', 4.502117903120707), ('LINOS', 4.495587635221155), ('MILOS', 4.490754454511384), ('DIOLS', 4.485375240144322), ('MOULS', 4.483263093558201)]
+
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 4.3843 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 9.810571634741146, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.384306880039048, 'expected_info_gain': 4.5741192022525174}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KINDS with entropy: 2.6062
+Bot chose: KINDS with entropy: 2.6062
+Top ten guesses: [('KINDS', 2.606238593566283), ('GINKS', 2.5897238382089607), ('DINKS', 2.5474170816364965), ('KINGS', 2.5394766074435653), ('DINGS', 2.462723351040744), ('MINKS', 2.2874766870107477), ('SINKS', 2.2500431876052405), ('MINGS', 2.224919572222543), ('MINDS', 2.2225675439015453), ('SINGS', 2.1874860728170358)]
+
+Guess: 𝙆𝙄𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.4263 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 4.0, 'actual_info_gain': 1.426264754702098, 'expected_info_gain': 2.606238593566283}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MINGS with entropy: 1.6494
+Bot chose: MINGS with entropy: 1.6494
+Top ten guesses: [('MINGS', 1.6493974703476992), ('SINGS', 1.6493974703476992), ('HINGS', 1.5306390622295665), ('ZINGS', 1.5306390622295665), ('BINGS', 1.271782221599798), ('GINGS', 1.271782221599798), ('JINGS', 1.271782221599798), ('PINGS', 1.271782221599798), ('WINGS', 1.271782221599798), ('MINIS', 1.186278124459133)]
+
+Guess: 𝙈𝙄𝙉𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.6781 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.6780719051126378, 'expected_info_gain': 1.6493974703476992}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CINQS with entropy: 1.3710
+Bot chose: SINUS with entropy: 1.3710
+Top ten guesses: [('CINQS', 1.3709505944546687), ('SINHS', 1.3709505944546687), ('SINUS', 1.3709505944546687), ('ZINCS', 1.3709505944546687), ('FINIS', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 4.384 bits, Posterior Entropy: 5.426, 
+Guess: 𝙆𝙄𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.426, Expected Info Gain: 2.606 bits, Actual Info Gain: 1.426 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙄𝙉𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 1.649 bits, Actual Info Gain: 1.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙄𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.0481 bits
+Posterior entropy: 9.810571634741146
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.810571634741146, 'actual_info_gain': 4.04808934998163, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LIONS with entropy: 4.5741
+Bot chose: LIONS with entropy: 4.5741
+Top ten guesses: [('LIONS', 4.5741192022525174), ('NOILS', 4.528869650524515), ('LOUNS', 4.509534914655456), ('MOILS', 4.508222439385745), ('LOINS', 4.5029103506697), ('NOULS', 4.502117903120707), ('LINOS', 4.495587635221155), ('MILOS', 4.490754454511384), ('DIOLS', 4.485375240144322), ('MOULS', 4.483263093558201)]
+
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 4.3843 bits
+Posterior entropy: 5.426264754702098
+entropy_info: {'prior_entropy': 9.810571634741146, 'posterior_entropy': 5.426264754702098, 'actual_info_gain': 4.384306880039048, 'expected_info_gain': 4.5741192022525174}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KINDS with entropy: 2.6062
+Bot chose: KINDS with entropy: 2.6062
+Top ten guesses: [('KINDS', 2.606238593566283), ('GINKS', 2.5897238382089607), ('DINKS', 2.5474170816364965), ('KINGS', 2.5394766074435653), ('DINGS', 2.462723351040744), ('MINKS', 2.2874766870107477), ('SINKS', 2.2500431876052405), ('MINGS', 2.224919572222543), ('MINDS', 2.2225675439015453), ('SINGS', 2.1874860728170358)]
+
+Guess: 𝙆𝙄𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.4263 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.426264754702098, 'posterior_entropy': 4.0, 'actual_info_gain': 1.426264754702098, 'expected_info_gain': 2.606238593566283}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MINGS with entropy: 1.6494
+Bot chose: MINGS with entropy: 1.6494
+Top ten guesses: [('MINGS', 1.6493974703476992), ('SINGS', 1.6493974703476992), ('HINGS', 1.5306390622295665), ('ZINGS', 1.5306390622295665), ('BINGS', 1.271782221599798), ('GINGS', 1.271782221599798), ('JINGS', 1.271782221599798), ('PINGS', 1.271782221599798), ('WINGS', 1.271782221599798), ('MINIS', 1.186278124459133)]
+
+Guess: 𝙈𝙄𝙉𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 1.6781 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.6780719051126378, 'expected_info_gain': 1.6493974703476992}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CINQS with entropy: 1.3710
+Bot chose: SINUS with entropy: 1.3710
+Top ten guesses: [('CINQS', 1.3709505944546687), ('SINHS', 1.3709505944546687), ('SINUS', 1.3709505944546687), ('ZINCS', 1.3709505944546687), ('FINIS', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙇𝙄𝙊𝙉𝙎, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 9.811, Expected Info Gain: 4.574 bits, Actual Info Gain: 4.384 bits, Posterior Entropy: 5.426, 
+Guess: 𝙆𝙄𝙉𝘿𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.426, Expected Info Gain: 2.606 bits, Actual Info Gain: 1.426 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙄𝙉𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 1.649 bits, Actual Info Gain: 1.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝙄𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.0481 bits
+Posterior entropy: 9.810571634741146
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.810571634741146, 'actual_info_gain': 4.04808934998163, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 499 potential guesses from 898 remaining candidates...
+Top 5 guesses: [('COULD', '4.941'), ('DOING', '4.791'), ('BUILD', '4.767'), ('WOULD', '4.731'), ('FOUND', '4.731')]
+Top entropy choice: 𝘾𝙊𝙐𝙇𝘿 with entropy: 4.9408
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙇𝘿 with entropy: 4.9408
+
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 3.4886 bits
+Posterior entropy: 6.321928094887363
+entropy_info: {'prior_entropy': 9.810571634741146, 'posterior_entropy': 6.321928094887363, 'actual_info_gain': 3.4886435398537836, 'expected_info_gain': 4.940797683169434}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 180 potential guesses from 80 remaining candidates...
+Top 5 guesses: [('MINUS', '3.588'), ('MIGHT', '3.466'), ('MUNIS', '3.306'), ('SINUS', '3.306'), ('NISUS', '3.295')]
+Top entropy choice: 𝙈𝙄𝙉𝙐𝙎 with entropy: 3.5884
+Ended up choosing COMMON word: 𝙈𝙄𝙉𝙐𝙎 with entropy: 3.5884
+
+Guess: 𝙈𝙄𝙉𝙐𝙎, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 6.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.321928094887363, 'posterior_entropy': 0.0, 'actual_info_gain': 6.321928094887363, 'expected_info_gain': 3.5883848916587455}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SINUS', '0.000')]
+Top entropy choice: 𝙎𝙄𝙉𝙐𝙎 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙄𝙉𝙐𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 9.811, Expected Info Gain: 4.941 bits, Actual Info Gain: 3.489 bits, Posterior Entropy: 6.322, 
+Guess: 𝙈𝙄𝙉𝙐𝙎, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 6.322, Expected Info Gain: 3.588 bits, Actual Info Gain: 6.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙄𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙄𝙉𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.0481 bits
+Posterior entropy: 9.810571634741146
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.810571634741146, 'actual_info_gain': 4.04808934998163, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIBBS', 'BIBIS', 'BIDIS', 'BIFFS', 'BIGGS', 'BIGOS', 'BILKS', 'BILLS', 'BINDS', 'BINGS', 'BINKS', 'BIOGS', 'BIONS', 'BISKS', 'BLINS', 'BLIPS', 'BLISS', 'BLOBS', 'BLOCS', 'BLOGS', 'BLOWS', 'BLUBS', 'BLUDS', 'BOBOS', 'BOCKS', 'BOFFS', 'BOGUS', 'BOHOS', 'BOILS', 'BOKOS', 'BOLDS', 'BOLKS', 'BOLLS', 'BOLOS', 'BOLUS', 'BOMBS', 'BONDS', 'BONGS', 'BONKS', 'BONUS', 'BOOBS', 'BOOHS', 'BOOKS', 'BOOLS', 'BOOMS', 'BOONS', 'BOSKS', 'BOUKS', 'BOUNS', 'BOWLS', 'BOYFS', 'BOYGS', 'BOYOS', 'BOZOS', 'BUBUS', 'BUCKS', 'BUDIS', 'BUDOS', 'BUFFS', 'BUFOS', 'BUHLS', 'BUIKS', 'BUKOS', 'BULBS', 'BULKS', 'BULLS', 'BUMFS', 'BUMPS', 'BUNDS', 'BUNGS', 'BUNKS', 'BUNNS', 'BUOYS', 'BUSKS', 'CHIBS', 'CHICS', 'CHIKS', 'CHINS', 'CHIPS', 'CHIVS', 'CHOCS', 'CHOGS', 'CHONS', 'CHOPS', 'CHOSS', 'CHOWS', 'CHUBS', 'CHUGS', 'CHUMS', 'CILLS', 'CINQS', 'CIONS', 'CLIPS', 'CLODS', 'CLOGS', 'CLONS', 'CLOPS', 'CLOUS', 'CLOWS', 'CLOYS', 'CLUBS', 'COBBS', 'COCKS', 'COCOS', 'COCUS', 'COFFS', 'COHOS', 'COIFS', 'COILS', 'COINS', 'COLDS', 'COLLS', 'COMBS', 'COMMS', 'COMPS', 'COMUS', 'CONFS', 'CONKS', 'CONNS', 'CONUS', 'COOFS', 'COOKS', 'COOLS', 'COOMS', 'COONS', 'COOPS', 'COUPS', 'COWKS', 'COWLS', 'COWPS', 'CUCKS', 'CUFFS', 'CUIFS', 'CULLS', 'CULMS', 'CUSKS', 'CUSPS', 'DHOLS', 'DHOWS', 'DIBBS', 'DICKS', 'DIDIS', 'DIDOS', 'DIFFS', 'DILLS', 'DIMPS', 'DINGS', 'DINKS', 'DINOS', 'DIOLS', 'DISCS', 'DISKS', 'DIVIS', 'DIVOS', 'DJINS', 'DOCKS', 'DOCOS', 'DOCUS', 'DODOS', 'DOFFS', 'DOJOS', 'DOLLS', 'DOLOS', 'DONGS', 'DOOBS', 'DOOFS', 'DOOKS', 'DOOLS', 'DOOMS', 'DOUCS', 'DOUKS', 'DOUMS', 'DOUPS', 'DOWDS', 'DOWFS', 'DOWLS', 'DOWNS', 'DOWPS', 'DUCKS', 'DUFFS', 'DUFUS', 'DULLS', 'DUMBS', 'DUMPS', 'DUNGS', 'DUNKS', 'DUSKS', 'DYNOS', 'DZHOS', 'FICOS', 'FICUS', 'FIDOS', 'FIDUS', 'FIFIS', 'FIGOS', 'FILKS', 'FILLS', 'FILMS', 'FILOS', 'FINDS', 'FINIS', 'FINKS', 'FINOS', 'FIQHS', 'FISCS', 'FISKS', 'FLICS', 'FLIMS', 'FLIPS', 'FLOBS', 'FLOCS', 'FLOGS', 'FLOPS', 'FLOSS', 'FLOWS', 'FLUBS', 'FOCUS', 'FOGOS', 'FOHNS', 'FOIDS', 'FOILS', 'FOINS', 'FOLDS', 'FOLKS', 'FONDS', 'FOODS', 'FOOLS', 'FOUDS', 'FOULS', 'FOWLS', 'FUCKS', 'FUCUS', 'FUFFS', 'FUGIS', 'FUGUS', 'FUJIS', 'FULLS', 'FUNDS', 'FUNGS', 'FUNIS', 'FUNKS', 'FUSKS', 'GIBUS', 'GILDS', 'GILLS', 'GIMPS', 'GINGS', 'GINKS', 'GISMS', 'GLIBS', 'GLIMS', 'GLOBS', 'GLOMS', 'GLOPS', 'GLOSS', 'GLOWS', 'GLUGS', 'GLUMS', 'GNOWS', 'GOBIS', 'GOBOS', 'GOFFS', 'GOGOS', 'GOJIS', 'GOLDS', 'GOLFS', 'GOLPS', 'GONGS', 'GONKS', 'GONYS', 'GOODS', 'GOOFS', 'GOOGS', 'GOOKS', 'GOOLS', 'GOONS', 'GOOPS', 'GOUKS', 'GOWDS', 'GOWFS', 'GOWKS', 'GOWLS', 'GOWNS', 'GUCKS', 'GUFFS', 'GUIDS', 'GULFS', 'GULLS', 'GULPS', 'GUMPS', 'GUNKS', 'GYMPS', 'GYNOS', 'GYPOS', 'HICKS', 'HIFIS', 'HIGHS', 'HILLS', 'HILUS', 'HINDS', 'HINGS', 'HIOIS', 'HOBOS', 'HOCKS', 'HOCUS', 'HOGGS', 'HOGHS', 'HOGOS', 'HOIKS', 'HOKIS', 'HOLDS', 'HOLKS', 'HOLMS', 'HOLOS', 'HOMOS', 'HONDS', 'HONGS', 'HONKS', 'HOODS', 'HOOFS', 'HOOKS', 'HOONS', 'HOOPS', 'HOUFS', 'HOWFS', 'HOWKS', 'HOWLS', 'HUCKS', 'HUFFS', 'HUHUS', 'HULKS', 'HULLS', 'HUMFS', 'HUMPS', 'HUMUS', 'HUNKS', 'HUSKS', 'HUSOS', 'HWYLS', 'HYMNS', 'HYPOS', 'ICONS', 'IDLIS', 'IDOLS', 'IDYLS', 'IGLUS', 'IGNIS', 'IIWIS', 'IKONS', 'IMBOS', 'IMIDS', 'IMLIS', 'IMPIS', 'INCUS', 'INFOS', 'JHILS', 'JIBBS', 'JIFFS', 'JILLS', 'JINGS', 'JINKS', 'JINNS', 'JISMS', 'JOCKS', 'JOCOS', 'JOHNS', 'JOINS', 'JOLLS', 'JOMOS', 'JONGS', 'JOOKS', 'JOUGS', 'JOUKS', 'JOWLS', 'JUCOS', 'JUDOS', 'JUJUS', 'JUKUS', 'JUMPS', 'JUNKS', 'KHUDS', 'KICKS', 'KILLS', 'KILNS', 'KILOS', 'KILPS', 'KINDS', 'KINGS', 'KINKS', 'KINOS', 'KIPPS', 'KIWIS', 'KLIKS', 'KNOBS', 'KNOPS', 'KNOWS', 'KNUBS', 'KOBOS', 'KOFFS', 'KOHLS', 'KOJIS', 'KOLOS', 'KONKS', 'KOOKS', 'KOPHS', 'KUDOS', 'KUDUS', 'KUFIS', 'KUKUS', 'KUMIS', 'KUMYS', 'KUNDS', 'KUZUS', 'KYBOS', 'KYNDS', 'LICKS', 'LIDOS', 'LILLS', 'LILOS', 'LIMBS', 'LIMNS', 'LIMOS', 'LIMPS', 'LINDS', 'LINGS', 'LINKS', 'LINNS', 'LINOS', 'LIONS', 'LIPOS', 'LISKS', 'LISPS', 'LOBOS', 'LOBUS', 'LOCHS', 'LOCIS', 'LOCKS', 'LOCOS', 'LOCUS', 'LOGOS', 'LOIDS', 'LOINS', 'LOLLS', 'LOLOS', 'LONGS', 'LOOFS', 'LOOKS', 'LOOMS', 'LOONS', 'LOOPS', 'LOUIS', 'LOUNS', 'LOUPS', 'LOWNS', 'LOWPS', 'LUCKS', 'LUDOS', 'LUFFS', 'LULLS', 'LULUS', 'LUMPS', 'LUNGS', 'LUNKS', 'LUPUS', 'LUSKS', 'LUSUS', 'LYSIS', 'MICKS', 'MICOS', 'MIDIS', 'MIFFS', 'MIGGS', 'MIHIS', 'MIKOS', 'MILDS', 'MILFS', 'MILKS', 'MILLS', 'MILOS', 'MIMIS', 'MINDS', 'MINGS', 'MINIS', 'MINKS', 'MINOS', 'MINUS', 'MISLS', 'MISOS', 'MIXIS', 'MOBOS', 'MOCHS', 'MOCKS', 'MOCOS', 'MOCUS', 'MODUS', 'MOFOS', 'MOGOS', 'MOHOS', 'MOILS', 'MOJOS', 'MOKIS', 'MOKOS', 'MOKUS', 'MOLDS', 'MOLLS', 'MOLOS', 'MOLYS', 'MOMOS', 'MOMUS', 'MONGS', 'MONKS', 'MONOS', 'MOOBS', 'MOODS', 'MOOKS', 'MOOLS', 'MOONS', 'MOOPS', 'MOPUS', 'MOSKS', 'MOUFS', 'MOULS', 'MOUPS', 'MOYLS', 'MOZOS', 'MUCKS', 'MUCUS', 'MUFFS', 'MUGGS', 'MUGOS', 'MUIDS', 'MUILS', 'MULLS', 'MUMMS', 'MUMPS', 'MUMUS', 'MUNDS', 'MUNGS', 'MUNIS', 'MUNJS', 'MUONS', 'MUSKS', 'MUSOS', 'MYONS', 'MYOPS', 'MYXOS', 'NICKS', 'NIDUS', 'NIFFS', 'NIGHS', 'NILLS', 'NIMBS', 'NIMPS', 'NISUS', 'NMOLS', 'NOCKS', 'NODUS', 'NOGGS', 'NOILS', 'NOLLS', 'NOLOS', 'NOMOS', 'NONGS', 'NONIS', 'NOOBS', 'NOOIS', 'NOOKS', 'NOONS', 'NOOPS', 'NOUGS', 'NOULS', 'NOUNS', 'NOUPS', 'NOWDS', 'NOWLS', 'NUFFS', 'NULLS', 'NUMBS', 'NUMPS', 'NUNKS', 'NUNUS', 'OBBOS', 'OBOLS', 'ODUMS', 'ODYLS', 'OICKS', 'OINKS', 'OLIOS', 'OMBUS', 'OMOVS', 'OMULS', 'ONCUS', 'ONKUS', 'OOIDS', 'OPPOS', 'OULKS', 'OUPHS', 'OUZOS', 'OXIDS', 'OXIMS', 'PHONS', 'PHUBS', 'PICKS', 'PIKIS', 'PILIS', 'PILLS', 'PILUS', 'PIMPS', 'PINDS', 'PINGS', 'PINKS', 'PIONS', 'PIOUS', 'PIOYS', 'PIPIS', 'PISOS', 'PIUMS', 'PIVOS', 'PLIGS', 'PLIMS', 'PLIPS', 'PLODS', 'PLOPS', 'PLOWS', 'PLOYS', 'PLUDS', 'PLUGS', 'PLUMS', 'PLUPS', 'POCKS', 'PODOS', 'PODUS', 'POGOS', 'POLIS', 'POLKS', 'POLLS', 'POLOS', 'POLYS', 'POMOS', 'POMPS', 'PONDS', 'PONGS', 'PONKS', 'POODS', 'POOFS', 'POOHS', 'POOKS', 'POOLS', 'POONS', 'POOPS', 'POPOS', 'POUFS', 'POUIS', 'POUKS', 'POVOS', 'POWIS', 'POWNS', 'PUBIS', 'PUCKS', 'PUDUS', 'PUFFS', 'PUKUS', 'PULIS', 'PULKS', 'PULLS', 'PULPS', 'PULUS', 'PUMPS', 'PUNGS', 'PUNKS', 'PUPUS', 'PYINS', 'PYXIS', 'QOPHS', 'QUIBS', 'QUIDS', 'QUIMS', 'QUINS', 'QUIPS', 'QUODS', 'QUOIS', 'QUOPS', 'QUOYS', 'SCOGS', 'SCOPS', 'SCOWS', 'SCUDS', 'SCUGS', 'SCULS', 'SCUMS', 'SCUPS', 'SHIMS', 'SHINS', 'SHIPS', 'SHIVS', 'SHOGS', 'SHOOS', 'SHOPS', 'SHOWS', 'SHULS', 'SHUNS', 'SIBBS', 'SICKS', 'SIGHS', 'SIGNS', 'SIJOS', 'SILDS', 'SILKS', 'SILLS', 'SILOS', 'SIMIS', 'SIMPS', 'SINDS', 'SINGS', 'SINHS', 'SINKS', 'SINUS', 'SKIDS', 'SKIMS', 'SKINS', 'SKIOS', 'SKIPS', 'SKOFS', 'SKOGS', 'SKOLS', 'SKUGS', 'SKYFS', 'SLIMS', 'SLIPS', 'SLOBS', 'SLOGS', 'SLOPS', 'SLOWS', 'SLUBS', 'SLUGS', 'SLUMS', 'SMOGS', 'SMUGS', 'SNIBS', 'SNIGS', 'SNIPS', 'SNOBS', 'SNODS', 'SNOGS', 'SNOWS', 'SNUBS', 'SNUGS', 'SOCKS', 'SOILS', 'SOJUS', 'SOLDS', 'SOLOS', 'SOLUS', 'SONGS', 'SOOKS', 'SOOLS', 'SOOMS', 'SOOPS', 'SOPHS', 'SOUKS', 'SOULS', 'SOUMS', 'SOUPS', 'SOWFS', 'SOWLS', 'SOWMS', 'SOWPS', 'SPICS', 'SPIFS', 'SPIKS', 'SPIMS', 'SPINS', 'SPIVS', 'SPODS', 'SPUDS', 'SPUGS', 'SUCKS', 'SUDDS', 'SUGHS', 'SUGOS', 'SUIDS', 'SUKHS', 'SUKIS', 'SULKS', 'SULLS', 'SULUS', 'SUMIS', 'SUMOS', 'SUMPS', 'SUNIS', 'SUNKS', 'SUNNS', 'SUSUS', 'SWIGS', 'SWIMS', 'SWISS', 'SWOBS', 'SWOPS', 'SYLIS', 'SYNCS', 'SYNDS', 'SYPHS', 'UDONS', 'ULMOS', 'UMBOS', 'UMPHS', 'UNCOS', 'UNCUS', 'UNDOS', 'UNIOS', 'UPDOS', 'VICUS', 'VIFFS', 'VILLS', 'VINOS', 'VIOLS', 'VIVOS', 'VLOGS', 'VOIDS', 'VOIPS', 'VOLKS', 'VUGGS', 'VUGHS', 'VULNS', 'WHIDS', 'WHIGS', 'WHIMS', 'WHINS', 'WHIOS', 'WHIPS', 'WHISS', 'WHOPS', 'WHOWS', 'WHUPS', 'WICKS', 'WIKIS', 'WILDS', 'WILIS', 'WILLS', 'WIMPS', 'WINDS', 'WINGS', 'WINKS', 'WINNS', 'WINOS', 'WISPS', 'WOCKS', 'WOJUS', 'WOLDS', 'WOLFS', 'WOMBS', 'WONKS', 'WOODS', 'WOOFS', 'WOOLS', 'WOONS', 'WOOPS', 'WUDUS', 'WUFFS', 'WULLS', 'WYNDS', 'WYNNS', 'XOLOS', 'YILLS', 'YLIDS', 'YOCKS', 'YODHS', 'YOGHS', 'YOGIS', 'YOLKS', 'YOLPS', 'YOMPS', 'YONIS', 'YONKS', 'YOOFS', 'YOOPS', 'YOPOS', 'YOUKS', 'YOWLS', 'YOYOS', 'YUCKS', 'YUKOS', 'YUMPS', 'YUZUS', 'ZIFFS', 'ZILLS', 'ZIMBS', 'ZINCS', 'ZINGS', 'ZINOS', 'ZOBOS', 'ZOBUS', 'ZONKS', 'ZOOKS', 'ZOOMS', 'ZOONS', 'ZOUKS', 'ZULUS']
+898 candidate words remaining.
+Top 10 guesses: [('PILON', '5.176'), ('PINOL', '5.127'), ('LOUND', '5.104'), ('NOULD', '5.095'), ('MOULD', '5.068'), ('PLOUK', '5.067'), ('COLIN', '5.024'), ('POILU', '5.021'), ('NMOLI', '5.014'), ('LOKUM', '5.007')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.1762
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙇𝙊𝙉 with entropy: 5.1762
+
+Guess: 𝙋𝙄𝙇𝙊𝙉, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 4.4183 bits
+Posterior entropy: 5.392317422778761
+entropy_info: {'prior_entropy': 9.810571634741146, 'posterior_entropy': 5.392317422778761, 'actual_info_gain': 4.4182542119623855, 'expected_info_gain': 5.176180808335691}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BINDS', 'BINGS', 'BINKS', 'CINQS', 'DINGS', 'DINKS', 'FINDS', 'FINIS', 'FINKS', 'GINGS', 'GINKS', 'HINDS', 'HINGS', 'JINGS', 'JINKS', 'JINNS', 'KINDS', 'KINGS', 'KINKS', 'MINDS', 'MINGS', 'MINIS', 'MINKS', 'MINUS', 'NICKS', 'NIDUS', 'NIFFS', 'NIGHS', 'NIMBS', 'NISUS', 'SIGNS', 'SINDS', 'SINGS', 'SINHS', 'SINKS', 'SINUS', 'WINDS', 'WINGS', 'WINKS', 'WINNS', 'ZINCS', 'ZINGS']
+42 candidate words remaining.
+Top 10 guesses: [('DUMKA', '2.925'), ('DUMKY', '2.925'), ('GUNKS', '2.914'), ('GUNKY', '2.914'), ('KEDGE', '2.912'), ('KEDGY', '2.912'), ('KIDGE', '2.912'), ('DUSKS', '2.907'), ('SKUGS', '2.901'), ('MUDGE', '2.875')]
+Top entropy choice: 𝘿𝙐𝙈𝙆𝘼 with entropy: 2.9254
+
+Guess: 𝘿𝙐𝙈𝙆𝘼, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.392317422778761, 'posterior_entropy': 1.0, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 2.925421221006456}
+----------
+The bot is making a guess...
+THe possible candidates are: ['NISUS', 'SINUS']
+2 candidate words remaining.
+Top 10 guesses: [('NISUS', '1.000'), ('SINUS', '1.000')]
+Top entropy choice: 𝙉𝙄𝙎𝙐𝙎 with entropy: 1.0000
+Guess count high, choosing a candidate with the highest entropy: 𝙎𝙄𝙉𝙐𝙎 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 9.811, 
+Guess: 𝙋𝙄𝙇𝙊𝙉, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.811, Expected Info Gain: 5.176 bits, Actual Info Gain: 4.418 bits, Posterior Entropy: 5.392, 
+Guess: 𝘿𝙐𝙈𝙆𝘼, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 5.392, Expected Info Gain: 2.925 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙄𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

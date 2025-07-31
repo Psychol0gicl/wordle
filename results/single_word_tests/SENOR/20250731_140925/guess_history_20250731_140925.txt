@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙀𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝙍𝙊𝙐𝙎𝙀, Feedback: 🟨🟨⬜🟨🟨
+Guess: 𝙎𝙀𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙀𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 4.728 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 4.728 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 5.728, Expected Info Gain: 3.755 bits, Actual Info Gain: 4.728 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙉𝙊𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙋𝙊𝙄𝙍𝙀, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 5.728, Expected Info Gain: 4.122 bits, Actual Info Gain: 3.406 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙇𝘿𝙀𝙍, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 2.322, Expected Info Gain: 4.122 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙉𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

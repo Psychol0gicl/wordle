@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙑𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+entropy_info: None
+----------
+The bot originally chose: BASER 
+The top ten guesses and scores: [('BASER', 69), ('SABER', 69), ('CASER', 68), ('LASER', 68), ('MASER', 68), ('RASED', 68), ('SAFER', 68), ('SAGER', 68), ('SAKER', 68), ('SANER', 68)]
+The bot finally chose: SABER 
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SAFER 
+The top ten guesses and scores: [('SAFER', 34), ('SAGER', 34), ('SAKER', 34), ('SANER', 34), ('SAVER', 34), ('SAWER', 34), ('SAYER', 34), ('SASER', 33)]
+The bot finally chose: SAFER 
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SAGER 
+The top ten guesses and scores: [('SAGER', 30), ('SAKER', 30), ('SANER', 30), ('SAVER', 30), ('SAWER', 30), ('SAYER', 30), ('SASER', 29)]
+The bot finally chose: SAVER 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙎𝘼𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BASER with entropy: 1.8024
+Bot chose: SABER with entropy: 1.7744
+Top ten guesses: [('BASER', 1.8024212838293647), ('SABER', 1.7743974703476992), ('CASER', 1.5306390622295665), ('EASER', 1.5306390622295665), ('LASER', 1.5306390622295665), ('MASER', 1.5306390622295665), ('RASED', 1.5306390622295665), ('RASER', 1.5306390622295665), ('SAFER', 1.5306390622295665), ('SAGER', 1.5306390622295665)]
+
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7743974703476992}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAFER with entropy: 0.5436
+Bot chose: SAFER with entropy: 0.5436
+Top ten guesses: [('SAFER', 0.5435644431995964), ('SAGER', 0.5435644431995964), ('SAKER', 0.5435644431995964), ('SANER', 0.5435644431995964), ('SASER', 0.5435644431995964), ('SAVER', 0.5435644431995964), ('SAWER', 0.5435644431995964), ('SAYER', 0.5435644431995964)]
+
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAGER with entropy: 0.5917
+Bot chose: SAVER with entropy: 0.5917
+Top ten guesses: [('SAGER', 0.5916727785823275), ('SAKER', 0.5916727785823275), ('SANER', 0.5916727785823275), ('SASER', 0.5916727785823275), ('SAVER', 0.5916727785823275), ('SAWER', 0.5916727785823275), ('SAYER', 0.5916727785823275)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.774 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘼𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BASER with entropy: 1.8024
+Bot chose: SABER with entropy: 1.7744
+Top ten guesses: [('BASER', 1.8024212838293647), ('SABER', 1.7743974703476992), ('CASER', 1.5306390622295665), ('EASER', 1.5306390622295665), ('LASER', 1.5306390622295665), ('MASER', 1.5306390622295665), ('RASED', 1.5306390622295665), ('RASER', 1.5306390622295665), ('SAFER', 1.5306390622295665), ('SAGER', 1.5306390622295665)]
+
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7743974703476992}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAFER with entropy: 0.5436
+Bot chose: SAFER with entropy: 0.5436
+Top ten guesses: [('SAFER', 0.5435644431995964), ('SAGER', 0.5435644431995964), ('SAKER', 0.5435644431995964), ('SANER', 0.5435644431995964), ('SASER', 0.5435644431995964), ('SAVER', 0.5435644431995964), ('SAWER', 0.5435644431995964), ('SAYER', 0.5435644431995964)]
+
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAGER with entropy: 0.5917
+Bot chose: SAVER with entropy: 0.5917
+Top ten guesses: [('SAGER', 0.5916727785823275), ('SAKER', 0.5916727785823275), ('SANER', 0.5916727785823275), ('SASER', 0.5916727785823275), ('SAVER', 0.5916727785823275), ('SAWER', 0.5916727785823275), ('SAYER', 0.5916727785823275)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.774 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘼𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('BASER', '1.802'), ('SABER', '1.774'), ('CASER', '1.531'), ('EASER', '1.531'), ('LASER', '1.531')]
+Top entropy choice: 𝘽𝘼𝙎𝙀𝙍 with entropy: 1.8024
+Ended up choosing COMMON word: 𝙎𝘼𝘽𝙀𝙍 with entropy: 1.7744
+
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.7743974703476992}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('SAFER', '0.544'), ('SAGER', '0.544'), ('SAKER', '0.544'), ('SANER', '0.544'), ('SASER', '0.544')]
+Top entropy choice: 𝙎𝘼𝙁𝙀𝙍 with entropy: 0.5436
+Ended up choosing COMMON word: 𝙎𝘼𝙁𝙀𝙍 with entropy: 0.5436
+
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('SAGER', '0.592'), ('SAKER', '0.592'), ('SANER', '0.592'), ('SASER', '0.592'), ('SAVER', '0.592')]
+Top entropy choice: 𝙎𝘼𝙂𝙀𝙍 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙎𝘼𝙑𝙀𝙍 with entropy: 0.5917
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝘼𝘽𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.774 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙁𝙀𝙍, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝘼𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙑𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BASER', 'CASER', 'EASER', 'LASER', 'MASER', 'RASED', 'RASER', 'SABER', 'SAFER', 'SAGER', 'SAKER', 'SANER', 'SASER', 'SAVER', 'SAWER', 'SAYER']
+16 candidate words remaining.
+Top 10 guesses: [('BASKS', '2.061'), ('BASSY', '2.061'), ('BISKS', '2.061'), ('BOSKS', '2.061'), ('BOSSY', '2.061'), ('BUSKS', '2.061'), ('BYSSI', '2.061'), ('SNABS', '2.061'), ('SNEBS', '2.061'), ('SNIBS', '2.061')]
+Top entropy choice: 𝘽𝘼𝙎𝙆𝙎 with entropy: 2.0613
+Guess count low, choosing the word with highest entropy: 𝘽𝘼𝙎𝙆𝙎 with entropy: 2.0613
+
+Guess: 𝘽𝘼𝙎𝙆𝙎, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 2.061278124459133}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SAFER', 'SAGER', 'SANER', 'SAVER', 'SAWER', 'SAYER']
+6 candidate words remaining.
+Top 10 guesses: [('FAWNY', '2.252'), ('VYING', '2.252'), ('WINGY', '2.252'), ('FAGIN', '1.792'), ('FANGA', '1.792'), ('FANGO', '1.792'), ('FANGS', '1.792'), ('FEIGN', '1.792'), ('FLING', '1.792'), ('FLONG', '1.792')]
+Top entropy choice: 𝙁𝘼𝙒𝙉𝙔 with entropy: 2.2516
+Using common exploratory word: 𝙑𝙔𝙄𝙉𝙂 with entropy: 2.2516
+
+Guess: 𝙑𝙔𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.061278124459133}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SAVER']
+1 candidate words remaining.
+Top 10 guesses: [('SAVER', '0.000')]
+Top entropy choice: 𝙎𝘼𝙑𝙀𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝘼𝙑𝙀𝙍 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝘼𝙎𝙆𝙎, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 2.061 bits, Actual Info Gain: 1.415 bits, Posterior Entropy: 2.585, 
+Guess: 𝙑𝙔𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 2.061 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙑𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

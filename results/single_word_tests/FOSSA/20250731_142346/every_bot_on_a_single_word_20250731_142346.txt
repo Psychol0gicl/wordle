@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙊𝙎𝙎𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HILSA 
+The top ten guesses and scores: [('HILSA', 593), ('PLASH', 585), ('SPAIL', 583), ('SPIAL', 583), ('SHALM', 581), ('MISAL', 579), ('SLAIN', 579), ('SNAIL', 579), ('CLASH', 577), ('SCAIL', 575)]
+The bot finally chose: SLAIN 
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟨⬜🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MUSHA 
+The top ten guesses and scores: [('MUSHA', 54), ('OSHAC', 54), ('DOSHA', 53), ('PHYSA', 53), ('YOWSA', 53), ('ABYSM', 51), ('MUSCA', 51), ('POSCA', 51), ('PSHAW', 51), ('ADSUM', 50)]
+The bot finally chose: MUSHA 
+Guess: 𝙈𝙐𝙎𝙃𝘼, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: POSCA 
+The top ten guesses and scores: [('POSCA', 13), ('BOSSA', 12), ('FOSSA', 12)]
+The bot finally chose: FOSSA 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟨⬜🟨⬜⬜
+Guess: 𝙈𝙐𝙎𝙃𝘼, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝙁𝙊𝙎𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙊𝙎𝙎𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MUSHA with entropy: 3.5778
+Bot chose: ASSAM with entropy: 3.3750
+Top ten guesses: [('MUSHA', 3.577819531114783), ('BOSSA', 3.5), ('PHYSA', 3.5), ('YOWSA', 3.5), ('MUSCA', 3.452819531114783), ('ASSAM', 3.375), ('FOSSA', 3.375), ('DOSHA', 3.327819531114783), ('ABYSM', 3.125), ('ASSAY', 3.125)]
+
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.375}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOSSA with entropy: 1.0000
+Bot chose: FOSSA with entropy: 1.0000
+Top ten guesses: [('BOSSA', 1.0), ('FOSSA', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.375 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙎𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙎𝙎𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MUSHA with entropy: 3.5778
+Bot chose: ASSAM with entropy: 3.3750
+Top ten guesses: [('MUSHA', 3.577819531114783), ('BOSSA', 3.5), ('PHYSA', 3.5), ('YOWSA', 3.5), ('MUSCA', 3.452819531114783), ('ASSAM', 3.375), ('FOSSA', 3.375), ('DOSHA', 3.327819531114783), ('ABYSM', 3.125), ('ASSAY', 3.125)]
+
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟨🟨🟩⬜⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.375}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BOSSA with entropy: 1.0000
+Bot chose: FOSSA with entropy: 1.0000
+Top ten guesses: [('BOSSA', 1.0), ('FOSSA', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘼𝙎𝙎𝘼𝙈, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.375 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙎𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙎𝙎𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 291 potential guesses from 192 remaining candidates...
+Top 5 guesses: [('SPAIL', '4.682'), ('SHALM', '4.648'), ('SNAIL', '4.587'), ('SCAIL', '4.568'), ('SHAUL', '4.528')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Ended up choosing COMMON word: 𝙎𝙉𝘼𝙄𝙇 with entropy: 4.5874
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.58736218308801}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('MUSHA', '3.578'), ('BOSSA', '3.500'), ('PHYSA', '3.500'), ('YOWSA', '3.500'), ('MUSCA', '3.453')]
+Top entropy choice: 𝙈𝙐𝙎𝙃𝘼 with entropy: 3.5778
+
+Guess: 𝙈𝙐𝙎𝙃𝘼, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 2.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.415037499278844, 'expected_info_gain': 3.577819531114783}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('BOSSA', '1.585'), ('FOSSA', '1.585'), ('POSCA', '0.918')]
+Top entropy choice: 𝘽𝙊𝙎𝙎𝘼 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙁𝙊𝙎𝙎𝘼 with entropy: 1.5850
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙐𝙎𝙃𝘼, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 3.578 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙊𝙎𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙊𝙎𝙎𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABASH', 'ABASK', 'ABYSM', 'ADSUM', 'AGASP', 'AGISM', 'AGUSH', 'APISH', 'APISM', 'ASADA', 'ASANA', 'ASCON', 'ASDIC', 'ASKOI', 'ASPIC', 'ASSAI', 'ASSAM', 'ASSAY', 'ASWAY', 'ASWIM', 'ASYLA', 'AVISO', 'AWASH', 'BLASH', 'BOSSA', 'CHASM', 'CLASH', 'CLASP', 'DOSAI', 'DOSHA', 'FLASH', 'FLASK', 'FOSSA', 'GNASH', 'GUSLA', 'HILSA', 'KIASU', 'KISAN', 'LYSSA', 'MIASM', 'MISAL', 'MISSA', 'MSASA', 'MUSCA', 'MUSHA', 'NSIMA', 'NYSSA', 'OMASA', 'OSHAC', 'OSSIA', 'OUSIA', 'PHASM', 'PHYSA', 'PLASH', 'PLASM', 'POSCA', 'PSALM', 'PSHAW', 'PSOAI', 'QUASH', 'QUASI', 'SCAFF', 'SCAIL', 'SCALA', 'SCALD', 'SCALL', 'SCALP', 'SCALY', 'SCAMP', 'SCAND', 'SCAPA', 'SCAPI', 'SCAUD', 'SCAUP', 'SCHAV', 'SCHWA', 'SCOPA', 'SCUBA', 'SDAYN', 'SHACK', 'SHADY', 'SHAKA', 'SHAKO', 'SHAKY', 'SHALL', 'SHALM', 'SHALY', 'SHAMA', 'SHAND', 'SHANK', 'SHASH', 'SHAUL', 'SHAWL', 'SHAWM', 'SHAWN', 'SHAYA', 'SHIAI', 'SHIVA', 'SHOAL', 'SHOLA', 'SHUBA', 'SIBIA', 'SIDHA', 'SIGLA', 'SIGMA', 'SIGNA', 'SILVA', 'SIMBA', 'SISAL', 'SKAIL', 'SKALD', 'SKANK', 'SKOAL', 'SLACK', 'SLAID', 'SLAIN', 'SLANG', 'SLANK', 'SLASH', 'SLOAN', 'SLOKA', 'SMAAK', 'SMACK', 'SMAIK', 'SMALL', 'SMALM', 'SMASH', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKY', 'SNASH', 'SOAPY', 'SOCIA', 'SOKAH', 'SOLAH', 'SOLAN', 'SOMAN', 'SPACK', 'SPACY', 'SPADO', 'SPAHI', 'SPAIL', 'SPAIN', 'SPALD', 'SPALL', 'SPANG', 'SPANK', 'SPASM', 'SPAUL', 'SPAWL', 'SPAWN', 'SPAYD', 'SPAZA', 'SPAZZ', 'SPIAL', 'SPICA', 'SPINA', 'SPLAY', 'SPOSA', 'SPYAL', 'SQUAB', 'SQUAD', 'SQUAW', 'SUBAH', 'SUBAK', 'SUBHA', 'SUDAN', 'SUGAN', 'SULFA', 'SUMAC', 'SUMMA', 'SUNNA', 'SUONA', 'SWACK', 'SWAIL', 'SWAIN', 'SWALY', 'SWAMI', 'SWAMP', 'SWAMY', 'SWANG', 'SWANK', 'SWASH', 'SWAYL', 'SYLVA', 'UNSAW', 'UNSAY', 'USUAL', 'VISNA', 'WISHA', 'YOWSA']
+192 candidate words remaining.
+Top 10 guesses: [('SPAIL', '4.682'), ('PLANH', '4.659'), ('SHALM', '4.648'), ('PILCH', '4.602'), ('PLAIN', '4.596'), ('SNAIL', '4.587'), ('MILCH', '4.581'), ('CHOIL', '4.568'), ('SCAIL', '4.568'), ('SHULN', '4.548')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.4975 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 3.497499659470817, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABYSM', 'ADSUM', 'AGUSH', 'ASCON', 'ASSAM', 'ASSAY', 'ASWAY', 'BOSSA', 'DOSHA', 'FOSSA', 'MUSCA', 'MUSHA', 'NYSSA', 'OSHAC', 'UNSAW', 'UNSAY', 'YOWSA']
+17 candidate words remaining.
+Top 10 guesses: [('MUSHY', '3.970'), ('BUSHY', '3.852'), ('MYNAH', '3.852'), ('HUSSY', '3.735'), ('MOSSY', '3.735'), ('MUSSY', '3.735'), ('OUNDY', '3.735'), ('WUSSY', '3.735'), ('ASSAY', '3.690'), ('NYSSA', '3.690')]
+Top entropy choice: 𝙈𝙐𝙎𝙃𝙔 with entropy: 3.9698
+Using common exploratory word: 𝙈𝙐𝙎𝙃𝙔 with entropy: 3.9698
+
+Guess: 𝙈𝙐𝙎𝙃𝙔, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 3.0875 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 1.0, 'actual_info_gain': 3.087462841250339, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BOSSA', 'FOSSA']
+2 candidate words remaining.
+Top 10 guesses: [('BOSSA', '1.000'), ('FOSSA', '1.000')]
+Top entropy choice: 𝘽𝙊𝙎𝙎𝘼 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙊𝙎𝙎𝘼 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 3.497 bits, Posterior Entropy: 4.087, 
+Guess: 𝙈𝙐𝙎𝙃𝙔, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 4.682 bits, Actual Info Gain: 3.087 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙊𝙎𝙎𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

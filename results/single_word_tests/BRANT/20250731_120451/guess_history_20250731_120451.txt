@@ -1,0 +1,53 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜
+Guess: 𝙄𝙉𝙏𝙍𝘼, Feedback: ⬜🟨🟨🟨🟨
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝙁𝙍𝙊𝙉𝙏, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.954, Expected Info Gain: 3.925 bits, Actual Info Gain: 4.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙉𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.904 bits, Posterior Entropy: 5.954, 
+Guess: 𝙊𝙍𝘼𝙉𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.954, Expected Info Gain: 4.041 bits, Actual Info Gain: 4.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

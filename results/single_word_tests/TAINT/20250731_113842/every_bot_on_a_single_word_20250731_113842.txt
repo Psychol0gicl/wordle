@@ -1,0 +1,194 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙄𝙉𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TAKIN 
+The top ten guesses and scores: [('TAKIN', 212), ('TANKY', 212), ('TALON', 210), ('TANGI', 208), ('TANGY', 208), ('TALIK', 205), ('TALKY', 205), ('TAMIN', 205), ('TANGO', 204), ('TAUON', 203)]
+The bot finally chose: TAKIN 
+Guess: 𝙏𝘼𝙆𝙄𝙉, Feedback: 🟩🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: TANGI 
+The top ten guesses and scores: [('TANGI', 15), ('TAINT', 14), ('TANTI', 14)]
+The bot finally chose: TAINT 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙏𝘼𝙆𝙄𝙉, Feedback: 🟩🟩⬜🟨🟨
+Guess: 𝙏𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙄𝙉𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 3.3726
+Bot chose: TANIA with entropy: 3.3726
+Top ten guesses: [('TANIA', 3.3726098843631056), ('TANKA', 3.1656064646147213), ('TAKIN', 2.957339200653236), ('TANTI', 2.9178370138962566), ('TALAK', 2.878361944862846), ('TANGA', 2.8704146939598796), ('TACAN', 2.8294950963268124), ('TANKY', 2.7691463175416366), ('TANTY', 2.726050803939787), ('TAIGA', 2.7238462699470287)]
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨🟨⬜
+Actual Info Gain: 5.9773 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 0.0, 'actual_info_gain': 5.977279923499917, 'expected_info_gain': 3.3726098843631056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAINT with entropy: 0.0000
+Bot chose: TAINT with entropy: 0.0000
+Top ten guesses: [('TAINT', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨🟨⬜, Prior Entropy: 5.977, Expected Info Gain: 3.373 bits, Actual Info Gain: 5.977 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙄𝙉𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TANIA with entropy: 3.3726
+Bot chose: TANIA with entropy: 3.3726
+Top ten guesses: [('TANIA', 3.3726098843631056), ('TANKA', 3.1656064646147213), ('TAKIN', 2.957339200653236), ('TANTI', 2.9178370138962566), ('TALAK', 2.878361944862846), ('TANGA', 2.8704146939598796), ('TACAN', 2.8294950963268124), ('TANKY', 2.7691463175416366), ('TANTY', 2.726050803939787), ('TAIGA', 2.7238462699470287)]
+
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨🟨⬜
+Actual Info Gain: 5.9773 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 0.0, 'actual_info_gain': 5.977279923499917, 'expected_info_gain': 3.3726098843631056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAINT with entropy: 0.0000
+Bot chose: TAINT with entropy: 0.0000
+Top ten guesses: [('TAINT', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙏𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨🟨⬜, Prior Entropy: 5.977, Expected Info Gain: 3.373 bits, Actual Info Gain: 5.977 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙄𝙉𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 163 potential guesses from 63 remaining candidates...
+Top 5 guesses: [('AGAIN', '3.571'), ('FINAL', '3.511'), ('YOUNG', '3.485'), ('TANIA', '3.373'), ('UNTIL', '3.308')]
+Top entropy choice: 𝘼𝙂𝘼𝙄𝙉 with entropy: 3.5705
+Ended up choosing COMMON word: 𝘼𝙂𝘼𝙄𝙉 with entropy: 3.5705
+
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 4.9773 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 1.0, 'actual_info_gain': 4.977279923499917, 'expected_info_gain': 3.5705206570130357}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('TAINT', '1.000'), ('TANTI', '1.000')]
+Top entropy choice: 𝙏𝘼𝙄𝙉𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙏𝘼𝙄𝙉𝙏 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 5.977, Expected Info Gain: 3.571 bits, Actual Info Gain: 4.977 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙄𝙉𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜
+Actual Info Gain: 7.8814 bits
+Posterior entropy: 5.977279923499917
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.977279923499917, 'actual_info_gain': 7.88138106122286, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAATA', 'TABAC', 'TABBY', 'TABID', 'TABLA', 'TABOO', 'TABUN', 'TACAN', 'TACHI', 'TACHO', 'TACIT', 'TACKY', 'TADAH', 'TAFFY', 'TAFIA', 'TAGGY', 'TAGMA', 'TAGUA', 'TAIGA', 'TAIKO', 'TAINT', 'TAKHI', 'TAKHT', 'TAKIN', 'TAKKY', 'TALAK', 'TALAQ', 'TALCY', 'TALIK', 'TALKY', 'TALLY', 'TALMA', 'TALON', 'TALPA', 'TALUK', 'TAMAL', 'TAMIN', 'TAMMY', 'TANGA', 'TANGI', 'TANGO', 'TANGY', 'TANIA', 'TANKA', 'TANKY', 'TANNA', 'TANTI', 'TANTO', 'TANTY', 'TAPPA', 'TATOU', 'TATTY', 'TAULD', 'TAUNT', 'TAUON', 'TAUTY', 'TAVAH', 'TAWAF', 'TAWAI', 'TAWNY', 'TAXOL', 'TAXON', 'TAZZA']
+63 candidate words remaining.
+Top 10 guesses: [('KYLIN', '4.106'), ('LINKY', '3.945'), ('LANAI', '3.896'), ('LIANA', '3.856'), ('COLIN', '3.852'), ('YONIC', '3.810'), ('CONIA', '3.793'), ('LYING', '3.787'), ('INULA', '3.776'), ('CLINK', '3.763')]
+Top entropy choice: 𝙆𝙔𝙇𝙄𝙉 with entropy: 4.1056
+Guess count low, choosing the word with highest entropy: 𝙆𝙔𝙇𝙄𝙉 with entropy: 4.1056
+
+Guess: 𝙆𝙔𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.977279923499917, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 4.105638606067614}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAINT', 'TANGI', 'TANTI']
+3 candidate words remaining.
+Top 10 guesses: [('TAINT', '1.585'), ('TANGI', '1.585'), ('TANTI', '1.585')]
+Top entropy choice: 𝙏𝘼𝙄𝙉𝙏 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙄𝙉𝙏 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.881 bits, Posterior Entropy: 5.977, 
+Guess: 𝙆𝙔𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 5.977, Expected Info Gain: 4.106 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙄𝙉𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

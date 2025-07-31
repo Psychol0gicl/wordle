@@ -1,0 +1,285 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: DATER 
+The top ten guesses and scores: [('DATER', 64), ('LATER', 64), ('MATER', 64), ('RAMET', 64), ('RATED', 64), ('RATEL', 64), ('CATER', 63), ('GATER', 63), ('HATER', 63), ('OATER', 63)]
+The bot finally chose: LATER 
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CATER 
+The top ten guesses and scores: [('CATER', 43), ('DATER', 43), ('GATER', 43), ('HATER', 43), ('MATER', 43), ('OATER', 43), ('PATER', 43), ('WATER', 43), ('EATER', 42), ('RATER', 42)]
+The bot finally chose: CATER 
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: DATER 
+The top ten guesses and scores: [('DATER', 39), ('GATER', 39), ('HATER', 39), ('MATER', 39), ('OATER', 39), ('PATER', 39), ('WATER', 39), ('EATER', 38), ('RATER', 38)]
+The bot finally chose: HATER 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+Guess: 𝙇𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝘼𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RATED with entropy: 1.7383
+Bot chose: RATED with entropy: 1.7383
+Top ten guesses: [('RATED', 1.7382689280764645), ('RATEL', 1.7382689280764645), ('RAMET', 1.6879430945989), ('DATER', 1.5589385323502771), ('LATER', 1.5589385323502771), ('MATER', 1.5589385323502771), ('RATER', 1.4256051990169438), ('WATER', 1.4256051990169438), ('CATER', 1.4256051990169436), ('EATER', 1.4256051990169436)]
+
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7382689280764645}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CATER with entropy: 0.5033
+Bot chose: CATER with entropy: 0.5033
+Top ten guesses: [('CATER', 0.5032583347756457), ('EATER', 0.5032583347756457), ('GATER', 0.5032583347756457), ('HATER', 0.5032583347756457), ('LATER', 0.5032583347756457), ('MATER', 0.5032583347756457), ('OATER', 0.5032583347756457), ('PATER', 0.5032583347756457), ('WATER', 0.5032583347756457)]
+
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1699 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 3.0, 'actual_info_gain': 0.16992500144231215, 'expected_info_gain': 0.5032583347756457}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EATER with entropy: 0.5436
+Bot chose: EATER with entropy: 0.5436
+Top ten guesses: [('EATER', 0.5435644431995964), ('GATER', 0.5435644431995964), ('HATER', 0.5435644431995964), ('LATER', 0.5435644431995964), ('MATER', 0.5435644431995964), ('OATER', 0.5435644431995964), ('PATER', 0.5435644431995964), ('WATER', 0.5435644431995964)]
+
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GATER with entropy: 0.5917
+Bot chose: HATER with entropy: 0.5917
+Top ten guesses: [('GATER', 0.5916727785823275), ('HATER', 0.5916727785823275), ('LATER', 0.5916727785823275), ('MATER', 0.5916727785823275), ('OATER', 0.5916727785823275), ('PATER', 0.5916727785823275), ('WATER', 0.5916727785823275)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.907, Expected Info Gain: 1.738 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.170, 
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 0.503 bits, Actual Info Gain: 0.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝘼𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RATED with entropy: 1.7383
+Bot chose: RATED with entropy: 1.7383
+Top ten guesses: [('RATED', 1.7382689280764645), ('RATEL', 1.7382689280764645), ('RAMET', 1.6879430945989), ('DATER', 1.5589385323502771), ('LATER', 1.5589385323502771), ('MATER', 1.5589385323502771), ('RATER', 1.4256051990169438), ('WATER', 1.4256051990169438), ('CATER', 1.4256051990169436), ('EATER', 1.4256051990169436)]
+
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7382689280764645}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CATER with entropy: 0.5033
+Bot chose: CATER with entropy: 0.5033
+Top ten guesses: [('CATER', 0.5032583347756457), ('EATER', 0.5032583347756457), ('GATER', 0.5032583347756457), ('HATER', 0.5032583347756457), ('LATER', 0.5032583347756457), ('MATER', 0.5032583347756457), ('OATER', 0.5032583347756457), ('PATER', 0.5032583347756457), ('WATER', 0.5032583347756457)]
+
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1699 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 3.0, 'actual_info_gain': 0.16992500144231215, 'expected_info_gain': 0.5032583347756457}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: EATER with entropy: 0.5436
+Bot chose: EATER with entropy: 0.5436
+Top ten guesses: [('EATER', 0.5435644431995964), ('GATER', 0.5435644431995964), ('HATER', 0.5435644431995964), ('LATER', 0.5435644431995964), ('MATER', 0.5435644431995964), ('OATER', 0.5435644431995964), ('PATER', 0.5435644431995964), ('WATER', 0.5435644431995964)]
+
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GATER with entropy: 0.5917
+Bot chose: HATER with entropy: 0.5917
+Top ten guesses: [('GATER', 0.5916727785823275), ('HATER', 0.5916727785823275), ('LATER', 0.5916727785823275), ('MATER', 0.5916727785823275), ('OATER', 0.5916727785823275), ('PATER', 0.5916727785823275), ('WATER', 0.5916727785823275)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.907, Expected Info Gain: 1.738 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.170, 
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 0.503 bits, Actual Info Gain: 0.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝘼𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('RATED', '1.738'), ('RATEL', '1.738'), ('RAMET', '1.688'), ('DATER', '1.559'), ('LATER', '1.559')]
+Top entropy choice: 𝙍𝘼𝙏𝙀𝘿 with entropy: 1.7383
+Ended up choosing COMMON word: 𝙍𝘼𝙏𝙀𝘿 with entropy: 1.7383
+
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7382689280764645}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('CATER', '0.503'), ('EATER', '0.503'), ('GATER', '0.503'), ('HATER', '0.503'), ('LATER', '0.503')]
+Top entropy choice: 𝘾𝘼𝙏𝙀𝙍 with entropy: 0.5033
+Ended up choosing COMMON word: 𝘾𝘼𝙏𝙀𝙍 with entropy: 0.5033
+
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1699 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 3.0, 'actual_info_gain': 0.16992500144231215, 'expected_info_gain': 0.5032583347756457}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('EATER', '0.544'), ('GATER', '0.544'), ('HATER', '0.544'), ('LATER', '0.544'), ('MATER', '0.544')]
+Top entropy choice: 𝙀𝘼𝙏𝙀𝙍 with entropy: 0.5436
+Ended up choosing COMMON word: 𝙀𝘼𝙏𝙀𝙍 with entropy: 0.5436
+
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 0.19264507794239583, 'expected_info_gain': 0.5435644431995964}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('GATER', '0.592'), ('HATER', '0.592'), ('LATER', '0.592'), ('MATER', '0.592'), ('OATER', '0.592')]
+Top entropy choice: 𝙂𝘼𝙏𝙀𝙍 with entropy: 0.5917
+Ended up choosing COMMON word: 𝙃𝘼𝙏𝙀𝙍 with entropy: 0.5917
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝙍𝘼𝙏𝙀𝘿, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 3.907, Expected Info Gain: 1.738 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.170, 
+Guess: 𝘾𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 0.503 bits, Actual Info Gain: 0.170 bits, Posterior Entropy: 3.000, 
+Guess: 𝙀𝘼𝙏𝙀𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 0.544 bits, Actual Info Gain: 0.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝙃𝘼𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙏𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜
+Actual Info Gain: 9.9518 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 9.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CATER', 'DATER', 'EATER', 'GATER', 'HATER', 'LATER', 'MATER', 'OATER', 'PATER', 'RAMET', 'RATED', 'RATEL', 'RATER', 'RAZET', 'WATER']
+15 candidate words remaining.
+Top 10 guesses: [('DOMAL', '2.307'), ('LEMED', '2.307'), ('LOMED', '2.307'), ('MHORR', '2.280'), ('ROMAL', '2.280'), ('MODAL', '2.174'), ('MODEL', '2.174'), ('MODER', '2.174'), ('DOCHT', '2.174'), ('DOLOR', '2.174')]
+Top entropy choice: 𝘿𝙊𝙈𝘼𝙇 with entropy: 2.3069
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙈𝘼𝙇 with entropy: 2.3069
+
+Guess: 𝘿𝙊𝙈𝘼𝙇, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 0.9069 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 3.0, 'actual_info_gain': 0.9068905956085187, 'expected_info_gain': 2.3068905956085186}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CATER', 'EATER', 'GATER', 'HATER', 'PATER', 'RATER', 'RAZET', 'WATER']
+8 candidate words remaining.
+Top 10 guesses: [('RECEP', '2.156'), ('REECH', '2.156'), ('REPEG', '2.156'), ('CHAPT', '2.000'), ('CHARR', '2.000'), ('CHEEP', '2.000'), ('CHEER', '2.000'), ('CHEET', '2.000'), ('CHIRR', '2.000'), ('CHURR', '2.000')]
+Top entropy choice: 𝙍𝙀𝘾𝙀𝙋 with entropy: 2.1556
+Using common exploratory word: 𝙍𝙀𝘾𝙀𝙋 with entropy: 2.1556
+
+Guess: 𝙍𝙀𝘾𝙀𝙋, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 1.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.415037499278844, 'expected_info_gain': 2.3068905956085186}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GATER', 'HATER', 'WATER']
+3 candidate words remaining.
+Top 10 guesses: [('GATER', '0.918'), ('HATER', '0.918'), ('WATER', '0.918')]
+Top entropy choice: 𝙂𝘼𝙏𝙀𝙍 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝘼𝙏𝙀𝙍 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.952 bits, Posterior Entropy: 3.907, 
+Guess: 𝘿𝙊𝙈𝘼𝙇, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 3.907, Expected Info Gain: 2.307 bits, Actual Info Gain: 0.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝙍𝙀𝘾𝙀𝙋, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.307 bits, Actual Info Gain: 1.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝘼𝙏𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

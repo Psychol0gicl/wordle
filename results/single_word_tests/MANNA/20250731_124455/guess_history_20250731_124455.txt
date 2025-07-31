@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙈𝘼𝙉𝙂𝙊, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙈𝘼𝙉𝘿𝙄, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 7.443 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 7.443 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 4.636 bits, Posterior Entropy: 4.392, 
+Guess: 𝙈𝘼𝙉𝙂𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 4.392, Expected Info Gain: 1.736 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 6.443 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 4.781 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

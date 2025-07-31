@@ -1,0 +1,54 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝘼𝙊𝙍𝙏𝘼, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.700, Expected Info Gain: 2.873 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙊𝙍𝙏𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.158 bits, Posterior Entropy: 3.700, 
+Guess: 𝙋𝙄𝙐𝙈𝘼, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 3.700, Expected Info Gain: 3.393 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙊𝙍𝙏𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

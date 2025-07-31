@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙊𝙔𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙈𝙊𝙇𝙐𝙀, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙉𝙊𝘽𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝙊𝙔𝙇𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙊𝙔𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙊𝙔𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙉𝙊𝘽𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 2.742 bits, Actual Info Gain: 1.544 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙊𝙔𝙇𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 1.730 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙊𝙔𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙔𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 4.442 bits, Posterior Entropy: 5.129, 
+Guess: 𝙉𝙊𝘽𝙇𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 2.742 bits, Actual Info Gain: 1.544 bits, Posterior Entropy: 3.585, 
+Guess: 𝙁𝙊𝙔𝙇𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 1.730 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙊𝙔𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙔𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 4.048 bits, Posterior Entropy: 5.524, 
+Guess: 𝙃𝙊𝙇𝙈𝙀, Feedback: 🟩🟩🟨⬜🟩, Prior Entropy: 5.524, Expected Info Gain: 3.395 bits, Actual Info Gain: 5.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙊𝙔𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙔𝙇𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.112 bits, Posterior Entropy: 4.459, 
+Guess: 𝘽𝙊𝙐𝙂𝙃, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 4.459, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙊𝙔𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

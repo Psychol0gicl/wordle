@@ -1,0 +1,63 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙅𝘼𝘿𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙁𝘼𝘿𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙅𝘼𝘿𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙅𝘼𝘿𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝘼𝘿𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝘼𝘿𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙅𝘼𝘿𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝘼𝘿𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝘼𝘿𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙅𝘼𝘿𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 5.644, 
+Guess: 𝙒𝘼𝙉𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.981 bits, Actual Info Gain: 0.889 bits, Posterior Entropy: 4.755, 
+Guess: 𝙁𝘼𝙈𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.755, Expected Info Gain: 1.658 bits, Actual Info Gain: 0.755 bits, Posterior Entropy: 4.000, 
+Guess: 𝙋𝘼𝙑𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 2.250 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝘼𝙆𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙅𝘼𝘿𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 1.943 bits, Posterior Entropy: 5.285, 
+Guess: 𝘾𝙃𝘼𝙈𝙋, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 5.285, Expected Info Gain: 3.832 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 3.700, 
+Guess: 𝙁𝙀𝘿𝙀𝙓, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 3.700, Expected Info Gain: 3.832 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙅𝘼𝘿𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙃𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝙏𝙄𝙈𝙊𝙉, Feedback: 🟩⬜🟨⬜⬜
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙏𝙃𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙃𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙃𝙐𝙈𝙋 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙋𝙄𝙊𝙉𝙔, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.966 bits, Actual Info Gain: 6.508 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙃𝙐𝙈𝙋, Feedback: 🟩🟩🟩🟩🟩
+===================================

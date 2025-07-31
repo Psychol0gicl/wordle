@@ -1,0 +1,218 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝘼𝙍𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: PARED 
+The top ten guesses and scores: [('PARED', 123), ('CARED', 121), ('OARED', 120), ('BARED', 119), ('FARED', 119), ('HARED', 119), ('WARED', 119), ('DARED', 117), ('DARER', 117), ('EARED', 117)]
+The bot finally chose: PARED 
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BARED 
+The top ten guesses and scores: [('BARED', 40), ('CARED', 40), ('FARED', 40), ('HARED', 40), ('OARED', 40), ('WARED', 40), ('DARED', 39), ('EARED', 39), ('RARED', 39)]
+The bot finally chose: BARED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝘼𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝘼𝙍𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARER with entropy: 2.1834
+Bot chose: DARER with entropy: 2.1834
+Top ten guesses: [('DARER', 2.1833828536280686), ('RARED', 2.1037956681979177), ('PARER', 1.8447411335095913), ('CARER', 1.8022788370865521), ('RAREE', 1.8022788370865521), ('PARED', 1.7921594490677157), ('CARED', 1.755913095175825), ('OARER', 1.6832194462630237), ('EARED', 1.664083511770376), ('OARED', 1.6396841518006326)]
+
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 1.9069 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.0, 'actual_info_gain': 1.9068905956085187, 'expected_info_gain': 2.1833828536280686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BARED with entropy: 0.5436
+Bot chose: BARED with entropy: 0.5436
+Top ten guesses: [('BARED', 0.5435644431995964), ('CARED', 0.5435644431995964), ('EARED', 0.5435644431995964), ('FARED', 0.5435644431995964), ('HARED', 0.5435644431995964), ('OARED', 0.5435644431995964), ('PARED', 0.5435644431995964), ('WARED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝘼𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙍𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARER with entropy: 2.1834
+Bot chose: DARER with entropy: 2.1834
+Top ten guesses: [('DARER', 2.1833828536280686), ('RARED', 2.1037956681979177), ('PARER', 1.8447411335095913), ('CARER', 1.8022788370865521), ('RAREE', 1.8022788370865521), ('PARED', 1.7921594490677157), ('CARED', 1.755913095175825), ('OARER', 1.6832194462630237), ('EARED', 1.664083511770376), ('OARED', 1.6396841518006326)]
+
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: 🟨🟩🟩🟩⬜
+Actual Info Gain: 1.9069 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.0, 'actual_info_gain': 1.9068905956085187, 'expected_info_gain': 2.1833828536280686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BARED with entropy: 0.5436
+Bot chose: BARED with entropy: 0.5436
+Top ten guesses: [('BARED', 0.5435644431995964), ('CARED', 0.5435644431995964), ('EARED', 0.5435644431995964), ('FARED', 0.5435644431995964), ('HARED', 0.5435644431995964), ('OARED', 0.5435644431995964), ('PARED', 0.5435644431995964), ('WARED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: 🟨🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝘼𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙍𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('DARER', '2.183'), ('RARED', '2.104'), ('PARER', '1.845'), ('CARER', '1.802'), ('RAREE', '1.802')]
+Top entropy choice: 𝘿𝘼𝙍𝙀𝙍 with entropy: 2.1834
+Ended up choosing COMMON word: 𝘾𝘼𝙍𝙀𝙍 with entropy: 1.8023
+
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.8194 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 0.8194277543581796, 'expected_info_gain': 1.8022788370865521}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('PARED', '1.778'), ('EARED', '1.658'), ('OARED', '1.520'), ('WARED', '1.520'), ('HARED', '1.520')]
+Top entropy choice: 𝙋𝘼𝙍𝙀𝘿 with entropy: 1.7780
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙀𝘿 with entropy: 1.7780
+
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.2801 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.280107919192735, 'expected_info_gain': 1.7779849042597486}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('BARED', '0.592'), ('DARED', '0.592'), ('EARED', '0.592'), ('FARED', '0.592'), ('HARED', '0.592')]
+Top entropy choice: 𝘽𝘼𝙍𝙀𝘿 with entropy: 0.5917
+Ended up choosing COMMON word: 𝘽𝘼𝙍𝙀𝘿 with entropy: 0.5917
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 1.802 bits, Actual Info Gain: 0.819 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 1.778 bits, Actual Info Gain: 1.280 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝘼𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙍𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARED', 'BARER', 'CARED', 'CARER', 'CAREX', 'DARED', 'DARER', 'EARED', 'FARED', 'FARER', 'HARED', 'HAREM', 'KAREE', 'KAREZ', 'LAREE', 'OARED', 'OARER', 'PARED', 'PAREN', 'PAREO', 'PARER', 'PAREU', 'PAREV', 'RARED', 'RAREE', 'RARER', 'VAREC', 'WARED', 'WAREZ', 'YARER']
+30 candidate words remaining.
+Top 10 guesses: [('DOPER', '2.906'), ('PUDOR', '2.853'), ('DECOR', '2.847'), ('COPED', '2.811'), ('CEDER', '2.776'), ('CODER', '2.769'), ('CHODE', '2.708'), ('DOUCE', '2.694'), ('EPHOD', '2.689'), ('POWND', '2.659')]
+Top entropy choice: 𝘿𝙊𝙋𝙀𝙍 with entropy: 2.9064
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙋𝙀𝙍 with entropy: 2.9064
+
+Guess: 𝘿𝙊𝙋𝙀𝙍, Feedback: 🟨⬜⬜🟩🟨
+Actual Info Gain: 2.0995 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.0995356735509145, 'expected_info_gain': 2.9063568479084014}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARED', 'CARED', 'EARED', 'FARED', 'HARED', 'RARED', 'WARED']
+7 candidate words remaining.
+Top 10 guesses: [('REECH', '2.128'), ('BEECH', '2.128'), ('CHEEB', '2.128'), ('REBEC', '2.128'), ('BACHA', '1.664'), ('BACHS', '1.664'), ('BATCH', '1.664'), ('BEACH', '1.664'), ('BEDEW', '1.664'), ('BEEFS', '1.664')]
+Top entropy choice: 𝙍𝙀𝙀𝘾𝙃 with entropy: 2.1281
+Using common exploratory word: 𝘽𝙀𝙀𝘾𝙃 with entropy: 2.1281
+
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.9063568479084014}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARED']
+1 candidate words remaining.
+Top 10 guesses: [('BARED', '0.000')]
+Top entropy choice: 𝘽𝘼𝙍𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝘼𝙍𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝙊𝙋𝙀𝙍, Feedback: 🟨⬜⬜🟩🟨, Prior Entropy: 4.907, Expected Info Gain: 2.906 bits, Actual Info Gain: 2.100 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.906 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝘼𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

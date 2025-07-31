@@ -1,0 +1,281 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝘼𝙆𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HILSA 
+The top ten guesses and scores: [('HILSA', 593), ('PLASH', 585), ('SPAIL', 583), ('SPIAL', 583), ('SHALM', 581), ('MISAL', 579), ('SLAIN', 579), ('SNAIL', 579), ('CLASH', 577), ('SCAIL', 575)]
+The bot finally chose: SLAIN 
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: SCAMP 
+The top ten guesses and scores: [('SCAMP', 99), ('SHACK', 98), ('SPACK', 98), ('SPACY', 97), ('SHAKY', 95), ('SMACK', 95), ('SHAWM', 94), ('SWAMP', 94), ('SCAUP', 92), ('SHADY', 91)]
+The bot finally chose: SHACK 
+Guess: 𝙎𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SHAKO 
+The top ten guesses and scores: [('SHAKO', 14), ('SHAKY', 14), ('SHAKA', 13)]
+The bot finally chose: SHAKY 
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SHAKO 
+The top ten guesses and scores: [('SHAKO', 10), ('SHAKA', 9)]
+The bot finally chose: SHAKA 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟩⬜⬜
+Guess: 𝙎𝙃𝘼𝘾𝙆, Feedback: 🟩🟩🟩⬜🟨
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝙃𝘼𝙆𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙆𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.7270 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.726981505593584, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCAMP with entropy: 3.3402
+Bot chose: SCAMP with entropy: 3.3402
+Top ten guesses: [('SCAMP', 3.340187463024003), ('SPACY', 3.193682288007214), ('SCAPA', 3.0952425303426154), ('SPACK', 3.000246409578358), ('SHAKY', 2.970772169155139), ('SHAMA', 2.9412979287319203), ('SMACK', 2.870093391963967), ('SHACK', 2.8328411346723805), ('SHAYA', 2.8300970190181327), ('SWAMP', 2.8136978049501833)]
+
+Guess: 𝙎𝘾𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.0506 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.0506260730699677, 'expected_info_gain': 3.340187463024003}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAKY with entropy: 2.5216
+Bot chose: SHAKY with entropy: 2.5216
+Top ten guesses: [('SHAKY', 2.5216406363433186), ('SHAKA', 2.2359263506290326), ('SHAYA', 2.2359263506290326), ('SHADY', 2.1280852788913944), ('SHAKO', 1.8423709931771088), ('SHASH', 1.1488348542809166), ('SWASH', 1.1488348542809166)]
+
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.5216406363433186}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAKA with entropy: 1.0000
+Bot chose: SHAKA with entropy: 1.0000
+Top ten guesses: [('SHAKA', 1.0), ('SHAKO', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 2.727 bits, Posterior Entropy: 4.858, 
+Guess: 𝙎𝘾𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.858, Expected Info Gain: 3.340 bits, Actual Info Gain: 2.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝘼𝙆𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙆𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.7270 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.726981505593584, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCAMP with entropy: 3.3402
+Bot chose: SCAMP with entropy: 3.3402
+Top ten guesses: [('SCAMP', 3.340187463024003), ('SPACY', 3.193682288007214), ('SCAPA', 3.0952425303426154), ('SPACK', 3.000246409578358), ('SHAKY', 2.970772169155139), ('SHAMA', 2.9412979287319203), ('SMACK', 2.870093391963967), ('SHACK', 2.8328411346723805), ('SHAYA', 2.8300970190181327), ('SWAMP', 2.8136978049501833)]
+
+Guess: 𝙎𝘾𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.0506 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.0506260730699677, 'expected_info_gain': 3.340187463024003}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAKY with entropy: 2.5216
+Bot chose: SHAKY with entropy: 2.5216
+Top ten guesses: [('SHAKY', 2.5216406363433186), ('SHAKA', 2.2359263506290326), ('SHAYA', 2.2359263506290326), ('SHADY', 2.1280852788913944), ('SHAKO', 1.8423709931771088), ('SHASH', 1.1488348542809166), ('SWASH', 1.1488348542809166)]
+
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.5216406363433186}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAKA with entropy: 1.0000
+Bot chose: SHAKA with entropy: 1.0000
+Top ten guesses: [('SHAKA', 1.0), ('SHAKO', 1.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 2.727 bits, Posterior Entropy: 4.858, 
+Guess: 𝙎𝘾𝘼𝙈𝙋, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.858, Expected Info Gain: 3.340 bits, Actual Info Gain: 2.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝘼𝙆𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙆𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 291 potential guesses from 192 remaining candidates...
+Top 5 guesses: [('SPAIL', '4.682'), ('SHALM', '4.648'), ('SNAIL', '4.587'), ('SCAIL', '4.568'), ('SHAUL', '4.528')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Ended up choosing COMMON word: 𝙎𝙉𝘼𝙄𝙇 with entropy: 4.5874
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.7270 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.726981505593584, 'expected_info_gain': 4.58736218308801}
+----------
+The bot is making a guess...
+Evaluating 29 potential guesses from 29 remaining candidates...
+Top 5 guesses: [('SCAMP', '3.340'), ('SPACY', '3.194'), ('SCAPA', '3.095'), ('SPACK', '3.000'), ('SHAKY', '2.971')]
+Top entropy choice: 𝙎𝘾𝘼𝙈𝙋 with entropy: 3.3402
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙆𝙔 with entropy: 2.9708
+
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.8580 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 1.0, 'actual_info_gain': 3.857980995127572, 'expected_info_gain': 2.970772169155139}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SHAKA', '1.000'), ('SHAKO', '1.000')]
+Top entropy choice: 𝙎𝙃𝘼𝙆𝘼 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙆𝘼 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 2.727 bits, Posterior Entropy: 4.858, 
+Guess: 𝙎𝙃𝘼𝙆𝙔, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 4.858, Expected Info Gain: 2.971 bits, Actual Info Gain: 3.858 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝘼𝙆𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙆𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABASH', 'ABASK', 'ABYSM', 'ADSUM', 'AGASP', 'AGISM', 'AGUSH', 'APISH', 'APISM', 'ASADA', 'ASANA', 'ASCON', 'ASDIC', 'ASKOI', 'ASPIC', 'ASSAI', 'ASSAM', 'ASSAY', 'ASWAY', 'ASWIM', 'ASYLA', 'AVISO', 'AWASH', 'BLASH', 'BOSSA', 'CHASM', 'CLASH', 'CLASP', 'DOSAI', 'DOSHA', 'FLASH', 'FLASK', 'FOSSA', 'GNASH', 'GUSLA', 'HILSA', 'KIASU', 'KISAN', 'LYSSA', 'MIASM', 'MISAL', 'MISSA', 'MSASA', 'MUSCA', 'MUSHA', 'NSIMA', 'NYSSA', 'OMASA', 'OSHAC', 'OSSIA', 'OUSIA', 'PHASM', 'PHYSA', 'PLASH', 'PLASM', 'POSCA', 'PSALM', 'PSHAW', 'PSOAI', 'QUASH', 'QUASI', 'SCAFF', 'SCAIL', 'SCALA', 'SCALD', 'SCALL', 'SCALP', 'SCALY', 'SCAMP', 'SCAND', 'SCAPA', 'SCAPI', 'SCAUD', 'SCAUP', 'SCHAV', 'SCHWA', 'SCOPA', 'SCUBA', 'SDAYN', 'SHACK', 'SHADY', 'SHAKA', 'SHAKO', 'SHAKY', 'SHALL', 'SHALM', 'SHALY', 'SHAMA', 'SHAND', 'SHANK', 'SHASH', 'SHAUL', 'SHAWL', 'SHAWM', 'SHAWN', 'SHAYA', 'SHIAI', 'SHIVA', 'SHOAL', 'SHOLA', 'SHUBA', 'SIBIA', 'SIDHA', 'SIGLA', 'SIGMA', 'SIGNA', 'SILVA', 'SIMBA', 'SISAL', 'SKAIL', 'SKALD', 'SKANK', 'SKOAL', 'SLACK', 'SLAID', 'SLAIN', 'SLANG', 'SLANK', 'SLASH', 'SLOAN', 'SLOKA', 'SMAAK', 'SMACK', 'SMAIK', 'SMALL', 'SMALM', 'SMASH', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKY', 'SNASH', 'SOAPY', 'SOCIA', 'SOKAH', 'SOLAH', 'SOLAN', 'SOMAN', 'SPACK', 'SPACY', 'SPADO', 'SPAHI', 'SPAIL', 'SPAIN', 'SPALD', 'SPALL', 'SPANG', 'SPANK', 'SPASM', 'SPAUL', 'SPAWL', 'SPAWN', 'SPAYD', 'SPAZA', 'SPAZZ', 'SPIAL', 'SPICA', 'SPINA', 'SPLAY', 'SPOSA', 'SPYAL', 'SQUAB', 'SQUAD', 'SQUAW', 'SUBAH', 'SUBAK', 'SUBHA', 'SUDAN', 'SUGAN', 'SULFA', 'SUMAC', 'SUMMA', 'SUNNA', 'SUONA', 'SWACK', 'SWAIL', 'SWAIN', 'SWALY', 'SWAMI', 'SWAMP', 'SWAMY', 'SWANG', 'SWANK', 'SWASH', 'SWAYL', 'SYLVA', 'UNSAW', 'UNSAY', 'USUAL', 'VISNA', 'WISHA', 'YOWSA']
+192 candidate words remaining.
+Top 10 guesses: [('SPAIL', '4.682'), ('PLANH', '4.659'), ('SHALM', '4.648'), ('PILCH', '4.602'), ('PLAIN', '4.596'), ('SNAIL', '4.587'), ('MILCH', '4.581'), ('CHOIL', '4.568'), ('SCAIL', '4.568'), ('SHULN', '4.548')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 2.7270 bits
+Posterior entropy: 4.857980995127572
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 4.857980995127572, 'actual_info_gain': 2.726981505593584, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCAFF', 'SCAND', 'SCAUD', 'SDAYN', 'SHACK', 'SHADY', 'SHAKA', 'SHAKO', 'SHAKY', 'SHAMA', 'SHAND', 'SHANK', 'SHASH', 'SHAWM', 'SHAWN', 'SHAYA', 'SKANK', 'SMAAK', 'SMACK', 'SMASH', 'SNACK', 'SNAFU', 'SNAKY', 'SNASH', 'SWACK', 'SWAMY', 'SWANG', 'SWANK', 'SWASH']
+29 candidate words remaining.
+Top 10 guesses: [('CHUNK', '4.087'), ('CHYND', '3.992'), ('CHANK', '3.949'), ('CHINK', '3.949'), ('KHANA', '3.883'), ('THUNK', '3.854'), ('WHINY', '3.837'), ('HUNKY', '3.828'), ('CHOWK', '3.811'), ('SHONK', '3.785')]
+Top entropy choice: 𝘾𝙃𝙐𝙉𝙆 with entropy: 4.0868
+Using common exploratory word: 𝘾𝙃𝙐𝙉𝙆 with entropy: 4.0868
+
+Guess: 𝘾𝙃𝙐𝙉𝙆, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 3.2730 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.857980995127572, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.273018494406416, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHAKA', 'SHAKO', 'SHAKY']
+3 candidate words remaining.
+Top 10 guesses: [('SHAKA', '0.918'), ('SHAKO', '0.918'), ('SHAKY', '0.918')]
+Top entropy choice: 𝙎𝙃𝘼𝙆𝘼 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙃𝘼𝙆𝘼 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 2.727 bits, Posterior Entropy: 4.858, 
+Guess: 𝘾𝙃𝙐𝙉𝙆, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 4.858, Expected Info Gain: 4.682 bits, Actual Info Gain: 3.273 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙃𝘼𝙆𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

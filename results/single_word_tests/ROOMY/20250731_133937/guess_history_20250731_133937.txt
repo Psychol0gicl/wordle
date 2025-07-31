@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙊𝙊𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟩⬜⬜⬜🟨
+Guess: 𝙍𝙊𝙒𝘿𝙔, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙍𝙊𝘾𝙆𝙔, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙍𝙊𝙊𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙊𝙊𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 4.392, 
+Guess: 𝙁𝙇𝙊𝙊𝙍, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.392, Expected Info Gain: 3.178 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙊𝙊𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙊𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 4.392, 
+Guess: 𝙁𝙇𝙊𝙊𝙍, Feedback: ⬜⬜🟩🟨🟨, Prior Entropy: 4.392, Expected Info Gain: 3.178 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙊𝙊𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙊𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.079 bits, Actual Info Gain: 4.331 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝙊𝙊𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙊𝙈𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.238 bits, Actual Info Gain: 4.331 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙄𝙇𝙆𝙔, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 4.000, Expected Info Gain: 5.238 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙊𝙊𝙈𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

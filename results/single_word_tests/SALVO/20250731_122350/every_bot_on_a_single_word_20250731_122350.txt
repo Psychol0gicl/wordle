@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝙇𝙑𝙊 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: PALSY 
+The top ten guesses and scores: [('PALSY', 415), ('BASIL', 413), ('SADLY', 411), ('SALON', 411), ('SAYON', 411), ('NASHI', 410), ('PANSY', 409), ('BASIN', 407), ('DAISY', 407), ('SABIN', 407)]
+The bot finally chose: PALSY 
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SALIC 
+The top ten guesses and scores: [('SALIC', 35), ('SALIX', 35), ('SALMI', 35), ('SALON', 35), ('SALVO', 35), ('SALOL', 34), ('SALUD', 34), ('SALAD', 33), ('SALAL', 31)]
+The bot finally chose: SALON 
+Guess: 𝙎𝘼𝙇𝙊𝙉, Feedback: 🟩🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SALVO 
+The top ten guesses and scores: [('SALVO', 5)]
+The bot finally chose: SALVO 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝙎𝘼𝙇𝙊𝙉, Feedback: 🟩🟩🟩🟨⬜
+Guess: 𝙎𝘼𝙇𝙑𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝙇𝙑𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 3.8854 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 3.8853574340588777, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALOL with entropy: 2.0588
+Bot chose: SALOL with entropy: 2.0588
+Top ten guesses: [('SALOL', 2.058813890331201), ('SALON', 1.6577427265048887), ('SALOP', 1.6577427265048887), ('SALIC', 1.4466166676282082), ('SALIX', 1.4466166676282082), ('SALVO', 1.3516441151533922), ('SALMI', 1.224394445405986), ('SALLY', 0.9864267287308424), ('SALUD', 0.5032583347756457)]
+
+Guess: 𝙎𝘼𝙇𝙊𝙇, Feedback: 🟩🟩🟩🟨⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.058813890331201}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALVO with entropy: 0.0000
+Bot chose: SALVO with entropy: 0.0000
+Top ten guesses: [('SALVO', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 3.885 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝘼𝙇𝙊𝙇, Feedback: 🟩🟩🟩🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙇𝙑𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙇𝙑𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSA with entropy: 3.7881
+Bot chose: SALSA with entropy: 3.7881
+Top ten guesses: [('SALSA', 3.7880709110231163), ('SANSA', 3.7632100806264432), ('SALPA', 3.7058091558110555), ('SABAL', 3.680062416765036), ('BASAN', 3.6646034774971934), ('SASIN', 3.6523266964108143), ('SAPAN', 3.645094770382716), ('NASAL', 3.633779628103621), ('BALSA', 3.6239335672470885), ('SAMAN', 3.6223180670292936)]
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 3.8854 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 3.8853574340588777, 'expected_info_gain': 3.7880709110231163}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALOL with entropy: 2.0588
+Bot chose: SALOL with entropy: 2.0588
+Top ten guesses: [('SALOL', 2.058813890331201), ('SALON', 1.6577427265048887), ('SALOP', 1.6577427265048887), ('SALIC', 1.4466166676282082), ('SALIX', 1.4466166676282082), ('SALVO', 1.3516441151533922), ('SALMI', 1.224394445405986), ('SALLY', 0.9864267287308424), ('SALUD', 0.5032583347756457)]
+
+Guess: 𝙎𝘼𝙇𝙊𝙇, Feedback: 🟩🟩🟩🟨⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.058813890331201}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALVO with entropy: 0.0000
+Bot chose: SALVO with entropy: 0.0000
+Top ten guesses: [('SALVO', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 3.885 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝘼𝙇𝙊𝙇, Feedback: 🟩🟩🟩🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙇𝙑𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙇𝙑𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 233 potential guesses from 133 remaining candidates...
+Top 5 guesses: [('SALSA', '3.788'), ('SANSA', '3.763'), ('SALPA', '3.706'), ('SABAL', '3.680'), ('BASAN', '3.665')]
+Top entropy choice: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙎𝘼 with entropy: 3.7881
+
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 3.8854 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 3.8853574340588777, 'expected_info_gain': 3.7880709110231163}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('SALOL', '2.059'), ('SALON', '1.658'), ('SALOP', '1.658'), ('SALIC', '1.447'), ('SALIX', '1.447')]
+Top entropy choice: 𝙎𝘼𝙇𝙊𝙇 with entropy: 2.0588
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙊𝙉 with entropy: 1.6577
+
+Guess: 𝙎𝘼𝙇𝙊𝙉, Feedback: 🟩🟩🟩🟨⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 1.6577427265048887}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SALVO', '0.000')]
+Top entropy choice: 𝙎𝘼𝙇𝙑𝙊 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝘼𝙇𝙑𝙊 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 3.885 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝘼𝙇𝙊𝙉, Feedback: 🟩🟩🟩🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 1.658 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝙇𝙑𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝙇𝙑𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 6.8034 bits
+Posterior entropy: 7.05528243550119
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.05528243550119, 'actual_info_gain': 6.803378549221587, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAGSY', 'BAISA', 'BALSA', 'BASAL', 'BASAN', 'BASHA', 'BASHO', 'BASIC', 'BASIJ', 'BASIL', 'BASIN', 'BASON', 'BASSI', 'BASSO', 'BASSY', 'CANSO', 'CASCO', 'CASKY', 'CAUSA', 'DAISY', 'DASHI', 'DASHY', 'FALSY', 'FASCI', 'GADSO', 'GASHY', 'GASPY', 'GASSY', 'GAWSY', 'HALSH', 'HANSA', 'HASHY', 'KASHA', 'LAKSA', 'LASSI', 'LASSO', 'LASSU', 'LASSY', 'LAWSY', 'MANSO', 'MASHA', 'MASHY', 'MASON', 'MASSA', 'MASSY', 'MAUSY', 'NASAL', 'NASHI', 'NASHO', 'NASON', 'OASAL', 'PAISA', 'PALSA', 'PALSY', 'PANSY', 'PASAG', 'PASCH', 'PASHA', 'PASHM', 'PASKA', 'PASMO', 'PASPY', 'PASSU', 'PAYSD', 'SABAL', 'SABHA', 'SABIN', 'SABJI', 'SABZI', 'SADDO', 'SADDY', 'SADHU', 'SADIC', 'SADLY', 'SADZA', 'SAGGY', 'SAGUM', 'SAHAB', 'SAHIB', 'SAICK', 'SAIGA', 'SAJOU', 'SAKAI', 'SAKIA', 'SALAD', 'SALAL', 'SALIC', 'SALIX', 'SALLY', 'SALMI', 'SALOL', 'SALON', 'SALOP', 'SALPA', 'SALSA', 'SALUD', 'SALVO', 'SAMAN', 'SAMBA', 'SAMBO', 'SAMFI', 'SAMFU', 'SAMMY', 'SAMPI', 'SANAD', 'SANDY', 'SANGA', 'SANGH', 'SANGO', 'SANKO', 'SANSA', 'SAOLA', 'SAPAN', 'SAPID', 'SAPPY', 'SASIN', 'SASSY', 'SAUBA', 'SAUCH', 'SAUCY', 'SAUGH', 'SAUNA', 'SAUNF', 'SAVIN', 'SAVOY', 'SAVVY', 'SAWAH', 'SAYID', 'SAYON', 'VASAL', 'WASHI', 'WASHY', 'WASPY']
+133 candidate words remaining.
+Top 10 guesses: [('LYSIN', '4.282'), ('SYBIL', '4.252'), ('LOSSY', '4.134'), ('SHILY', '4.113'), ('SYLIS', '4.112'), ('SONSY', '4.104'), ('SIBYL', '4.099'), ('SPOIL', '4.098'), ('SHINY', '4.092'), ('BYSSI', '4.090')]
+Top entropy choice: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+Guess count low, choosing the word with highest entropy: 𝙇𝙔𝙎𝙄𝙉 with entropy: 4.2816
+
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 3.3548 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 7.05528243550119, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 3.3548427173600976, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BALSA', 'HALSH', 'PALSA', 'SABAL', 'SALAD', 'SALAL', 'SALOL', 'SALOP', 'SALPA', 'SALSA', 'SALUD', 'SALVO', 'SAOLA']
+13 candidate words remaining.
+Top 10 guesses: [('PALLA', '3.181'), ('PULAO', '3.181'), ('SALPA', '3.181'), ('SPODS', '3.085'), ('PALSA', '3.027'), ('PODAL', '3.027'), ('SALAD', '3.027'), ('SALAL', '3.027'), ('SPOIL', '3.027'), ('SPOOL', '3.027')]
+Top entropy choice: 𝙋𝘼𝙇𝙇𝘼 with entropy: 3.1808
+Using common exploratory word: 𝙎𝘼𝙇𝘼𝘿 with entropy: 3.0270
+
+Guess: 𝙎𝘼𝙇𝘼𝘿, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.115477217419936, 'expected_info_gain': 4.281552287338487}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SALOL', 'SALOP', 'SALVO']
+3 candidate words remaining.
+Top 10 guesses: [('SALOL', '1.585'), ('SALOP', '1.585'), ('SALVO', '0.918')]
+Top entropy choice: 𝙎𝘼𝙇𝙊𝙇 with entropy: 1.5850
+Guess count high, choosing a candidate with the highest entropy: 𝙎𝘼𝙇𝙑𝙊 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.355 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝘼𝙇𝘼𝘿, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 4.282 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝘼𝙇𝙑𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

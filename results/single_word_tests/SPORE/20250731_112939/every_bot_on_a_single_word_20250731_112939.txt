@@ -1,0 +1,179 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙋𝙊𝙍𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+entropy_info: None
+----------
+The bot originally chose: ROUSE 
+The top ten guesses and scores: [('ROUSE', 194), ('PROSE', 193), ('SIEUR', 193), ('SPORE', 193), ('PRISE', 192), ('SPEIR', 192), ('SPIRE', 192), ('SHERO', 191), ('SHORE', 191), ('SEHRI', 190)]
+The bot finally chose: ROUSE 
+Guess: 𝙍𝙊𝙐𝙎𝙀, Feedback: 🟨🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SCORE 
+The top ten guesses and scores: [('SCORE', 25), ('SHORE', 25), ('SMORE', 25), ('SNORE', 25), ('SPORE', 25), ('SWORE', 25)]
+The bot finally chose: SCORE 
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SHORE 
+The top ten guesses and scores: [('SHORE', 21), ('SMORE', 21), ('SNORE', 21), ('SPORE', 21), ('SWORE', 21)]
+The bot finally chose: SHORE 
+Guess: 𝙎𝙃𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SMORE 
+The top ten guesses and scores: [('SMORE', 17), ('SNORE', 17), ('SPORE', 17), ('SWORE', 17)]
+The bot finally chose: SNORE 
+Guess: 𝙎𝙉𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SMORE 
+The top ten guesses and scores: [('SMORE', 13), ('SPORE', 13), ('SWORE', 13)]
+The bot finally chose: SPORE 
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝙍𝙊𝙐𝙎𝙀, Feedback: 🟨🟨⬜🟨🟩
+Guess: 𝙎𝘾𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙃𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙉𝙊𝙍𝙀, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPORE with entropy: 3.7551
+Bot chose: SPORE with entropy: 3.7551
+Top ten guesses: [('SPORE', 3.755142317411724), ('SPIRE', 3.7450226445669563), ('ROUSE', 3.728764851200909), ('SPEIR', 3.5981729777895914), ('SCORE', 3.5551182753920387), ('SHORE', 3.5547643811719976), ('SCIRE', 3.5527466335227404), ('SHIRE', 3.5161255146651245), ('RINSE', 3.515933787018347), ('SWORE', 3.507476882555458)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPORE with entropy: 3.7551
+Bot chose: SPORE with entropy: 3.7551
+Top ten guesses: [('SPORE', 3.755142317411724), ('SPIRE', 3.7450226445669563), ('ROUSE', 3.728764851200909), ('SPEIR', 3.5981729777895914), ('SCORE', 3.5551182753920387), ('SHORE', 3.5547643811719976), ('SCIRE', 3.5527466335227404), ('SHIRE', 3.5161255146651245), ('RINSE', 3.515933787018347), ('SWORE', 3.507476882555458)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 153 potential guesses from 53 remaining candidates...
+Top 5 guesses: [('SPORE', '3.755'), ('SPIRE', '3.745'), ('ROUSE', '3.729'), ('HOUSE', '3.702'), ('SPEIR', '3.598')]
+Top entropy choice: 𝙎𝙋𝙊𝙍𝙀 with entropy: 3.7551
+Ended up choosing COMMON word: 𝙎𝙋𝙊𝙍𝙀 with entropy: 3.7551
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙋𝙊𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨
+Actual Info Gain: 8.1307 bits
+Posterior entropy: 5.727920454563199
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.727920454563199, 'actual_info_gain': 8.130740530159578, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRISE', 'BROSE', 'CRISE', 'CRUSE', 'DRUSE', 'EROSE', 'FRESH', 'FRISE', 'GRESE', 'GRISE', 'PRESE', 'PRISE', 'PROSE', 'PRYSE', 'RESID', 'RESIN', 'RESOD', 'RESOL', 'RESOW', 'RESUE', 'REUSE', 'RINSE', 'ROOSE', 'ROUSE', 'RUSSE', 'SCIRE', 'SCORE', 'SEHRI', 'SENOR', 'SEVIR', 'SEXOR', 'SHERD', 'SHERE', 'SHERO', 'SHIRE', 'SHORE', 'SIEUR', 'SKERM', 'SKYRE', 'SMERK', 'SMORE', 'SNORE', 'SPEIR', 'SPERM', 'SPIRE', 'SPORE', 'SPYRE', 'SUCRE', 'SWEIR', 'SWERF', 'SWIRE', 'SWORE', 'USURE']
+53 candidate words remaining.
+Top 10 guesses: [('POIRE', '4.122'), ('PEISE', '4.002'), ('POISE', '3.981'), ('POWIE', '3.865'), ('SHOPE', '3.864'), ('POWRE', '3.842'), ('SPOIL', '3.827'), ('HOISE', '3.820'), ('SWIPE', '3.813'), ('SHISO', '3.812')]
+Top entropy choice: 𝙋𝙊𝙄𝙍𝙀 with entropy: 4.1224
+Guess count low, choosing the word with highest entropy: 𝙋𝙊𝙄𝙍𝙀 with entropy: 4.1224
+
+Guess: 𝙋𝙊𝙄𝙍𝙀, Feedback: 🟨🟨⬜🟩🟩
+Actual Info Gain: 5.7279 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.727920454563199, 'posterior_entropy': 0.0, 'actual_info_gain': 5.727920454563199, 'expected_info_gain': 4.122381135132994}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SPORE']
+1 candidate words remaining.
+Top 10 guesses: [('SPORE', '0.000')]
+Top entropy choice: 𝙎𝙋𝙊𝙍𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙋𝙊𝙍𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.131 bits, Posterior Entropy: 5.728, 
+Guess: 𝙋𝙊𝙄𝙍𝙀, Feedback: 🟨🟨⬜🟩🟩, Prior Entropy: 5.728, Expected Info Gain: 4.122 bits, Actual Info Gain: 5.728 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙋𝙊𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

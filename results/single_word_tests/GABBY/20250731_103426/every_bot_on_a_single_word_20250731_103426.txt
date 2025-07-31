@@ -1,0 +1,261 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MANLY 
+The top ten guesses and scores: [('MANLY', 1420), ('LAYIN', 1361), ('NAILY', 1361), ('MANDY', 1359), ('PALMY', 1354), ('LANKY', 1353), ('MADLY', 1346), ('MANKY', 1343), ('CALMY', 1341), ('BALMY', 1336)]
+The bot finally chose: MANLY 
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CADGY 
+The top ten guesses and scores: [('CADGY', 158), ('BAWDY', 149), ('DAUBY', 146), ('GAUDY', 146), ('PACKY', 146), ('BACKY', 145), ('DAPPY', 143), ('GAWCY', 143), ('PADDY', 143), ('BADDY', 142)]
+The bot finally chose: BAWDY 
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: 🟨🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: CABBY 
+The top ten guesses and scores: [('CABBY', 18), ('FABBY', 18), ('GABBY', 18), ('YABBY', 17)]
+The bot finally chose: GABBY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANIA with entropy: 4.4435
+Bot chose: MANIA with entropy: 4.4435
+Top ten guesses: [('MANIA', 4.4434735467256905), ('MALAI', 4.379759228898698), ('MANLY', 4.378362955235555), ('LANAI', 4.372727333019895), ('MAYAN', 4.3674710337936355), ('CAMAN', 4.342263148392526), ('LAMIA', 4.318254553347223), ('CANAL', 4.317180472021532), ('DAMAN', 4.278426755034213), ('MANGA', 4.268312241406495)]
+
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.0621 bits
+Posterior entropy: 6.965784284662087
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 6.965784284662087, 'actual_info_gain': 2.062121711907798, 'expected_info_gain': 4.4434735467256905}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.4166
+Bot chose: BADLY with entropy: 4.4166
+Top ten guesses: [('BADLY', 4.416591160345745), ('BALDY', 4.381803035980971), ('BALKY', 4.130008213377574), ('CADGY', 4.109390518154578), ('YAULD', 4.058771092603869), ('CAULD', 3.9946410335658076), ('HAPLY', 3.989551358100689), ('GALOP', 3.9535128987759123), ('LACKY', 3.926007294688741), ('WALDO', 3.9240801629610953)]
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.9658 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.965784284662087, 'posterior_entropy': 2.0, 'actual_info_gain': 4.965784284662087, 'expected_info_gain': 4.416591160345745}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CABBY with entropy: 0.8113
+Bot chose: GABBY with entropy: 0.8113
+Top ten guesses: [('CABBY', 0.8112781244591328), ('FABBY', 0.8112781244591328), ('GABBY', 0.8112781244591328), ('YABBY', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 4.966 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MANIA with entropy: 4.4435
+Bot chose: MANIA with entropy: 4.4435
+Top ten guesses: [('MANIA', 4.4434735467256905), ('MALAI', 4.379759228898698), ('MANLY', 4.378362955235555), ('LANAI', 4.372727333019895), ('MAYAN', 4.3674710337936355), ('CAMAN', 4.342263148392526), ('LAMIA', 4.318254553347223), ('CANAL', 4.317180472021532), ('DAMAN', 4.278426755034213), ('MANGA', 4.268312241406495)]
+
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.0621 bits
+Posterior entropy: 6.965784284662087
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 6.965784284662087, 'actual_info_gain': 2.062121711907798, 'expected_info_gain': 4.4434735467256905}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BADLY with entropy: 4.4166
+Bot chose: BADLY with entropy: 4.4166
+Top ten guesses: [('BADLY', 4.416591160345745), ('BALDY', 4.381803035980971), ('BALKY', 4.130008213377574), ('CADGY', 4.109390518154578), ('YAULD', 4.058771092603869), ('CAULD', 3.9946410335658076), ('HAPLY', 3.989551358100689), ('GALOP', 3.9535128987759123), ('LACKY', 3.926007294688741), ('WALDO', 3.9240801629610953)]
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.9658 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.965784284662087, 'posterior_entropy': 2.0, 'actual_info_gain': 4.965784284662087, 'expected_info_gain': 4.416591160345745}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CABBY with entropy: 0.8113
+Bot chose: GABBY with entropy: 0.8113
+Top ten guesses: [('CABBY', 0.8112781244591328), ('FABBY', 0.8112781244591328), ('GABBY', 0.8112781244591328), ('YABBY', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 4.966 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 522 remaining candidates...
+Top 5 guesses: [('LANAI', '4.373'), ('CAMAN', '4.342'), ('LAMIA', '4.318'), ('CANAL', '4.317'), ('DAMAN', '4.278')]
+Top entropy choice: 𝙇𝘼𝙉𝘼𝙄 with entropy: 4.3727
+Ended up choosing COMMON word: 𝘾𝘼𝙉𝘼𝙇 with entropy: 4.3172
+
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.3000 bits
+Posterior entropy: 6.727920454563199
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 6.727920454563199, 'actual_info_gain': 2.299985542006686, 'expected_info_gain': 4.317180472021532}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 205 potential guesses from 106 remaining candidates...
+Top 5 guesses: [('DAMPY', '4.156'), ('PAMBY', '4.092'), ('MAUBY', '4.034'), ('MAPOU', '3.990'), ('GAMBO', '3.944')]
+Top entropy choice: 𝘿𝘼𝙈𝙋𝙔 with entropy: 4.1565
+
+Guess: 𝘿𝘼𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜🟩
+Actual Info Gain: 3.1430 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.727920454563199, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.1429579538420427, 'expected_info_gain': 4.156487677387029}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('BAGGY', '2.752'), ('GABBY', '2.689'), ('BAFFY', '2.585'), ('FAGGY', '2.459'), ('FABBY', '2.355')]
+Top entropy choice: 𝘽𝘼𝙂𝙂𝙔 with entropy: 2.7516
+Ended up choosing COMMON word: 𝘽𝘼𝙂𝙂𝙔 with entropy: 2.7516
+
+Guess: 𝘽𝘼𝙂𝙂𝙔, Feedback: 🟨🟩🟨⬜🟩
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 2.7516291673878226}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('GABBY', '0.000')]
+Top entropy choice: 𝙂𝘼𝘽𝘽𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙂𝘼𝘽𝘽𝙔 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 2.300 bits, Posterior Entropy: 6.728, 
+Guess: 𝘿𝘼𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.143 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝘼𝙂𝙂𝙔, Feedback: 🟨🟩🟨⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 4.8308 bits
+Posterior entropy: 9.027905996569885
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.027905996569885, 'actual_info_gain': 4.830754988152892, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AALII', 'BABBY', 'BABKA', 'BABOO', 'BABUL', 'BACCA', 'BACCO', 'BACCY', 'BACHA', 'BACKY', 'BACON', 'BADAM', 'BADDY', 'BADLY', 'BAFFY', 'BAGGY', 'BAGUA', 'BAIZA', 'BAJAN', 'BALDY', 'BALKY', 'BALLO', 'BALLY', 'BALMY', 'BALOI', 'BALON', 'BALOO', 'BALUN', 'BAMBI', 'BAMMA', 'BAMMY', 'BANAK', 'BANAL', 'BANCO', 'BANDA', 'BANDH', 'BANDY', 'BANIA', 'BANJO', 'BANKY', 'BANYA', 'BAOZI', 'BAPPU', 'BAULK', 'BAVIN', 'BAWDY', 'BAYOU', 'BAZOO', 'CABAL', 'CABBY', 'CABIN', 'CABOB', 'CABOC', 'CACAO', 'CACKY', 'CADDY', 'CADGY', 'CAHOW', 'CAJON', 'CAJUN', 'CALID', 'CALIF', 'CALIX', 'CALLA', 'CALMY', 'CALPA', 'CALYX', 'CAMAN', 'CAMPI', 'CAMPO', 'CAMPY', 'CANAL', 'CANDO', 'CANDY', 'CANID', 'CANNA', 'CANNY', 'CANON', 'CAPAX', 'CAPIZ', 'CAPON', 'CAPUL', 'CAUDA', 'CAULD', 'CAULK', 'CAVIL', 'CAXON', 'DABBA', 'DACHA', 'DADAH', 'DADDY', 'DADLA', 'DAFFY', 'DAGGA', 'DAGGY', 'DAIKO', 'DAILY', 'DALLY', 'DAMAN', 'DAMNA', 'DAMPY', 'DANCY', 'DANDA', 'DANDY', 'DANIO', 'DANNY', 'DAPPY', 'DAUBY', 'DAWAH', 'DAYAL', 'DAYAN', 'DAYCH', 'FABBO', 'FABBY', 'FACIA', 'FADDY', 'FAFFY', 'FAGGY', 'FAGIN', 'FALAJ', 'FANAL', 'FANCY', 'FANGA', 'FANGO', 'FANNY', 'FANON', 'FANUM', 'FAUCH', 'FAUGH', 'FAULD', 'FAUNA', 'FAWNY', 'GABBA', 'GABBY', 'GADDI', 'GADGY', 'GADID', 'GADJO', 'GAILY', 'GALAH', 'GALAX', 'GALIA', 'GALLY', 'GALOP', 'GALVO', 'GAMAY', 'GAMBA', 'GAMBO', 'GAMIC', 'GAMIN', 'GAMMA', 'GAMMY', 'GANCH', 'GANDY', 'GANJA', 'GANOF', 'GAPPY', 'GAUCH', 'GAUCY', 'GAUDY', 'GAUMY', 'GAUZY', 'GAWCY', 'GAWKY', 'GAYAL', 'GAYLY', 'GAZAL', 'GAZON', 'GAZOO', 'HACKY', 'HADAL', 'HADJI', 'HAFIZ', 'HAHAM', 'HAICK', 'HAIKA', 'HAIKU', 'HAILY', 'HAJJI', 'HAKAM', 'HAKIM', 'HALAL', 'HALDI', 'HALFA', 'HALID', 'HALLO', 'HALMA', 'HALON', 'HALVA', 'HALWA', 'HAMAL', 'HAMBA', 'HAMMY', 'HAMZA', 'HANAP', 'HANCH', 'HANDI', 'HANDY', 'HANGI', 'HANKY', 'HAOMA', 'HAPAX', 'HAPLY', 'HAPPI', 'HAPPY', 'HAUGH', 'HAUGO', 'HAULD', 'HAULM', 'HAVAN', 'HAVOC', 'HAZAN', 'IAMBI', 'JACAL', 'JACKY', 'JAFFA', 'JAGGY', 'JALAP', 'JALOP', 'JAMBO', 'JAMBU', 'JAMMY', 'JAMON', 'JAMUN', 'JANKY', 'JANNY', 'JAPAN', 'JAWAN', 'JAZZY', 'KAAMA', 'KABAB', 'KABOB', 'KACHA', 'KADAI', 'KAHAL', 'KAIAK', 'KAIKA', 'KAING', 'KAJAL', 'KALAM', 'KALIF', 'KALPA', 'KALUA', 'KAMIK', 'KANAL', 'KANDY', 'KANGA', 'KANJI', 'KANZU', 'KAPAI', 'KAPHA', 'KAPOK', 'KAPOW', 'KAPPA', 'KAUGH', 'KAVAL', 'KAWAU', 'KAYAK', 'KAZOO', 'LABDA', 'LABIA', 'LACCY', 'LACKA', 'LACKY', 'LADDU', 'LADDY', 'LADOO', 'LAGAN', 'LAGGY', 'LAHAL', 'LAICH', 'LAIGH', 'LAIKA', 'LAKIN', 'LALDY', 'LAMBY', 'LAMIA', 'LAMMY', 'LANAI', 'LANCH', 'LANKY', 'LAPIN', 'LAPPA', 'LAPPY', 'LAUAN', 'LAUCH', 'LAUGH', 'LAUND', 'LAVAL', 'LAVVY', 'LAWIN', 'LAWNY', 'LAXLY', 'LAYBY', 'LAYIN', 'LAYUP', 'LAZZI', 'LAZZO', 'MABAN', 'MACAW', 'MACCA', 'MACHI', 'MACHO', 'MACKA', 'MACON', 'MADAL', 'MADAM', 'MADDY', 'MADID', 'MADLY', 'MAFIA', 'MAFIC', 'MAGIC', 'MAGMA', 'MAGNA', 'MAHAL', 'MAHUA', 'MAHWA', 'MAIKO', 'MAILL', 'MAILO', 'MAKAF', 'MAKAI', 'MAKAN', 'MALAI', 'MALAM', 'MALAX', 'MALIC', 'MALIK', 'MALKY', 'MALMY', 'MALVA', 'MALWA', 'MAMAK', 'MAMBA', 'MAMBO', 'MAMBU', 'MAMIL', 'MAMMA', 'MAMMY', 'MANDI', 'MANDY', 'MANGA', 'MANGI', 'MANGO', 'MANGY', 'MANIA', 'MANIC', 'MANKY', 'MANLY', 'MANNA', 'MANNY', 'MANOA', 'MANUL', 'MANZO', 'MAPAU', 'MAPOU', 'MAPPY', 'MAQAM', 'MAQUI', 'MAUBY', 'MAUKA', 'MAULA', 'MAUMY', 'MAUND', 'MAUVY', 'MAUZY', 'MAVIN', 'MAWKY', 'MAWLA', 'MAXIM', 'MAYAN', 'MAZAC', 'MAZAK', 'NABAM', 'NABBY', 'NABLA', 'NABOB', 'NACHO', 'NAGGY', 'NAHAL', 'NAIAD', 'NAILY', 'NAJIB', 'NAKFA', 'NALLA', 'NAMAD', 'NAMAK', 'NAMAZ', 'NAMMA', 'NANCY', 'NANDU', 'NANNA', 'NANNY', 'NANUA', 'NAPOH', 'NAPOO', 'NAPPA', 'NAPPY', 'NAUCH', 'NAVAL', 'NAVVY', 'NAWAB', 'NAWAL', 'NAZZY', 'OAKUM', 'PAAHO', 'PACAI', 'PACAY', 'PACHA', 'PACKY', 'PADAM', 'PADDO', 'PADDY', 'PADMA', 'PADOU', 'PAGAN', 'PAGOD', 'PAKAY', 'PAKKA', 'PAKKI', 'PAKUA', 'PAKUL', 'PALAK', 'PALAY', 'PALKI', 'PALLA', 'PALLU', 'PALLY', 'PALMY', 'PALPI', 'PAMBY', 'PAMPA', 'PANAX', 'PANCH', 'PANDA', 'PANDY', 'PANGA', 'PANIC', 'PANIM', 'PANKO', 'PANNA', 'PANNI', 'PANNY', 'PAOLI', 'PAOLO', 'PAPAD', 'PAPAL', 'PAPAW', 'PAPPI', 'PAPPY', 'PAUXI', 'PAVAN', 'PAVID', 'PAVIN', 'PAVON', 'PAVVY', 'PAWAW', 'PAWKY', 'QAJAQ', 'QAPIK', 'VACAY', 'VACUA', 'VACUI', 'VACUO', 'VAGAL', 'VAKIL', 'VALID', 'VALLI', 'VAMPY', 'VANDA', 'VANGA', 'VAPID', 'VAUCH', 'WACKO', 'WACKY', 'WADDY', 'WAGGA', 'WAGON', 'WAGYU', 'WAHAY', 'WAHOO', 'WALDO', 'WALLA', 'WALLY', 'WANKY', 'WANLY', 'WANNA', 'WAUFF', 'WAUGH', 'WAULK', 'WAZOO', 'YABBA', 'YABBY', 'YACCA', 'YACKA', 'YADDA', 'YAGNA', 'YAHOO', 'YAJNA', 'YAKKA', 'YAKOW', 'YAMPA', 'YAMPY', 'YAMUN', 'YANDY', 'YAPOK', 'YAPON', 'YAPPY', 'YAULD', 'YAWNY', 'ZAIDA', 'ZAIDY', 'ZAMAC', 'ZAMAK', 'ZAMAN', 'ZAMBO', 'ZAMIA', 'ZANJA', 'ZANZA', 'ZAPPY', 'ZAYIN']
+522 candidate words remaining.
+Top 10 guesses: [('MINCY', '4.781'), ('LINDY', '4.711'), ('MILKY', '4.698'), ('KYLIN', '4.687'), ('LINKY', '4.677'), ('MINGY', '4.632'), ('PYLON', '4.632'), ('MOLDY', '4.626'), ('DIMLY', '4.626'), ('LINGY', '4.613')]
+Top entropy choice: 𝙈𝙄𝙉𝘾𝙔 with entropy: 4.7811
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝘾𝙔 with entropy: 4.7811
+
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 3.3555 bits
+Posterior entropy: 5.672425341971495
+entropy_info: {'prior_entropy': 9.027905996569885, 'posterior_entropy': 5.672425341971495, 'actual_info_gain': 3.3554806545983897, 'expected_info_gain': 4.781133838721642}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BABBY', 'BADDY', 'BADLY', 'BAFFY', 'BAGGY', 'BALDY', 'BALKY', 'BALLY', 'BAWDY', 'DADDY', 'DAFFY', 'DAGGY', 'DALLY', 'DAPPY', 'DAUBY', 'FABBY', 'FADDY', 'FAFFY', 'FAGGY', 'GABBY', 'GADGY', 'GALLY', 'GAPPY', 'GAUDY', 'GAUZY', 'GAWKY', 'GAYLY', 'HAPLY', 'HAPPY', 'JAGGY', 'JAZZY', 'LADDY', 'LAGGY', 'LALDY', 'LAPPY', 'LAVVY', 'LAXLY', 'LAYBY', 'PADDY', 'PAKAY', 'PALAY', 'PALLY', 'PAPPY', 'PAVVY', 'PAWKY', 'WADDY', 'WAHAY', 'WALLY', 'YABBY', 'YAPPY', 'ZAPPY']
+51 candidate words remaining.
+Top 10 guesses: [('DUPLE', '3.709'), ('DUPLY', '3.709'), ('GULPH', '3.655'), ('DELPH', '3.616'), ('LABDA', '3.607'), ('GULAB', '3.541'), ('PADLE', '3.536'), ('BADLY', '3.491'), ('BODLE', '3.491'), ('GELDS', '3.485')]
+Top entropy choice: 𝘿𝙐𝙋𝙇𝙀 with entropy: 3.7094
+Using common exploratory word: 𝘽𝘼𝘿𝙇𝙔 with entropy: 3.4914
+
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩
+Actual Info Gain: 4.0875 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.672425341971495, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 4.087462841250339, 'expected_info_gain': 4.781133838721642}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FABBY', 'GABBY', 'YABBY']
+3 candidate words remaining.
+Top 10 guesses: [('FABBY', '0.918'), ('GABBY', '0.918'), ('YABBY', '0.918')]
+Top entropy choice: 𝙁𝘼𝘽𝘽𝙔 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝘼𝘽𝘽𝙔 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 3.355 bits, Posterior Entropy: 5.672, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 5.672, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

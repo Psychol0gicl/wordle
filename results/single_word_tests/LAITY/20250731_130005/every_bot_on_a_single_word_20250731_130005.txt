@@ -1,0 +1,230 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝘼𝙄𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: HAINT 
+The top ten guesses and scores: [('HAINT', 415), ('NATCH', 410), ('HAUNT', 408), ('CANTI', 407), ('CANTY', 402), ('MATIN', 400), ('PAINT', 400), ('PATIN', 400), ('FAINT', 396), ('LAITH', 396)]
+The bot finally chose: HAUNT 
+Guess: 𝙃𝘼𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: LAITY 
+The top ten guesses and scores: [('LAITY', 137), ('FATLY', 134), ('PATLY', 134), ('MALTY', 132), ('BALTI', 131), ('WALTY', 131), ('FACTY', 130), ('DATIL', 128), ('PATIO', 126), ('BAWTY', 125)]
+The bot finally chose: LAITY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+Guess: 𝙃𝘼𝙐𝙉𝙏, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝘼𝙄𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 6.8252 bits
+Posterior entropy: 7.03342300153745
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.03342300153745, 'actual_info_gain': 6.8252379831853265, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HAINT with entropy: 3.6057
+Bot chose: NATTY with entropy: 3.5379
+Top ten guesses: [('HAINT', 3.6057238104331764), ('CANTI', 3.6034901282502823), ('NATYA', 3.5384409149092066), ('NATTY', 3.5378643505588236), ('NATAL', 3.52125346409367), ('LATAH', 3.477796743818896), ('MANAT', 3.461275123382636), ('NATTO', 3.461087635869537), ('MANTA', 3.441463991457862), ('LAITH', 3.4218008795493136)]
+
+Guess: 𝙉𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.7115 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.03342300153745, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.711494906650088, 'expected_info_gain': 3.5378643505588236}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WALTY with entropy: 2.3219
+Bot chose: WALTY with entropy: 2.3219
+Top ten guesses: [('WALTY', 2.321928094887362), ('MALTY', 1.9219280948873623), ('LAITY', 1.5219280948873621), ('BAWTY', 1.3709505944546687), ('FACTY', 0.7219280948873623)]
+
+Guess: 𝙒𝘼𝙇𝙏𝙔, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAITY with entropy: 0.0000
+Bot chose: LAITY with entropy: 0.0000
+Top ten guesses: [('LAITY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.825 bits, Posterior Entropy: 7.033, 
+Guess: 𝙉𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.033, Expected Info Gain: 3.538 bits, Actual Info Gain: 4.711 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝘼𝙇𝙏𝙔, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙄𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 6.8252 bits
+Posterior entropy: 7.03342300153745
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.03342300153745, 'actual_info_gain': 6.8252379831853265, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HAINT with entropy: 3.6057
+Bot chose: NATTY with entropy: 3.5379
+Top ten guesses: [('HAINT', 3.6057238104331764), ('CANTI', 3.6034901282502823), ('NATYA', 3.5384409149092066), ('NATTY', 3.5378643505588236), ('NATAL', 3.52125346409367), ('LATAH', 3.477796743818896), ('MANAT', 3.461275123382636), ('NATTO', 3.461087635869537), ('MANTA', 3.441463991457862), ('LAITH', 3.4218008795493136)]
+
+Guess: 𝙉𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.7115 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 7.03342300153745, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.711494906650088, 'expected_info_gain': 3.5378643505588236}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WALTY with entropy: 2.3219
+Bot chose: WALTY with entropy: 2.3219
+Top ten guesses: [('WALTY', 2.321928094887362), ('MALTY', 1.9219280948873623), ('LAITY', 1.5219280948873621), ('BAWTY', 1.3709505944546687), ('FACTY', 0.7219280948873623)]
+
+Guess: 𝙒𝘼𝙇𝙏𝙔, Feedback: ⬜🟩🟨🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.321928094887362}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LAITY with entropy: 0.0000
+Bot chose: LAITY with entropy: 0.0000
+Top ten guesses: [('LAITY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.825 bits, Posterior Entropy: 7.033, 
+Guess: 𝙉𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.033, Expected Info Gain: 3.538 bits, Actual Info Gain: 4.711 bits, Posterior Entropy: 2.322, 
+Guess: 𝙒𝘼𝙇𝙏𝙔, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.322 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙄𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 6.8252 bits
+Posterior entropy: 7.03342300153745
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.03342300153745, 'actual_info_gain': 6.8252379831853265, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 230 potential guesses from 131 remaining candidates...
+Top 5 guesses: [('MONTH', '3.937'), ('NIGHT', '3.932'), ('UNTIL', '3.886'), ('POINT', '3.806'), ('LIGHT', '3.634')]
+Top entropy choice: 𝙈𝙊𝙉𝙏𝙃 with entropy: 3.9368
+Ended up choosing COMMON word: 𝙈𝙊𝙉𝙏𝙃 with entropy: 3.9368
+
+Guess: 𝙈𝙊𝙉𝙏𝙃, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 2.6411 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 7.03342300153745, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 2.6411055787586895, 'expected_info_gain': 3.936819472741649}
+----------
+The bot is making a guess...
+Evaluating 21 potential guesses from 21 remaining candidates...
+Top 5 guesses: [('BATTY', '2.970'), ('CATTY', '2.910'), ('BATTA', '2.870'), ('FATTY', '2.834'), ('PATTY', '2.725')]
+Top entropy choice: 𝘽𝘼𝙏𝙏𝙔 with entropy: 2.9697
+Ended up choosing COMMON word: 𝘽𝘼𝙏𝙏𝙔 with entropy: 2.9697
+
+Guess: 𝘽𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.8073549220576046, 'expected_info_gain': 2.9697315665441306}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('LAITY', '1.585'), ('WALTY', '1.585'), ('FACTY', '0.918')]
+Top entropy choice: 𝙇𝘼𝙄𝙏𝙔 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙇𝘼𝙄𝙏𝙔 with entropy: 1.5850
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.825 bits, Posterior Entropy: 7.033, 
+Guess: 𝙈𝙊𝙉𝙏𝙃, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 7.033, Expected Info Gain: 3.937 bits, Actual Info Gain: 2.641 bits, Posterior Entropy: 4.392, 
+Guess: 𝘽𝘼𝙏𝙏𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.392, Expected Info Gain: 2.970 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝙄𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜
+Actual Info Gain: 6.8252 bits
+Posterior entropy: 7.03342300153745
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.03342300153745, 'actual_info_gain': 6.8252379831853265, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAFTA', 'BAHUT', 'BAITH', 'BALOT', 'BALTI', 'BALUT', 'BANTU', 'BANTY', 'BANTZ', 'BATCH', 'BATIK', 'BATON', 'BATTA', 'BATTU', 'BATTY', 'BAWTY', 'CACTI', 'CAGOT', 'CANTI', 'CANTO', 'CANTY', 'CAPOT', 'CAPUT', 'CATCH', 'CATTY', 'DAINT', 'DATAL', 'DATIL', 'DATTO', 'DATUM', 'DAULT', 'DAUNT', 'DAVIT', 'DAYNT', 'FACTA', 'FACTO', 'FACTY', 'FAGOT', 'FAINT', 'FAITH', 'FATAL', 'FATLY', 'FATTY', 'FATWA', 'FAULT', 'GAITA', 'GAITT', 'GALUT', 'GAMUT', 'GATCH', 'GAULT', 'GAUNT', 'GAVOT', 'HABIT', 'HAFTA', 'HAINT', 'HAITH', 'HATCH', 'HATHA', 'HATHI', 'HATTY', 'HAULT', 'HAUNT', 'JABOT', 'JANTY', 'JATHA', 'JAUNT', 'KANAT', 'KAPUT', 'KATAL', 'KATTI', 'LAITH', 'LAITY', 'LATAH', 'LATCH', 'LATHI', 'LATHY', 'MAGOT', 'MAJAT', 'MALTY', 'MANAT', 'MANTA', 'MANTO', 'MANTY', 'MATAI', 'MATCH', 'MATIN', 'MATLO', 'MATTY', 'MATZA', 'MATZO', 'MAUNT', 'MAZUT', 'NANTI', 'NANTO', 'NANTY', 'NATAK', 'NATAL', 'NATCH', 'NATTO', 'NATTY', 'NATYA', 'NAUNT', 'PACTA', 'PAHIT', 'PAINT', 'PANTO', 'PANTY', 'PATCH', 'PATIA', 'PATIN', 'PATIO', 'PATKA', 'PATLY', 'PATTA', 'PATTU', 'PATTY', 'QANAT', 'VATHA', 'VATIC', 'VAULT', 'VAUNT', 'WAIFT', 'WALTY', 'WALTZ', 'WANTA', 'WANTY', 'WATAP', 'WATCH', 'YACHT', 'ZAKAT']
+131 candidate words remaining.
+Top 10 guesses: [('NITTY', '4.165'), ('NICHT', '4.110'), ('NITTO', '4.080'), ('NITTA', '4.074'), ('NOILY', '4.066'), ('CLINT', '4.064'), ('CUNIT', '3.984'), ('CUTIN', '3.975'), ('CHINO', '3.973'), ('LINTY', '3.971')]
+Top entropy choice: 𝙉𝙄𝙏𝙏𝙔 with entropy: 4.1645
+Guess count low, choosing the word with highest entropy: 𝙉𝙄𝙏𝙏𝙔 with entropy: 4.1645
+
+Guess: 𝙉𝙄𝙏𝙏𝙔, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 7.0334 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.03342300153745, 'posterior_entropy': 0.0, 'actual_info_gain': 7.03342300153745, 'expected_info_gain': 4.164513109156485}
+----------
+The bot is making a guess...
+THe possible candidates are: ['LAITY']
+1 candidate words remaining.
+Top 10 guesses: [('LAITY', '0.000')]
+Top entropy choice: 𝙇𝘼𝙄𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝘼𝙄𝙏𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.825 bits, Posterior Entropy: 7.033, 
+Guess: 𝙉𝙄𝙏𝙏𝙔, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 7.033, Expected Info Gain: 4.165 bits, Actual Info Gain: 7.033 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝙄𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

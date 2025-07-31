@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙃𝙐𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨🟨🟩
+Guess: 𝘾𝙃𝙐𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙃𝙐𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙊𝙈𝙏𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙐𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙐𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙊𝙈𝙏𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙐𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙐𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘾𝙊𝙈𝙏𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.855 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙐𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙃𝙐𝙏𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: ⬜⬜⬜🟩🟩, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙊𝙏𝙃𝙔, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 3.585, Expected Info Gain: 3.418 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙃𝙐𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 1.802 bits, Actual Info Gain: 0.819 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 1.778 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝙆𝘼𝙍𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝙊𝙋𝙀𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 4.907, Expected Info Gain: 2.906 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙃𝙀𝙀𝙆, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.906 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

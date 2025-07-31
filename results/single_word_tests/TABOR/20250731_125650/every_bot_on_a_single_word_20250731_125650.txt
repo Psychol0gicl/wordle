@@ -1,0 +1,186 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TABOR 
+The top ten guesses and scores: [('TABOR', 29), ('TAPIR', 29), ('TAXOR', 29), ('TAIRA', 28), ('TALAR', 27), ('TAYRA', 27), ('TATAR', 26)]
+The bot finally chose: TABOR 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+Guess: 𝙏𝘼𝘽𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 2.2359
+Bot chose: TAIRA with entropy: 2.2359
+Top ten guesses: [('TAIRA', 2.2359263506290326), ('TALAR', 1.8423709931771088), ('TATAR', 1.8423709931771088), ('TABOR', 1.8423709931771084), ('TAXOR', 1.8423709931771084), ('TAYRA', 1.8423709931771084), ('TAPIR', 1.6644977792004614)]
+
+Guess: 𝙏𝘼𝙄𝙍𝘼, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABOR with entropy: 1.0000
+Bot chose: TABOR with entropy: 1.0000
+Top ten guesses: [('TABOR', 1.0), ('TAXOR', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝘼𝙄𝙍𝘼, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝘼𝘽𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAIRA with entropy: 2.2359
+Bot chose: TAIRA with entropy: 2.2359
+Top ten guesses: [('TAIRA', 2.2359263506290326), ('TALAR', 1.8423709931771088), ('TATAR', 1.8423709931771088), ('TABOR', 1.8423709931771084), ('TAXOR', 1.8423709931771084), ('TAYRA', 1.8423709931771084), ('TAPIR', 1.6644977792004614)]
+
+Guess: 𝙏𝘼𝙄𝙍𝘼, Feedback: 🟩🟩⬜🟨⬜
+Actual Info Gain: 1.8074 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.0, 'actual_info_gain': 1.8073549220576042, 'expected_info_gain': 2.2359263506290326}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABOR with entropy: 1.0000
+Bot chose: TABOR with entropy: 1.0000
+Top ten guesses: [('TABOR', 1.0), ('TAXOR', 1.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝘼𝙄𝙍𝘼, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 2.807, Expected Info Gain: 2.236 bits, Actual Info Gain: 1.807 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝘼𝘽𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('TAIRA', '2.236'), ('TALAR', '1.842'), ('TATAR', '1.842'), ('TABOR', '1.842'), ('TAXOR', '1.842')]
+Top entropy choice: 𝙏𝘼𝙄𝙍𝘼 with entropy: 2.2359
+Ended up choosing COMMON word: 𝙏𝘼𝙏𝘼𝙍 with entropy: 1.8424
+
+Guess: 𝙏𝘼𝙏𝘼𝙍, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771088}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TABOR', '1.585'), ('TAXOR', '1.585'), ('TAPIR', '0.918')]
+Top entropy choice: 𝙏𝘼𝘽𝙊𝙍 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙏𝘼𝘽𝙊𝙍 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝙏𝘼𝙏𝘼𝙍, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝘽𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝘽𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜
+Actual Info Gain: 11.0513 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 11.051306062665173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABOR', 'TAIRA', 'TALAR', 'TAPIR', 'TATAR', 'TAXOR', 'TAYRA']
+7 candidate words remaining.
+Top 10 guesses: [('AXIAL', '2.807'), ('LABIA', '2.807'), ('LIBOR', '2.807'), ('AGILA', '2.522'), ('ALIAS', '2.522'), ('ALIYA', '2.522'), ('BAISA', '2.522'), ('BAIZA', '2.522'), ('BANIA', '2.522'), ('BIOTA', '2.522')]
+Top entropy choice: 𝘼𝙓𝙄𝘼𝙇 with entropy: 2.8074
+Guess count low, choosing the word with highest entropy: 𝘼𝙓𝙄𝘼𝙇 with entropy: 2.8074
+
+Guess: 𝘼𝙓𝙄𝘼𝙇, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.807354922057604}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABOR']
+1 candidate words remaining.
+Top 10 guesses: [('TABOR', '0.000')]
+Top entropy choice: 𝙏𝘼𝘽𝙊𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝘽𝙊𝙍 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 11.051 bits, Posterior Entropy: 2.807, 
+Guess: 𝘼𝙓𝙄𝘼𝙇, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 2.807, Expected Info Gain: 2.807 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝘽𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LADEN 
+The top ten guesses and scores: [('LADEN', 493), ('LANED', 493), ('NALED', 493), ('LAMED', 488), ('LAYED', 485), ('LAWED', 483), ('WALED', 483), ('MANED', 481), ('NAMED', 481), ('LACED', 480)]
+The bot finally chose: LADEN 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MAVEN 
+The top ten guesses and scores: [('MAVEN', 32), ('WAKEN', 32), ('BAKEN', 31), ('HAVEN', 31), ('OAKEN', 31), ('PAVEN', 31), ('WAXEN', 30), ('YAMEN', 30), ('ZAZEN', 29)]
+The bot finally chose: MAVEN 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LADEN with entropy: 3.1736
+Bot chose: LADEN with entropy: 3.1736
+Top ten guesses: [('LADEN', 3.173613861360235), ('LANED', 3.1289650073534205), ('NALED', 3.0873684059327426), ('LAMED', 3.054347152254063), ('WALED', 2.999163588033307), ('MANED', 2.975778024227157), ('LAWED', 2.9715509858112443), ('NAMED', 2.9334155814850162), ('LACED', 2.9280489603925384), ('WANED', 2.9205530467861016)]
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.0589 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.058893689053568, 'expected_info_gain': 3.173613861360235}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVEN with entropy: 1.6577
+Bot chose: MAVEN with entropy: 1.6577
+Top ten guesses: [('MAVEN', 1.6577427265048887), ('WAKEN', 1.6577427265048887), ('BAKEN', 1.224394445405986), ('HAVEN', 1.224394445405986), ('OAKEN', 1.224394445405986), ('PAVEN', 1.224394445405986), ('WAXEN', 0.9864267287308424), ('YAMEN', 0.9864267287308424), ('ZAZEN', 0.5032583347756457)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.059 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LADEN with entropy: 3.1736
+Bot chose: LADEN with entropy: 3.1736
+Top ten guesses: [('LADEN', 3.173613861360235), ('LANED', 3.1289650073534205), ('NALED', 3.0873684059327426), ('LAMED', 3.054347152254063), ('WALED', 2.999163588033307), ('MANED', 2.975778024227157), ('LAWED', 2.9715509858112443), ('NAMED', 2.9334155814850162), ('LACED', 2.9280489603925384), ('WANED', 2.9205530467861016)]
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 4.0589 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.058893689053568, 'expected_info_gain': 3.173613861360235}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MAVEN with entropy: 1.6577
+Bot chose: MAVEN with entropy: 1.6577
+Top ten guesses: [('MAVEN', 1.6577427265048887), ('WAKEN', 1.6577427265048887), ('BAKEN', 1.224394445405986), ('HAVEN', 1.224394445405986), ('OAKEN', 1.224394445405986), ('PAVEN', 1.224394445405986), ('WAXEN', 0.9864267287308424), ('YAMEN', 0.9864267287308424), ('ZAZEN', 0.5032583347756457)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.059 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 250 potential guesses from 150 remaining candidates...
+Top 5 guesses: [('CHILD', '3.278'), ('LADEN', '3.174'), ('LANED', '3.129'), ('NALED', '3.087'), ('LAMED', '3.054')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.2781
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.2781
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.6439 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.6438561897747244, 'expected_info_gain': 3.2780701249327184}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('MAVEN', '3.201'), ('YAMEN', '3.174'), ('WAKEN', '3.126'), ('WANEY', '3.090'), ('WAVEY', '2.870')]
+Top entropy choice: 𝙈𝘼𝙑𝙀𝙉 with entropy: 3.2008
+Ended up choosing COMMON word: 𝙈𝘼𝙑𝙀𝙉 with entropy: 3.2008
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 2.644 bits, Posterior Entropy: 4.585, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙑𝙀𝙉 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AAHED', 'BAAED', 'BABEL', 'BAGEL', 'BAKED', 'BAKEN', 'BALED', 'BANED', 'BAYED', 'CAAED', 'CADEE', 'CAGED', 'CAGEY', 'CAKED', 'CAKEY', 'CAMEL', 'CAMEO', 'CANED', 'CANEH', 'CAPED', 'CAPEX', 'CAVED', 'CAVEL', 'CAWED', 'DALED', 'DALEK', 'DAVEN', 'DAWED', 'DAWEN', 'DAZED', 'EALED', 'EANED', 'EAVED', 'FACED', 'FACEY', 'FADED', 'FAKED', 'FAKEY', 'FAMED', 'FAVEL', 'FAXED', 'FAYED', 'FAZED', 'GAGED', 'GALEA', 'GALED', 'GAMED', 'GAMEY', 'GANEF', 'GANEV', 'GAPED', 'GAVEL', 'GAZED', 'HACEK', 'HADED', 'HAKEA', 'HALED', 'HAMED', 'HAMEL', 'HAVEL', 'HAVEN', 'HAWED', 'HAYED', 'HAYEY', 'HAZED', 'HAZEL', 'JADED', 'JAKEY', 'JALEO', 'JAPED', 'JAVEL', 'JAWED', 'KANEH', 'KAWED', 'LABEL', 'LACED', 'LACEY', 'LADED', 'LADEE', 'LADEN', 'LAKED', 'LAMED', 'LANED', 'LAPEL', 'LAVED', 'LAWED', 'LAXED', 'LAYED', 'LAZED', 'MAAED', 'MACED', 'MAHEM', 'MAKEE', 'MALEO', 'MAMEE', 'MAMEY', 'MANEB', 'MANED', 'MANEH', 'MAVEN', 'MAWED', 'MAXED', 'MAYED', 'MAZED', 'MAZEL', 'MAZEY', 'NAIEO', 'NAKED', 'NALED', 'NAMED', 'NAPED', 'NAVED', 'NAVEL', 'NAVEW', 'OAKED', 'OAKEN', 'PACED', 'PACEY', 'PAGED', 'PALEA', 'PALED', 'PANED', 'PANEL', 'PAPEY', 'PAVED', 'PAVEN', 'PAWED', 'PAYED', 'PAYEE', 'VADED', 'VANED', 'VAPED', 'WADED', 'WAGED', 'WAHEY', 'WAKED', 'WAKEN', 'WALED', 'WAMED', 'WANED', 'WANEY', 'WAVED', 'WAVEY', 'WAXED', 'WAXEN', 'WAYED', 'YAMEN', 'YAWED', 'YAWEY', 'ZAZEN']
+150 candidate words remaining.
+Top 10 guesses: [('LOWND', '3.832'), ('LYNCH', '3.736'), ('CHYND', '3.702'), ('LYMPH', '3.623'), ('MOLDY', '3.566'), ('DOWLY', '3.547'), ('WYLED', '3.538'), ('POWND', '3.534'), ('DYNEL', '3.508'), ('LINDY', '3.495')]
+Top entropy choice: 𝙇𝙊𝙒𝙉𝘿 with entropy: 3.8325
+Guess count low, choosing the word with highest entropy: 𝙇𝙊𝙒𝙉𝘿 with entropy: 3.8325
+
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.6439 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.6438561897747244, 'expected_info_gain': 3.832485151723582}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BAKEN', 'CANEH', 'GANEF', 'GANEV', 'HAVEN', 'KANEH', 'MANEB', 'MANEH', 'MAVEN', 'PAVEN', 'YAMEN', 'ZAZEN']
+12 candidate words remaining.
+Top 10 guesses: [('BUMPH', '3.022'), ('MUNCH', '3.022'), ('HEMIN', '2.855'), ('HUMAN', '2.855'), ('HYMEN', '2.855'), ('MANEH', '2.855'), ('MENSH', '2.855'), ('MONTH', '2.855'), ('MYNAH', '2.855'), ('BIMAH', '2.752')]
+Top entropy choice: 𝘽𝙐𝙈𝙋𝙃 with entropy: 3.0221
+Using common exploratory word: 𝙈𝙐𝙉𝘾𝙃 with entropy: 3.0221
+
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: 🟩⬜🟨⬜⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 3.832485151723582}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MAVEN']
+1 candidate words remaining.
+Top 10 guesses: [('MAVEN', '0.000')]
+Top entropy choice: 𝙈𝘼𝙑𝙀𝙉 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙑𝙀𝙉 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 3.585, 
+Guess: 𝙈𝙐𝙉𝘾𝙃, Feedback: 🟩⬜🟨⬜⬜, Prior Entropy: 3.585, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙑𝙀𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

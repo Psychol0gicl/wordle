@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙇𝘼𝘾𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LADEN 
+The top ten guesses and scores: [('LADEN', 493), ('LANED', 493), ('NALED', 493), ('LAMED', 488), ('LAYED', 485), ('LAWED', 483), ('WALED', 483), ('MANED', 481), ('NAMED', 481), ('LACED', 480)]
+The bot finally chose: LADEN 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LACED 
+The top ten guesses and scores: [('LACED', 33), ('LAKED', 33), ('LAMED', 33), ('LAVED', 33), ('LAWED', 33), ('LAXED', 33), ('LAYED', 33), ('LAZED', 33)]
+The bot finally chose: LACED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜
+Guess: 𝙇𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝘼𝘾𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LADEN with entropy: 3.1736
+Bot chose: LADEN with entropy: 3.1736
+Top ten guesses: [('LADEN', 3.173613861360235), ('LANED', 3.1289650073534205), ('NALED', 3.0873684059327426), ('LAMED', 3.054347152254063), ('WALED', 2.999163588033307), ('MANED', 2.975778024227157), ('LAWED', 2.9715509858112443), ('NAMED', 2.9334155814850162), ('LACED', 2.9280489603925384), ('WANED', 2.9205530467861016)]
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 4.2288 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.0, 'actual_info_gain': 4.22881869049588, 'expected_info_gain': 3.173613861360235}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LACED with entropy: 0.5436
+Bot chose: LACED with entropy: 0.5436
+Top ten guesses: [('LACED', 0.5435644431995964), ('LAKED', 0.5435644431995964), ('LAMED', 0.5435644431995964), ('LAVED', 0.5435644431995964), ('LAWED', 0.5435644431995964), ('LAXED', 0.5435644431995964), ('LAYED', 0.5435644431995964), ('LAZED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.229 bits, Posterior Entropy: 3.000, 
+Guess: 𝙇𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝘼𝘾𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LADEN with entropy: 3.1736
+Bot chose: LADEN with entropy: 3.1736
+Top ten guesses: [('LADEN', 3.173613861360235), ('LANED', 3.1289650073534205), ('NALED', 3.0873684059327426), ('LAMED', 3.054347152254063), ('WALED', 2.999163588033307), ('MANED', 2.975778024227157), ('LAWED', 2.9715509858112443), ('NAMED', 2.9334155814850162), ('LACED', 2.9280489603925384), ('WANED', 2.9205530467861016)]
+
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 4.2288 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.0, 'actual_info_gain': 4.22881869049588, 'expected_info_gain': 3.173613861360235}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LACED with entropy: 0.5436
+Bot chose: LACED with entropy: 0.5436
+Top ten guesses: [('LACED', 0.5435644431995964), ('LAKED', 0.5435644431995964), ('LAMED', 0.5435644431995964), ('LAVED', 0.5435644431995964), ('LAWED', 0.5435644431995964), ('LAXED', 0.5435644431995964), ('LAYED', 0.5435644431995964), ('LAZED', 0.5435644431995964)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 4.229 bits, Posterior Entropy: 3.000, 
+Guess: 𝙇𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝘾𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 250 potential guesses from 150 remaining candidates...
+Top 5 guesses: [('CHILD', '3.278'), ('LADEN', '3.174'), ('LANED', '3.129'), ('NALED', '3.087'), ('LAMED', '3.054')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.2781
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.2781
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜⬜🟨🟩
+Actual Info Gain: 7.2288 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 0.0, 'actual_info_gain': 7.22881869049588, 'expected_info_gain': 3.2780701249327184}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('LACED', '0.000')]
+Top entropy choice: 𝙇𝘼𝘾𝙀𝘿 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙇𝘼𝘾𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟨⬜⬜🟨🟩, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 7.229 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝘼𝘾𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AAHED', 'BAAED', 'BABEL', 'BAGEL', 'BAKED', 'BAKEN', 'BALED', 'BANED', 'BAYED', 'CAAED', 'CADEE', 'CAGED', 'CAGEY', 'CAKED', 'CAKEY', 'CAMEL', 'CAMEO', 'CANED', 'CANEH', 'CAPED', 'CAPEX', 'CAVED', 'CAVEL', 'CAWED', 'DALED', 'DALEK', 'DAVEN', 'DAWED', 'DAWEN', 'DAZED', 'EALED', 'EANED', 'EAVED', 'FACED', 'FACEY', 'FADED', 'FAKED', 'FAKEY', 'FAMED', 'FAVEL', 'FAXED', 'FAYED', 'FAZED', 'GAGED', 'GALEA', 'GALED', 'GAMED', 'GAMEY', 'GANEF', 'GANEV', 'GAPED', 'GAVEL', 'GAZED', 'HACEK', 'HADED', 'HAKEA', 'HALED', 'HAMED', 'HAMEL', 'HAVEL', 'HAVEN', 'HAWED', 'HAYED', 'HAYEY', 'HAZED', 'HAZEL', 'JADED', 'JAKEY', 'JALEO', 'JAPED', 'JAVEL', 'JAWED', 'KANEH', 'KAWED', 'LABEL', 'LACED', 'LACEY', 'LADED', 'LADEE', 'LADEN', 'LAKED', 'LAMED', 'LANED', 'LAPEL', 'LAVED', 'LAWED', 'LAXED', 'LAYED', 'LAZED', 'MAAED', 'MACED', 'MAHEM', 'MAKEE', 'MALEO', 'MAMEE', 'MAMEY', 'MANEB', 'MANED', 'MANEH', 'MAVEN', 'MAWED', 'MAXED', 'MAYED', 'MAZED', 'MAZEL', 'MAZEY', 'NAIEO', 'NAKED', 'NALED', 'NAMED', 'NAPED', 'NAVED', 'NAVEL', 'NAVEW', 'OAKED', 'OAKEN', 'PACED', 'PACEY', 'PAGED', 'PALEA', 'PALED', 'PANED', 'PANEL', 'PAPEY', 'PAVED', 'PAVEN', 'PAWED', 'PAYED', 'PAYEE', 'VADED', 'VANED', 'VAPED', 'WADED', 'WAGED', 'WAHEY', 'WAKED', 'WAKEN', 'WALED', 'WAMED', 'WANED', 'WANEY', 'WAVED', 'WAVEY', 'WAXED', 'WAXEN', 'WAYED', 'YAMEN', 'YAWED', 'YAWEY', 'ZAZEN']
+150 candidate words remaining.
+Top 10 guesses: [('LOWND', '3.832'), ('LYNCH', '3.736'), ('CHYND', '3.702'), ('LYMPH', '3.623'), ('MOLDY', '3.566'), ('DOWLY', '3.547'), ('WYLED', '3.538'), ('POWND', '3.534'), ('DYNEL', '3.508'), ('LINDY', '3.495')]
+Top entropy choice: 𝙇𝙊𝙒𝙉𝘿 with entropy: 3.8325
+Guess count low, choosing the word with highest entropy: 𝙇𝙊𝙒𝙉𝘿 with entropy: 3.8325
+
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 4.2288 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.0, 'actual_info_gain': 4.22881869049588, 'expected_info_gain': 3.832485151723582}
+----------
+The bot is making a guess...
+THe possible candidates are: ['LACED', 'LADED', 'LAKED', 'LAMED', 'LAVED', 'LAXED', 'LAYED', 'LAZED']
+8 candidate words remaining.
+Top 10 guesses: [('MICKY', '2.000'), ('MOCKY', '2.000'), ('MUCKY', '2.000'), ('ZYMIC', '2.000'), ('AMUCK', '1.549'), ('AVYZE', '1.549'), ('AZYME', '1.549'), ('AZYMS', '1.549'), ('BACKY', '1.549'), ('BICKY', '1.549')]
+Top entropy choice: 𝙈𝙄𝘾𝙆𝙔 with entropy: 2.0000
+Using common exploratory word: 𝙈𝙄𝘾𝙆𝙔 with entropy: 2.0000
+
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.832485151723582}
+----------
+The bot is making a guess...
+THe possible candidates are: ['LACED']
+1 candidate words remaining.
+Top 10 guesses: [('LACED', '0.000')]
+Top entropy choice: 𝙇𝘼𝘾𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙇𝘼𝘾𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 4.229 bits, Posterior Entropy: 3.000, 
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝘼𝘾𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

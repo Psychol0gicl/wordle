@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙔𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: 🟩🟩🟨⬜🟨
+Guess: 𝙈𝘼𝙔𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 7.443 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙔𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩🟨⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 7.443 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙔𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 4.780 bits, Posterior Entropy: 4.248, 
+Guess: 𝘿𝘼𝙈𝘼𝙉, Feedback: ⬜🟩🟨🟩🟩, Prior Entropy: 4.248, Expected Info Gain: 2.858 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙈𝘼𝙔𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙔𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 9.028 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙔𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

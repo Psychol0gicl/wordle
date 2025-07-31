@@ -1,0 +1,235 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙈𝘼𝙎𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ALIOS 
+The top ten guesses and scores: [('ALIOS', 1190), ('LOAMS', 1179), ('LOMAS', 1179), ('MOALS', 1179), ('MOLAS', 1179), ('LOANS', 1176), ('AULOS', 1171), ('APOLS', 1165), ('OPALS', 1165), ('ALODS', 1160)]
+The bot finally chose: ALIOS 
+Guess: 𝘼𝙇𝙄𝙊𝙎, Feedback: 🟩⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ANKHS 
+The top ten guesses and scores: [('ANKHS', 99), ('ANKUS', 99), ('ANGAS', 96), ('AZYMS', 96), ('ANNUS', 95), ('ABYSS', 93), ('AGMAS', 93), ('AZANS', 93), ('ADAYS', 92), ('AGBAS', 92)]
+The bot finally chose: ABYSS 
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩⬜⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: AMASS 
+The top ten guesses and scores: [('AMASS', 5)]
+The bot finally chose: AMASS 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘼𝙇𝙄𝙊𝙎, Feedback: 🟩⬜⬜⬜🟩
+Guess: 𝘼𝘽𝙔𝙎𝙎, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝘼𝙈𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙈𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOALS with entropy: 3.9384
+Bot chose: ALIAS with entropy: 3.8353
+Top ten guesses: [('MOALS', 3.9383829475505134), ('LOANS', 3.8368834987834353), ('ALIAS', 3.83528868775324), ('MOLAS', 3.834211234668073), ('ALMAS', 3.8299556852346246), ('LOAMS', 3.826656242004528), ('SOLAS', 3.812079738198706), ('GOALS', 3.791655328971376), ('LOMAS', 3.7915590178771694), ('ALANS', 3.7905524717709547)]
+
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜🟨🟩
+Actual Info Gain: 5.3961 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.39612903672878, 'expected_info_gain': 3.83528868775324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADAYS with entropy: 2.0588
+Bot chose: ADAYS with entropy: 2.0588
+Top ten guesses: [('ADAYS', 2.058813890331201), ('AWAYS', 2.058813890331201), ('AYAHS', 1.7527152789797045), ('APAYS', 1.6577427265048887), ('ADAWS', 1.4466166676282082), ('AMAHS', 1.4466166676282082), ('AMASS', 0.9864267287308424), ('ABACS', 0.5032583347756457), ('AZANS', 0.5032583347756457)]
+
+Guess: 𝘼𝘿𝘼𝙔𝙎, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 2.058813890331201}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AMAHS with entropy: 1.5000
+Bot chose: AMASS with entropy: 1.5000
+Top ten guesses: [('AMAHS', 1.5), ('AMASS', 1.5), ('ABACS', 0.8112781244591328), ('AZANS', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 5.396 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝘿𝘼𝙔𝙎, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙈𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙈𝘼𝙎𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOALS with entropy: 3.9384
+Bot chose: ALIAS with entropy: 3.8353
+Top ten guesses: [('MOALS', 3.9383829475505134), ('LOANS', 3.8368834987834353), ('ALIAS', 3.83528868775324), ('MOLAS', 3.834211234668073), ('ALMAS', 3.8299556852346246), ('LOAMS', 3.826656242004528), ('SOLAS', 3.812079738198706), ('GOALS', 3.791655328971376), ('LOMAS', 3.7915590178771694), ('ALANS', 3.7905524717709547)]
+
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜🟨🟩
+Actual Info Gain: 5.3961 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.39612903672878, 'expected_info_gain': 3.83528868775324}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ADAYS with entropy: 2.0588
+Bot chose: ADAYS with entropy: 2.0588
+Top ten guesses: [('ADAYS', 2.058813890331201), ('AWAYS', 2.058813890331201), ('AYAHS', 1.7527152789797045), ('APAYS', 1.6577427265048887), ('ADAWS', 1.4466166676282082), ('AMAHS', 1.4466166676282082), ('AMASS', 0.9864267287308424), ('ABACS', 0.5032583347756457), ('AZANS', 0.5032583347756457)]
+
+Guess: 𝘼𝘿𝘼𝙔𝙎, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.1699 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.0, 'actual_info_gain': 1.1699250014423122, 'expected_info_gain': 2.058813890331201}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: AMAHS with entropy: 1.5000
+Bot chose: AMASS with entropy: 1.5000
+Top ten guesses: [('AMAHS', 1.5), ('AMASS', 1.5), ('ABACS', 0.8112781244591328), ('AZANS', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜⬜🟨🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 5.396 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝘿𝘼𝙔𝙎, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 2.059 bits, Actual Info Gain: 1.170 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙈𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙈𝘼𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 499 potential guesses from 379 remaining candidates...
+Top 5 guesses: [('CLAIM', '4.203'), ('ALONG', '4.175'), ('COULD', '3.993'), ('DOING', '3.992'), ('MOALS', '3.938')]
+Top entropy choice: 𝘾𝙇𝘼𝙄𝙈 with entropy: 4.2031
+Ended up choosing COMMON word: 𝘾𝙇𝘼𝙄𝙈 with entropy: 4.2031
+
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟩⬜🟨
+Actual Info Gain: 5.2441 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 5.244125943283731, 'expected_info_gain': 4.2030590760776265}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('SHAMS', '2.522'), ('WHAMS', '2.322'), ('FOAMS', '1.961'), ('OGAMS', '1.961'), ('SPAMS', '1.961')]
+Top entropy choice: 𝙎𝙃𝘼𝙈𝙎 with entropy: 2.5219
+
+Guess: 𝙎𝙃𝘼𝙈𝙎, Feedback: 🟨⬜🟩🟨🟩
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.5219280948873624}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('AMASS', '0.000')]
+Top entropy choice: 𝘼𝙈𝘼𝙎𝙎 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘼𝙈𝘼𝙎𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 8.566, Expected Info Gain: 4.203 bits, Actual Info Gain: 5.244 bits, Posterior Entropy: 3.322, 
+Guess: 𝙎𝙃𝘼𝙈𝙎, Feedback: 🟨⬜🟩🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.522 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙈𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙈𝘼𝙎𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 5.2926 bits
+Posterior entropy: 8.566054038171092
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.566054038171092, 'actual_info_gain': 5.292606946551684, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABACS', 'ABBAS', 'ABIUS', 'ABYSS', 'ACAIS', 'ACCAS', 'ACIDS', 'ACYLS', 'ADAWS', 'ADAYS', 'ADDAS', 'ADIOS', 'AGALS', 'AGBAS', 'AGHAS', 'AGIOS', 'AGLUS', 'AGMAS', 'AGONS', 'AIDAS', 'AIDOS', 'AIGAS', 'AKKAS', 'ALANS', 'ALAPS', 'ALAYS', 'ALBAS', 'ALCOS', 'ALFAS', 'ALGAS', 'ALGOS', 'ALIAS', 'ALIFS', 'ALIMS', 'ALIOS', 'ALKOS', 'ALLIS', 'ALLUS', 'ALMAS', 'ALODS', 'ALOOS', 'ALUMS', 'AMAHS', 'AMASS', 'AMBOS', 'AMIAS', 'AMIDS', 'AMINS', 'AMISS', 'AMLAS', 'AMMAS', 'AMMOS', 'AMOKS', 'AMYLS', 'ANGAS', 'ANILS', 'ANKHS', 'ANKUS', 'ANLAS', 'ANNAS', 'ANNUS', 'ANOAS', 'ANSAS', 'APAYS', 'APHIS', 'APODS', 'APOLS', 'APSIS', 'APSOS', 'AQUAS', 'ASCUS', 'ASKOS', 'ASPIS', 'AULAS', 'AULOS', 'AVGAS', 'AVOWS', 'AWAYS', 'AWDLS', 'AWOLS', 'AXILS', 'AXONS', 'AYAHS', 'AYINS', 'AZANS', 'AZONS', 'AZYMS', 'BDAYS', 'BHAIS', 'BIMAS', 'BLABS', 'BLADS', 'BLAGS', 'BLAHS', 'BLAMS', 'BLAWS', 'BLAYS', 'BOABS', 'BOAKS', 'BOBAS', 'BOLAS', 'BOMAS', 'BUBAS', 'BUDAS', 'BUNAS', 'CHADS', 'CHAIS', 'CHALS', 'CHAMS', 'CHAOS', 'CHAPS', 'CHAVS', 'CHAWS', 'CHAYS', 'CHIAS', 'CLADS', 'CLAGS', 'CLAMS', 'CLANS', 'CLAPS', 'CLASS', 'CLAWS', 'CLAYS', 'COALS', 'COCAS', 'CODAS', 'COLAS', 'COMAS', 'CYANS', 'CYCAS', 'CYMAS', 'DBAGS', 'DHAKS', 'DHALS', 'DIALS', 'DIKAS', 'DISAS', 'DIVAS', 'DIYAS', 'DOABS', 'DONAS', 'DOPAS', 'DOSAS', 'DUADS', 'DUALS', 'DUANS', 'DUKAS', 'DUMAS', 'DWAMS', 'DYADS', 'FLABS', 'FLAGS', 'FLAKS', 'FLAMS', 'FLANS', 'FLAPS', 'FLAWS', 'FLAYS', 'FOALS', 'FOAMS', 'GIGAS', 'GILAS', 'GLADS', 'GLAMS', 'GLANS', 'GLASS', 'GLIAS', 'GNAWS', 'GOADS', 'GOAFS', 'GOALS', 'GUANS', 'GUGAS', 'GULAS', 'GUNAS', 'GYALS', 'GYANS', 'HIBAS', 'HOKAS', 'HOMAS', 'HOYAS', 'HUIAS', 'HULAS', 'HUMAS', 'HYLAS', 'IKANS', 'IMAMS', 'INCAS', 'ISBAS', 'IXIAS', 'JIAOS', 'JUBAS', 'JUDAS', 'KCALS', 'KHADS', 'KHAFS', 'KHANS', 'KINAS', 'KIPAS', 'KIVAS', 'KLAPS', 'KNAGS', 'KNAPS', 'KOANS', 'KOAPS', 'KOHAS', 'KOKAS', 'KOLAS', 'KUIAS', 'KULAS', 'KUNAS', 'KUYAS', 'KVASS', 'KYAKS', 'LIMAS', 'LIPAS', 'LIWAS', 'LOADS', 'LOAFS', 'LOAMS', 'LOANS', 'LOLAS', 'LOMAS', 'LUAUS', 'LUMAS', 'LUNAS', 'LYAMS', 'MGALS', 'MIAIS', 'MICAS', 'MIHAS', 'MINAS', 'MIYAS', 'MOAIS', 'MOALS', 'MOANS', 'MOGAS', 'MOLAS', 'MONAS', 'MOWAS', 'MOXAS', 'MOYAS', 'MYALS', 'MYNAS', 'NILAS', 'NIPAS', 'NIVAS', 'NOAHS', 'NOIAS', 'NOMAS', 'NONAS', 'NOVAS', 'NOXAS', 'NYAMS', 'OBIAS', 'ODAHS', 'ODALS', 'OFAYS', 'OGAMS', 'OHIAS', 'OKAYS', 'OLLAS', 'OMDAS', 'OOAAS', 'OPAHS', 'OPALS', 'OUMAS', 'OUPAS', 'OVALS', 'PIAIS', 'PIANS', 'PICAS', 'PIKAS', 'PIMAS', 'PINAS', 'PIPAS', 'PLAAS', 'PLANS', 'PLAPS', 'PLAVS', 'PLAYS', 'POMAS', 'POYAS', 'PSIAS', 'PSOAS', 'PUHAS', 'PUJAS', 'PUKAS', 'PULAS', 'PUMAS', 'PUNAS', 'PUPAS', 'PUYAS', 'QILAS', 'QUABS', 'QUADS', 'QUAGS', 'QUAIS', 'QUASS', 'QUAWS', 'QUAYS', 'SCABS', 'SCADS', 'SCAGS', 'SCAMS', 'SCANS', 'SCAWS', 'SHADS', 'SHAGS', 'SHAHS', 'SHAMS', 'SHANS', 'SHAPS', 'SHAWS', 'SHAYS', 'SHWAS', 'SIALS', 'SIDAS', 'SIKAS', 'SIMAS', 'SKAGS', 'SKAWS', 'SKUAS', 'SLABS', 'SLAGS', 'SLAMS', 'SLAPS', 'SLAWS', 'SLAYS', 'SNABS', 'SNAGS', 'SNAPS', 'SNAWS', 'SOAKS', 'SOAPS', 'SOBAS', 'SOCAS', 'SODAS', 'SOFAS', 'SOJAS', 'SOLAS', 'SOMAS', 'SOYAS', 'SPADS', 'SPAGS', 'SPAMS', 'SPANS', 'SPAWS', 'SPAYS', 'SUBAS', 'SWABS', 'SWADS', 'SWAGS', 'SWANS', 'SWAPS', 'SWAYS', 'UBACS', 'UDALS', 'ULANS', 'ULNAS', 'ULVAS', 'UMMAS', 'UNAIS', 'UNAUS', 'VIALS', 'VIGAS', 'VINAS', 'VISAS', 'VIVAS', 'WHAMS', 'WHAPS', 'WOADS', 'WOMAS', 'YOGAS', 'YUANS', 'YUCAS', 'YUGAS', 'ZILAS', 'ZUPAS']
+379 candidate words remaining.
+Top 10 guesses: [('ALAMO', '4.479'), ('MONAL', '4.403'), ('GLOAM', '4.373'), ('ONLAP', '4.363'), ('PILON', '4.355'), ('CLOAM', '4.345'), ('DOMAL', '4.320'), ('ALAND', '4.310'), ('ALMAH', '4.308'), ('POILU', '4.304')]
+Top entropy choice: 𝘼𝙇𝘼𝙈𝙊 with entropy: 4.4787
+Guess count low, choosing the word with highest entropy: 𝘼𝙇𝘼𝙈𝙊 with entropy: 4.4787
+
+Guess: 𝘼𝙇𝘼𝙈𝙊, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 7.5661 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 8.566054038171092, 'posterior_entropy': 1.0, 'actual_info_gain': 7.566054038171092, 'expected_info_gain': 4.478740849599443}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AMAHS', 'AMASS']
+2 candidate words remaining.
+Top 10 guesses: [('AMAHS', '1.000'), ('AMASS', '1.000')]
+Top entropy choice: 𝘼𝙈𝘼𝙃𝙎 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙈𝘼𝙎𝙎 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝘼𝙈𝙊, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 8.566, Expected Info Gain: 4.479 bits, Actual Info Gain: 7.566 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙈𝘼𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙇𝘼𝙉𝙆𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝘿𝘼𝙉𝙂𝙎, Feedback: ⬜🟩🟩⬜🟩
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙆𝘼𝙇𝙄𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.626, Expected Info Gain: 2.864 bits, Actual Info Gain: 1.110 bits, Posterior Entropy: 7.516, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝘽𝙐𝙄𝙇𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.626, Expected Info Gain: 3.683 bits, Actual Info Gain: 3.672 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝘼𝙂𝙐𝙎, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 2.761 bits, Actual Info Gain: 3.954 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙉𝙐𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.233 bits, Posterior Entropy: 8.626, 
+Guess: 𝙋𝙇𝙄𝙉𝙆, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.626, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.719 bits, Posterior Entropy: 4.907, 
+Guess: 𝙉𝙊𝙈𝘼𝘿, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 4.907, Expected Info Gain: 4.113 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙉𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

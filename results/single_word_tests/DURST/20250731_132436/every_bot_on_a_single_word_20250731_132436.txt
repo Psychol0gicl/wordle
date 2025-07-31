@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙐𝙍𝙎𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: WURST 
+The top ten guesses and scores: [('WURST', 62), ('HURST', 61), ('STRUM', 61), ('BURST', 60), ('CURST', 60), ('DURST', 60), ('SPRIT', 60), ('STRIP', 60), ('STROP', 60), ('STROW', 60)]
+The bot finally chose: HURST 
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BURST 
+The top ten guesses and scores: [('BURST', 17), ('CURST', 17), ('DURST', 17), ('WURST', 17)]
+The bot finally chose: BURST 
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: CURST 
+The top ten guesses and scores: [('CURST', 13), ('DURST', 13), ('WURST', 13)]
+The bot finally chose: DURST 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Guess: 𝙃𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙐𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙐𝙍𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WURST with entropy: 2.8163
+Bot chose: WORST with entropy: 2.6987
+Top ten guesses: [('WURST', 2.816307519224645), ('WORST', 2.6986604604011153), ('STROW', 2.603975726610715), ('HURST', 2.5868878409958143), ('HORST', 2.5366082543914996), ('SPRIT', 2.5341468438052397), ('STROP', 2.4692407821722844), ('STRUM', 2.441923520601099), ('BURST', 2.424835634986198), ('CURST', 2.424835634986198)]
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 2.6986604604011153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURST with entropy: 1.3710
+Bot chose: BURST with entropy: 1.3710
+Top ten guesses: [('BURST', 1.3709505944546687), ('CURST', 1.3709505944546687), ('DURST', 1.3709505944546687), ('HURST', 1.3709505944546687), ('FIRST', 0.7219280948873623)]
+
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURST with entropy: 0.9183
+Bot chose: DURST with entropy: 0.9183
+Top ten guesses: [('CURST', 0.9182958340544896), ('DURST', 0.9182958340544896), ('HURST', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙐𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙍𝙎𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: WURST with entropy: 2.8163
+Bot chose: WORST with entropy: 2.6987
+Top ten guesses: [('WURST', 2.816307519224645), ('WORST', 2.6986604604011153), ('STROW', 2.603975726610715), ('HURST', 2.5868878409958143), ('HORST', 2.5366082543914996), ('SPRIT', 2.5341468438052397), ('STROP', 2.4692407821722844), ('STRUM', 2.441923520601099), ('BURST', 2.424835634986198), ('CURST', 2.424835634986198)]
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 2.6986604604011153}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BURST with entropy: 1.3710
+Bot chose: BURST with entropy: 1.3710
+Top ten guesses: [('BURST', 1.3709505944546687), ('CURST', 1.3709505944546687), ('DURST', 1.3709505944546687), ('HURST', 1.3709505944546687), ('FIRST', 0.7219280948873623)]
+
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CURST with entropy: 0.9183
+Bot chose: DURST with entropy: 0.9183
+Top ten guesses: [('CURST', 0.9182958340544896), ('DURST', 0.9182958340544896), ('HURST', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙐𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙍𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('WURST', '2.816'), ('WORST', '2.699'), ('STROW', '2.604'), ('HURST', '2.587'), ('HORST', '2.537')]
+Top entropy choice: 𝙒𝙐𝙍𝙎𝙏 with entropy: 2.8163
+Ended up choosing COMMON word: 𝙒𝙊𝙍𝙎𝙏 with entropy: 2.6987
+
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 2.6986604604011153}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BURST', '1.371'), ('CURST', '1.371'), ('DURST', '1.371'), ('HURST', '1.371'), ('FIRST', '0.722')]
+Top entropy choice: 𝘽𝙐𝙍𝙎𝙏 with entropy: 1.3710
+Ended up choosing COMMON word: 𝘽𝙐𝙍𝙎𝙏 with entropy: 1.3710
+
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 0.7369655941662061, 'expected_info_gain': 1.3709505944546687}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('CURST', '0.918'), ('DURST', '0.918'), ('HURST', '0.918')]
+Top entropy choice: 𝘾𝙐𝙍𝙎𝙏 with entropy: 0.9183
+Ended up choosing COMMON word: 𝘿𝙐𝙍𝙎𝙏 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙊𝙍𝙎𝙏, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.087, Expected Info Gain: 2.699 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙍𝙎𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙐𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙐𝙍𝙎𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨
+Actual Info Gain: 9.7712 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 9.771198143472438, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BURST', 'CURST', 'DURST', 'FIRST', 'HORST', 'HURST', 'SPRIT', 'STRIG', 'STRIM', 'STRIP', 'STROP', 'STROW', 'STROY', 'STRUM', 'STRUT', 'WORST', 'WURST']
+17 candidate words remaining.
+Top 10 guesses: [('WHUMP', '3.220'), ('PIYUT', '3.169'), ('SCOUP', '3.146'), ('WHIPT', '3.146'), ('SCOWP', '3.146'), ('CHOUT', '3.131'), ('OUCHT', '3.131'), ('CUBIT', '3.131'), ('SWOPT', '3.125'), ('UPBOW', '3.125')]
+Top entropy choice: 𝙒𝙃𝙐𝙈𝙋 with entropy: 3.2195
+Guess count low, choosing the word with highest entropy: 𝙒𝙃𝙐𝙈𝙋 with entropy: 3.2195
+
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.0875 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.0, 'actual_info_gain': 2.087462841250339, 'expected_info_gain': 3.2195282822995477}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BURST', 'CURST', 'DURST', 'STRUT']
+4 candidate words remaining.
+Top 10 guesses: [('ABJUD', '2.000'), ('BEMUD', '2.000'), ('BLAUD', '2.000'), ('BUCHU', '2.000'), ('BUCKO', '2.000'), ('BUCKS', '2.000'), ('BUCKU', '2.000'), ('BUDAS', '2.000'), ('BUDDY', '2.000'), ('BUDED', '2.000')]
+Top entropy choice: 𝘼𝘽𝙅𝙐𝘿 with entropy: 2.0000
+Using common exploratory word: 𝘽𝙐𝘿𝘿𝙔 with entropy: 2.0000
+
+Guess: 𝘽𝙐𝘿𝘿𝙔, Feedback: ⬜🟩🟨⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.2195282822995477}
+----------
+The bot is making a guess...
+THe possible candidates are: ['DURST']
+1 candidate words remaining.
+Top 10 guesses: [('DURST', '0.000')]
+Top entropy choice: 𝘿𝙐𝙍𝙎𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘿𝙐𝙍𝙎𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.771 bits, Posterior Entropy: 4.087, 
+Guess: 𝙒𝙃𝙐𝙈𝙋, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 3.220 bits, Actual Info Gain: 2.087 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝙐𝘿𝘿𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 3.220 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙐𝙍𝙎𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝙊𝙋𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨⬜🟨🟩⬜
+Guess: 𝙃𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘾𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝙊𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝙊𝙋𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.060 bits, Posterior Entropy: 5.807, 
+Guess: 𝘽𝙊𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.807, Expected Info Gain: 1.505 bits, Actual Info Gain: 0.559 bits, Posterior Entropy: 5.248, 
+Guess: 𝘿𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.248, Expected Info Gain: 1.753 bits, Actual Info Gain: 3.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙋𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩🟩, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.060 bits, Posterior Entropy: 5.807, 
+Guess: 𝘽𝙊𝙒𝙀𝘿, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.807, Expected Info Gain: 1.505 bits, Actual Info Gain: 0.559 bits, Posterior Entropy: 5.248, 
+Guess: 𝘿𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.248, Expected Info Gain: 1.753 bits, Actual Info Gain: 3.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝘾𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙋𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 3.223 bits, Posterior Entropy: 5.644, 
+Guess: 𝙃𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.644, Expected Info Gain: 1.709 bits, Actual Info Gain: 3.644 bits, Posterior Entropy: 2.000, 
+Guess: 𝘾𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝙊𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝙊𝙋𝙀𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 3.086 bits, Posterior Entropy: 5.781, 
+Guess: 𝙋𝙊𝙊𝘾𝙃, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 5.781, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.196 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙊𝙋𝙀𝘿, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝙊𝙋𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

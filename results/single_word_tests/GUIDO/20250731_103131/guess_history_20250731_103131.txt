@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙐𝙄𝘿𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝙊𝙋𝙄𝙐𝙈, Feedback: 🟨⬜🟩🟨⬜
+Guess: 𝙂𝙐𝙄𝘿𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙐𝙄𝘿𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.242 bits, Posterior Entropy: 4.755, 
+Guess: 𝘿𝙄𝙈𝘽𝙊, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 4.060 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙐𝙄𝘿𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙄𝘿𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.242 bits, Posterior Entropy: 4.755, 
+Guess: 𝘿𝙄𝙈𝘽𝙊, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 4.060 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙐𝙄𝘿𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙄𝘿𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.242 bits, Posterior Entropy: 4.755, 
+Guess: 𝘿𝙄𝙈𝘽𝙊, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 4.060 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙐𝙄𝘿𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙄𝘿𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 5.242 bits, Posterior Entropy: 4.755, 
+Guess: 𝘿𝙐𝙈𝘽𝙊, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 4.755, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.755 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙐𝙄𝘿𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙊𝙂𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜🟩⬜🟨🟨
+Guess: 𝙍𝙊𝙔𝘼𝙇, Feedback: 🟩🟩⬜🟩⬜
+Guess: 𝙍𝙊𝙂𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙊𝙂𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙊𝙂𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙂𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙊𝙂𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙂𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙍𝙊𝙂𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙂𝘼𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 8.165, Expected Info Gain: 4.634 bits, Actual Info Gain: 3.521 bits, Posterior Entropy: 4.644, 
+Guess: 𝙈𝙊𝙂𝙐𝙇, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 4.644, Expected Info Gain: 4.634 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙂𝘼𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙎𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: NASTY 
+The top ten guesses and scores: [('NASTY', 132), ('SAINT', 132), ('SATIN', 132), ('MAIST', 131), ('MASTY', 131), ('MAYST', 131), ('SALTY', 131), ('BASTI', 130), ('HASTY', 130), ('SAITH', 130)]
+The bot finally chose: NASTY 
+Guess: 𝙉𝘼𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: HASTY 
+The top ten guesses and scores: [('HASTY', 17), ('MASTY', 17), ('PASTY', 17), ('VASTY', 17)]
+The bot finally chose: HASTY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+Guess: 𝙉𝘼𝙎𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAINT with entropy: 3.3596
+Bot chose: SAINT with entropy: 3.3596
+Top ten guesses: [('SAINT', 3.3595593546708113), ('SAIST', 3.325379779389311), ('SALTY', 3.252270489229607), ('SAITH', 3.2374907954618437), ('SAYST', 3.2216204045696), ('MAIST', 3.0867661553397845), ('SATAI', 3.073148794348867), ('SATAY', 3.070374753512481), ('SAUNT', 3.0441104177484), ('SANTO', 3.0215341979391397)]
+
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 1.7105 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.7104933828050148, 'expected_info_gain': 3.3595593546708113}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HASTY with entropy: 2.4131
+Bot chose: HASTY with entropy: 2.4131
+Top ten guesses: [('HASTY', 2.413088436425758), ('PASTY', 2.413088436425758), ('PATSY', 2.413088436425758), ('PASTA', 2.3685225277282065), ('MASTY', 2.2998963911678914), ('BASTA', 2.1180782093497093), ('HASTA', 2.1180782093497093), ('VASTY', 2.1180782093497093), ('BASTO', 1.867633890971212), ('MATSU', 1.4911148500551858)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 5.170, Expected Info Gain: 3.360 bits, Actual Info Gain: 1.710 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙎𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SAINT with entropy: 3.3596
+Bot chose: SAINT with entropy: 3.3596
+Top ten guesses: [('SAINT', 3.3595593546708113), ('SAIST', 3.325379779389311), ('SALTY', 3.252270489229607), ('SAITH', 3.2374907954618437), ('SAYST', 3.2216204045696), ('MAIST', 3.0867661553397845), ('SATAI', 3.073148794348867), ('SATAY', 3.070374753512481), ('SAUNT', 3.0441104177484), ('SANTO', 3.0215341979391397)]
+
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 1.7105 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.7104933828050148, 'expected_info_gain': 3.3595593546708113}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HASTY with entropy: 2.4131
+Bot chose: HASTY with entropy: 2.4131
+Top ten guesses: [('HASTY', 2.413088436425758), ('PASTY', 2.413088436425758), ('PATSY', 2.413088436425758), ('PASTA', 2.3685225277282065), ('MASTY', 2.2998963911678914), ('BASTA', 2.1180782093497093), ('HASTA', 2.1180782093497093), ('VASTY', 2.1180782093497093), ('BASTO', 1.867633890971212), ('MATSU', 1.4911148500551858)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 5.170, Expected Info Gain: 3.360 bits, Actual Info Gain: 1.710 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 36 potential guesses from 36 remaining candidates...
+Top 5 guesses: [('SAINT', '3.360'), ('SAIST', '3.325'), ('SALTY', '3.252'), ('SAITH', '3.237'), ('SAYST', '3.222')]
+Top entropy choice: 𝙎𝘼𝙄𝙉𝙏 with entropy: 3.3596
+Ended up choosing COMMON word: 𝙎𝘼𝙄𝙉𝙏 with entropy: 3.3596
+
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 1.7105 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.7104933828050148, 'expected_info_gain': 3.3595593546708113}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('HASTY', '2.413'), ('PASTY', '2.413'), ('PATSY', '2.413'), ('PASTA', '2.369'), ('MASTY', '2.300')]
+Top entropy choice: 𝙃𝘼𝙎𝙏𝙔 with entropy: 2.4131
+Ended up choosing COMMON word: 𝙃𝘼𝙎𝙏𝙔 with entropy: 2.4131
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙎𝘼𝙄𝙉𝙏, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 5.170, Expected Info Gain: 3.360 bits, Actual Info Gain: 1.710 bits, Posterior Entropy: 3.459, 
+Guess: 𝙃𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙎𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨
+Actual Info Gain: 8.6887 bits
+Posterior entropy: 5.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.169925001442312, 'actual_info_gain': 8.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BASTA', 'BASTI', 'BASTO', 'CANST', 'FASTI', 'FATSO', 'HADST', 'HASTA', 'HASTY', 'MAIST', 'MASTY', 'MASUT', 'MATSU', 'MAYST', 'NASTY', 'PASTA', 'PASTY', 'PATSY', 'SABOT', 'SAINT', 'SAIST', 'SAITH', 'SAKTI', 'SALAT', 'SALTO', 'SALTY', 'SALUT', 'SANTO', 'SATAI', 'SATAY', 'SATIN', 'SAULT', 'SAUNT', 'SAYST', 'VASTY', 'WAIST']
+36 candidate words remaining.
+Top 10 guesses: [('SHINY', '3.917'), ('SPINY', '3.836'), ('SILTY', '3.803'), ('SNIPY', '3.781'), ('UNITY', '3.705'), ('SUINT', '3.705'), ('SEITY', '3.702'), ('SHILY', '3.683'), ('MINTY', '3.673'), ('MOITY', '3.666')]
+Top entropy choice: 𝙎𝙃𝙄𝙉𝙔 with entropy: 3.9166
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙄𝙉𝙔 with entropy: 3.9166
+
+Guess: 𝙎𝙃𝙄𝙉𝙔, Feedback: 🟨🟨⬜⬜🟩
+Actual Info Gain: 5.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 5.169925001442312, 'expected_info_gain': 3.916607904809985}
+----------
+The bot is making a guess...
+THe possible candidates are: ['HASTY']
+1 candidate words remaining.
+Top 10 guesses: [('HASTY', '0.000')]
+Top entropy choice: 𝙃𝘼𝙎𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝘼𝙎𝙏𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.689 bits, Posterior Entropy: 5.170, 
+Guess: 𝙎𝙃𝙄𝙉𝙔, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 5.170, Expected Info Gain: 3.917 bits, Actual Info Gain: 5.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙎𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

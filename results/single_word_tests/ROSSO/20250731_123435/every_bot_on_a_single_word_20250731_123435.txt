@@ -1,0 +1,238 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙊𝙎𝙎𝙊 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ROSHI 
+The top ten guesses and scores: [('ROSHI', 198), ('SOHUR', 198), ('SCOUR', 192), ('NOSIR', 191), ('ROSIN', 191), ('URSON', 191), ('SHIUR', 189), ('SUDOR', 188), ('VISOR', 185), ('PROSY', 183)]
+The bot finally chose: SCOUR 
+Guess: 𝙎𝘾𝙊𝙐𝙍, Feedback: 🟨⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ROSHI 
+The top ten guesses and scores: [('ROSHI', 14), ('ROSIN', 14), ('ROSSO', 11)]
+The bot finally chose: ROSHI 
+Guess: 𝙍𝙊𝙎𝙃𝙄, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: ROSSO 
+The top ten guesses and scores: [('ROSSO', 5)]
+The bot finally chose: ROSSO 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Guess: 𝙎𝘾𝙊𝙐𝙍, Feedback: 🟨⬜🟨⬜🟨
+Guess: 𝙍𝙊𝙎𝙃𝙄, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙍𝙊𝙎𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙊𝙎𝙎𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOHUR with entropy: 4.2082
+Bot chose: SHIRK with entropy: 3.9901
+Top ten guesses: [('SOHUR', 4.208156904454299), ('SHIUR', 4.102445740262387), ('SPORK', 4.068331904241499), ('URSON', 4.018565879342632), ('SHIRK', 3.990117723711327), ('SCOUR', 3.9763705849884365), ('SCORP', 3.9622422550282064), ('SHORN', 3.9307031620369113), ('SHORL', 3.9128797925683343), ('SPIRY', 3.9071440517667324)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.7608 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.7608123361205745, 'expected_info_gain': 3.990117723711327}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROSY with entropy: 2.9477
+Bot chose: PROSY with entropy: 2.9477
+Top ten guesses: [('PROSY', 2.94770277922009), ('BROSY', 2.725480556997868), ('CRUSY', 2.725480556997868), ('DRUSY', 2.725480556997868), ('PROSO', 2.725480556997868), ('ROSCO', 2.6416041678685933), ('GROSZ', 2.4193819456463714), ('ROSSO', 2.4193819456463714), ('URSON', 1.836591668108979)]
+
+Guess: 𝙋𝙍𝙊𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.94770277922009}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROSSO with entropy: 0.0000
+Bot chose: ROSSO with entropy: 0.0000
+Top ten guesses: [('ROSSO', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 5.931, Expected Info Gain: 3.990 bits, Actual Info Gain: 2.761 bits, Posterior Entropy: 3.170, 
+Guess: 𝙋𝙍𝙊𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙎𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙎𝙎𝙊 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOHUR with entropy: 4.2082
+Bot chose: SHIRK with entropy: 3.9901
+Top ten guesses: [('SOHUR', 4.208156904454299), ('SHIUR', 4.102445740262387), ('SPORK', 4.068331904241499), ('URSON', 4.018565879342632), ('SHIRK', 3.990117723711327), ('SCOUR', 3.9763705849884365), ('SCORP', 3.9622422550282064), ('SHORN', 3.9307031620369113), ('SHORL', 3.9128797925683343), ('SPIRY', 3.9071440517667324)]
+
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 2.7608 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 2.7608123361205745, 'expected_info_gain': 3.990117723711327}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PROSY with entropy: 2.9477
+Bot chose: PROSY with entropy: 2.9477
+Top ten guesses: [('PROSY', 2.94770277922009), ('BROSY', 2.725480556997868), ('CRUSY', 2.725480556997868), ('DRUSY', 2.725480556997868), ('PROSO', 2.725480556997868), ('ROSCO', 2.6416041678685933), ('GROSZ', 2.4193819456463714), ('ROSSO', 2.4193819456463714), ('URSON', 1.836591668108979)]
+
+Guess: 𝙋𝙍𝙊𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.94770277922009}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROSSO with entropy: 0.0000
+Bot chose: ROSSO with entropy: 0.0000
+Top ten guesses: [('ROSSO', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙍𝙆, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 5.931, Expected Info Gain: 3.990 bits, Actual Info Gain: 2.761 bits, Posterior Entropy: 3.170, 
+Guess: 𝙋𝙍𝙊𝙎𝙔, Feedback: ⬜🟨🟨🟩⬜, Prior Entropy: 3.170, Expected Info Gain: 2.948 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙎𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙎𝙎𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 161 potential guesses from 61 remaining candidates...
+Top 5 guesses: [('SOHUR', '4.208'), ('GROUP', '4.132'), ('SHIUR', '4.102'), ('SPORK', '4.068'), ('URSON', '4.019')]
+Top entropy choice: 𝙎𝙊𝙃𝙐𝙍 with entropy: 4.2082
+Ended up choosing COMMON word: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.1323
+
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨🟨⬜⬜
+Actual Info Gain: 3.3458 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.3457748368417306, 'expected_info_gain': 4.132268535879042}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('NOSIR', '2.252'), ('ROSCO', '2.252'), ('ROSHI', '2.252'), ('ROSIN', '2.252'), ('ROSSO', '2.252')]
+Top entropy choice: 𝙉𝙊𝙎𝙄𝙍 with entropy: 2.2516
+Ended up choosing COMMON word: 𝙍𝙊𝙎𝙎𝙊 with entropy: 2.2516
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 5.931, Expected Info Gain: 4.132 bits, Actual Info Gain: 3.346 bits, Posterior Entropy: 2.585, 
+Guess: 𝙍𝙊𝙎𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝙎𝙎𝙊 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 7.9279 bits
+Posterior entropy: 5.930737337562887
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.930737337562887, 'actual_info_gain': 7.92792364715989, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BRISK', 'BROSY', 'BRUSH', 'BRUSK', 'CRISP', 'CRUSH', 'CRUSY', 'DRUSY', 'FRISK', 'FROSH', 'FRUSH', 'GRISY', 'GROSZ', 'NOSIR', 'PRISM', 'PROSO', 'PROSY', 'RISHI', 'RISKY', 'ROSCO', 'ROSHI', 'ROSIN', 'ROSSO', 'RUSHY', 'RUSKY', 'SCORN', 'SCORP', 'SCOUR', 'SCURF', 'SHIRK', 'SHIRR', 'SHIUR', 'SHORL', 'SHORN', 'SIGRI', 'SKIRL', 'SKIRR', 'SLORM', 'SLURB', 'SLURP', 'SMIRK', 'SMIRR', 'SMOOR', 'SMORG', 'SOHUR', 'SOPOR', 'SPIRY', 'SPOOR', 'SPORK', 'SPURN', 'SRSLY', 'SUDOR', 'SUHUR', 'SWIRL', 'SWORD', 'SWORN', 'URSID', 'URSON', 'USURP', 'USURY', 'VISOR']
+61 candidate words remaining.
+Top 10 guesses: [('SHIOK', '4.451'), ('SOUPY', '4.281'), ('SHOYU', '4.272'), ('POUCH', '4.241'), ('CHIRO', '4.234'), ('PRIOR', '4.233'), ('POUSY', '4.225'), ('SHOCK', '4.224'), ('PROUL', '4.210'), ('SOHUR', '4.208')]
+Top entropy choice: 𝙎𝙃𝙄𝙊𝙆 with entropy: 4.4507
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙄𝙊𝙆 with entropy: 4.4507
+
+Guess: 𝙎𝙃𝙄𝙊𝙆, Feedback: 🟨⬜⬜🟨⬜
+Actual Info Gain: 3.3458 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 5.930737337562887, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.3457748368417306, 'expected_info_gain': 4.450726273013804}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BROSY', 'GROSZ', 'PROSO', 'PROSY', 'ROSCO', 'ROSSO']
+6 candidate words remaining.
+Top 10 guesses: [('COPAY', '2.585'), ('COPPY', '2.585'), ('COPSY', '2.585'), ('COYPU', '2.585'), ('CRAPY', '2.585'), ('CREPY', '2.585'), ('CRYPT', '2.585'), ('CUSPY', '2.585'), ('GIPSY', '2.585'), ('GYPSY', '2.585')]
+Top entropy choice: 𝘾𝙊𝙋𝘼𝙔 with entropy: 2.5850
+Using common exploratory word: 𝘾𝙍𝙔𝙋𝙏 with entropy: 2.5850
+
+Guess: 𝘾𝙍𝙔𝙋𝙏, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 4.450726273013804}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ROSSO']
+1 candidate words remaining.
+Top 10 guesses: [('ROSSO', '0.000')]
+Top entropy choice: 𝙍𝙊𝙎𝙎𝙊 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙊𝙎𝙎𝙊 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.928 bits, Posterior Entropy: 5.931, 
+Guess: 𝙎𝙃𝙄𝙊𝙆, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 5.931, Expected Info Gain: 4.451 bits, Actual Info Gain: 3.346 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙍𝙔𝙋𝙏, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 2.585, Expected Info Gain: 4.451 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝙎𝙎𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

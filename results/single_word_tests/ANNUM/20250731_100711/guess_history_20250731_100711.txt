@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙉𝙉𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝘼𝘿𝙈𝙄𝙉, Feedback: 🟩⬜🟨⬜🟨
+Guess: 𝘼𝙉𝙉𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙉𝙉𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 5.929 bits, Posterior Entropy: 3.585, 
+Guess: 𝘼𝙉𝙉𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙉𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: 🟨⬜🟨🟨⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 5.929 bits, Posterior Entropy: 3.585, 
+Guess: 𝘼𝙉𝙉𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙉𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 6.344 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙉𝙉𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙉𝙉𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 4.344 bits, Posterior Entropy: 5.170, 
+Guess: 𝙈𝘽𝙐𝙂𝘼, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 5.170, Expected Info Gain: 4.194 bits, Actual Info Gain: 2.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝘼𝙉𝙉𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

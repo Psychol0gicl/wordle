@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙈𝙄𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩
+Guess: 𝘼𝙇𝙄𝙊𝙎, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝘼𝙈𝙄𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙈𝙄𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 5.566 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙈𝙄𝘿𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 2.156 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙈𝙄𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙈𝙄𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝙄𝘼𝙎, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 8.566, Expected Info Gain: 3.835 bits, Actual Info Gain: 5.566 bits, Posterior Entropy: 3.000, 
+Guess: 𝘼𝙈𝙄𝘿𝙎, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 3.000, Expected Info Gain: 2.156 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙈𝙄𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙈𝙄𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘾𝙇𝘼𝙄𝙈, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 8.566, Expected Info Gain: 4.203 bits, Actual Info Gain: 5.244 bits, Posterior Entropy: 3.322, 
+Guess: 𝙈𝙄𝙉𝘼𝙎, Feedback: 🟨🟨⬜🟨🟩, Prior Entropy: 3.322, Expected Info Gain: 2.446 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙈𝙄𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙈𝙄𝙎𝙎 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.293 bits, Posterior Entropy: 8.566, 
+Guess: 𝘼𝙇𝘼𝙈𝙊, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.566, Expected Info Gain: 4.479 bits, Actual Info Gain: 6.981 bits, Posterior Entropy: 1.585, 
+Guess: 𝘼𝙈𝙄𝙎𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================

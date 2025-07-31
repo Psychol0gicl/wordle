@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙐𝙁𝙐𝙎 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ROIDS 
+The top ten guesses and scores: [('ROIDS', 510), ('BRIOS', 509), ('COIRS', 506), ('CRIOS', 506), ('IRONS', 506), ('NOIRS', 506), ('ORNIS', 506), ('ROINS', 506), ('POURS', 505), ('ROUPS', 505)]
+The bot finally chose: ROIDS 
+Guess: 𝙍𝙊𝙄𝘿𝙎, Feedback: 🟩⬜⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: RUCKS 
+The top ten guesses and scores: [('RUCKS', 31), ('RUKHS', 31), ('RUFFS', 30), ('RUFUS', 30), ('RUSKS', 30), ('RUMPS', 29), ('RUNGS', 29), ('RUBUS', 28)]
+The bot finally chose: RUFUS 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Guess: 𝙍𝙊𝙄𝘿𝙎, Feedback: 🟩⬜⬜⬜🟩
+Guess: 𝙍𝙐𝙁𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙐𝙁𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POURS with entropy: 3.8954
+Bot chose: PRIUS with entropy: 3.7219
+Top ten guesses: [('POURS', 3.895425864708001), ('ROUPS', 3.8103435583601115), ('ROIDS', 3.796331479704104), ('COIRS', 3.7742589005707616), ('DROPS', 3.7626788285827186), ('PRODS', 3.7512131416570673), ('NOIRS', 3.739714495544401), ('COURS', 3.7291248028079593), ('PRIUS', 3.7219053611408506), ('FOURS', 3.695442065671275)]
+
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 5.6912 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.6911619045530815, 'expected_info_gain': 3.7219053611408506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUBUS with entropy: 1.5850
+Bot chose: RUFUS with entropy: 1.5850
+Top ten guesses: [('RUBUS', 1.584962500721156), ('RUFUS', 1.584962500721156), ('ROHUS', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 7.276, Expected Info Gain: 3.722 bits, Actual Info Gain: 5.691 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙐𝙁𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙁𝙐𝙎 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: POURS with entropy: 3.8954
+Bot chose: PRIUS with entropy: 3.7219
+Top ten guesses: [('POURS', 3.895425864708001), ('ROUPS', 3.8103435583601115), ('ROIDS', 3.796331479704104), ('COIRS', 3.7742589005707616), ('DROPS', 3.7626788285827186), ('PRODS', 3.7512131416570673), ('NOIRS', 3.739714495544401), ('COURS', 3.7291248028079593), ('PRIUS', 3.7219053611408506), ('FOURS', 3.695442065671275)]
+
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟨⬜🟩🟩
+Actual Info Gain: 5.6912 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 5.6911619045530815, 'expected_info_gain': 3.7219053611408506}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RUBUS with entropy: 1.5850
+Bot chose: RUFUS with entropy: 1.5850
+Top ten guesses: [('RUBUS', 1.584962500721156), ('RUFUS', 1.584962500721156), ('ROHUS', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙄𝙐𝙎, Feedback: ⬜🟨⬜🟩🟩, Prior Entropy: 7.276, Expected Info Gain: 3.722 bits, Actual Info Gain: 5.691 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙐𝙁𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙁𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 255 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('GROUP', '4.369'), ('DOING', '4.266'), ('FOUND', '4.178'), ('COULD', '4.017'), ('POURS', '3.895')]
+Top entropy choice: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.3694
+Ended up choosing COMMON word: 𝙂𝙍𝙊𝙐𝙋 with entropy: 4.3694
+
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨⬜🟩⬜
+Actual Info Gain: 5.2761 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 2.0, 'actual_info_gain': 5.2761244052742375, 'expected_info_gain': 4.369401343471168}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('RIMUS', '1.500'), ('RISUS', '1.500'), ('RUBUS', '1.500'), ('RUFUS', '1.500')]
+Top entropy choice: 𝙍𝙄𝙈𝙐𝙎 with entropy: 1.5000
+Ended up choosing COMMON word: 𝙍𝙐𝙁𝙐𝙎 with entropy: 1.5000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙂𝙍𝙊𝙐𝙋, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 7.276, Expected Info Gain: 4.369 bits, Actual Info Gain: 5.276 bits, Posterior Entropy: 2.000, 
+Guess: 𝙍𝙐𝙁𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙐𝙁𝙐𝙎 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BLURS', 'BOORS', 'BOWRS', 'BRIGS', 'BRIKS', 'BRIMS', 'BRINS', 'BRIOS', 'BRISS', 'BRODS', 'BROGS', 'BROOS', 'BROWS', 'BRUHS', 'BRUVS', 'BUHRS', 'COIRS', 'COURS', 'CRIBS', 'CRIMS', 'CRINS', 'CRIOS', 'CRIPS', 'CRISS', 'CROCS', 'CROGS', 'CRONS', 'CROPS', 'CROSS', 'CROWS', 'CRUDS', 'DOORS', 'DRIBS', 'DRIPS', 'DROPS', 'DROSS', 'DROWS', 'DRUBS', 'DRUGS', 'DRUMS', 'FLIRS', 'FLORS', 'FOURS', 'FRIBS', 'FRIGS', 'FROGS', 'FRONS', 'FROWS', 'FRUGS', 'GOORS', 'GRIDS', 'GRIGS', 'GRINS', 'GRIPS', 'GROGS', 'GROKS', 'GROMS', 'GROSS', 'GROWS', 'GRUBS', 'HOORS', 'HOURS', 'IRIDS', 'IRONS', 'JOURS', 'KHIRS', 'KHORS', 'KNURS', 'LOIRS', 'LOURS', 'MOHRS', 'MOORS', 'MUIRS', 'NOIRS', 'ODORS', 'ORDOS', 'ORNIS', 'ORZOS', 'POURS', 'PRIGS', 'PRIMS', 'PRISS', 'PRIUS', 'PROBS', 'PRODS', 'PROFS', 'PROGS', 'PROMS', 'PROPS', 'PROSS', 'PROWS', 'RICKS', 'RIFFS', 'RIGGS', 'RILLS', 'RIMUS', 'RINDS', 'RINGS', 'RINKS', 'RIPPS', 'RIQQS', 'RISKS', 'RISPS', 'RISUS', 'ROCKS', 'ROHUS', 'ROIDS', 'ROILS', 'ROINS', 'ROJIS', 'ROKOS', 'ROLFS', 'ROLLS', 'ROMPS', 'ROODS', 'ROOFS', 'ROOKS', 'ROOMS', 'ROONS', 'ROOPS', 'ROSPS', 'ROUFS', 'ROUKS', 'ROULS', 'ROUMS', 'ROUPS', 'ROWNS', 'RUBUS', 'RUCKS', 'RUDDS', 'RUDIS', 'RUFFS', 'RUFUS', 'RUINS', 'RUKHS', 'RUMPS', 'RUNDS', 'RUNGS', 'RUNOS', 'RUSKS', 'RYNDS', 'SCURS', 'SHIRS', 'SKYRS', 'SLURS', 'SMIRS', 'SMURS', 'SOURS', 'SPURS', 'VRILS', 'VROUS', 'VROWS', 'WHIRS', 'YOURS', 'ZIKRS']
+155 candidate words remaining.
+Top 10 guesses: [('PROUD', '4.406'), ('POUND', '4.387'), ('GROUP', '4.369'), ('POIND', '4.339'), ('GOURD', '4.318'), ('BOUND', '4.307'), ('BOURD', '4.297'), ('CROUP', '4.283'), ('BOURN', '4.277'), ('BOURG', '4.267')]
+Top entropy choice: 𝙋𝙍𝙊𝙐𝘿 with entropy: 4.4062
+Guess count low, choosing the word with highest entropy: 𝙋𝙍𝙊𝙐𝘿 with entropy: 4.4062
+
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: ⬜🟨⬜🟩⬜
+Actual Info Gain: 5.2761 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 2.0, 'actual_info_gain': 5.2761244052742375, 'expected_info_gain': 4.406181415188354}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RIMUS', 'RISUS', 'RUBUS', 'RUFUS']
+4 candidate words remaining.
+Top 10 guesses: [('ABRIM', '2.000'), ('ABSIT', '2.000'), ('AMBIT', '2.000'), ('BAMBI', '2.000'), ('BASIC', '2.000'), ('BASIJ', '2.000'), ('BASIL', '2.000'), ('BASIN', '2.000'), ('BASIS', '2.000'), ('BASSI', '2.000')]
+Top entropy choice: 𝘼𝘽𝙍𝙄𝙈 with entropy: 2.0000
+Using common exploratory word: 𝘽𝘼𝙈𝘽𝙄 with entropy: 2.0000
+
+Guess: 𝘽𝘼𝙈𝘽𝙄, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 4.406181415188354}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RUFUS']
+1 candidate words remaining.
+Top 10 guesses: [('RUFUS', '0.000')]
+Top entropy choice: 𝙍𝙐𝙁𝙐𝙎 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙐𝙁𝙐𝙎 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙋𝙍𝙊𝙐𝘿, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 7.276, Expected Info Gain: 4.406 bits, Actual Info Gain: 5.276 bits, Posterior Entropy: 2.000, 
+Guess: 𝘽𝘼𝙈𝘽𝙄, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 4.406 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙐𝙁𝙐𝙎, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

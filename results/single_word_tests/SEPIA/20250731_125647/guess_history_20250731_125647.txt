@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙀𝙋𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝙎𝙀𝘿𝘼𝙉, Feedback: 🟩🟩⬜🟨⬜
+Guess: 𝙎𝙀𝙋𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙀𝙋𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 2.823 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙀𝘿𝘼𝙉, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙋𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙋𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 2.823 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙀𝘿𝘼𝙉, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙋𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙋𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙇𝙀𝘼𝙎𝙃, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 6.524, Expected Info Gain: 3.988 bits, Actual Info Gain: 2.823 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙀𝘿𝘼𝙉, Feedback: 🟩🟩⬜🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.027 bits, Actual Info Gain: 2.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙀𝙋𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙀𝙋𝙄𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.335 bits, Posterior Entropy: 6.524, 
+Guess: 𝙎𝙋𝘼𝙇𝙀, Feedback: 🟩🟨🟨⬜🟨, Prior Entropy: 6.524, Expected Info Gain: 4.187 bits, Actual Info Gain: 4.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙀𝙋𝙄𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

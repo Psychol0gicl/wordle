@@ -1,0 +1,157 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THROE 
+The top ten guesses and scores: [('THROE', 34), ('TORTE', 33), ('TURME', 33), ('TERCE', 32), ('TERFE', 32), ('TERNE', 32), ('TERRY', 32), ('TERRE', 31)]
+The bot finally chose: TERRY 
+Guess: 𝙏𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TERRE 
+The top ten guesses and scores: [('TERRE', 5)]
+The bot finally chose: TERRE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+Guess: 𝙏𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERCE with entropy: 1.8113
+Bot chose: TERRE with entropy: 1.8113
+Top ten guesses: [('TERCE', 1.811278124459133), ('TERFE', 1.811278124459133), ('TERNE', 1.811278124459133), ('TERRE', 1.811278124459133), ('TERRY', 1.811278124459133), ('THROE', 1.5487949406953985), ('TORTE', 1.5487949406953985), ('TURME', 1.061278124459133)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TERCE with entropy: 1.8113
+Bot chose: TERRE with entropy: 1.8113
+Top ten guesses: [('TERCE', 1.811278124459133), ('TERFE', 1.811278124459133), ('TERNE', 1.811278124459133), ('TERRE', 1.811278124459133), ('TERRY', 1.811278124459133), ('THROE', 1.5487949406953985), ('TORTE', 1.5487949406953985), ('TURME', 1.061278124459133)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('TERCE', '1.811'), ('TERFE', '1.811'), ('TERNE', '1.811'), ('TERRE', '1.811'), ('TERRY', '1.811')]
+Top entropy choice: 𝙏𝙀𝙍𝘾𝙀 with entropy: 1.8113
+Ended up choosing COMMON word: 𝙏𝙀𝙍𝙍𝙀 with entropy: 1.8113
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝙍𝙍𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜
+Actual Info Gain: 10.8587 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.0, 'actual_info_gain': 10.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TERCE', 'TERFE', 'TERNE', 'TERRE', 'TERRY', 'THROE', 'TORTE', 'TURME']
+8 candidate words remaining.
+Top 10 guesses: [('COMFY', '2.750'), ('COURE', '2.750'), ('UNCOY', '2.750'), ('YOURN', '2.750'), ('BOURN', '2.500'), ('CHERE', '2.500'), ('CHURN', '2.500'), ('COURB', '2.500'), ('COURD', '2.500'), ('COURS', '2.500')]
+Top entropy choice: 𝘾𝙊𝙈𝙁𝙔 with entropy: 2.7500
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙈𝙁𝙔 with entropy: 2.7500
+
+Guess: 𝘾𝙊𝙈𝙁𝙔, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 1.0, 'actual_info_gain': 2.0, 'expected_info_gain': 2.75}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TERNE', 'TERRE']
+2 candidate words remaining.
+Top 10 guesses: [('TERNE', '1.000'), ('TERRE', '1.000')]
+Top entropy choice: 𝙏𝙀𝙍𝙉𝙀 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙀𝙍𝙍𝙀 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.859 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙊𝙈𝙁𝙔, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.000, Expected Info Gain: 2.750 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝙍𝙍𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

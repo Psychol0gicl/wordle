@@ -1,0 +1,243 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙐𝘽𝘽𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TOIDY 
+The top ten guesses and scores: [('TOIDY', 272), ('TIMON', 270), ('TOMIN', 270), ('THIOL', 267), ('THOLI', 267), ('TONIC', 266), ('TOPHI', 266), ('TOITY', 263), ('TONDI', 263), ('TIGON', 262)]
+The bot finally chose: TIMON 
+Guess: 𝙏𝙄𝙈𝙊𝙉, Feedback: 🟩⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TUBBY 
+The top ten guesses and scores: [('TUBBY', 18), ('TUFTY', 17), ('TUTTY', 16), ('TUKTU', 14)]
+The bot finally chose: TUBBY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝙏𝙄𝙈𝙊𝙉, Feedback: 🟩⬜⬜⬜⬜
+Guess: 𝙏𝙐𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙐𝘽𝘽𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TINTY with entropy: 4.4500
+Bot chose: TINTO with entropy: 4.4033
+Top ten guesses: [('TINTY', 4.450012048033773), ('TOITY', 4.435438184580102), ('TINTO', 4.403335225340544), ('TOMIN', 4.144798449013805), ('TONIC', 4.096056960137224), ('TIMON', 4.093985013115692), ('TOIDY', 4.068833894481751), ('TIYIN', 4.021761543060586), ('THIOL', 4.00353742734047), ('TOING', 3.9894198362392888)]
+
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 3.9228 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.9228321394775403, 'expected_info_gain': 4.403335225340544}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THUMB with entropy: 2.5850
+Bot chose: THUMB with entropy: 2.5850
+Top ten guesses: [('THUMB', 2.584962500721156), ('THUMP', 2.584962500721156), ('TUMPY', 2.584962500721156), ('THYMY', 2.2516291673878226), ('TUBBY', 2.2516291673878226), ('TUMMY', 2.2516291673878226)]
+
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TUBBY with entropy: 0.0000
+Bot chose: TUBBY with entropy: 0.0000
+Top ten guesses: [('TUBBY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙐𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙐𝘽𝘽𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TINTY with entropy: 4.4500
+Bot chose: TINTO with entropy: 4.4033
+Top ten guesses: [('TINTY', 4.450012048033773), ('TOITY', 4.435438184580102), ('TINTO', 4.403335225340544), ('TOMIN', 4.144798449013805), ('TONIC', 4.096056960137224), ('TIMON', 4.093985013115692), ('TOIDY', 4.068833894481751), ('TIYIN', 4.021761543060586), ('THIOL', 4.00353742734047), ('TOING', 3.9894198362392888)]
+
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 3.9228 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.9228321394775403, 'expected_info_gain': 4.403335225340544}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: THUMB with entropy: 2.5850
+Bot chose: THUMB with entropy: 2.5850
+Top ten guesses: [('THUMB', 2.584962500721156), ('THUMP', 2.584962500721156), ('TUMPY', 2.584962500721156), ('THYMY', 2.2516291673878226), ('TUBBY', 2.2516291673878226), ('TUMMY', 2.2516291673878226)]
+
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TUBBY with entropy: 0.0000
+Bot chose: TUBBY with entropy: 0.0000
+Top ten guesses: [('TUBBY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙐𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙐𝘽𝘽𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 189 potential guesses from 91 remaining candidates...
+Top 5 guesses: [('TINTY', '4.450'), ('TOITY', '4.435'), ('TINTO', '4.403'), ('YOUNG', '4.361'), ('POINT', '4.296')]
+Top entropy choice: 𝙏𝙄𝙉𝙏𝙔 with entropy: 4.4500
+Ended up choosing COMMON word: 𝙏𝙄𝙉𝙏𝙊 with entropy: 4.4033
+
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 3.9228 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 3.9228321394775403, 'expected_info_gain': 4.403335225340544}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('THUMB', '2.585'), ('THUMP', '2.585'), ('TUMPY', '2.585'), ('THYMY', '2.252'), ('TUBBY', '2.252')]
+Top entropy choice: 𝙏𝙃𝙐𝙈𝘽 with entropy: 2.5850
+Ended up choosing COMMON word: 𝙏𝙃𝙐𝙈𝘽 with entropy: 2.5850
+
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 2.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TUBBY', '0.000')]
+Top entropy choice: 𝙏𝙐𝘽𝘽𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙐𝘽𝘽𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙏𝙄𝙉𝙏𝙊, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.508, Expected Info Gain: 4.403 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 2.585, 
+Guess: 𝙏𝙃𝙐𝙈𝘽, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 2.585, Expected Info Gain: 2.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙐𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙐𝘽𝘽𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 7.3509 bits
+Posterior entropy: 6.507794640198696
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.507794640198696, 'actual_info_gain': 7.35086634452408, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THICK', 'THIGH', 'THILK', 'THILL', 'THING', 'THINK', 'THIOL', 'THOFT', 'THOLI', 'THONG', 'THOWL', 'THUMB', 'THUMP', 'THUNK', 'THYMI', 'THYMY', 'TICHY', 'TICKY', 'TIDDY', 'TIGHT', 'TIGON', 'TILLY', 'TILTH', 'TIMBO', 'TIMID', 'TIMON', 'TINCT', 'TINNY', 'TINTO', 'TINTY', 'TIPPY', 'TIPUP', 'TITCH', 'TITHI', 'TITIN', 'TITTY', 'TITUP', 'TIYIN', 'TIZZY', 'TOCKY', 'TODDY', 'TOFFY', 'TOIDY', 'TOING', 'TOITY', 'TOLLY', 'TOLYL', 'TOMBO', 'TOMIN', 'TOMMY', 'TOMOZ', 'TONDI', 'TONDO', 'TONIC', 'TOOTH', 'TOPHI', 'TOPIC', 'TOPOI', 'TOPPY', 'TOTTY', 'TOUCH', 'TOUGH', 'TOUZY', 'TOWNO', 'TOWNY', 'TOWZY', 'TOXIC', 'TOXIN', 'TOYON', 'TUBBY', 'TUFTY', 'TUKTU', 'TULIP', 'TUMID', 'TUMMY', 'TUMPY', 'TUNIC', 'TUNNY', 'TUPIK', 'TUTTI', 'TUTTY', 'TWILL', 'TWILT', 'TWINK', 'TWINY', 'TWIXT', 'TWONK', 'TYING', 'TYIYN', 'TYPIC', 'TYPTO']
+91 candidate words remaining.
+Top 10 guesses: [('PIONY', '4.966'), ('CHINO', '4.839'), ('NOILY', '4.783'), ('YONIC', '4.754'), ('YOGIN', '4.719'), ('HINKY', '4.708'), ('MINCY', '4.642'), ('PHONY', '4.639'), ('MINTY', '4.630'), ('PINOL', '4.626')]
+Top entropy choice: 𝙋𝙄𝙊𝙉𝙔 with entropy: 4.9663
+Guess count low, choosing the word with highest entropy: 𝙋𝙄𝙊𝙉𝙔 with entropy: 4.9663
+
+Guess: 𝙋𝙄𝙊𝙉𝙔, Feedback: ⬜⬜⬜⬜🟩
+Actual Info Gain: 4.1859 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 6.507794640198696, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 4.185866545311335, 'expected_info_gain': 4.966278915200509}
+----------
+The bot is making a guess...
+THe possible candidates are: ['THYMY', 'TUBBY', 'TUFTY', 'TUMMY', 'TUTTY']
+5 candidate words remaining.
+Top 10 guesses: [('BATTU', '2.322'), ('BUFTY', '2.322'), ('BUMFS', '2.322'), ('BUTTE', '2.322'), ('BUTTS', '2.322'), ('BUTTY', '2.322'), ('BUTUT', '2.322'), ('MUFTI', '2.322'), ('MUTTI', '2.322'), ('MUTTS', '2.322')]
+Top entropy choice: 𝘽𝘼𝙏𝙏𝙐 with entropy: 2.3219
+Using common exploratory word: 𝘽𝙐𝙏𝙏𝙀 with entropy: 2.3219
+
+Guess: 𝘽𝙐𝙏𝙏𝙀, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 4.966278915200509}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TUBBY']
+1 candidate words remaining.
+Top 10 guesses: [('TUBBY', '0.000')]
+Top entropy choice: 𝙏𝙐𝘽𝘽𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙐𝘽𝘽𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.351 bits, Posterior Entropy: 6.508, 
+Guess: 𝙋𝙄𝙊𝙉𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 6.508, Expected Info Gain: 4.966 bits, Actual Info Gain: 4.186 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝙏𝙏𝙀, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 4.966 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙐𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

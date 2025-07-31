@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙈𝙀𝘿 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TAPED 
+The top ten guesses and scores: [('TAPED', 37), ('TAMED', 35), ('TAPEN', 35), ('TAWED', 35), ('TAXED', 35), ('TAKEN', 33), ('TAPET', 33), ('TACET', 31), ('TALEA', 31)]
+The bot finally chose: TAPED 
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+entropy_info: None
+----------
+The bot originally chose: TAMED 
+The top ten guesses and scores: [('TAMED', 13), ('TAWED', 13), ('TAXED', 13)]
+The bot finally chose: TAMED 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙏𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙈𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAPED with entropy: 1.8911
+Bot chose: TAPED with entropy: 1.8911
+Top ten guesses: [('TAPED', 1.8910611120726526), ('TAPEN', 1.6577427265048887), ('TAPET', 1.6577427265048887), ('TAMED', 1.3516441151533924), ('TAWED', 1.3516441151533922), ('TAXED', 1.3516441151533922), ('TACET', 0.9864267287308424), ('TAKEN', 0.9864267287308424), ('TALEA', 0.5032583347756457)]
+
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.8910611120726526}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAMED with entropy: 0.9183
+Bot chose: TAMED with entropy: 0.9183
+Top ten guesses: [('TAMED', 0.9182958340544896), ('TAWED', 0.9182958340544896), ('TAXED', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.891 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙈𝙀𝘿 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAPED with entropy: 1.8911
+Bot chose: TAPED with entropy: 1.8911
+Top ten guesses: [('TAPED', 1.8910611120726526), ('TAPEN', 1.6577427265048887), ('TAPET', 1.6577427265048887), ('TAMED', 1.3516441151533924), ('TAWED', 1.3516441151533922), ('TAXED', 1.3516441151533922), ('TACET', 0.9864267287308424), ('TAKEN', 0.9864267287308424), ('TALEA', 0.5032583347756457)]
+
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.8910611120726526}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAMED with entropy: 0.9183
+Bot chose: TAMED with entropy: 0.9183
+Top ten guesses: [('TAMED', 0.9182958340544896), ('TAWED', 0.9182958340544896), ('TAXED', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.891 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙈𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('TAPED', '1.891'), ('TAPEN', '1.658'), ('TAPET', '1.658'), ('TAMED', '1.352'), ('TAWED', '1.352')]
+Top entropy choice: 𝙏𝘼𝙋𝙀𝘿 with entropy: 1.8911
+Ended up choosing COMMON word: 𝙏𝘼𝙋𝙀𝘿 with entropy: 1.8911
+
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.8910611120726526}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TAMED', '0.918'), ('TAWED', '0.918'), ('TAXED', '0.918')]
+Top entropy choice: 𝙏𝘼𝙈𝙀𝘿 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙏𝘼𝙈𝙀𝘿 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙋𝙀𝘿, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.891 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙈𝙀𝘿 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TACET', 'TAKEN', 'TALEA', 'TAMED', 'TAPED', 'TAPEN', 'TAPET', 'TAWED', 'TAXED']
+9 candidate words remaining.
+Top 10 guesses: [('DEMPT', '2.725'), ('POWND', '2.725'), ('PWNED', '2.725'), ('ADAPT', '2.642'), ('NEMPT', '2.642'), ('PANDA', '2.642'), ('PINDA', '2.642'), ('PLANT', '2.642'), ('PADAM', '2.503'), ('PADMA', '2.503')]
+Top entropy choice: 𝘿𝙀𝙈𝙋𝙏 with entropy: 2.7255
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙈𝙋𝙏 with entropy: 2.7255
+
+Guess: 𝘿𝙀𝙈𝙋𝙏, Feedback: 🟨🟨🟩⬜🟨
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAMED']
+1 candidate words remaining.
+Top 10 guesses: [('TAMED', '0.000')]
+Top entropy choice: 𝙏𝘼𝙈𝙀𝘿 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙈𝙀𝘿 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝘿𝙀𝙈𝙋𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙈𝙀𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

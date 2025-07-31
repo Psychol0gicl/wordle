@@ -1,0 +1,57 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙂𝙊𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜🟨⬜🟩🟩
+Guess: 𝙁𝙇𝙊𝙍𝘼, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙂𝙊𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙊𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙊𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: 🟨🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 4.995 bits, Posterior Entropy: 3.170, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙂𝙊𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 8.165, Expected Info Gain: 4.634 bits, Actual Info Gain: 6.165 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘾𝙊𝙍𝙉, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 4.634 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙂𝙊𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

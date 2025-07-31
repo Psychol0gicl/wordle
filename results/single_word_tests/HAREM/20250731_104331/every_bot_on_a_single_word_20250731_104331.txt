@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: PARED 
+The top ten guesses and scores: [('PARED', 123), ('CARED', 121), ('OARED', 120), ('BARED', 119), ('FARED', 119), ('HARED', 119), ('WARED', 119), ('DARED', 117), ('DARER', 117), ('EARED', 117)]
+The bot finally chose: PARED 
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: CAREX 
+The top ten guesses and scores: [('CAREX', 57), ('KAREZ', 57), ('VAREC', 57), ('CARER', 56), ('WAREZ', 56), ('HAREM', 55), ('KAREE', 55), ('BARER', 54), ('FARER', 54), ('LAREE', 54)]
+The bot finally chose: CARER 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: KAREZ 
+The top ten guesses and scores: [('KAREZ', 21), ('WAREZ', 20), ('HAREM', 19), ('KAREE', 19), ('LAREE', 18)]
+The bot finally chose: HAREM 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARER with entropy: 2.1834
+Bot chose: DARER with entropy: 2.1834
+Top ten guesses: [('DARER', 2.1833828536280686), ('RARED', 2.1037956681979177), ('PARER', 1.8447411335095913), ('CARER', 1.8022788370865521), ('RAREE', 1.8022788370865521), ('PARED', 1.7921594490677157), ('CARED', 1.755913095175825), ('OARER', 1.6832194462630237), ('EARED', 1.664083511770376), ('OARED', 1.6396841518006326)]
+
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.4475 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.4474589769712214, 'expected_info_gain': 2.1833828536280686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PAREV with entropy: 1.6172
+Bot chose: PAREV with entropy: 1.6172
+Top ten guesses: [('PAREV', 1.6171895725927152), ('KAREE', 1.2776134368191154), ('KAREZ', 1.2776134368191154), ('VAREC', 1.2776134368191154), ('PAREN', 1.2406705316766884), ('PAREO', 1.2406705316766884), ('PAREU', 1.2406705316766884), ('CAREX', 0.8658566174572235), ('LAREE', 0.8658566174572235), ('WAREZ', 0.8658566174572235)]
+
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.6171895725927152}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KAREE with entropy: 1.7925
+Bot chose: HAREM with entropy: 0.6500
+Top ten guesses: [('KAREE', 1.7924812503605778), ('KAREZ', 1.7924812503605778), ('LAREE', 1.2516291673878228), ('WAREZ', 1.2516291673878228), ('CAREX', 0.6500224216483541), ('HAREM', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARER with entropy: 2.1834
+Bot chose: DARER with entropy: 2.1834
+Top ten guesses: [('DARER', 2.1833828536280686), ('RARED', 2.1037956681979177), ('PARER', 1.8447411335095913), ('CARER', 1.8022788370865521), ('RAREE', 1.8022788370865521), ('PARED', 1.7921594490677157), ('CARED', 1.755913095175825), ('OARER', 1.6832194462630237), ('EARED', 1.664083511770376), ('OARED', 1.6396841518006326)]
+
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.4475 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 1.4474589769712214, 'expected_info_gain': 2.1833828536280686}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PAREV with entropy: 1.6172
+Bot chose: PAREV with entropy: 1.6172
+Top ten guesses: [('PAREV', 1.6171895725927152), ('KAREE', 1.2776134368191154), ('KAREZ', 1.2776134368191154), ('VAREC', 1.2776134368191154), ('PAREN', 1.2406705316766884), ('PAREO', 1.2406705316766884), ('PAREU', 1.2406705316766884), ('CAREX', 0.8658566174572235), ('LAREE', 0.8658566174572235), ('WAREZ', 0.8658566174572235)]
+
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.6171895725927152}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: KAREE with entropy: 1.7925
+Bot chose: HAREM with entropy: 0.6500
+Top ten guesses: [('KAREE', 1.7924812503605778), ('KAREZ', 1.7924812503605778), ('LAREE', 1.2516291673878228), ('WAREZ', 1.2516291673878228), ('CAREX', 0.6500224216483541), ('HAREM', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 2.183 bits, Actual Info Gain: 1.447 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝘼𝙍𝙀𝙑, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 1.617 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 30 potential guesses from 30 remaining candidates...
+Top 5 guesses: [('DARER', '2.183'), ('RARED', '2.104'), ('PARER', '1.845'), ('CARER', '1.802'), ('RAREE', '1.802')]
+Top entropy choice: 𝘿𝘼𝙍𝙀𝙍 with entropy: 2.1834
+Ended up choosing COMMON word: 𝘾𝘼𝙍𝙀𝙍 with entropy: 1.8023
+
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.8194 bits
+Posterior entropy: 4.087462841250339
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 4.087462841250339, 'actual_info_gain': 0.8194277543581796, 'expected_info_gain': 1.8022788370865521}
+----------
+The bot is making a guess...
+Evaluating 17 potential guesses from 17 remaining candidates...
+Top 5 guesses: [('PARED', '1.778'), ('EARED', '1.658'), ('OARED', '1.520'), ('WARED', '1.520'), ('HARED', '1.520')]
+Top entropy choice: 𝙋𝘼𝙍𝙀𝘿 with entropy: 1.7780
+Ended up choosing COMMON word: 𝙋𝘼𝙍𝙀𝘿 with entropy: 1.7780
+
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.7655 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.087462841250339, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.765534746362977, 'expected_info_gain': 1.7779849042597486}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('KAREE', '1.922'), ('KAREZ', '1.922'), ('LAREE', '1.371'), ('WAREZ', '1.371'), ('HAREM', '0.722')]
+Top entropy choice: 𝙆𝘼𝙍𝙀𝙀 with entropy: 1.9219
+
+Guess: 𝙆𝘼𝙍𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.3219 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 1.0, 'actual_info_gain': 1.3219280948873622, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('HAREM', '1.000'), ('WAREZ', '1.000')]
+Top entropy choice: 𝙃𝘼𝙍𝙀𝙈 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙃𝘼𝙍𝙀𝙈 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘾𝘼𝙍𝙀𝙍, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.907, Expected Info Gain: 1.802 bits, Actual Info Gain: 0.819 bits, Posterior Entropy: 4.087, 
+Guess: 𝙋𝘼𝙍𝙀𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.087, Expected Info Gain: 1.778 bits, Actual Info Gain: 1.766 bits, Posterior Entropy: 2.322, 
+Guess: 𝙆𝘼𝙍𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝘼𝙍𝙀𝙈 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 8.9518 bits
+Posterior entropy: 4.906890595608519
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.906890595608519, 'actual_info_gain': 8.951770389114259, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARED', 'BARER', 'CARED', 'CARER', 'CAREX', 'DARED', 'DARER', 'EARED', 'FARED', 'FARER', 'HARED', 'HAREM', 'KAREE', 'KAREZ', 'LAREE', 'OARED', 'OARER', 'PARED', 'PAREN', 'PAREO', 'PARER', 'PAREU', 'PAREV', 'RARED', 'RAREE', 'RARER', 'VAREC', 'WARED', 'WAREZ', 'YARER']
+30 candidate words remaining.
+Top 10 guesses: [('DOPER', '2.906'), ('PUDOR', '2.853'), ('DECOR', '2.847'), ('COPED', '2.811'), ('CEDER', '2.776'), ('CODER', '2.769'), ('CHODE', '2.708'), ('DOUCE', '2.694'), ('EPHOD', '2.689'), ('POWND', '2.659')]
+Top entropy choice: 𝘿𝙊𝙋𝙀𝙍 with entropy: 2.9064
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙋𝙀𝙍 with entropy: 2.9064
+
+Guess: 𝘿𝙊𝙋𝙀𝙍, Feedback: ⬜⬜⬜🟩🟨
+Actual Info Gain: 1.9069 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.906890595608519, 'posterior_entropy': 3.0, 'actual_info_gain': 1.9068905956085187, 'expected_info_gain': 2.9063568479084014}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CAREX', 'HAREM', 'KAREE', 'KAREZ', 'LAREE', 'RAREE', 'VAREC', 'WAREZ']
+8 candidate words remaining.
+Top 10 guesses: [('CHEEK', '2.750'), ('CHOKE', '2.750'), ('CLEEK', '2.750'), ('CLOKE', '2.750'), ('CHALK', '2.500'), ('CHAWK', '2.500'), ('CHILE', '2.500'), ('CHOWK', '2.500'), ('CHYLE', '2.500'), ('CLAME', '2.500')]
+Top entropy choice: 𝘾𝙃𝙀𝙀𝙆 with entropy: 2.7500
+Using common exploratory word: 𝘾𝙃𝙀𝙀𝙆 with entropy: 2.7500
+
+Guess: 𝘾𝙃𝙀𝙀𝙆, Feedback: ⬜🟨⬜🟩⬜
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 2.9063568479084014}
+----------
+The bot is making a guess...
+THe possible candidates are: ['HAREM']
+1 candidate words remaining.
+Top 10 guesses: [('HAREM', '0.000')]
+Top entropy choice: 𝙃𝘼𝙍𝙀𝙈 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝘼𝙍𝙀𝙈 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.952 bits, Posterior Entropy: 4.907, 
+Guess: 𝘿𝙊𝙋𝙀𝙍, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 4.907, Expected Info Gain: 2.906 bits, Actual Info Gain: 1.907 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙃𝙀𝙀𝙆, Feedback: ⬜🟨⬜🟩⬜, Prior Entropy: 3.000, Expected Info Gain: 2.906 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝘼𝙍𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

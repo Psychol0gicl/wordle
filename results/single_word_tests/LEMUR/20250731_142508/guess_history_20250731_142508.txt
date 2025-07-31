@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙇𝙀𝙈𝙐𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨
+Guess: 𝙍𝙀𝘿𝙐𝙓, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙁𝙀𝙈𝙐𝙍, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙇𝙀𝙈𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙇𝙀𝙈𝙐𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.145 bits, Posterior Entropy: 5.000, 
+Guess: 𝙍𝙀𝙀𝘿𝙔, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 3.718 bits, Actual Info Gain: 3.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙈𝙐𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙈𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙈𝙐𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.145 bits, Posterior Entropy: 5.000, 
+Guess: 𝙍𝙀𝙀𝘿𝙔, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 3.718 bits, Actual Info Gain: 3.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙈𝙐𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙈𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙈𝙐𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.145 bits, Posterior Entropy: 5.000, 
+Guess: 𝙍𝙀𝙀𝘿𝙔, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 3.718 bits, Actual Info Gain: 3.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙁𝙀𝙈𝙐𝙍, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙈𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙇𝙀𝙈𝙐𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.145, Expected Info Gain: 4.837 bits, Actual Info Gain: 3.621 bits, Posterior Entropy: 4.524, 
+Guess: 𝙋𝙔𝙇𝙊𝙉, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 4.837 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙇𝙀𝙈𝙐𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

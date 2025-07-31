@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙀𝘾𝙃𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: ⬜⬜🟨🟩🟨
+Guess: 𝙃𝙀𝘾𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙀𝘾𝙃𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝙀𝘾𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘾𝙃𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝙀𝘾𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘾𝙃𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 3.585 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝙀𝘾𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝘾𝙃𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.923 bits, Posterior Entropy: 4.585, 
+Guess: 𝘿𝙀𝙋𝙊𝙏, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 4.585, Expected Info Gain: 4.694 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙃𝙀𝘾𝙃𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

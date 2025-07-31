@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝘽𝘼𝙒𝘿𝙔, Feedback: 🟨🟩⬜⬜🟩
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 4.966 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 4.966 bits, Posterior Entropy: 2.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 2.300 bits, Posterior Entropy: 6.728, 
+Guess: 𝘿𝘼𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 6.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.143 bits, Posterior Entropy: 3.585, 
+Guess: 𝘽𝘼𝙂𝙂𝙔, Feedback: 🟨🟩🟨⬜🟩, Prior Entropy: 3.585, Expected Info Gain: 2.752 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝘽𝘽𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 3.355 bits, Posterior Entropy: 5.672, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: 🟨🟩⬜⬜🟩, Prior Entropy: 5.672, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝘼𝘽𝘽𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,205 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝘼𝙏𝙊𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: RATIO 
+The top ten guesses and scores: [('RATIO', 65), ('RAITH', 64), ('RANTY', 63), ('GATOR', 62), ('RAFTY', 62), ('RAITA', 61), ('RATCH', 61), ('RATOO', 61), ('RATTI', 61), ('RATTY', 61)]
+The bot finally chose: RATIO 
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟨🟩🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: GATOR 
+The top ten guesses and scores: [('GATOR', 5)]
+The bot finally chose: GATOR 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟨🟩🟩⬜🟨
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝘼𝙏𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAITA with entropy: 3.1556
+Bot chose: RAITA with entropy: 3.1556
+Top ten guesses: [('RAITA', 3.1556390622295662), ('RATHA', 3.125), ('RATAN', 3.024397470347699), ('YATRA', 3.024397470347699), ('RAITH', 2.9056390622295662), ('RATAL', 2.852217001462482), ('RATIO', 2.727217001462482), ('RATTI', 2.727217001462482), ('RATTY', 2.6556390622295662), ('MATRA', 2.60845859334435)]
+
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.1556390622295662}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GATOR with entropy: 0.0000
+Bot chose: GATOR with entropy: 0.0000
+Top ten guesses: [('GATOR', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙏𝙊𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAITA with entropy: 3.1556
+Bot chose: RAITA with entropy: 3.1556
+Top ten guesses: [('RAITA', 3.1556390622295662), ('RATHA', 3.125), ('RATAN', 3.024397470347699), ('YATRA', 3.024397470347699), ('RAITH', 2.9056390622295662), ('RATAL', 2.852217001462482), ('RATIO', 2.727217001462482), ('RATTI', 2.727217001462482), ('RATTY', 2.6556390622295662), ('MATRA', 2.60845859334435)]
+
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.1556390622295662}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GATOR with entropy: 0.0000
+Bot chose: GATOR with entropy: 0.0000
+Top ten guesses: [('GATOR', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙏𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('RAITA', '3.156'), ('RATHA', '3.125'), ('RATAN', '3.024'), ('YATRA', '3.024'), ('RAITH', '2.906')]
+Top entropy choice: 𝙍𝘼𝙄𝙏𝘼 with entropy: 3.1556
+
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.1556390622295662}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('GATOR', '0.000')]
+Top entropy choice: 𝙂𝘼𝙏𝙊𝙍 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙂𝘼𝙏𝙊𝙍 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟨🟩⬜🟨⬜, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙏𝙊𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Actual Info Gain: 9.8587 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.0, 'actual_info_gain': 9.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GATOR', 'MATRA', 'RABAT', 'RAFTY', 'RAITA', 'RAITH', 'RANTY', 'RATAL', 'RATAN', 'RATCH', 'RATHA', 'RATIO', 'RATOO', 'RATTI', 'RATTY', 'YATRA']
+16 candidate words remaining.
+Top 10 guesses: [('MYTHI', '3.250'), ('LITHO', '3.203'), ('NITTA', '3.203'), ('AIYAH', '3.156'), ('HOTTY', '3.156'), ('MOTHY', '3.156'), ('RAITA', '3.156'), ('NATYA', '3.149'), ('NITTO', '3.149'), ('GOTHY', '3.125')]
+Top entropy choice: 𝙈𝙔𝙏𝙃𝙄 with entropy: 3.2500
+Guess count low, choosing the word with highest entropy: 𝙈𝙔𝙏𝙃𝙄 with entropy: 3.2500
+
+Guess: 𝙈𝙔𝙏𝙃𝙄, Feedback: ⬜⬜🟩⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.25}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GATOR', 'RATAL', 'RATAN', 'RATOO']
+4 candidate words remaining.
+Top 10 guesses: [('ABOON', '2.000'), ('ADOON', '2.000'), ('AGAIN', '2.000'), ('AGALS', '2.000'), ('AGILA', '2.000'), ('AGLOO', '2.000'), ('AGLOW', '2.000'), ('AGONE', '2.000'), ('AGONS', '2.000'), ('AGONY', '2.000')]
+Top entropy choice: 𝘼𝘽𝙊𝙊𝙉 with entropy: 2.0000
+Using common exploratory word: 𝘼𝙂𝘼𝙄𝙉 with entropy: 2.0000
+
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.25}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GATOR']
+1 candidate words remaining.
+Top 10 guesses: [('GATOR', '0.000')]
+Top entropy choice: 𝙂𝘼𝙏𝙊𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝘼𝙏𝙊𝙍 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙔𝙏𝙃𝙄, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.250 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝙂𝘼𝙄𝙉, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 3.250 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝙏𝙊𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

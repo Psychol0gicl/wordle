@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙄𝙑𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩⬜🟨🟨⬜
+Guess: 𝙎𝙃𝙄𝙑𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙑𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝙄𝙑𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙑𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝙄𝙑𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙑𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙃𝙄𝙑𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙄𝙑𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟩⬜🟨🟨⬜, Prior Entropy: 7.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙈𝙄𝙂𝘼, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙄𝙑𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

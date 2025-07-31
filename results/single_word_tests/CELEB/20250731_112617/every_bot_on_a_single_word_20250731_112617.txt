@@ -1,0 +1,262 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝙀𝙇𝙀𝘽 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LODEN 
+The top ten guesses and scores: [('LODEN', 1367), ('OLDEN', 1367), ('OILED', 1366), ('DOLEY', 1347), ('YODEL', 1347), ('LOMED', 1324), ('MODEL', 1324), ('MOLED', 1324), ('LOPED', 1315), ('POLED', 1315)]
+The bot finally chose: OLDEN 
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: IMPEL 
+The top ten guesses and scores: [('IMPEL', 144), ('PILEY', 143), ('LIMEY', 142), ('GIMEL', 140), ('PIKEL', 140), ('PIXEL', 140), ('GIBEL', 139), ('KILEY', 138), ('CHIEL', 136), ('MULEY', 135)]
+The bot finally chose: PIXEL 
+Guess: 𝙋𝙄𝙓𝙀𝙇, Feedback: ⬜⬜⬜🟩🟨
+entropy_info: None
+----------
+The bot originally chose: HYLEG 
+The top ten guesses and scores: [('HYLEG', 32), ('MULEY', 32), ('LYCEE', 31), ('CELEB', 30), ('BELEE', 28), ('GELEE', 28), ('MELEE', 28), ('LEVEE', 27)]
+The bot finally chose: CELEB 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: ⬜🟨⬜🟩⬜
+Guess: 𝙋𝙄𝙓𝙀𝙇, Feedback: ⬜⬜⬜🟩🟨
+Guess: 𝘾𝙀𝙇𝙀𝘽, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝙀𝙇𝙀𝘽 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 5.4078 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.407847121072364, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MULEY with entropy: 2.5503
+Bot chose: MELEE with entropy: 2.3685
+Top ten guesses: [('MULEY', 2.5503407095463886), ('MELEE', 2.368522527728207), ('CULEX', 2.2221915755066783), ('GELEE', 2.186704345910025), ('HYLEG', 2.049452072789394), ('XYLEM', 2.049452072789394), ('UNLEG', 1.971747257128181), ('CELEB', 1.9717472571281807), ('JULEP', 1.8676338909712125), ('BELEE', 1.867633890971212)]
+
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.368522527728207}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CELEB with entropy: 1.0000
+Bot chose: CELEB with entropy: 1.0000
+Top ten guesses: [('CELEB', 1.0), ('KELEP', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 5.408 bits, Posterior Entropy: 3.459, 
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.369 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙀𝙇𝙀𝘽, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝙀𝙇𝙀𝘽 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟩⬜
+Actual Info Gain: 5.4078 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 5.407847121072364, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MULEY with entropy: 2.5503
+Bot chose: MELEE with entropy: 2.3685
+Top ten guesses: [('MULEY', 2.5503407095463886), ('MELEE', 2.368522527728207), ('CULEX', 2.2221915755066783), ('GELEE', 2.186704345910025), ('HYLEG', 2.049452072789394), ('XYLEM', 2.049452072789394), ('UNLEG', 1.971747257128181), ('CELEB', 1.9717472571281807), ('JULEP', 1.8676338909712125), ('BELEE', 1.867633890971212)]
+
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.368522527728207}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CELEB with entropy: 1.0000
+Bot chose: CELEB with entropy: 1.0000
+Top ten guesses: [('CELEB', 1.0), ('KELEP', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 5.408 bits, Posterior Entropy: 3.459, 
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.369 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝙀𝙇𝙀𝘽, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝙀𝙇𝙀𝘽 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 467 remaining candidates...
+Top 5 guesses: [('WOULD', '4.464'), ('BUILD', '4.444'), ('COULD', '4.440'), ('LODEN', '4.426'), ('LINED', '4.326')]
+Top entropy choice: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+Ended up choosing COMMON word: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.1124 bits
+Posterior entropy: 5.754887502163468
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.754887502163468, 'actual_info_gain': 3.112391237546193, 'expected_info_gain': 4.463549067876786}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 153 potential guesses from 54 remaining candidates...
+Top 5 guesses: [('NEBEL', '3.845'), ('LEMEL', '3.782'), ('KNEEL', '3.725'), ('KEVEL', '3.704'), ('NEVEL', '3.674')]
+Top entropy choice: 𝙉𝙀𝘽𝙀𝙇 with entropy: 3.8450
+Ended up choosing COMMON word: 𝙆𝙉𝙀𝙀𝙇 with entropy: 3.7251
+
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜⬜🟨🟩🟨
+Actual Info Gain: 2.9475 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 5.754887502163468, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.947532580105864, 'expected_info_gain': 3.725133216374496}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('GELEE', '2.522'), ('MELEE', '2.522'), ('BELEE', '2.522'), ('CELEB', '2.522'), ('LEVEE', '2.128')]
+Top entropy choice: 𝙂𝙀𝙇𝙀𝙀 with entropy: 2.5216
+Ended up choosing COMMON word: 𝙈𝙀𝙇𝙀𝙀 with entropy: 2.5216
+
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 0.0, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 2.5216406363433186}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CELEB', '0.000')]
+Top entropy choice: 𝘾𝙀𝙇𝙀𝘽 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝙀𝙇𝙀𝘽 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 3.112 bits, Posterior Entropy: 5.755, 
+Guess: 𝙆𝙉𝙀𝙀𝙇, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 5.755, Expected Info Gain: 3.725 bits, Actual Info Gain: 2.948 bits, Posterior Entropy: 2.807, 
+Guess: 𝙈𝙀𝙇𝙀𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.807, Expected Info Gain: 2.522 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙀𝙇𝙀𝘽, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝙀𝙇𝙀𝘽 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEDEL', 'BEDEW', 'BEGEM', 'BELEE', 'BEVEL', 'BEZEL', 'BICEP', 'BIDED', 'BIKED', 'BILED', 'BIPED', 'BLEED', 'BLEEP', 'BLUED', 'BLUEY', 'BODED', 'BOGEY', 'BOKED', 'BOKEH', 'BONED', 'BONEY', 'BOOED', 'BOWED', 'BOWEL', 'BOXED', 'BOXEN', 'BOYED', 'BOYEY', 'BUDED', 'BYDED', 'BYKED', 'CEDED', 'CELEB', 'CHEEB', 'CHEEK', 'CHEEP', 'CHIEF', 'CHIEL', 'CIDED', 'CIMEX', 'CLEEK', 'CLEEP', 'CLIED', 'CLUED', 'CLUEY', 'CODEC', 'CODED', 'CODEN', 'CODEX', 'COHEN', 'COKED', 'COKEY', 'COLED', 'COLEY', 'CONED', 'CONEX', 'CONEY', 'COOED', 'COOEE', 'COOEY', 'COPED', 'COPEN', 'COVED', 'COVEN', 'COVEY', 'COWED', 'COXED', 'COYED', 'COZED', 'COZEN', 'COZEY', 'CUBEB', 'CUBED', 'CULEX', 'CUMEC', 'CUNEI', 'CUPEL', 'CUVEE', 'DEBEL', 'DEKED', 'DELED', 'DEVEL', 'DEWED', 'DICED', 'DICEY', 'DIKED', 'DIKEY', 'DINED', 'DIVED', 'DIVEY', 'DIZEN', 'DOGEY', 'DOLED', 'DOLEE', 'DOLEY', 'DOMED', 'DONEE', 'DOPED', 'DOPEY', 'DOVED', 'DOVEN', 'DOWED', 'DOWEL', 'DOXED', 'DOYEN', 'DOZED', 'DOZEN', 'DUDED', 'DUKED', 'DUPED', 'DWEEB', 'DYKED', 'DYKEY', 'DYNEL', 'EBBED', 'ECHED', 'EDGED', 'EEVEN', 'EFFED', 'EGGED', 'EIKED', 'ELFED', 'ELMEN', 'ELPEE', 'ELVEN', 'EMBED', 'EMCEE', 'EMMEW', 'ENDED', 'ENDEW', 'ENMEW', 'EUKED', 'EWKED', 'EXCEL', 'EXEEM', 'EXPEL', 'FEDEX', 'FEUED', 'FEYED', 'FIFED', 'FIKED', 'FILED', 'FINED', 'FIXED', 'FLEEK', 'FLIED', 'FLUED', 'FLUEY', 'FOGEY', 'FOLEY', 'FOXED', 'FUMED', 'FUZED', 'FUZEE', 'FYKED', 'GELEE', 'GEMEL', 'GIBED', 'GIBEL', 'GIMEL', 'GIVED', 'GIVEN', 'GLEED', 'GLEEK', 'GLUED', 'GLUEY', 'GOLEM', 'GONEF', 'GOOEY', 'GOVED', 'GUYED', 'GYBED', 'GYVED', 'HEBEN', 'HELED', 'HEVEL', 'HEWED', 'HEXED', 'HEYED', 'HIDED', 'HIKED', 'HIPED', 'HIVED', 'HIZEN', 'HOGEN', 'HOHED', 'HOIED', 'HOKED', 'HOKEY', 'HOLED', 'HOLEY', 'HOMED', 'HOMEY', 'HONED', 'HONEY', 'HOOEY', 'HOPED', 'HOVED', 'HOVEL', 'HOVEN', 'HOXED', 'HOYED', 'HYDEL', 'HYLEG', 'HYMEN', 'HYPED', 'ICHED', 'IDLED', 'IGGED', 'IMBED', 'IMMEW', 'IMPED', 'IMPEL', 'INCEL', 'INDEW', 'INDEX', 'INKED', 'INNED', 'IVIED', 'JEBEL', 'JEWED', 'JEWEL', 'JHEEL', 'JIBED', 'JIVED', 'JIVEY', 'JOBED', 'JODEL', 'JOKED', 'JOKEY', 'JOLED', 'JOWED', 'JOYED', 'JUKED', 'JULEP', 'KELEP', 'KEVEL', 'KEYED', 'KIBEI', 'KIDEL', 'KIDEO', 'KILEY', 'KLIEG', 'KNEED', 'KNEEL', 'KOHEN', 'KOPEK', 'KUGEL', 'LEBEN', 'LEMED', 'LEMEL', 'LEVEE', 'LEVEL', 'LIBEL', 'LIFEY', 'LIKED', 'LIKEN', 'LIMED', 'LIMEN', 'LIMEY', 'LINED', 'LINEN', 'LINEY', 'LIVED', 'LIVEN', 'LOBED', 'LODEN', 'LOKEY', 'LOLED', 'LOMED', 'LOOED', 'LOOEY', 'LOPED', 'LOUED', 'LOVED', 'LOVEE', 'LOVEY', 'LOWED', 'LOWEN', 'LOXED', 'LOZEN', 'LUBED', 'LUGED', 'LUMEN', 'LUXED', 'LYCEE', 'MELEE', 'MENED', 'MEVED', 'MEWED', 'MIKED', 'MIMED', 'MIMEO', 'MINED', 'MIVEY', 'MIXED', 'MIXEN', 'MIZEN', 'MOBED', 'MOBEE', 'MOBEY', 'MODEL', 'MODEM', 'MOHEL', 'MOKEY', 'MOLED', 'MOLEY', 'MONEY', 'MOOED', 'MOOEY', 'MOPED', 'MOPEY', 'MOVED', 'MOWED', 'MOZED', 'MULED', 'MULEY', 'MUXED', 'NEBEK', 'NEBEL', 'NEVEL', 'NEWED', 'NEWEL', 'NGWEE', 'NICED', 'NICEY', 'NIDED', 'NIVEL', 'NIXED', 'NODED', 'NOMEN', 'NOVEL', 'NOWED', 'NOYED', 'NUKED', 'NUMEN', 'OBIED', 'OFFED', 'OGEED', 'OGLED', 'OILED', 'OLDEN', 'OMDEH', 'OMMEL', 'ONNED', 'OOHED', 'OOPED', 'OOZED', 'OUPED', 'OUZEL', 'OWLED', 'OWNED', 'OXMEN', 'PENED', 'PEWED', 'PEWEE', 'PICEY', 'PIKED', 'PIKEL', 'PIKEY', 'PILED', 'PILEI', 'PILEY', 'PINED', 'PINEY', 'PIPED', 'PIXEL', 'PIZED', 'PLEEP', 'PLIED', 'PODEX', 'POGEY', 'POHED', 'POKED', 'POKEY', 'POLED', 'POLEY', 'PONEY', 'POOED', 'POOEY', 'POXED', 'PUKED', 'PUKEY', 'PULED', 'PUZEL', 'PWNED', 'PYNED', 'PYXED', 'QUEEK', 'QUEEM', 'QUEEN', 'UGGED', 'UMBEL', 'UMMED', 'UMPED', 'UNBED', 'UNDEE', 'UNFED', 'UNKED', 'UNKEY', 'UNLED', 'UNLEG', 'UNMEW', 'UNPEG', 'UNPEN', 'UNWED', 'UPLED', 'UPPED', 'VENEY', 'VEXED', 'VIBED', 'VIBEX', 'VIBEY', 'VICED', 'VIDEO', 'VIMEN', 'VINED', 'VINEW', 'VIXEN', 'VOLED', 'VOWED', 'VOWEL', 'VOXEL', 'WEDEL', 'WEXED', 'WHEEK', 'WHEEL', 'WHEEN', 'WHEEP', 'WIDEN', 'WIFED', 'WIFEY', 'WILED', 'WINED', 'WINEY', 'WIPED', 'WIVED', 'WIZEN', 'WOKEN', 'WOMEN', 'WOOED', 'WOVEN', 'WOWED', 'WOWEE', 'WOXEN', 'WYLED', 'XEBEC', 'XYLEM', 'YCLED', 'YEEEK', 'YEVEN', 'YEWEN', 'YEXED', 'YIKED', 'YODEL', 'YOGEE', 'YOKED', 'YOKEG', 'YOKEL', 'YOWED', 'YUKED', 'ZEBEC', 'ZINEB', 'ZIZEL', 'ZONED', 'ZOOEY', 'ZOWEE']
+467 candidate words remaining.
+Top 10 guesses: [('INDOL', '4.933'), ('DINLO', '4.859'), ('LOWND', '4.836'), ('BLOND', '4.832'), ('LOUND', '4.773'), ('LINDY', '4.749'), ('DOLCI', '4.730'), ('DOILY', '4.707'), ('NOULD', '4.703'), ('MODIN', '4.688')]
+Top entropy choice: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+Guess count low, choosing the word with highest entropy: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 4.3437 bits
+Posterior entropy: 4.523561956057013
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 4.523561956057013, 'actual_info_gain': 4.343716783652648, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BELEE', 'BLEEP', 'BLUEY', 'CELEB', 'CLEEK', 'CLEEP', 'CLUEY', 'CULEX', 'ELPEE', 'FLEEK', 'FLUEY', 'GELEE', 'GLEEK', 'GLUEY', 'HYLEG', 'JULEP', 'KELEP', 'LEVEE', 'LYCEE', 'MELEE', 'MULEY', 'PLEEP', 'XYLEM']
+23 candidate words remaining.
+Top 10 guesses: [('CLUMP', '3.708'), ('GUCKY', '3.588'), ('BULGE', '3.588'), ('BULGY', '3.588'), ('CLEEP', '3.588'), ('CLEPE', '3.588'), ('PLUMB', '3.588'), ('GULPY', '3.556'), ('GLEBE', '3.534'), ('BLYPE', '3.523')]
+Top entropy choice: 𝘾𝙇𝙐𝙈𝙋 with entropy: 3.7081
+Using common exploratory word: 𝘾𝙇𝙐𝙈𝙋 with entropy: 3.7081
+
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 4.5236 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.523561956057013, 'posterior_entropy': 0.0, 'actual_info_gain': 4.523561956057013, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CELEB']
+1 candidate words remaining.
+Top 10 guesses: [('CELEB', '0.000')]
+Top entropy choice: 𝘾𝙀𝙇𝙀𝘽 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝙀𝙇𝙀𝘽 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.344 bits, Posterior Entropy: 4.524, 
+Guess: 𝘾𝙇𝙐𝙈𝙋, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝙀𝙇𝙀𝘽, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

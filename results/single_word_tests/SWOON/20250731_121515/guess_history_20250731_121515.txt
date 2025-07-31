@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙒𝙊𝙊𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: 🟨🟨⬜🟨⬜
+Guess: 𝙎𝙃𝙊𝙒𝙉, Feedback: 🟩⬜🟩🟨🟩
+Guess: 𝙎𝙒𝙊𝙊𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙊𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.607 bits, Posterior Entropy: 4.755, 
+Guess: 𝙎𝙃𝙊𝙊𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.755, Expected Info Gain: 3.320 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙒𝙊𝙊𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙊𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.607 bits, Posterior Entropy: 4.755, 
+Guess: 𝙎𝙃𝙊𝙊𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.755, Expected Info Gain: 3.320 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙒𝙊𝙊𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙊𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.607 bits, Posterior Entropy: 4.755, 
+Guess: 𝙎𝙃𝙊𝙊𝙆, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.755, Expected Info Gain: 3.320 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝙒𝙊𝙊𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙊𝙊𝙉 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.323 bits, Actual Info Gain: 3.318 bits, Posterior Entropy: 5.044, 
+Guess: 𝙒𝙃𝙊𝙊𝙋, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 5.044, Expected Info Gain: 5.323 bits, Actual Info Gain: 5.044 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙊𝙊𝙉, Feedback: 🟩🟩🟩🟩🟩
+===================================

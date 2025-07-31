@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘾𝙍𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨
+Guess: 𝙎𝙄𝙍𝙊𝘾, Feedback: 🟩⬜🟩⬜🟨
+Guess: 𝙎𝘾𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝙎𝘾𝙍𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.285, Expected Info Gain: 3.438 bits, Actual Info Gain: 3.285 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝘾𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘾𝙍𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝙃𝙍𝙐𝙂, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 5.285, Expected Info Gain: 3.438 bits, Actual Info Gain: 3.285 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝘾𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘾𝙍𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙎𝘾𝙍𝙊𝙂, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 5.285, Expected Info Gain: 3.749 bits, Actual Info Gain: 3.285 bits, Posterior Entropy: 2.000, 
+Guess: 𝙎𝘾𝙍𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙍𝙐𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.573 bits, Posterior Entropy: 5.285, 
+Guess: 𝙔𝙊𝙂𝙄𝘾, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 5.285, Expected Info Gain: 4.324 bits, Actual Info Gain: 4.285 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝙍𝙐𝘽, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.000, Expected Info Gain: 4.324 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘾𝙍𝙐𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

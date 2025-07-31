@@ -1,0 +1,289 @@
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙊𝙆𝙀𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: LODEN 
+The top ten guesses and scores: [('LODEN', 1367), ('OLDEN', 1367), ('OILED', 1366), ('DOLEY', 1347), ('YODEL', 1347), ('LOMED', 1324), ('MODEL', 1324), ('MOLED', 1324), ('LOPED', 1315), ('POLED', 1315)]
+The bot finally chose: OLDEN 
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: MOKEY 
+The top ten guesses and scores: [('MOKEY', 110), ('YOKEG', 108), ('COKEY', 107), ('POKEY', 107), ('HOKEY', 106), ('MOBEY', 106), ('MOPEY', 106), ('HOMEY', 105), ('BOGEY', 104), ('POGEY', 104)]
+The bot finally chose: HOKEY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙊𝙆𝙀𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.2823 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 3.282316238988505, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CONEY with entropy: 2.8737
+Bot chose: CONEY with entropy: 2.8737
+Top ten guesses: [('CONEY', 2.8737340530666224), ('MONEY', 2.87107193377168), ('HONEY', 2.868697473828722), ('HOGEN', 2.8359520212306832), ('KOHEN', 2.831252802706044), ('COHEN', 2.82277654788042), ('MOKEY', 2.7952473373266926), ('BONEY', 2.7827454525980384), ('PONEY', 2.7644608760283615), ('COPEN', 2.7368918649356107)]
+
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 4.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.8737340530666224}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOOEY with entropy: 1.9746
+Bot chose: BOGEY with entropy: 1.7988
+Top ten guesses: [('MOOEY', 1.9746017527145812), ('POGEY', 1.9669171866886992), ('MOKEY', 1.9056390622295662), ('MOPEY', 1.9056390622295662), ('POOEY', 1.875), ('BOGEY', 1.7987949406953985), ('POKEY', 1.7947367178034825), ('MOBEY', 1.7947367178034823), ('GOOEY', 1.7028195311147831), ('HOMEY', 1.5919171866886992)]
+
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.6780719051126378, 'expected_info_gain': 1.7987949406953985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOKEY with entropy: 2.1710
+Bot chose: HOKEY with entropy: 1.8464
+Top ten guesses: [('MOKEY', 2.170950594454669), ('MOOEY', 2.1709505944546685), ('MOPEY', 2.1219280948873624), ('POKEY', 2.0464393446710156), ('POOEY', 2.0464393446710156), ('HOKEY', 1.8464393446710154), ('HOMEY', 1.8464393446710154), ('HOOEY', 1.8464393446710154), ('JOKEY', 1.295461844238322), ('ZOOEY', 1.295461844238322)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.282 bits, Posterior Entropy: 5.585, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 2.874 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.799 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙆𝙀𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LODEN with entropy: 4.4258
+Bot chose: OILED with entropy: 4.3845
+Top ten guesses: [('LODEN', 4.425814844288968), ('OILED', 4.384492105968622), ('OLDEN', 4.37470496879391), ('LINED', 4.3261893077595035), ('DOLEE', 4.307137112451161), ('DOLEY', 4.3052997065884435), ('POLED', 4.282817615602084), ('MOLED', 4.262984330676378), ('YODEL', 4.251400606519093), ('LOMED', 4.246901061580353)]
+
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜
+Actual Info Gain: 3.2823 bits
+Posterior entropy: 5.584962500721156
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.584962500721156, 'actual_info_gain': 3.282316238988505, 'expected_info_gain': 4.384492105968622}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CONEY with entropy: 2.8737
+Bot chose: CONEY with entropy: 2.8737
+Top ten guesses: [('CONEY', 2.8737340530666224), ('MONEY', 2.87107193377168), ('HONEY', 2.868697473828722), ('HOGEN', 2.8359520212306832), ('KOHEN', 2.831252802706044), ('COHEN', 2.82277654788042), ('MOKEY', 2.7952473373266926), ('BONEY', 2.7827454525980384), ('PONEY', 2.7644608760283615), ('COPEN', 2.7368918649356107)]
+
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.584962500721156, 'posterior_entropy': 4.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 2.8737340530666224}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOOEY with entropy: 1.9746
+Bot chose: BOGEY with entropy: 1.7988
+Top ten guesses: [('MOOEY', 1.9746017527145812), ('POGEY', 1.9669171866886992), ('MOKEY', 1.9056390622295662), ('MOPEY', 1.9056390622295662), ('POOEY', 1.875), ('BOGEY', 1.7987949406953985), ('POKEY', 1.7947367178034825), ('MOBEY', 1.7947367178034823), ('GOOEY', 1.7028195311147831), ('HOMEY', 1.5919171866886992)]
+
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 0.6781 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 0.6780719051126378, 'expected_info_gain': 1.7987949406953985}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MOKEY with entropy: 2.1710
+Bot chose: HOKEY with entropy: 1.8464
+Top ten guesses: [('MOKEY', 2.170950594454669), ('MOOEY', 2.1709505944546685), ('MOPEY', 2.1219280948873624), ('POKEY', 2.0464393446710156), ('POOEY', 2.0464393446710156), ('HOKEY', 1.8464393446710154), ('HOMEY', 1.8464393446710154), ('HOOEY', 1.8464393446710154), ('JOKEY', 1.295461844238322), ('ZOOEY', 1.295461844238322)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.282 bits, Posterior Entropy: 5.585, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 2.874 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.799 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙆𝙀𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 496 potential guesses from 467 remaining candidates...
+Top 5 guesses: [('WOULD', '4.464'), ('BUILD', '4.444'), ('COULD', '4.440'), ('LODEN', '4.426'), ('LINED', '4.326')]
+Top entropy choice: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+Ended up choosing COMMON word: 𝙒𝙊𝙐𝙇𝘿 with entropy: 4.4635
+
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.4750 bits
+Posterior entropy: 5.392317422778761
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 5.392317422778761, 'actual_info_gain': 3.4749613169309006, 'expected_info_gain': 4.463549067876786}
+----------
+The bot is making a guess...
+Evaluating 42 potential guesses from 42 remaining candidates...
+Top 5 guesses: [('HOGEN', '2.917'), ('CONEY', '2.860'), ('HONEY', '2.854'), ('MONEY', '2.836'), ('COHEN', '2.824')]
+Top entropy choice: 𝙃𝙊𝙂𝙀𝙉 with entropy: 2.9167
+Ended up choosing COMMON word: 𝘾𝙊𝙉𝙀𝙔 with entropy: 2.8598
+
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.3923 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 5.392317422778761, 'posterior_entropy': 4.0, 'actual_info_gain': 1.3923174227787607, 'expected_info_gain': 2.859828661431135}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('MOOEY', '1.975'), ('POGEY', '1.967'), ('MOKEY', '1.906'), ('MOPEY', '1.906'), ('POOEY', '1.875')]
+Top entropy choice: 𝙈𝙊𝙊𝙀𝙔 with entropy: 1.9746
+
+Guess: 𝙈𝙊𝙊𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.1926 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 1.1926450779423958, 'expected_info_gain': 1.9746017527145812}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('POGEY', '1.842'), ('POKEY', '1.842'), ('BOGEY', '1.842'), ('FOGEY', '1.379'), ('HOKEY', '1.379')]
+Top entropy choice: 𝙋𝙊𝙂𝙀𝙔 with entropy: 1.8424
+Ended up choosing COMMON word: 𝘽𝙊𝙂𝙀𝙔 with entropy: 1.8424
+
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 1.8423709931771086}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('HOKEY', '0.918'), ('JOKEY', '0.918'), ('POKEY', '0.918')]
+Top entropy choice: 𝙃𝙊𝙆𝙀𝙔 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙃𝙊𝙆𝙀𝙔 with entropy: 0.9183
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 3.475 bits, Posterior Entropy: 5.392, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.392, Expected Info Gain: 2.860 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙊𝙊𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.975 bits, Actual Info Gain: 1.193 bits, Posterior Entropy: 2.807, 
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 1.842 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙆𝙀𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 4.9914 bits
+Posterior entropy: 8.867278739709661
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.867278739709661, 'actual_info_gain': 4.991382245013115, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEDEL', 'BEDEW', 'BEGEM', 'BELEE', 'BEVEL', 'BEZEL', 'BICEP', 'BIDED', 'BIKED', 'BILED', 'BIPED', 'BLEED', 'BLEEP', 'BLUED', 'BLUEY', 'BODED', 'BOGEY', 'BOKED', 'BOKEH', 'BONED', 'BONEY', 'BOOED', 'BOWED', 'BOWEL', 'BOXED', 'BOXEN', 'BOYED', 'BOYEY', 'BUDED', 'BYDED', 'BYKED', 'CEDED', 'CELEB', 'CHEEB', 'CHEEK', 'CHEEP', 'CHIEF', 'CHIEL', 'CIDED', 'CIMEX', 'CLEEK', 'CLEEP', 'CLIED', 'CLUED', 'CLUEY', 'CODEC', 'CODED', 'CODEN', 'CODEX', 'COHEN', 'COKED', 'COKEY', 'COLED', 'COLEY', 'CONED', 'CONEX', 'CONEY', 'COOED', 'COOEE', 'COOEY', 'COPED', 'COPEN', 'COVED', 'COVEN', 'COVEY', 'COWED', 'COXED', 'COYED', 'COZED', 'COZEN', 'COZEY', 'CUBEB', 'CUBED', 'CULEX', 'CUMEC', 'CUNEI', 'CUPEL', 'CUVEE', 'DEBEL', 'DEKED', 'DELED', 'DEVEL', 'DEWED', 'DICED', 'DICEY', 'DIKED', 'DIKEY', 'DINED', 'DIVED', 'DIVEY', 'DIZEN', 'DOGEY', 'DOLED', 'DOLEE', 'DOLEY', 'DOMED', 'DONEE', 'DOPED', 'DOPEY', 'DOVED', 'DOVEN', 'DOWED', 'DOWEL', 'DOXED', 'DOYEN', 'DOZED', 'DOZEN', 'DUDED', 'DUKED', 'DUPED', 'DWEEB', 'DYKED', 'DYKEY', 'DYNEL', 'EBBED', 'ECHED', 'EDGED', 'EEVEN', 'EFFED', 'EGGED', 'EIKED', 'ELFED', 'ELMEN', 'ELPEE', 'ELVEN', 'EMBED', 'EMCEE', 'EMMEW', 'ENDED', 'ENDEW', 'ENMEW', 'EUKED', 'EWKED', 'EXCEL', 'EXEEM', 'EXPEL', 'FEDEX', 'FEUED', 'FEYED', 'FIFED', 'FIKED', 'FILED', 'FINED', 'FIXED', 'FLEEK', 'FLIED', 'FLUED', 'FLUEY', 'FOGEY', 'FOLEY', 'FOXED', 'FUMED', 'FUZED', 'FUZEE', 'FYKED', 'GELEE', 'GEMEL', 'GIBED', 'GIBEL', 'GIMEL', 'GIVED', 'GIVEN', 'GLEED', 'GLEEK', 'GLUED', 'GLUEY', 'GOLEM', 'GONEF', 'GOOEY', 'GOVED', 'GUYED', 'GYBED', 'GYVED', 'HEBEN', 'HELED', 'HEVEL', 'HEWED', 'HEXED', 'HEYED', 'HIDED', 'HIKED', 'HIPED', 'HIVED', 'HIZEN', 'HOGEN', 'HOHED', 'HOIED', 'HOKED', 'HOKEY', 'HOLED', 'HOLEY', 'HOMED', 'HOMEY', 'HONED', 'HONEY', 'HOOEY', 'HOPED', 'HOVED', 'HOVEL', 'HOVEN', 'HOXED', 'HOYED', 'HYDEL', 'HYLEG', 'HYMEN', 'HYPED', 'ICHED', 'IDLED', 'IGGED', 'IMBED', 'IMMEW', 'IMPED', 'IMPEL', 'INCEL', 'INDEW', 'INDEX', 'INKED', 'INNED', 'IVIED', 'JEBEL', 'JEWED', 'JEWEL', 'JHEEL', 'JIBED', 'JIVED', 'JIVEY', 'JOBED', 'JODEL', 'JOKED', 'JOKEY', 'JOLED', 'JOWED', 'JOYED', 'JUKED', 'JULEP', 'KELEP', 'KEVEL', 'KEYED', 'KIBEI', 'KIDEL', 'KIDEO', 'KILEY', 'KLIEG', 'KNEED', 'KNEEL', 'KOHEN', 'KOPEK', 'KUGEL', 'LEBEN', 'LEMED', 'LEMEL', 'LEVEE', 'LEVEL', 'LIBEL', 'LIFEY', 'LIKED', 'LIKEN', 'LIMED', 'LIMEN', 'LIMEY', 'LINED', 'LINEN', 'LINEY', 'LIVED', 'LIVEN', 'LOBED', 'LODEN', 'LOKEY', 'LOLED', 'LOMED', 'LOOED', 'LOOEY', 'LOPED', 'LOUED', 'LOVED', 'LOVEE', 'LOVEY', 'LOWED', 'LOWEN', 'LOXED', 'LOZEN', 'LUBED', 'LUGED', 'LUMEN', 'LUXED', 'LYCEE', 'MELEE', 'MENED', 'MEVED', 'MEWED', 'MIKED', 'MIMED', 'MIMEO', 'MINED', 'MIVEY', 'MIXED', 'MIXEN', 'MIZEN', 'MOBED', 'MOBEE', 'MOBEY', 'MODEL', 'MODEM', 'MOHEL', 'MOKEY', 'MOLED', 'MOLEY', 'MONEY', 'MOOED', 'MOOEY', 'MOPED', 'MOPEY', 'MOVED', 'MOWED', 'MOZED', 'MULED', 'MULEY', 'MUXED', 'NEBEK', 'NEBEL', 'NEVEL', 'NEWED', 'NEWEL', 'NGWEE', 'NICED', 'NICEY', 'NIDED', 'NIVEL', 'NIXED', 'NODED', 'NOMEN', 'NOVEL', 'NOWED', 'NOYED', 'NUKED', 'NUMEN', 'OBIED', 'OFFED', 'OGEED', 'OGLED', 'OILED', 'OLDEN', 'OMDEH', 'OMMEL', 'ONNED', 'OOHED', 'OOPED', 'OOZED', 'OUPED', 'OUZEL', 'OWLED', 'OWNED', 'OXMEN', 'PENED', 'PEWED', 'PEWEE', 'PICEY', 'PIKED', 'PIKEL', 'PIKEY', 'PILED', 'PILEI', 'PILEY', 'PINED', 'PINEY', 'PIPED', 'PIXEL', 'PIZED', 'PLEEP', 'PLIED', 'PODEX', 'POGEY', 'POHED', 'POKED', 'POKEY', 'POLED', 'POLEY', 'PONEY', 'POOED', 'POOEY', 'POXED', 'PUKED', 'PUKEY', 'PULED', 'PUZEL', 'PWNED', 'PYNED', 'PYXED', 'QUEEK', 'QUEEM', 'QUEEN', 'UGGED', 'UMBEL', 'UMMED', 'UMPED', 'UNBED', 'UNDEE', 'UNFED', 'UNKED', 'UNKEY', 'UNLED', 'UNLEG', 'UNMEW', 'UNPEG', 'UNPEN', 'UNWED', 'UPLED', 'UPPED', 'VENEY', 'VEXED', 'VIBED', 'VIBEX', 'VIBEY', 'VICED', 'VIDEO', 'VIMEN', 'VINED', 'VINEW', 'VIXEN', 'VOLED', 'VOWED', 'VOWEL', 'VOXEL', 'WEDEL', 'WEXED', 'WHEEK', 'WHEEL', 'WHEEN', 'WHEEP', 'WIDEN', 'WIFED', 'WIFEY', 'WILED', 'WINED', 'WINEY', 'WIPED', 'WIVED', 'WIZEN', 'WOKEN', 'WOMEN', 'WOOED', 'WOVEN', 'WOWED', 'WOWEE', 'WOXEN', 'WYLED', 'XEBEC', 'XYLEM', 'YCLED', 'YEEEK', 'YEVEN', 'YEWEN', 'YEXED', 'YIKED', 'YODEL', 'YOGEE', 'YOKED', 'YOKEG', 'YOKEL', 'YOWED', 'YUKED', 'ZEBEC', 'ZINEB', 'ZIZEL', 'ZONED', 'ZOOEY', 'ZOWEE']
+467 candidate words remaining.
+Top 10 guesses: [('INDOL', '4.933'), ('DINLO', '4.859'), ('LOWND', '4.836'), ('BLOND', '4.832'), ('LOUND', '4.773'), ('LINDY', '4.749'), ('DOLCI', '4.730'), ('DOILY', '4.707'), ('NOULD', '4.703'), ('MODIN', '4.688')]
+Top entropy choice: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+Guess count low, choosing the word with highest entropy: 𝙄𝙉𝘿𝙊𝙇 with entropy: 4.9332
+
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.0599 bits
+Posterior entropy: 4.807354922057604
+entropy_info: {'prior_entropy': 8.867278739709661, 'posterior_entropy': 4.807354922057604, 'actual_info_gain': 4.059923817652058, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BOGEY', 'BOKEH', 'BOYEY', 'COKEY', 'COOEE', 'COOEY', 'COVEY', 'COZEY', 'FOGEY', 'GOOEY', 'HOKEY', 'HOMEY', 'HOOEY', 'JOKEY', 'KOPEK', 'MOBEE', 'MOBEY', 'MOKEY', 'MOOEY', 'MOPEY', 'POGEY', 'POKEY', 'POOEY', 'WOWEE', 'YOGEE', 'YOKEG', 'ZOOEY', 'ZOWEE']
+28 candidate words remaining.
+Top 10 guesses: [('CHOKY', '3.557'), ('MYOPY', '3.436'), ('KEMPY', '3.306'), ('MICKY', '3.298'), ('MOCKY', '3.298'), ('MUCKY', '3.298'), ('MYOPE', '3.288'), ('PHOBE', '3.266'), ('POBOY', '3.250'), ('SMOKY', '3.240')]
+Top entropy choice: 𝘾𝙃𝙊𝙆𝙔 with entropy: 3.5567
+Using common exploratory word: 𝙈𝙄𝘾𝙆𝙔 with entropy: 3.2979
+
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 3.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.2223924213364477, 'expected_info_gain': 4.933171607708794}
+----------
+The bot is making a guess...
+THe possible candidates are: ['HOKEY', 'JOKEY', 'POKEY']
+3 candidate words remaining.
+Top 10 guesses: [('HOKEY', '0.918'), ('JOKEY', '0.918'), ('POKEY', '0.918')]
+Top entropy choice: 𝙃𝙊𝙆𝙀𝙔 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙃𝙊𝙆𝙀𝙔 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.060 bits, Posterior Entropy: 4.807, 
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 4.807, Expected Info Gain: 4.933 bits, Actual Info Gain: 3.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙈𝘽𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙂𝙄𝘾, Feedback: 🟩🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙈𝘽𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙈𝘽𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 5.121 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝘼𝙈𝘽𝙐, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.907, Expected Info Gain: 2.740 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙈𝘽𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙈𝘽𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 5.121 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝘼𝙈𝘽𝙐, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.907, Expected Info Gain: 2.740 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙈𝘽𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙈𝘽𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 2.300 bits, Posterior Entropy: 6.728, 
+Guess: 𝘿𝘼𝙈𝙋𝙔, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 6.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 3.558 bits, Posterior Entropy: 3.170, 
+Guess: 𝙈𝘼𝙈𝘽𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙈𝘽𝙊 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.504 bits, Posterior Entropy: 4.524, 
+Guess: 𝙆𝘼𝙇𝙐𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.534 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙈𝘽𝙊, Feedback: 🟩🟩🟩🟩🟩
+===================================

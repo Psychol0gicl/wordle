@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝙀𝘼𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: 🟩🟨🟨🟨⬜
+Guess: 𝘽𝙍𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩⬜
+Guess: 𝘽𝙍𝙀𝘼𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝙀𝘼𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 5.816 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙀𝘼𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙀𝘼𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 5.816 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙀𝘼𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙀𝘼𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 5.816 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙀𝘼𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝙀𝘼𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.458 bits, Posterior Entropy: 7.401, 
+Guess: 𝘽𝙀𝘼𝙍𝘿, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 7.401, Expected Info Gain: 4.178 bits, Actual Info Gain: 5.816 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 4.178 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙍𝙀𝘼𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

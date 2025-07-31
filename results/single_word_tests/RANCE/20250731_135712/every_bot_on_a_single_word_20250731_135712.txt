@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝙉𝘾𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: RAINE 
+The top ten guesses and scores: [('RAINE', 112), ('MAIRE', 111), ('PAIRE', 111), ('RAMIE', 111), ('FAIRE', 109), ('RAIKE', 109), ('RAILE', 109), ('NACRE', 108), ('RANCE', 108), ('CADRE', 107)]
+The bot finally chose: RAINE 
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: RANCE 
+The top ten guesses and scores: [('RANCE', 13), ('RANGE', 13), ('RANKE', 13)]
+The bot finally chose: RANCE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩
+Guess: 𝙍𝘼𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝙉𝘾𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAINE with entropy: 2.8892
+Bot chose: RAINE with entropy: 2.8892
+Top ten guesses: [('RAINE', 2.8891636513222454), ('PAIRE', 2.7192217131241563), ('MAIRE', 2.616773092271489), ('RAMIE', 2.616773092271489), ('CADRE', 2.612806864645227), ('RANGE', 2.598726955269008), ('RANCE', 2.548290735612969), ('RAIKE', 2.5455417781159575), ('FAIRE', 2.541014526284496), ('RAILE', 2.523285135022641)]
+
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 2.8891636513222454}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANCE with entropy: 0.9183
+Bot chose: RANCE with entropy: 0.9183
+Top ten guesses: [('RANCE', 0.9182958340544896), ('RANGE', 0.9182958340544896), ('RANKE', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 4.954, Expected Info Gain: 2.889 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙉𝘾𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RAINE with entropy: 2.8892
+Bot chose: RAINE with entropy: 2.8892
+Top ten guesses: [('RAINE', 2.8891636513222454), ('PAIRE', 2.7192217131241563), ('MAIRE', 2.616773092271489), ('RAMIE', 2.616773092271489), ('CADRE', 2.612806864645227), ('RANGE', 2.598726955269008), ('RANCE', 2.548290735612969), ('RAIKE', 2.5455417781159575), ('FAIRE', 2.541014526284496), ('RAILE', 2.523285135022641)]
+
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 2.8891636513222454}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: RANCE with entropy: 0.9183
+Bot chose: RANCE with entropy: 0.9183
+Top ten guesses: [('RANCE', 0.9182958340544896), ('RANGE', 0.9182958340544896), ('RANKE', 0.9182958340544896)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 4.954, Expected Info Gain: 2.889 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙉𝘾𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 31 potential guesses from 31 remaining candidates...
+Top 5 guesses: [('RAINE', '2.889'), ('PAIRE', '2.719'), ('MAIRE', '2.617'), ('RAMIE', '2.617'), ('CADRE', '2.613')]
+Top entropy choice: 𝙍𝘼𝙄𝙉𝙀 with entropy: 2.8892
+Ended up choosing COMMON word: 𝙍𝘼𝙄𝙉𝙀 with entropy: 2.8892
+
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 2.8891636513222454}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('RANCE', '0.918'), ('RANGE', '0.918'), ('RANKE', '0.918')]
+Top entropy choice: 𝙍𝘼𝙉𝘾𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙍𝘼𝙉𝘾𝙀 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝘼𝙄𝙉𝙀, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 4.954, Expected Info Gain: 2.889 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝙉𝘾𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CABRE', 'CADRE', 'EAGRE', 'FAERY', 'FAIRE', 'FAYRE', 'HAERE', 'MAARE', 'MADRE', 'MAERL', 'MAIRE', 'NACRE', 'PADRE', 'PAIRE', 'RAAKE', 'RACHE', 'RADGE', 'RAGDE', 'RAIKE', 'RAILE', 'RAINE', 'RAMIE', 'RANCE', 'RANGE', 'RANKE', 'RAPHE', 'RAPPE', 'RAYLE', 'RAYNE', 'VAIRE', 'ZAIRE']
+31 candidate words remaining.
+Top 10 guesses: [('RINDY', '3.487'), ('RINGY', '3.470'), ('RYPIN', '3.457'), ('CHIRP', '3.344'), ('MINGY', '3.333'), ('CHIRL', '3.316'), ('CHIRM', '3.293'), ('RINGE', '3.289'), ('CHIRK', '3.252'), ('MINCY', '3.244')]
+Top entropy choice: 𝙍𝙄𝙉𝘿𝙔 with entropy: 3.4870
+Guess count low, choosing the word with highest entropy: 𝙍𝙄𝙉𝘿𝙔 with entropy: 3.4870
+
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩⬜🟩⬜⬜
+Actual Info Gain: 3.3692 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.369233809665719, 'expected_info_gain': 3.486972327955777}
+----------
+The bot is making a guess...
+THe possible candidates are: ['RANCE', 'RANGE', 'RANKE']
+3 candidate words remaining.
+Top 10 guesses: [('RANCE', '0.918'), ('RANGE', '0.918'), ('RANKE', '0.918')]
+Top entropy choice: 𝙍𝘼𝙉𝘾𝙀 with entropy: 0.9183
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝘼𝙉𝘾𝙀 with entropy: 0.9183
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝙄𝙉𝘿𝙔, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 4.954, Expected Info Gain: 3.487 bits, Actual Info Gain: 3.369 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙉𝘾𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,207 @@
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝙍𝘿𝙄 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MARDY 
+The top ten guesses and scores: [('MARDY', 382), ('BARMY', 379), ('YARCO', 377), ('CARDY', 376), ('DARCY', 376), ('CARBY', 373), ('CAROM', 372), ('MARLY', 372), ('BARDY', 371), ('MARVY', 369)]
+The bot finally chose: DARCY 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: 🟨🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: CARDI 
+The top ten guesses and scores: [('CARDI', 5)]
+The bot finally chose: CARDI 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: 🟨🟩🟩🟨⬜
+Guess: 𝘾𝘼𝙍𝘿𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝘿𝙄 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAY with entropy: 3.0671
+Bot chose: MARIA with entropy: 3.0243
+Top ten guesses: [('MARAY', 3.0670663590717395), ('MARIA', 3.024320009766213), ('MARDY', 2.9238855716298238), ('CARDY', 2.8629027594517984), ('DARCY', 2.832886107371227), ('MARGA', 2.8297569507817197), ('MARAL', 2.7971077481399016), ('CAROM', 2.7756421398035815), ('MARAN', 2.7738889259167983), ('MARRA', 2.772453849556361)]
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 3.5607 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 3.5607149544744794, 'expected_info_gain': 3.024320009766213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CARDI with entropy: 2.1610
+Bot chose: CARDI with entropy: 2.1610
+Top ten guesses: [('CARDI', 2.1609640474436813), ('PARDI', 2.1609640474436813), ('CARPI', 1.9609640474436814), ('PARKI', 1.7709505944546688), ('FARCI', 1.5709505944546687), ('GARRI', 1.3567796494470397), ('KARRI', 1.3567796494470397), ('DARZI', 1.1567796494470395), ('BARFI', 0.9219280948873623), ('GARNI', 0.9219280948873623)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 6.883, Expected Info Gain: 3.024 bits, Actual Info Gain: 3.561 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝘼𝙍𝘿𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝘿𝙄 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAY with entropy: 3.0671
+Bot chose: MARIA with entropy: 3.0243
+Top ten guesses: [('MARAY', 3.0670663590717395), ('MARIA', 3.024320009766213), ('MARDY', 2.9238855716298238), ('CARDY', 2.8629027594517984), ('DARCY', 2.832886107371227), ('MARGA', 2.8297569507817197), ('MARAL', 2.7971077481399016), ('CAROM', 2.7756421398035815), ('MARAN', 2.7738889259167983), ('MARRA', 2.772453849556361)]
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 3.5607 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 3.5607149544744794, 'expected_info_gain': 3.024320009766213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CARDI with entropy: 2.1610
+Bot chose: CARDI with entropy: 2.1610
+Top ten guesses: [('CARDI', 2.1609640474436813), ('PARDI', 2.1609640474436813), ('CARPI', 1.9609640474436814), ('PARKI', 1.7709505944546688), ('FARCI', 1.5709505944546687), ('GARRI', 1.3567796494470397), ('KARRI', 1.3567796494470397), ('DARZI', 1.1567796494470395), ('BARFI', 0.9219280948873623), ('GARNI', 0.9219280948873623)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 6.883, Expected Info Gain: 3.024 bits, Actual Info Gain: 3.561 bits, Posterior Entropy: 3.322, 
+Guess: 𝘾𝘼𝙍𝘿𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝘿𝙄 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 217 potential guesses from 118 remaining candidates...
+Top 5 guesses: [('CHILD', '3.366'), ('MEDIA', '3.260'), ('DOING', '3.245'), ('COULD', '3.210'), ('MONEY', '3.177')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.3661
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.3661
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 6.8826 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 0.0, 'actual_info_gain': 6.882643049361842, 'expected_info_gain': 3.366066530566613}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('CARDI', '0.000')]
+Top entropy choice: 𝘾𝘼𝙍𝘿𝙄 with entropy: 0.0000
+Ended up choosing COMMON word: 𝘾𝘼𝙍𝘿𝙄 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 6.883, Expected Info Gain: 3.366 bits, Actual Info Gain: 6.883 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝙍𝘿𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝙍𝘿𝙄 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AARGH', 'BARBY', 'BARCA', 'BARDO', 'BARDY', 'BARFI', 'BARFY', 'BARIC', 'BARKY', 'BARMY', 'BARNY', 'BARON', 'BARRA', 'BARRO', 'BARRY', 'CARAP', 'CARBO', 'CARBY', 'CARDI', 'CARDY', 'CARGO', 'CARNY', 'CAROB', 'CAROL', 'CAROM', 'CARON', 'CARPI', 'CARRY', 'CARVY', 'DARAF', 'DARCY', 'DARGA', 'DARIC', 'DARKY', 'DARZI', 'FARAD', 'FARCI', 'FARCY', 'FARRO', 'GARAM', 'GARBA', 'GARBO', 'GARDA', 'GARNI', 'GARRI', 'GARUM', 'HARAM', 'HARDY', 'HARIM', 'HARPY', 'HARRY', 'JARUL', 'KARAI', 'KARMA', 'KAROO', 'KARRI', 'KARZY', 'LARCH', 'LARDY', 'LARGA', 'LARGO', 'LARKY', 'LARUM', 'LARVA', 'MARAH', 'MARAL', 'MARAN', 'MARAY', 'MARCH', 'MARDY', 'MARGA', 'MARGO', 'MARIA', 'MARID', 'MARIL', 'MARKA', 'MARLY', 'MARMA', 'MARON', 'MAROR', 'MARRA', 'MARRI', 'MARRY', 'MARUA', 'MARVY', 'NARCO', 'NARIC', 'NARKY', 'NAROD', 'NARRA', 'PARCH', 'PARDI', 'PARDY', 'PARGO', 'PARID', 'PARKA', 'PARKI', 'PARKY', 'PARLY', 'PARMA', 'PARMO', 'PAROL', 'PARRA', 'PARRY', 'PARVO', 'VARAN', 'VARDA', 'VARDO', 'VARDY', 'VARIA', 'VARIX', 'VARNA', 'WARBY', 'YARAK', 'YARCO', 'YARFA', 'YARRA', 'ZARDA']
+118 candidate words remaining.
+Top 10 guesses: [('MINCY', '3.994'), ('MOLDY', '3.993'), ('COMBY', '3.944'), ('MYOID', '3.913'), ('CYMOL', '3.890'), ('COMBI', '3.882'), ('MOCKY', '3.855'), ('MICKY', '3.849'), ('DIMBO', '3.844'), ('MIDGY', '3.812')]
+Top entropy choice: 𝙈𝙄𝙉𝘾𝙔 with entropy: 3.9942
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝘾𝙔 with entropy: 3.9942
+
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜🟨⬜🟨⬜
+Actual Info Gain: 4.8826 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 2.0, 'actual_info_gain': 4.882643049361842, 'expected_info_gain': 3.994197821504514}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARIC', 'CARDI', 'CARPI', 'DARIC']
+4 candidate words remaining.
+Top 10 guesses: [('ABIDE', '2.000'), ('ABODE', '2.000'), ('ACRID', '2.000'), ('ADDIN', '2.000'), ('ADDIO', '2.000'), ('ADHOC', '2.000'), ('ADLIB', '2.000'), ('ADMIN', '2.000'), ('ADMIT', '2.000'), ('ADMIX', '2.000')]
+Top entropy choice: 𝘼𝘽𝙄𝘿𝙀 with entropy: 2.0000
+Using common exploratory word: 𝘼𝘽𝙄𝘿𝙀 with entropy: 2.0000
+
+Guess: 𝘼𝘽𝙄𝘿𝙀, Feedback: 🟨⬜🟨🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 3.994197821504514}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CARDI']
+1 candidate words remaining.
+Top 10 guesses: [('CARDI', '0.000')]
+Top entropy choice: 𝘾𝘼𝙍𝘿𝙄 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘾𝘼𝙍𝘿𝙄 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 6.883, Expected Info Gain: 3.994 bits, Actual Info Gain: 4.883 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙄𝘿𝙀, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 3.994 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝙍𝘿𝙄, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

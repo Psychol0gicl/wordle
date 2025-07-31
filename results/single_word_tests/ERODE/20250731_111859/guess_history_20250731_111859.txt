@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙀𝙍𝙊𝘿𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝘿𝙍𝙊𝙑𝙀, Feedback: 🟨🟩🟩⬜🟩
+Guess: 𝙀𝙍𝙊𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙀𝙍𝙊𝘿𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.975 bits, Posterior Entropy: 4.170, 
+Guess: 𝘿𝙍𝙊𝙑𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 1.949 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙊𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙊𝘿𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.975 bits, Posterior Entropy: 4.170, 
+Guess: 𝘿𝙍𝙊𝙑𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 1.949 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙊𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙊𝘿𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 3.975 bits, Posterior Entropy: 4.170, 
+Guess: 𝘿𝙍𝙊𝙑𝙀, Feedback: 🟨🟩🟩⬜🟩, Prior Entropy: 4.170, Expected Info Gain: 1.949 bits, Actual Info Gain: 4.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙀𝙍𝙊𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙀𝙍𝙊𝘿𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: 🟨🟨⬜⬜🟩, Prior Entropy: 8.145, Expected Info Gain: 4.837 bits, Actual Info Gain: 7.145 bits, Posterior Entropy: 1.000, 
+Guess: 𝙀𝙍𝙊𝘿𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙒𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟨⬜🟩⬜⬜
+Guess: 𝘾𝙃𝘼𝙎𝙈, Feedback: ⬜🟨🟩🟩⬜
+Guess: 𝙌𝙐𝘼𝙎𝙃, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘼𝙒𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝙒𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝙒𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 3.322, 
+Guess: 𝘼𝙒𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙒𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 7.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 4.263 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙐𝙉𝘿𝙃, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 3.322, Expected Info Gain: 3.122 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙒𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

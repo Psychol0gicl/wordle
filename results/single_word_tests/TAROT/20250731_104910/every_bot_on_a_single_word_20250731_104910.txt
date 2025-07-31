@@ -1,0 +1,157 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙍𝙊𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TARDO 
+The top ten guesses and scores: [('TARDO', 41), ('TARDY', 41), ('TAROK', 41), ('TAROC', 40), ('TARZY', 40), ('TAROT', 39), ('TARRY', 39), ('TARTY', 39), ('TARKA', 37), ('TARGA', 36)]
+The bot finally chose: TARDY 
+Guess: 𝙏𝘼𝙍𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TAROK 
+The top ten guesses and scores: [('TAROK', 23), ('TAROC', 22), ('TAROT', 21), ('TARKA', 20), ('TARGA', 19)]
+The bot finally chose: TAROT 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙏𝘼𝙍𝘿𝙔, Feedback: 🟩🟩🟩⬜⬜
+Guess: 𝙏𝘼𝙍𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙍𝙊𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAROK with entropy: 1.9610
+Bot chose: TAROT with entropy: 1.9610
+Top ten guesses: [('TAROK', 1.9609640474436814), ('TAROT', 1.9609640474436814), ('TARDO', 1.6854752972273346), ('TARDY', 1.6854752972273346), ('TARTY', 1.6854752972273346), ('TAROC', 1.5709505944546687), ('TARKA', 1.3567796494470397), ('TARRY', 1.295461844238322), ('TARZY', 1.295461844238322), ('TARGA', 0.9219280948873623)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝘼𝙍𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙍𝙊𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TAROK with entropy: 1.9610
+Bot chose: TAROT with entropy: 1.9610
+Top ten guesses: [('TAROK', 1.9609640474436814), ('TAROT', 1.9609640474436814), ('TARDO', 1.6854752972273346), ('TARDY', 1.6854752972273346), ('TARTY', 1.6854752972273346), ('TAROC', 1.5709505944546687), ('TARKA', 1.3567796494470397), ('TARRY', 1.295461844238322), ('TARZY', 1.295461844238322), ('TARGA', 0.9219280948873623)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝘼𝙍𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙍𝙊𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 10 potential guesses from 10 remaining candidates...
+Top 5 guesses: [('TAROK', '1.961'), ('TAROT', '1.961'), ('TARDO', '1.685'), ('TARDY', '1.685'), ('TARTY', '1.685')]
+Top entropy choice: 𝙏𝘼𝙍𝙊𝙆 with entropy: 1.9610
+Ended up choosing COMMON word: 𝙏𝘼𝙍𝙊𝙏 with entropy: 1.9610
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝙏𝘼𝙍𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙍𝙊𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜
+Actual Info Gain: 10.5367 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 10.536732889835415, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TARDO', 'TARDY', 'TARGA', 'TARKA', 'TAROC', 'TAROK', 'TAROT', 'TARRY', 'TARTY', 'TARZY']
+10 candidate words remaining.
+Top 10 guesses: [('DOTTY', '2.722'), ('DICKY', '2.646'), ('DOOKY', '2.646'), ('DORKY', '2.646'), ('DUCKY', '2.646'), ('DYKON', '2.646'), ('KYUDO', '2.646'), ('SKODY', '2.646'), ('VODKA', '2.646'), ('YOKED', '2.646')]
+Top entropy choice: 𝘿𝙊𝙏𝙏𝙔 with entropy: 2.7219
+Guess count low, choosing the word with highest entropy: 𝘿𝙊𝙏𝙏𝙔 with entropy: 2.7219
+
+Guess: 𝘿𝙊𝙏𝙏𝙔, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 2.7219280948873625}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAROT']
+1 candidate words remaining.
+Top 10 guesses: [('TAROT', '0.000')]
+Top entropy choice: 𝙏𝘼𝙍𝙊𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙍𝙊𝙏 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.537 bits, Posterior Entropy: 3.322, 
+Guess: 𝘿𝙊𝙏𝙏𝙔, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.322, Expected Info Gain: 2.722 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙍𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

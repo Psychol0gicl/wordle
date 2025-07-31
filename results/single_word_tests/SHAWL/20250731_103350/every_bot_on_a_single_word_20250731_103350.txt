@@ -1,0 +1,214 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝘼𝙒𝙇 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HILSA 
+The top ten guesses and scores: [('HILSA', 593), ('PLASH', 585), ('SPAIL', 583), ('SPIAL', 583), ('SHALM', 581), ('MISAL', 579), ('SLAIN', 579), ('SNAIL', 579), ('CLASH', 577), ('SCAIL', 575)]
+The bot finally chose: SLAIN 
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩🟨🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: SCALP 
+The top ten guesses and scores: [('SCALP', 72), ('SCALY', 71), ('SHALM', 71), ('SHALY', 71), ('SHAWL', 71), ('SPAWL', 71), ('SCALD', 70), ('SPALD', 70), ('SWALY', 70), ('SWAYL', 70)]
+The bot finally chose: SCALP 
+Guess: 𝙎𝘾𝘼𝙇𝙋, Feedback: 🟩⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: SHAWL 
+The top ten guesses and scores: [('SHAWL', 13), ('SHAUL', 12), ('SWAYL', 12)]
+The bot finally chose: SHAWL 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Guess: 𝙎𝙇𝘼𝙄𝙉, Feedback: 🟩🟨🟩⬜⬜
+Guess: 𝙎𝘾𝘼𝙇𝙋, Feedback: 🟩⬜🟩🟨⬜
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙒𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 4.4150 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.415037499278844, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAWL with entropy: 2.0588
+Bot chose: SHAWL with entropy: 2.0588
+Top ten guesses: [('SHAWL', 2.058813890331201), ('SPAWL', 2.058813890331201), ('SHALL', 1.8910611120726526), ('SPALL', 1.8910611120726526), ('SHAUL', 1.6577427265048887), ('SPAUL', 1.6577427265048887), ('SCALL', 1.3516441151533924), ('SMALL', 1.3516441151533922), ('SWAYL', 1.224394445405986)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.415 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙒𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SPAIL with entropy: 4.6818
+Bot chose: SNAIL with entropy: 4.5874
+Top ten guesses: [('SPAIL', 4.681813620578765), ('SHALM', 4.647863250172411), ('SNAIL', 4.58736218308801), ('SCAIL', 4.568048984751603), ('SHAUL', 4.527871025205462), ('SCALA', 4.515746123226267), ('SLAIN', 4.511010001249069), ('SHAWL', 4.504129695390309), ('SHALY', 4.503337301615664), ('SCALP', 4.480280614323546)]
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 4.4150 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.415037499278844, 'expected_info_gain': 4.58736218308801}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHAWL with entropy: 2.0588
+Bot chose: SHAWL with entropy: 2.0588
+Top ten guesses: [('SHAWL', 2.058813890331201), ('SPAWL', 2.058813890331201), ('SHALL', 1.8910611120726526), ('SPALL', 1.8910611120726526), ('SHAUL', 1.6577427265048887), ('SPAUL', 1.6577427265048887), ('SCALL', 1.3516441151533924), ('SMALL', 1.3516441151533922), ('SWAYL', 1.224394445405986)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.415 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙒𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 291 potential guesses from 192 remaining candidates...
+Top 5 guesses: [('SPAIL', '4.682'), ('SHALM', '4.648'), ('SNAIL', '4.587'), ('SCAIL', '4.568'), ('SHAUL', '4.528')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Ended up choosing COMMON word: 𝙎𝙉𝘼𝙄𝙇 with entropy: 4.5874
+
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 4.4150 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 4.415037499278844, 'expected_info_gain': 4.58736218308801}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('SHAWL', '2.059'), ('SPAWL', '2.059'), ('SHALL', '1.891'), ('SPALL', '1.891'), ('SHAUL', '1.658')]
+Top entropy choice: 𝙎𝙃𝘼𝙒𝙇 with entropy: 2.0588
+Ended up choosing COMMON word: 𝙎𝙃𝘼𝙒𝙇 with entropy: 2.0588
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙉𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.585, Expected Info Gain: 4.587 bits, Actual Info Gain: 4.415 bits, Posterior Entropy: 3.170, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝘼𝙒𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨
+Actual Info Gain: 6.2737 bits
+Posterior entropy: 7.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.584962500721156, 'actual_info_gain': 6.273698484001621, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABASH', 'ABASK', 'ABYSM', 'ADSUM', 'AGASP', 'AGISM', 'AGUSH', 'APISH', 'APISM', 'ASADA', 'ASANA', 'ASCON', 'ASDIC', 'ASKOI', 'ASPIC', 'ASSAI', 'ASSAM', 'ASSAY', 'ASWAY', 'ASWIM', 'ASYLA', 'AVISO', 'AWASH', 'BLASH', 'BOSSA', 'CHASM', 'CLASH', 'CLASP', 'DOSAI', 'DOSHA', 'FLASH', 'FLASK', 'FOSSA', 'GNASH', 'GUSLA', 'HILSA', 'KIASU', 'KISAN', 'LYSSA', 'MIASM', 'MISAL', 'MISSA', 'MSASA', 'MUSCA', 'MUSHA', 'NSIMA', 'NYSSA', 'OMASA', 'OSHAC', 'OSSIA', 'OUSIA', 'PHASM', 'PHYSA', 'PLASH', 'PLASM', 'POSCA', 'PSALM', 'PSHAW', 'PSOAI', 'QUASH', 'QUASI', 'SCAFF', 'SCAIL', 'SCALA', 'SCALD', 'SCALL', 'SCALP', 'SCALY', 'SCAMP', 'SCAND', 'SCAPA', 'SCAPI', 'SCAUD', 'SCAUP', 'SCHAV', 'SCHWA', 'SCOPA', 'SCUBA', 'SDAYN', 'SHACK', 'SHADY', 'SHAKA', 'SHAKO', 'SHAKY', 'SHALL', 'SHALM', 'SHALY', 'SHAMA', 'SHAND', 'SHANK', 'SHASH', 'SHAUL', 'SHAWL', 'SHAWM', 'SHAWN', 'SHAYA', 'SHIAI', 'SHIVA', 'SHOAL', 'SHOLA', 'SHUBA', 'SIBIA', 'SIDHA', 'SIGLA', 'SIGMA', 'SIGNA', 'SILVA', 'SIMBA', 'SISAL', 'SKAIL', 'SKALD', 'SKANK', 'SKOAL', 'SLACK', 'SLAID', 'SLAIN', 'SLANG', 'SLANK', 'SLASH', 'SLOAN', 'SLOKA', 'SMAAK', 'SMACK', 'SMAIK', 'SMALL', 'SMALM', 'SMASH', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKY', 'SNASH', 'SOAPY', 'SOCIA', 'SOKAH', 'SOLAH', 'SOLAN', 'SOMAN', 'SPACK', 'SPACY', 'SPADO', 'SPAHI', 'SPAIL', 'SPAIN', 'SPALD', 'SPALL', 'SPANG', 'SPANK', 'SPASM', 'SPAUL', 'SPAWL', 'SPAWN', 'SPAYD', 'SPAZA', 'SPAZZ', 'SPIAL', 'SPICA', 'SPINA', 'SPLAY', 'SPOSA', 'SPYAL', 'SQUAB', 'SQUAD', 'SQUAW', 'SUBAH', 'SUBAK', 'SUBHA', 'SUDAN', 'SUGAN', 'SULFA', 'SUMAC', 'SUMMA', 'SUNNA', 'SUONA', 'SWACK', 'SWAIL', 'SWAIN', 'SWALY', 'SWAMI', 'SWAMP', 'SWAMY', 'SWANG', 'SWANK', 'SWASH', 'SWAYL', 'SYLVA', 'UNSAW', 'UNSAY', 'USUAL', 'VISNA', 'WISHA', 'YOWSA']
+192 candidate words remaining.
+Top 10 guesses: [('SPAIL', '4.682'), ('PLANH', '4.659'), ('SHALM', '4.648'), ('PILCH', '4.602'), ('PLAIN', '4.596'), ('SNAIL', '4.587'), ('MILCH', '4.581'), ('CHOIL', '4.568'), ('SCAIL', '4.568'), ('SHULN', '4.548')]
+Top entropy choice: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+Guess count low, choosing the word with highest entropy: 𝙎𝙋𝘼𝙄𝙇 with entropy: 4.6818
+
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 5.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 5.0, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCALL', 'SHALL', 'SHAUL', 'SHAWL', 'SMALL', 'SWAYL']
+6 candidate words remaining.
+Top 10 guesses: [('HAULM', '2.585'), ('MUHLY', '2.585'), ('WHELM', '2.585'), ('WHUMP', '2.585'), ('AHULL', '2.252'), ('BUHLS', '2.252'), ('CAHOW', '2.252'), ('CHALK', '2.252'), ('CHALS', '2.252'), ('CHAWK', '2.252')]
+Top entropy choice: 𝙃𝘼𝙐𝙇𝙈 with entropy: 2.5850
+Using common exploratory word: 𝘾𝙃𝘼𝙇𝙆 with entropy: 2.2516
+
+Guess: 𝘾𝙃𝘼𝙇𝙆, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 4.681813620578765}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHAUL', 'SHAWL']
+2 candidate words remaining.
+Top 10 guesses: [('SHAUL', '1.000'), ('SHAWL', '1.000')]
+Top entropy choice: 𝙎𝙃𝘼𝙐𝙇 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙃𝘼𝙒𝙇 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.274 bits, Posterior Entropy: 7.585, 
+Guess: 𝙎𝙋𝘼𝙄𝙇, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙃𝘼𝙇𝙆, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 2.585, Expected Info Gain: 4.682 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙃𝘼𝙒𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙀𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜
+Guess: 𝘾𝙇𝙀𝘼𝙉, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝘼𝙈𝙄𝙉𝙀, Feedback: 🟨⬜⬜🟩🟨
+Guess: 𝙃𝙀𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙀𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙀𝙉𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.642 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙀𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙀𝙉𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.642 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙀𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙋𝙇𝘼𝙉𝙀, Feedback: ⬜⬜🟨🟩🟨, Prior Entropy: 8.285, Expected Info Gain: 4.795 bits, Actual Info Gain: 5.115 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙀𝙉𝘼, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.642 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙀𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙀𝙉𝙉𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.573 bits, Posterior Entropy: 8.285, 
+Guess: 𝙉𝙀𝙀𝙇𝘿, Feedback: 🟨🟩⬜⬜⬜, Prior Entropy: 8.285, Expected Info Gain: 4.914 bits, Actual Info Gain: 4.285 bits, Posterior Entropy: 4.000, 
+Guess: 𝙂𝙊𝙉𝙉𝘼, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 4.914 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙀𝙉𝙉𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

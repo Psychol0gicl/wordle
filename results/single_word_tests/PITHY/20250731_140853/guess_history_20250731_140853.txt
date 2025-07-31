@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙏𝙃𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜🟨🟩🟨⬜
+Guess: 𝙋𝙄𝙏𝙃𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝙃𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙏𝙃𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝙃𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙏𝙃𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝙃𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙏𝙃𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙏𝙃𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 3.151 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 5.129, Expected Info Gain: 5.317 bits, Actual Info Gain: 4.129 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙏𝙃𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

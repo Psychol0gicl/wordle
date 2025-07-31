@@ -1,0 +1,65 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙊𝙈𝙀𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨⬜⬜🟩⬜
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙊𝙈𝙀𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.282 bits, Posterior Entropy: 5.585, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 2.874 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.799 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 1.846 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙈𝙀𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜⬜🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 3.282 bits, Posterior Entropy: 5.585, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.585, Expected Info Gain: 2.874 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙊𝙂𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.799 bits, Actual Info Gain: 0.678 bits, Posterior Entropy: 3.322, 
+Guess: 𝙃𝙊𝙆𝙀𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 3.322, Expected Info Gain: 1.846 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙈𝙀𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 3.475 bits, Posterior Entropy: 5.392, 
+Guess: 𝘾𝙊𝙉𝙀𝙔, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.392, Expected Info Gain: 2.860 bits, Actual Info Gain: 1.392 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙊𝙊𝙀𝙔, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 4.000, Expected Info Gain: 1.975 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙊𝙈𝙀𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.060 bits, Posterior Entropy: 4.807, 
+Guess: 𝙈𝙄𝘾𝙆𝙔, Feedback: 🟨⬜⬜⬜🟩, Prior Entropy: 4.807, Expected Info Gain: 4.933 bits, Actual Info Gain: 4.807 bits, Posterior Entropy: 0.000, 
+Guess: 𝙃𝙊𝙈𝙀𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

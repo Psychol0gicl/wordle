@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙊𝙂𝙂𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝘽𝙊𝘿𝙂𝙔, Feedback: ⬜🟩🟨🟩🟩
+Guess: 𝘿𝙊𝙂𝙂𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙊𝙂𝙂𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙊𝘿𝙂𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙂𝙂𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙂𝙂𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙊𝘿𝙂𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙂𝙂𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙂𝙂𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: 🟨🟩⬜🟨🟩, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝘿𝙊𝘿𝙂𝙔, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙂𝙂𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙊𝙂𝙂𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: ⬜⬜⬜⬜🟩, Prior Entropy: 6.555, Expected Info Gain: 5.938 bits, Actual Info Gain: 2.162 bits, Posterior Entropy: 4.392, 
+Guess: 𝙒𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟨🟩⬜, Prior Entropy: 4.392, Expected Info Gain: 5.938 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙊𝙂𝙂𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

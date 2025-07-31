@@ -1,0 +1,64 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙐𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜⬜🟩⬜🟨
+Guess: 𝘽𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙃𝙐𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙐𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.281 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙐𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.281 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙐𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: 🟨⬜🟨⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.281 bits, Posterior Entropy: 3.000, 
+Guess: 𝘽𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.000, 
+Guess: 𝘿𝙐𝙏𝘾𝙃, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.000, Expected Info Gain: 0.811 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙃𝙐𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙐𝙏𝘾𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 5.959 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝙆𝙀𝘿, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 5.317 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙐𝙏𝘾𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

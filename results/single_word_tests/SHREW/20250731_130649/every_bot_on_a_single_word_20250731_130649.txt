@@ -1,0 +1,273 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙃𝙍𝙀𝙒 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+entropy_info: None
+----------
+The bot originally chose: SORED 
+The top ten guesses and scores: [('SORED', 80), ('SIRED', 78), ('SPRED', 78), ('SHRED', 77), ('SURED', 77), ('SERED', 75), ('SOREL', 75), ('SOREX', 75), ('SPREW', 75), ('SCREW', 74)]
+The bot finally chose: SIRED 
+Guess: 𝙎𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: SCREW 
+The top ten guesses and scores: [('SCREW', 48), ('SOREL', 48), ('SOREX', 48), ('SPREW', 48), ('SHREW', 47), ('SOREE', 47), ('SORER', 47), ('SCREE', 45), ('SPREE', 45), ('SYREN', 45)]
+The bot finally chose: SCREW 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SHREW 
+The top ten guesses and scores: [('SHREW', 9), ('SPREW', 9)]
+The bot finally chose: SHREW 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Guess: 𝙎𝙄𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Actual Info Gain: 9.5367 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 9.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOREE with entropy: 1.9232
+Bot chose: SPREE with entropy: 1.7332
+Top ten guesses: [('SOREE', 1.9232196723355077), ('SERED', 1.9149798205164812), ('SIREE', 1.7332062193464952), ('SPREE', 1.7332062193464952), ('SORED', 1.6804820237218405), ('SERER', 1.6709505944546688), ('SCREE', 1.578897902987479), ('SIRED', 1.4904685707328282), ('SPRED', 1.4904685707328282), ('SORER', 1.4166422780956522)]
+
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7332062193464952}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORED with entropy: 1.8250
+Bot chose: SORED with entropy: 1.8250
+Top ten guesses: [('SORED', 1.8250112108241772), ('SHRED', 1.5510981710072647), ('SIRED', 1.5510981710072647), ('SORER', 1.5510981710072647), ('SURED', 1.5510981710072647), ('SHREW', 1.207518749639422), ('SIREN', 1.207518749639422), ('SURER', 1.207518749639422), ('SOREL', 1.188721875540867), ('SOREX', 1.188721875540867)]
+
+Guess: 𝙎𝙊𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 1.8250112108241772}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCREW with entropy: 1.3710
+Bot chose: SCREW with entropy: 1.3710
+Top ten guesses: [('SCREW', 1.3709505944546687), ('SHREW', 1.3709505944546687), ('SIREN', 1.3709505944546687), ('SYREN', 1.3709505944546687), ('SURER', 0.7219280948873623)]
+
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHREW with entropy: 0.0000
+Bot chose: SHREW with entropy: 0.0000
+Top ten guesses: [('SHREW', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 1.733 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙊𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 1.825 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙀𝙒 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Actual Info Gain: 9.5367 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 9.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOREE with entropy: 1.9232
+Bot chose: SPREE with entropy: 1.7332
+Top ten guesses: [('SOREE', 1.9232196723355077), ('SERED', 1.9149798205164812), ('SIREE', 1.7332062193464952), ('SPREE', 1.7332062193464952), ('SORED', 1.6804820237218405), ('SERER', 1.6709505944546688), ('SCREE', 1.578897902987479), ('SIRED', 1.4904685707328282), ('SPRED', 1.4904685707328282), ('SORER', 1.4166422780956522)]
+
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7332062193464952}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SORED with entropy: 1.8250
+Bot chose: SORED with entropy: 1.8250
+Top ten guesses: [('SORED', 1.8250112108241772), ('SHRED', 1.5510981710072647), ('SIRED', 1.5510981710072647), ('SORER', 1.5510981710072647), ('SURED', 1.5510981710072647), ('SHREW', 1.207518749639422), ('SIREN', 1.207518749639422), ('SURER', 1.207518749639422), ('SOREL', 1.188721875540867), ('SOREX', 1.188721875540867)]
+
+Guess: 𝙎𝙊𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 1.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.263034405833794, 'expected_info_gain': 1.8250112108241772}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SCREW with entropy: 1.3710
+Bot chose: SCREW with entropy: 1.3710
+Top ten guesses: [('SCREW', 1.3709505944546687), ('SHREW', 1.3709505944546687), ('SIREN', 1.3709505944546687), ('SYREN', 1.3709505944546687), ('SURER', 0.7219280948873623)]
+
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.3709505944546687}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHREW with entropy: 0.0000
+Bot chose: SHREW with entropy: 0.0000
+Top ten guesses: [('SHREW', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 1.733 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙊𝙍𝙀𝘿, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 1.825 bits, Actual Info Gain: 1.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙎𝘾𝙍𝙀𝙒, Feedback: 🟩⬜🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 1.371 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙀𝙒 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Actual Info Gain: 9.5367 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 9.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 20 potential guesses from 20 remaining candidates...
+Top 5 guesses: [('SOREE', '1.923'), ('SERED', '1.915'), ('SIREE', '1.733'), ('SPREE', '1.733'), ('SORED', '1.680')]
+Top entropy choice: 𝙎𝙊𝙍𝙀𝙀 with entropy: 1.9232
+Ended up choosing COMMON word: 𝙎𝙋𝙍𝙀𝙀 with entropy: 1.7332
+
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜
+Actual Info Gain: 0.7370 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 0.7369655941662066, 'expected_info_gain': 1.7332062193464952}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('SORED', '1.825'), ('SHRED', '1.551'), ('SIRED', '1.551'), ('SORER', '1.551'), ('SURED', '1.551')]
+Top entropy choice: 𝙎𝙊𝙍𝙀𝘿 with entropy: 1.8250
+Ended up choosing COMMON word: 𝙎𝙃𝙍𝙀𝘿 with entropy: 1.5511
+
+Guess: 𝙎𝙃𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 1.5510981710072647}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SHREW', '0.000')]
+Top entropy choice: 𝙎𝙃𝙍𝙀𝙒 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙃𝙍𝙀𝙒 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙎𝙋𝙍𝙀𝙀, Feedback: 🟩⬜🟩🟩⬜, Prior Entropy: 4.322, Expected Info Gain: 1.733 bits, Actual Info Gain: 0.737 bits, Posterior Entropy: 3.585, 
+Guess: 𝙎𝙃𝙍𝙀𝘿, Feedback: 🟩🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 1.551 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙃𝙍𝙀𝙒 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨
+Actual Info Gain: 9.5367 bits
+Posterior entropy: 4.321928094887363
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.321928094887363, 'actual_info_gain': 9.536732889835413, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCREE', 'SCREW', 'SERED', 'SERER', 'SHRED', 'SHREW', 'SIRED', 'SIREE', 'SIREN', 'SORED', 'SOREE', 'SOREL', 'SORER', 'SOREX', 'SPRED', 'SPREE', 'SPREW', 'SURED', 'SURER', 'SYREN']
+20 candidate words remaining.
+Top 10 guesses: [('EPODE', '3.166'), ('DOWIE', '3.109'), ('CHODE', '3.004'), ('COUDE', '3.004'), ('DOUCE', '3.004'), ('NIDOR', '3.004'), ('POIND', '3.004'), ('PUDOR', '2.971'), ('DOLIE', '2.946'), ('DONEE', '2.946')]
+Top entropy choice: 𝙀𝙋𝙊𝘿𝙀 with entropy: 3.1660
+Guess count low, choosing the word with highest entropy: 𝙀𝙋𝙊𝘿𝙀 with entropy: 3.1660
+
+Guess: 𝙀𝙋𝙊𝘿𝙀, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.321928094887363, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.0000000000000004, 'expected_info_gain': 3.1659573209491745}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCREW', 'SHREW', 'SIREN', 'SURER', 'SYREN']
+5 candidate words remaining.
+Top 10 guesses: [('CHAIN', '2.322'), ('CHAIR', '2.322'), ('CHINA', '2.322'), ('CHINE', '2.322'), ('CHING', '2.322'), ('CHINK', '2.322'), ('CHINO', '2.322'), ('CHINS', '2.322'), ('CHIRR', '2.322'), ('CHIRU', '2.322')]
+Top entropy choice: 𝘾𝙃𝘼𝙄𝙉 with entropy: 2.3219
+Using common exploratory word: 𝘾𝙃𝘼𝙄𝙉 with entropy: 2.3219
+
+Guess: 𝘾𝙃𝘼𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 3.1659573209491745}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHREW']
+1 candidate words remaining.
+Top 10 guesses: [('SHREW', '0.000')]
+Top entropy choice: 𝙎𝙃𝙍𝙀𝙒 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙃𝙍𝙀𝙒 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟩🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.537 bits, Posterior Entropy: 4.322, 
+Guess: 𝙀𝙋𝙊𝘿𝙀, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 4.322, Expected Info Gain: 3.166 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.322, 
+Guess: 𝘾𝙃𝘼𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 3.166 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙃𝙍𝙀𝙒, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

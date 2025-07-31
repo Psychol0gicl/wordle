@@ -662,7 +662,7 @@ class NonGreedyCachedEntropyWordleBot(CachedEntropyWordleBot):
                 return OPTIMAL_STARTING_TUPLE
 
             num_candidates = len(self.candidates)
-            print(f"THe possible candidates are: {self.candidates}")
+            # print(f"The possible candidates are: {self.candidates}")
             print(f"{num_candidates} candidate words remaining.")
 
             # Use full word list as guess pool for entropy, especially when many candidates remain

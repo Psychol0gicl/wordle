@@ -1,0 +1,228 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙒𝙀𝘼𝙆 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: THALE 
+The top ten guesses and scores: [('THALE', 73), ('TEACH', 72), ('THECA', 72), ('THANE', 71), ('THEMA', 70), ('TELIA', 69), ('THETA', 69), ('TEPAL', 68), ('TEGUA', 67), ('TELAE', 67)]
+The bot finally chose: TEACH 
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜
+entropy_info: None
+----------
+The bot originally chose: TOGAE 
+The top ten guesses and scores: [('TOGAE', 11), ('TUBAE', 11), ('TWEAK', 11)]
+The bot finally chose: TWEAK 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜
+Guess: 𝙏𝙒𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝘼𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELAE with entropy: 3.0708
+Bot chose: TEACH with entropy: 2.8656
+Top ten guesses: [('TELAE', 3.070847093622518), ('THALE', 2.925853014561283), ('TELIA', 2.8861220933947846), ('TEACH', 2.865576855207248), ('TEAZE', 2.8000446184790095), ('TECTA', 2.760313697312511), ('THANE', 2.680851854979515), ('TEADE', 2.6550505394177746), ('THETA', 2.647592147308496), ('THECA', 2.5820599105802575)]
+
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.865576855207248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOGAE with entropy: 1.5850
+Bot chose: TOGAE with entropy: 1.5850
+Top ten guesses: [('TOGAE', 1.584962500721156), ('TUBAE', 1.584962500721156), ('TWEAK', 0.9182958340544896)]
+
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWEAK with entropy: 0.0000
+Bot chose: TWEAK with entropy: 0.0000
+Top ten guesses: [('TWEAK', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 2.866 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝘼𝙆 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TELAE with entropy: 3.0708
+Bot chose: TEACH with entropy: 2.8656
+Top ten guesses: [('TELAE', 3.070847093622518), ('THALE', 2.925853014561283), ('TELIA', 2.8861220933947846), ('TEACH', 2.865576855207248), ('TEAZE', 2.8000446184790095), ('TECTA', 2.760313697312511), ('THANE', 2.680851854979515), ('TEADE', 2.6550505394177746), ('THETA', 2.647592147308496), ('THECA', 2.5820599105802575)]
+
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.865576855207248}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TOGAE with entropy: 1.5850
+Bot chose: TOGAE with entropy: 1.5850
+Top ten guesses: [('TOGAE', 1.584962500721156), ('TUBAE', 1.584962500721156), ('TWEAK', 0.9182958340544896)]
+
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TWEAK with entropy: 0.0000
+Bot chose: TWEAK with entropy: 0.0000
+Top ten guesses: [('TWEAK', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 2.866 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝘼𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 19 potential guesses from 19 remaining candidates...
+Top 5 guesses: [('TELAE', '3.071'), ('THALE', '2.926'), ('TELIA', '2.886'), ('TEACH', '2.866'), ('TEAZE', '2.800')]
+Top entropy choice: 𝙏𝙀𝙇𝘼𝙀 with entropy: 3.0708
+Ended up choosing COMMON word: 𝙏𝙀𝘼𝘾𝙃 with entropy: 2.8656
+
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜
+Actual Info Gain: 2.6630 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.662965012722429, 'expected_info_gain': 2.865576855207248}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('TOGAE', '1.585'), ('TUBAE', '1.585'), ('TWEAK', '0.918')]
+Top entropy choice: 𝙏𝙊𝙂𝘼𝙀 with entropy: 1.5850
+
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.584962500721156}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TWEAK', '0.000')]
+Top entropy choice: 𝙏𝙒𝙀𝘼𝙆 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙒𝙀𝘼𝙆 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙏𝙀𝘼𝘾𝙃, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 2.866 bits, Actual Info Gain: 2.663 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙂𝘼𝙀, Feedback: 🟩⬜⬜🟩🟨, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙒𝙀𝘼𝙆 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜
+Actual Info Gain: 9.6107 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 9.610733471279191, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEACH', 'TEADE', 'TEAZE', 'TECTA', 'TEGUA', 'TELAE', 'TELIA', 'TENIA', 'TEPAL', 'TEXTA', 'THALE', 'THANE', 'THECA', 'THEMA', 'THETA', 'TOAZE', 'TOGAE', 'TUBAE', 'TWEAK']
+19 candidate words remaining.
+Top 10 guesses: [('LECHE', '3.432'), ('LEECH', '3.432'), ('GENAE', '3.366'), ('LEACH', '3.287'), ('LEHUA', '3.287'), ('UHLAN', '3.281'), ('CHILE', '3.281'), ('CHOLA', '3.261'), ('NEATH', '3.261'), ('LOATH', '3.261')]
+Top entropy choice: 𝙇𝙀𝘾𝙃𝙀 with entropy: 3.4316
+Guess count low, choosing the word with highest entropy: 𝙇𝙀𝘾𝙃𝙀 with entropy: 3.4316
+
+Guess: 𝙇𝙀𝘾𝙃𝙀, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 4.2479 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 0.0, 'actual_info_gain': 4.247927513443585, 'expected_info_gain': 3.431623565847431}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TWEAK']
+1 candidate words remaining.
+Top 10 guesses: [('TWEAK', '0.000')]
+Top entropy choice: 𝙏𝙒𝙀𝘼𝙆 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙒𝙀𝘼𝙆 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.611 bits, Posterior Entropy: 4.248, 
+Guess: 𝙇𝙀𝘾𝙃𝙀, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 3.432 bits, Actual Info Gain: 4.248 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙒𝙀𝘼𝙆, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

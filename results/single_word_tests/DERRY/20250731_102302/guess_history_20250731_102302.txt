@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙀𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝙆𝙔𝙍𝙄𝙀, Feedback: ⬜🟨🟩⬜🟨
+Guess: 𝘿𝙀𝙍𝘽𝙔, Feedback: 🟩🟩🟩⬜🟩
+Guess: 𝘿𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙀𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.192 bits, Actual Info Gain: 1.866 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 2.783 bits, Actual Info Gain: 2.147 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘽𝙊𝙍𝙉𝙀, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.192 bits, Actual Info Gain: 1.866 bits, Posterior Entropy: 4.954, 
+Guess: 𝙈𝙀𝙍𝙍𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.954, Expected Info Gain: 2.783 bits, Actual Info Gain: 2.147 bits, Posterior Entropy: 2.807, 
+Guess: 𝘿𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 6.820, Expected Info Gain: 3.795 bits, Actual Info Gain: 5.235 bits, Posterior Entropy: 1.585, 
+Guess: 𝘿𝙀𝙍𝘽𝙔, Feedback: 🟩🟩🟩⬜🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝘿𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙀𝙍𝙍𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.038 bits, Posterior Entropy: 6.820, 
+Guess: 𝘿𝙊𝙂𝙄𝙀, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 6.820, Expected Info Gain: 3.963 bits, Actual Info Gain: 4.820 bits, Posterior Entropy: 2.000, 
+Guess: 𝘼𝘽𝙊𝙍𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙀𝙍𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

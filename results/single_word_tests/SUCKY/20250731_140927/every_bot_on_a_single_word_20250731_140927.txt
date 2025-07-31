@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙐𝘾𝙆𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SOILY 
+The top ten guesses and scores: [('SOILY', 931), ('NOISY', 911), ('LOUSY', 907), ('SOULY', 907), ('SHOYU', 897), ('OSLIN', 890), ('SPOIL', 882), ('NOSHI', 880), ('POUSY', 879), ('SOUPY', 879)]
+The bot finally chose: NOISY 
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: LUSHY 
+The top ten guesses and scores: [('LUSHY', 77), ('BUSHY', 76), ('HUSKY', 76), ('CUSHY', 73), ('MUSHY', 73), ('PUSHY', 73), ('SULKY', 73), ('BUSKY', 72), ('GUSHY', 71), ('HUSHY', 70)]
+The bot finally chose: BUSHY 
+Guess: 𝘽𝙐𝙎𝙃𝙔, Feedback: ⬜🟩🟨⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SULKY 
+The top ten guesses and scores: [('SULKY', 14), ('SUCKY', 12), ('SULLY', 12)]
+The bot finally chose: SUCKY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝘽𝙐𝙎𝙃𝙔, Feedback: ⬜🟩🟨⬜🟩
+Guess: 𝙎𝙐𝘾𝙆𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙐𝘾𝙆𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILY with entropy: 5.3226
+Bot chose: SPOIL with entropy: 5.1834
+Top ten guesses: [('SOILY', 5.322573042242079), ('SHIOK', 5.192696288504197), ('SPOIL', 5.183403714967476), ('SHILY', 5.156675799126682), ('SOULY', 5.152179222526708), ('SLOPY', 5.093682000215184), ('SHINY', 5.09187995827306), ('SCION', 5.078213582419272), ('NOISY', 5.0780751492371135), ('SONLY', 5.0544306820772835)]
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 4.3619 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 4.0, 'actual_info_gain': 4.361943773735241, 'expected_info_gain': 5.183403714967476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNUCK with entropy: 3.5000
+Bot chose: SNUCK with entropy: 3.5000
+Top ten guesses: [('SNUCK', 3.5), ('SHUCK', 3.327819531114783), ('SYNCH', 3.327819531114783), ('SKUNK', 3.25), ('SNUSH', 3.202819531114783), ('SNUFF', 2.75), ('SUCKY', 2.7272170014624826), ('SCUFF', 2.649397470347699), ('SUNNY', 2.5550365325772657), ('SWUNG', 2.4772170014624826)]
+
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUCKY with entropy: 0.0000
+Bot chose: SUCKY with entropy: 0.0000
+Top ten guesses: [('SUCKY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝘾𝙆𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙐𝘾𝙆𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILY with entropy: 5.3226
+Bot chose: SPOIL with entropy: 5.1834
+Top ten guesses: [('SOILY', 5.322573042242079), ('SHIOK', 5.192696288504197), ('SPOIL', 5.183403714967476), ('SHILY', 5.156675799126682), ('SOULY', 5.152179222526708), ('SLOPY', 5.093682000215184), ('SHINY', 5.09187995827306), ('SCION', 5.078213582419272), ('NOISY', 5.0780751492371135), ('SONLY', 5.0544306820772835)]
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 4.3619 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 4.0, 'actual_info_gain': 4.361943773735241, 'expected_info_gain': 5.183403714967476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SNUCK with entropy: 3.5000
+Bot chose: SNUCK with entropy: 3.5000
+Top ten guesses: [('SNUCK', 3.5), ('SHUCK', 3.327819531114783), ('SYNCH', 3.327819531114783), ('SKUNK', 3.25), ('SNUSH', 3.202819531114783), ('SNUFF', 2.75), ('SUCKY', 2.7272170014624826), ('SCUFF', 2.649397470347699), ('SUNNY', 2.5550365325772657), ('SWUNG', 2.4772170014624826)]
+
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.5}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUCKY with entropy: 0.0000
+Bot chose: SUCKY with entropy: 0.0000
+Top ten guesses: [('SUCKY', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝘾𝙆𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝘾𝙆𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 329 remaining candidates...
+Top 5 guesses: [('SOILY', '5.323'), ('SHIOK', '5.193'), ('SPOIL', '5.183'), ('SHILY', '5.157'), ('SOULY', '5.152')]
+Top entropy choice: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+Ended up choosing COMMON word: 𝙎𝙋𝙊𝙄𝙇 with entropy: 5.1834
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 4.3619 bits
+Posterior entropy: 4.0
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 4.0, 'actual_info_gain': 4.361943773735241, 'expected_info_gain': 5.183403714967476}
+----------
+The bot is making a guess...
+Evaluating 16 potential guesses from 16 remaining candidates...
+Top 5 guesses: [('SNUCK', '3.500'), ('SHUCK', '3.328'), ('SYNCH', '3.328'), ('SKUNK', '3.250'), ('SNUSH', '3.203')]
+Top entropy choice: 𝙎𝙉𝙐𝘾𝙆 with entropy: 3.5000
+Ended up choosing COMMON word: 𝙎𝙉𝙐𝘾𝙆 with entropy: 3.5000
+
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨
+Actual Info Gain: 4.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.0, 'posterior_entropy': 0.0, 'actual_info_gain': 4.0, 'expected_info_gain': 3.5}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SUCKY', '0.000')]
+Top entropy choice: 𝙎𝙐𝘾𝙆𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙐𝘾𝙆𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.362 bits, Posterior Entropy: 4.000, 
+Guess: 𝙎𝙉𝙐𝘾𝙆, Feedback: 🟩⬜🟨🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.500 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝘾𝙆𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝘾𝙆𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BISOM', 'BISON', 'BLUSH', 'BOSKY', 'BOSOM', 'BOSON', 'BOSSY', 'BOSUN', 'BOUSY', 'BOYSY', 'BUSBY', 'BUSHY', 'BUSKY', 'BUSSU', 'BYSSI', 'CISCO', 'CISSY', 'COPSY', 'CUISH', 'CUSHY', 'CUSPY', 'CUSSO', 'CUSUM', 'DIPSO', 'DISCI', 'DISCO', 'DISHY', 'DONSY', 'DSOBO', 'DSOMO', 'DUNSH', 'DUSKY', 'FISHO', 'FISHY', 'FLISK', 'FLOSH', 'FLUSH', 'FUBSY', 'FUNSY', 'FUSIL', 'FUSSY', 'GHUSL', 'GIPSY', 'GISMO', 'GLISK', 'GODSO', 'GOOSY', 'GUSHY', 'GUSLI', 'GUSSY', 'GYPSY', 'HISSY', 'HOOSH', 'HOWSO', 'HUSHY', 'HUSKY', 'HUSSY', 'HYSON', 'IMSHI', 'IMSHY', 'INSPO', 'KIOSK', 'KIPSY', 'KISSY', 'KNISH', 'KNOSP', 'KUSSO', 'LOSSY', 'LOUSY', 'LUSHY', 'LYSIN', 'LYSOL', 'MIMSY', 'MISCH', 'MISDO', 'MISGO', 'MISKY', 'MISSY', 'MOPSY', 'MOSSO', 'MOSSY', 'MOUSY', 'MULSH', 'MUMSY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSSY', 'MYSID', 'NISIN', 'NKOSI', 'NOISY', 'NOSHI', 'ODISM', 'OOPSY', 'OPSIN', 'OSKIN', 'OSLIN', 'OSMIC', 'OSMOL', 'OVISM', 'PHISH', 'PISCO', 'PISKY', 'PISSY', 'PLISH', 'PLUSH', 'POPSY', 'POSHO', 'POSOL', 'POUSY', 'POWSY', 'PSION', 'PSYCH', 'PSYOP', 'PUBSY', 'PUDSY', 'PUSHY', 'PUSSY', 'SCHIF', 'SCHMO', 'SCHUL', 'SCIFI', 'SCIND', 'SCION', 'SCLIM', 'SCODY', 'SCOFF', 'SCOLD', 'SCOOG', 'SCOOP', 'SCOUG', 'SCOUP', 'SCOWL', 'SCOWP', 'SCUDI', 'SCUDO', 'SCUFF', 'SCULK', 'SCULL', 'SCULP', 'SCUZZ', 'SHCHI', 'SHILL', 'SHILY', 'SHINY', 'SHIOK', 'SHISH', 'SHISO', 'SHLUB', 'SHOCK', 'SHOGI', 'SHOJI', 'SHOJO', 'SHONK', 'SHOOK', 'SHOOL', 'SHOON', 'SHOUD', 'SHOWD', 'SHOWN', 'SHOWY', 'SHOYU', 'SHUCK', 'SHULN', 'SHUSH', 'SHYLY', 'SIBYL', 'SICKO', 'SICKY', 'SIGIL', 'SILKY', 'SILLY', 'SIMUL', 'SINKY', 'SINSI', 'SIPPY', 'SISSY', 'SIXMO', 'SKIFF', 'SKILL', 'SKIMO', 'SKIMP', 'SKINK', 'SKIVY', 'SKLIM', 'SKODY', 'SKOFF', 'SKOOL', 'SKOSH', 'SKULK', 'SKULL', 'SKUNK', 'SLICK', 'SLILY', 'SLIMY', 'SLING', 'SLINK', 'SLISH', 'SLOID', 'SLOJD', 'SLOMO', 'SLOOM', 'SLOOP', 'SLOPY', 'SLOSH', 'SLOYD', 'SLUBB', 'SLUFF', 'SLUMP', 'SLUNG', 'SLUNK', 'SLUSH', 'SLYLY', 'SMICK', 'SMILY', 'SMOCK', 'SMOKO', 'SMOKY', 'SMUSH', 'SNICK', 'SNIFF', 'SNIPY', 'SNOOD', 'SNOOK', 'SNOOL', 'SNOOP', 'SNOWK', 'SNOWY', 'SNUCK', 'SNUFF', 'SNUSH', 'SOCKO', 'SODDY', 'SODIC', 'SODOM', 'SOGGY', 'SOILY', 'SOKOL', 'SOLDI', 'SOLDO', 'SOLID', 'SOLON', 'SOLUM', 'SONGO', 'SONGY', 'SONIC', 'SONLY', 'SONNY', 'SONSY', 'SOOKY', 'SOPHY', 'SOPPY', 'SOUGH', 'SOULY', 'SOUND', 'SOUPY', 'SOWFF', 'SOWND', 'SOYUZ', 'SOZIN', 'SPICK', 'SPICY', 'SPIFF', 'SPIKY', 'SPILL', 'SPINK', 'SPINY', 'SPLOG', 'SPOIL', 'SPOOF', 'SPOOK', 'SPOOL', 'SPOOM', 'SPOON', 'SPOSH', 'SPOSO', 'SPUMY', 'SPUNK', 'SQUIB', 'SQUID', 'SQUIZ', 'SUBBY', 'SUCCI', 'SUCKY', 'SUDSY', 'SUING', 'SUKUK', 'SULCI', 'SULFO', 'SULKY', 'SULLY', 'SULPH', 'SUMPH', 'SUNNY', 'SUNUP', 'SUSHI', 'SWILL', 'SWING', 'SWINK', 'SWISH', 'SWIZZ', 'SWOLL', 'SWOLN', 'SWOON', 'SWOOP', 'SWOUN', 'SWUNG', 'SYBIL', 'SYBOW', 'SYCON', 'SYLPH', 'SYNCH', 'SYNOD', 'SYSOP', 'UNSOD', 'UNSUB', 'USING', 'USNIC', 'VISON', 'WHISH', 'WHISK', 'WHOSO', 'WISPY', 'WOOSH', 'WUSHU', 'WUSSY', 'ZHUSH', 'ZOISM']
+329 candidate words remaining.
+Top 10 guesses: [('SOILY', '5.323'), ('NOILY', '5.322'), ('PIONY', '5.294'), ('PINOL', '5.237'), ('PILON', '5.236'), ('SHIOK', '5.193'), ('CHOIL', '5.184'), ('SPOIL', '5.183'), ('SHILY', '5.157'), ('SOULY', '5.152')]
+Top entropy choice: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+Guess count low, choosing the word with highest entropy: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜⬜⬜🟩
+Actual Info Gain: 6.0400 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 6.04001567884788, 'expected_info_gain': 5.322573042242079}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SPUMY', 'SUBBY', 'SUCKY', 'SUDSY', 'SUNNY']
+5 candidate words remaining.
+Top 10 guesses: [('ADUNC', '2.322'), ('BLUNK', '2.322'), ('BOUND', '2.322'), ('BRUSK', '2.322'), ('BUNCE', '2.322'), ('BUNCH', '2.322'), ('BUNCO', '2.322'), ('BUNDE', '2.322'), ('BUNDH', '2.322'), ('BUNDS', '2.322')]
+Top entropy choice: 𝘼𝘿𝙐𝙉𝘾 with entropy: 2.3219
+Using common exploratory word: 𝘽𝙊𝙐𝙉𝘿 with entropy: 2.3219
+
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜⬜🟨⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 5.322573042242079}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SUCKY']
+1 candidate words remaining.
+Top 10 guesses: [('SUCKY', '0.000')]
+Top entropy choice: 𝙎𝙐𝘾𝙆𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙐𝘾𝙆𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 8.362, Expected Info Gain: 5.323 bits, Actual Info Gain: 6.040 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 5.323 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝘾𝙆𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

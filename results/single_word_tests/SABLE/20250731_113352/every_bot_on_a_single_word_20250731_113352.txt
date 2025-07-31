@@ -1,0 +1,192 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝘽𝙇𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+entropy_info: None
+----------
+The bot originally chose: SALUE 
+The top ten guesses and scores: [('SALUE', 121), ('HALSE', 120), ('LAPSE', 120), ('SALVE', 118), ('VALSE', 118), ('SABLE', 117), ('FALSE', 116), ('EASLE', 115), ('HAUSE', 115), ('PAUSE', 115)]
+The bot finally chose: LAPSE 
+Guess: 𝙇𝘼𝙋𝙎𝙀, Feedback: 🟨🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SABLE 
+The top ten guesses and scores: [('SABLE', 23), ('SALUE', 23), ('SALVE', 23), ('EASLE', 22), ('SALLE', 22)]
+The bot finally chose: SABLE 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Guess: 𝙇𝘼𝙋𝙎𝙀, Feedback: 🟨🟩⬜🟨🟩
+Guess: 𝙎𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 2.9689
+Bot chose: SALSE with entropy: 2.9689
+Top ten guesses: [('SALSE', 2.9689462981346573), ('SALUE', 2.722067094075591), ('HALSE', 2.688440788565503), ('PASSE', 2.49912761699852), ('VALSE', 2.446583097957089), ('LAPSE', 2.4353199926245694), ('PAUSE', 2.417654957849531), ('SALVE', 2.410374329980682), ('MASSE', 2.3439462981346573), ('HAUSE', 2.3315647234069226)]
+
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩
+Actual Info Gain: 5.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 0.0, 'actual_info_gain': 5.0, 'expected_info_gain': 2.9689462981346573}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SABLE with entropy: 0.0000
+Bot chose: SABLE with entropy: 0.0000
+Top ten guesses: [('SABLE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.969 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙇𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SALSE with entropy: 2.9689
+Bot chose: SALSE with entropy: 2.9689
+Top ten guesses: [('SALSE', 2.9689462981346573), ('SALUE', 2.722067094075591), ('HALSE', 2.688440788565503), ('PASSE', 2.49912761699852), ('VALSE', 2.446583097957089), ('LAPSE', 2.4353199926245694), ('PAUSE', 2.417654957849531), ('SALVE', 2.410374329980682), ('MASSE', 2.3439462981346573), ('HAUSE', 2.3315647234069226)]
+
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩
+Actual Info Gain: 5.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 0.0, 'actual_info_gain': 5.0, 'expected_info_gain': 2.9689462981346573}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SABLE with entropy: 0.0000
+Bot chose: SABLE with entropy: 0.0000
+Top ten guesses: [('SABLE', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.969 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 32 potential guesses from 32 remaining candidates...
+Top 5 guesses: [('SALSE', '2.969'), ('SALUE', '2.722'), ('HALSE', '2.688'), ('PASSE', '2.499'), ('VALSE', '2.447')]
+Top entropy choice: 𝙎𝘼𝙇𝙎𝙀 with entropy: 2.9689
+
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩
+Actual Info Gain: 5.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 0.0, 'actual_info_gain': 5.0, 'expected_info_gain': 2.9689462981346573}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SABLE', '0.000')]
+Top entropy choice: 𝙎𝘼𝘽𝙇𝙀 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝘼𝘽𝙇𝙀 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝘼𝙇𝙎𝙀, Feedback: 🟩🟩🟨⬜🟩, Prior Entropy: 5.000, Expected Info Gain: 2.969 bits, Actual Info Gain: 5.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙇𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨
+Actual Info Gain: 8.8587 bits
+Posterior entropy: 5.0
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 5.0, 'actual_info_gain': 8.858660984722777, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BASSE', 'CAESE', 'CAUSE', 'DANSE', 'EASLE', 'FALSE', 'HALSE', 'HANSE', 'HAUSE', 'HAWSE', 'JASPE', 'KASME', 'LAPSE', 'MAISE', 'MANSE', 'MASSE', 'PAISE', 'PASSE', 'PAUSE', 'SABLE', 'SADHE', 'SAICE', 'SAINE', 'SALLE', 'SALSE', 'SALUE', 'SALVE', 'SASSE', 'SAUCE', 'SAUVE', 'SAYNE', 'VALSE']
+32 candidate words remaining.
+Top 10 guesses: [('SLUSH', '3.793'), ('SULPH', '3.737'), ('SHULS', '3.690'), ('SHULN', '3.664'), ('MULSH', '3.656'), ('SLISH', '3.605'), ('SNUSH', '3.593'), ('SCULP', '3.578'), ('SCULS', '3.578'), ('PLUSH', '3.550')]
+Top entropy choice: 𝙎𝙇𝙐𝙎𝙃 with entropy: 3.7928
+Guess count low, choosing the word with highest entropy: 𝙎𝙇𝙐𝙎𝙃 with entropy: 3.7928
+
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 3.4150 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 5.0, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.415037499278844, 'expected_info_gain': 3.7928377974034158}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SABLE', 'SALLE', 'SALVE']
+3 candidate words remaining.
+Top 10 guesses: [('SABLE', '1.585'), ('SALLE', '1.585'), ('SALVE', '1.585')]
+Top entropy choice: 𝙎𝘼𝘽𝙇𝙀 with entropy: 1.5850
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝘼𝘽𝙇𝙀 with entropy: 1.5850
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟨🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.859 bits, Posterior Entropy: 5.000, 
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 5.000, Expected Info Gain: 3.793 bits, Actual Info Gain: 3.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙎𝘼𝘽𝙇𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,65 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝘼𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝘽𝘼𝙔𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝘼𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 5.459, 
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 1.755 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 4.585, 
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 1.682 bits, Actual Info Gain: 0.778 bits, Posterior Entropy: 3.807, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.807 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 3.000, 
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙋𝘼𝙂𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 6.459, Expected Info Gain: 2.301 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 5.459, 
+Guess: 𝙇𝘼𝙆𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 5.459, Expected Info Gain: 1.755 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 4.585, 
+Guess: 𝙒𝘼𝙑𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 4.585, Expected Info Gain: 1.682 bits, Actual Info Gain: 0.778 bits, Posterior Entropy: 3.807, 
+Guess: 𝙍𝘼𝘾𝙀𝙍, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.807, Expected Info Gain: 1.807 bits, Actual Info Gain: 0.807 bits, Posterior Entropy: 3.000, 
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 6.459, Expected Info Gain: 2.340 bits, Actual Info Gain: 4.459 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝘼𝘿𝙀𝙍 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.399 bits, Posterior Entropy: 6.459, 
+Guess: 𝙂𝙇𝙔𝙋𝙃, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.459, Expected Info Gain: 2.823 bits, Actual Info Gain: 1.102 bits, Posterior Entropy: 5.358, 
+Guess: 𝙆𝙉𝙊𝙒𝘿, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 5.358, Expected Info Gain: 3.084 bits, Actual Info Gain: 4.358 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝘼𝘿𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================

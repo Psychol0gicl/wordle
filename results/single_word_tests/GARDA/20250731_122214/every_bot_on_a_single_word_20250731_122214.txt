@@ -1,0 +1,226 @@
+Testing bot: WordleBot
+___ Testing word: 𝙂𝘼𝙍𝘿𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: MARDY 
+The top ten guesses and scores: [('MARDY', 382), ('BARMY', 379), ('YARCO', 377), ('CARDY', 376), ('DARCY', 376), ('CARBY', 373), ('CAROM', 372), ('MARLY', 372), ('BARDY', 371), ('MARVY', 369)]
+The bot finally chose: DARCY 
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: 🟨🟩🟩⬜⬜
+entropy_info: None
+----------
+The bot originally chose: PARDI 
+The top ten guesses and scores: [('PARDI', 39), ('PARID', 39), ('VARDO', 39), ('BARDO', 38), ('MARID', 38), ('NAROD', 38), ('VARDA', 36), ('FARAD', 35), ('GARDA', 35), ('ZARDA', 35)]
+The bot finally chose: PARDI 
+Guess: 𝙋𝘼𝙍𝘿𝙄, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: VARDO 
+The top ten guesses and scores: [('VARDO', 22), ('BARDO', 21), ('VARDA', 20), ('GARDA', 19), ('ZARDA', 19)]
+The bot finally chose: GARDA 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝘿𝘼𝙍𝘾𝙔, Feedback: 🟨🟩🟩⬜⬜
+Guess: 𝙋𝘼𝙍𝘿𝙄, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙂𝘼𝙍𝘿𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝘼𝙍𝘿𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAY with entropy: 3.0671
+Bot chose: MARIA with entropy: 3.0243
+Top ten guesses: [('MARAY', 3.0670663590717395), ('MARIA', 3.024320009766213), ('MARDY', 2.9238855716298238), ('CARDY', 2.8629027594517984), ('DARCY', 2.832886107371227), ('MARGA', 2.8297569507817197), ('MARAL', 2.7971077481399016), ('CAROM', 2.7756421398035815), ('MARAN', 2.7738889259167983), ('MARRA', 2.772453849556361)]
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.9758 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 2.975752453753323, 'expected_info_gain': 3.024320009766213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARGA with entropy: 1.8716
+Bot chose: GARDA with entropy: 1.8716
+Top ten guesses: [('DARGA', 1.871602261409798), ('GARDA', 1.871602261409798), ('VARDA', 1.871602261409798), ('GARBA', 1.7382689280764647), ('BARRA', 1.6879430945989), ('LARGA', 1.5589385323502771), ('NARRA', 1.3752793655393791), ('PARRA', 1.3752793655393791), ('YARRA', 1.3752793655393791), ('VARNA', 1.3699740752745009)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.883, Expected Info Gain: 3.024 bits, Actual Info Gain: 2.976 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝘼𝙍𝘿𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙍𝘿𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARAY with entropy: 3.0671
+Bot chose: MARIA with entropy: 3.0243
+Top ten guesses: [('MARAY', 3.0670663590717395), ('MARIA', 3.024320009766213), ('MARDY', 2.9238855716298238), ('CARDY', 2.8629027594517984), ('DARCY', 2.832886107371227), ('MARGA', 2.8297569507817197), ('MARAL', 2.7971077481399016), ('CAROM', 2.7756421398035815), ('MARAN', 2.7738889259167983), ('MARRA', 2.772453849556361)]
+
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩
+Actual Info Gain: 2.9758 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 2.975752453753323, 'expected_info_gain': 3.024320009766213}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DARGA with entropy: 1.8716
+Bot chose: GARDA with entropy: 1.8716
+Top ten guesses: [('DARGA', 1.871602261409798), ('GARDA', 1.871602261409798), ('VARDA', 1.871602261409798), ('GARBA', 1.7382689280764647), ('BARRA', 1.6879430945989), ('LARGA', 1.5589385323502771), ('NARRA', 1.3752793655393791), ('PARRA', 1.3752793655393791), ('YARRA', 1.3752793655393791), ('VARNA', 1.3699740752745009)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝘼𝙍𝙄𝘼, Feedback: ⬜🟩🟩⬜🟩, Prior Entropy: 6.883, Expected Info Gain: 3.024 bits, Actual Info Gain: 2.976 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝘼𝙍𝘿𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙍𝘿𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 217 potential guesses from 118 remaining candidates...
+Top 5 guesses: [('CHILD', '3.366'), ('MEDIA', '3.260'), ('DOING', '3.245'), ('COULD', '3.210'), ('MONEY', '3.177')]
+Top entropy choice: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.3661
+Ended up choosing COMMON word: 𝘾𝙃𝙄𝙇𝘿 with entropy: 3.3661
+
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.2977 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 3.2976805486406855, 'expected_info_gain': 3.366066530566613}
+----------
+The bot is making a guess...
+Evaluating 12 potential guesses from 12 remaining candidates...
+Top 5 guesses: [('VARDA', '2.585'), ('VARDY', '2.459'), ('BARDY', '2.355'), ('DARGA', '2.126'), ('GARDA', '2.126')]
+Top entropy choice: 𝙑𝘼𝙍𝘿𝘼 with entropy: 2.5850
+Ended up choosing COMMON word: 𝙑𝘼𝙍𝘿𝙔 with entropy: 2.4591
+
+Guess: 𝙑𝘼𝙍𝘿𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.4591479170272446}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('GARDA', '1.585'), ('ZARDA', '1.585'), ('BARDO', '0.918')]
+Top entropy choice: 𝙂𝘼𝙍𝘿𝘼 with entropy: 1.5850
+Ended up choosing COMMON word: 𝙂𝘼𝙍𝘿𝘼 with entropy: 1.5850
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 6.883, Expected Info Gain: 3.366 bits, Actual Info Gain: 3.298 bits, Posterior Entropy: 3.585, 
+Guess: 𝙑𝘼𝙍𝘿𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 2.459 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝘼𝙍𝘿𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝘼𝙍𝘿𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜
+Actual Info Gain: 6.9760 bits
+Posterior entropy: 6.882643049361842
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 6.882643049361842, 'actual_info_gain': 6.976017935360935, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AARGH', 'BARBY', 'BARCA', 'BARDO', 'BARDY', 'BARFI', 'BARFY', 'BARIC', 'BARKY', 'BARMY', 'BARNY', 'BARON', 'BARRA', 'BARRO', 'BARRY', 'CARAP', 'CARBO', 'CARBY', 'CARDI', 'CARDY', 'CARGO', 'CARNY', 'CAROB', 'CAROL', 'CAROM', 'CARON', 'CARPI', 'CARRY', 'CARVY', 'DARAF', 'DARCY', 'DARGA', 'DARIC', 'DARKY', 'DARZI', 'FARAD', 'FARCI', 'FARCY', 'FARRO', 'GARAM', 'GARBA', 'GARBO', 'GARDA', 'GARNI', 'GARRI', 'GARUM', 'HARAM', 'HARDY', 'HARIM', 'HARPY', 'HARRY', 'JARUL', 'KARAI', 'KARMA', 'KAROO', 'KARRI', 'KARZY', 'LARCH', 'LARDY', 'LARGA', 'LARGO', 'LARKY', 'LARUM', 'LARVA', 'MARAH', 'MARAL', 'MARAN', 'MARAY', 'MARCH', 'MARDY', 'MARGA', 'MARGO', 'MARIA', 'MARID', 'MARIL', 'MARKA', 'MARLY', 'MARMA', 'MARON', 'MAROR', 'MARRA', 'MARRI', 'MARRY', 'MARUA', 'MARVY', 'NARCO', 'NARIC', 'NARKY', 'NAROD', 'NARRA', 'PARCH', 'PARDI', 'PARDY', 'PARGO', 'PARID', 'PARKA', 'PARKI', 'PARKY', 'PARLY', 'PARMA', 'PARMO', 'PAROL', 'PARRA', 'PARRY', 'PARVO', 'VARAN', 'VARDA', 'VARDO', 'VARDY', 'VARIA', 'VARIX', 'VARNA', 'WARBY', 'YARAK', 'YARCO', 'YARFA', 'YARRA', 'ZARDA']
+118 candidate words remaining.
+Top 10 guesses: [('MINCY', '3.994'), ('MOLDY', '3.993'), ('COMBY', '3.944'), ('MYOID', '3.913'), ('CYMOL', '3.890'), ('COMBI', '3.882'), ('MOCKY', '3.855'), ('MICKY', '3.849'), ('DIMBO', '3.844'), ('MIDGY', '3.812')]
+Top entropy choice: 𝙈𝙄𝙉𝘾𝙔 with entropy: 3.9942
+Guess count low, choosing the word with highest entropy: 𝙈𝙄𝙉𝘾𝙔 with entropy: 3.9942
+
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 2.2977 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 6.882643049361842, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 2.2976805486406855, 'expected_info_gain': 3.994197821504514}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AARGH', 'BARDO', 'BARRA', 'BARRO', 'DARAF', 'DARGA', 'FARAD', 'FARRO', 'GARBA', 'GARBO', 'GARDA', 'JARUL', 'KAROO', 'LARGA', 'LARGO', 'LARVA', 'PARGO', 'PARKA', 'PAROL', 'PARRA', 'PARVO', 'VARDA', 'VARDO', 'ZARDA']
+24 candidate words remaining.
+Top 10 guesses: [('GOOLD', '3.824'), ('DOGAL', '3.720'), ('GLODE', '3.720'), ('GOLDS', '3.720'), ('GOLDY', '3.720'), ('GOURD', '3.689'), ('GOVED', '3.668'), ('PLAGA', '3.653'), ('LODGE', '3.637'), ('DOBLA', '3.637')]
+Top entropy choice: 𝙂𝙊𝙊𝙇𝘿 with entropy: 3.8239
+Using common exploratory word: 𝙂𝙊𝙐𝙍𝘿 with entropy: 3.6887
+
+Guess: 𝙂𝙊𝙐𝙍𝘿, Feedback: 🟩⬜⬜🟨🟨
+Actual Info Gain: 4.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 4.584962500721156, 'expected_info_gain': 3.994197821504514}
+----------
+The bot is making a guess...
+THe possible candidates are: ['GARDA']
+1 candidate words remaining.
+Top 10 guesses: [('GARDA', '0.000')]
+Top entropy choice: 𝙂𝘼𝙍𝘿𝘼 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙂𝘼𝙍𝘿𝘼 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.976 bits, Posterior Entropy: 6.883, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 6.883, Expected Info Gain: 3.994 bits, Actual Info Gain: 2.298 bits, Posterior Entropy: 4.585, 
+Guess: 𝙂𝙊𝙐𝙍𝘿, Feedback: 🟩⬜⬜🟨🟨, Prior Entropy: 4.585, Expected Info Gain: 3.994 bits, Actual Info Gain: 4.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝘼𝙍𝘿𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝙄𝙍𝘼𝙏𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: APERT 
+The top ten guesses and scores: [('APERT', 134), ('PEART', 134), ('PETAR', 134), ('PRATE', 134), ('PRETA', 134), ('REPAT', 134), ('CRATE', 131), ('GRATE', 131), ('GREAT', 131), ('REACT', 131)]
+The bot finally chose: CRATE 
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FRATE 
+The top ten guesses and scores: [('FRATE', 29), ('GRATE', 29), ('IRATE', 29), ('ORATE', 29), ('PRATE', 29), ('URATE', 29), ('WRATE', 29)]
+The bot finally chose: GRATE 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FRATE 
+The top ten guesses and scores: [('FRATE', 25), ('IRATE', 25), ('ORATE', 25), ('PRATE', 25), ('URATE', 25), ('WRATE', 25)]
+The bot finally chose: IRATE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙄𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙄𝙍𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEART with entropy: 3.4829
+Bot chose: REACT with entropy: 3.2117
+Top ten guesses: [('PEART', 3.4829175854050423), ('PRATE', 3.4039428777749414), ('REATA', 3.3295341175933175), ('PRETA', 3.299261829457634), ('ROATE', 3.227558006021377), ('REATE', 3.2130941022889044), ('REACT', 3.211744296483536), ('FEART', 3.203723326306539), ('REPAT', 3.1887428925416956), ('RECTA', 3.143261939825016)]
+
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨
+Actual Info Gain: 2.1468 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.1468413883292707, 'expected_info_gain': 3.211744296483536}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRATE with entropy: 0.5917
+Bot chose: GRATE with entropy: 0.5917
+Top ten guesses: [('FRATE', 0.5916727785823275), ('GRATE', 0.5916727785823275), ('IRATE', 0.5916727785823275), ('ORATE', 0.5916727785823275), ('PRATE', 0.5916727785823275), ('URATE', 0.5916727785823275), ('WRATE', 0.5916727785823275)]
+
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRATE with entropy: 0.6500
+Bot chose: IRATE with entropy: 0.6500
+Top ten guesses: [('FRATE', 0.6500224216483541), ('IRATE', 0.6500224216483541), ('ORATE', 0.6500224216483541), ('PRATE', 0.6500224216483541), ('URATE', 0.6500224216483541), ('WRATE', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 4.954, Expected Info Gain: 3.212 bits, Actual Info Gain: 2.147 bits, Posterior Entropy: 2.807, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙄𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙄𝙍𝘼𝙏𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PEART with entropy: 3.4829
+Bot chose: REACT with entropy: 3.2117
+Top ten guesses: [('PEART', 3.4829175854050423), ('PRATE', 3.4039428777749414), ('REATA', 3.3295341175933175), ('PRETA', 3.299261829457634), ('ROATE', 3.227558006021377), ('REATE', 3.2130941022889044), ('REACT', 3.211744296483536), ('FEART', 3.203723326306539), ('REPAT', 3.1887428925416956), ('RECTA', 3.143261939825016)]
+
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨
+Actual Info Gain: 2.1468 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 2.1468413883292707, 'expected_info_gain': 3.211744296483536}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRATE with entropy: 0.5917
+Bot chose: GRATE with entropy: 0.5917
+Top ten guesses: [('FRATE', 0.5916727785823275), ('GRATE', 0.5916727785823275), ('IRATE', 0.5916727785823275), ('ORATE', 0.5916727785823275), ('PRATE', 0.5916727785823275), ('URATE', 0.5916727785823275), ('WRATE', 0.5916727785823275)]
+
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2224 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.2223924213364481, 'expected_info_gain': 0.5916727785823275}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FRATE with entropy: 0.6500
+Bot chose: IRATE with entropy: 0.6500
+Top ten guesses: [('FRATE', 0.6500224216483541), ('IRATE', 0.6500224216483541), ('ORATE', 0.6500224216483541), ('PRATE', 0.6500224216483541), ('URATE', 0.6500224216483541), ('WRATE', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙍𝙀𝘼𝘾𝙏, Feedback: 🟨🟨🟩⬜🟨, Prior Entropy: 4.954, Expected Info Gain: 3.212 bits, Actual Info Gain: 2.147 bits, Posterior Entropy: 2.807, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.807, Expected Info Gain: 0.592 bits, Actual Info Gain: 0.222 bits, Posterior Entropy: 2.585, 
+Guess: 𝙄𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙄𝙍𝘼𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 31 potential guesses from 31 remaining candidates...
+Top 5 guesses: [('PEART', '3.483'), ('PRATE', '3.404'), ('REATA', '3.330'), ('PRETA', '3.299'), ('ROATE', '3.228')]
+Top entropy choice: 𝙋𝙀𝘼𝙍𝙏 with entropy: 3.4829
+
+Guess: 𝙋𝙀𝘼𝙍𝙏, Feedback: ⬜🟨🟩🟨🟨
+Actual Info Gain: 1.9542 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 3.0, 'actual_info_gain': 1.954196310386875, 'expected_info_gain': 3.4829175854050423}
+----------
+The bot is making a guess...
+Evaluating 8 potential guesses from 8 remaining candidates...
+Top 5 guesses: [('CRATE', '1.061'), ('FRATE', '1.061'), ('GRATE', '1.061'), ('IRATE', '1.061'), ('ORATE', '1.061')]
+Top entropy choice: 𝘾𝙍𝘼𝙏𝙀 with entropy: 1.0613
+Ended up choosing COMMON word: 𝘾𝙍𝘼𝙏𝙀 with entropy: 1.0613
+
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.4150 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.4150374992788439, 'expected_info_gain': 1.061278124459133}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('FRATE', '0.650'), ('GRATE', '0.650'), ('IRATE', '0.650'), ('ORATE', '0.650'), ('URATE', '0.650')]
+Top entropy choice: 𝙁𝙍𝘼𝙏𝙀 with entropy: 0.6500
+Ended up choosing COMMON word: 𝙂𝙍𝘼𝙏𝙀 with entropy: 0.6500
+
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('FRATE', '0.722'), ('IRATE', '0.722'), ('ORATE', '0.722'), ('URATE', '0.722'), ('WRATE', '0.722')]
+Top entropy choice: 𝙁𝙍𝘼𝙏𝙀 with entropy: 0.7219
+Ended up choosing COMMON word: 𝙄𝙍𝘼𝙏𝙀 with entropy: 0.7219
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙀𝘼𝙍𝙏, Feedback: ⬜🟨🟩🟨🟨, Prior Entropy: 4.954, Expected Info Gain: 3.483 bits, Actual Info Gain: 1.954 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.000, Expected Info Gain: 1.061 bits, Actual Info Gain: 0.415 bits, Posterior Entropy: 2.585, 
+Guess: 𝙂𝙍𝘼𝙏𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙄𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙄𝙍𝘼𝙏𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜
+Actual Info Gain: 8.9045 bits
+Posterior entropy: 4.954196310386875
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.954196310386875, 'actual_info_gain': 8.904464674335902, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ALERT', 'ANTRE', 'APERT', 'ARETE', 'ARETT', 'AVERT', 'CRATE', 'EXTRA', 'FEART', 'FRATE', 'GRATE', 'GREAT', 'HEART', 'IRATE', 'ORATE', 'PEART', 'PETAR', 'PRATE', 'PRETA', 'REACT', 'REATA', 'REATE', 'RECTA', 'REPAT', 'RETAG', 'RETAM', 'RETAX', 'RETIA', 'ROATE', 'URATE', 'WRATE']
+31 candidate words remaining.
+Top 10 guesses: [('PETRE', '3.575'), ('PEAGE', '3.546'), ('PEACE', '3.534'), ('PEART', '3.483'), ('APART', '3.466'), ('PEARE', '3.459'), ('PETIT', '3.437'), ('PETTI', '3.437'), ('PETTO', '3.409'), ('PRATE', '3.404')]
+Top entropy choice: 𝙋𝙀𝙏𝙍𝙀 with entropy: 3.5750
+Guess count low, choosing the word with highest entropy: 𝙋𝙀𝙏𝙍𝙀 with entropy: 3.5750
+
+Guess: 𝙋𝙀𝙏𝙍𝙀, Feedback: ⬜⬜🟨🟨🟩
+Actual Info Gain: 1.9542 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 4.954196310386875, 'posterior_entropy': 3.0, 'actual_info_gain': 1.954196310386875, 'expected_info_gain': 3.5750063909622467}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CRATE', 'FRATE', 'GRATE', 'IRATE', 'ORATE', 'ROATE', 'URATE', 'WRATE']
+8 candidate words remaining.
+Top 10 guesses: [('FUGIO', '2.500'), ('COGIE', '2.406'), ('COGUE', '2.406'), ('COIFS', '2.406'), ('COIGN', '2.406'), ('COQUI', '2.406'), ('CORGI', '2.406'), ('COUGH', '2.406'), ('FOCUS', '2.406'), ('FOGIE', '2.406')]
+Top entropy choice: 𝙁𝙐𝙂𝙄𝙊 with entropy: 2.5000
+Using common exploratory word: 𝘾𝙊𝙍𝙂𝙄 with entropy: 2.4056
+
+Guess: 𝘾𝙊𝙍𝙂𝙄, Feedback: ⬜⬜🟨⬜🟨
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 3.5750063909622467}
+----------
+The bot is making a guess...
+THe possible candidates are: ['IRATE']
+1 candidate words remaining.
+Top 10 guesses: [('IRATE', '0.000')]
+Top entropy choice: 𝙄𝙍𝘼𝙏𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙄𝙍𝘼𝙏𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.904 bits, Posterior Entropy: 4.954, 
+Guess: 𝙋𝙀𝙏𝙍𝙀, Feedback: ⬜⬜🟨🟨🟩, Prior Entropy: 4.954, Expected Info Gain: 3.575 bits, Actual Info Gain: 1.954 bits, Posterior Entropy: 3.000, 
+Guess: 𝘾𝙊𝙍𝙂𝙄, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 3.000, Expected Info Gain: 3.575 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙄𝙍𝘼𝙏𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

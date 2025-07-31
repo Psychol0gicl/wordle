@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙄𝙀𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟨🟨🟨
+Guess: 𝙁𝙄𝙀𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙄𝙀𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 6.572 bits, Posterior Entropy: 3.000, 
+Guess: 𝙁𝙄𝙀𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙀𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟨🟨🟨, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 6.572 bits, Posterior Entropy: 3.000, 
+Guess: 𝙁𝙄𝙀𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙀𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟨⬜🟨🟩⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 8.572 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙄𝙀𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙄𝙀𝙉𝘿 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 8.572 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙄𝙀𝙉𝘿, Feedback: 🟩🟩🟩🟩🟩
+===================================

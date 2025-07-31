@@ -1,0 +1,58 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙐𝙇𝘼𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜
+Guess: 𝘼𝙇𝙊𝙉𝙂, Feedback: 🟨🟨⬜⬜🟩
+Guess: 𝙂𝙐𝙇𝘼𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙐𝙇𝘼𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.536 bits, Posterior Entropy: 5.977, 
+Guess: 𝘼𝘿𝙇𝙄𝘽, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 4.800 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙐𝙇𝘼𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙇𝘼𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝙈𝙊𝘼𝙉𝘼, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.258 bits, Actual Info Gain: 3.536 bits, Posterior Entropy: 5.977, 
+Guess: 𝘼𝘿𝙇𝙄𝘽, Feedback: 🟨⬜🟩⬜⬜, Prior Entropy: 5.977, Expected Info Gain: 4.800 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 1.585, 
+Guess: 𝙂𝙐𝙇𝘼𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙇𝘼𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘼𝙇𝙄𝙂𝙉, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 9.514, Expected Info Gain: 5.210 bits, Actual Info Gain: 6.344 bits, Posterior Entropy: 3.170, 
+Guess: 𝙂𝙐𝙇𝘼𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙐𝙇𝘼𝙂 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.345 bits, Posterior Entropy: 9.514, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟩⬜⬜, Prior Entropy: 9.514, Expected Info Gain: 5.613 bits, Actual Info Gain: 5.514 bits, Posterior Entropy: 4.000, 
+Guess: 𝘼𝙈𝙋𝙇𝙔, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 4.000, Expected Info Gain: 5.613 bits, Actual Info Gain: 1.678 bits, Posterior Entropy: 2.322, 
+Guess: 𝙂𝙐𝙇𝘼𝙂, Feedback: 🟩🟩🟩🟩🟩
+===================================

@@ -1,0 +1,299 @@
+Testing bot: WordleBot
+___ Testing word: 𝙌𝙐𝙄𝙇𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: OTIUM 
+The top ten guesses and scores: [('OTIUM', 883), ('LITHO', 878), ('BITOU', 877), ('OUBIT', 877), ('ONTIC', 873), ('LOTIC', 868), ('OCTLI', 868), ('OPTIC', 860), ('PICOT', 860), ('PINOT', 860)]
+The bot finally chose: OPTIC 
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: FILTH 
+The top ten guesses and scores: [('FILTH', 136), ('LIGHT', 135), ('GLIFT', 131), ('FIGHT', 130), ('FLINT', 128), ('GLINT', 127), ('GUILT', 127), ('LINTY', 126), ('NIGHT', 126), ('MIGHT', 123)]
+The bot finally chose: FILTH 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: GUILT 
+The top ten guesses and scores: [('GUILT', 17), ('BUILT', 16), ('QUILT', 16), ('GLINT', 15)]
+The bot finally chose: GUILT 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BUILT 
+The top ten guesses and scores: [('BUILT', 9), ('QUILT', 9)]
+The bot finally chose: BUILT 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: QUILT 
+The top ten guesses and scores: [('QUILT', 5)]
+The bot finally chose: QUILT 
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟨🟨🟨⬜
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙌𝙐𝙄𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙇𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.1108 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.110845768688291, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUBIT with entropy: 2.9477
+Bot chose: BUILT with entropy: 2.7255
+Top ten guesses: [('QUBIT', 2.94770277922009), ('BUILT', 2.725480556997868), ('BUTUT', 2.725480556997868), ('GUILT', 2.725480556997868), ('QUILT', 2.725480556997868), ('PULUT', 2.6416041678685933), ('UPLIT', 2.6416041678685933), ('PIYUT', 2.2810361125534233), ('IDDUT', 1.6577427265048887)]
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILT with entropy: 1.0000
+Bot chose: GUILT with entropy: 1.0000
+Top ten guesses: [('GUILT', 1.0), ('QUILT', 1.0)]
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUILT with entropy: 0.0000
+Bot chose: QUILT with entropy: 0.0000
+Top ten guesses: [('QUILT', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.111 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙇𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.1108 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.110845768688291, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUBIT with entropy: 2.9477
+Bot chose: BUILT with entropy: 2.7255
+Top ten guesses: [('QUBIT', 2.94770277922009), ('BUILT', 2.725480556997868), ('BUTUT', 2.725480556997868), ('GUILT', 2.725480556997868), ('QUILT', 2.725480556997868), ('PULUT', 2.6416041678685933), ('UPLIT', 2.6416041678685933), ('PIYUT', 2.2810361125534233), ('IDDUT', 1.6577427265048887)]
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GUILT with entropy: 1.0000
+Bot chose: GUILT with entropy: 1.0000
+Top ten guesses: [('GUILT', 1.0), ('QUILT', 1.0)]
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: QUILT with entropy: 0.0000
+Bot chose: QUILT with entropy: 0.0000
+Top ten guesses: [('QUILT', 0.0)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.111 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙇𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 311 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.247'), ('COUNT', '5.200'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.2465
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙉𝙏 with entropy: 5.1998
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩
+Actual Info Gain: 5.1108 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.110845768688291, 'expected_info_gain': 5.1998040428465835}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('QUBIT', '2.948'), ('BUILT', '2.725'), ('BUTUT', '2.725'), ('GUILT', '2.725'), ('QUILT', '2.725')]
+Top entropy choice: 𝙌𝙐𝘽𝙄𝙏 with entropy: 2.9477
+Ended up choosing COMMON word: 𝘽𝙐𝙄𝙇𝙏 with entropy: 2.7255
+
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.1699 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 1.0, 'actual_info_gain': 2.169925001442312, 'expected_info_gain': 2.725480556997868}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('GUILT', '1.000'), ('QUILT', '1.000')]
+Top entropy choice: 𝙂𝙐𝙄𝙇𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙂𝙐𝙄𝙇𝙏 with entropy: 1.0000
+
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 1.0, 'posterior_entropy': 0.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.0}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('QUILT', '0.000')]
+Top entropy choice: 𝙌𝙐𝙄𝙇𝙏 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙌𝙐𝙄𝙇𝙏 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜🟨⬜🟩, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 5.111 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 2.725 bits, Actual Info Gain: 2.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙐𝙄𝙇𝙏, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙌𝙐𝙄𝙇𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BHOOT', 'BIGHT', 'BIGOT', 'BINIT', 'BIONT', 'BITCH', 'BITOU', 'BITTY', 'BLITZ', 'BLUNT', 'BOOTH', 'BOOTY', 'BOTCH', 'BOTHY', 'BOTTY', 'BOULT', 'BOUTU', 'BOXTY', 'BUFTY', 'BUILT', 'BUNDT', 'BUNTY', 'BUTCH', 'BUTOH', 'BUTTY', 'BUTUT', 'BUTYL', 'CHITI', 'CHOTT', 'CHOUT', 'CINCT', 'CLIFT', 'CLINT', 'CLIPT', 'CLOOT', 'CLOTH', 'CLOUT', 'COBOT', 'COMPT', 'CONTO', 'COOPT', 'COOTY', 'COTCH', 'COUNT', 'COUTH', 'CUBIT', 'CULTI', 'CULTY', 'CUNIT', 'CUTCH', 'CUTIN', 'CUTTO', 'CUTTY', 'CUTUP', 'CWTCH', 'CYTON', 'DHOTI', 'DHUTI', 'DICHT', 'DICOT', 'DICTO', 'DICTU', 'DICTY', 'DIGHT', 'DIGIT', 'DITCH', 'DITTO', 'DITTY', 'DITZY', 'DIVOT', 'DIXIT', 'DOCHT', 'DOILT', 'DONUT', 'DOTTY', 'DOUBT', 'DUCTI', 'DUTCH', 'FIFTH', 'FIFTY', 'FIGHT', 'FILTH', 'FITCH', 'FITLY', 'FIXIT', 'FLINT', 'FLITT', 'FLOUT', 'FLUTY', 'FLUYT', 'FOOTY', 'FOUNT', 'FOUTH', 'FOWTH', 'FULTH', 'FUTON', 'GIGOT', 'GITCH', 'GLIFT', 'GLINT', 'GLITZ', 'GLOUT', 'GOTCH', 'GOTHY', 'GOUTY', 'GUILT', 'GUTTY', 'GUYOT', 'HIGHT', 'HITCH', 'HOOTY', 'HOTCH', 'HOTLY', 'HOTTY', 'HOWTO', 'HUTCH', 'ICTIC', 'IDDUT', 'IDIOT', 'ILLTH', 'IMMIT', 'IMPOT', 'INCUT', 'INGOT', 'INNIT', 'INPUT', 'INTIL', 'INWIT', 'ITCHY', 'JIGOT', 'JITTY', 'JOINT', 'JOLTY', 'JONTY', 'JOTTY', 'JOTUN', 'JUNTO', 'JUTTY', 'KIGHT', 'KILTY', 'KITTY', 'KITUL', 'KLUTZ', 'KNOUT', 'KOTCH', 'KOTOW', 'KUTCH', 'LICHT', 'LICIT', 'LIGHT', 'LILTY', 'LIMIT', 'LINTY', 'LITHO', 'LOFTY', 'LOTIC', 'LOTTO', 'LOWTH', 'LYTIC', 'MICHT', 'MIFTY', 'MIGHT', 'MILTY', 'MILTZ', 'MINTY', 'MITCH', 'MOITY', 'MOLTO', 'MONTH', 'MONTY', 'MOOTH', 'MOTHY', 'MOTIF', 'MOTON', 'MOTTO', 'MOTTY', 'MOULT', 'MOUNT', 'MOUTH', 'MUFTI', 'MUKTI', 'MULCT', 'MUNTU', 'MUTCH', 'MUTIC', 'MUTON', 'MUTTI', 'MUTUM', 'MYTHI', 'MYTHY', 'NICHT', 'NIFTY', 'NIGHT', 'NINTH', 'NITID', 'NITON', 'NITTO', 'NITTY', 'NOINT', 'NOOIT', 'NOTCH', 'NOTUM', 'NOWTY', 'NUTTY', 'OBIIT', 'OCTIC', 'OCTLI', 'OCTYL', 'ONTIC', 'OOBIT', 'OOTID', 'OPTIC', 'OPZIT', 'OTHYL', 'OTIUM', 'OUBIT', 'OUCHT', 'OUGHT', 'OUTBY', 'OUTDO', 'OUTGO', 'PFFTT', 'PHOTO', 'PHOTY', 'PHPHT', 'PHUTU', 'PICOT', 'PIGHT', 'PILOT', 'PINOT', 'PINTO', 'PIPIT', 'PITCH', 'PITHY', 'PITON', 'PITOT', 'PITTU', 'PIVOT', 'PIYUT', 'PLOIT', 'PLOOT', 'PLOTZ', 'PLOUT', 'PLOWT', 'PLUOT', 'PLUTO', 'PLUTY', 'POINT', 'POKIT', 'PONTO', 'PONTY', 'POOTY', 'POTCH', 'POTIN', 'POTOO', 'POTTO', 'POTTY', 'POULT', 'POUPT', 'POUTY', 'POWLT', 'POYNT', 'PULUT', 'PUNTO', 'PUNTY', 'PUTID', 'PUTIN', 'PUTON', 'PUTTI', 'PUTTO', 'PUTTU', 'PUTTY', 'QUBIT', 'QUILT', 'QUINT', 'QUOIT', 'QUOTH', 'UBITY', 'UMPTY', 'UNCUT', 'UNFIT', 'UNGOT', 'UNITY', 'UNKUT', 'UNLIT', 'UNPOT', 'UNPUT', 'UNTIL', 'UNTIN', 'UNWIT', 'UPLIT', 'VOLTI', 'VOMIT', 'VUTTY', 'WHIFT', 'WHIPT', 'WHITY', 'WHOOT', 'WIDTH', 'WIFTY', 'WIGHT', 'WITCH', 'WITHY', 'WITTY', 'WOOTZ', 'YMOLT', 'YOUTH', 'ZITTY', 'ZIZIT', 'ZLOTY', 'ZOOTY']
+311 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.317'), ('CUNIT', '5.247'), ('PIONY', '5.209'), ('COUNT', '5.200'), ('NICOL', '5.186'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162'), ('PILOT', '5.155'), ('POTIN', '5.150')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.9588 bits
+Posterior entropy: 3.321928094887362
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 3.321928094887362, 'actual_info_gain': 4.9588426752432415, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BLITZ', 'BUILT', 'FITLY', 'FLITT', 'GLIFT', 'GLITZ', 'GUILT', 'KITUL', 'LIGHT', 'QUILT']
+10 candidate words remaining.
+Top 10 guesses: [('BUFTY', '3.122'), ('BIGLY', '3.122'), ('BUGGY', '3.122'), ('BUGLE', '3.122'), ('FIGHT', '3.122'), ('FLING', '3.122'), ('FUGGY', '3.122'), ('FUGLE', '3.122'), ('FUGLY', '3.122'), ('GAULT', '3.122')]
+Top entropy choice: 𝘽𝙐𝙁𝙏𝙔 with entropy: 3.1219
+Using common exploratory word: 𝘽𝙐𝙂𝙂𝙔 with entropy: 3.1219
+
+Guess: 𝘽𝙐𝙂𝙂𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 3.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 3.321928094887362, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['QUILT']
+1 candidate words remaining.
+Top 10 guesses: [('QUILT', '0.000')]
+Top entropy choice: 𝙌𝙐𝙄𝙇𝙏 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙌𝙐𝙄𝙇𝙏 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 4.959 bits, Posterior Entropy: 3.322, 
+Guess: 𝘽𝙐𝙂𝙂𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 5.317 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙌𝙐𝙄𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

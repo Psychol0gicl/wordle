@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝘼𝙂𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: 🟨🟩⬜🟩🟩
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝘼𝙂𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.283 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙂𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝘼𝘿𝙀𝙉, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 7.229, Expected Info Gain: 3.174 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 3.907, 
+Guess: 𝙂𝘼𝙑𝙀𝙇, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.283 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙂𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝘾𝙃𝙄𝙇𝘿, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 7.229, Expected Info Gain: 3.278 bits, Actual Info Gain: 3.421 bits, Posterior Entropy: 3.807, 
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝘼𝙂𝙀𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙊𝙒𝙉𝘿, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 7.229, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.528 bits, Posterior Entropy: 3.700, 
+Guess: 𝙂𝙐𝙇𝘾𝙃, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 3.700, Expected Info Gain: 3.832 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝘼𝙂𝙀𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

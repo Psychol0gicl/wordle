@@ -1,0 +1,67 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙑𝙍𝙊𝙊𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜
+Guess: 𝙍𝙐𝘽𝙄𝙊, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝘿𝙍𝙊𝙒𝙉, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙁𝙍𝙊𝘾𝙆, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙋𝙍𝙊𝙓𝙔, Feedback: ⬜🟩🟩⬜⬜
+Guess: 𝙂𝙍𝙊𝙊𝙈, Feedback: ⬜🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙑𝙍𝙊𝙊𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 3.009 bits, Posterior Entropy: 5.322, 
+Guess: 𝘽𝙍𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 5.322, Expected Info Gain: 3.106 bits, Actual Info Gain: 2.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙍𝙊𝙊𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙊𝙊𝙁, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙍𝙊𝙊𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙑𝙍𝙊𝙊𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝙂𝙍𝙊𝙄𝙉, Feedback: ⬜🟩🟩⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.016 bits, Actual Info Gain: 3.009 bits, Posterior Entropy: 5.322, 
+Guess: 𝘽𝙍𝙊𝙊𝘿, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 5.322, Expected Info Gain: 3.106 bits, Actual Info Gain: 2.737 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝙍𝙊𝙊𝙆, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.792 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.585, 
+Guess: 𝙋𝙍𝙊𝙊𝙁, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙍𝙊𝙊𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙑𝙍𝙊𝙊𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.079 bits, Actual Info Gain: 2.658 bits, Posterior Entropy: 5.672, 
+Guess: 𝘽𝙍𝙄𝙉𝙂, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 5.672, Expected Info Gain: 4.240 bits, Actual Info Gain: 2.213 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙍𝙊𝙊𝙁, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 2.845 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙑𝙍𝙊𝙊𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙑𝙍𝙊𝙊𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.528 bits, Posterior Entropy: 8.331, 
+Guess: 𝘽𝙊𝙐𝙉𝘿, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 8.331, Expected Info Gain: 5.238 bits, Actual Info Gain: 2.716 bits, Posterior Entropy: 5.615, 
+Guess: 𝙂𝙇𝙊𝙊𝙈, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 5.615, Expected Info Gain: 5.238 bits, Actual Info Gain: 4.615 bits, Posterior Entropy: 1.000, 
+Guess: 𝙑𝙍𝙊𝙊𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

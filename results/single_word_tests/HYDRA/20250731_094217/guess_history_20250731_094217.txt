@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙃𝙔𝘿𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜
+Guess: 𝙈𝙊𝙄𝙍𝘼, Feedback: ⬜⬜⬜🟩🟩
+Guess: 𝙇𝙔𝘾𝙍𝘼, Feedback: ⬜🟩⬜🟩🟩
+Guess: 𝙃𝙔𝘿𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙃𝙔𝘿𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.610 bits, Posterior Entropy: 5.555, 
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 5.555, Expected Info Gain: 4.323 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙔𝘿𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙃𝙔𝘿𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.610 bits, Posterior Entropy: 5.555, 
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 5.555, Expected Info Gain: 4.323 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙔𝘿𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙃𝙔𝘿𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝙂𝙍𝘼𝙄𝙇, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.485 bits, Actual Info Gain: 2.610 bits, Posterior Entropy: 5.555, 
+Guess: 𝘼𝘿𝙊𝙍𝙉, Feedback: 🟨🟨⬜🟩⬜, Prior Entropy: 5.555, Expected Info Gain: 4.323 bits, Actual Info Gain: 4.555 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙔𝘿𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙃𝙔𝘿𝙍𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.694 bits, Posterior Entropy: 8.165, 
+Guess: 𝘽𝙍𝘼𝘼𝙄, Feedback: ⬜🟨🟨⬜⬜, Prior Entropy: 8.165, Expected Info Gain: 4.634 bits, Actual Info Gain: 3.410 bits, Posterior Entropy: 4.755, 
+Guess: 𝘼𝙈𝙊𝙉𝙂, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 4.755, Expected Info Gain: 4.634 bits, Actual Info Gain: 3.755 bits, Posterior Entropy: 1.000, 
+Guess: 𝙃𝙔𝘿𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

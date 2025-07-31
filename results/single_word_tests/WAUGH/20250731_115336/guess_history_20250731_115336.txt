@@ -1,0 +1,61 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙒𝘼𝙐𝙂𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙃𝘼𝙄𝙆𝙐, Feedback: 🟨🟩⬜⬜🟨
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙒𝘼𝙐𝙂𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 4.248, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙐𝙂𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 2.062 bits, Posterior Entropy: 6.966, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.966, Expected Info Gain: 4.417 bits, Actual Info Gain: 2.718 bits, Posterior Entropy: 4.248, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙐𝙂𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 2.300 bits, Posterior Entropy: 6.728, 
+Guess: 𝘿𝘼𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 6.728, Expected Info Gain: 4.156 bits, Actual Info Gain: 2.558 bits, Posterior Entropy: 4.170, 
+Guess: 𝙃𝘼𝙄𝙆𝙐, Feedback: 🟨🟩⬜⬜🟨, Prior Entropy: 4.170, Expected Info Gain: 3.081 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.000, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙒𝘼𝙐𝙂𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 2.602 bits, Posterior Entropy: 6.426, 
+Guess: 𝙋𝙊𝙇𝙆𝘼, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 6.426, Expected Info Gain: 4.781 bits, Actual Info Gain: 3.619 bits, Posterior Entropy: 2.807, 
+Guess: 𝙒𝘼𝙐𝙂𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

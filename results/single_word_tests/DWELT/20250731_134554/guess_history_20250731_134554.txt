@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘿𝙒𝙀𝙇𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜
+Guess: 𝙇𝙄𝙏𝙃𝙀, Feedback: 🟨⬜🟨⬜🟨
+Guess: 𝙆𝙉𝙀𝙇𝙏, Feedback: ⬜⬜🟩🟩🟩
+Guess: 𝘿𝙒𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘿𝙒𝙀𝙇𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝙆𝙀𝙏𝙊𝙇, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 3.585, Expected Info Gain: 3.022 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙒𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘿𝙒𝙀𝙇𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝙆𝙀𝙏𝙊𝙇, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 3.585, Expected Info Gain: 3.022 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙒𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘿𝙒𝙀𝙇𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘿𝙒𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘿𝙒𝙀𝙇𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.351 bits, Posterior Entropy: 7.508, 
+Guess: 𝙀𝙇𝙄𝙏𝙀, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 7.508, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.923 bits, Posterior Entropy: 3.585, 
+Guess: 𝘿𝙊𝙇𝙇𝙔, Feedback: 🟩⬜⬜🟩⬜, Prior Entropy: 3.585, Expected Info Gain: 4.694 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝘿𝙒𝙀𝙇𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

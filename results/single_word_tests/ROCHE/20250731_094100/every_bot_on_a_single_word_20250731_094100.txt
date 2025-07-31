@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙍𝙊𝘾𝙃𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: IRONE 
+The top ten guesses and scores: [('IRONE', 886), ('NOIRE', 886), ('RIONE', 886), ('ORDIE', 882), ('POIRE', 866), ('MOIRE', 856), ('REOIL', 856), ('INURE', 853), ('URINE', 853), ('DRONE', 852)]
+The bot finally chose: NOIRE 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: ROGUE 
+The top ten guesses and scores: [('ROGUE', 27), ('ROUGE', 27), ('ROULE', 27), ('ROQUE', 26), ('ROBLE', 24), ('ROCHE', 23), ('ROWME', 23)]
+The bot finally chose: ROGUE 
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩
+entropy_info: None
+----------
+The bot originally chose: ROBLE 
+The top ten guesses and scores: [('ROBLE', 11), ('ROCHE', 11), ('ROWME', 11)]
+The bot finally chose: ROCHE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩
+Guess: 𝙍𝙊𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝙊𝘾𝙃𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REINE with entropy: 4.7300
+Bot chose: NOIRE with entropy: 4.5807
+Top ten guesses: [('REINE', 4.72999653631643), ('RIONE', 4.718892704947047), ('REGIE', 4.628206486401921), ('ORDIE', 4.603679756571343), ('NOIRE', 4.580738503030474), ('POIRE', 4.5421264135235315), ('IRONE', 4.540780304253613), ('RUICE', 4.5387842509009895), ('DRONE', 4.5248074527349305), ('RINCE', 4.524425502868277)]
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 5.3373 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 5.337303320774279, 'expected_info_gain': 4.580738503030474}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROULE with entropy: 2.2359
+Bot chose: ROGUE with entropy: 2.1281
+Top ten guesses: [('ROULE', 2.2359263506290326), ('ROGUE', 2.1280852788913944), ('ROUGE', 2.1280852788913944), ('ROQUE', 1.8423709931771084), ('ROBLE', 1.1488348542809166), ('ROCHE', 0.5916727785823275), ('ROWME', 0.5916727785823275)]
+
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROBLE with entropy: 0.9183
+Bot chose: ROCHE with entropy: 0.9183
+Top ten guesses: [('ROBLE', 0.9182958340544896), ('ROCHE', 0.9182958340544896), ('ROWME', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 5.337 bits, Posterior Entropy: 2.807, 
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙊𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝙊𝘾𝙃𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: REINE with entropy: 4.7300
+Bot chose: NOIRE with entropy: 4.5807
+Top ten guesses: [('REINE', 4.72999653631643), ('RIONE', 4.718892704947047), ('REGIE', 4.628206486401921), ('ORDIE', 4.603679756571343), ('NOIRE', 4.580738503030474), ('POIRE', 4.5421264135235315), ('IRONE', 4.540780304253613), ('RUICE', 4.5387842509009895), ('DRONE', 4.5248074527349305), ('RINCE', 4.524425502868277)]
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 5.3373 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 5.337303320774279, 'expected_info_gain': 4.580738503030474}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROULE with entropy: 2.2359
+Bot chose: ROGUE with entropy: 2.1281
+Top ten guesses: [('ROULE', 2.2359263506290326), ('ROGUE', 2.1280852788913944), ('ROUGE', 2.1280852788913944), ('ROQUE', 1.8423709931771084), ('ROBLE', 1.1488348542809166), ('ROCHE', 0.5916727785823275), ('ROWME', 0.5916727785823275)]
+
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 2.1280852788913944}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ROBLE with entropy: 0.9183
+Bot chose: ROCHE with entropy: 0.9183
+Top ten guesses: [('ROBLE', 0.9182958340544896), ('ROCHE', 0.9182958340544896), ('ROWME', 0.9182958340544896)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 5.337 bits, Posterior Entropy: 2.807, 
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙊𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝘾𝙃𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 479 potential guesses from 283 remaining candidates...
+Top 5 guesses: [('REINE', '4.730'), ('RIONE', '4.719'), ('REGIE', '4.628'), ('ORDIE', '4.604'), ('NOIRE', '4.581')]
+Top entropy choice: 𝙍𝙀𝙄𝙉𝙀 with entropy: 4.7300
+Ended up choosing COMMON word: 𝙉𝙊𝙄𝙍𝙀 with entropy: 4.5807
+
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩
+Actual Info Gain: 5.3373 bits
+Posterior entropy: 2.807354922057604
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 2.807354922057604, 'actual_info_gain': 5.337303320774279, 'expected_info_gain': 4.580738503030474}
+----------
+The bot is making a guess...
+Evaluating 7 potential guesses from 7 remaining candidates...
+Top 5 guesses: [('ROULE', '2.236'), ('ROGUE', '2.128'), ('ROUGE', '2.128'), ('ROQUE', '1.842'), ('ROBLE', '1.149')]
+Top entropy choice: 𝙍𝙊𝙐𝙇𝙀 with entropy: 2.2359
+Ended up choosing COMMON word: 𝙍𝙊𝙂𝙐𝙀 with entropy: 2.1281
+
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩
+Actual Info Gain: 1.2224 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 2.807354922057604, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 1.222392421336448, 'expected_info_gain': 2.1280852788913944}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('ROBLE', '0.918'), ('ROCHE', '0.918'), ('ROWME', '0.918')]
+Top entropy choice: 𝙍𝙊𝘽𝙇𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙍𝙊𝘾𝙃𝙀 with entropy: 0.9183
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝙉𝙊𝙄𝙍𝙀, Feedback: ⬜🟩⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.581 bits, Actual Info Gain: 5.337 bits, Posterior Entropy: 2.807, 
+Guess: 𝙍𝙊𝙂𝙐𝙀, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 2.807, Expected Info Gain: 2.128 bits, Actual Info Gain: 1.222 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝙊𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝙊𝘾𝙃𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 5.7140 bits
+Posterior entropy: 8.144658242831882
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.144658242831882, 'actual_info_gain': 5.714002741890894, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEERY', 'BEVOR', 'BLORE', 'BREDE', 'BREID', 'BREME', 'BRERE', 'BREVE', 'BRIBE', 'BRIDE', 'BRINE', 'BRIZE', 'BROKE', 'BROME', 'BRULE', 'BRUME', 'CEORL', 'CHERE', 'CHORE', 'CLERK', 'COURE', 'CREDO', 'CREIN', 'CREME', 'CREPE', 'CREPY', 'CREWE', 'CRIME', 'CRINE', 'CRIPE', 'CROME', 'CRONE', 'CRORE', 'CROZE', 'CRUDE', 'CRUVE', 'CRYNE', 'DEBUR', 'DECOR', 'DECRY', 'DEERE', 'DEMUR', 'DRECK', 'DRERE', 'DRICE', 'DRIVE', 'DROKE', 'DROLE', 'DROME', 'DRONE', 'DROVE', 'DRUPE', 'EMERG', 'EMERY', 'EMURE', 'ENORM', 'ENURE', 'ENURN', 'EPHOR', 'ERGON', 'ERICK', 'ERING', 'ERODE', 'ERUGO', 'ERVIL', 'EVERY', 'EXURB', 'FEMUR', 'FIBRE', 'FIERE', 'FIERI', 'FIERY', 'FLEUR', 'FLORE', 'FREMD', 'FREON', 'FRERE', 'FRIZE', 'FRORE', 'FROZE', 'FUERO', 'GEBUR', 'GENRE', 'GENRO', 'GREBE', 'GREBO', 'GRECE', 'GREGE', 'GREGO', 'GREIN', 'GREVE', 'GRICE', 'GRIDE', 'GRIKE', 'GRIME', 'GRIPE', 'GRIZE', 'GRONE', 'GROPE', 'GROVE', 'GRUFE', 'GRUME', 'GRYCE', 'GRYDE', 'GRYKE', 'GRYPE', 'HENRY', 'HOWRE', 'INERM', 'INURE', 'IRONE', 'KEFIR', 'KIORE', 'KRENG', 'KREWE', 'KRONE', 'LEERY', 'LEMUR', 'LIBRE', 'LIVRE', 'LOURE', 'LUCRE', 'MOIRE', 'NEGRI', 'NEGRO', 'NIGRE', 'NOIRE', 'OCHRE', 'OMBRE', 'ONERY', 'OPERY', 'ORDIE', 'ORGUE', 'PEDRO', 'PEERY', 'PLORE', 'POIRE', 'POWRE', 'PREDY', 'PREIF', 'PREKE', 'PREMY', 'PREON', 'PREOP', 'PREUX', 'PREVE', 'PREXY', 'PRICE', 'PRIDE', 'PRIME', 'PRIZE', 'PROBE', 'PROKE', 'PROLE', 'PRONE', 'PRORE', 'PROVE', 'PRUDE', 'PRUNE', 'QUERN', 'QUERY', 'QUIRE', 'REBBE', 'REBID', 'REBOP', 'REBUD', 'REBUY', 'RECCE', 'RECCO', 'RECCY', 'RECON', 'RECUE', 'RECUR', 'REDDY', 'REDID', 'REDIF', 'REDIG', 'REDIP', 'REDLY', 'REDON', 'REDOX', 'REDRY', 'REDUB', 'REDUG', 'REDUX', 'REDYE', 'REECH', 'REEDE', 'REEDY', 'REEFY', 'REEKY', 'REELY', 'REERD', 'REEVE', 'REEZE', 'REFFO', 'REFIX', 'REFLY', 'REFRY', 'REGGO', 'REGIE', 'REGLE', 'REGUR', 'REIFY', 'REIGN', 'REIKI', 'REINE', 'REING', 'REINK', 'REIRD', 'REIVE', 'REJIG', 'REJON', 'RELIC', 'RELIE', 'RELLO', 'REMIX', 'REMOU', 'RENDU', 'RENIG', 'RENIN', 'RENNE', 'REOIL', 'REORG', 'REPIN', 'REPLY', 'REPRO', 'REPUN', 'REUNE', 'REVIE', 'REVOW', 'REVUE', 'REWIN', 'REWON', 'RHEID', 'RHEME', 'RHEUM', 'RHIME', 'RHINE', 'RHONE', 'RHYME', 'RHYNE', 'RICHE', 'RIDGE', 'RIEVE', 'RIFLE', 'RILLE', 'RINCE', 'RINGE', 'RIONE', 'ROBLE', 'ROCHE', 'ROGUE', 'RONDE', 'RONNE', 'ROQUE', 'ROUGE', 'ROULE', 'ROWIE', 'ROWME', 'ROYNE', 'RUBLE', 'RUCHE', 'RUDIE', 'RUFFE', 'RUICE', 'RUNCE', 'RYMME', 'UMBRE', 'UREDO', 'UREIC', 'UREID', 'URINE', 'VEERY', 'VEZIR', 'VIVRE', 'WEIRD', 'WHERE', 'WHORE', 'WRECK', 'WROKE', 'YBORE', 'YFERE']
+283 candidate words remaining.
+Top 10 guesses: [('DEICE', '4.837'), ('PEINE', '4.750'), ('GEODE', '4.744'), ('REINE', '4.730'), ('GENIE', '4.727'), ('RIONE', '4.719'), ('DIENE', '4.706'), ('PENIE', '4.690'), ('NIECE', '4.628'), ('REGIE', '4.628')]
+Top entropy choice: 𝘿𝙀𝙄𝘾𝙀 with entropy: 4.8373
+Guess count low, choosing the word with highest entropy: 𝘿𝙀𝙄𝘾𝙀 with entropy: 4.8373
+
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜⬜⬜🟨🟩
+Actual Info Gain: 4.5597 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 8.144658242831882, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 4.559695742110726, 'expected_info_gain': 4.8373180440628385}
+----------
+The bot is making a guess...
+THe possible candidates are: ['CHORE', 'COURE', 'CROME', 'CRONE', 'CRORE', 'CROZE', 'CRUVE', 'CRYNE', 'LUCRE', 'OCHRE', 'ROCHE', 'RUCHE']
+12 candidate words remaining.
+Top 10 guesses: [('SHORN', '3.418'), ('THORN', '3.418'), ('CHURN', '3.252'), ('FRORN', '3.252'), ('MHORR', '3.252'), ('MOHRS', '3.252'), ('COHEN', '3.189'), ('CONCH', '3.189'), ('CURRY', '3.189'), ('LOHAN', '3.189')]
+Top entropy choice: 𝙎𝙃𝙊𝙍𝙉 with entropy: 3.4183
+Using common exploratory word: 𝙏𝙃𝙊𝙍𝙉 with entropy: 3.4183
+
+Guess: 𝙏𝙃𝙊𝙍𝙉, Feedback: ⬜🟨🟨🟨⬜
+Actual Info Gain: 3.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 3.584962500721156, 'expected_info_gain': 4.8373180440628385}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ROCHE']
+1 candidate words remaining.
+Top 10 guesses: [('ROCHE', '0.000')]
+Top entropy choice: 𝙍𝙊𝘾𝙃𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙍𝙊𝘾𝙃𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.714 bits, Posterior Entropy: 8.145, 
+Guess: 𝘿𝙀𝙄𝘾𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 8.145, Expected Info Gain: 4.837 bits, Actual Info Gain: 4.560 bits, Posterior Entropy: 3.585, 
+Guess: 𝙏𝙃𝙊𝙍𝙉, Feedback: ⬜🟨🟨🟨⬜, Prior Entropy: 3.585, Expected Info Gain: 4.837 bits, Actual Info Gain: 3.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝙊𝘾𝙃𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

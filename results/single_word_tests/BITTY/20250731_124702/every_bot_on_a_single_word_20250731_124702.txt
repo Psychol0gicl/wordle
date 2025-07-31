@@ -1,0 +1,262 @@
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙄𝙏𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: OTIUM 
+The top ten guesses and scores: [('OTIUM', 883), ('LITHO', 878), ('BITOU', 877), ('OUBIT', 877), ('ONTIC', 873), ('LOTIC', 868), ('OCTLI', 868), ('OPTIC', 860), ('PICOT', 860), ('PINOT', 860)]
+The bot finally chose: OPTIC 
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜⬜🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: DITZY 
+The top ten guesses and scores: [('DITZY', 49), ('MYTHI', 49), ('WITHY', 49), ('FITLY', 48), ('DITTY', 47), ('KITTY', 47), ('WITTY', 47), ('ZITTY', 47), ('BITTY', 46), ('JITTY', 46)]
+The bot finally chose: DITTY 
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BITTY 
+The top ten guesses and scores: [('BITTY', 25), ('JITTY', 25), ('KITTY', 25), ('NITTY', 25), ('WITTY', 25), ('ZITTY', 25)]
+The bot finally chose: BITTY 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Guess: 𝙊𝙋𝙏𝙄𝘾, Feedback: ⬜⬜🟩🟨⬜
+Guess: 𝘿𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙄𝙏𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙄𝙏𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.5803 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 3.5803310519895115, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FILTH with entropy: 3.5654
+Bot chose: FILTH with entropy: 3.5654
+Top ten guesses: [('FILTH', 3.5654483718208247), ('WIFTY', 3.4406363526732653), ('MILTY', 3.3637132757501886), ('WITHY', 3.3442426054933976), ('MIFTY', 3.3346791410515935), ('KILTY', 3.286790198827112), ('MILTZ', 3.266431544481696), ('WITTY', 3.258749585242475), ('ZITTY', 3.214701622637604), ('DITZY', 3.1942374312668544)]
+
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.1154772174199357, 'expected_info_gain': 3.5654483718208247}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BITTY with entropy: 0.6500
+Bot chose: BITTY with entropy: 0.6500
+Top ten guesses: [('BITTY', 0.6500224216483541), ('DITTY', 0.6500224216483541), ('JITTY', 0.6500224216483541), ('KITTY', 0.6500224216483541), ('WITTY', 0.6500224216483541), ('ZITTY', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙏𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙏𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: CUNIT with entropy: 5.2465
+Bot chose: COUNT with entropy: 5.1998
+Top ten guesses: [('CUNIT', 5.2465384099238275), ('COUNT', 5.1998040428465835), ('NITTO', 5.1809970310350995), ('PITOT', 5.173209920883393), ('LITHO', 5.161885935835366), ('PILOT', 5.155498997911844), ('POTIN', 5.149684638487118), ('CLOUT', 5.148505529415564), ('CUTTO', 5.139328762161577), ('PINOT', 5.1373927443222795)]
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.5803 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 3.5803310519895115, 'expected_info_gain': 5.1998040428465835}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FILTH with entropy: 3.5654
+Bot chose: FILTH with entropy: 3.5654
+Top ten guesses: [('FILTH', 3.5654483718208247), ('WIFTY', 3.4406363526732653), ('MILTY', 3.3637132757501886), ('WITHY', 3.3442426054933976), ('MIFTY', 3.3346791410515935), ('KILTY', 3.286790198827112), ('MILTZ', 3.266431544481696), ('WITTY', 3.258749585242475), ('ZITTY', 3.214701622637604), ('DITZY', 3.1942374312668544)]
+
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.1154772174199357, 'expected_info_gain': 3.5654483718208247}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BITTY with entropy: 0.6500
+Bot chose: BITTY with entropy: 0.6500
+Top ten guesses: [('BITTY', 0.6500224216483541), ('DITTY', 0.6500224216483541), ('JITTY', 0.6500224216483541), ('KITTY', 0.6500224216483541), ('WITTY', 0.6500224216483541), ('ZITTY', 0.6500224216483541)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙏𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙏𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 491 potential guesses from 311 remaining candidates...
+Top 5 guesses: [('CUNIT', '5.247'), ('COUNT', '5.200'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162')]
+Top entropy choice: 𝘾𝙐𝙉𝙄𝙏 with entropy: 5.2465
+Ended up choosing COMMON word: 𝘾𝙊𝙐𝙉𝙏 with entropy: 5.1998
+
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 3.5803 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 3.5803310519895115, 'expected_info_gain': 5.1998040428465835}
+----------
+The bot is making a guess...
+Evaluating 26 potential guesses from 26 remaining candidates...
+Top 5 guesses: [('FILTH', '3.565'), ('WIFTY', '3.441'), ('MILTY', '3.364'), ('WITHY', '3.344'), ('MIFTY', '3.335')]
+Top entropy choice: 𝙁𝙄𝙇𝙏𝙃 with entropy: 3.5654
+Ended up choosing COMMON word: 𝙁𝙄𝙇𝙏𝙃 with entropy: 3.5654
+
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜
+Actual Info Gain: 2.1155 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.1154772174199357, 'expected_info_gain': 3.5654483718208247}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BITTY', '0.650'), ('DITTY', '0.650'), ('JITTY', '0.650'), ('KITTY', '0.650'), ('WITTY', '0.650')]
+Top entropy choice: 𝘽𝙄𝙏𝙏𝙔 with entropy: 0.6500
+Ended up choosing COMMON word: 𝘽𝙄𝙏𝙏𝙔 with entropy: 0.6500
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙐𝙉𝙏, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 8.281, Expected Info Gain: 5.200 bits, Actual Info Gain: 3.580 bits, Posterior Entropy: 4.700, 
+Guess: 𝙁𝙄𝙇𝙏𝙃, Feedback: ⬜🟩⬜🟩⬜, Prior Entropy: 4.700, Expected Info Gain: 3.565 bits, Actual Info Gain: 2.115 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙄𝙏𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙄𝙏𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.5779 bits
+Posterior entropy: 8.280770770130603
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.280770770130603, 'actual_info_gain': 5.577890214592173, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BHOOT', 'BIGHT', 'BIGOT', 'BINIT', 'BIONT', 'BITCH', 'BITOU', 'BITTY', 'BLITZ', 'BLUNT', 'BOOTH', 'BOOTY', 'BOTCH', 'BOTHY', 'BOTTY', 'BOULT', 'BOUTU', 'BOXTY', 'BUFTY', 'BUILT', 'BUNDT', 'BUNTY', 'BUTCH', 'BUTOH', 'BUTTY', 'BUTUT', 'BUTYL', 'CHITI', 'CHOTT', 'CHOUT', 'CINCT', 'CLIFT', 'CLINT', 'CLIPT', 'CLOOT', 'CLOTH', 'CLOUT', 'COBOT', 'COMPT', 'CONTO', 'COOPT', 'COOTY', 'COTCH', 'COUNT', 'COUTH', 'CUBIT', 'CULTI', 'CULTY', 'CUNIT', 'CUTCH', 'CUTIN', 'CUTTO', 'CUTTY', 'CUTUP', 'CWTCH', 'CYTON', 'DHOTI', 'DHUTI', 'DICHT', 'DICOT', 'DICTO', 'DICTU', 'DICTY', 'DIGHT', 'DIGIT', 'DITCH', 'DITTO', 'DITTY', 'DITZY', 'DIVOT', 'DIXIT', 'DOCHT', 'DOILT', 'DONUT', 'DOTTY', 'DOUBT', 'DUCTI', 'DUTCH', 'FIFTH', 'FIFTY', 'FIGHT', 'FILTH', 'FITCH', 'FITLY', 'FIXIT', 'FLINT', 'FLITT', 'FLOUT', 'FLUTY', 'FLUYT', 'FOOTY', 'FOUNT', 'FOUTH', 'FOWTH', 'FULTH', 'FUTON', 'GIGOT', 'GITCH', 'GLIFT', 'GLINT', 'GLITZ', 'GLOUT', 'GOTCH', 'GOTHY', 'GOUTY', 'GUILT', 'GUTTY', 'GUYOT', 'HIGHT', 'HITCH', 'HOOTY', 'HOTCH', 'HOTLY', 'HOTTY', 'HOWTO', 'HUTCH', 'ICTIC', 'IDDUT', 'IDIOT', 'ILLTH', 'IMMIT', 'IMPOT', 'INCUT', 'INGOT', 'INNIT', 'INPUT', 'INTIL', 'INWIT', 'ITCHY', 'JIGOT', 'JITTY', 'JOINT', 'JOLTY', 'JONTY', 'JOTTY', 'JOTUN', 'JUNTO', 'JUTTY', 'KIGHT', 'KILTY', 'KITTY', 'KITUL', 'KLUTZ', 'KNOUT', 'KOTCH', 'KOTOW', 'KUTCH', 'LICHT', 'LICIT', 'LIGHT', 'LILTY', 'LIMIT', 'LINTY', 'LITHO', 'LOFTY', 'LOTIC', 'LOTTO', 'LOWTH', 'LYTIC', 'MICHT', 'MIFTY', 'MIGHT', 'MILTY', 'MILTZ', 'MINTY', 'MITCH', 'MOITY', 'MOLTO', 'MONTH', 'MONTY', 'MOOTH', 'MOTHY', 'MOTIF', 'MOTON', 'MOTTO', 'MOTTY', 'MOULT', 'MOUNT', 'MOUTH', 'MUFTI', 'MUKTI', 'MULCT', 'MUNTU', 'MUTCH', 'MUTIC', 'MUTON', 'MUTTI', 'MUTUM', 'MYTHI', 'MYTHY', 'NICHT', 'NIFTY', 'NIGHT', 'NINTH', 'NITID', 'NITON', 'NITTO', 'NITTY', 'NOINT', 'NOOIT', 'NOTCH', 'NOTUM', 'NOWTY', 'NUTTY', 'OBIIT', 'OCTIC', 'OCTLI', 'OCTYL', 'ONTIC', 'OOBIT', 'OOTID', 'OPTIC', 'OPZIT', 'OTHYL', 'OTIUM', 'OUBIT', 'OUCHT', 'OUGHT', 'OUTBY', 'OUTDO', 'OUTGO', 'PFFTT', 'PHOTO', 'PHOTY', 'PHPHT', 'PHUTU', 'PICOT', 'PIGHT', 'PILOT', 'PINOT', 'PINTO', 'PIPIT', 'PITCH', 'PITHY', 'PITON', 'PITOT', 'PITTU', 'PIVOT', 'PIYUT', 'PLOIT', 'PLOOT', 'PLOTZ', 'PLOUT', 'PLOWT', 'PLUOT', 'PLUTO', 'PLUTY', 'POINT', 'POKIT', 'PONTO', 'PONTY', 'POOTY', 'POTCH', 'POTIN', 'POTOO', 'POTTO', 'POTTY', 'POULT', 'POUPT', 'POUTY', 'POWLT', 'POYNT', 'PULUT', 'PUNTO', 'PUNTY', 'PUTID', 'PUTIN', 'PUTON', 'PUTTI', 'PUTTO', 'PUTTU', 'PUTTY', 'QUBIT', 'QUILT', 'QUINT', 'QUOIT', 'QUOTH', 'UBITY', 'UMPTY', 'UNCUT', 'UNFIT', 'UNGOT', 'UNITY', 'UNKUT', 'UNLIT', 'UNPOT', 'UNPUT', 'UNTIL', 'UNTIN', 'UNWIT', 'UPLIT', 'VOLTI', 'VOMIT', 'VUTTY', 'WHIFT', 'WHIPT', 'WHITY', 'WHOOT', 'WIDTH', 'WIFTY', 'WIGHT', 'WITCH', 'WITHY', 'WITTY', 'WOOTZ', 'YMOLT', 'YOUTH', 'ZITTY', 'ZIZIT', 'ZLOTY', 'ZOOTY']
+311 candidate words remaining.
+Top 10 guesses: [('COLIN', '5.317'), ('CUNIT', '5.247'), ('PIONY', '5.209'), ('COUNT', '5.200'), ('NICOL', '5.186'), ('NITTO', '5.181'), ('PITOT', '5.173'), ('LITHO', '5.162'), ('PILOT', '5.155'), ('POTIN', '5.150')]
+Top entropy choice: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+Guess count low, choosing the word with highest entropy: 𝘾𝙊𝙇𝙄𝙉 with entropy: 5.3169
+
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 3.1515 bits
+Posterior entropy: 5.129283016944966
+entropy_info: {'prior_entropy': 8.280770770130603, 'posterior_entropy': 5.129283016944966, 'actual_info_gain': 3.151487753185637, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BIGHT', 'BITTY', 'DHUTI', 'DIGHT', 'DITTY', 'DITZY', 'FIFTH', 'FIFTY', 'FIGHT', 'HIGHT', 'IDDUT', 'JITTY', 'KIGHT', 'KITTY', 'MIFTY', 'MIGHT', 'MUFTI', 'MUKTI', 'MUTTI', 'MYTHI', 'PIGHT', 'PITHY', 'PITTU', 'PIYUT', 'PUTTI', 'UBITY', 'WHIFT', 'WHIPT', 'WHITY', 'WIDTH', 'WIFTY', 'WIGHT', 'WITHY', 'WITTY', 'ZITTY']
+35 candidate words remaining.
+Top 10 guesses: [('WIFTY', '4.012'), ('WITTY', '3.872'), ('WITHY', '3.817'), ('DITTY', '3.815'), ('MIFTY', '3.764'), ('FUDGY', '3.750'), ('WIMPY', '3.682'), ('PITHY', '3.620'), ('TUFTY', '3.614'), ('FISHY', '3.606')]
+Top entropy choice: 𝙒𝙄𝙁𝙏𝙔 with entropy: 4.0116
+Using common exploratory word: 𝙒𝙄𝙏𝙏𝙔 with entropy: 3.8717
+
+Guess: 𝙒𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 2.8074 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 5.129283016944966, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.807354922057604, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITTY', 'DITTY', 'JITTY', 'KITTY', 'ZITTY']
+5 candidate words remaining.
+Top 10 guesses: [('ABJAD', '1.922'), ('ABJUD', '1.922'), ('BAKED', '1.922'), ('BIKED', '1.922'), ('BOKED', '1.922'), ('BYKED', '1.922'), ('JIBED', '1.922'), ('JOBED', '1.922'), ('JOKED', '1.922'), ('JUKED', '1.922')]
+Top entropy choice: 𝘼𝘽𝙅𝘼𝘿 with entropy: 1.9219
+Using common exploratory word: 𝘽𝘼𝙆𝙀𝘿 with entropy: 1.9219
+
+Guess: 𝘽𝘼𝙆𝙀𝘿, Feedback: 🟩⬜⬜⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 5.316896712755155}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITTY']
+1 candidate words remaining.
+Top 10 guesses: [('BITTY', '0.000')]
+Top entropy choice: 𝘽𝙄𝙏𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘽𝙄𝙏𝙏𝙔 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.578 bits, Posterior Entropy: 8.281, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 8.281, Expected Info Gain: 5.317 bits, Actual Info Gain: 3.151 bits, Posterior Entropy: 5.129, 
+Guess: 𝙒𝙄𝙏𝙏𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 5.129, Expected Info Gain: 5.317 bits, Actual Info Gain: 2.807 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝙆𝙀𝘿, Feedback: 🟩⬜⬜⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 5.317 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝘽𝙄𝙏𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

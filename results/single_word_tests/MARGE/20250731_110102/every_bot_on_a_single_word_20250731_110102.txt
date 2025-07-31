@@ -1,0 +1,249 @@
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝙍𝙂𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: BARGE 
+The top ten guesses and scores: [('BARGE', 102), ('GARBE', 102), ('LARGE', 101), ('PARGE', 100), ('CARLE', 99), ('PARLE', 99), ('BARDE', 98), ('CARPE', 98), ('GARDE', 98), ('MARGE', 98)]
+The bot finally chose: BARGE 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: LARGE 
+The top ten guesses and scores: [('LARGE', 13), ('MARGE', 13), ('PARGE', 13)]
+The bot finally chose: LARGE 
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: MARGE 
+The top ten guesses and scores: [('MARGE', 9), ('PARGE', 9)]
+The bot finally chose: MARGE 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙈𝘼𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 9.1038 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 9.103773482559308, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GARBE with entropy: 2.1581
+Bot chose: BARGE with entropy: 2.0379
+Top ten guesses: [('GARBE', 2.1581047637021826), ('PARGE', 2.056071893251684), ('BARGE', 2.0379154119304594), ('LARGE', 1.9358825414799603), ('GARRE', 1.9177260601587358), ('CARLE', 1.8290858982529976), ('PARLE', 1.8290858982529976), ('GARDE', 1.8109294169317731), ('BARRE', 1.7919245392005054), ('MARGE', 1.7550118241789237)]
+
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.0379154119304594}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LARGE with entropy: 0.9183
+Bot chose: LARGE with entropy: 0.9183
+Top ten guesses: [('LARGE', 0.9182958340544896), ('MARGE', 0.9182958340544896), ('PARGE', 0.9182958340544896)]
+
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARGE with entropy: 1.0000
+Bot chose: MARGE with entropy: 1.0000
+Top ten guesses: [('MARGE', 1.0), ('PARGE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 9.1038 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 9.103773482559308, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: GARBE with entropy: 2.1581
+Bot chose: BARGE with entropy: 2.0379
+Top ten guesses: [('GARBE', 2.1581047637021826), ('PARGE', 2.056071893251684), ('BARGE', 2.0379154119304594), ('LARGE', 1.9358825414799603), ('GARRE', 1.9177260601587358), ('CARLE', 1.8290858982529976), ('PARLE', 1.8290858982529976), ('GARDE', 1.8109294169317731), ('BARRE', 1.7919245392005054), ('MARGE', 1.7550118241789237)]
+
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.0379154119304594}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: LARGE with entropy: 0.9183
+Bot chose: LARGE with entropy: 0.9183
+Top ten guesses: [('LARGE', 0.9182958340544896), ('MARGE', 0.9182958340544896), ('PARGE', 0.9182958340544896)]
+
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: MARGE with entropy: 1.0000
+Bot chose: MARGE with entropy: 1.0000
+Top ten guesses: [('MARGE', 1.0), ('PARGE', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 9.1038 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 9.103773482559308, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 27 potential guesses from 27 remaining candidates...
+Top 5 guesses: [('GARBE', '2.158'), ('PARGE', '2.056'), ('BARGE', '2.038'), ('LARGE', '1.936'), ('GARRE', '1.918')]
+Top entropy choice: 𝙂𝘼𝙍𝘽𝙀 with entropy: 2.1581
+Ended up choosing COMMON word: 𝘽𝘼𝙍𝙂𝙀 with entropy: 2.0379
+
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 1.584962500721156
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 1.584962500721156, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 2.0379154119304594}
+----------
+The bot is making a guess...
+Evaluating 3 potential guesses from 3 remaining candidates...
+Top 5 guesses: [('LARGE', '0.918'), ('MARGE', '0.918'), ('PARGE', '0.918')]
+Top entropy choice: 𝙇𝘼𝙍𝙂𝙀 with entropy: 0.9183
+Ended up choosing COMMON word: 𝙇𝘼𝙍𝙂𝙀 with entropy: 0.9183
+
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 1.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 0.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('MARGE', '1.000'), ('PARGE', '1.000')]
+Top entropy choice: 𝙈𝘼𝙍𝙂𝙀 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙈𝘼𝙍𝙂𝙀 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝘽𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 4.755, Expected Info Gain: 2.038 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 1.585, 
+Guess: 𝙇𝘼𝙍𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.585, Expected Info Gain: 0.918 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝙍𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜
+Actual Info Gain: 9.1038 bits
+Posterior entropy: 4.754887502163468
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.754887502163468, 'actual_info_gain': 9.103773482559308, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARBE', 'BARDE', 'BARGE', 'BARRE', 'BARYE', 'CARLE', 'CARNE', 'CARPE', 'CARVE', 'DARRE', 'EARLY', 'FARCE', 'FARLE', 'GARBE', 'GARDE', 'GARRE', 'LARGE', 'MARAE', 'MARGE', 'MARLE', 'NARRE', 'PARAE', 'PARGE', 'PARLE', 'PARVE', 'VARVE', 'WARRE']
+27 candidate words remaining.
+Top 10 guesses: [('PYGAL', '2.918'), ('GILPY', '2.845'), ('GLYPH', '2.845'), ('GULPY', '2.845'), ('GLEBY', '2.827'), ('GLOBY', '2.827'), ('GLAMP', '2.817'), ('PLAGA', '2.799'), ('GULAB', '2.750'), ('BILGY', '2.725')]
+Top entropy choice: 𝙋𝙔𝙂𝘼𝙇 with entropy: 2.9185
+Guess count low, choosing the word with highest entropy: 𝙋𝙔𝙂𝘼𝙇 with entropy: 2.9185
+
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 2.4330 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 4.754887502163468, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 2.432959407276106, 'expected_info_gain': 2.918450134553325}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BARGE', 'GARBE', 'GARDE', 'GARRE', 'MARGE']
+5 candidate words remaining.
+Top 10 guesses: [('BADAM', '2.322'), ('BADGE', '2.322'), ('BEARD', '2.322'), ('BEDIM', '2.322'), ('BEMAD', '2.322'), ('BEMUD', '2.322'), ('BIDRI', '2.322'), ('BOARD', '2.322'), ('BODGE', '2.322'), ('BODGY', '2.322')]
+Top entropy choice: 𝘽𝘼𝘿𝘼𝙈 with entropy: 2.3219
+Using common exploratory word: 𝘽𝘼𝘿𝙂𝙀 with entropy: 2.3219
+
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟩⬜🟩🟩
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 2.918450134553325}
+----------
+The bot is making a guess...
+THe possible candidates are: ['MARGE']
+1 candidate words remaining.
+Top 10 guesses: [('MARGE', '0.000')]
+Top entropy choice: 𝙈𝘼𝙍𝙂𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙈𝘼𝙍𝙂𝙀 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.104 bits, Posterior Entropy: 4.755, 
+Guess: 𝙋𝙔𝙂𝘼𝙇, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 4.755, Expected Info Gain: 2.918 bits, Actual Info Gain: 2.433 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝘼𝘿𝙂𝙀, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 2.918 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝙍𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

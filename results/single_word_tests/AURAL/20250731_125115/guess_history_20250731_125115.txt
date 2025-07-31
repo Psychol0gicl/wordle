@@ -1,0 +1,56 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: ⬜⬜🟩⬜🟨
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 2.177 bits, Posterior Entropy: 4.524, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 2.177 bits, Posterior Entropy: 4.524, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙍𝙄𝘼, Feedback: ⬜⬜🟩⬜🟨, Prior Entropy: 6.700, Expected Info Gain: 4.022 bits, Actual Info Gain: 2.177 bits, Posterior Entropy: 4.524, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙍𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.158 bits, Posterior Entropy: 6.700, 
+Guess: 𝙈𝙊𝙉𝘼𝘿, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 6.700, Expected Info Gain: 4.403 bits, Actual Info Gain: 2.794 bits, Posterior Entropy: 3.907, 
+Guess: 𝘼𝙇𝙐𝙈𝙔, Feedback: 🟩🟨🟨⬜⬜, Prior Entropy: 3.907, Expected Info Gain: 3.323 bits, Actual Info Gain: 3.907 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙐𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

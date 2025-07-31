@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙋𝙄𝙌𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩
+Guess: 𝙃𝙄𝙉𝙂𝙀, Feedback: ⬜🟩⬜⬜🟩
+Guess: 𝙋𝙄𝙌𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙋𝙄𝙌𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.957 bits, Posterior Entropy: 5.615, 
+Guess: 𝙈𝙄𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 5.615, Expected Info Gain: 3.789 bits, Actual Info Gain: 3.030 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙄𝙌𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙌𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜⬜🟨🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 3.957 bits, Posterior Entropy: 5.615, 
+Guess: 𝙈𝙄𝙉𝘾𝙀, Feedback: ⬜🟩⬜⬜🟩, Prior Entropy: 5.615, Expected Info Gain: 3.789 bits, Actual Info Gain: 3.030 bits, Posterior Entropy: 2.585, 
+Guess: 𝙋𝙄𝙌𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙌𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 3.689 bits, Posterior Entropy: 5.883, 
+Guess: 𝙈𝙐𝙇𝙄𝙀, Feedback: ⬜🟨⬜🟨🟩, Prior Entropy: 5.883, Expected Info Gain: 4.563 bits, Actual Info Gain: 4.883 bits, Posterior Entropy: 1.000, 
+Guess: 𝙋𝙄𝙌𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙋𝙄𝙌𝙐𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.250 bits, Posterior Entropy: 4.322, 
+Guess: 𝘾𝙃𝙐𝙈𝙋, Feedback: ⬜⬜🟨⬜🟨, Prior Entropy: 4.322, Expected Info Gain: 5.536 bits, Actual Info Gain: 4.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙋𝙄𝙌𝙐𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

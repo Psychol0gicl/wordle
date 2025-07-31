@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘽𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨
+Guess: 𝘼𝙍𝙎𝙊𝙉, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙉𝘼𝙍𝙆, Feedback: 🟨⬜🟩🟨⬜, Prior Entropy: 5.524, Expected Info Gain: 3.396 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘽𝙍𝘼𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 8.335 bits, Posterior Entropy: 5.524, 
+Guess: 𝙎𝙃𝙊𝙍𝙉, Feedback: 🟨🟨⬜🟨⬜, Prior Entropy: 5.524, Expected Info Gain: 3.717 bits, Actual Info Gain: 3.939 bits, Posterior Entropy: 1.585, 
+Guess: 𝘽𝙍𝘼𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

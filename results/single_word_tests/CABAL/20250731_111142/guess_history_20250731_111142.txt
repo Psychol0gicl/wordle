@@ -1,0 +1,62 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝘾𝘼𝘽𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝙑𝘼𝙇𝙄𝘿, Feedback: ⬜🟩🟨⬜⬜
+Guess: 𝙇𝘼𝙐𝙂𝙃, Feedback: 🟨🟩⬜⬜⬜
+Guess: 𝘾𝘼𝘽𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 3.818 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝘼𝙇𝘼𝙆, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.209, Expected Info Gain: 3.350 bits, Actual Info Gain: 2.040 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝘼𝙑𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.447 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝘼𝘽𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 3.818 bits, Posterior Entropy: 5.209, 
+Guess: 𝙋𝘼𝙇𝘼𝙆, Feedback: ⬜🟩🟨🟩⬜, Prior Entropy: 5.209, Expected Info Gain: 3.350 bits, Actual Info Gain: 2.040 bits, Posterior Entropy: 3.170, 
+Guess: 𝙇𝘼𝙑𝘼𝙇, Feedback: ⬜🟩⬜🟩🟩, Prior Entropy: 3.170, Expected Info Gain: 1.447 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.585, 
+Guess: 𝘾𝘼𝘽𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: 🟩🟩⬜🟩🟩, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 9.028 bits, Posterior Entropy: 0.000, 
+Guess: 𝘾𝘼𝘽𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘾𝘼𝘽𝘼𝙇 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 4.568 bits, Posterior Entropy: 4.459, 
+Guess: 𝘾𝙊𝙐𝙇𝘿, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 4.459, Expected Info Gain: 4.781 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝘾𝘼𝘽𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================

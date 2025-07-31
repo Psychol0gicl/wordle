@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘼𝘽𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨
+Guess: 𝙋𝘼𝙇𝙎𝙔, Feedback: ⬜🟩⬜🟨⬜
+Guess: 𝘽𝘼𝙎𝙄𝙉, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝙎𝘼𝘽𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.055 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘽𝘼, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.055 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘽𝘼, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙎𝘼𝙇𝙎𝘼, Feedback: 🟩🟩⬜⬜🟩, Prior Entropy: 7.055, Expected Info Gain: 3.788 bits, Actual Info Gain: 4.055 bits, Posterior Entropy: 3.000, 
+Guess: 𝙎𝘼𝙐𝘽𝘼, Feedback: 🟩🟩⬜🟨🟩, Prior Entropy: 3.000, Expected Info Gain: 2.000 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝘼𝘽𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘼𝘽𝙃𝘼 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.803 bits, Posterior Entropy: 7.055, 
+Guess: 𝙇𝙔𝙎𝙄𝙉, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 7.055, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.055 bits, Posterior Entropy: 4.000, 
+Guess: 𝘽𝙊𝙐𝙂𝙃, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 4.000, Expected Info Gain: 4.282 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘼𝘽𝙃𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================

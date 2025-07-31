@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙈𝘼𝘿𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙈𝘼𝙉𝙇𝙔, Feedback: 🟩🟩⬜🟩🟩
+Guess: 𝙈𝘼𝘿𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙈𝘼𝘿𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 5.121 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝘼𝙈𝘽𝙐, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 3.907, Expected Info Gain: 2.740 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝘼𝘿𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙈𝘼𝘿𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝘼𝙉𝙄𝘼, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 9.028, Expected Info Gain: 4.443 bits, Actual Info Gain: 5.121 bits, Posterior Entropy: 3.907, 
+Guess: 𝙈𝘼𝙈𝘽𝙐, Feedback: 🟩🟩⬜⬜⬜, Prior Entropy: 3.907, Expected Info Gain: 2.740 bits, Actual Info Gain: 1.322 bits, Posterior Entropy: 2.585, 
+Guess: 𝙈𝘼𝘿𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝘿𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝘾𝘼𝙉𝘼𝙇, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 9.028, Expected Info Gain: 4.317 bits, Actual Info Gain: 3.121 bits, Posterior Entropy: 5.907, 
+Guess: 𝘿𝘼𝙇𝙇𝙔, Feedback: 🟨🟩⬜🟩🟩, Prior Entropy: 5.907, Expected Info Gain: 3.954 bits, Actual Info Gain: 4.907 bits, Posterior Entropy: 1.000, 
+Guess: 𝘽𝘼𝘿𝙇𝙔, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 1.000, Expected Info Gain: 1.000 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙈𝘼𝘿𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙈𝘼𝘿𝙇𝙔 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.831 bits, Posterior Entropy: 9.028, 
+Guess: 𝙈𝙄𝙉𝘾𝙔, Feedback: 🟩⬜⬜⬜🟩, Prior Entropy: 9.028, Expected Info Gain: 4.781 bits, Actual Info Gain: 5.568 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙇𝙐𝙈𝘽, Feedback: ⬜🟨⬜🟨⬜, Prior Entropy: 3.459, Expected Info Gain: 4.781 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙈𝘼𝘿𝙇𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================

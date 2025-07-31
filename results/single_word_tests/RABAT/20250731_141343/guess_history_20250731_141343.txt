@@ -1,0 +1,59 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙍𝘼𝘽𝘼𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜
+Guess: 𝙍𝘼𝙏𝙄𝙊, Feedback: 🟩🟩🟨⬜⬜
+Guess: 𝙍𝘼𝙁𝙏𝙔, Feedback: 🟩🟩⬜🟨⬜
+Guess: 𝙍𝘼𝘽𝘼𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘼𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙏𝘼𝙇, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝘽𝘼𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘼𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙏𝘼𝙇, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝘽𝘼𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘼𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙍𝘼𝙄𝙏𝘼, Feedback: 🟩🟩⬜🟨🟨, Prior Entropy: 4.000, Expected Info Gain: 3.156 bits, Actual Info Gain: 2.415 bits, Posterior Entropy: 1.585, 
+Guess: 𝙍𝘼𝙏𝘼𝙇, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 1.585, Expected Info Gain: 1.585 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝘽𝘼𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙍𝘼𝘽𝘼𝙏 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟩🟨⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.859 bits, Posterior Entropy: 4.000, 
+Guess: 𝙈𝙔𝙏𝙃𝙄, Feedback: ⬜⬜🟨⬜⬜, Prior Entropy: 4.000, Expected Info Gain: 3.250 bits, Actual Info Gain: 4.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙍𝘼𝘽𝘼𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================

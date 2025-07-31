@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙐𝙏𝙍𝘼 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: ASTIR 
+The top ten guesses and scores: [('ASTIR', 89), ('SITAR', 89), ('STAIR', 89), ('ARTSY', 88), ('SHART', 88), ('SHTAR', 88), ('SKART', 88), ('STARK', 88), ('STARY', 88), ('SWART', 88)]
+The bot finally chose: STAIR 
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟩🟨🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SUTRA 
+The top ten guesses and scores: [('SUTRA', 5)]
+The bot finally chose: SUTRA 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+Guess: 𝙎𝙏𝘼𝙄𝙍, Feedback: 🟩🟨🟨⬜🟨
+Guess: 𝙎𝙐𝙏𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙐𝙏𝙍𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+Actual Info Gain: 9.4663 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 9.466343561944015, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARK with entropy: 2.8559
+Bot chose: STARK with entropy: 2.8559
+Top ten guesses: [('STARK', 2.8559049224696933), ('STAIR', 2.8491568534184415), ('SKART', 2.813209829505895), ('SWART', 2.789865782092892), ('SHART', 2.753918758180346), ('STARR', 2.7539187581803457), ('STARY', 2.7539187581803457), ('SLART', 2.658680662942251), ('SMART', 2.658680662942251), ('SPART', 2.658680662942251)]
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 0.0, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 2.8559049224696933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUTRA with entropy: 0.0000
+Bot chose: SUTRA with entropy: 0.0000
+Top ten guesses: [('SUTRA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜, Prior Entropy: 4.392, Expected Info Gain: 2.856 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙏𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙏𝙍𝘼 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+Actual Info Gain: 9.4663 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 9.466343561944015, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STARK with entropy: 2.8559
+Bot chose: STARK with entropy: 2.8559
+Top ten guesses: [('STARK', 2.8559049224696933), ('STAIR', 2.8491568534184415), ('SKART', 2.813209829505895), ('SWART', 2.789865782092892), ('SHART', 2.753918758180346), ('STARR', 2.7539187581803457), ('STARY', 2.7539187581803457), ('SLART', 2.658680662942251), ('SMART', 2.658680662942251), ('SPART', 2.658680662942251)]
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 0.0, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 2.8559049224696933}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SUTRA with entropy: 0.0000
+Bot chose: SUTRA with entropy: 0.0000
+Top ten guesses: [('SUTRA', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜, Prior Entropy: 4.392, Expected Info Gain: 2.856 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙏𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙏𝙍𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+Actual Info Gain: 9.4663 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 9.466343561944015, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 21 potential guesses from 21 remaining candidates...
+Top 5 guesses: [('STARK', '2.856'), ('STAIR', '2.849'), ('SKART', '2.813'), ('SWART', '2.790'), ('SHART', '2.754')]
+Top entropy choice: 𝙎𝙏𝘼𝙍𝙆 with entropy: 2.8559
+Ended up choosing COMMON word: 𝙎𝙏𝘼𝙍𝙆 with entropy: 2.8559
+
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜
+Actual Info Gain: 4.3923 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 0.0, 'actual_info_gain': 4.392317422778761, 'expected_info_gain': 2.8559049224696933}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SUTRA', '0.000')]
+Top entropy choice: 𝙎𝙐𝙏𝙍𝘼 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙐𝙏𝙍𝘼 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙎𝙏𝘼𝙍𝙆, Feedback: 🟩🟨🟨🟩⬜, Prior Entropy: 4.392, Expected Info Gain: 2.856 bits, Actual Info Gain: 4.392 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙐𝙏𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙐𝙏𝙍𝘼 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨
+Actual Info Gain: 9.4663 bits
+Posterior entropy: 4.392317422778761
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.392317422778761, 'actual_info_gain': 9.466343561944015, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ARTSY', 'ASTIR', 'BRAST', 'ROAST', 'SCART', 'SHART', 'SHTAR', 'SITAR', 'SKART', 'SLART', 'SMART', 'SPART', 'STAIR', 'STARK', 'STARN', 'STARR', 'START', 'STARY', 'SUTRA', 'SWART', 'WRAST']
+21 candidate words remaining.
+Top 10 guesses: [('STILT', '2.951'), ('STINT', '2.908'), ('STOIT', '2.885'), ('SICHT', '2.874'), ('SHAKT', '2.856'), ('STARK', '2.856'), ('STAIR', '2.849'), ('KRAIT', '2.833'), ('CHART', '2.820'), ('SKART', '2.813')]
+Top entropy choice: 𝙎𝙏𝙄𝙇𝙏 with entropy: 2.9511
+Guess count low, choosing the word with highest entropy: 𝙎𝙏𝙄𝙇𝙏 with entropy: 2.9511
+
+Guess: 𝙎𝙏𝙄𝙇𝙏, Feedback: 🟩🟨⬜⬜⬜
+Actual Info Gain: 3.3923 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.392317422778761, 'posterior_entropy': 1.0, 'actual_info_gain': 3.3923174227787607, 'expected_info_gain': 2.9511430177077886}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SHTAR', 'SUTRA']
+2 candidate words remaining.
+Top 10 guesses: [('SHTAR', '1.000'), ('SUTRA', '1.000')]
+Top entropy choice: 𝙎𝙃𝙏𝘼𝙍 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙐𝙏𝙍𝘼 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨🟨⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.466 bits, Posterior Entropy: 4.392, 
+Guess: 𝙎𝙏𝙄𝙇𝙏, Feedback: 🟩🟨⬜⬜⬜, Prior Entropy: 4.392, Expected Info Gain: 2.951 bits, Actual Info Gain: 3.392 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝙐𝙏𝙍𝘼, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,260 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝘾𝙊𝙊𝙏 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: HOIST 
+The top ten guesses and scores: [('HOIST', 512), ('MISTO', 505), ('MOIST', 505), ('OPSIT', 504), ('PITSO', 504), ('POSIT', 504), ('SHOUT', 495), ('SOUTH', 495), ('FOIST', 494), ('STOIC', 494)]
+The bot finally chose: HOIST 
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜🟨⬜🟨🟩
+entropy_info: None
+----------
+The bot originally chose: SMOUT 
+The top ten guesses and scores: [('SMOUT', 63), ('SPOUT', 63), ('SCOUT', 61), ('SNOUT', 61), ('SMOLT', 60), ('SMOWT', 60), ('SWOPT', 60), ('STOUT', 59), ('SMOOT', 58), ('SPOOT', 58)]
+The bot finally chose: SPOUT 
+Guess: 𝙎𝙋𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: SMOLT 
+The top ten guesses and scores: [('SMOLT', 32), ('SMOWT', 31), ('SMOOT', 30), ('SLOOT', 29), ('SCOOT', 28), ('SNOOT', 28), ('STOTT', 27)]
+The bot finally chose: SCOOT 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Guess: 𝙃𝙊𝙄𝙎𝙏, Feedback: ⬜🟨⬜🟨🟩
+Guess: 𝙎𝙋𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝘾𝙊𝙊𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STOPT with entropy: 1.8676
+Bot chose: STOPT with entropy: 1.8676
+Top ten guesses: [('STOPT', 1.8676338909712125), ('SPOOT', 1.823067982273661), ('SMOOT', 1.8230679822736608), ('SLOOT', 1.6767370300521325), ('SWOPT', 1.6729330318733675), ('SMOWT', 1.4911148500551858), ('SMOLT', 1.4911148500551854), ('SCOOT', 1.3221793455166666), ('SNOOT', 1.3221793455166666), ('STOIT', 1.0957952550009336)]
+
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.8676338909712125}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SMOLT with entropy: 1.9183
+Bot chose: SCOOT with entropy: 1.4591
+Top ten guesses: [('SMOLT', 1.9182958340544896), ('SLOOT', 1.7924812503605778), ('SMOOT', 1.4591479170272448), ('SMOWT', 1.4591479170272448), ('SNOOT', 1.4591479170272448), ('SCOOT', 1.4591479170272446)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.868 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙊𝙊𝙏 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHOUT with entropy: 4.7209
+Bot chose: SHOUT with entropy: 4.7209
+Top ten guesses: [('SHOUT', 4.720949920480093), ('HOIST', 4.705248497829257), ('MOUST', 4.669961348119891), ('SUINT', 4.665244383064265), ('MOIST', 4.647327878607999), ('SLUIT', 4.617193192502573), ('NOUST', 4.605167909735052), ('SNOUT', 4.5844546092781115), ('SMOUT', 4.579948830345888), ('MUIST', 4.579660745520662)]
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: STOPT with entropy: 1.8676
+Bot chose: STOPT with entropy: 1.8676
+Top ten guesses: [('STOPT', 1.8676338909712125), ('SPOOT', 1.823067982273661), ('SMOOT', 1.8230679822736608), ('SLOOT', 1.6767370300521325), ('SWOPT', 1.6729330318733675), ('SMOWT', 1.4911148500551858), ('SMOLT', 1.4911148500551854), ('SCOOT', 1.3221793455166666), ('SNOOT', 1.3221793455166666), ('STOIT', 1.0957952550009336)]
+
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.8676338909712125}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SMOLT with entropy: 1.9183
+Bot chose: SCOOT with entropy: 1.4591
+Top ten guesses: [('SMOLT', 1.9182958340544896), ('SLOOT', 1.7924812503605778), ('SMOOT', 1.4591479170272448), ('SMOWT', 1.4591479170272448), ('SNOOT', 1.4591479170272448), ('SCOOT', 1.4591479170272446)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.868 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙊𝙊𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 252 potential guesses from 155 remaining candidates...
+Top 5 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Ended up choosing COMMON word: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('STOPT', '1.868'), ('SPOOT', '1.823'), ('SMOOT', '1.823'), ('SLOOT', '1.677'), ('SWOPT', '1.673')]
+Top entropy choice: 𝙎𝙏𝙊𝙋𝙏 with entropy: 1.8676
+
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 0.8745 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 0.8744691179161412, 'expected_info_gain': 1.8676338909712125}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('SMOLT', '1.918'), ('SLOOT', '1.792'), ('SMOOT', '1.459'), ('SMOWT', '1.459'), ('SNOOT', '1.459')]
+Top entropy choice: 𝙎𝙈𝙊𝙇𝙏 with entropy: 1.9183
+
+Guess: 𝙎𝙈𝙊𝙇𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 1.0, 'actual_info_gain': 1.584962500721156, 'expected_info_gain': 1.9182958340544896}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('SCOOT', '1.000'), ('SNOOT', '1.000')]
+Top entropy choice: 𝙎𝘾𝙊𝙊𝙏 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙎𝘾𝙊𝙊𝙏 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝙎𝙏𝙊𝙋𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 3.459, Expected Info Gain: 1.868 bits, Actual Info Gain: 0.874 bits, Posterior Entropy: 2.585, 
+Guess: 𝙎𝙈𝙊𝙇𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 2.585, Expected Info Gain: 1.918 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝘾𝙊𝙊𝙏 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 6.5825 bits
+Posterior entropy: 7.2761244052742375
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.2761244052742375, 'actual_info_gain': 6.582536579448539, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BITSY', 'BLIST', 'BOOST', 'BUIST', 'BUSTI', 'BUSTY', 'COOST', 'DIDST', 'DITSY', 'DUSTY', 'FISTY', 'FOIST', 'FUSTY', 'GHOST', 'GIUST', 'GLOST', 'GOSHT', 'GUSTO', 'GUSTY', 'GUTSY', 'HOIST', 'INUST', 'JOIST', 'JOUST', 'KUSTI', 'KYDST', 'LUSTY', 'MIDST', 'MISTO', 'MISTY', 'MOIST', 'MOSTO', 'MOUST', 'MUIST', 'MUSIT', 'MUSTH', 'MUSTY', 'NOUST', 'NUTSO', 'NUTSY', 'ODIST', 'OPSIT', 'OVIST', 'PITSO', 'PITSU', 'POSIT', 'POTSY', 'PSHUT', 'PTISH', 'QUIST', 'SCOOT', 'SCOUT', 'SCUFT', 'SHIFT', 'SHIST', 'SHOOT', 'SHOTT', 'SHOUT', 'SHTIK', 'SHTUM', 'SHTUP', 'SHUNT', 'SICHT', 'SIGHT', 'SILTY', 'SITCH', 'SITUP', 'SIXTH', 'SIXTY', 'SKINT', 'SLIPT', 'SLOOT', 'SLOTH', 'SLUIT', 'SMITH', 'SMOLT', 'SMOOT', 'SMOUT', 'SMOWT', 'SNIFT', 'SNOOT', 'SNOUT', 'SOFTY', 'SOOTH', 'SOOTY', 'SOTOL', 'SOTTO', 'SOUCT', 'SOUTH', 'SOWTH', 'SPILT', 'SPITZ', 'SPLIT', 'SPOOT', 'SPOUT', 'SQUIT', 'STICH', 'STICK', 'STIFF', 'STILB', 'STILL', 'STILT', 'STIMY', 'STING', 'STINK', 'STINT', 'STIVY', 'STOCK', 'STOGY', 'STOIC', 'STOIT', 'STOLN', 'STOMP', 'STOND', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD', 'STOOK', 'STOOL', 'STOOP', 'STOPT', 'STOTT', 'STOUN', 'STOUP', 'STOUT', 'STOWN', 'STOWP', 'STUCK', 'STUDY', 'STUFF', 'STULL', 'STULM', 'STUMM', 'STUMP', 'STUNG', 'STUNK', 'STUNT', 'STUSH', 'STYLI', 'STYLO', 'STYMY', 'SUINT', 'SWIFT', 'SWITH', 'SWOPT', 'SYNTH', 'VISIT', 'VISTO', 'WHIST', 'WISHT', 'XYSTI', 'YTOST', 'ZOIST']
+155 candidate words remaining.
+Top 10 guesses: [('SHOUT', '4.721'), ('HOIST', '4.705'), ('MOUNT', '4.690'), ('MOUST', '4.670'), ('SUINT', '4.665'), ('POINT', '4.665'), ('MOULT', '4.655'), ('MOIST', '4.647'), ('POULT', '4.637'), ('SLUIT', '4.617')]
+Top entropy choice: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+Guess count low, choosing the word with highest entropy: 𝙎𝙃𝙊𝙐𝙏 with entropy: 4.7209
+
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩
+Actual Info Gain: 3.8167 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 7.2761244052742375, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 3.8166927866369402, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCOOT', 'SLOOT', 'SMOLT', 'SMOOT', 'SMOWT', 'SNOOT', 'SPOOT', 'STOIT', 'STOPT', 'STOTT', 'SWOPT']
+11 candidate words remaining.
+Top 10 guesses: [('PILOW', '3.027'), ('PILON', '2.914'), ('PINOL', '2.914'), ('COMPO', '2.732'), ('IMPOT', '2.664'), ('PELON', '2.664'), ('PICON', '2.664'), ('PLEON', '2.664'), ('PYLON', '2.664'), ('APIOL', '2.664')]
+Top entropy choice: 𝙋𝙄𝙇𝙊𝙒 with entropy: 3.0272
+Using common exploratory word: 𝙋𝙔𝙇𝙊𝙉 with entropy: 2.6635
+
+Guess: 𝙋𝙔𝙇𝙊𝙉, Feedback: ⬜⬜⬜🟩⬜
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 4.720949920480093}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCOOT', 'SMOOT']
+2 candidate words remaining.
+Top 10 guesses: [('SCOOT', '1.000'), ('SMOOT', '1.000')]
+Top entropy choice: 𝙎𝘾𝙊𝙊𝙏 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝘾𝙊𝙊𝙏 with entropy: 1.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.583 bits, Posterior Entropy: 7.276, 
+Guess: 𝙎𝙃𝙊𝙐𝙏, Feedback: 🟩⬜🟩⬜🟩, Prior Entropy: 7.276, Expected Info Gain: 4.721 bits, Actual Info Gain: 3.817 bits, Posterior Entropy: 3.459, 
+Guess: 𝙋𝙔𝙇𝙊𝙉, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 3.459, Expected Info Gain: 4.721 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙎𝘾𝙊𝙊𝙏, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

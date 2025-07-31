@@ -1,0 +1,193 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙀𝘼𝙍𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+entropy_info: None
+----------
+The bot originally chose: TRADE 
+The top ten guesses and scores: [('TRADE', 48), ('TREAD', 48), ('TEARY', 47), ('TIARE', 47), ('TRACE', 47), ('TRAPE', 47), ('TRAVE', 47), ('TREFA', 47), ('TREMA', 47), ('TETRA', 46)]
+The bot finally chose: TRADE 
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: TEARY 
+The top ten guesses and scores: [('TEARY', 5)]
+The bot finally chose: TEARY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨
+Guess: 𝙏𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙀𝘼𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADE with entropy: 2.5949
+Bot chose: TRADE with entropy: 2.5949
+Top ten guesses: [('TRADE', 2.5949066182439395), ('TREAD', 2.413088436425758), ('TREAT', 2.3685225277282065), ('TREFA', 2.3685225277282065), ('TREMA', 2.3685225277282065), ('TRACE', 2.2998963911678914), ('TRAPE', 2.2998963911678914), ('TRAVE', 2.2998963911678914), ('TETRA', 2.222191575506678), ('TEARY', 2.004886164091843)]
+
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.5949066182439395}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TEARY with entropy: 0.0000
+Bot chose: TEARY with entropy: 0.0000
+Top ten guesses: [('TEARY', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨, Prior Entropy: 3.459, Expected Info Gain: 2.595 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙀𝘼𝙍𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TRADE with entropy: 2.5949
+Bot chose: TRADE with entropy: 2.5949
+Top ten guesses: [('TRADE', 2.5949066182439395), ('TREAD', 2.413088436425758), ('TREAT', 2.3685225277282065), ('TREFA', 2.3685225277282065), ('TREMA', 2.3685225277282065), ('TRACE', 2.2998963911678914), ('TRAPE', 2.2998963911678914), ('TRAVE', 2.2998963911678914), ('TETRA', 2.222191575506678), ('TEARY', 2.004886164091843)]
+
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.5949066182439395}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TEARY with entropy: 0.0000
+Bot chose: TEARY with entropy: 0.0000
+Top ten guesses: [('TEARY', 0.0)]
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨, Prior Entropy: 3.459, Expected Info Gain: 2.595 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝘼𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 11 potential guesses from 11 remaining candidates...
+Top 5 guesses: [('TRADE', '2.595'), ('TREAD', '2.413'), ('TREAT', '2.369'), ('TREFA', '2.369'), ('TREMA', '2.369')]
+Top entropy choice: 𝙏𝙍𝘼𝘿𝙀 with entropy: 2.5949
+Ended up choosing COMMON word: 𝙏𝙍𝘼𝘿𝙀 with entropy: 2.5949
+
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨
+Actual Info Gain: 3.4594 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 0.0, 'actual_info_gain': 3.4594316186372973, 'expected_info_gain': 2.5949066182439395}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('TEARY', '0.000')]
+Top entropy choice: 𝙏𝙀𝘼𝙍𝙔 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙏𝙀𝘼𝙍𝙔 with entropy: 0.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝙏𝙍𝘼𝘿𝙀, Feedback: 🟩🟨🟩⬜🟨, Prior Entropy: 3.459, Expected Info Gain: 2.595 bits, Actual Info Gain: 3.459 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙀𝘼𝙍𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜
+Actual Info Gain: 10.3992 bits
+Posterior entropy: 3.4594316186372973
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.4594316186372973, 'actual_info_gain': 10.399229366085478, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEARY', 'TETRA', 'TIARE', 'TRACE', 'TRADE', 'TRAPE', 'TRAVE', 'TREAD', 'TREAT', 'TREFA', 'TREMA']
+11 candidate words remaining.
+Top 10 guesses: [('DRAFT', '2.845'), ('DRAMA', '2.845'), ('DRAPE', '2.845'), ('DRAPY', '2.845'), ('DRAVE', '2.845'), ('FEARD', '2.845'), ('CADRE', '2.664'), ('CHARD', '2.664'), ('CRAFT', '2.664'), ('CRAMP', '2.664')]
+Top entropy choice: 𝘿𝙍𝘼𝙁𝙏 with entropy: 2.8454
+Guess count low, choosing the word with highest entropy: 𝘿𝙍𝘼𝙁𝙏 with entropy: 2.8454
+
+Guess: 𝘿𝙍𝘼𝙁𝙏, Feedback: ⬜🟨🟩⬜🟨
+Actual Info Gain: 2.4594 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 3.4594316186372973, 'posterior_entropy': 1.0, 'actual_info_gain': 2.4594316186372973, 'expected_info_gain': 2.845350936622437}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TEARY', 'TIARE']
+2 candidate words remaining.
+Top 10 guesses: [('TEARY', '1.000'), ('TIARE', '1.000')]
+Top entropy choice: 𝙏𝙀𝘼𝙍𝙔 with entropy: 1.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝙀𝘼𝙍𝙔 with entropy: 1.0000
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟨🟨🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.399 bits, Posterior Entropy: 3.459, 
+Guess: 𝘿𝙍𝘼𝙁𝙏, Feedback: ⬜🟨🟩⬜🟨, Prior Entropy: 3.459, Expected Info Gain: 2.845 bits, Actual Info Gain: 2.459 bits, Posterior Entropy: 1.000, 
+Guess: 𝙏𝙀𝘼𝙍𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

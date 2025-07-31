@@ -1,0 +1,162 @@
+Testing bot: WordleBot
+___ Testing word: 𝙏𝘼𝙆𝙀𝙍 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+entropy_info: None
+----------
+The bot originally chose: TABER 
+The top ten guesses and scores: [('TABER', 38), ('TAKER', 38), ('TALER', 38), ('TAMER', 38), ('TAPER', 38), ('TAVER', 38), ('TAWER', 38), ('TAXER', 38), ('TATER', 37)]
+The bot finally chose: TAKER 
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+Guess: 𝙏𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝘼𝙆𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABER with entropy: 0.5033
+Bot chose: TAKER with entropy: 0.5033
+Top ten guesses: [('TABER', 0.5032583347756457), ('TAKER', 0.5032583347756457), ('TALER', 0.5032583347756457), ('TAMER', 0.5032583347756457), ('TAPER', 0.5032583347756457), ('TATER', 0.5032583347756457), ('TAVER', 0.5032583347756457), ('TAWER', 0.5032583347756457), ('TAXER', 0.5032583347756457)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙆𝙀𝙍 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: TABER with entropy: 0.5033
+Bot chose: TAKER with entropy: 0.5033
+Top ten guesses: [('TABER', 0.5032583347756457), ('TAKER', 0.5032583347756457), ('TALER', 0.5032583347756457), ('TAMER', 0.5032583347756457), ('TAPER', 0.5032583347756457), ('TATER', 0.5032583347756457), ('TAVER', 0.5032583347756457), ('TAWER', 0.5032583347756457), ('TAXER', 0.5032583347756457)]
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙆𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 9 potential guesses from 9 remaining candidates...
+Top 5 guesses: [('TABER', '0.503'), ('TAKER', '0.503'), ('TALER', '0.503'), ('TAMER', '0.503'), ('TAPER', '0.503')]
+Top entropy choice: 𝙏𝘼𝘽𝙀𝙍 with entropy: 0.5033
+Ended up choosing COMMON word: 𝙏𝘼𝙆𝙀𝙍 with entropy: 0.5033
+You won! Amount of guesses: 2
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝙏𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝘼𝙆𝙀𝙍 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜
+Actual Info Gain: 10.6887 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 10.688735983280464, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TABER', 'TAKER', 'TALER', 'TAMER', 'TAPER', 'TATER', 'TAVER', 'TAWER', 'TAXER']
+9 candidate words remaining.
+Top 10 guesses: [('BLIMP', '1.880'), ('PLOMB', '1.880'), ('PLUMB', '1.880'), ('BALKS', '1.447'), ('BALKY', '1.447'), ('BAULK', '1.447'), ('BILKS', '1.447'), ('BLACK', '1.447'), ('BLANK', '1.447'), ('BLEAK', '1.447')]
+Top entropy choice: 𝘽𝙇𝙄𝙈𝙋 with entropy: 1.8800
+Guess count low, choosing the word with highest entropy: 𝘽𝙇𝙄𝙈𝙋 with entropy: 1.8800
+
+Guess: 𝘽𝙇𝙄𝙈𝙋, Feedback: ⬜⬜⬜⬜⬜
+Actual Info Gain: 0.8480 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.84799690655495, 'expected_info_gain': 1.8799649487271108}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAKER', 'TATER', 'TAVER', 'TAWER', 'TAXER']
+5 candidate words remaining.
+Top 10 guesses: [('KOTOW', '1.922'), ('TWIXT', '1.922'), ('VITEX', '1.922'), ('ADVEW', '1.371'), ('ASKEW', '1.371'), ('AVOWS', '1.371'), ('AWAKE', '1.371'), ('AWAVE', '1.371'), ('AWKIN', '1.371'), ('AWOKE', '1.371')]
+Top entropy choice: 𝙆𝙊𝙏𝙊𝙒 with entropy: 1.9219
+
+Guess: 𝙆𝙊𝙏𝙊𝙒, Feedback: 🟨⬜🟨⬜⬜
+Actual Info Gain: 2.3219 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 0.0, 'actual_info_gain': 2.321928094887362, 'expected_info_gain': 1.9219280948873623}
+----------
+The bot is making a guess...
+THe possible candidates are: ['TAKER']
+1 candidate words remaining.
+Top 10 guesses: [('TAKER', '0.000')]
+Top entropy choice: 𝙏𝘼𝙆𝙀𝙍 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙏𝘼𝙆𝙀𝙍 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩🟩🟨🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 10.689 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙇𝙄𝙈𝙋, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 3.170, Expected Info Gain: 1.880 bits, Actual Info Gain: 0.848 bits, Posterior Entropy: 2.322, 
+Guess: 𝙆𝙊𝙏𝙊𝙒, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 2.322, Expected Info Gain: 1.922 bits, Actual Info Gain: 2.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝘼𝙆𝙀𝙍, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

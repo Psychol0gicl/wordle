@@ -1,0 +1,305 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙐𝘿𝙂𝙀 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+entropy_info: None
+----------
+The bot originally chose: ELOIN 
+The top ten guesses and scores: [('ELOIN', 2101), ('OLEIN', 2101), ('DOLIE', 2019), ('EOLID', 2019), ('OLDIE', 2019), ('LOGIE', 2010), ('MOILE', 2008), ('MOLIE', 2008), ('LOCIE', 1996), ('OLEIC', 1996)]
+The bot finally chose: OLDIE 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+entropy_info: None
+----------
+The bot originally chose: NUDGE 
+The top ten guesses and scores: [('NUDGE', 50), ('BUDGE', 49), ('FUDGE', 48), ('JUDGE', 48), ('MUDGE', 48), ('PUDGE', 48), ('ENDUE', 41), ('UNDUE', 41), ('HEDGE', 39), ('KEDGE', 39)]
+The bot finally chose: NUDGE 
+Guess: 𝙉𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: BUDGE 
+The top ten guesses and scores: [('BUDGE', 21), ('FUDGE', 21), ('JUDGE', 21), ('MUDGE', 21), ('PUDGE', 21)]
+The bot finally chose: BUDGE 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FUDGE 
+The top ten guesses and scores: [('FUDGE', 17), ('JUDGE', 17), ('MUDGE', 17), ('PUDGE', 17)]
+The bot finally chose: FUDGE 
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+Guess: 𝙉𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙐𝘿𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.2869 bits
+Posterior entropy: 9.571752643503546
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.571752643503546, 'actual_info_gain': 4.286908341219231, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.4866
+Bot chose: OLDIE with entropy: 5.3935
+Top ten guesses: [('DOLIE', 5.486581169335224), ('MOILE', 5.4031970401178295), ('OLDIE', 5.393542398663755), ('MOLIE', 5.385878766922367), ('LEONE', 5.379238920643907), ('MONIE', 5.314541501458006), ('LOGIE', 5.295400383003281), ('LOCIE', 5.279543569148563), ('GENIE', 5.277395730490023), ('BELIE', 5.258100917838008)]
+
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 5.9868 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 9.571752643503546, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.9867901427823895, 'expected_info_gain': 5.393542398663755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HEDGE with entropy: 2.1258
+Bot chose: HEDGE with entropy: 2.1258
+Top ten guesses: [('HEDGE', 2.125814583693911), ('KEDGE', 2.125814583693911), ('WEDGE', 2.125814583693911), ('BUDGE', 2.054585169337799), ('FUDGE', 2.054585169337799), ('JUDGE', 2.054585169337799), ('MUDGE', 2.054585169337799), ('NUDGE', 2.054585169337799), ('PUDGE', 2.054585169337799), ('ENDUE', 1.9508257945180885)]
+
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUDGE with entropy: 0.6500
+Bot chose: BUDGE with entropy: 0.6500
+Top ten guesses: [('BUDGE', 0.6500224216483541), ('FUDGE', 0.6500224216483541), ('JUDGE', 0.6500224216483541), ('MUDGE', 0.6500224216483541), ('NUDGE', 0.6500224216483541), ('PUDGE', 0.6500224216483541)]
+
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FUDGE with entropy: 0.7219
+Bot chose: FUDGE with entropy: 0.7219
+Top ten guesses: [('FUDGE', 0.7219280948873623), ('JUDGE', 0.7219280948873623), ('MUDGE', 0.7219280948873623), ('NUDGE', 0.7219280948873623), ('PUDGE', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 5.987 bits, Posterior Entropy: 3.585, 
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙐𝘿𝙂𝙀 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.2869 bits
+Posterior entropy: 9.571752643503546
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.571752643503546, 'actual_info_gain': 4.286908341219231, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: DOLIE with entropy: 5.4866
+Bot chose: OLDIE with entropy: 5.3935
+Top ten guesses: [('DOLIE', 5.486581169335224), ('MOILE', 5.4031970401178295), ('OLDIE', 5.393542398663755), ('MOLIE', 5.385878766922367), ('LEONE', 5.379238920643907), ('MONIE', 5.314541501458006), ('LOGIE', 5.295400383003281), ('LOCIE', 5.279543569148563), ('GENIE', 5.277395730490023), ('BELIE', 5.258100917838008)]
+
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩
+Actual Info Gain: 5.9868 bits
+Posterior entropy: 3.584962500721156
+entropy_info: {'prior_entropy': 9.571752643503546, 'posterior_entropy': 3.584962500721156, 'actual_info_gain': 5.9867901427823895, 'expected_info_gain': 5.393542398663755}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: HEDGE with entropy: 2.1258
+Bot chose: HEDGE with entropy: 2.1258
+Top ten guesses: [('HEDGE', 2.125814583693911), ('KEDGE', 2.125814583693911), ('WEDGE', 2.125814583693911), ('BUDGE', 2.054585169337799), ('FUDGE', 2.054585169337799), ('JUDGE', 2.054585169337799), ('MUDGE', 2.054585169337799), ('NUDGE', 2.054585169337799), ('PUDGE', 2.054585169337799), ('ENDUE', 1.9508257945180885)]
+
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 3.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 1.0, 'expected_info_gain': 2.125814583693911}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BUDGE with entropy: 0.6500
+Bot chose: BUDGE with entropy: 0.6500
+Top ten guesses: [('BUDGE', 0.6500224216483541), ('FUDGE', 0.6500224216483541), ('JUDGE', 0.6500224216483541), ('MUDGE', 0.6500224216483541), ('NUDGE', 0.6500224216483541), ('PUDGE', 0.6500224216483541)]
+
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.2630 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 0.2630344058337939, 'expected_info_gain': 0.6500224216483541}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: FUDGE with entropy: 0.7219
+Bot chose: FUDGE with entropy: 0.7219
+Top ten guesses: [('FUDGE', 0.7219280948873623), ('JUDGE', 0.7219280948873623), ('MUDGE', 0.7219280948873623), ('NUDGE', 0.7219280948873623), ('PUDGE', 0.7219280948873623)]
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝙊𝙇𝘿𝙄𝙀, Feedback: ⬜⬜🟩⬜🟩, Prior Entropy: 9.572, Expected Info Gain: 5.394 bits, Actual Info Gain: 5.987 bits, Posterior Entropy: 3.585, 
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.585, Expected Info Gain: 2.126 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.585, Expected Info Gain: 0.650 bits, Actual Info Gain: 0.263 bits, Posterior Entropy: 2.322, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝘿𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.2869 bits
+Posterior entropy: 9.571752643503546
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.571752643503546, 'actual_info_gain': 4.286908341219231, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 495 potential guesses from 761 remaining candidates...
+Top 5 guesses: [('DOLIE', '5.487'), ('BELIE', '5.258'), ('BONIE', '5.245'), ('DOING', '5.234'), ('CLINE', '5.224')]
+Top entropy choice: 𝘿𝙊𝙇𝙄𝙀 with entropy: 5.4866
+Ended up choosing COMMON word: 𝘿𝙊𝙄𝙉𝙂 with entropy: 5.2344
+
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜🟨
+Actual Info Gain: 5.6649 bits
+Posterior entropy: 3.9068905956085187
+entropy_info: {'prior_entropy': 9.571752643503546, 'posterior_entropy': 3.9068905956085187, 'actual_info_gain': 5.664862047895027, 'expected_info_gain': 5.234405672522104}
+----------
+The bot is making a guess...
+Evaluating 15 potential guesses from 15 remaining candidates...
+Top 5 guesses: [('HEDGE', '2.499'), ('HEDGY', '2.499'), ('GLEDE', '2.499'), ('KEDGE', '2.499'), ('KEDGY', '2.499')]
+Top entropy choice: 𝙃𝙀𝘿𝙂𝙀 with entropy: 2.4989
+Ended up choosing COMMON word: 𝙃𝙀𝘿𝙂𝙀 with entropy: 2.4989
+
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩
+Actual Info Gain: 1.5850 bits
+Posterior entropy: 2.321928094887362
+entropy_info: {'prior_entropy': 3.9068905956085187, 'posterior_entropy': 2.321928094887362, 'actual_info_gain': 1.5849625007211565, 'expected_info_gain': 2.4989295636909357}
+----------
+The bot is making a guess...
+Evaluating 5 potential guesses from 5 remaining candidates...
+Top 5 guesses: [('BUDGE', '0.722'), ('FUDGE', '0.722'), ('JUDGE', '0.722'), ('MUDGE', '0.722'), ('PUDGE', '0.722')]
+Top entropy choice: 𝘽𝙐𝘿𝙂𝙀 with entropy: 0.7219
+Ended up choosing COMMON word: 𝘽𝙐𝘿𝙂𝙀 with entropy: 0.7219
+
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩
+Actual Info Gain: 0.3219 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.321928094887362, 'posterior_entropy': 2.0, 'actual_info_gain': 0.3219280948873622, 'expected_info_gain': 0.7219280948873623}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('FUDGE', '0.811'), ('JUDGE', '0.811'), ('MUDGE', '0.811'), ('PUDGE', '0.811')]
+Top entropy choice: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.8113
+Ended up choosing COMMON word: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.8113
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙊𝙄𝙉𝙂, Feedback: 🟨⬜⬜⬜🟨, Prior Entropy: 9.572, Expected Info Gain: 5.234 bits, Actual Info Gain: 5.665 bits, Posterior Entropy: 3.907, 
+Guess: 𝙃𝙀𝘿𝙂𝙀, Feedback: ⬜⬜🟩🟩🟩, Prior Entropy: 3.907, Expected Info Gain: 2.499 bits, Actual Info Gain: 1.585 bits, Posterior Entropy: 2.322, 
+Guess: 𝘽𝙐𝘿𝙂𝙀, Feedback: ⬜🟩🟩🟩🟩, Prior Entropy: 2.322, Expected Info Gain: 0.722 bits, Actual Info Gain: 0.322 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙐𝘿𝙂𝙀 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜
+Actual Info Gain: 4.2869 bits
+Posterior entropy: 9.571752643503546
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 9.571752643503546, 'actual_info_gain': 4.286908341219231, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEBOP', 'BECKE', 'BEDIM', 'BEDYE', 'BEECH', 'BEEDI', 'BEEFY', 'BEFOG', 'BEGIN', 'BEGOB', 'BEGUM', 'BEGUN', 'BEIGE', 'BEIGY', 'BEING', 'BELCH', 'BELIE', 'BELLE', 'BELLI', 'BELLO', 'BELLY', 'BELON', 'BELOW', 'BELVE', 'BEMIX', 'BEMUD', 'BENCH', 'BENDY', 'BENJI', 'BENNE', 'BENNI', 'BENNY', 'BEVUE', 'BEVVY', 'BEWDY', 'BEWIG', 'BEZIL', 'BEZZY', 'BIBLE', 'BIELD', 'BIKIE', 'BILGE', 'BINGE', 'BIOME', 'BLECH', 'BLEND', 'BLIVE', 'BLOKE', 'BLUDE', 'BLUME', 'BLYPE', 'BOCCE', 'BOCHE', 'BODGE', 'BODLE', 'BOEUF', 'BOGIE', 'BOGLE', 'BOGUE', 'BOMBE', 'BONCE', 'BONIE', 'BONNE', 'BONZE', 'BOOZE', 'BOUGE', 'BOULE', 'BOWIE', 'BOWNE', 'BUBBE', 'BUDGE', 'BUFFE', 'BUGLE', 'BULGE', 'BUNCE', 'BUNDE', 'BUNJE', 'CEBID', 'CECUM', 'CEILI', 'CELLI', 'CELLO', 'CELLY', 'CELOM', 'CEZVE', 'CHECK', 'CHEDI', 'CHELP', 'CHEMO', 'CHEVY', 'CHEWY', 'CHIDE', 'CHILE', 'CHIME', 'CHINE', 'CHIVE', 'CHODE', 'CHOKE', 'CHYLE', 'CHYME', 'CIVIE', 'CLECK', 'CLEIK', 'CLEPE', 'CLEVE', 'CLIME', 'CLINE', 'CLIPE', 'CLOKE', 'CLONE', 'CLOVE', 'CLOYE', 'CLOZE', 'CLYPE', 'COBLE', 'COGIE', 'COGUE', 'COHOE', 'COLLE', 'COMBE', 'COMME', 'CONGE', 'CONNE', 'COOZE', 'COUDE', 'COUPE', 'COZIE', 'CYCLE', 'DEBBY', 'DEBUD', 'DEBUG', 'DEBYE', 'DECIM', 'DECKO', 'DECOY', 'DECYL', 'DEEDY', 'DEELY', 'DEEVE', 'DEFFO', 'DEFOG', 'DEGUM', 'DEICE', 'DEIFY', 'DEIGN', 'DEINK', 'DEKKO', 'DELLY', 'DELPH', 'DELVE', 'DEMIC', 'DEMOB', 'DEMOI', 'DEMON', 'DENCH', 'DENIM', 'DEOCH', 'DEOXY', 'DEUCE', 'DEVIL', 'DEVON', 'DEXIE', 'DHOLE', 'DIDIE', 'DIENE', 'DINGE', 'DIODE', 'DIXIE', 'DOBIE', 'DOBLE', 'DODGE', 'DOGIE', 'DOLCE', 'DOLIE', 'DONNE', 'DOOCE', 'DOOLE', 'DOPPE', 'DOUCE', 'DOVIE', 'DOWIE', 'DOWLE', 'DOXIE', 'DULCE', 'DUNCE', 'DUPLE', 'DWELL', 'DWILE', 'DWINE', 'EBENE', 'EBIKE', 'EBONY', 'EBOOK', 'ECOLE', 'EDIFY', 'EDILE', 'EDUCE', 'EHING', 'EIGNE', 'EIKON', 'EJIDO', 'EKING', 'ELBOW', 'ELCHI', 'ELDIN', 'ELEGY', 'ELEMI', 'ELFIN', 'ELIDE', 'ELOGE', 'ELOGY', 'ELOIN', 'ELOPE', 'ELUDE', 'EMBOG', 'EMBOW', 'EMBOX', 'EMEND', 'EMOJI', 'EMONG', 'EMOVE', 'EMULE', 'EMYDE', 'ENDOW', 'ENDUE', 'ENEMY', 'ENFIX', 'ENJOY', 'ENNOG', 'ENNUI', 'ENOKI', 'ENVOI', 'ENVOY', 'ENZYM', 'EOLID', 'EPENE', 'EPHOD', 'EPOCH', 'EPODE', 'EPOXY', 'EPPIE', 'EQUID', 'EQUIP', 'EVHOE', 'EVOHE', 'EVOKE', 'EWHOW', 'EXEME', 'EXFIL', 'EXILE', 'EXINE', 'EXING', 'EXODE', 'EXOME', 'EXUDE', 'EYING', 'EZINE', 'FEELY', 'FEEZE', 'FEHME', 'FEIGN', 'FELCH', 'FELID', 'FELIX', 'FELLY', 'FELON', 'FEMIC', 'FEMME', 'FEMMY', 'FENCE', 'FENDY', 'FENNY', 'FEOFF', 'FEYLY', 'FEZZY', 'FICHE', 'FIDGE', 'FIELD', 'FIEND', 'FILLE', 'FIQUE', 'FIXIE', 'FJELD', 'FLECK', 'FLEME', 'FLEXI', 'FLEXO', 'FLUKE', 'FLUME', 'FLYPE', 'FOEHN', 'FOGIE', 'FOGLE', 'FOLIE', 'FOULE', 'FOXIE', 'FOYLE', 'FOYNE', 'FUDGE', 'FUGIE', 'FUGLE', 'FUGUE', 'GECKO', 'GEEKY', 'GELID', 'GELLY', 'GEMMY', 'GENIC', 'GENIE', 'GENII', 'GENIN', 'GENIO', 'GENIP', 'GENNY', 'GENOM', 'GEODE', 'GEOID', 'GIGHE', 'GIGUE', 'GIMME', 'GINGE', 'GLEBE', 'GLEBY', 'GLEDE', 'GLIDE', 'GLIKE', 'GLIME', 'GLOBE', 'GLODE', 'GLOVE', 'GLOZE', 'GLUME', 'GNOME', 'GOBBE', 'GOLPE', 'GOUGE', 'GOYLE', 'GUIDE', 'GUILE', 'GUNGE', 'GUYLE', 'GWINE', 'GYELD', 'GYNIE', 'HEDGE', 'HEDGY', 'HEEDY', 'HEEZE', 'HEIGH', 'HELIO', 'HELIX', 'HELLO', 'HELLY', 'HELVE', 'HEMIC', 'HEMIN', 'HEMPY', 'HENCE', 'HENCH', 'HENGE', 'HENNY', 'HEUCH', 'HEUGH', 'HEWGH', 'HEXYL', 'HINGE', 'HOLME', 'HOMIE', 'HOMME', 'HOOVE', 'HOWBE', 'HOYLE', 'HYGGE', 'HYNDE', 'ICKLE', 'ILEUM', 'IMBUE', 'IMIDE', 'IMINE', 'INBYE', 'INCLE', 'INDIE', 'INDUE', 'INGLE', 'INKLE', 'INNIE', 'JEELY', 'JEEZE', 'JELLO', 'JELLY', 'JEMBE', 'JEMMY', 'JENNY', 'JEUNE', 'JEWIE', 'JINNE', 'JOLIE', 'JOULE', 'JUDGE', 'JUICE', 'JUVIE', 'KEBOB', 'KEDGE', 'KEDGY', 'KEECH', 'KEENO', 'KEEVE', 'KELIM', 'KELLY', 'KELPY', 'KEMBO', 'KEMPY', 'KENCH', 'KENDO', 'KEVIL', 'KIBBE', 'KIDGE', 'KIEVE', 'KLUGE', 'KNELL', 'KNIFE', 'KNIVE', 'KNOWE', 'KNULE', 'KOINE', 'KOPJE', 'KUBIE', 'KVELL', 'KYLIE', 'KYLOE', 'KYNDE', 'LECCY', 'LECHE', 'LEDGE', 'LEDGY', 'LEDUM', 'LEECH', 'LEEZE', 'LEGGE', 'LEGGO', 'LEGGY', 'LEGNO', 'LEMME', 'LEMON', 'LEONE', 'LEPID', 'LEUCH', 'LEUCO', 'LEUGH', 'LEVIN', 'LEZZO', 'LEZZY', 'LIEGE', 'LIEVE', 'LIGGE', 'LIGNE', 'LOCHE', 'LOCIE', 'LODGE', 'LOGIE', 'LOIPE', 'LONGE', 'LOOIE', 'LOUIE', 'LOUPE', 'LOVIE', 'LOWNE', 'LUMME', 'LUNGE', 'MBUBE', 'MEBBE', 'MECUM', 'MEDIC', 'MEDII', 'MEDIN', 'MEDLE', 'MEECH', 'MEIKO', 'MEINY', 'MELCH', 'MELIC', 'MELIK', 'MELOE', 'MELON', 'MEMIC', 'MENCE', 'MENGE', 'MENIL', 'MEZZE', 'MEZZO', 'MICHE', 'MIDGE', 'MIEUX', 'MIEVE', 'MILLE', 'MINCE', 'MINGE', 'MINKE', 'MIXIE', 'MNEME', 'MOBIE', 'MOBLE', 'MODGE', 'MOENI', 'MOGUE', 'MOILE', 'MOLIE', 'MOLLE', 'MOLUE', 'MOMIE', 'MOMME', 'MOMPE', 'MONDE', 'MONIE', 'MONPE', 'MOOVE', 'MOULE', 'MOVIE', 'MOWIE', 'MOXIE', 'MOYLE', 'MUDGE', 'MULIE', 'MUNGE', 'MVULE', 'MYOPE', 'NEBBY', 'NECHE', 'NEDDY', 'NEEDY', 'NEELD', 'NEELE', 'NEEMB', 'NEEZE', 'NEFIE', 'NEIGH', 'NEIVE', 'NELLY', 'NEMIC', 'NEUME', 'NEVVY', 'NEWIE', 'NEWLY', 'NEXIN', 'NEXUM', 'NGEGE', 'NICHE', 'NIECE', 'NIEVE', 'NIFLE', 'NIXIE', 'NOBLE', 'NOEME', 'NOLLE', 'NONCE', 'NOONE', 'NOOVE', 'NOULE', 'NUDGE', 'NUDIE', 'NUEVO', 'NUQUE', 'NYUZE', 'OBELI', 'OBOLE', 'ODEON', 'ODEUM', 'ODYLE', 'OFFIE', 'OGIVE', 'OHELO', 'OHONE', 'OJIME', 'OKOLE', 'OLDIE', 'OLEIC', 'OLEIN', 'OLEUM', 'OLEYL', 'OLIVE', 'OLLIE', 'ONELY', 'OOZIE', 'OOZLE', 'OPEPE', 'OPINE', 'OUCHE', 'OUNCE', 'OUPHE', 'OVINE', 'OVULE', 'OWCHE', 'OXEYE', 'OXIDE', 'OXIME', 'OXINE', 'OZEKI', 'OZONE', 'OZZIE', 'PECKE', 'PECKY', 'PEDON', 'PEECE', 'PEEKY', 'PEELY', 'PEEOY', 'PEEPE', 'PEEPY', 'PEEVE', 'PEEVO', 'PEGGY', 'PEINE', 'PEIZE', 'PEKID', 'PEKIN', 'PEKOE', 'PELCH', 'PELOG', 'PELON', 'PENCE', 'PENDU', 'PENGO', 'PENIE', 'PENNE', 'PENNI', 'PENNY', 'PEONY', 'PEPLE', 'PEPON', 'PEPPY', 'PEQUI', 'PHEME', 'PHENE', 'PHEON', 'PHOBE', 'PHONE', 'PHYLE', 'PIECE', 'PIEND', 'PIEZO', 'PINCE', 'PINGE', 'PIOYE', 'PIQUE', 'PIXIE', 'PLEBE', 'PLECK', 'PLEIN', 'PLENE', 'PLENO', 'PLEON', 'PLEXI', 'PLOCE', 'PLOYE', 'PLUKE', 'PLUME', 'POCHE', 'PODGE', 'POGGE', 'POGUE', 'POKIE', 'POLJE', 'POMBE', 'POMME', 'PONCE', 'POOVE', 'POUCE', 'POUKE', 'POULE', 'POUPE', 'POWIE', 'PUDGE', 'PUMIE', 'PUNCE', 'PYXIE', 'QUECK', 'QUELL', 'QUEME', 'QUEUE', 'QUEYN', 'QUEYU', 'QUINE', 'ULYIE', 'ULZIE', 'UMBLE', 'UMPIE', 'UNCLE', 'UNDUE', 'UNODE', 'UPBYE', 'UPEND', 'VEGGO', 'VEGIE', 'VEHME', 'VEILY', 'VEINY', 'VELUM', 'VENDU', 'VENGE', 'VENIN', 'VENOM', 'VENUE', 'VEUVE', 'VEXIL', 'VIEUX', 'VIEWY', 'VILDE', 'VILLE', 'VOGIE', 'VOGUE', 'VOICE', 'VOILE', 'VOLKE', 'VOLVE', 'VOUGE', 'VYGIE', 'WEBBY', 'WEDGE', 'WEDGY', 'WEEDY', 'WEEKE', 'WEENY', 'WEEPY', 'WEIGH', 'WEIZE', 'WELCH', 'WELKE', 'WELLY', 'WENCH', 'WENGE', 'WENNY', 'WHELK', 'WHELM', 'WHELP', 'WHILE', 'WHINE', 'WHOLE', 'WIELD', 'WIFIE', 'WINCE', 'WINGE', 'WINZE', 'WODGE', 'WOLVE', 'XENIC', 'XENON', 'YECCH', 'YECHY', 'YEUCH', 'YEUKY', 'YIELD', 'YINCE', 'YLIDE', 'YLIKE', 'YODLE', 'YOWIE', 'ZEBUB', 'ZENDO', 'ZINKE', 'ZOLLE', 'ZOWIE']
+761 candidate words remaining.
+Top 10 guesses: [('DINLO', '5.536'), ('COLIN', '5.491'), ('DOLIE', '5.487'), ('NOILY', '5.417'), ('MOILE', '5.403'), ('OLDIE', '5.394'), ('DOILY', '5.388'), ('MOLIE', '5.386'), ('LEONE', '5.379'), ('LOGIN', '5.371')]
+Top entropy choice: 𝘿𝙄𝙉𝙇𝙊 with entropy: 5.5362
+Guess count low, choosing the word with highest entropy: 𝘿𝙄𝙉𝙇𝙊 with entropy: 5.5362
+
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: 🟨⬜⬜⬜⬜
+Actual Info Gain: 5.3238 bits
+Posterior entropy: 4.247927513443585
+entropy_info: {'prior_entropy': 9.571752643503546, 'posterior_entropy': 4.247927513443585, 'actual_info_gain': 5.32382513005996, 'expected_info_gain': 5.536189971336713}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BEDYE', 'BEMUD', 'BEWDY', 'BUDGE', 'EDUCE', 'EMYDE', 'EXUDE', 'FUDGE', 'HEDGE', 'HEDGY', 'HEEDY', 'JUDGE', 'KEDGE', 'KEDGY', 'MUDGE', 'PUDGE', 'WEDGE', 'WEDGY', 'WEEDY']
+19 candidate words remaining.
+Top 10 guesses: [('WEEPY', '3.511'), ('JEMBE', '3.432'), ('BEWDY', '3.426'), ('HEEDY', '3.426'), ('WEEDY', '3.426'), ('BEECH', '3.406'), ('FEHME', '3.392'), ('BEDEW', '3.366'), ('WEEMS', '3.366'), ('MEECH', '3.326')]
+Top entropy choice: 𝙒𝙀𝙀𝙋𝙔 with entropy: 3.5111
+Using common exploratory word: 𝘽𝙀𝙀𝘾𝙃 with entropy: 3.4058
+
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟨⬜⬜⬜
+Actual Info Gain: 2.2479 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 4.247927513443585, 'posterior_entropy': 2.0, 'actual_info_gain': 2.247927513443585, 'expected_info_gain': 5.536189971336713}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FUDGE', 'JUDGE', 'MUDGE', 'PUDGE']
+4 candidate words remaining.
+Top 10 guesses: [('FLIMP', '2.000'), ('FLUMP', '2.000'), ('FRUMP', '2.000'), ('JIMPY', '2.000'), ('JUMPS', '2.000'), ('JUMPY', '2.000'), ('ABAMP', '1.500'), ('AFLAJ', '1.500'), ('AFLAP', '1.500'), ('AFOAM', '1.500')]
+Top entropy choice: 𝙁𝙇𝙄𝙈𝙋 with entropy: 2.0000
+Using common exploratory word: 𝙅𝙐𝙈𝙋𝙔 with entropy: 2.0000
+
+Guess: 𝙅𝙐𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 0.0, 'actual_info_gain': 2.0, 'expected_info_gain': 5.536189971336713}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FUDGE']
+1 candidate words remaining.
+Top 10 guesses: [('FUDGE', '0.000')]
+Top entropy choice: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙐𝘿𝙂𝙀 with entropy: 0.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.287 bits, Posterior Entropy: 9.572, 
+Guess: 𝘿𝙄𝙉𝙇𝙊, Feedback: 🟨⬜⬜⬜⬜, Prior Entropy: 9.572, Expected Info Gain: 5.536 bits, Actual Info Gain: 5.324 bits, Posterior Entropy: 4.248, 
+Guess: 𝘽𝙀𝙀𝘾𝙃, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 4.248, Expected Info Gain: 5.536 bits, Actual Info Gain: 2.248 bits, Posterior Entropy: 2.000, 
+Guess: 𝙅𝙐𝙈𝙋𝙔, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 2.000, Expected Info Gain: 5.536 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙐𝘿𝙂𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

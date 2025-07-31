@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙒𝙄𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜🟩🟩⬜
+Guess: 𝙒𝙃𝙄𝙎𝙆, Feedback: 🟨🟨🟩🟩⬜
+Guess: 𝙎𝙒𝙄𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.838 bits, Posterior Entropy: 4.524, 
+Guess: 𝙎𝙃𝙄𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.410 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙄𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.838 bits, Posterior Entropy: 4.524, 
+Guess: 𝙎𝙃𝙄𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.410 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙄𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 3.838 bits, Posterior Entropy: 4.524, 
+Guess: 𝙎𝙃𝙄𝙉𝙔, Feedback: 🟩🟨🟩⬜⬜, Prior Entropy: 4.524, Expected Info Gain: 3.410 bits, Actual Info Gain: 4.524 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙄𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙒𝙄𝙎𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜🟩⬜⬜, Prior Entropy: 8.362, Expected Info Gain: 5.323 bits, Actual Info Gain: 4.274 bits, Posterior Entropy: 4.087, 
+Guess: 𝘾𝙃𝙐𝙉𝙆, Feedback: ⬜🟨⬜⬜⬜, Prior Entropy: 4.087, Expected Info Gain: 5.323 bits, Actual Info Gain: 4.087 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙒𝙄𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================

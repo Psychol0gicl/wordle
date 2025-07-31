@@ -1,0 +1,262 @@
+Testing bot: WordleBot
+___ Testing word: 𝙎𝙇𝙐𝙎𝙃 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+entropy_info: None
+----------
+The bot originally chose: SOILY 
+The top ten guesses and scores: [('SOILY', 931), ('NOISY', 911), ('LOUSY', 907), ('SOULY', 907), ('SHOYU', 897), ('OSLIN', 890), ('SPOIL', 882), ('NOSHI', 880), ('POUSY', 879), ('SOUPY', 879)]
+The bot finally chose: NOISY 
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟩⬜
+entropy_info: None
+----------
+The bot originally chose: BLUSH 
+The top ten guesses and scores: [('BLUSH', 44), ('MULSH', 44), ('FLUSH', 43), ('GHUSL', 43), ('PLUSH', 43), ('SLUSH', 42), ('SMUSH', 38), ('ZHUSH', 37), ('SHUSH', 36), ('BUSSU', 27)]
+The bot finally chose: BLUSH 
+Guess: 𝘽𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: FLUSH 
+The top ten guesses and scores: [('FLUSH', 14), ('PLUSH', 14), ('SLUSH', 13)]
+The bot finally chose: FLUSH 
+Guess: 𝙁𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: PLUSH 
+The top ten guesses and scores: [('PLUSH', 10), ('SLUSH', 9)]
+The bot finally chose: PLUSH 
+Guess: 𝙋𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+entropy_info: None
+----------
+The bot originally chose: SLUSH 
+The top ten guesses and scores: [('SLUSH', 5)]
+The bot finally chose: SLUSH 
+You won! Amount of guesses: 6
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Guess: 𝙉𝙊𝙄𝙎𝙔, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝘽𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙁𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙋𝙇𝙐𝙎𝙃, Feedback: ⬜🟩🟩🟩🟩
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙎𝙇𝙐𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILY with entropy: 5.3226
+Bot chose: SPOIL with entropy: 5.1834
+Top ten guesses: [('SOILY', 5.322573042242079), ('SHIOK', 5.192696288504197), ('SPOIL', 5.183403714967476), ('SHILY', 5.156675799126682), ('SOULY', 5.152179222526708), ('SLOPY', 5.093682000215184), ('SHINY', 5.09187995827306), ('SCION', 5.078213582419272), ('NOISY', 5.0780751492371135), ('SONLY', 5.0544306820772835)]
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 4.6615 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 4.661504055594149, 'expected_info_gain': 5.183403714967476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHULN with entropy: 3.2389
+Bot chose: SHULN with entropy: 3.2389
+Top ten guesses: [('SHULN', 3.238901256602631), ('SLUNK', 3.0269868333592873), ('SCULK', 2.931208948910323), ('SHYLY', 2.931208948910323), ('SKULK', 2.931208948910323), ('SLUNG', 2.8150724101159437), ('SLUSH', 2.7773627950641693), ('SHLUB', 2.6535442970305687), ('SLUBB', 2.5654483718208256), ('SLYLY', 2.4416298737872246)]
+
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.238901256602631}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLUSH with entropy: 0.0000
+Bot chose: SLUSH with entropy: 0.0000
+Top ten guesses: [('SLUSH', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.662 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.239 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙐𝙎𝙃 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SOILY with entropy: 5.3226
+Bot chose: SPOIL with entropy: 5.1834
+Top ten guesses: [('SOILY', 5.322573042242079), ('SHIOK', 5.192696288504197), ('SPOIL', 5.183403714967476), ('SHILY', 5.156675799126682), ('SOULY', 5.152179222526708), ('SLOPY', 5.093682000215184), ('SHINY', 5.09187995827306), ('SCION', 5.078213582419272), ('NOISY', 5.0780751492371135), ('SONLY', 5.0544306820772835)]
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 4.6615 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 4.661504055594149, 'expected_info_gain': 5.183403714967476}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SHULN with entropy: 3.2389
+Bot chose: SHULN with entropy: 3.2389
+Top ten guesses: [('SHULN', 3.238901256602631), ('SLUNK', 3.0269868333592873), ('SCULK', 2.931208948910323), ('SHYLY', 2.931208948910323), ('SKULK', 2.931208948910323), ('SLUNG', 2.8150724101159437), ('SLUSH', 2.7773627950641693), ('SHLUB', 2.6535442970305687), ('SLUBB', 2.5654483718208256), ('SLYLY', 2.4416298737872246)]
+
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.238901256602631}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: SLUSH with entropy: 0.0000
+Bot chose: SLUSH with entropy: 0.0000
+Top ten guesses: [('SLUSH', 0.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.662 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.239 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙐𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 498 potential guesses from 329 remaining candidates...
+Top 5 guesses: [('SOILY', '5.323'), ('SHIOK', '5.193'), ('SPOIL', '5.183'), ('SHILY', '5.157'), ('SOULY', '5.152')]
+Top entropy choice: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+Ended up choosing COMMON word: 𝙎𝙋𝙊𝙄𝙇 with entropy: 5.1834
+
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨
+Actual Info Gain: 4.6615 bits
+Posterior entropy: 3.700439718141092
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 3.700439718141092, 'actual_info_gain': 4.661504055594149, 'expected_info_gain': 5.183403714967476}
+----------
+The bot is making a guess...
+Evaluating 13 potential guesses from 13 remaining candidates...
+Top 5 guesses: [('SHULN', '3.239'), ('SLUNK', '3.027'), ('SCULK', '2.931'), ('SHYLY', '2.931'), ('SKULK', '2.931')]
+Top entropy choice: 𝙎𝙃𝙐𝙇𝙉 with entropy: 3.2389
+
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.700439718141092, 'posterior_entropy': 0.0, 'actual_info_gain': 3.700439718141092, 'expected_info_gain': 3.238901256602631}
+----------
+The bot is making a guess...
+Evaluating 1 potential guesses from 1 remaining candidates...
+Top 5 guesses: [('SLUSH', '0.000')]
+Top entropy choice: 𝙎𝙇𝙐𝙎𝙃 with entropy: 0.0000
+Ended up choosing COMMON word: 𝙎𝙇𝙐𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙋𝙊𝙄𝙇, Feedback: 🟩⬜⬜⬜🟨, Prior Entropy: 8.362, Expected Info Gain: 5.183 bits, Actual Info Gain: 4.662 bits, Posterior Entropy: 3.700, 
+Guess: 𝙎𝙃𝙐𝙇𝙉, Feedback: 🟩🟨🟩🟨⬜, Prior Entropy: 3.700, Expected Info Gain: 3.239 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙎𝙇𝙐𝙎𝙃 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨
+Actual Info Gain: 5.4967 bits
+Posterior entropy: 8.361943773735241
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 8.361943773735241, 'actual_info_gain': 5.496717210987535, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BISOM', 'BISON', 'BLUSH', 'BOSKY', 'BOSOM', 'BOSON', 'BOSSY', 'BOSUN', 'BOUSY', 'BOYSY', 'BUSBY', 'BUSHY', 'BUSKY', 'BUSSU', 'BYSSI', 'CISCO', 'CISSY', 'COPSY', 'CUISH', 'CUSHY', 'CUSPY', 'CUSSO', 'CUSUM', 'DIPSO', 'DISCI', 'DISCO', 'DISHY', 'DONSY', 'DSOBO', 'DSOMO', 'DUNSH', 'DUSKY', 'FISHO', 'FISHY', 'FLISK', 'FLOSH', 'FLUSH', 'FUBSY', 'FUNSY', 'FUSIL', 'FUSSY', 'GHUSL', 'GIPSY', 'GISMO', 'GLISK', 'GODSO', 'GOOSY', 'GUSHY', 'GUSLI', 'GUSSY', 'GYPSY', 'HISSY', 'HOOSH', 'HOWSO', 'HUSHY', 'HUSKY', 'HUSSY', 'HYSON', 'IMSHI', 'IMSHY', 'INSPO', 'KIOSK', 'KIPSY', 'KISSY', 'KNISH', 'KNOSP', 'KUSSO', 'LOSSY', 'LOUSY', 'LUSHY', 'LYSIN', 'LYSOL', 'MIMSY', 'MISCH', 'MISDO', 'MISGO', 'MISKY', 'MISSY', 'MOPSY', 'MOSSO', 'MOSSY', 'MOUSY', 'MULSH', 'MUMSY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSSY', 'MYSID', 'NISIN', 'NKOSI', 'NOISY', 'NOSHI', 'ODISM', 'OOPSY', 'OPSIN', 'OSKIN', 'OSLIN', 'OSMIC', 'OSMOL', 'OVISM', 'PHISH', 'PISCO', 'PISKY', 'PISSY', 'PLISH', 'PLUSH', 'POPSY', 'POSHO', 'POSOL', 'POUSY', 'POWSY', 'PSION', 'PSYCH', 'PSYOP', 'PUBSY', 'PUDSY', 'PUSHY', 'PUSSY', 'SCHIF', 'SCHMO', 'SCHUL', 'SCIFI', 'SCIND', 'SCION', 'SCLIM', 'SCODY', 'SCOFF', 'SCOLD', 'SCOOG', 'SCOOP', 'SCOUG', 'SCOUP', 'SCOWL', 'SCOWP', 'SCUDI', 'SCUDO', 'SCUFF', 'SCULK', 'SCULL', 'SCULP', 'SCUZZ', 'SHCHI', 'SHILL', 'SHILY', 'SHINY', 'SHIOK', 'SHISH', 'SHISO', 'SHLUB', 'SHOCK', 'SHOGI', 'SHOJI', 'SHOJO', 'SHONK', 'SHOOK', 'SHOOL', 'SHOON', 'SHOUD', 'SHOWD', 'SHOWN', 'SHOWY', 'SHOYU', 'SHUCK', 'SHULN', 'SHUSH', 'SHYLY', 'SIBYL', 'SICKO', 'SICKY', 'SIGIL', 'SILKY', 'SILLY', 'SIMUL', 'SINKY', 'SINSI', 'SIPPY', 'SISSY', 'SIXMO', 'SKIFF', 'SKILL', 'SKIMO', 'SKIMP', 'SKINK', 'SKIVY', 'SKLIM', 'SKODY', 'SKOFF', 'SKOOL', 'SKOSH', 'SKULK', 'SKULL', 'SKUNK', 'SLICK', 'SLILY', 'SLIMY', 'SLING', 'SLINK', 'SLISH', 'SLOID', 'SLOJD', 'SLOMO', 'SLOOM', 'SLOOP', 'SLOPY', 'SLOSH', 'SLOYD', 'SLUBB', 'SLUFF', 'SLUMP', 'SLUNG', 'SLUNK', 'SLUSH', 'SLYLY', 'SMICK', 'SMILY', 'SMOCK', 'SMOKO', 'SMOKY', 'SMUSH', 'SNICK', 'SNIFF', 'SNIPY', 'SNOOD', 'SNOOK', 'SNOOL', 'SNOOP', 'SNOWK', 'SNOWY', 'SNUCK', 'SNUFF', 'SNUSH', 'SOCKO', 'SODDY', 'SODIC', 'SODOM', 'SOGGY', 'SOILY', 'SOKOL', 'SOLDI', 'SOLDO', 'SOLID', 'SOLON', 'SOLUM', 'SONGO', 'SONGY', 'SONIC', 'SONLY', 'SONNY', 'SONSY', 'SOOKY', 'SOPHY', 'SOPPY', 'SOUGH', 'SOULY', 'SOUND', 'SOUPY', 'SOWFF', 'SOWND', 'SOYUZ', 'SOZIN', 'SPICK', 'SPICY', 'SPIFF', 'SPIKY', 'SPILL', 'SPINK', 'SPINY', 'SPLOG', 'SPOIL', 'SPOOF', 'SPOOK', 'SPOOL', 'SPOOM', 'SPOON', 'SPOSH', 'SPOSO', 'SPUMY', 'SPUNK', 'SQUIB', 'SQUID', 'SQUIZ', 'SUBBY', 'SUCCI', 'SUCKY', 'SUDSY', 'SUING', 'SUKUK', 'SULCI', 'SULFO', 'SULKY', 'SULLY', 'SULPH', 'SUMPH', 'SUNNY', 'SUNUP', 'SUSHI', 'SWILL', 'SWING', 'SWINK', 'SWISH', 'SWIZZ', 'SWOLL', 'SWOLN', 'SWOON', 'SWOOP', 'SWOUN', 'SWUNG', 'SYBIL', 'SYBOW', 'SYCON', 'SYLPH', 'SYNCH', 'SYNOD', 'SYSOP', 'UNSOD', 'UNSUB', 'USING', 'USNIC', 'VISON', 'WHISH', 'WHISK', 'WHOSO', 'WISPY', 'WOOSH', 'WUSHU', 'WUSSY', 'ZHUSH', 'ZOISM']
+329 candidate words remaining.
+Top 10 guesses: [('SOILY', '5.323'), ('NOILY', '5.322'), ('PIONY', '5.294'), ('PINOL', '5.237'), ('PILON', '5.236'), ('SHIOK', '5.193'), ('CHOIL', '5.184'), ('SPOIL', '5.183'), ('SHILY', '5.157'), ('SOULY', '5.152')]
+Top entropy choice: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+Guess count low, choosing the word with highest entropy: 𝙎𝙊𝙄𝙇𝙔 with entropy: 5.3226
+
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜⬜🟨⬜
+Actual Info Gain: 5.1920 bits
+Posterior entropy: 3.169925001442312
+entropy_info: {'prior_entropy': 8.361943773735241, 'posterior_entropy': 3.169925001442312, 'actual_info_gain': 5.192018772292929, 'expected_info_gain': 5.322573042242079}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SCHUL', 'SHLUB', 'SLUBB', 'SLUFF', 'SLUMP', 'SLUNG', 'SLUNK', 'SLUSH', 'SULPH']
+9 candidate words remaining.
+Top 10 guesses: [('BUNCH', '2.725'), ('BUNDH', '2.725'), ('MUNCH', '2.725'), ('PANCH', '2.725'), ('PHANG', '2.725'), ('PINCH', '2.725'), ('PUNCH', '2.725'), ('BOUGH', '2.642'), ('BRUGH', '2.642'), ('BUMPH', '2.642')]
+Top entropy choice: 𝘽𝙐𝙉𝘾𝙃 with entropy: 2.7255
+Using common exploratory word: 𝘽𝙐𝙉𝘾𝙃 with entropy: 2.7255
+
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: ⬜🟨⬜⬜🟩
+Actual Info Gain: 3.1699 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.169925001442312, 'posterior_entropy': 0.0, 'actual_info_gain': 3.169925001442312, 'expected_info_gain': 5.322573042242079}
+----------
+The bot is making a guess...
+THe possible candidates are: ['SLUSH']
+1 candidate words remaining.
+Top 10 guesses: [('SLUSH', '0.000')]
+Top entropy choice: 𝙎𝙇𝙐𝙎𝙃 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙎𝙇𝙐𝙎𝙃 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜🟨, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 5.497 bits, Posterior Entropy: 8.362, 
+Guess: 𝙎𝙊𝙄𝙇𝙔, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 8.362, Expected Info Gain: 5.323 bits, Actual Info Gain: 5.192 bits, Posterior Entropy: 3.170, 
+Guess: 𝘽𝙐𝙉𝘾𝙃, Feedback: ⬜🟨⬜⬜🟩, Prior Entropy: 3.170, Expected Info Gain: 5.323 bits, Actual Info Gain: 3.170 bits, Posterior Entropy: 0.000, 
+Guess: 𝙎𝙇𝙐𝙎𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

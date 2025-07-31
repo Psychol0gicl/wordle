@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙂𝙊𝙇𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜
+Guess: 𝙊𝙇𝘿𝙀𝙉, Feedback: 🟨🟨⬜🟩⬜
+Guess: 𝙇𝙊𝙑𝙀𝙔, Feedback: 🟨🟩⬜🟩⬜
+Guess: 𝙂𝙊𝙇𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙂𝙊𝙇𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 6.282 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙊𝙇𝙀𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙊𝙇𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙇𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙊𝙄𝙇𝙀𝘿, Feedback: 🟨⬜🟩🟩⬜, Prior Entropy: 8.867, Expected Info Gain: 4.384 bits, Actual Info Gain: 6.282 bits, Posterior Entropy: 2.585, 
+Guess: 𝙁𝙊𝙇𝙀𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙊𝙇𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙇𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙒𝙊𝙐𝙇𝘿, Feedback: ⬜🟩⬜🟨⬜, Prior Entropy: 8.867, Expected Info Gain: 4.464 bits, Actual Info Gain: 4.867 bits, Posterior Entropy: 4.000, 
+Guess: 𝙇𝙊𝙑𝙀𝙔, Feedback: 🟨🟩⬜🟩⬜, Prior Entropy: 4.000, Expected Info Gain: 2.899 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙂𝙊𝙇𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙂𝙊𝙇𝙀𝙈 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜🟩⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 4.991 bits, Posterior Entropy: 8.867, 
+Guess: 𝙄𝙉𝘿𝙊𝙇, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 8.867, Expected Info Gain: 4.933 bits, Actual Info Gain: 5.545 bits, Posterior Entropy: 3.322, 
+Guess: 𝙇𝙔𝙈𝙋𝙃, Feedback: 🟨⬜🟨⬜⬜, Prior Entropy: 3.322, Expected Info Gain: 4.933 bits, Actual Info Gain: 3.322 bits, Posterior Entropy: 0.000, 
+Guess: 𝙂𝙊𝙇𝙀𝙈, Feedback: 🟩🟩🟩🟩🟩
+===================================

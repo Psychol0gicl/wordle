@@ -1,0 +1,55 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙏𝙊𝙉𝙉𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩⬜⬜🟩🟩
+Guess: 𝙏𝙊𝙉𝙉𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙉𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 4.544 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙉𝙉𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙉𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙏𝙃𝙄𝙉𝙀, Feedback: 🟩⬜⬜🟩🟩, Prior Entropy: 6.129, Expected Info Gain: 4.141 bits, Actual Info Gain: 4.544 bits, Posterior Entropy: 1.585, 
+Guess: 𝙏𝙊𝙉𝙉𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙉𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝙋𝙃𝙊𝙉𝙀, Feedback: ⬜⬜🟨🟩🟩, Prior Entropy: 6.129, Expected Info Gain: 4.214 bits, Actual Info Gain: 6.129 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙊𝙉𝙉𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙏𝙊𝙉𝙉𝙀 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟩⬜⬜🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 7.729 bits, Posterior Entropy: 6.129, 
+Guess: 𝘾𝙃𝙄𝙉𝙊, Feedback: ⬜⬜⬜🟩🟨, Prior Entropy: 6.129, Expected Info Gain: 4.438 bits, Actual Info Gain: 6.129 bits, Posterior Entropy: 0.000, 
+Guess: 𝙏𝙊𝙉𝙉𝙀, Feedback: 🟩🟩🟩🟩🟩
+===================================

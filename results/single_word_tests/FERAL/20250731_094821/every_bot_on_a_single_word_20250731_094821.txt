@@ -1,0 +1,258 @@
+Testing bot: WordleBot
+___ Testing word: 𝙁𝙀𝙍𝘼𝙇 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+entropy_info: None
+----------
+The bot originally chose: AYRIE 
+The top ten guesses and scores: [('AYRIE', 86), ('NERAM', 86), ('DERMA', 85), ('PERAI', 85), ('BERAY', 84), ('DERAY', 84), ('FERIA', 84), ('HERMA', 84), ('KERMA', 84), ('MORAE', 84)]
+The bot finally chose: AYRIE 
+Guess: 𝘼𝙔𝙍𝙄𝙀, Feedback: 🟨⬜🟩⬜🟨
+entropy_info: None
+----------
+The bot originally chose: NERAM 
+The top ten guesses and scores: [('NERAM', 46), ('DERMA', 44), ('HERMA', 44), ('KERMA', 44), ('NERAL', 44), ('NERKA', 44), ('RERAN', 42), ('FERAL', 41), ('GERAH', 41), ('VERBA', 41)]
+The bot finally chose: NERAM 
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜
+entropy_info: None
+----------
+The bot originally chose: FERAL 
+The top ten guesses and scores: [('FERAL', 8), ('GERAH', 8)]
+The bot finally chose: FERAL 
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+Guess: 𝘼𝙔𝙍𝙄𝙀, Feedback: 🟨⬜🟩⬜🟨
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜
+Guess: 𝙁𝙀𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙁𝙀𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NERAM with entropy: 2.8385
+Bot chose: NERAM with entropy: 2.8385
+Top ten guesses: [('NERAM', 2.8384563773505884), ('DERMA', 2.6572682296173897), ('MORAE', 2.5825518169307426), ('DERAY', 2.5680303358642105), ('FERIA', 2.5680303358642105), ('NERAL', 2.5189704621597437), ('HERMA', 2.4846970025308774), ('PERAI', 2.4846970025308774), ('KERMA', 2.4685463540765222), ('RERAN', 2.4685463540765222)]
+
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.8384563773505884}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BERAY with entropy: 1.2516
+Bot chose: BERAY with entropy: 1.2516
+Top ten guesses: [('BERAY', 1.2516291673878228), ('DERAY', 1.2516291673878228), ('PERAE', 1.2516291673878228), ('PERAI', 1.2516291673878228), ('FERAL', 0.6500224216483541), ('GERAH', 0.6500224216483541)]
+
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PERAE with entropy: 1.5000
+Bot chose: FERAL with entropy: 0.8113
+Top ten guesses: [('PERAE', 1.5), ('PERAI', 1.5), ('FERAL', 0.8112781244591328), ('GERAH', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.585, Expected Info Gain: 2.838 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙀𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙍𝘼𝙇 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: NERAM with entropy: 2.8385
+Bot chose: NERAM with entropy: 2.8385
+Top ten guesses: [('NERAM', 2.8384563773505884), ('DERMA', 2.6572682296173897), ('MORAE', 2.5825518169307426), ('DERAY', 2.5680303358642105), ('FERIA', 2.5680303358642105), ('NERAL', 2.5189704621597437), ('HERMA', 2.4846970025308774), ('PERAI', 2.4846970025308774), ('KERMA', 2.4685463540765222), ('RERAN', 2.4685463540765222)]
+
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.8384563773505884}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: BERAY with entropy: 1.2516
+Bot chose: BERAY with entropy: 1.2516
+Top ten guesses: [('BERAY', 1.2516291673878228), ('DERAY', 1.2516291673878228), ('PERAE', 1.2516291673878228), ('PERAI', 1.2516291673878228), ('FERAL', 0.6500224216483541), ('GERAH', 0.6500224216483541)]
+
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 1.2516291673878228}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PERAE with entropy: 1.5000
+Bot chose: FERAL with entropy: 0.8113
+Top ten guesses: [('PERAE', 1.5), ('PERAI', 1.5), ('FERAL', 0.8112781244591328), ('GERAH', 0.8112781244591328)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.585, Expected Info Gain: 2.838 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙁𝙀𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙍𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Evaluating 24 potential guesses from 24 remaining candidates...
+Top 5 guesses: [('NERAM', '2.838'), ('DERMA', '2.657'), ('MORAE', '2.583'), ('DERAY', '2.568'), ('FERIA', '2.568')]
+Top entropy choice: 𝙉𝙀𝙍𝘼𝙈 with entropy: 2.8385
+
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 2.8384563773505884}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('BERAY', '1.252'), ('DERAY', '1.252'), ('PERAE', '1.252'), ('PERAI', '1.252'), ('FERAL', '0.650')]
+Top entropy choice: 𝘽𝙀𝙍𝘼𝙔 with entropy: 1.2516
+
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 0.5850 bits
+Posterior entropy: 2.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 2.0, 'actual_info_gain': 0.5849625007211561, 'expected_info_gain': 1.2516291673878228}
+----------
+The bot is making a guess...
+Evaluating 4 potential guesses from 4 remaining candidates...
+Top 5 guesses: [('PERAE', '1.500'), ('PERAI', '1.500'), ('FERAL', '0.811'), ('GERAH', '0.811')]
+Top entropy choice: 𝙋𝙀𝙍𝘼𝙀 with entropy: 1.5000
+
+Guess: 𝙋𝙀𝙍𝘼𝙀, Feedback: ⬜🟩🟩🟩⬜
+Actual Info Gain: 1.0000 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 2.0, 'posterior_entropy': 1.0, 'actual_info_gain': 1.0, 'expected_info_gain': 1.5}
+----------
+The bot is making a guess...
+Evaluating 2 potential guesses from 2 remaining candidates...
+Top 5 guesses: [('FERAL', '1.000'), ('GERAH', '1.000')]
+Top entropy choice: 𝙁𝙀𝙍𝘼𝙇 with entropy: 1.0000
+Ended up choosing COMMON word: 𝙁𝙀𝙍𝘼𝙇 with entropy: 1.0000
+You won! Amount of guesses: 5
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙉𝙀𝙍𝘼𝙈, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 4.585, Expected Info Gain: 2.838 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘽𝙀𝙍𝘼𝙔, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.585, Expected Info Gain: 1.252 bits, Actual Info Gain: 0.585 bits, Posterior Entropy: 2.000, 
+Guess: 𝙋𝙀𝙍𝘼𝙀, Feedback: ⬜🟩🟩🟩⬜, Prior Entropy: 2.000, Expected Info Gain: 1.500 bits, Actual Info Gain: 1.000 bits, Posterior Entropy: 1.000, 
+Guess: 𝙁𝙀𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙁𝙀𝙍𝘼𝙇 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜
+Actual Info Gain: 9.2737 bits
+Posterior entropy: 4.584962500721156
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 4.584962500721156, 'actual_info_gain': 9.27369848400162, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AERIE', 'AURAE', 'AYRIE', 'BERAY', 'CERIA', 'DERAY', 'DERMA', 'FERAL', 'FERIA', 'GERAH', 'HERMA', 'KERMA', 'MORAE', 'NERAL', 'NERAM', 'NERKA', 'PERAE', 'PERAI', 'PORAE', 'RERAN', 'VERBA', 'VERRA', 'YERBA', 'ZERDA']
+24 candidate words remaining.
+Top 10 guesses: [('MEDIA', '3.355'), ('ADMAN', '3.288'), ('DEMAN', '3.288'), ('MINAE', '3.272'), ('AMBAN', '3.241'), ('MEDIN', '3.235'), ('BEDIM', '3.235'), ('MENAD', '3.205'), ('BEMAD', '3.205'), ('MYNAH', '3.205')]
+Top entropy choice: 𝙈𝙀𝘿𝙄𝘼 with entropy: 3.3554
+Guess count low, choosing the word with highest entropy: 𝙈𝙀𝘿𝙄𝘼 with entropy: 3.3554
+
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: ⬜🟩⬜⬜🟨
+Actual Info Gain: 2.0000 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 4.584962500721156, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 2.0, 'expected_info_gain': 3.355388542207534}
+----------
+The bot is making a guess...
+THe possible candidates are: ['BERAY', 'FERAL', 'GERAH', 'NERAL', 'PERAE', 'RERAN']
+6 candidate words remaining.
+Top 10 guesses: [('ANGLE', '2.585'), ('BLING', '2.585'), ('HEBEN', '2.585'), ('INGLE', '2.585'), ('LABNE', '2.585'), ('LEBEN', '2.585'), ('LIGNE', '2.585'), ('LINGY', '2.585'), ('LONGE', '2.585'), ('LUNGE', '2.585')]
+Top entropy choice: 𝘼𝙉𝙂𝙇𝙀 with entropy: 2.5850
+Using common exploratory word: 𝘼𝙉𝙂𝙇𝙀 with entropy: 2.5850
+
+Guess: 𝘼𝙉𝙂𝙇𝙀, Feedback: 🟨⬜⬜🟨🟨
+Actual Info Gain: 2.5850 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 2.584962500721156, 'posterior_entropy': 0.0, 'actual_info_gain': 2.584962500721156, 'expected_info_gain': 3.355388542207534}
+----------
+The bot is making a guess...
+THe possible candidates are: ['FERAL']
+1 candidate words remaining.
+Top 10 guesses: [('FERAL', '0.000')]
+Top entropy choice: 𝙁𝙀𝙍𝘼𝙇 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝙁𝙀𝙍𝘼𝙇 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜🟨🟩🟨⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 9.274 bits, Posterior Entropy: 4.585, 
+Guess: 𝙈𝙀𝘿𝙄𝘼, Feedback: ⬜🟩⬜⬜🟨, Prior Entropy: 4.585, Expected Info Gain: 3.355 bits, Actual Info Gain: 2.000 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙉𝙂𝙇𝙀, Feedback: 🟨⬜⬜🟨🟨, Prior Entropy: 2.585, Expected Info Gain: 3.355 bits, Actual Info Gain: 2.585 bits, Posterior Entropy: 0.000, 
+Guess: 𝙁𝙀𝙍𝘼𝙇, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

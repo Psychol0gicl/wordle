@@ -1,0 +1,231 @@
+Testing bot: WordleBot
+___ Testing word: 𝘼𝙐𝙉𝙏𝙔 ___
+
+First Starting word: 'TARES' (Best starting word for catching common words)
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+entropy_info: None
+----------
+The bot originally chose: COATI 
+The top ten guesses and scores: [('COATI', 479), ('NOTAL', 475), ('ONTAL', 475), ('POTAI', 473), ('NITAL', 472), ('DIOTA', 467), ('OCTAL', 466), ('BIOTA', 464), ('ACTON', 463), ('CITAL', 463)]
+The bot finally chose: ACTON 
+Guess: 𝘼𝘾𝙏𝙊𝙉, Feedback: 🟩⬜🟨⬜🟨
+entropy_info: None
+----------
+The bot originally chose: AHINT 
+The top ten guesses and scores: [('AHINT', 26), ('AUNTY', 26), ('ALANT', 25), ('AVANT', 25), ('ANATA', 24), ('ANNAT', 24)]
+The bot finally chose: AUNTY 
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Guess: 𝘼𝘾𝙏𝙊𝙉, Feedback: 🟩⬜🟨⬜🟨
+Guess: 𝘼𝙐𝙉𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: WordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝘼𝙐𝙉𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALANT with entropy: 4.5717
+Bot chose: GLOAT with entropy: 4.3509
+Top ten guesses: [('ALANT', 4.571651115072408), ('NOTAL', 4.482910809959065), ('NITAL', 4.453027539393744), ('PLOAT', 4.438089442709223), ('POTAI', 4.406341279042276), ('COATI', 4.376431008152728), ('AHINT', 4.363842577270509), ('GLOAT', 4.350891981432824), ('ONTAL', 4.34514237924788), ('PLAIT', 4.343506968076864)]
+
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 2.5284 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 2.5283789723547887, 'expected_info_gain': 4.350891981432824}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PINTA with entropy: 4.1620
+Bot chose: ACTIN with entropy: 3.7962
+Top ten guesses: [('PINTA', 4.1619781796795525), ('NITTA', 4.026986833359286), ('FITNA', 3.9500637564362093), ('PITTA', 3.9500637564362084), ('ANTIC', 3.8731406795131327), ('NINTA', 3.8402655651949265), ('ACTIN', 3.796217602590056), ('ATTIC', 3.719294525666979), ('MITTA', 3.6864194113487727), ('AUNTY', 3.613337314045307)]
+
+Guess: 𝘼𝘾𝙏𝙄𝙉, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7004397181410917, 'expected_info_gain': 3.796217602590056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ANATA with entropy: 1.0000
+Bot chose: AUNTY with entropy: 1.0000
+Top ten guesses: [('ANATA', 1.0), ('AUNTY', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 2.528 bits, Posterior Entropy: 4.700, 
+Guess: 𝘼𝘾𝙏𝙄𝙉, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 4.700, Expected Info Gain: 3.796 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙐𝙉𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: EntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙉𝙏𝙔 ___
+
+
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ALANT with entropy: 4.5717
+Bot chose: GLOAT with entropy: 4.3509
+Top ten guesses: [('ALANT', 4.571651115072408), ('NOTAL', 4.482910809959065), ('NITAL', 4.453027539393744), ('PLOAT', 4.438089442709223), ('POTAI', 4.406341279042276), ('COATI', 4.376431008152728), ('AHINT', 4.363842577270509), ('GLOAT', 4.350891981432824), ('ONTAL', 4.34514237924788), ('PLAIT', 4.343506968076864)]
+
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 2.5284 bits
+Posterior entropy: 4.700439718141092
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 4.700439718141092, 'actual_info_gain': 2.5283789723547887, 'expected_info_gain': 4.350891981432824}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: PINTA with entropy: 4.1620
+Bot chose: ACTIN with entropy: 3.7962
+Top ten guesses: [('PINTA', 4.1619781796795525), ('NITTA', 4.026986833359286), ('FITNA', 3.9500637564362093), ('PITTA', 3.9500637564362084), ('ANTIC', 3.8731406795131327), ('NINTA', 3.8402655651949265), ('ACTIN', 3.796217602590056), ('ATTIC', 3.719294525666979), ('MITTA', 3.6864194113487727), ('AUNTY', 3.613337314045307)]
+
+Guess: 𝘼𝘾𝙏𝙄𝙉, Feedback: 🟩⬜🟨⬜🟨
+Actual Info Gain: 3.7004 bits
+Posterior entropy: 1.0
+entropy_info: {'prior_entropy': 4.700439718141092, 'posterior_entropy': 1.0, 'actual_info_gain': 3.7004397181410917, 'expected_info_gain': 3.796217602590056}
+----------
+
+The bot is making a guess...
+Initial guess by the bot: ANATA with entropy: 1.0000
+Bot chose: AUNTY with entropy: 1.0000
+Top ten guesses: [('ANATA', 1.0), ('AUNTY', 1.0)]
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙂𝙇𝙊𝘼𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 7.229, Expected Info Gain: 4.351 bits, Actual Info Gain: 2.528 bits, Posterior Entropy: 4.700, 
+Guess: 𝘼𝘾𝙏𝙄𝙉, Feedback: 🟩⬜🟨⬜🟨, Prior Entropy: 4.700, Expected Info Gain: 3.796 bits, Actual Info Gain: 3.700 bits, Posterior Entropy: 1.000, 
+Guess: 𝘼𝙐𝙉𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: FastEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙉𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+Updating candidate pool: Adding 100 common words...
+Evaluating 249 potential guesses from 150 remaining candidates...
+Top 5 guesses: [('POINT', '4.636'), ('ALANT', '4.572'), ('NOTAL', '4.483'), ('NITAL', '4.453'), ('PLOAT', '4.438')]
+Top entropy choice: 𝙋𝙊𝙄𝙉𝙏 with entropy: 4.6359
+Ended up choosing COMMON word: 𝙋𝙊𝙄𝙉𝙏 with entropy: 4.6359
+
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 4.6439 bits
+Posterior entropy: 2.584962500721156
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 2.584962500721156, 'actual_info_gain': 4.643856189774724, 'expected_info_gain': 4.6359448940842904}
+----------
+The bot is making a guess...
+Evaluating 6 potential guesses from 6 remaining candidates...
+Top 5 guesses: [('ANATA', '2.252'), ('ATMAN', '2.252'), ('AUNTY', '2.252'), ('JUNTA', '2.252'), ('UNTAG', '2.252')]
+Top entropy choice: 𝘼𝙉𝘼𝙏𝘼 with entropy: 2.2516
+Ended up choosing COMMON word: 𝘼𝙐𝙉𝙏𝙔 with entropy: 2.2516
+You won! Amount of guesses: 3
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙋𝙊𝙄𝙉𝙏, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 7.229, Expected Info Gain: 4.636 bits, Actual Info Gain: 4.644 bits, Posterior Entropy: 2.585, 
+Guess: 𝘼𝙐𝙉𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: CachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝘼𝙐𝙉𝙏𝙔 ___
+
+Loading letter frequencies...
+Loaded letter frequency cache with 26 letters
+The bot is making a guess...
+First Starting word: TARES (Best starting word for catching common words)
+
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜
+Actual Info Gain: 6.6298 bits
+Posterior entropy: 7.22881869049588
+entropy_info: {'prior_entropy': 13.858660984722777, 'posterior_entropy': 7.22881869049588, 'actual_info_gain': 6.629842294226896, 'expected_info_gain': 6.15937645579268}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ABAFT', 'ABAHT', 'ABBOT', 'ABOUT', 'ACTIN', 'ACTON', 'ADAPT', 'ADBOT', 'ADMIT', 'ADOPT', 'ADULT', 'ADYTA', 'AFOOT', 'AGATY', 'AGITA', 'AGUTI', 'AHINT', 'AIGHT', 'AITCH', 'AKITA', 'ALANT', 'ALATA', 'ALLOT', 'ALOFT', 'ALTHO', 'AMAUT', 'AMBIT', 'AMITY', 'AMOWT', 'ANATA', 'ANNAT', 'ANTIC', 'APTLY', 'ATAXY', 'ATIGI', 'ATILT', 'ATIMY', 'ATMAN', 'ATOLL', 'ATOMY', 'ATONY', 'ATOPY', 'ATTAP', 'ATTIC', 'AUCHT', 'AUDIT', 'AUGHT', 'AUNTY', 'AVANT', 'AWAIT', 'AWATO', 'AYONT', 'AZOTH', 'BILAT', 'BIOTA', 'BLATT', 'BLOAT', 'BOATY', 'BOWAT', 'CHAAT', 'CHAFT', 'CHANT', 'CHAPT', 'CHOTA', 'CITAL', 'CLAPT', 'CLAUT', 'COACT', 'COAPT', 'COATI', 'COTAN', 'COTTA', 'COUTA', 'DIACT', 'DICTA', 'DIOTA', 'DITAL', 'DOTAL', 'DUCAT', 'FICTA', 'FITNA', 'FLOAT', 'FLOTA', 'FOUAT', 'GHAUT', 'GIANT', 'GLATT', 'GLOAT', 'GOAFT', 'GOATY', 'GOTTA', 'GUTTA', 'HIANT', 'HUTIA', 'ICTAL', 'IDANT', 'IDDAT', 'INAPT', 'IZZAT', 'JUNTA', 'KIAAT', 'KITAB', 'KOFTA', 'KUTAI', 'LITAI', 'LOATH', 'LOTAH', 'LOTTA', 'LOVAT', 'LYTTA', 'MITTA', 'MOTZA', 'MUTHA', 'NGATI', 'NINTA', 'NITAL', 'NITTA', 'NOTAL', 'NOTAM', 'OCTAD', 'OCTAL', 'OCTAN', 'ONTAL', 'OTAKU', 'OUTTA', 'PHOTA', 'PHWAT', 'PINTA', 'PITTA', 'PLAIT', 'PLANT', 'PLATT', 'PLATY', 'PLOAT', 'POTAI', 'PUTZA', 'PUZTA', 'QUANT', 'QUOTA', 'UNAPT', 'UNHAT', 'UNTAG', 'UNTAX', 'UPTAK', 'VITAL', 'VITTA', 'VIVAT', 'VOLTA', 'WHATA', 'WITAN']
+150 candidate words remaining.
+Top 10 guesses: [('LIANA', '4.828'), ('ALOIN', '4.728'), ('COALA', '4.702'), ('NITTO', '4.661'), ('PLOIT', '4.652'), ('POINT', '4.636'), ('COLIN', '4.634'), ('CLINT', '4.625'), ('PITOT', '4.606'), ('NICOL', '4.578')]
+Top entropy choice: 𝙇𝙄𝘼𝙉𝘼 with entropy: 4.8283
+Guess count low, choosing the word with highest entropy: 𝙇𝙄𝘼𝙉𝘼 with entropy: 4.8283
+
+Guess: 𝙇𝙄𝘼𝙉𝘼, Feedback: ⬜⬜🟨🟨⬜
+Actual Info Gain: 4.2288 bits
+Posterior entropy: 3.0
+entropy_info: {'prior_entropy': 7.22881869049588, 'posterior_entropy': 3.0, 'actual_info_gain': 4.22881869049588, 'expected_info_gain': 4.8283043129740655}
+----------
+The bot is making a guess...
+THe possible candidates are: ['ACTON', 'AUNTY', 'COTAN', 'NOTAM', 'OCTAN', 'UNHAT', 'UNTAG', 'UNTAX']
+8 candidate words remaining.
+Top 10 guesses: [('HOGAN', '3.000'), ('OGHAM', '3.000'), ('ACHOO', '2.750'), ('ACTON', '2.750'), ('ACTOR', '2.750'), ('ACTUS', '2.750'), ('BOGAN', '2.750'), ('CAGOT', '2.750'), ('CHIAO', '2.750'), ('COHAB', '2.750')]
+Top entropy choice: 𝙃𝙊𝙂𝘼𝙉 with entropy: 3.0000
+Using common exploratory word: 𝙃𝙊𝙂𝘼𝙉 with entropy: 3.0000
+
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜⬜⬜🟨🟨
+Actual Info Gain: 3.0000 bits
+Posterior entropy: 0.0
+entropy_info: {'prior_entropy': 3.0, 'posterior_entropy': 0.0, 'actual_info_gain': 3.0, 'expected_info_gain': 4.8283043129740655}
+----------
+The bot is making a guess...
+THe possible candidates are: ['AUNTY']
+1 candidate words remaining.
+Top 10 guesses: [('AUNTY', '0.000')]
+Top entropy choice: 𝘼𝙐𝙉𝙏𝙔 with entropy: 0.0000
+Few candidates left, going through them all to pick a common word...
+Using common word: 𝘼𝙐𝙉𝙏𝙔 with entropy: 0.0000
+You won! Amount of guesses: 4
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: 🟨🟨⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 6.630 bits, Posterior Entropy: 7.229, 
+Guess: 𝙇𝙄𝘼𝙉𝘼, Feedback: ⬜⬜🟨🟨⬜, Prior Entropy: 7.229, Expected Info Gain: 4.828 bits, Actual Info Gain: 4.229 bits, Posterior Entropy: 3.000, 
+Guess: 𝙃𝙊𝙂𝘼𝙉, Feedback: ⬜⬜⬜🟨🟨, Prior Entropy: 3.000, Expected Info Gain: 4.828 bits, Actual Info Gain: 3.000 bits, Posterior Entropy: 0.000, 
+Guess: 𝘼𝙐𝙉𝙏𝙔, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+Testing bot class: NonGreedyCachedEntropyWordleBot complete.
+
+----------------------------------------------------------------------------------------------------

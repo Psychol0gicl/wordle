@@ -1,0 +1,60 @@
+
+----------------------------------------------------------------------------------------------------
+Testing bot: WordleBot
+___ Testing word: 𝙊𝙊𝙈𝙋𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝘽𝙊𝘿𝙂𝙔, Feedback: ⬜🟩⬜⬜⬜
+Guess: 𝙊𝙊𝙈𝙋𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: EntropyWordleBot
+___ Testing word: 𝙊𝙊𝙈𝙋𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝙊𝙊𝙈𝙋𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: FastEntropyWordleBot
+___ Testing word: 𝙊𝙊𝙈𝙋𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝙊𝙊𝙈𝙋𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: CachedEntropyWordleBot
+___ Testing word: 𝙊𝙊𝙈𝙋𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝙂𝙊𝙊𝘿𝙔, Feedback: ⬜🟩🟨⬜⬜, Prior Entropy: 6.555, Expected Info Gain: 4.093 bits, Actual Info Gain: 4.233 bits, Posterior Entropy: 2.322, 
+Guess: 𝙊𝙊𝙈𝙋𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
+
+----------------------------------------------------------------------------------------------------
+Testing bot: NonGreedyCachedEntropyWordleBot
+___ Testing word: 𝙊𝙊𝙈𝙋𝙃 ___
+
+===================================
+History:
+Guess: 𝙏𝘼𝙍𝙀𝙎, Feedback: ⬜⬜⬜⬜⬜, Prior Entropy: 13.859, Expected Info Gain: 6.159 bits, Actual Info Gain: 3.861 bits, Posterior Entropy: 9.997, 
+Guess: 𝘾𝙊𝙇𝙄𝙉, Feedback: ⬜🟩⬜⬜⬜, Prior Entropy: 9.997, Expected Info Gain: 5.938 bits, Actual Info Gain: 3.443 bits, Posterior Entropy: 6.555, 
+Guess: 𝘽𝙐𝙈𝙋𝙔, Feedback: ⬜⬜🟩🟩⬜, Prior Entropy: 6.555, Expected Info Gain: 5.938 bits, Actual Info Gain: 6.555 bits, Posterior Entropy: 0.000, 
+Guess: 𝙊𝙊𝙈𝙋𝙃, Feedback: 🟩🟩🟩🟩🟩
+===================================
